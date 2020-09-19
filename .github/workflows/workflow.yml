@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  schedule:
+    - cron:  '0 5 * * *' # Runs at 05:00 UTC every day
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run shell script
+      run: |
+        chmod +x curl_script.sh
+        ./curl_script
+
+    - name: Commit and Push files
+      run: |
+        git config --local core.ignorecase true
+        git config --local user.name "GitHub Action"
+        git config --local user.email "github-action@users.noreply.github.com"
+        git add .
+        echo `git commit -am "Update lists"`
+        git push
