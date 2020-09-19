@@ -16,7 +16,7 @@ jobs:
     - name: Run shell script
       run: |
         chmod +x curl_script.sh
-        ./curl_script
+        ./curl_script.sh
 
     - name: Commit and Push files
       run: |
