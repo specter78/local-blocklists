@@ -1,8 +1,8 @@
-! Checksum: qe9q15mv/ndm5LHmwZN1yg
+! Checksum: jGAiDHIEOgN/kp9gHreUwQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.35
-! TimeUpdated: 2020-09-18T14:30:13+03:00
+! Version: 2.0.15.36
+! TimeUpdated: 2020-09-19T19:30:11+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2128,6 +2128,8 @@ independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.c
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+||b.bdstatic.com/searchbox/icms/searchbox/img^
+baidu.com##.navs-bottom-bar[style="margin-top: 10px; height: 0px;"]
 m.techfocus.cz##.foot.scrolled
 m.baidu.com##.c-touchable-feedback[rl-node][rl-highlight-self][style^="padding-bottom:"]:not([data-module]) > a[href^="https://m.baidu.com/from"][target="_self"][data-log]
 amp.strana.ua##amp-iframe[src^="https://mg.lentainform.com/"]
