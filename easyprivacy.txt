@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202009200427
+! Version: 202009210440
 ! Title: EasyPrivacy
-! Last modified: 20 Sep 2020 04:27 UTC
+! Last modified: 21 Sep 2020 04:40 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6501,6 +6501,7 @@ _mongo_stats/
 ||g3367433695.co^$third-party
 ||g3565518030.co^$third-party
 ||g3763602365.co^$third-party
+||g3961686700.co^$third-party
 ||gaconnector.com^$third-party
 ||gameanalytics.com^$third-party
 ||gammachug.com^$third-party
@@ -11453,6 +11454,7 @@ _mongo_stats/
 ||sli-spark.com/b.png$third-party
 ||slidedeck.com^$image,third-party
 ||smartertravel.com/ext/pixel/
+||smetrics.centurylink.com^
 ||smg.com/Etrack/
 ||smrt.as^
 ||snapkit.com/v1/sdk/metrics/
@@ -12528,7 +12530,6 @@ _mongo_stats/
 ||plug.it^*/tracking_
 ||quinet.it/counter/
 ||rcsmetrics.it^
-||rcsobjects.it/rcs_tracking-
 ||rd.alice.it^
 ||sem.triboomedia.it^
 ||sembox.it/js/sembox-tracking.js
@@ -13350,6 +13351,7 @@ _mongo_stats/
 ||db.com^*/stats.js?
 ||dc.banggood.com^
 ||dccss.banggood.com^
+||dd.nytimes.com^
 ||dealnews.com/lw/ul.php?
 ||debtconsolidationcare.com/affiliate/tracker/
 ||debug-vp.webmd.com^
@@ -14405,6 +14407,7 @@ _mongo_stats/
 ||pulsar.ebay.$ping,script
 ||purevpn.com/api/setCookies
 ||puritan.com/images/pixels/
+||purr.nytimes.com^
 ||pushsquare.com/blank.gif
 ||pvstat.china.cn^
 ||pw.org/sites/all/*/ga.js
@@ -14515,7 +14518,6 @@ _mongo_stats/
 ||s-msn.com/primedns.gif?$domain=msn.com
 ||s-msn.com/s/js/loader/activity/trackloader.min.js
 ||s.infogram.com^
-||s.youtube.com^
 ||s3.amazonaws.com^$script,domain=decider.com|nypost.com|pagesix.com
 ||sa.bbc.co.uk^
 ||sa.squareup.com^
@@ -15365,21 +15367,16 @@ _mongo_stats/
 ||youronlinechoices.com/activity/
 ||yourtv.com.au/share/com/js/fb_google_intercept.js
 ||youtube-nocookie.com/api/stats/atr
-||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/playback?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
 ||youtube-nocookie.com/robots.txt?
 ||youtube.com/api/stats/ads?
 ||youtube.com/api/stats/atr
-||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/qoe?
 ||youtube.com/get_video?
-||youtube.com/mac_204?
 ||youtube.com/ptracking?
-||youtube.com/s?
 ||youtube.com/set_awesome?
-||youtube.com^*/heartbeat?
 ||ypcdn.com/webyp/javascripts/client_side_analytics_
 ||yuku.com/stats?
 ||yupptv.com/yupptvreports/stats.php^
@@ -17297,7 +17294,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|playphrase.me|ryanair.com
 @@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
-@@||gstatic.com^*/firebase-analytics.js$script,domain=audiomack.com|games.com
+@@||gstatic.com^*/firebase-analytics.js$script,domain=999.md|audiomack.com|games.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party

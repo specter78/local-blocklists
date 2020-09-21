@@ -1,8 +1,8 @@
-! Checksum: /gpZ4DaHsFp2DWTIL/I2KQ
+! Checksum: DxkjIuGVP0lFKLy90WCtSw
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.41.44
-! TimeUpdated: 2020-09-18T22:30:43+03:00
+! Version: 2.0.41.48
+! TimeUpdated: 2020-09-20T20:02:44+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -120,6 +120,7 @@
 ||mtvekq.com^$third-party
 ||qcroag.com^$third-party
 ||takidd.site^$third-party
+||oownik.com^$third-party
 ||damskiy.xyz^$third-party
 ||trailerfilma.online^$third-party
 ||rekagrorb.bid^$third-party
@@ -10465,7 +10466,7 @@ portal.lviv.ua,konkurent.ua,mojaakcija.com.ua,cq.ru,dengi.ua,prokazan.ru,it-worl
 ! another new 03.06.2020
 /^http(s?):\/\/[a-z]{6}\..*\/[a-z0-9]{3,30}\/[a-z0-9]{5,}\.php$/$script,third-party,domain=allkey.org|beejournal.ru|coronavirus-control.ru|fatelines.net|film.lafa.site|ovgorskiy.ru|fixmaster74.ru|winnote.ru|sundaria.su|amperof.ru|aleks-beauty.ru|220.guru|vph-holod.ru|severpost.ru|mnogotolka.ru|siniy-ekran.ru|ua.news|kslift.ru|politnavigator.net|tarifec.com
 ! https://qlnomb.com/rncl17921ivl0mp03y8qh768uqv768kpy8hlb.php
-/^http(s?):\/\/[A-Za-z0-9]{6}\.[A-Za-z0-9]{3}\/[A-Za-z0-9]{30,}\.php$/$script,third-party,domain=advicesos.com|rsute.ru|afn.by
+/^http(s?):\/\/[A-Za-z0-9]{6}\.[A-Za-z0-9]{3}\/[A-Za-z0-9]{30,}\.php$/$script,third-party,domain=advicesos.com|rsute.ru|afn.by|hdvideobox.ru
 ! new (01.06.2020)
 /^http(s?):\/\/[A-Za-z0-9]{6}\.[A-Za-z0-9]{3}\/[A-Za-z0-9-.]{6}\/[A-Za-z0-9-.\/]{25,}\.php$/$script,third-party,domain=crashplane.ru|ymkababy.ru|newsland.com|prozoro.net.ua|alau.kz|brjunetka.ru|tarifec.com|u-news.com.ua|zoobusiness.kiev.ua|hd.lafa.site|b-online.ru|porosenka.net|dachnyuchastok.ru|gubka-bob.ru|film.ru|pg11.ru|pg12.ru|pg13.ru|pg21.ru|prochepetsk.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod59.ru|progorod62.ru|progorod76.ru|progorodnn.ru|progorodnsk.ru|progorodsamara.ru|progoroduhta.ru|samokat-dostavka.ru|lifedon.com.ua|molitvy.online|z-torrents.ru|clubhunters.ru|advicesos.com
 ! old
@@ -10549,6 +10550,7 @@ vse.rv.ua##.billboard-side__item
 kh-news.net##p > a[target="_blank"] > img
 slovoidilo.ua##.branding-main
 analpornohd.com##.full-bns-block
+a.russkoe.love##.video-subtitle > div[style^="margin-bottom: 8px;"] > span
 tehnopolis.com.ua##img[style="float:none;padding:0;border:0px solid green"]
 rio-berdychiv.info##.custom > p img
 rio-berdychiv.info###sp-component-wrapper + section#sp--wrapper img
@@ -11406,6 +11408,7 @@ mathprofi.ru##table[width][align="center"] > tbody > tr > td[valign="top"] > p[a
 kulturologia.ru##.post > div.content > p + center
 customgames.ru##.p-body-content > div.p-body-pageContent + center
 avtozam.com##.adhelper_inview
+hdvideobox.ru##img[width="240"][height="300"]
 golos.ua##.linkator
 golos.ua##article > div.no-padding > div[id^="share-page-"] + div[class] > div.clear + div[class^="col-xs-"][style]
 golos.ua##article > div.no-padding > div[id^="share-page-"] + div[class] > nofollow[class]
@@ -13549,7 +13552,6 @@ nur.kz##.catalog__item
 easypay.ua##.category-banner
 uip.me##.cb-sticky-sidebar > .cb-sidebar
 rabota66.ru##.cc-top-banner
-.censor.net/js/
 kinospy.net##.center > a > img
 footballreview.ru,kn.ngs.ru##.center-adv
 feo.ua,kafa-info.com.ua##.center-banners
@@ -14335,7 +14337,7 @@ zaxid.net##.partner-wrap-block
 i.ua##.partner_links
 nevnov.ru##.partner_new
 riafan.ru##.partner_news
-censor.net.ua##.partner_novostimira
+penzainform.ru##div[style^="width: 320px; height: 50px;"]
 ubr.ua##.partnernew-quarter
 tglink.ru,cyber.sport.ua,mos.news,nvdaily.ru,objectiv.tv,warnet.ws##.partners
 rubaltic.ru##.partners-banner
@@ -15003,7 +15005,6 @@ galka.if.ua##.widget-6
 guardinfo.online##.widget-area > .widget_custom_html
 narodna-pravda.ua##.widget-area > aside.widget_custom_html
 lemonade.style##.widget-banner
-censor.net.ua##.widget.partners
 lifehacker.ru##.widget__advert-banner
 citycredits.ru##.widget_banner
 anvidelabs.org##.widget_banners
@@ -16501,10 +16502,7 @@ donday-novocherkassk.ru,donday-shakhty.ru,donday-taganrog.ru,donday.ru##div[styl
 f-picture.net,radical-foto.ru,radikal.cc,radikal.ru##div[style^="width: 300px; height: 160px;"]
 realty.dmir.ru##div[style^="width: 300px; height: 250px;"]
 f-picture.net,radical-foto.ru,radikal.cc,radikal.ru##div[style^="width: 300px; height: 260px;"]
-censor.net.ua##div[style^="width: 300px; height: 600px;"]
-penzainform.ru##div[style^="width: 320px; height: 50px;"]
 penzainform.ru##div[style^="width: 460px; height: 43px;"]
-censor.net.ua##div[style^="width: 690px; height: 300px;"]
 profinance.ru##div[style^="width: 728px; height: 90px; overflow: hidden;"]
 maxi-karta.ru,maxikarta.ru,mxkr.ru##div[style^="width: 728px; height: 90px;"]
 playground.ru##div[style^="width: 980px;"] > a[href*="playground.ru/redirect/"]
@@ -16541,7 +16539,6 @@ www.ukr.net##header.d-clear.header + div[class] > div[class] ~ div:not([id])
 popmech.ru##header.header > div.feature
 goha.ru##header.header[style="height: 245px; width: 0px;"]:empty
 novgorod.ru##header.root > a.bigb
-censor.net.ua##header.widget_header > aside[class]
 http://$third-party,domain=svetmonet.ru
 http://220forum.ru/askue_forum_500x100.html
 http://playvideolink.com/video*[*k].mp4
@@ -18829,7 +18826,6 @@ www.ex.ua/*/index.css
 ||stopgame.ru/bans/
 ||storage.gorod55.ru/promo/
 ||storage2.goodgame.ru/comm/
-||storage3.censor.net.ua/
 ||stormo.tv/player/loader.png
 ||strana.ua/core/exec/adblock*/index.php
 ||strichka.com^$domain=khersonline.net
@@ -19250,6 +19246,12 @@ www.ex.ua/*/index.css
 ||ру-порно.com/teasernet/
 ||скачатьофис.рф/*.php?q=$script
 ||форум-мебельщиков.рф/banner/
+!
+.censor.net/js/
+||storage3.censor.net.ua/
+censor.net##.widget_header > aside
+censor.net##div[style^="width: 300px; height: 600px;"]
+censor.net##.partners
 !
 /?*=$third-party,domain=24video.net|24video.vip|24video.site|24video.adult|24video.in
 24video.net,24video.vip,24video.site,24video.adult,24video.in##.xb-wrapper
@@ -19750,6 +19752,7 @@ auto.mail.ru##.trg-b-banner-block
 ||r.mradx.net/img/CE/0A0EDE.mp4
 ||r.mradx.net/img/DC/B4910A.ogg
 !
+cloud.mail.ru##.trg-b-banner-block
 cloud.mail.ru##.content__left > style + div[id]:empty
 cloud.mail.ru##.public_folder > div.w-public__content + div[style] > a[target="_blank"] + iframe[class][src]
 !
