@@ -1,8 +1,8 @@
-! Checksum: 2LgumRY0jPLsmJo29VSFgA
+! Checksum: tztusy9HJu6+Ot5leLDomg
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.42
-! TimeUpdated: 2020-09-21T18:30:14+03:00
+! Version: 2.0.15.45
+! TimeUpdated: 2020-09-23T23:30:10+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -196,6 +196,11 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||adzfun.info^$third-party
+||adzfun.me^$third-party
+||painsko.com^$third-party
+||ad.jetx.info^$third-party
+||ad.snappea.com^
 ||adtimaserver.vn^
 ||api.mediation.amberweather.com^
 ||aqi.wd.amberweather.com^
@@ -1807,6 +1812,7 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62819
 milesplit.com#@#.sticky-ad
+! https://github.com/AdguardTeam/AdguardFilters/issues/64329
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61298
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60438
 @@||cdn.ampproject.org/v0.js$domain=112.ua
@@ -2135,6 +2141,7 @@ independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.c
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+||funnyfoto.xyz/submit.php$third-party
 fakt.pl##article div[style="margin:auto;width:300px;"] > p[style^="font-size:9px;color:#696969;"]
 charivari.de##span[style="font-size:10px;color:grey;text-align:right;"]
 charivari.de##span[style="font-size: 12px; color: grey;"]
@@ -3818,6 +3825,7 @@ livejournal.com##.mdspost-aside__item--banner
 ! Blocking Facebook mobile ads
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/64394
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62310
 !
 !
