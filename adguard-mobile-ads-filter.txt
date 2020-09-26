@@ -1,8 +1,8 @@
-! Checksum: O2NQKtM9QwEJZ7FamlcGgg
+! Checksum: HBsBlJdApq4jA3U6NrZDlg
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.50
-! TimeUpdated: 2020-09-24T18:32:31+03:00
+! Version: 2.0.15.53
+! TimeUpdated: 2020-09-25T18:30:14+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1812,6 +1812,10 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 ! ##### TEMPORARY END #####
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/64416
+! It's caused by RU AdList
+drive2.com,drive2.ru#@#div[itemtype^="http://schema.org/"] ~ div[data-role][data-target] ~ div:not(:last-child)
+drive2.com,drive2.ru#@#div[itemtype="http://schema.org/BlogPosting"] ~ div:not(:last-child)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64328
 itest.5ch.net#@#.js-cardview_ad-320x180
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62819
@@ -2145,6 +2149,8 @@ independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.c
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+nudeteenwhore.com##.mobile-block
+pornodiamant.com##.sticky-banner
 nau.ch##nau-advertisement-lazy
 setn.com###floatIconAD
 ||sspstatic.1905.com/static/selling.js
