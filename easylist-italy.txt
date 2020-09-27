@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Ck7J+5hds9ppbiMHth3u5Q
-! Version: 202009260511
+! Checksum: DiJ+JHm0iPi5Z7ZjAnMBpA
+! Version: 202009270511
 ! Title: EasyList Italy
-! Last modified: 26 Sep 2020 05:11 UTC
+! Last modified: 27 Sep 2020 05:11 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -829,6 +829,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||gnoccatravels.com/files/pbblct
 ||goblins.net^*/banner/
 ||gocity.it/library/banner/
+||gommadiretto.it/simg/schaufenster_rechts/
 ||gommeblog.it^*/Gommadiretto-
 ||gommeblog.it^*/Gommadiretto.
 ||gonews.it^*_Banner-
@@ -1058,6 +1059,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||piratestreaming.eu/vip/img/tad
 ||pisachannel.tv^*/Toscana-Aeroporti-
 ||poliziamunicipale.it/script/getbnr.aspx?
+||prealpina.it/js/manzoni_interna.js
 ||primapaginamolise.it/banner/
 ||professionemotori.it/wp-content/uploads/williamHillbox.png
 ||pyrosonline.it/site/public/image/20200131153026.jpg
@@ -1512,7 +1514,7 @@ iovivoaroma.org###skin_link_sx
 cronacheancona.it,cronachemaceratesi.it###skinabove
 emiliagol.it###skinclick
 buongiornoalghero.it,freeonline.org,lospiffero.com,salernonotizie.it###skinlink
-bisceglielive.it,eurogamer.it###skyscraper
+bisceglielive.it,eurogamer.it,gommadiretto.it###skyscraper
 3bmeteo.com###sole24_banner
 casateonline.it,merateonline.it###sottotestata
 lnd.it###sp-sponsor
@@ -1804,6 +1806,8 @@ empolifc.com##.o-section--promo
 techzilla.it##.offerta-img-box
 casaeclima.com##.page-wrapper
 puntocellulare.it##.panel-offers
+nostrofiglio.it##.par-listing-collab
+pianetamamma.it##.par-sponsorby-logo
 ragusanews.com##.partner
 bolognafc.it##.partner-footer
 100ideeperristrutturare.it,casa-naturale.com,quattrozampe.online,villeecasali.com##.partner-item-wrapper
@@ -1931,6 +1935,7 @@ hwupgrade.it##.wrapper-xyz
 rivistanatura.com##.zcx
 rivistanatura.com##.zcx-img
 eurosat-online.it##.zedo
+zingarate.com##.zg-malta
 nursetimes.org##AMP-IMG[width="320"][height="50"]
 djmagitalia.com##[href^="http://www.djpoint.net/"]
 blog.libero.it##a[href*=".clickbank.net/"]
@@ -1944,6 +1949,7 @@ altadefinizione01.green##a[href*="/UHD/"]
 ilquotidianodellazio.it,romait.it##a[href*="/ad/click/"]
 diventaretrader.com##a[href*="/banner/redirect/"]
 everyeye.it##a[href*="/click.asp?"]
+focus.it##a[href*="/codice-sconto/"]
 gazzetta.it##a[href*="/codici-sconto/"]
 eurostreaming.fyi##a[href*="/eurostreaming-hd.php"]
 eurostreaming.fyi##a[href*="/eurostreaming-scarica.php"]
