@@ -1,8 +1,8 @@
-! Checksum: HBsBlJdApq4jA3U6NrZDlg
+! Checksum: eNdGyGUKfoxn9itbZsnlPQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.53
-! TimeUpdated: 2020-09-25T18:30:14+03:00
+! Version: 2.0.15.59
+! TimeUpdated: 2020-09-28T21:30:12+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -196,6 +196,7 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||ad.wynk.in^
 ||adzfun.info^$third-party
 ||adzfun.me^$third-party
 ||painsko.com^$third-party
@@ -1562,6 +1563,8 @@ yandex.ru#?#body[class*="news_phone"] div.news-container > span > div > div.unit
 pornhub.com,pornhubthbh7ap3u.onion#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
 !#################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/64521
+supleks.jp#%#//scriptlet('abort-current-inline-script', 'document.getElementsByClassName', 'adBlocked')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63495
 moneycontrol.com#%#//scriptlet("set-constant", "initializeInterstitial", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60188
@@ -2149,6 +2152,9 @@ independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.c
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+supleks.jp##div[class*="_"][data-height]
+supleks.jp###shop-body > #btn-post + div[style]
+glavcom.ua##amp-iframe[src^="https://go.rcvlink.com/"]
 nudeteenwhore.com##.mobile-block
 pornodiamant.com##.sticky-banner
 nau.ch##nau-advertisement-lazy
@@ -2173,7 +2179,7 @@ odnaminyta.com##amp-iframe[src^="https://html.redtram.com/"]
 depor.com##.ad-amp-movil
 finance.rambler.ru##.read-also__lentainform
 gazetadopovo.com.br##.ads-mobile
-hdfilmcehennemi.io###footer-fixed-mobil
+hdfilmcehennemi.net###footer-fixed-mobil
 m.zzzfun.com##ins[status] > div[id^="show-"] > a[target="_blank"] > img
 m.timesofindia.com##.adspacing
 m.timesofindia.com##.aroundthewebspacing
@@ -2792,7 +2798,6 @@ uludagsozluk.com##.parallaxYapiskanBanner
 uludagsozluk.com##a[href^="http://bit.ly/"][target="_blank"] > img
 m.mylust.com###main_video_fluid_html_on_pause
 ||m.mylust.com/js/mobile_scripts.js
-manamoa.net,manamoa50.net##.at-container > div.at-content > p > a[rel="nofollow noreferrer noopener"]
 newgrodno.by##.main-nav-below > nav#top-nav > div.container > div.topbar-wrapper
 mobil.konhaber.com##div.jqm-fullwidth[role="main"] > .listele > li[style="height: 37px;"]
 m.tvtoday.de##.tv-program > .component > ul > li.js-table-row:not(.time-listing):not([data-start-time])
