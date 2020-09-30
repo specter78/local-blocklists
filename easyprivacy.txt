@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202009290405
+! Version: 202009300351
 ! Title: EasyPrivacy
-! Last modified: 29 Sep 2020 04:05 UTC
+! Last modified: 30 Sep 2020 03:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -957,6 +957,7 @@
 /b/ss/*?pagename=
 /b/ss/ueglobaldev/*
 /b/ss/wdgdolad,
+/b/ss?AQB=
 /b/stats?
 /b2bsdc.js
 /b_track_2.
@@ -2362,6 +2363,7 @@
 /impression.php?
 /impression.pl?
 /impression.track?
+/impression/*&ClickID=
 /impression/stream/*
 /impression/widget?
 /impression?*.loadAds&
@@ -2480,7 +2482,6 @@
 /JqueryEtracker.
 /js-tag-manager/*
 /js/_analytics/*
-/js/admiral-
 /js/analitics.
 /js/analitycs_
 /js/analytics.
@@ -5364,6 +5365,8 @@ cgi-bin/counter
 ! Cloudflare fingerprinting
 /cgi-bin/bm/cv/*$script
 ! Admiral
+/admiral.js
+/js/admiral-
 _admiral.
 ! eventbrite tracking
 /search/log_requests/*
@@ -6203,6 +6206,7 @@ _mongo_stats/
 ||datacoral.io^$third-party
 ||datacygnal.io^$third-party
 ||datadoghq-browser-agent.com^$third-party
+||datadsk.com^$third-party
 ||datafeedfile.com^$third-party
 ||datafront.co^$third-party
 ||datam.com^$third-party
@@ -8194,6 +8198,7 @@ _mongo_stats/
 ||wzrk.co^$third-party
 ||wzrkt.com^$third-party
 ||x-stat.de^$third-party
+||xdisctracking.pw^$third-party
 ||xg4ken.com^$third-party
 ||xiti.com^$third-party
 ||xlisting.jp^$third-party
@@ -8222,7 +8227,6 @@ _mongo_stats/
 ||your-counter.be^$third-party
 ||youramigo.com^$third-party
 ||yu987.com^$third-party
-||yyjvimo.com^$third-party
 ||z444o.com^$third-party
 ||zanox-affiliate.de^$third-party
 ||zanox.com^$third-party
@@ -9551,7 +9555,6 @@ _mongo_stats/
 ||pagoda56.com^$third-party
 ||pdmp.jp^$third-party
 ||polymorphicads.jp^$third-party
-||popin.cc^$third-party
 ||quant.jp^$third-party
 ||r-ad.ne.jp^$script,third-party
 ||rays-counter.com^$third-party
