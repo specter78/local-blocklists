@@ -1,8 +1,8 @@
-! Checksum: bGmfX+nQPwPxzz4pvu5IUA
+! Checksum: esYCGeoqwiDjVDmT7F0Dmw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.64
-! TimeUpdated: 2020-10-01T15:30:12+03:00
+! Version: 2.0.15.67
+! TimeUpdated: 2020-10-03T01:43:21+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1639,6 +1639,9 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! xhamster.com popup ads
+xhamster.com#$#.video-view-ads { display: none!important; }
+xhamster.com#$#body { overflow: visible!important; position: relative!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61897
 cnews.ru#$#.mobile-banner { display: none !important; }
 cnews.ru#$#.modal-backdrop { display: none !important; }
@@ -1731,11 +1734,16 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 !-------------------
 !
 ! AMP ads in ShadowRoot
+24tv.ua##div[class="within-ads"]
 ! 4pda.ru - main page
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61958
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28322
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17500
-! Yandex search
+! Yandex.Search
+! Yandex.Weather
+yandex.ru#$#div[class*="_with-url-actualizer_yes"] > div.adv_type_top { display: none !important; }
+yandex.ru#$#div[class*="_with-url-actualizer_yes"] > div.adv_type_top ~ div[class$="__map_compressed"] { top: 0 !important; }
+!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/7438
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4285
 ! WebSocket ads
@@ -2153,6 +2161,7 @@ independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.c
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
 m.crank-in.net##.__uz__third_party_ad
+24tv.ua##.within-ads
 ||c.mipcdn.com/*/*.js$domain=m.manhuafen.com
 lemonde.fr##.friend.ops--inline
 supleks.jp##div[class*="_"][data-height]

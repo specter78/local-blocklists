@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 25 Sep 2020 09:08 UTC+7
+# Updated: 02 Oct 2020 22:56 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -10243,17 +10243,10 @@
 0.0.0.0 sa.unionstatistics.com
 0.0.0.0 tag.unionstatistics.com
 0.0.0.0 unionstatistics.com
-#[adoptimize]
+#[adoptimize.info]
 0.0.0.0 adoptimize.info
+0.0.0.0 adfraud.adoptimize.info
 0.0.0.0 www.adoptimize.info
-0.0.0.0 autodiscover.adoptimize.com
-0.0.0.0 businessforsaleexchange.adoptimize.com
-0.0.0.0 cpanel.adoptimize.com
-0.0.0.0 rbiz.adoptimize.com
-0.0.0.0 restaurantforsale.adoptimize.com
-0.0.0.0 rmarketer.adoptimize.com
-0.0.0.0 spunjbox.adoptimize.com
-0.0.0.0 www.adoptimize.com
 #[qwapi.com]
 0.0.0.0 ad.qwapi.com
 0.0.0.0 adsdk.qwapi.com
@@ -13090,15 +13083,6 @@
 0.0.0.0 popnc.com
 0.0.0.0 staff.popnc.com
 0.0.0.0 www.popnc.com
-#[affise.com]
-0.0.0.0 aditms.me
-0.0.0.0 maroola.aditms.me
-0.0.0.0 affise.com
-0.0.0.0 aditmedia.affise.com
-0.0.0.0 go2afse.com
-0.0.0.0 aditmedia.go2afse.com
-0.0.0.0 go2affise.com
-0.0.0.0 aditmedia.go2affise.com
 #[trafficstars.com]
 0.0.0.0 admin.trafficstars.com
 0.0.0.0 api.trafficstars.com
@@ -14183,16 +14167,13 @@
 #[trackpush.com]
 0.0.0.0 api.trackpush.com
 0.0.0.0 client.trackpush.com
-0.0.0.0 feedicon.trackpush.com
 0.0.0.0 growpush.trackpush.com
+0.0.0.0 inpage-feed.trackpush.com
+0.0.0.0 native-feed.trackpush.com
 0.0.0.0 notification.trackpush.com
 0.0.0.0 prod305.trackpush.com
 0.0.0.0 trackpush.com
-#[pushtimize.com]
-0.0.0.0 adv.pushtimize.com
-0.0.0.0 cdn01.pushtimize.com
-0.0.0.0 feed.pushtimize.com
-0.0.0.0 pushtimize.com
+0.0.0.0 user.trackpush.com
 #[mobytrks.com]
 0.0.0.0 mobytrks.com
 0.0.0.0 go.mobytrks.com
@@ -16353,6 +16334,20 @@
 0.0.0.0 log.news.zing.vn
 0.0.0.0 logv2.mp3.zing.vn
 0.0.0.0 tracking.playzing.g6.zing.vn
+#[brand.zing.vn]
+0.0.0.0 adtima.brand.zing.vn
+0.0.0.0 adtimabox.brand.zing.vn
+0.0.0.0 app.brand.zing.vn
+0.0.0.0 banner.brand.zing.vn
+0.0.0.0 brand.zing.vn
+0.0.0.0 campaign.brand.zing.vn
+0.0.0.0 interactive.brand.zing.vn
+0.0.0.0 media.brand.zing.vn
+0.0.0.0 notify.brand.zing.vn
+0.0.0.0 staging-ads-dashboard.brand.zing.vn
+0.0.0.0 stc.interactive.brand.zing.vn
+0.0.0.0 streaming.interactive.brand.zing.vn
+0.0.0.0 zevent.brand.zing.vn
 #[zalo.me]
 0.0.0.0 ads.platform.zalo.me
 0.0.0.0 ads.zalo.me
@@ -17127,6 +17122,11 @@
 0.0.0.0 widget-1.oncustomer.asia
 0.0.0.0 widget-2.oncustomer.asia
 0.0.0.0 widget-beta.oncustomer.asia
+#[pushtimize.com]
+0.0.0.0 adv.pushtimize.com
+0.0.0.0 cdn01.pushtimize.com
+0.0.0.0 feed.pushtimize.com
+0.0.0.0 pushtimize.com
 # --- Block adsVN ---
 0.0.0.0 703531862.vws.vegacdn.vn
 0.0.0.0 ad-admin.vnay.vn
@@ -17169,6 +17169,7 @@
 0.0.0.0 ads1.careerbuilder.vn
 0.0.0.0 adserver.lag.vn
 0.0.0.0 adserver.luzu.vn
+0.0.0.0 adsgo.nhipcaudautu.vn
 0.0.0.0 adsplus.vn
 0.0.0.0 adsv2.autodaily.vn
 0.0.0.0 adsweb.vn
@@ -17224,6 +17225,7 @@
 0.0.0.0 landingpagelagi.vn
 0.0.0.0 lottery.headlines.pw
 0.0.0.0 lottery.vntoday.news
+0.0.0.0 marketing.hub-js.com
 0.0.0.0 mega1.yeah1.com
 0.0.0.0 microad.vn
 0.0.0.0 mobileads.dieuviet.com
@@ -17283,6 +17285,7 @@
 0.0.0.0 analytics.bkav.com
 0.0.0.0 analytics.easyvideo.vn
 0.0.0.0 analytics.explus.vn
+0.0.0.0 analytics.hub-js.com
 0.0.0.0 analytics.sohatv.vn
 0.0.0.0 analytics.thethao247.org
 0.0.0.0 analytics.tiki.vn
@@ -17338,6 +17341,7 @@
 0.0.0.0 sharefb.cnnd.vn
 0.0.0.0 stat.headlines.pw
 0.0.0.0 staticad.thethao247.vn
+0.0.0.0 statistics.vov.vn
 0.0.0.0 stats.123c.vn
 0.0.0.0 stats.bizweb.vn
 0.0.0.0 stats.dongphim.net
@@ -17372,14 +17376,11 @@
 0.0.0.0 widget.subiz.xyz
 # --- Block scamVN ---
 0.0.0.0 celerantatters.com
-0.0.0.0 fuckbookvietnam.com
 0.0.0.0 hashearog.com
-0.0.0.0 quangcaotructuyen247.com
 0.0.0.0 rituationscardb.info
 0.0.0.0 sacchaeleduk.com
 0.0.0.0 smilitygorb.club
-0.0.0.0 www.fuckbookvietnam.com
-0.0.0.0 www.quangcaotructuyen247.com
+0.0.0.0 ucesreferre.club
 # --- Block other adsVN ---
 0.0.0.0 1-1ads.com
 0.0.0.0 1phads.com
@@ -18952,6 +18953,7 @@
 0.0.0.0 dimfarlow.com
 0.0.0.0 direct-xxx-access.com
 0.0.0.0 directaclick.com
+0.0.0.0 directadvert.ru
 0.0.0.0 directionforest.com
 0.0.0.0 directivepub.com
 0.0.0.0 directleads.com
@@ -19192,6 +19194,7 @@
 0.0.0.0 fwmrm.net
 0.0.0.0 fxclix.com
 0.0.0.0 fxstyle.net
+0.0.0.0 g2afse.com
 0.0.0.0 ga.clearbit.com
 0.0.0.0 ga87z2o.com
 0.0.0.0 galaksion.com
@@ -19222,6 +19225,7 @@
 0.0.0.0 go.mobisla.com
 0.0.0.0 go.onclasrv.com
 0.0.0.0 go.padstm.com
+0.0.0.0 go2affise.com
 0.0.0.0 goadservices.com
 0.0.0.0 goingplatinum.com
 0.0.0.0 goldbach.com
@@ -19345,6 +19349,7 @@
 0.0.0.0 icptrack.com
 0.0.0.0 idcounter.com
 0.0.0.0 iddiction.com
+0.0.0.0 idealmedia.io
 0.0.0.0 ideliv.net
 0.0.0.0 idelv.net
 0.0.0.0 identads.com
@@ -19925,6 +19930,7 @@
 0.0.0.0 pagerank4you.com
 0.0.0.0 pageranktop.com
 0.0.0.0 pagiwp.com
+0.0.0.0 paishuno.net
 0.0.0.0 paleleaf.com
 0.0.0.0 pansidlike.net
 0.0.0.0 papayamobile.com
@@ -19976,6 +19982,7 @@
 0.0.0.0 phluant.com
 0.0.0.0 phobygipi.pro
 0.0.0.0 phoenix-adrunner.mycomputer.com
+0.0.0.0 phoenix-widget.com
 0.0.0.0 phonearena.com
 0.0.0.0 phoossax.net
 0.0.0.0 photographpan.com
@@ -20051,6 +20058,7 @@
 0.0.0.0 prfwpclck.com
 0.0.0.0 primaryads.com
 0.0.0.0 primetime.net
+0.0.0.0 prismgadnarc.icu
 0.0.0.0 privacyassistant.net
 0.0.0.0 privatecash.com
 0.0.0.0 privy.com
@@ -20257,6 +20265,7 @@
 0.0.0.0 rundsp.com
 0.0.0.0 rusenov.com
 0.0.0.0 ruthlessrobin.com
+0.0.0.0 s.click.aliexpress.com
 0.0.0.0 s2d6.com
 0.0.0.0 sageanalyst.net
 0.0.0.0 sailif.com
@@ -20479,6 +20488,7 @@
 0.0.0.0 steadfastsound.com
 0.0.0.0 steadfastsystem.com
 0.0.0.0 steelhouse.com
+0.0.0.0 stg.truvidplayer.com
 0.0.0.0 stickssheep.com
 0.0.0.0 storesurprise.com
 0.0.0.0 stormyachiever.com
@@ -20707,6 +20717,7 @@
 0.0.0.0 trustaffs.com
 0.0.0.0 trustednotice.news
 0.0.0.0 trustx.org
+0.0.0.0 tubecup.net
 0.0.0.0 tubedspots.com
 0.0.0.0 tubemogul.com
 0.0.0.0 tulecheja.pro
@@ -20735,6 +20746,7 @@
 0.0.0.0 ulukaris.com
 0.0.0.0 unanimis.co.uk
 0.0.0.0 unarmedindustry.com
+0.0.0.0 underdog.media
 0.0.0.0 undertone.com
 0.0.0.0 unknowntray.com
 0.0.0.0 unmortalloose.com
@@ -21056,6 +21068,7 @@
 0.0.0.0 a.klaviyo.com
 0.0.0.0 a.quora.com
 0.0.0.0 a3cloud.net
+0.0.0.0 acint.net
 0.0.0.0 adentify.com
 0.0.0.0 adj.st
 0.0.0.0 adtrack.king.com
@@ -21092,6 +21105,7 @@
 0.0.0.0 analytics.samdd.me
 0.0.0.0 analytics.siliconexpert.com
 0.0.0.0 analytics.swiggy.com
+0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.ziftsolutions.com
 0.0.0.0 analyticsapi.bsbportal.com
 0.0.0.0 anhui-attorney.com
@@ -21204,6 +21218,7 @@
 0.0.0.0 infoaz.nl
 0.0.0.0 inside-graph.com
 0.0.0.0 intent.cbsi.com
+0.0.0.0 invitejs.trustpilot.com
 0.0.0.0 js.hscollectedforms.net
 0.0.0.0 js.hsleadflows.net
 0.0.0.0 js.idio.co
@@ -21211,6 +21226,7 @@
 0.0.0.0 k6r.net
 0.0.0.0 kameleoon.eu
 0.0.0.0 kidsghibli.com
+0.0.0.0 kitbit.net
 0.0.0.0 kkvmaj.com
 0.0.0.0 leadzutw.com
 0.0.0.0 lem-computers.net
@@ -21260,6 +21276,7 @@
 0.0.0.0 pixel.s3xified.com
 0.0.0.0 pixel.wp.com
 0.0.0.0 pixel.yabidos.com
+0.0.0.0 pixels.truvidplayer.com
 0.0.0.0 pjhku.com
 0.0.0.0 pl.ventunotech.com
 0.0.0.0 placehold.it
@@ -21298,6 +21315,7 @@
 0.0.0.0 saspreview.com
 0.0.0.0 sc-static.net
 0.0.0.0 sclick.baidu.com
+0.0.0.0 semantiqo.com
 0.0.0.0 showbiz.owndata.network
 0.0.0.0 si.dailymail.co.uk
 0.0.0.0 simplesharebuttons.com
@@ -21353,6 +21371,8 @@
 0.0.0.0 ultimedia.com
 0.0.0.0 um.videmob.com
 0.0.0.0 unicaitaly.it
+0.0.0.0 upapi.net
+0.0.0.0 uptolike.com
 0.0.0.0 usabilla.com
 0.0.0.0 usergrid.com
 0.0.0.0 users.quantumgraph.com
@@ -21369,6 +21389,7 @@
 0.0.0.0 web.ventunotech.com
 0.0.0.0 weborama.net
 0.0.0.0 weigezhiyao.com
+0.0.0.0 widget.trustpilot.com
 0.0.0.0 wieistmeineip.de
 0.0.0.0 wt.soundestlink.com
 0.0.0.0 www.ethtrader.de
