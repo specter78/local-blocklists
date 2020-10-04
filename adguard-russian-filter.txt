@@ -1,8 +1,8 @@
-! Checksum: 3hamR3seAgdMyVk7Eq0jsg
+! Checksum: +gBNHA+abbpDDeQfTitxBg
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.42.23
-! TimeUpdated: 2020-10-02T20:04:11+03:00
+! Version: 2.0.42.24
+! TimeUpdated: 2020-10-03T17:30:48+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -86,6 +86,7 @@
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||m62rtkpf.de^$third-party
 ||go2of.com^$third-party
 ||pushtora.com^$third-party
 ||rwpypf.com^$third-party
