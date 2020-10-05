@@ -1,8 +1,8 @@
-! Checksum: 248gjm6IZmI30CvuQw5bWg
+! Checksum: alHhxBn6OPA0SxxRXFOJ4Q
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.30.99
-! TimeUpdated: 2020-10-02T19:31:34+03:00
+! Version: 2.0.31.0
+! TimeUpdated: 2020-10-04T21:31:35+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1747,7 +1747,7 @@ abcnews.go.com###lightbox-social
 prawo.pl##.article-module .share
 ups.com##.ups-page-share
 google.de,sueddeutsche.de##aside[data-testid="sharing-top"]
-kurier.de##.social-ext
+nordbayerischer-kurier.de,schwarzwaelder-bote.de,idowa.de,kurier.de##.social-ext
 getpocket.com##li[class*="-ShareElement"] > a[class*="-ShareLink-"]:not([class*="-ShareLink-PocketShare"])
 prothomalo.com##.social_shares
 riavrn.ru##.article-buttons
@@ -3458,7 +3458,6 @@ ukraina.ru##.b-sharebar
 slice.ca###corusVideo_socialAndExpand > #corusVideo_socialTools
 lokalkompass.de###sidebar > div > div[style="margin-top:25px;margin-bottom:25px;height:290px;"]
 philosophia-perennis.com##.et_social_mobile
-nordbayerischer-kurier.de##.social-ext
 smopo.ch##.social-badges
 dizifilmsizle.com###custom_html-28
 politeka.net##.b__share-buttons
@@ -4825,7 +4824,6 @@ wetterauer-zeitung.de##ul[data-fcms-method="socialShare"]
 stuttgarter-nachrichten.de##.m-shares
 mobile2.tagesanzeiger.ch##.socialMedia
 pcmag.com###share_container
-schwarzwaelder-bote.de##.social-ext
 rhein-zeitung.de##div.servicebox.html_content[id^="sebox_"]
 cmo.com##.getsocial
 ofigenno.com##.image-rollover-wrap

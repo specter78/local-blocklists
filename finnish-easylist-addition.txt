@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 03October2020v5
+! Version: 04October2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -396,12 +396,14 @@ mediuutiset.fi##div#skyscraper-height-div > div > section > a[href^="/kumppanisi
 mediuutiset.fi##div#skyscraper-height-div > section > a[href^="/kumppanisisaltoa/"]
 mediuutiset.fi#?#div#root > div > div > div > div > div > div:-abp-contains(Kaupallinen Yhteistyö)
 mesta.net##.gofollow
+metropoli.net###bs-text-listing-4-7.widget_bs-text-listing-4
 metropoli.net###menu-item-46797 > [href="https://www.metropoli.net/rahapelit/"]
 metropoli.net###tdt_widget_minilanding-7
 metropoli.net##.rp-holder-419.main-term-1.listing-item-grid
 metropoli.net##.tdt-desktop-ad
 metropoli.net##.widget_bs-text-listing-4.widget.primary-sidebar-widget.w-t.h-bg-f2861a.h-bg.h-c-ffffff.h-c.h-ni.article-popular-post-widget
 metropoli.net,suomif1.com,suomifutis.com,suomikoris.com,suomiurheilu.com,viikonloppu.com##hr + h3 > strong, p + hr + h3, h3 + p, h3 + p + ul
+mikrobitti,talouselama.fi##div[id|="almad"]
 mikrobitti.fi##.is-visible.LazyLoad
 mikrobitti.fi##aside > div > div > a[href^="https://studio.mikrobitti.fi/mikrobitti-studiovieras/"]
 mikrobitti.fi##div[id="rosmo"]
@@ -445,6 +447,7 @@ muropaketti.com#?#article.grid__item_md-1-5.grid__item_1:-abp-contains(Mainos)
 muropaketti.com#?#article.grid__item_1-2:-abp-has( > div[class~="nativead"])
 mvlehti.net##.content-center.header-nav-ad
 mvlehti.net##.premium_container
+mvlehti.net##[href="https://www.cbdtukku.fi/"]
 mvlehti.net#?#div[class="ad content-center"]:not(:-abp-has( > a[href^="https://vk.com/"]))
 nainen.com###text-3 > .textwidget
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
@@ -549,7 +552,6 @@ talouselama.fi##div#skyscraper-height-div > aside > div > a[href^="/kumppaniblog
 talouselama.fi##div#skyscraper-height-div > div > aside > div > a[href^="/kumppaniblogit/"]
 talouselama.fi##div#skyscraper-height-div > div > aside > div > a[href^="https://studio.talouselama.fi/"] > div[class^="sc-"]
 talouselama.fi##div[id="skyscraper-height-div"] > div[class="LazyLoad is-visible"] > section > div:first-of-type + div[class^="sc-"]
-talouselama.fi##div[id|="almad"]
 talouselama.fi#?#div#skyscraper-height-div > div > aside > div > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 talouselama.fi#?#div#skyscraper-height-div > section > div > div:-abp-has([src*="assets.almatalent.fi/static/podcasts/te/Privanet/privanet-podcast.jpg"]):-abp-contains(Kaupallinen Yhteistyö)
 talouselama.fi#?#div.article-body > div:-abp-has( > div.LazyLoad.is-visible)
