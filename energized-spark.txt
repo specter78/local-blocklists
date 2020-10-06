@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 20.10.279
-# Release: 279
-# Entries: 39,774
+# Version: 20.10.280
+# Release: 280
+# Entries: 39,781
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Mon, 05 Oct 20 06:05:38
+# Updated: Tue, 06 Oct 20 06:05:36
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -7843,6 +7843,7 @@ beacon-sie.krxd.net
 beacon.sina.com.cn
 beacons.mediamelon.com
 beacon.sojern.com
+beacon.s-onetag.com
 beacon.sparta.mig.tencent-cloud.net
 beacons-wxm0dh1cst4.stackpathdns.com
 beacontest.cardlytics.com
@@ -11132,6 +11133,7 @@ connectionads.com
 connectionlead.com
 connection-test.newrelic.com
 connectionzone.com
+connect-metrics-collector.s-onetag.com
 connectomobi.com
 connect.tapjoy.com
 connectx.inmobi.com
@@ -15818,6 +15820,7 @@ geoip.securitetotale.com
 geo.jetpackdigital.com
 geolocation.1trust.app
 geolocation-db.com
+geo-location.s-onetag.com
 geolocation.t-online.de
 geol.startbundlingnow.com
 geo.moatads.com
@@ -15884,6 +15887,7 @@ getrockerbox.com
 getscorecash.com
 get.search-series.com
 get.slotocash.com
+get.s-onetag.com
 getstarted.infolinks.com
 getstarted.trafficjunky.com
 gettyimages.122.2o7.net
@@ -24583,7 +24587,9 @@ onerror.ml
 onespot.com
 onestat.com
 onestatfree.com
+onetag-geo-grouping.s-onetag.com
 onetag-geo.onscroll.com
+onetag-geo.s-onetag.com
 onet.hit.gemius.pl
 onet.hit.stat.pl
 onetoone.112.2o7.net
@@ -30280,6 +30286,7 @@ sightings.gimbal.com
 sigma-tech.store
 signalad.go.affec.tv
 signal.cdnbye.com
+signal-metrics-collector-beta.s-onetag.com
 signals.ampiri.com
 signanravell.info
 signin-ebay-com-ws-ebayisapi-dll-signin-webscr.ocom.pl
