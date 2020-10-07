@@ -1,6 +1,6 @@
 # Title: Lightswitch05's tracking-aggressive-extended.txt
-# Released: 2020-10-01T01:05:13+00:00
-# Count: 11425 domains
+# Released: 2020-10-06T13:05:13+00:00
+# Count: 11463 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
@@ -1217,8 +1217,6 @@
 0.0.0.0 zqb.360.cn
 0.0.0.0 odds.zqb.360.cn
 0.0.0.0 zt.360.cn
-0.0.0.0 pop.zt.360.cn
-0.0.0.0 s.pop.zt.360.cn
 0.0.0.0 actionbutton.co
 0.0.0.0 api.actionbutton.co
 0.0.0.0 embed.actionbutton.co
@@ -2124,6 +2122,7 @@
 0.0.0.0 fg18.mta.exacttarget.com
 0.0.0.0 fg183.mta.exacttarget.com
 0.0.0.0 fg203.mta.exacttarget.com
+0.0.0.0 fg210.mta.exacttarget.com
 0.0.0.0 fg219.mta.exacttarget.com
 0.0.0.0 fg254.mta.exacttarget.com
 0.0.0.0 fg34.mta.exacttarget.com
@@ -2132,6 +2131,7 @@
 0.0.0.0 fg56.mta.exacttarget.com
 0.0.0.0 fg84.mta.exacttarget.com
 0.0.0.0 fg92.mta.exacttarget.com
+0.0.0.0 fq1.mta.exacttarget.com
 0.0.0.0 fq112.mta.exacttarget.com
 0.0.0.0 fq139.mta.exacttarget.com
 0.0.0.0 fq141.mta.exacttarget.com
@@ -2165,6 +2165,7 @@
 0.0.0.0 hu153.mta.exacttarget.com
 0.0.0.0 hu201.mta.exacttarget.com
 0.0.0.0 ih117.mta.exacttarget.com
+0.0.0.0 ih123.mta.exacttarget.com
 0.0.0.0 ih145.mta.exacttarget.com
 0.0.0.0 ih165.mta.exacttarget.com
 0.0.0.0 ih185.mta.exacttarget.com
@@ -2508,6 +2509,7 @@
 0.0.0.0 sock.s50.exacttarget.com
 0.0.0.0 view.s50.exacttarget.com
 0.0.0.0 click.virt.s50.exacttarget.com
+0.0.0.0 view.virt.s50.exacttarget.com
 0.0.0.0 s6.exacttarget.com
 0.0.0.0 anonymous.s6.exacttarget.com
 0.0.0.0 app.s6.exacttarget.com
@@ -2947,6 +2949,7 @@
 0.0.0.0 www-abc-es.sslproxy.gigya.com
 0.0.0.0 stagingdemo.gigya.com
 0.0.0.0 status.gigya.com
+0.0.0.0 tm.gigya.com
 0.0.0.0 tomer.gigya.com
 0.0.0.0 accounts.us1.gigya.com
 0.0.0.0 admin.us1.gigya.com
@@ -3360,6 +3363,7 @@
 0.0.0.0 capture.multi.dev.or.janrain.com
 0.0.0.0 capture-alb-border.multi.dev.or.janrain.com
 0.0.0.0 prometheus.multi.dev.or.janrain.com
+0.0.0.0 quilt-cdn.multi.dev.or.janrain.com
 0.0.0.0 widgets.multi.dev.or.janrain.com
 0.0.0.0 api.profilesteam.dev.or.janrain.com
 0.0.0.0 engage-app.or.janrain.com
@@ -3461,6 +3465,7 @@
 0.0.0.0 queue.labs.livechatinc.com
 0.0.0.0 www.labs.livechatinc.com
 0.0.0.0 link4.livechatinc.com
+0.0.0.0 m.livechatinc.com
 0.0.0.0 marketplace-agentapp.livechatinc.com
 0.0.0.0 my.livechatinc.com
 0.0.0.0 network-test.livechatinc.com
@@ -4579,6 +4584,7 @@
 0.0.0.0 amazon3.qualtrics.com
 0.0.0.0 amazon456.qualtrics.com
 0.0.0.0 amazon6.qualtrics.com
+0.0.0.0 amazonamped.qualtrics.com
 0.0.0.0 amazonclouddrive.qualtrics.com
 0.0.0.0 amazonde1.qualtrics.com
 0.0.0.0 amazonlocalcommerce.qualtrics.com
@@ -4901,6 +4907,7 @@
 0.0.0.0 ironmountaincx.az1.qualtrics.com
 0.0.0.0 irvinecompanycx.az1.qualtrics.com
 0.0.0.0 isrreports.az1.qualtrics.com
+0.0.0.0 www.isrreports.az1.qualtrics.com
 0.0.0.0 isrtu.az1.qualtrics.com
 0.0.0.0 ivey.az1.qualtrics.com
 0.0.0.0 johncarroll.az1.qualtrics.com
@@ -5003,6 +5010,7 @@
 0.0.0.0 ucberkeleypolisci.az1.qualtrics.com
 0.0.0.0 ucimerage.az1.qualtrics.com
 0.0.0.0 uclahs.az1.qualtrics.com
+0.0.0.0 www.uclahs.az1.qualtrics.com
 0.0.0.0 ucmerced.az1.qualtrics.com
 0.0.0.0 udlap.az1.qualtrics.com
 0.0.0.0 ugapharm.az1.qualtrics.com
@@ -5606,6 +5614,7 @@
 0.0.0.0 www.msu.co1.qualtrics.com
 0.0.0.0 msuoutreach.co1.qualtrics.com
 0.0.0.0 nau.co1.qualtrics.com
+0.0.0.0 www.nau.co1.qualtrics.com
 0.0.0.0 navient.co1.qualtrics.com
 0.0.0.0 ncu.co1.qualtrics.com
 0.0.0.0 ndhealth.co1.qualtrics.com
@@ -5703,6 +5712,7 @@
 0.0.0.0 unlv.co1.qualtrics.com
 0.0.0.0 unrcfr.co1.qualtrics.com
 0.0.0.0 upenn.co1.qualtrics.com
+0.0.0.0 www.upenn.co1.qualtrics.com
 0.0.0.0 upscx.co1.qualtrics.com
 0.0.0.0 usana.co1.qualtrics.com
 0.0.0.0 usu.co1.qualtrics.com
@@ -5738,6 +5748,7 @@
 0.0.0.0 covid19testingne.col.qualtrics.com
 0.0.0.0 forrester.col.qualtrics.com
 0.0.0.0 gapac.col.qualtrics.com
+0.0.0.0 glic.col.qualtrics.com
 0.0.0.0 htableau.col.qualtrics.com
 0.0.0.0 loyola.col.qualtrics.com
 0.0.0.0 mcresearch2.col.qualtrics.com
@@ -5749,6 +5760,7 @@
 0.0.0.0 vte.col.qualtrics.com
 0.0.0.0 wsu.col.qualtrics.com
 0.0.0.0 collectivebrands360.qualtrics.com
+0.0.0.0 coloradocollege.qualtrics.com
 0.0.0.0 columbia.qualtrics.com
 0.0.0.0 columbiaservices.qualtrics.com
 0.0.0.0 columbiauniversity.qualtrics.com
@@ -5834,6 +5846,7 @@
 0.0.0.0 crtkl.qualtrics.com
 0.0.0.0 cs635807americastestkitchen.qualtrics.com
 0.0.0.0 cs635807dev-masks.qualtrics.com
+0.0.0.0 csg.qualtrics.com
 0.0.0.0 csipsychology.qualtrics.com
 0.0.0.0 csod.qualtrics.com
 0.0.0.0 csuci.qualtrics.com
@@ -6121,6 +6134,7 @@
 0.0.0.0 foster360.qualtrics.com
 0.0.0.0 fpse.qualtrics.com
 0.0.0.0 fra1.qualtrics.com
+0.0.0.0 sftp.fra1.qualtrics.com
 0.0.0.0 survey.fra1.qualtrics.com
 0.0.0.0 www.survey.fra1.qualtrics.com
 0.0.0.0 framingham.qualtrics.com
@@ -6190,6 +6204,7 @@
 0.0.0.0 hanover-research.qualtrics.com
 0.0.0.0 hanoverresearch.qualtrics.com
 0.0.0.0 harvard.qualtrics.com
+0.0.0.0 hase.qualtrics.com
 0.0.0.0 hbb.qualtrics.com
 0.0.0.0 hbs.qualtrics.com
 0.0.0.0 hbslkhykcrgcoivdv.qualtrics.com
@@ -6476,6 +6491,7 @@
 0.0.0.0 itamnegocios.qualtrics.com
 0.0.0.0 iteintercept.qualtrics.com
 0.0.0.0 itron.qualtrics.com
+0.0.0.0 iup.qualtrics.com
 0.0.0.0 ius.qualtrics.com
 0.0.0.0 ivytech.qualtrics.com
 0.0.0.0 jbs.qualtrics.com
@@ -6679,6 +6695,7 @@
 0.0.0.0 ndhealth.qualtrics.com
 0.0.0.0 ndhealthuscensusbureaucovid.qualtrics.com
 0.0.0.0 ndscs.qualtrics.com
+0.0.0.0 ndstate.qualtrics.com
 0.0.0.0 neocovid19.qualtrics.com
 0.0.0.0 network.qualtrics.com
 0.0.0.0 new.qualtrics.com
@@ -6794,6 +6811,7 @@
 0.0.0.0 qacademics.qualtrics.com
 0.0.0.0 qandeef.qualtrics.com
 0.0.0.0 qatarairways.qualtrics.com
+0.0.0.0 qaz1.qualtrics.com
 0.0.0.0 qdistribution.qualtrics.com
 0.0.0.0 qdwade.qualtrics.com
 0.0.0.0 qfreeaccountssjc1.qualtrics.com
@@ -7129,6 +7147,7 @@
 0.0.0.0 zn2hlofcol1wfm1cp-pearsoneducationrese.siteintercept.qualtrics.com
 0.0.0.0 zn2i2bbuxai3xv9dz-marsh.siteintercept.qualtrics.com
 0.0.0.0 zn2if26p79dwqlel7-royalmail.siteintercept.qualtrics.com
+0.0.0.0 zn2ith43ttzi1b8b3-sni.siteintercept.qualtrics.com
 0.0.0.0 zn2lqzjzelu2sdykl-firstcitizensbank.siteintercept.qualtrics.com
 0.0.0.0 zn2mc7sbmn5kcgg7h-hondaeurope.siteintercept.qualtrics.com
 0.0.0.0 zn2mdf9swsmopozop-heritageauctions.siteintercept.qualtrics.com
@@ -7538,6 +7557,7 @@
 0.0.0.0 zna5cmmuwt3epavdh-truecar11.siteintercept.qualtrics.com
 0.0.0.0 zna8bdvodrbuec3wv-samsungeurope.siteintercept.qualtrics.com
 0.0.0.0 zna8czbvpfpnaorsj-entel.siteintercept.qualtrics.com
+0.0.0.0 zna9gwabsy8hjcj37-caleres.siteintercept.qualtrics.com
 0.0.0.0 zna9tx4uzjsedwz7v-lds.siteintercept.qualtrics.com
 0.0.0.0 znaad7u8yzaqhmmxx-desjardins.siteintercept.qualtrics.com
 0.0.0.0 lkhykcrgcoivdv-travelers.znaad7u8yzaqhmmxx-desjardins.siteintercept.qualtrics.com
@@ -7559,6 +7579,7 @@
 0.0.0.0 znavmpr72n3bdyglh-caleres.siteintercept.qualtrics.com
 0.0.0.0 znavrd5dk100fbxrp-gracoincandsubs.siteintercept.qualtrics.com
 0.0.0.0 znavrrbuaasua7fbz-trulia.siteintercept.qualtrics.com
+0.0.0.0 znawcq5fe04uxn313-logmeinvoc.siteintercept.qualtrics.com
 0.0.0.0 znaws4jl2dts2pppd-weightwatcherscx.siteintercept.qualtrics.com
 0.0.0.0 znawsz4awtdayj62p-frk.siteintercept.qualtrics.com
 0.0.0.0 znaxxjzbrkiuhdm5t-spiritairlines.siteintercept.qualtrics.com
@@ -7570,6 +7591,7 @@
 0.0.0.0 znb7bnu41v3uapdgh-consumerinputrcus.siteintercept.qualtrics.com
 0.0.0.0 znb7vkgqi82axdxsj-delawarenorth.siteintercept.qualtrics.com
 0.0.0.0 znb8cwip4xmbx9mch-chegg.siteintercept.qualtrics.com
+0.0.0.0 znbbjb39osmha0zwv-teamknowhow.siteintercept.qualtrics.com
 0.0.0.0 znbc5k4v9qea3h0pj-fandango.siteintercept.qualtrics.com
 0.0.0.0 znbcr1fe9iqohckzz-aetnadigital.siteintercept.qualtrics.com
 0.0.0.0 znbcrpewtj0dehmwf-monotype.siteintercept.qualtrics.com
@@ -7729,6 +7751,7 @@
 0.0.0.0 znel5ytfq9303iez3-gettyimages.siteintercept.qualtrics.com
 0.0.0.0 znelmon4amjg29cpb-intuitmint.siteintercept.qualtrics.com
 0.0.0.0 znelmybishshx84zb-sonycorporation.siteintercept.qualtrics.com
+0.0.0.0 znelpzrn1zug0oxel-bcbsnc.siteintercept.qualtrics.com
 0.0.0.0 znelqjnmge0lswgir-idealo.siteintercept.qualtrics.com
 0.0.0.0 znemkp0ose9qrn7kf-elastic.siteintercept.qualtrics.com
 0.0.0.0 znemrxbsaxzgygptx-qvocdemo.siteintercept.qualtrics.com
@@ -7785,6 +7808,7 @@
 0.0.0.0 rc1userh5thjd7hwt7pf.sjc1.qualtrics.com
 0.0.0.0 shastahhsa.sjc1.qualtrics.com
 0.0.0.0 stockxcustomerres.sjc1.qualtrics.com
+0.0.0.0 wfmoa.sjc1.qualtrics.com
 0.0.0.0 sjsu.qualtrics.com
 0.0.0.0 sju.qualtrics.com
 0.0.0.0 skidmore.qualtrics.com
@@ -7796,6 +7820,7 @@
 0.0.0.0 smtp-centraldevacinas.qualtrics.com
 0.0.0.0 smu.qualtrics.com
 0.0.0.0 smuniversity.qualtrics.com
+0.0.0.0 snc.qualtrics.com
 0.0.0.0 sncr.qualtrics.com
 0.0.0.0 snhu.qualtrics.com
 0.0.0.0 soa.qualtrics.com
@@ -7887,6 +7912,7 @@
 0.0.0.0 stimulus.qualtrics.com
 0.0.0.0 stitchfix.qualtrics.com
 0.0.0.0 stjude.qualtrics.com
+0.0.0.0 stmarys.qualtrics.com
 0.0.0.0 strathsci.qualtrics.com
 0.0.0.0 stthomasir.qualtrics.com
 0.0.0.0 stthomaskentems.qualtrics.com
@@ -7944,6 +7970,7 @@
 0.0.0.0 thomsons.qualtrics.com
 0.0.0.0 tilburgss.qualtrics.com
 0.0.0.0 tlpdc.qualtrics.com
+0.0.0.0 tmbbank.qualtrics.com
 0.0.0.0 tmobileeit.qualtrics.com
 0.0.0.0 tmw.qualtrics.com
 0.0.0.0 tntech.qualtrics.com
@@ -7955,6 +7982,7 @@
 0.0.0.0 trentu.qualtrics.com
 0.0.0.0 trescoronas.qualtrics.com
 0.0.0.0 trispectivegroup360.qualtrics.com
+0.0.0.0 troy.qualtrics.com
 0.0.0.0 trulaske.qualtrics.com
 0.0.0.0 trupanion.qualtrics.com
 0.0.0.0 ttec360.qualtrics.com
@@ -7994,6 +8022,7 @@
 0.0.0.0 ucsbeducation.qualtrics.com
 0.0.0.0 www.ucsbeducation.qualtrics.com
 0.0.0.0 ucsbltsc.qualtrics.com
+0.0.0.0 ucsd.qualtrics.com
 0.0.0.0 udenver.qualtrics.com
 0.0.0.0 udkfk-covid372k33x7t6qfh.qualtrics.com
 0.0.0.0 uefa.qualtrics.com
@@ -8045,6 +8074,8 @@
 0.0.0.0 unisair.qualtrics.com
 0.0.0.0 university-researchers.qualtrics.com
 0.0.0.0 universityofalabama.qualtrics.com
+0.0.0.0 unomaha.qualtrics.com
+0.0.0.0 unr.qualtrics.com
 0.0.0.0 unsw.qualtrics.com
 0.0.0.0 unswpsy.qualtrics.com
 0.0.0.0 untedu.qualtrics.com
@@ -8216,6 +8247,7 @@
 0.0.0.0 usd.qualtrics.com
 0.0.0.0 usf.qualtrics.com
 0.0.0.0 usfca.qualtrics.com
+0.0.0.0 usmuw.qualtrics.com
 0.0.0.0 uspta.qualtrics.com
 0.0.0.0 ust.qualtrics.com
 0.0.0.0 ut1.qualtrics.com
@@ -8322,6 +8354,7 @@
 0.0.0.0 wbs.qualtrics.com
 0.0.0.0 webcim.qualtrics.com
 0.0.0.0 webroot.qualtrics.com
+0.0.0.0 wesleyan.qualtrics.com
 0.0.0.0 wested.qualtrics.com
 0.0.0.0 wex.qualtrics.com
 0.0.0.0 wharton.qualtrics.com
@@ -8340,6 +8373,7 @@
 0.0.0.0 workiva.qualtrics.com
 0.0.0.0 wpcareyschool.qualtrics.com
 0.0.0.0 wpi.qualtrics.com
+0.0.0.0 wpunj.qualtrics.com
 0.0.0.0 wright.qualtrics.com
 0.0.0.0 wsbe.qualtrics.com
 0.0.0.0 wsu.qualtrics.com
@@ -8684,6 +8718,8 @@
 0.0.0.0 fonts.tinypass.com
 0.0.0.0 github.tinypass.com
 0.0.0.0 id.tinypass.com
+0.0.0.0 id-post-gazette.tinypass.com
+0.0.0.0 itp-thelocal.tinypass.com
 0.0.0.0 jobs.tinypass.com
 0.0.0.0 market.tinypass.com
 0.0.0.0 media.tinypass.com
@@ -9343,6 +9379,7 @@
 0.0.0.0 info.spot.im
 0.0.0.0 init.spot.im
 0.0.0.0 internal-events-collector.spot.im
+0.0.0.0 kong.spot.im
 0.0.0.0 launcher.spot.im
 0.0.0.0 mc-siderail.spot.im
 0.0.0.0 me.spot.im
@@ -9641,6 +9678,7 @@
 0.0.0.0 ky458adp-android.mobile-sdk-api.intercom.io
 0.0.0.0 kyjww8hd-android.mobile-sdk-api.intercom.io
 0.0.0.0 kzmrgubj-ios.mobile-sdk-api.intercom.io
+0.0.0.0 l4xv8np6-android.mobile-sdk-api.intercom.io
 0.0.0.0 l4xv8np6-ios.mobile-sdk-api.intercom.io
 0.0.0.0 l5341no8-android.mobile-sdk-api.intercom.io
 0.0.0.0 l5audd59-android.mobile-sdk-api.intercom.io
@@ -9739,6 +9777,7 @@
 0.0.0.0 r5z5jbs5-android.mobile-sdk-api.intercom.io
 0.0.0.0 r6vn3tl7-android.mobile-sdk-api.intercom.io
 0.0.0.0 re5afjv3-android.mobile-sdk-api.intercom.io
+0.0.0.0 re5afjv3-ios.mobile-sdk-api.intercom.io
 0.0.0.0 riezdrz0-ios.mobile-sdk-api.intercom.io
 0.0.0.0 rjyht4dn-android.mobile-sdk-api.intercom.io
 0.0.0.0 rkp9r87w-android.mobile-sdk-api.intercom.io
@@ -9989,7 +10028,6 @@
 0.0.0.0 www.browser-update.org
 0.0.0.0 vendorlist.consensu.org
 0.0.0.0 duckdns.org
-0.0.0.0 00-node-red.duckdns.org
 0.0.0.0 096busan.duckdns.org
 0.0.0.0 096ysf.duckdns.org
 0.0.0.0 13dejuliodel2020.duckdns.org
@@ -10225,6 +10263,7 @@
 0.0.0.0 dsmam.duckdns.org
 0.0.0.0 duchateau.duckdns.org
 0.0.0.0 ducphuongts.duckdns.org
+0.0.0.0 easycode.duckdns.org
 0.0.0.0 edws.duckdns.org
 0.0.0.0 webmail.edws.duckdns.org
 0.0.0.0 enode.duckdns.org
@@ -10243,7 +10282,6 @@
 0.0.0.0 giga22.duckdns.org
 0.0.0.0 giobo.duckdns.org
 0.0.0.0 goldenfalcon.duckdns.org
-0.0.0.0 gomswarehouse.duckdns.org
 0.0.0.0 guilaunion.duckdns.org
 0.0.0.0 www.guilaunion.duckdns.org
 0.0.0.0 gulbishomeassistant.duckdns.org

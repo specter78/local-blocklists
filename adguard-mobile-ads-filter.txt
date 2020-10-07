@@ -1,8 +1,8 @@
-! Checksum: dVGcDvL9ka8QyitQPenfQQ
+! Checksum: W1eC7AUpOJA8Cw2duRRdFQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.70
-! TimeUpdated: 2020-10-05T17:30:14+03:00
+! Version: 2.0.15.72
+! TimeUpdated: 2020-10-06T20:30:12+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3688,7 +3688,6 @@ porntrex.com,sleazyneasy.com,vikiporn.com,m.katestube.com,xhamster.com##.pop-fad
 zvistka.net##.pum-container
 pcmag.com##.row.pcm-content
 healthboards.com##.sticky_ad
-check-host.net##.thold10
 forums.androidcentral.com##.threadbit + li.ui-body-null
 redtube.com##.top-tabs
 m.yingshidaquan.cc##.topmessage
