@@ -1,6 +1,6 @@
 # Title: Lightswitch05's tracking-aggressive-extended.txt
-# Released: 2020-10-08T01:05:12+00:00
-# Count: 11671 domains
+# Released: 2020-10-09T01:05:13+00:00
+# Count: 11635 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
@@ -443,9 +443,7 @@
 0.0.0.0 fuli.360.cn
 0.0.0.0 fuwu.360.cn
 0.0.0.0 g.360.cn
-0.0.0.0 hd.g.360.cn
 0.0.0.0 news.g.360.cn
-0.0.0.0 so.g.360.cn
 0.0.0.0 game.360.cn
 0.0.0.0 api.game.360.cn
 0.0.0.0 buyu.game.360.cn
@@ -1160,7 +1158,6 @@
 0.0.0.0 wifi.360.cn
 0.0.0.0 free.wifi.360.cn
 0.0.0.0 api.free.wifi.360.cn
-0.0.0.0 capi.free.wifi.360.cn
 0.0.0.0 capi-b.free.wifi.360.cn
 0.0.0.0 hd.free.wifi.360.cn
 0.0.0.0 s.free.wifi.360.cn
@@ -6711,6 +6708,7 @@
 0.0.0.0 niu.qualtrics.com
 0.0.0.0 www.niu.qualtrics.com
 0.0.0.0 nocccd.qualtrics.com
+0.0.0.0 northwestern.qualtrics.com
 0.0.0.0 nottingham.qualtrics.com
 0.0.0.0 novantas.qualtrics.com
 0.0.0.0 ntuhss.qualtrics.com
@@ -8346,6 +8344,7 @@
 0.0.0.0 voterinsight.qualtrics.com
 0.0.0.0 vuau.qualtrics.com
 0.0.0.0 vuw.qualtrics.com
+0.0.0.0 vwlunifreiburg.qualtrics.com
 0.0.0.0 wacubo.qualtrics.com
 0.0.0.0 wakeforest.qualtrics.com
 0.0.0.0 wallstreetenglish.qualtrics.com
@@ -8751,6 +8750,7 @@
 0.0.0.0 0-196.vk.com
 0.0.0.0 09.vk.com
 0.0.0.0 1.vk.com
+0.0.0.0 11.vk.com
 0.0.0.0 116profile.vk.com
 0.0.0.0 12.vk.com
 0.0.0.0 167274089.vk.com
@@ -8972,6 +8972,7 @@
 0.0.0.0 cs7014.vk.com
 0.0.0.0 cs7777.vk.com
 0.0.0.0 admin.cs7777.vk.com
+0.0.0.0 rk-master.admin.cs7777.vk.com
 0.0.0.0 m.akolnogorov.cs7777.vk.com
 0.0.0.0 anabiullin.cs7777.vk.com
 0.0.0.0 api.cs7777.vk.com
@@ -9316,6 +9317,7 @@
 0.0.0.0 wip3.vk.com
 0.0.0.0 wn.vk.com
 0.0.0.0 ww.vk.com
+0.0.0.0 www.ww.vk.com
 0.0.0.0 www.vk.com
 0.0.0.0 xn--80aa5alfu.vk.com
 0.0.0.0 xovide.vk.com
@@ -11386,8 +11388,6 @@
 0.0.0.0 va.tawk.to
 0.0.0.0 video.tawk.to
 0.0.0.0 vsa1.tawk.to
-0.0.0.0 vsa100.tawk.to
-0.0.0.0 vsa101.tawk.to
 0.0.0.0 vsa102.tawk.to
 0.0.0.0 vsa103.tawk.to
 0.0.0.0 vsa104.tawk.to
@@ -11396,7 +11396,6 @@
 0.0.0.0 vsa107.tawk.to
 0.0.0.0 vsa108.tawk.to
 0.0.0.0 vsa109.tawk.to
-0.0.0.0 vsa11.tawk.to
 0.0.0.0 vsa110.tawk.to
 0.0.0.0 vsa111.tawk.to
 0.0.0.0 vsa112.tawk.to
@@ -11407,28 +11406,18 @@
 0.0.0.0 vsa117.tawk.to
 0.0.0.0 vsa118.tawk.to
 0.0.0.0 vsa119.tawk.to
-0.0.0.0 vsa12.tawk.to
 0.0.0.0 vsa120.tawk.to
 0.0.0.0 vsa13.tawk.to
 0.0.0.0 vsa14.tawk.to
 0.0.0.0 vsa16.tawk.to
 0.0.0.0 vsa17.tawk.to
-0.0.0.0 vsa18.tawk.to
-0.0.0.0 vsa19.tawk.to
 0.0.0.0 vsa2.tawk.to
-0.0.0.0 vsa20.tawk.to
-0.0.0.0 vsa21.tawk.to
-0.0.0.0 vsa22.tawk.to
-0.0.0.0 vsa23.tawk.to
 0.0.0.0 vsa24.tawk.to
-0.0.0.0 vsa25.tawk.to
 0.0.0.0 vsa26.tawk.to
 0.0.0.0 vsa27.tawk.to
 0.0.0.0 vsa28.tawk.to
 0.0.0.0 vsa29.tawk.to
 0.0.0.0 vsa3.tawk.to
-0.0.0.0 vsa30.tawk.to
-0.0.0.0 vsa31.tawk.to
 0.0.0.0 vsa32.tawk.to
 0.0.0.0 vsa33.tawk.to
 0.0.0.0 vsa34.tawk.to
@@ -11436,17 +11425,11 @@
 0.0.0.0 vsa36.tawk.to
 0.0.0.0 vsa37.tawk.to
 0.0.0.0 vsa38.tawk.to
-0.0.0.0 vsa4.tawk.to
-0.0.0.0 vsa40.tawk.to
 0.0.0.0 vsa41.tawk.to
 0.0.0.0 vsa42.tawk.to
-0.0.0.0 vsa43.tawk.to
 0.0.0.0 vsa44.tawk.to
 0.0.0.0 vsa45.tawk.to
 0.0.0.0 vsa46.tawk.to
-0.0.0.0 vsa47.tawk.to
-0.0.0.0 vsa48.tawk.to
-0.0.0.0 vsa49.tawk.to
 0.0.0.0 vsa5.tawk.to
 0.0.0.0 vsa50.tawk.to
 0.0.0.0 vsa51.tawk.to
@@ -11455,46 +11438,27 @@
 0.0.0.0 vsa54.tawk.to
 0.0.0.0 vsa55.tawk.to
 0.0.0.0 vsa56.tawk.to
-0.0.0.0 vsa57.tawk.to
-0.0.0.0 vsa58.tawk.to
 0.0.0.0 vsa59.tawk.to
-0.0.0.0 vsa6.tawk.to
 0.0.0.0 vsa60.tawk.to
 0.0.0.0 vsa61.tawk.to
 0.0.0.0 vsa62.tawk.to
 0.0.0.0 vsa63.tawk.to
-0.0.0.0 vsa64.tawk.to
-0.0.0.0 vsa65.tawk.to
-0.0.0.0 vsa66.tawk.to
 0.0.0.0 vsa67.tawk.to
 0.0.0.0 vsa68.tawk.to
-0.0.0.0 vsa69.tawk.to
 0.0.0.0 vsa7.tawk.to
 0.0.0.0 vsa70.tawk.to
-0.0.0.0 vsa71.tawk.to
-0.0.0.0 vsa72.tawk.to
-0.0.0.0 vsa73.tawk.to
-0.0.0.0 vsa74.tawk.to
 0.0.0.0 vsa75.tawk.to
 0.0.0.0 vsa76.tawk.to
 0.0.0.0 vsa77.tawk.to
 0.0.0.0 vsa79.tawk.to
 0.0.0.0 vsa8.tawk.to
-0.0.0.0 vsa80.tawk.to
-0.0.0.0 vsa81.tawk.to
-0.0.0.0 vsa82.tawk.to
 0.0.0.0 vsa83.tawk.to
 0.0.0.0 vsa84.tawk.to
 0.0.0.0 vsa85.tawk.to
 0.0.0.0 vsa86.tawk.to
-0.0.0.0 vsa87.tawk.to
 0.0.0.0 vsa88.tawk.to
 0.0.0.0 vsa89.tawk.to
 0.0.0.0 vsa9.tawk.to
-0.0.0.0 vsa90.tawk.to
-0.0.0.0 vsa91.tawk.to
-0.0.0.0 vsa92.tawk.to
-0.0.0.0 vsa93.tawk.to
 0.0.0.0 vsa94.tawk.to
 0.0.0.0 vsa95.tawk.to
 0.0.0.0 vsa96.tawk.to
