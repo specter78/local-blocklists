@@ -1,8 +1,8 @@
-! Checksum: Zby8KA2i1ZSkECl0LOUkmA
+! Checksum: RIbfkmeoX7oMQugsTaeXag
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.74
-! TimeUpdated: 2020-10-08T20:30:14+03:00
+! Version: 2.0.15.76
+! TimeUpdated: 2020-10-09T19:30:21+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1821,6 +1821,10 @@ yandex.ru#$#div[class*="_with-url-actualizer_yes"] > div.adv_type_top ~ div[clas
 ! ##### TEMPORARY END #####
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/65217
+@@||googletagservices.com/tag/js/gpt.js$domain=ukr.net
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=ukr.net
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,important,domain=ukr.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64416
 ! It's caused by RU AdList
 drive2.com,drive2.ru#@#div[itemtype^="http://schema.org/"] ~ div[data-role][data-target] ~ div:not(:last-child)
@@ -2160,6 +2164,7 @@ independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.c
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+ukr.net##.news-banner
 jablickar.cz##.headerbanner
 m.thewire.in##.advert_text1
 m.thewire.in##.header_adcode

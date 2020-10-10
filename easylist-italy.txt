@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: OjJrY2a0qECWEzloWlS9tw
-! Version: 202010090511
+! Checksum: vJJqtWRnxOuerAuxlj20kw
+! Version: 202010100511
 ! Title: EasyList Italy
-! Last modified: 09 Oct 2020 05:11 UTC
+! Last modified: 10 Oct 2020 05:11 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -37,6 +37,7 @@
 /altro/adv/*
 /annunciogoogle.
 /banners/ADV-
+/generici/ads-
 /gfx/adv/*
 /immagini/adv_
 /inclusioni/adv/*
@@ -426,6 +427,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ! *** easylistitaly:easylistitaly/easylistitaly_thirdparty.txt ***
 ||24hassistance.com^*/banner_$third-party
 ||377d936c10e6811f484c-6402e46c712497f58e3f77a59f47bbd5.r17.cf2.rackcdn.com^
+||6chic.net/media/banner/
 ||6sicuro.it/widgets/$third-party
 ||85.115.8.249^$image,domain=~chunnel.de.ip
 ||abc.sm/banner/
@@ -617,11 +619,16 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||tracking.style24.it^$popup,third-party
 ||tracking.tuobenessere.it^$popup,third-party
 ||tracking.viaggiamo.it^$popup,third-party
+||trendevice.com/?utm_$popup,domain=macitynet.it
 !---------------Regole specifiche per le pubblicità da bloccare---------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_specific_block.txt ***
 ||0-100.it^*/banner-
 ||24emilia.com^*banner
+||2duerighe.com^*-Vanilla-Notes.
+||2duerighe.com^*/ALTEA-
 ||3bmeteo.com^*/promo/
+||51news.it/images/banners/
+||51news.it/images/banners_
 ||7per24.it^*/sponsor/
 ||a.trend-online.it^
 ||abruzzolive.it^*/1300x200.gif
@@ -697,6 +704,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||biellaoggi.it^*/banner/
 ||bikeracing.it/bannersbk.jpg
 ||bloopers.it/images/sponsor/
+||bluvolleyverona.it/img/sponsor-
 ||bolli.it/images/banner/
 ||bolognatoday.it/images/skin/
 ||bordighera.net/banner/
@@ -789,6 +797,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||edilportale.com/Banner/
 ||edilportale.com/immagini/velux_manchette
 ||elaborare.com^*/banner
+||elivebrescia.tv^*/banner-
 ||emiliagol.it/js/allinone_bannerRotator.js
 ||emiliagol.it^*/File_banner/
 ||empolifc.com^*-sponsor.
@@ -821,6 +830,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||firenzespettacolo.it/media/banner/
 ||firstonline.info^*/300x600.
 ||firstonline.info^*/Auto-Doc.
+||fmtv.live^*-banner-
 ||focus-online.it/files/banner/
 ||focus-online.it/files/img_banner/
 ||fordfiestaitalia.com^*/sponsor/
@@ -1000,6 +1010,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||lospiffero.com/utils/add_popup_functions.js
 ||lostrillone.tv/foto-banner/
 ||lultimaribattuta.it^*/franca.jpg
+||macitynet.it^*/macitybig
 ||maidireborsa.it^*/image004-
 ||mail.tiscali.it^*/advlib.js
 ||mammedomani.it/images/banners/
@@ -1111,6 +1122,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||piemonteoggi.it^*/banner/
 ||piratestreaming.eu/vip/img/tad
 ||pisachannel.tv^*/Toscana-Aeroporti-
+||piuvallitv.it^*/sponsors/
 ||poliziamunicipale.it/script/getbnr.aspx?
 ||prealpina.it/js/manzoni_interna.js
 ||primapaginamolise.it/banner/
@@ -1157,10 +1169,12 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||quotidianodellumbria.it^*/skin-
 ||quotidianodellumbria.it^*_300x250px-
 ||radioamore.it^*/banners/
+||radioautmarche.it^*/banner_
 ||radiocantu.com^*-260x260-
 ||radiogold.it/images/banners/
 ||radiogold.it^*/Banner-
 ||radiogold.it^*/banner/
+||radiogold.it^*/foral-
 ||radioinblu.it^*/skin/
 ||radiolaquila1.it^*/asimar-
 ||radiolaquila1.it^*/mei-
@@ -1185,6 +1199,10 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||radionostalgia.fm^*/ROISTYLE.jpg
 ||radioradio.it^*/banner-
 ||radioradio.it^*/banner_
+||radioreporter.it/foto/grandi/iwm.jpg
+||radiosportiva.com/foto/grandi/20-1.jpg
+||radiosportiva.com/foto/grandi/banner_
+||radiosportiva.com/foto/grandi/Elsynet-
 ||ragusah24.it^*/cornice-
 ||ragusanews.com//immagini_banner/
 ||ragusanews.com/images_banner/
@@ -1278,9 +1296,18 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||teleborsa.it/FrameResources/4WTV/
 ||telecaprisport.it/banner/
 ||telecaprisport.it^*Banner-290x400.
+||telecitynews24.it^*/AMARO-PERUZZO-
+||telecitynews24.it^*/telecity-ad-platform/
 ||telefonino.net^*/justearntn.js
+||telegenova.net/a.png
+||telegenova.net/banner_
+||telegenova.net/gruppo_spinelli.jpg
+||telegenova.net/images/unnamed.png
+||telegenova.net/unige.gif
 ||teleromagna24.it/public/banners/
 ||teleromagna24.it^*/skin_
+||telesettelaghi.com^*/finestre-e-finestre.
+||telesettelaghi.com^*/maxottica-
 ||telestense.it/wp-content/banners/
 ||tempoitalia.it/banner/
 ||tenews.it/banner/
@@ -1366,6 +1393,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||tv2000.it^*/banner/
 ||tv2000.it^*/skin/
 ||tv2000.it^*_300x200.
+||tvcentromarche.it^*/ESTRA300x250-
 ||ultimissimemantova.it/banner/
 ||umbriaingol.it//immagini/File_banner/
 ||umbriajournal.com^*/banner-
@@ -1375,6 +1403,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||uominietrasporti.it^*/Auto-doc.
 ||uscatanzaro.net^*/motordoctor.
 ||uscremonese.it^*/sponsor/
+||usercontent.one/wp/www.immaginevalsassina.com/*/FARMACIA-F.G.S.
 ||ussalernitana1919.it^*-banner-
 ||valenza.it/banner/
 ||valledaostaglocal.it^*/box/
@@ -1384,6 +1413,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||valsassinanews.com^*-MANCHETTE-
 ||vanityfair.it^*/cn-banner.min.js?
 ||varesenews.it^*/banner/
+||vcoazzurratv.it/images/banner/
 ||vendingnews.it/wp-content/uploads/angwp/items/
 ||venetogol.it//immagini/File_banner/
 ||venetouno.it/media/imgbanners/
@@ -1500,7 +1530,6 @@ cronachedibirra.it###banner_in-article
 cronachedibirra.it###banner_in-article_adv
 subito.it###banner_leaderboard
 notiziediprato.it###banner_strip
-salernonotizie.it###banner_testa
 gruppovideomedia.it###banner_top
 fiorentinanews.com###banneralto
 frasimania.it###bannerpop
@@ -1540,6 +1569,10 @@ virgilio.it###cont-leaderboard
 virgilio.it###cont-manchette
 dilei.it,quifinanza.it,siviaggia.it,supereva.it,virgilio.it###cont-wallpaper
 autoseller.it###ctl00_ContentCentraleBanner
+tefchannel.it###ctl00_cphBody_mcsBannerShortBottom_pnlSlot
+tefchannel.it###ctl00_cphBody_mcsBannerShortTop_pnlSlot
+tefchannel.it###ctl00_cphBody_mcsSlotBannerBottom_rptGallery_ctl00_lnkLink
+tefchannel.it###ctl00_cphBody_mcsSlotBannerTop_rptGallery_ctl01_lnkLink
 teleborsa.it###ctl00_if4WTV300x250
 birramoriamoci.it###custom_html-2
 strill.it###custom_html-25
@@ -1678,6 +1711,7 @@ badcomics.it,badgames.it,badtaste.it,badtv.it##.aalb-880-product-carousel-unit
 repubblica.it##.aas_whole_wrapper
 cityrumors.it##.aawp
 topdigamma.it,tuttotek.it##.aawp-product
+tag24.it##.above-footer
 ilsole24ore.com##.abox
 radioitalia.it##.acquista
 jugo.it,lacrocequotidiano.it,liberatv.ch,lonelyplanetitalia.it,mondoplay.it,mondoxbox.com,serietvu.link,smartbuildingitalia.it,trend-online.com,tripadvisor.it##.ad
@@ -1734,10 +1768,12 @@ welfarenetwork.it##.banner-468-hp
 parmareport.it##.banner-big
 cuneocronaca.it,giochixl.it,lacrocequotidiano.it,mtv.it##.banner-container
 genova24.it##.banner-elezioni
+bluvolleyverona.it##.banner-fading
 algheroeco.com##.banner-header-dx
 algheroeco.com##.banner-header-sx
 ebikecult.it,mtbcult.it##.banner-homepage-slider-728-90
 italiafruit.net##.banner-i
+cremona1.it##.banner-inner
 italiafruit.net##.banner-m
 umbria24.it##.banner-show-desktop
 leccesette.it##.banner-side
@@ -1748,6 +1784,7 @@ frasimania.it##.banner-top
 edilportale.com##.banner-velux
 milanofinanza.it##.banner-video
 telegranducato.it##.banner-wrap
+bluvolleyverona.it##.banner-wrapper
 affaritaliani.it##.banner234Eni
 erbanotizie.com##.banner234x60-right
 fotografidigitali.it,hwupgrade.it,tvtech.it##.banner300x250
@@ -1831,7 +1868,7 @@ automoto.it,moto.it##.crm-unit-bx2
 automoto.it,moto.it##.crm-unit-bx3
 automoto.it,moto.it##.crm-unit-bx4
 automoto.it,moto.it##.crm-unit-mh
-radionorba.it##.custom_banners_big_link
+piacenza24.eu,radionorba.it##.custom_banners_big_link
 fiorentinanews.com##.destra_banner
 flashscore.it##.detail-bonus-match-summary-content-inner
 blastingnews.com##.dfp-mobile-leadeboard
@@ -1847,7 +1884,7 @@ luinonotizie.it##.fixed-sponsor
 udinese.it##.foobar-sponsor
 lega-pro.com##.footer-partner
 genoacfc.it##.footer-partner-link
-chievoverona.it,hellasverona.it##.footer-sponsor
+bluvolleyverona.it,chievoverona.it,hellasverona.it##.footer-sponsor
 acspezia.com,bresciacalcio.it,cagliaricalcio.com##.footer-sponsors
 palermofc.com##.footer_int
 quattroruote.it##.four-box-sponsor
@@ -1899,7 +1936,7 @@ erbanotizie.com,noinotizie.it##.manchette-sx
 24emilia.com##.marquee0
 ecoo.it##.masterhead-container-column
 sportivissimo.com##.menu4
-ecoaltomolise.net,newslinet.com,tvcity.it##.metaslider
+ecoaltomolise.net,newslinet.com,radiodeltainternational.it,tvcity.it##.metaslider
 automoto.it,moto.it##.mit-skin-spacer
 altamuralive.it,barilive.it,barlettalive.it,bisceglielive.it,bitontolive.it,cassanolive.it,coratolive.it,giovinazzolive.it,lavocedimanduria.it,okfirenze.com,okmugello.it,okvaldisieve.it,ruvolive.it,santeramolive.it,terlizzilive.it,termolionline.it,unicosettimanale.it##.mkt-300x250
 altamuralive.it,barilive.it,barlettalive.it,bisceglielive.it,bitontolive.it,cassanolive.it,coratolive.it,giovinazzolive.it,lavocedimanduria.it,okfirenze.com,okmugello.it,okvaldisieve.it,ruvolive.it,santeramolive.it,terlizzilive.it,termolionline.it,unicosettimanale.it##.mkt-300x60
@@ -2065,12 +2102,13 @@ blog.libero.it##a[href*=".clickbank.net/"]
 voglioporno.com##a[href*=".com/track/"]
 blog.libero.it##a[href*=".hop.clickbank.net/"]
 videopornoitalia.it##a[href*=".rivcash.com/"]
-amalfinotizie.it,birramoriamoci.it,corrieredellacalabria.it,freeonline.org,hwupgrade.it,ricettedellanonna.net,rivistanatura.com,tusciaweb.eu##a[href*="//bit.ly/"]
+amalfinotizie.it,birramoriamoci.it,corrieredellacalabria.it,cremaoggi.it,cremonaoggi.it,cremonasport.it,freeonline.org,hwupgrade.it,oglioponews.it,ricettedellanonna.net,rivistanatura.com,tusciaweb.eu##a[href*="//bit.ly/"]
 altadefinizione.coach,cb01.events,cb01.online,cb01.run,cineblog01.love,filmsenzalimiti.love,guardaserie.cam,speedvideo.net##a[href*="/4k/"]
 cineblog01.love##a[href*="/FULLHD/"]
 piratestreaming.movie##a[href*="/Guarda4K/"]
 altadefinizione01.green,guardaserie.cam##a[href*="/UHD/"]
 ilquotidianodellazio.it,romait.it##a[href*="/ad/click/"]
+telecitynews24.it##a[href*="/ads/"]
 diventaretrader.com##a[href*="/banner/redirect/"]
 everyeye.it##a[href*="/click.asp?"]
 focus.it##a[href*="/codice-sconto/"]
@@ -2105,7 +2143,7 @@ mangaforever.net,outcast.it,serialclick.it,tivusat.tv##a[href^="http://www.amazo
 corrierenazionale.it##a[href^="http://www.herobet.it/"]
 rietilife.com##a[href^="http://www.rietilife.com?pasID="]
 outcast.it##a[href^="http://www.tostadora.it/t-shirt-nerd.php?"]
-birramoriamoci.it,hynerd.it,ilsoftware.it,infotelematico.com,juzaphoto.com,mio-ip.eu,nokioteca.net,tivusat.tv,videogiocare.it##a[href^="https://amzn.to/"]
+birramoriamoci.it,hwupgrade.it,hynerd.it,ilsoftware.it,infotelematico.com,juzaphoto.com,macitynet.it,mio-ip.eu,nokioteca.net,tivusat.tv,videogiocare.it##a[href^="https://amzn.to/"]
 albengacorsara.it,campaniameteo.it##a[href^="https://clk.tradedoubler.com/"]
 animeemanga.it,comprovendodischi.it,comprovendolibri.it,corrieredellacalabria.it##a[href^="https://goo.gl/"]
 diventaretrader.com##a[href^="https://iqbroker.com/"]
