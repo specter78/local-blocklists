@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 06October2020v3
+! Version: 10October2020v5
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -402,6 +402,7 @@ metropoli.net###tdt_widget_minilanding-7
 metropoli.net##.rp-holder-419.main-term-1.listing-item-grid
 metropoli.net##.tdt-desktop-ad
 metropoli.net##.widget_bs-text-listing-4.widget.primary-sidebar-widget.w-t.h-bg-f2861a.h-bg.h-c-ffffff.h-c.h-ni.article-popular-post-widget
+metropoli.net#?#article[class|="post"][class~="listing-item-grid"]:-abp-has( > div.item-inner > div.featured.clearfix > a[href^="https://www.metropoli.net/rahapelit/"])
 metropoli.net,suomif1.com,suomifutis.com,suomikoris.com,suomiurheilu.com,viikonloppu.com##hr + h3 > strong, p + hr + h3, h3 + p, h3 + p + ul
 mikrobitti,talouselama.fi##div[id|="almad"]
 mikrobitti.fi##.is-visible.LazyLoad
@@ -513,7 +514,8 @@ seiska.fi##.tilaa-banner
 seiska.fi##div.article-ad-container
 seurakuntalainen.fi##div.article-item.column-mainospaikka
 shakerlehti.fi#?#.article:-abp-has( > ul > li > a[href="/artikkelit/kaupallinen-yhteistyo/"])
-sijoitustieto.fi#?#[class$="region-content"] > [class*="block-views"] > [class*="view-banneripaikka-etusivuoikea1"]
+sijoitustieto.fi##div[class~="view-banneripaikka-etusivuoikea1"]
+sijoitustieto.fi#?#p > em > strong:-abp-contains(Kaupallinen yhteistyö:)
 sketsi.net##footer > .container.tdt-ad-wrap
 somerolehti.fi###auto-grid-container-5c470b0150cba
 sportti.com##[href^="http://ads.leovegas.com/"]
@@ -571,6 +573,7 @@ tilt.fi##.lazyloading
 tivi.fi##a[href="https://studio.tivi.fi/"] + a[href^="https://studio.tivi.fi/"]
 tivi.fi##a[href^="/kumppaniblogit/"]
 tivi.fi##a[href^="https://studio.tivi.fi/"][href*="studiovieras"]
+tivi.fi#?#div#skyscraper-height-div > aside > a[href^="https://studio.tivi.fi/"]:-abp-contains(Kaupallinen yhteistyö)
 tivi.fi#?#div#skyscraper-height-div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > div > aside > div > section > div:-abp-contains(KAUPALLINEN YHTEISTYÖ)
 tivi.fi#?#div#skyscraper-height-div > div > section > div > div > aside:-abp-contains(KAUPALLINEN YHTEISTYÖ)
@@ -681,6 +684,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||nayadaya.com^$third-party
 ||nettiauto.com/en/ampparitBanner.php$subdocument
 ||otavamedia.fi/ad/$script
+||pkank.fi/direct/neoproxy/neo/neoproxy.dll$xhr,domain=pkank.fi
 ||puheenaiheet.fi/wp-content/uploads/*/Saunamaailma*$image
 ||puheenaiheet.fi/wp-content/uploads/*/lepfix*$image
 ||puheenaiheet.fi/wp-content/uploads/*/mekonomen*$image
@@ -696,7 +700,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||telsu.fi^$third-party
 ||testeri.fi/inc/museokortti.png$image
 ||tohtorille.fi/Content/img/op-banners/$image
-||ts.fi/adframe.js$script,domain=www.ts.fi
+||ts.fi/adframe.js$script,domain=ts.fi
 ||urbaanisanakirja.com/static/img/portsaad.png$image
 ||vg.is.fi/autotie-is-*/$subdocument
 ||ylilauta.org/fcdn/
@@ -792,5 +796,10 @@ tjareborg.fi#@#.push-container
 
 ! https://github.com/easylist/easylist/pull/6065
 ##div[class~="card--native"]
+
+! https://github.com/easylist/easylist/pull/6132
+@@||leiki.com/focus/$script,domain=seura.fi
+seura.fi#@#.nativead
+seura.fi##.nativead:not(.list)
 
 ! -----UNBREAK END-----
