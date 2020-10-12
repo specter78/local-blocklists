@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 19 Sep 2020
+#Updated: 11 Oct 2020
 #LatestVersion 0.9.5
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -12932,6 +12932,7 @@ startup.mobile.webvisor.com #Yandex Tracker
 startup.mobile.yandex.net #Yandex Tracker
 stat.alibaba.com
 stat.dealtime.com #Dealtime.Com - Tracker
+stat.domainrecover.com #Domainrecover.com - Tracker
 stat.swedbank.se #Swedbank
 statcounter.com
 static.ads-twitter.com #Twitter
@@ -13104,6 +13105,7 @@ track.flexlinkspro.com #Unknown - Tracker
 track.freecallinc.com #Freecallinc.Com - Tracker
 track.ft.com #Financial Times
 track.juno.com #Juno.com - Tracker
+track.ktplay.com #KTplay.com - Tracker
 track.lexico.com #Lexico Tracker
 track.mypcbackup.com #MyPCBackup
 track.news.bg #News.bg Tracker

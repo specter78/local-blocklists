@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 10October2020v5
+! Version: 11October2020v10
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -159,7 +159,6 @@ auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##[href^="/clk"]
 autotalli.com###topBanner
 basso.fi##div[id^="BannerBlock"]
-bbs.io-tech.fi##[href^="https://www.io-tech.fi/io/www/dlvr/glig.php"]
 bomber.fi###rt-sidebar-b
 brbikers.com##a[href*="tema.fi"]
 como.fi,episodi.fi,fum.fi,inferno.fi,rumba.fi,rytmi.com,soundi.fi,tilt.fi##div[data-recommendation-type="ad"]
@@ -268,9 +267,9 @@ inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
 inssinosingot.fi#?#div[class="row align-center"]:-abp-has([class$="lazy-load-active"])
-io-tech.fi###text-3
 io-tech.fi###text-7
-io-tech.fi##[href^="https://www.io-tech.fi/io/www/dlvr/tick.php"]
+io-tech.fi##body > div + div > div > div > a[target="_blank"]
+io-tech.fi##body > div > div + div > div > a[target="_blank"]
 io-tech.fi#?#div.artikkeli-slide:-abp-has([src*="-nosto"])
 io-tech.fi#?#div.artikkeli-slide:-abp-has([src*="samsung-ssd8-10-240x160_center_center.jpg"])
 irc-galleria.net##div[id^="open_"]
@@ -483,6 +482,8 @@ pt-media.org###main > .wpcnt > .wpa
 pt-media.org##.entry-content > .wpcnt
 pt-media.org##.theiaStickySidebar > .wpcnt
 pt-media.org##.wpcnt-header.wpcnt
+puheenaiheet.fi##a[class="gofollow thirstylinkimg"]
+puheenaiheet.fi##div.content-inner > div.a-single.a-27
 puheenaiheet.fi##div[id="text-7"][class="widget widget_text"]
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##.side-list.commercial-blog-studio
 puheenvuoro.uusisuomi.fi,vapaavuoro.uusisuomi.fi##a[class*="commercial-blog-card"]
@@ -562,6 +563,7 @@ talviopas.fi,turisti-info.fi##.sidebar-banners
 tehylehti.fi##.commercial-bottom.commercial
 tehylehti.fi##.commercial_wrapper
 tekniikanmaailma.fi##.in-text-ad-slot-wrapper
+tekniikanmaailma.fi##div.Article_nettix-embed-container
 tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="/kumppaniblogit/"]
 tekniikkatalous.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="https://studio.tekniikkatalous.fi/"]
 tekniikkatalous.fi##div#skyscraper-height-div > div > section > div > a[href^="/kumppaniblogit/"]
@@ -627,9 +629,11 @@ viisasraha.fi##.d-md-block.d-lg-block.d-none
 viisasraha.fi##.kumppani-artikkelit
 viisasraha.fi##div[class*="native-article"] > div[class="ezrichtext-field"] > p > a[href^="https://danskebank.fi/"]
 viisasraha.fi##div[class^="banner"] > a[href="https://www.viisasraha.fi/Taloushaltuun"]
-voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(span.sponsored)
 voice.fi##section[class^="sbsads"] + section[class^="sbs-articleitems full-size-list"][data-module_position_id="612"]
+voice.fi#?#.sbs-articleitems.list-right-column:-abp-has(span.sponsored)
+vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto; padding: 20px; display: table; min-width: 300px; max-width: 100%; font-family: 'Open Sans', sans-serif; font-size: 14px;"]
 vuokraovi.com##.advertising
+warkaudenlehti.fi##div[class~="card--native"]
 ylilauta.org##.h.fcdn
 yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 
@@ -684,7 +688,8 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||nayadaya.com^$third-party
 ||nettiauto.com/en/ampparitBanner.php$subdocument
 ||otavamedia.fi/ad/$script
-||pkank.fi/direct/neoproxy/neo/neoproxy.dll$xhr,domain=pkank.fi
+||pkank.fi/direct/neoproxy/neo/neoproxy.dll$xmlhttprequest,domain=pkank.fi
+||puheenaiheet.fi/wp-content/uploads/*/Autohuolto*$image
 ||puheenaiheet.fi/wp-content/uploads/*/Saunamaailma*$image
 ||puheenaiheet.fi/wp-content/uploads/*/lepfix*$image
 ||puheenaiheet.fi/wp-content/uploads/*/mekonomen*$image
@@ -695,8 +700,7 @@ yrittajat.fi##div[class$="kaupallinen-yhteistyo"]
 ||seksitreffit.fi/banners/*$domain=seksitreffit.fi
 ||sf.nm-ovp.nelonenmedia.fi/player/games/ruutu-player-loader.js$script,domain=alypaa.com
 ||suomi24.fi/js/adTargeting.js$script,domain=suomi24.fi
-||superskills.fi/fi/search?isIframe=true$subdocument
-||superskills.fi/fi?isIframe=true$subdocument
+||superskills.fi/fi*?isIframe=true$subdocument
 ||telsu.fi^$third-party
 ||testeri.fi/inc/museokortti.png$image
 ||tohtorille.fi/Content/img/op-banners/$image
@@ -754,8 +758,11 @@ murha.info#@#.adsbox
 !#endif
 !#endif
 
-! appears when blocking ^^:
+! appears when blocking:
 ||mobiili.fi/wp-content/themes/mobiilitheme/images/small-loading.gif$image
+
+! To fix the opening of cdon.com product links on hinta.fi
+@@||tradedoubler.com^$first-party
 
 ! -----UNSORTED END-----
 ! -----UNBREAK-----
@@ -793,9 +800,6 @@ tjareborg.fi#@#.push-container
 @@||proxy.strossle.it/proxy.html$subdocument,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||widgets.spklw.com/v1/data/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi
-
-! https://github.com/easylist/easylist/pull/6065
-##div[class~="card--native"]
 
 ! https://github.com/easylist/easylist/pull/6132
 @@||leiki.com/focus/$script,domain=seura.fi
