@@ -1,8 +1,8 @@
-! Checksum: 74wKdLHeb96dJe4NhbvbvQ
+! Checksum: RRxYRz39sUGCYd1qTHR6Pw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.41
-! TimeUpdated: 2020-10-09T20:31:38+03:00
+! Version: 2.0.17.45
+! TimeUpdated: 2020-10-13T00:03:52+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -190,6 +190,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! ||notify.bugsnag.com^
 ! ||crashlytics2.l.google.com^
 ! ||crashlyticsreports-pa.googleapis.com^
+! ||bugly.qcloud.com^
+! ||admob-app-id-*.firebaseio.com^
 !
 !
 ! ||ensighten.com^$third-party - not a tracker
@@ -204,6 +206,15 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||events.mapbox.com^
+||log2.spotify.com^
+||log.particlenews.com^
+||analytics.a-f.io^
+||analytics-api.a-f.io^
+||smetrics.att.com^
+||global.px.quantserve.com^
+||client-analytics.braintreegateway.com^
+||log.propermessage.io^
 ||hit.acstat.com^
 ||fhits.xyz^$third-party
 ||intelligenceretarget.com^$third-party
@@ -8152,10 +8163,10 @@ dreamprogs.net##td[width="88"][height="31"]
 ||tribl.io/firm_tracking.js
 ||tribl.io/_t.gif?
 ||tribl.io/analytics*.js^
-||tripadvisor.com/actionrecord
-||tripadvisor.com/cookiepingback?
-||tripadvisor.com/garecord
-||tripadvisor.com/impressionrecord
+||tripadvisor.*/actionrecord
+||tripadvisor.*/cookiepingback?
+||tripadvisor.*/garecord
+||tripadvisor.*/impressionrecord
 ||trivago.de/search/log
 ||trk.helios.ligatus.com/imp?z=$image
 ||trust.zone/api_ip_info.php?$third-party
@@ -8329,6 +8340,7 @@ link.gmapp*.net$image
 !
 ! Appsflyer
 !
+||inapps.appsflyer.com^
 ||gcdsdk.appsflyer.com^
 ||statsgoogle.appsflyer.com^
 ||impression.appsflyer.com^
@@ -8783,6 +8795,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/65334
+@@||src.litix.io/core/*/mux.js$domain=kanald.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65116
 @@||cdn.dynamicyield.com^$domain=dafiti.com.co
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co

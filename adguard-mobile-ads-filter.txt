@@ -1,8 +1,8 @@
-! Checksum: RIbfkmeoX7oMQugsTaeXag
+! Checksum: GEFn96nOi6DP/9IaL/guig
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.76
-! TimeUpdated: 2020-10-09T19:30:21+03:00
+! Version: 2.0.15.80
+! TimeUpdated: 2020-10-13T00:30:14+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -196,6 +196,7 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||ad.particlenews.com^
 ||ad.wynk.in^
 ||pushad.metajoy.services^
 ||adzfun.info^$third-party
@@ -1564,6 +1565,8 @@ yandex.ru#?#body[class*="news_phone"] div.news-container > span > div > div.unit
 pornhub.com,pornhubthbh7ap3u.onion#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
 !#################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/65274
+m.economictimes.com#%#//scriptlet('set-cookie', 'inter', '1')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64521
 supleks.jp#%#//scriptlet('abort-current-inline-script', 'document.getElementsByClassName', 'adBlocked')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63495
@@ -1644,7 +1647,7 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 xhamster.com,xhamster2.com#$#.video-view-ads { display: none!important; }
 xhamster.com,xhamster2.com#$#body { overflow: visible!important; position: static!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61897
-cnews.ru#$#.mobile-banner { display: none !important; }
+cnews.ru#$#html > body.modal-open div#mobile-banner.modal.mobile-banner { display: none !important; }
 cnews.ru#$#.modal-backdrop { display: none !important; }
 cnews.ru#$#body { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62346
@@ -2164,6 +2167,7 @@ independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.c
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+yahoo.com##li[data-test-locator="ntk-ad"]
 ukr.net##.news-banner
 jablickar.cz##.headerbanner
 m.thewire.in##.advert_text1
@@ -2387,7 +2391,6 @@ mumbailive.com###bottom-drawer-ad
 healthline.com##.css-pdceuf
 18comic.org###wrapper > div.forum-pop ~ div.bot-per
 baumpflegeportal.de##.baump-mobil-unten
-turbopages.org##.advert
 m.trojmiasto.pl###body > .section-subcontent > div[class] > div[id][style^="text-decoration:"]
 m.trojmiasto.pl###body > div[class][style="margin: 10px auto"] > div[id][style^="text-decoration:"]
 sinefy.com##a[href^="https://partnerx.bethub.io/"]
