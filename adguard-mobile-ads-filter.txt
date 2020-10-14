@@ -1,8 +1,8 @@
-! Checksum: GEFn96nOi6DP/9IaL/guig
+! Checksum: 6LOb8ioz+Orj/7ZTfJrmOg
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.80
-! TimeUpdated: 2020-10-13T00:30:14+03:00
+! Version: 2.0.15.83
+! TimeUpdated: 2020-10-13T19:30:20+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2168,6 +2168,8 @@ independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.c
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
 yahoo.com##li[data-test-locator="ntk-ad"]
+amp.segodnya.ua##.article-banner
+amp.segodnya.ua##.partners-news
 ukr.net##.news-banner
 jablickar.cz##.headerbanner
 m.thewire.in##.advert_text1
@@ -3872,6 +3874,7 @@ livejournal.com##.mdspost-aside__item--banner
 ! Blocking Facebook mobile ads
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/64666
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64394
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62310
 !
