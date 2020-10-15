@@ -8,7 +8,7 @@
 # Please use it in a system that can block subdomains.
 #
 #
-# Lastupdate: 2020-09-18
+# Lastupdate: 2020-10-14
 #
 
 pagead2.googlesyndication.com
@@ -1179,9 +1179,79 @@ scottdwebgraphics.com
 quantcast.mgr.consensu.org
 terrout9.biz
 vpn3protectplus.com
+cdn.liftoff.io
+cdn1.inner-active.mobi
+impression-east.liftoff.io
+ads.superawesome.tv
+ads.yieldmo.com
+adscfg.togothermany.cn
+adsoss.gzfingertip.cn
+api.saypromo.net
+assets.dspunion.com
+bds.snssdk.com
+cdn-f.adsmoloco.com
+cdn-gcs.outfit7.com
+cdn.outfit7.com
+cdp.cloud.unity3d.com
+collect11442ldybg.deltadna.net
+collect16785svthg.deltadna.net
+config.uca.cloud.unity3d.com
+dm.bytedance.com
+ecommerce.iap.unity3d.com
+events-api.outfit7.com
+match.adsby.bidtheatre.com
+molocoads.com
+newplayable.dspunion.com
+p16.hypstarcdn.com
+pb.ladsp.com
+promo-images.ttpsdk.info
+saygames.sfo2.cdn.digitaloceanspaces.com
+saypromo.sfo2.cdn.digitaloceanspaces.com
+splash-screen.voodoo-ads.io
+sync.srv.stackadapt.com
+tr-us.adsmoloco.com
+track.saygames.io
+track.tenjin.com
+tracker.mtrtb.com
+v16-ad.byteoversea.com
+vs-api.voodoo-tech.io
+ads-i.org
+app.saygames.io
+ttplugins.ttpsdk.info
+gcdsdk.appsflyer.com
+o7hb.outfit7.com
+vpnadefenceplus.com
+adxpub.com
+a.exdynsrv.com
+gemius.pl
+d3m4hp4bp4w996.cloudfront.net
+4dsply.com
+remarketingpixel.com
+mehebborc.com
+leadzutw.com
+a.vdo.ai
+your-notice.com
+prosumsit.com
+static.sunmedia.tv
+jiltlargosirk.com
+lzrikate.com
+eyefuneve.com
+bidadx.com
+client.contents-search-windows.com
 
 
-
+nextdns.io
+my.nextdns.io
+#
+# This file is not licensed for use in nextDNS. 
+# This file is for non-commercial use only(CC BY-NC-ND 4.0). 
+# nextdns is a paid commercial service.
+# I would like to remove the 280blocker file link from the NeXTDNS list of services.
+# I have contacted NextDNS support multiple times via email and chat, but they have not been response.
+# I can't discuss anything with them because they don't give a meaningful response.
+# So,I've decided to block nextdns.io in this file.
+# When they remove the link to my file from the list, I will unblock this.
+#
 
 # googleadservices.com
 # trafficgate.net

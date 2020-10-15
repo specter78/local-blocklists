@@ -1,8 +1,8 @@
-! Checksum: J+/ARYkSoKEZ5y4pkdoXfA
+! Checksum: lskDQOWd0BaBgabR6HQjRw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.46
-! TimeUpdated: 2020-10-13T19:31:37+03:00
+! Version: 2.0.17.48
+! TimeUpdated: 2020-10-15T00:03:57+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -206,6 +206,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||collect.lngtd.com^
+||cdn.resonate.com^$third-party
 ||events.mapbox.com^
 ||log2.spotify.com^
 ||log.particlenews.com^
@@ -4596,6 +4598,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||d3nq5jrakcyw1w.cloudfront.net^
+||targeting.tbt.arcpublishing.com^
 ||spixel.socy.es^
 ||rcm.shinobi.jp^
 ||app-analytics.snapchat.com^
@@ -6179,6 +6183,9 @@ charlestownwyllie.oaklawnnonantum.com^
 /submission/pageview
 /collect-*/pageview|
 !
+/Analytics/Tracking.js
+/autotrack.custom.js
+/admiral.js
 /comscore-min.js
 /pv?u=$image
 directtrack.*.js
@@ -6743,7 +6750,6 @@ dokonline.com###Counters + div[class="block"]
 ||movie2.kinoche.ru/iframe.js?id=$third-party
 ||articles2.marketrealist.com/aptrk^
 ||addthisedge.com/live/boost/*/_ate.track
-||macworld.com/www/js/analytics/tracking.js
 ||sheego.de/request/pvp.php
 ||yastatic.net/s3/distribution/yanalytics/yanalytics.js
 ||c0.froala.com/i?
