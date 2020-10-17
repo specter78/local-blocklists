@@ -141,6 +141,7 @@ noticecdn.samsungcloudsolution.com
 noticefile.samsungcloudsolution.com
 oempprd.samsungcloudsolution.com
 oempprd.samsungcloudsolution.net
+prderrordumphsm.samsungcloudsolution.com
 openapi.samsung.com
 osb-apps.samsungqbe.com
 osb-krsvc.samsungqbe.com
@@ -273,9 +274,11 @@ xml.opera.com
 #secure.netflix.com                   
 #api-global.netflix.com
 #appboot.netflix.com
+# Netflix playback fails on Humax DTR-T2100 (YouView) STB
+#nrdp.nccp.netflix.com
 ichnaea.netflix.com
 customerevents.netflix.com
-nrdp.nccp.netflix.com
+
 
 # Spotify
 #api-tv.spotify.com # required for TV and PS4 spotify app
