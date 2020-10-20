@@ -5,8 +5,8 @@
 #         http://logroid.blogspot.jp/
 #         https://twitter.com/logroid
 #
-# last updated: 2020/10/13
-# block hosts: 31195 entry
+# last updated: 2020/10/20
+# block hosts: 31199 entry
 
 # 000webhost.com
 127.0.0.1 err.000webhost.com
@@ -3424,12 +3424,16 @@
 # a-affiliate.jp
 127.0.0.1 a-affiliate.jp
 
+# a-affiliate.net
+127.0.0.1 a-affiliate.net
+
 # a-c-engine.com
 127.0.0.1 a-c-engine.com
 127.0.0.1 www.a-c-engine.com
 
 # a-cast.jp
 127.0.0.1 a-cast.jp
+127.0.0.1 tracer.a-cast.jp
 127.0.0.1 tracer02.a-cast.jp
 
 # a-counter.kiev.ua
@@ -16666,6 +16670,9 @@
 # d1g.com
 127.0.0.1 oas.d1g.com
 
+# d2-apps.net
+127.0.0.1 d2-apps.net
+
 # d2c.ne.jp
 127.0.0.1 ad.ssp.d2c.ne.jp
 127.0.0.1 adg.d2c.ne.jp
@@ -22895,6 +22902,9 @@
 127.0.0.1 fukugan.com
 127.0.0.1 jpn2.fukugan.com
 127.0.0.1 jpn3.fukugan.com
+
+# fukuishimbun.co.jp
+127.0.0.1 af.fukuishimbun.co.jp
 
 # full-edition.info
 127.0.0.1 www.full-edition.info
@@ -32054,6 +32064,9 @@
 127.0.0.1 cd.ladsp.com
 127.0.0.1 ladsp.com
 127.0.0.1 tag.ladsp.com
+
+# ladsp.jp
+127.0.0.1 ladsp.jp
 
 # ladycash.ru
 127.0.0.1 n.ladycash.ru
@@ -43432,7 +43445,6 @@
 127.0.0.1 grp07.ias.rakuten.co.jp
 127.0.0.1 grp08.ias.rakuten.co.jp
 127.0.0.1 grp09.ias.rakuten.co.jp
-127.0.0.1 hb.afl.rakuten.co.jp
 127.0.0.1 hbb.afl.rakuten.co.jp
 127.0.0.1 ias.rakuten.co.jp
 127.0.0.1 item.recommend.rakuten.co.jp
