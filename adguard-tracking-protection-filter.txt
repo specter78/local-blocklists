@@ -1,8 +1,8 @@
-! Checksum: JkzUF3bXH+L6sSL/+foQ5g
+! Checksum: uJlWU1JLCxtxlBlICQpZLw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.56
-! TimeUpdated: 2020-10-20T01:31:25+03:00
+! Version: 2.0.17.66
+! TimeUpdated: 2020-10-20T23:31:25+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -206,6 +206,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||pre.glotgrx.com^
+||widerplanet.com^$third-party
+||msg.qy.net^
+||hit.uptrendsdata.com^$third-party
 ||hubvisor.io^$third-party
 ||sitest.jp^$third-party
 ||husfly.com^$third-party
@@ -4601,6 +4605,11 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||tracking.epicgames.com^
+||t*.zcvh.net^
+||adj.st^
+||app.adjust.net.in^
+||app.adjust.world^
 ||d3nq5jrakcyw1w.cloudfront.net^
 ||tracking.netdoktor.at^
 ||targeting.tbt.arcpublishing.com^
@@ -6494,6 +6503,9 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||api.aws.mapquest.com/logger
+||yuzde100yerli.com/wp-json/pum/v*/analytics/?event=
+||mysexgames.com/statstracker.php
 ||churchtechtoday.com/?wordfence_lh=
 ||hdfilmcehennemi6.org/analytics/
 ||playep.pro/pl/vendor/stat.min.js
@@ -8811,6 +8823,12 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/65868
+@@||collector.appconsent.io/hello$domain=linternaute.com
+@@||collector.appconsent.io/save$domain=linternaute.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/65878
+@@||pdrnetwork.112.2o7.net/b/ss/pdrnetworkpdrnetprod/
+||pdrnetwork.112.2o7.net/b/ss/pdrnetworkpdrnetprod/$image,redirect=2x2-transparent.png,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65334
 @@||src.litix.io/core/*/mux.js$domain=kanald.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65116
@@ -8853,6 +8871,8 @@ link.gmapp*.net$image
 ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set-constant', 'window.wcs_add', 'noopFunc')
 ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set-constant', 'window.wcs_do', 'noopFunc')
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/65945
+@@||googletagmanager.com/gtag/js$domain=muji.order.place
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64945
 @@||cdn.cxense.com/cx*.js$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
