@@ -1,8 +1,8 @@
-! Checksum: KwLpCkls1lAPJSa/WgzOfw
+! Checksum: AL8TwnrLCyqH0OLrwvtgKA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.89
-! TimeUpdated: 2020-10-20T19:30:20+03:00
+! Version: 2.0.15.93
+! TimeUpdated: 2020-10-21T19:31:21+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1262,6 +1262,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/66050
+m.hindustantimes.com#?#body > section:has(> div.center > div[id^="div-gpt-ad-"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65480
 loveha.net#?#.chapter-content > .quang-cao:has(> h3 > font[color="white"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64482#issuecomment-698309077
@@ -2169,6 +2171,11 @@ dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshar
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+||m.pufei8.com/skin/view/ft2.js
+||m.pufei8.com/skin/middle.js
+m.hindustantimes.com###stickydivAD
+ctwant.com##.m-adpopup
+lifestyle.24tv.ua##div[class="within-ads"]
 m.lenta.ru##.topic-page > div.board
 m.ruliweb.com##div[id^="nbp_container_"]
 yahoo.com##li[data-test-locator="ntk-ad"]

@@ -1,8 +1,8 @@
-! Checksum: uJlWU1JLCxtxlBlICQpZLw
+! Checksum: aIiJfUw/myNn4BgClj9lDQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.66
-! TimeUpdated: 2020-10-20T23:31:25+03:00
+! Version: 2.0.17.69
+! TimeUpdated: 2020-10-21T18:33:24+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -206,6 +206,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||userreport.com^$third-party
+||beusable.net^$third-party
+||ccgateway.net^$third-party
+||ivstracker.net^$third-party
 ||pre.glotgrx.com^
 ||widerplanet.com^$third-party
 ||msg.qy.net^
@@ -8823,6 +8827,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/66034
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=zeelandnet.nl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65868
 @@||collector.appconsent.io/hello$domain=linternaute.com
 @@||collector.appconsent.io/save$domain=linternaute.com
