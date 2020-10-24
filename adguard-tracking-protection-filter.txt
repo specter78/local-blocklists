@@ -1,8 +1,8 @@
-! Checksum: bqRQs6LWmbqYxVQ45s4pfA
+! Checksum: dMKtvamyPc6dn2sqTEdPgQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.71
-! TimeUpdated: 2020-10-22T17:31:42+03:00
+! Version: 2.0.17.75
+! TimeUpdated: 2020-10-23T18:32:06+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -207,6 +207,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/slardar/sdk.js
 !
 ||userreport.com^$third-party
+||geoedge.be^$third-party
 ||beusable.net^$third-party
 ||ccgateway.net^$third-party
 ||ivstracker.net^$third-party
@@ -6980,14 +6981,12 @@ continentseven.com##.gaoop
 ||yvesrocher.com.tr/images/__utm.gif^
 ||teenporn.ws/zaq/cron.php
 ||lib.zumst.com/3rd/zum-logger
-||ssl.pstatic.net/sstatic/sdyn
 ||news.nate.com/js/today/userAgent
 ||search1.daumcdn.net/search/statics/common/js/log
 ||map.naver.com/v5/api/searchAddressById
 ||ca-fe.pstatic.net/web-mobile/static/web-crash-logger
 ||ca-fe.pstatic.net/web-mobile/static/naverStatLogger
 ||cafe.naver.com/static/js/*/javascript/lcslog
-||cafe.naver.com/static/js/*/common/bastat/ScriptBAStatLog
 ||scv.band.us/jackpotlog/v1/logs
 ||comic.naver.com/aggregate/javascript/release/lcslog
 ||apis.naver.com/videostat/videostat/qoe
@@ -8855,6 +8854,12 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/66213
+@@||google-analytics.com/analytics.js$domain=onul-hoi.com
+@@||google-analytics.com/plugins/ua/ec.js$domain=onul-hoi.com
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=onul-hoi.com,important
+! https://github.com/AdguardTeam/AdguardFilters/issues/66157
+@@||tag.aticdn.net/*/smarttag.js$domain=uktvplay.uktv.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66089
 @@||googletagmanager.com/gtm.js$domain=cacharel.com.tr
 @@||google-analytics.com/analytics.js$domain=cacharel.com.tr
