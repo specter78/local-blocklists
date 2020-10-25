@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 22 Oct 2020 10:15 UTC+7
+# Updated: 24 Oct 2020 22:29 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -2638,7 +2638,6 @@
 0.0.0.0 w.inmobi.com
 0.0.0.0 xray.corp.inmobi.com
 0.0.0.0 inmobicdn.com
-0.0.0.0 inmobisdk-a.akamaihd.net
 #[inmobi.cn]
 0.0.0.0 api.inmobi.cn
 0.0.0.0 api.w.inmobi.cn
@@ -3618,7 +3617,6 @@
 0.0.0.0 admin.appnext.com
 0.0.0.0 ads.appnext.com
 0.0.0.0 api.appnext.com
-0.0.0.0 appnext-a.akamaihd.net
 0.0.0.0 appnext.com
 0.0.0.0 cdn.appnext.com
 0.0.0.0 developers.appnext.com
@@ -5352,11 +5350,12 @@
 0.0.0.0 ua.supersonicads.com
 0.0.0.0 www.supersonicads.com
 #[pub.network]
-0.0.0.0 pub.network
 0.0.0.0 a.pub.network
-0.0.0.0 b.pub.network
+0.0.0.0 api.pub.network
 0.0.0.0 c.pub.network
 0.0.0.0 d.pub.network
+0.0.0.0 prebid.pub.network
+0.0.0.0 pub.network
 #[disqus]
 0.0.0.0 glitter.services.disqus.com
 0.0.0.0 juggler.services.disqus.com
@@ -5821,13 +5820,6 @@
 0.0.0.0 traffic.shareaholic.com
 0.0.0.0 v2.shareaholic.com
 0.0.0.0 www.shareaholic.com
-#[akamaized]
-0.0.0.0 cdn-guile.akamaized.net
-0.0.0.0 contentclick.akamaized.net
-0.0.0.0 dyn-beacon.akamaized.net
-0.0.0.0 ma85-r-analytics.akamaized.net
-0.0.0.0 speee-ad.akamaized.net
-0.0.0.0 static-ads.akamaized.net
 #[quantserve.com]
 0.0.0.0 ads.quantserve.com
 0.0.0.0 c.quantserve.com
@@ -5850,6 +5842,11 @@
 0.0.0.0 ssl.quantserve.com
 0.0.0.0 vast.quantserve.com
 0.0.0.0 www.quantserve.com
+#[quantcount.com]
+0.0.0.0 m.quantcount.com
+0.0.0.0 pixel.quantcount.com
+0.0.0.0 quantcount.com
+0.0.0.0 static.quantcount.com
 #[advertising.com]
 0.0.0.0 ads.adaptv.advertising.com
 0.0.0.0 adserver-as.adtech.advertising.com
@@ -8033,23 +8030,18 @@
 0.0.0.0 sp.getblueshift.com
 0.0.0.0 www.getblueshift.com
 #[useinsider.com]
-0.0.0.0 academy.useinsider.com
 0.0.0.0 api.useinsider.com
 0.0.0.0 hit.api.useinsider.com
 0.0.0.0 image.useinsider.com
-0.0.0.0 ing-mobile.useinsider.com
-0.0.0.0 kidsplazavn.api.useinsider.com
 0.0.0.0 landing.useinsider.com
 0.0.0.0 location.api.useinsider.com
 0.0.0.0 log.api.useinsider.com
 0.0.0.0 mobile.useinsider.com
 0.0.0.0 mobileanalytics.useinsider.com
-0.0.0.0 multimedia.inmail.inone.useinsider.com
 0.0.0.0 parter.api.useinsider.com
-0.0.0.0 recommendation.api.useinsider.com
 0.0.0.0 service.useinsider.com
-0.0.0.0 shopvne.api.useinsider.com
 0.0.0.0 static.api.useinsider.com
+0.0.0.0 unification.useinsider.com
 0.0.0.0 useinsider.com
 0.0.0.0 weather.api.useinsider.com
 0.0.0.0 www.useinsider.com
@@ -15685,6 +15677,9 @@
 0.0.0.0 recommender.scarabresearch.com
 0.0.0.0 scarabresearch.com
 0.0.0.0 static.scarabresearch.com
+#[tiktok.com]
+0.0.0.0 ads.tiktok.com
+0.0.0.0 analytics.tiktok.com
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -16981,6 +16976,7 @@
 0.0.0.0 ad.24h.com.vn
 0.0.0.0 ad.accesstrade.vn
 0.0.0.0 ad.icheck.com.vn
+0.0.0.0 ad.lapa.pub
 0.0.0.0 ad.mwork.vn
 0.0.0.0 ad.qtcs.com.vn
 0.0.0.0 ad.sunflower.vn
@@ -17209,6 +17205,7 @@
 0.0.0.0 track-srv.vietnamnet.vn
 0.0.0.0 track.accesstrade.vn
 0.0.0.0 track.icheck.com.vn
+0.0.0.0 track.lapa.pub
 0.0.0.0 track.pregmomvietnam.com
 0.0.0.0 track.sendo.vn
 0.0.0.0 tracker.phunuvagiadinh.vn
@@ -17843,7 +17840,6 @@
 0.0.0.0 ads.themovienation.com
 0.0.0.0 ads.thestar.com
 0.0.0.0 ads.thrillsaffiliates.com
-0.0.0.0 ads.tiktok.com
 0.0.0.0 ads.tmcs.net
 0.0.0.0 ads.toplayaffiliates.com
 0.0.0.0 ads.totallyfreestuff.com
@@ -18220,6 +18216,7 @@
 0.0.0.0 appia.com
 0.0.0.0 appier.com
 0.0.0.0 appier.net
+0.0.0.0 appnext-a.akamaihd.net
 0.0.0.0 appolicious.com
 0.0.0.0 apprebates.com
 0.0.0.0 appredeem.com
@@ -18565,6 +18562,7 @@
 0.0.0.0 chart.dk
 0.0.0.0 checkm8.com
 0.0.0.0 checkstat.nl
+0.0.0.0 checkyofeed.com
 0.0.0.0 cheerfulrange.com
 0.0.0.0 chestionar.ro
 0.0.0.0 chewcoat.com
@@ -19259,6 +19257,7 @@
 0.0.0.0 ingameads.gameloft.com
 0.0.0.0 inkeblotsxchange.com
 0.0.0.0 inmobi-jp.com
+0.0.0.0 inmobisdk-a.akamaihd.net
 0.0.0.0 inner-active.com
 0.0.0.0 innocentwax.com
 0.0.0.0 innovid.com
@@ -19312,6 +19311,7 @@
 0.0.0.0 jcount.com
 0.0.0.0 jf71qh5v14.com
 0.0.0.0 jinkads.de
+0.0.0.0 jioads.akamaized.net
 0.0.0.0 jivox.com
 0.0.0.0 jiwire.com
 0.0.0.0 joetec.net
@@ -19677,6 +19677,7 @@
 0.0.0.0 nondescriptcrowd.com
 0.0.0.0 nondescriptsmile.com
 0.0.0.0 nondescriptstocking.com
+0.0.0.0 nortaumi.net
 0.0.0.0 notifysrv.com
 0.0.0.0 novem.pl
 0.0.0.0 nrc.tapas.net
@@ -19950,6 +19951,7 @@
 0.0.0.0 ps.ns-cdn.com
 0.0.0.0 ps7894.com
 0.0.0.0 psstt.com
+0.0.0.0 ptairtug.net
 0.0.0.0 pub.chez.com
 0.0.0.0 pub.club-internet.fr
 0.0.0.0 pub.hardware.fr
@@ -20269,6 +20271,7 @@
 0.0.0.0 specificpop.com
 0.0.0.0 speedomizer.com
 0.0.0.0 speedshiftmedia.com
+0.0.0.0 speee-ad.akamaized.net
 0.0.0.0 spezialreporte.de
 0.0.0.0 spidersboats.com
 0.0.0.0 spiffymachine.com
@@ -20317,6 +20320,7 @@
 0.0.0.0 stat24.com
 0.0.0.0 stat24.meta.ua
 0.0.0.0 statcounter.com
+0.0.0.0 static-ads.akamaized.net
 0.0.0.0 static.fmpub.net
 0.0.0.0 static.itrack.it
 0.0.0.0 static.scroll.com
@@ -20377,6 +20381,7 @@
 0.0.0.0 sunmedia.tv
 0.0.0.0 superclix.de
 0.0.0.0 superfastcdn.com
+0.0.0.0 supersonicads-a.akamaihd.net
 0.0.0.0 superstats.com
 0.0.0.0 supertop.ru
 0.0.0.0 supertop100.com
@@ -20420,6 +20425,7 @@
 0.0.0.0 targetspot.com
 0.0.0.0 tastefulsongs.com
 0.0.0.0 tatango.com
+0.0.0.0 tathitch.net
 0.0.0.0 tatsumi-sys.jp
 0.0.0.0 tawdryson.com
 0.0.0.0 tcads.net
@@ -20967,7 +20973,6 @@
 0.0.0.0 analytics.samdd.me
 0.0.0.0 analytics.siliconexpert.com
 0.0.0.0 analytics.swiggy.com
-0.0.0.0 analytics.tiktok.com
 0.0.0.0 analytics.ziftsolutions.com
 0.0.0.0 analyticsapi.bsbportal.com
 0.0.0.0 anhui-attorney.com
@@ -21329,3 +21334,37 @@
 0.0.0.0 track.appsflyer.com
 0.0.0.0 validate.appsflyer.com
 0.0.0.0 wa.appsflyer.com
+#[tiktokv.com]
+0.0.0.0 applog.tiktokv.com
+0.0.0.0 log-va.tiktokv.com
+0.0.0.0 log.tiktokv.com
+0.0.0.0 mon-va.tiktokv.com
+0.0.0.0 mon.tiktokv.com
+0.0.0.0 rtlog.tiktokv.com
+0.0.0.0 xlog-va.tiktokv.com
+0.0.0.0 xlog.tiktokv.com
+#[byteoversea.com]
+0.0.0.0 log.byteoversea.com
+0.0.0.0 log15.byteoversea.com
+0.0.0.0 log16.byteoversea.com
+0.0.0.0 mon-va.byteoversea.com
+0.0.0.0 mon.byteoversea.com
+0.0.0.0 rtlog.byteoversea.com
+0.0.0.0 xlog-va.byteoversea.com
+0.0.0.0 xlog.byteoversea.com
+#[musical.ly]
+0.0.0.0 applog.musical.ly
+0.0.0.0 log.musical.ly
+0.0.0.0 log2.musical.ly
+0.0.0.0 mon.musical.ly
+0.0.0.0 rtlog.musical.ly
+#[isnssdk.com]
+0.0.0.0 client_monitor.isnssdk.com
+0.0.0.0 clientmonitor.isnssdk.com
+0.0.0.0 mon.isnssdk.com
+0.0.0.0 monitor.isnssdk.com
+0.0.0.0 rtlog.isnssdk.com
+#[snssdk.com]
+0.0.0.0 log-lq.snssdk.com
+0.0.0.0 log.snssdk.com
+0.0.0.0 mon.snssdk.com

@@ -1,8 +1,8 @@
-! Checksum: dMKtvamyPc6dn2sqTEdPgQ
+! Checksum: iow2X4x+sr5bQtyiPTWKsA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.75
-! TimeUpdated: 2020-10-23T18:32:06+03:00
+! Version: 2.0.17.77
+! TimeUpdated: 2020-10-24T18:31:29+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -206,6 +206,12 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||indexww.com^$third-party
+||i.viafoura.co^
+||adsrvr.org^$third-party
+||analytics.qlook.net^$third-party
+||ipcheck.blogsys.jp^
+||xlisting.jp^$third-party
 ||userreport.com^$third-party
 ||geoedge.be^$third-party
 ||beusable.net^$third-party
@@ -4611,6 +4617,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||track.nifty.com^
+||analysis.shinobi.jp^
+||asumi.shinobi.jp^
 ||tracking.epicgames.com^
 ||t*.zcvh.net^
 ||adj.st^
@@ -8242,7 +8251,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||veeseo.com^*/url.gif?
 ||veeseo.com^*/view/$image
 ||vevo.com/event/
-||viafoura.com/*/ingest?t=
 ||vid.me/api/metric
 ||video.steamstatic.com/*/stats/playerevent/?
 ||videos.giga.de/*/tracking
@@ -8413,6 +8421,7 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||app-analytics-v2.snapchat.com^
 ||logs.gaaana.com^
 ||sdk-log-inter.youdao.com^
 ||sensors.snappea.com^
