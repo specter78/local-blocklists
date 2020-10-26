@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 21October2020v1
+! Version: 25October2020v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -234,7 +234,8 @@ huuto.net##div.grid-element-container-hintaseuranta.grid-element-container
 huuto.net##div.search-grid-ad-container.ad
 hymy.fi##.grid--dfp-slots
 hymy.fi##[href="http://www.finswingers.com/"]
-ilkkapohjalainen.fi##div[class="ads__wrapper--jattiboksi margin-bottom"]
+ilkkapohjalainen.fi##.ad-desktop
+ilkkapohjalainen.fi##div[class~="ads__wrapper--jattiboksi"]
 ilkkapohjalainen.fi##div[id="ad-jattiboksi2"]
 iltalehti.fi###il-alekoodit-right-column-box
 iltalehti.fi##.center.category-list-embed
@@ -789,8 +790,6 @@ hs.fi#@#.mainokset
 hs.fi#@#.mainos
 iltalehti.fi#@#.afs_ads
 kaksplus.fi#@#.sponsored-content
-mobiili.fi#@##header_ad22
-mobiili.fi#@#.header_ad
 studio55.fi#@#.column-ad
 tjareborg.fi#@#.push-container
 
@@ -805,5 +804,12 @@ tjareborg.fi#@#.push-container
 
 ! https://github.com/easylist/easylist/pull/6156
 @@||tracking.lengow.com^$first-party
+
+! https://github.com/easylist/easylist/pull/6315
+mobiili.fi#@#.header_ad
+mobiili.fi##body[class~="category"] > div * .header_ad
+
+! https://github.com/easylist/easylist/pull/6316
+taloon.com#@##gdprpopup
 
 ! -----UNBREAK END-----

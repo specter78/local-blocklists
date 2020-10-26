@@ -1,8 +1,8 @@
-! Checksum: +AFNzdiKqDJm9aIXWfz8ag
+! Checksum: z8HFf4NdGuvAZDgtmoXeXw
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.43.30
-! TimeUpdated: 2020-10-25T00:30:49+03:00
+! Version: 2.0.43.32
+! TimeUpdated: 2020-10-25T17:30:50+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -86,6 +86,7 @@
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||ad.letmeads.com^$third-party
 ||af755b27b5e472.com^$third-party
 ||yourclk.com^$third-party
 ||mp3vizor.com^$third-party
@@ -7204,6 +7205,7 @@ zen.yandex.by,zen.yandex.com,zen.yandex.kz,zen.yandex.ru,zen.yandex.ua#?#.zen-pa
 ! Ads on uCoz sites
 ##div[id^="_u_ablock_"]
 !
+##a[href^="https://ad.letmeads.com/"]
 ##div[data-adv-type="dfp"]
 ###vid_vpaut_div
 ##ins[data-revive-zoneid]
@@ -20332,6 +20334,7 @@ yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yande
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.turbo-advert_type_native
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##body[data-bem*="-sport-"] div.sport-advert
 ! Yandex.Turbo
+yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##body[data-bem*="turbo"] div[class*="__item_type_partner "]
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.advert.unit
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.page__content [id^="R-A-"]
 ! Yandex.Turbo sites

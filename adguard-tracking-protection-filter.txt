@@ -1,8 +1,8 @@
-! Checksum: iow2X4x+sr5bQtyiPTWKsA
+! Checksum: yIUmf/LgpNulygK9R/NFSg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.77
-! TimeUpdated: 2020-10-24T18:31:29+03:00
+! Version: 2.0.17.79
+! TimeUpdated: 2020-10-25T16:03:31+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6527,6 +6527,8 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+business.nikkei.com##.cbCxense
+koneta.nifty.com###custom_html-2
 ||api.aws.mapquest.com/logger
 ||yuzde100yerli.com/wp-json/pum/v*/analytics/?event=
 ||mysexgames.com/statstracker.php
@@ -8421,6 +8423,9 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||smetrics.cnn.com^
+||metrics.claspws.tv^
+||geolocation.onetrust.com^
 ||app-analytics-v2.snapchat.com^
 ||logs.gaaana.com^
 ||sdk-log-inter.youdao.com^
