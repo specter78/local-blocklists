@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: b87JdtkvjyVBOfn6GLHr9g
-! Version: 202010260521
+! Checksum: 7RJ/mah7axCLTpfde8IkLg
+! Version: 202010270521
 ! Title: EasyList Italy
-! Last modified: 26 Oct 2020 05:21 UTC
+! Last modified: 27 Oct 2020 05:21 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -16,6 +16,7 @@
 !----------------Regole generali per le pubblicità da bloccare----------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_general_block.txt ***
 -dx/adv_
+-PUBBLICITa.
 -pubblicita300x275.
 .it/_adv/
 .it/ads.
@@ -184,8 +185,10 @@ _sito/adv/
 ##.Pubblicita
 ##.actio-adlabel
 ##.ad-fisso
+##.adSenseLaterale
 ##.ad_pedice
 ##.adagiowritebanner_dmtag
+##.adivi-infeed
 ##.ads-dx
 ##.ads-sx
 ##.ads_dx
@@ -206,6 +209,7 @@ _sito/adv/
 ##.adv300eni
 ##.advPostLibri
 ##.adv_articolo
+##.adv_block__text
 ##.adv_esterno
 ##.adv_margin
 ##.adv_oriz
@@ -694,6 +698,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||affaritaliani.it^*/immobiliare/
 ||affaritaliani.it^*/luxu/
 ||affaritaliani.it^*/pron/
+||agcult.it/files/banner/
 ||agendapolitica.it^*/500xagenda.jpg
 ||agendapolitica.it^*/Alfa-Romeo-interno-articolo-
 ||agendapolitica.it^*/cedim-
@@ -718,6 +723,8 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||altarimini.it/bannerBoxCatalog.php
 ||altoadigegol.it//immagini/File_banner/
 ||altoadigetv.it/images/social/banner
+||altomantovanonews.it^*/banner-
+||altramantova.it/images/banners/
 ||amalfinotizie.it^*/omenu.one_
 ||ambientequotidiano.it/banner/
 ||ammirati.org/immagini/sponsor/
@@ -856,6 +863,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||cinemadelsilenzio.it/banner4.js
 ||cinemaitaliano.info^*/banner/
 ||cinestreaming.uno/img/b_
+||cittadimassacarrara.com/banner/
 ||cityrumors.it/images/banners/
 ||cityrumors.it/modules/mod_flexbanner/
 ||cityrumors.it^*/banner-
@@ -866,6 +874,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||cn24tv.it/images/banners/
 ||comingsoon.it/img/PrimeVideoColorBtn.png
 ||comingsoon.it/imgdb/banner/
+||comolive.it^*-AVIS-logo-
 ||comprovendodischi.it/images/AMZ-
 ||comprovendolibri.it/sponsor/
 ||condominioitalia.biz^*/banner/
@@ -913,6 +922,8 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||ecoaltomolise.net^*/Banner-
 ||ecoaltomolise.net^*/xbanner-
 ||ecodallecitta.it/immagini/banners/
+||ecovicentino.it/wp-admin/get_img.php?*banner
+||ecovicentino.it^*/banner-
 ||edilportale.com/Banner/
 ||edilportale.com/immagini/velux_manchette
 ||elaborare.com^*/banner
@@ -1049,6 +1060,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||guidaviaggi.it/banners/
 ||guidaviaggi.it/public/banners/
 ||gwendalina.tv^*/stickybar_script-
+||h24notizie.com^*/AQL-
 ||historychannel.it^*/swissre.
 ||hovogliadidolce.it^*/banner-
 ||html.it^*/banner/
@@ -1083,6 +1095,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||ideawebtv.it^*_350x250px-
 ||ilcalcioillustrato.it^*/banner-
 ||ilcambiamento.it/data/banner/
+||ilclandestinogiornale.italiasera.it^*/Oktoberfest-nettuno-
 ||ilcorriere.net^*-banner.
 ||ilcorrieredelgiorno.it^*/720x300_
 ||ilcorrieredelgiorno.it^*_SKIN_
@@ -1092,6 +1105,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||ilcorrieredellacitta.com^*/sherasade-ardea.gif
 ||ilcorrierino.com/foto-banner/
 ||ilcrotonese.it^*/banner-
+||ilfarosulmondo.it^*/prenota-il-tuo-viaggio-in-iran-
 ||ilfattonisseno.it^*/350x350_
 ||ilfattonisseno.it^*/gif-china.gif
 ||ilfoglio.it/js/bannerInterstitial.js
@@ -1206,6 +1220,8 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||lafeltrinelli.it^*/Partner/
 ||lagazzetta.info^*/banner/
 ||lagazzettadilucca.it^*/inserzioni/
+||lagazzettadimassaecarrara.it^*/Banner-
+||lagazzettadimassaecarrara.it^*/inserzioni/
 ||laltrapagina.it^*/pe4681.
 ||lametino.it/images/banners/
 ||lantidiplomatico.it/img/coupon.png
@@ -1220,6 +1236,10 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||larivieraonline.com^*/takeover/
 ||latina24ore.it^*/banner-
 ||latina24ore.it^*_Skin_
+||latinacorriere.it^*/AQL-
+||latinacorriere.it^*/banner-
+||latinacorriere.it^*/output_
+||latinapress.it^*/armstrong.jpeg
 ||latinaquotidiano.it^*/AQL-ModelloTariffario_Web_
 ||latinaquotidiano.it^*/banner-
 ||latitudeslife.com/magazine/adv/
@@ -1275,10 +1295,16 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||maidireborsa.it^*/image004-
 ||mail.tiscali.it^*/advlib.js
 ||mammedomani.it/images/banners/
+||manduriaoggi.it/html/banner/
+||manduriaoggi.it/img_new/848x280_
 ||mangaforever.net^*/fumetti-am.
 ||mangaforever.net^*/sconti-online.jpg
 ||mangialibri.com^*/BANNER_
 ||mangialibri.com^*300x250
+||mantova1911.club/images/sponsor/
+||mantovanotizie.com^*/amazon-
+||mantovasport24.it^*/BANNER-
+||mantovauno.it^*/banner-
 ||maremmanews.it/images/banners/
 ||marigliano.net/upload/banner/
 ||marsicalive.it^*-banner.
@@ -1301,6 +1327,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||maxradio.it/images/senza-titolo-1.jpg
 ||maxradio.it/images/strip-
 ||medialivetv.it^*/banner_
+||medium.ilcaffe.tv/img_medium/
 ||megaescort.info/felo.js
 ||megaescort.info/sites/default/files/blog/
 ||megasesso.com/js_pub/
@@ -1341,6 +1368,11 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||money.it^*/etoro/
 ||montecarlonews.it^*/banner/
 ||montecarlonews.it^*/box/
+||monza-news.it^*/BeExtreme.jpg
+||monza-news.it^*/binario7.jpg
+||monza-news.it^*/MBhub-
+||monza-news.it^*/perego.jpg
+||monza-news.it^*/termotecnica-
 ||monzacalcio.com/images/sponsors/
 ||motori360.it^*-300-x-150-px.
 ||motori360.it^*/300x150.
@@ -1356,6 +1388,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||nbnotizie.it^*/LoghiPUBBL/
 ||nerdplanet.it^*/banner.
 ||nerdplanet.it^*/batmanultimo2017.
+||news-24.it^*/skin-
 ||newscatania.com^*_Petrol-Company.
 ||newsf1.it^*/promozione-libro-
 ||newsfood.com^*-Banner-
@@ -1373,6 +1406,10 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||notiziediprato.it/uploads/banner/
 ||notizieoggi.com^*_banner.
 ||ntimedia.it^*_banner_
+||nuovabrianza.it^*/468x901.
+||nuovabrianza.it^*/600x1601-
+||nuovabrianza.it^*/header-def-
+||nuovabrianza.it^*_banner_
 ||nuovosud.it/sites/default/files/box-
 ||nuovosud.it/sites/default/files/skin-
 ||nuovosud.it^*/banner/
@@ -1398,6 +1435,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||olbianova.it^*/Dettori_
 ||olbianova.it^*/JE_SUIS_
 ||olimpiamilano.com^*/sponsors/
+||oltrepomantovanonews.it^*/banner-
 ||ondanovara.it^*_banner_
 ||ondarock.it/skin/
 ||ondatv.tv^*/banner-
@@ -1424,6 +1462,13 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||perotorino.it/images/banners/
 ||pharmastar.it^*/banner/
 ||pharmastar.it^*/skins/
+||piacenza24.eu^*-banner-
+||piacenza24.eu^*/aSvep.jpg
+||piacenza24.eu^*/Autorel-
+||piacenza24.eu^*/Consorzio-di-Bonifica-
+||piacenza24.eu^*/gif-pc24LQ-
+||piacenza24.eu^*/PiacenzaCalcio-
+||piazzasalento.it^*/santarita300x250.jpg
 ||piemonteoggi.it/banner/
 ||piemonteoggi.it^*/banner-
 ||piemonteoggi.it^*/banner/
@@ -1518,10 +1563,13 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||radiolaquila1.it^*/mei-
 ||radioluna.it/news/banner/
 ||radioluna.it/news/header/
+||radioluna.it^*-200X110.
+||radioluna.it^*/banner/
 ||radioluna.it^*/banner3.
 ||radioluna.it^*/Fedra-lat.jpg
 ||radioluna.it^*/Manchette_
 ||radioluna.it^*/simeone-24-
+||radioluna.it^*_BANNER-
 ||radiomarte.it/site/images/sponsor/
 ||radiomarte.it^*/autoscala_
 ||radiomarte.it^*/Ln_Rm.
@@ -1580,6 +1628,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||repubblica.it^*/neorep.js
 ||repubblica.it^*/sponsors.png
 ||repubblica.it^*_contentsense_
+||resegoneonline.it^*-larioreti-
 ||rete8.it^*/banner_
 ||retesei.com^*/depam.png
 ||retesei.com^*/EMANUELE-LA-RUSSA.jpg
@@ -1655,6 +1704,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||siciliaoggi.com^*/pegaso.
 ||siciliaoggi.com^*/pesch1.
 ||sienafree.it/images/banners/
+||skuola.net/assets/js/mm-banner-manager.js?
 ||spoletonline.com/banner/
 ||sportchannel214.it^*/bannerfonia1.jpg
 ||sportchannel214.it^*/beatrice-sito.jpg
@@ -1818,12 +1868,14 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||triesteallnews.it^*_970x250_
 ||trmtv.it^*/banner_
 ||trmweb.it^*/banner-
+||trnews.it^*/Banner-
 ||trs98.it^*/82651-
 ||trs98.it^*/medical-leader-
 ||trs98.it^*/mediterranea-servizi.
 ||trsp.tv^*/banner_
 ||trsp.tv^*/logo_tv-
 ||trsp.tv^*/mondolavoro.jpg
+||turistadimestiere.com^*/banner-
 ||tusciaweb.eu^*/Camperteam-
 ||tusciaweb.eu^*/Carrozzeria-fiorillo-
 ||tusciaweb.eu^*/cassa-edile-progetto.gif
@@ -1945,6 +1997,9 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||windows.net/banner/$domain=lavocedimanduria.it
 ||windows.net/banners/$domain=freshplaza.it
 ||windows.net/specialeelezioni/$domain=altamuralive.it|barilive.it|barlettalive.it|bitontolive.it|cassanolive.it|coratolive.it|giovinazzolive.it|lavocedimanduria.it|ruvolive.it|santeramolive.it|terlizzilive.it
+||winxclub.com^*/dfp.js?
+||wp.com/ilclandestinogiornale.italiasera.it/*/autofficina-nettuno.gif
+||wp.com/ilclandestinogiornale.italiasera.it/*/mastro-arrosticino-
 ||wp.com/www.1web.tv/*/VISITA-IL-SITO-
 ||wp.com/www.87tv.it/*/87tv-uniimpresa.
 ||wp.com/www.gazzettadiavellino.it/*/MeravigliosaCampania-
@@ -1967,6 +2022,23 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||wp.com/www.infocilento.it/*/sosimpresa_
 ||wp.com/www.infonewsvietri.it/*/logo_proloco_vietri.jpg
 ||wp.com/www.infonewsvietri.it/*/ristoratori-vietri.jpg
+||wp.com/www.italiasera.it/*/angelucci.jpg
+||wp.com/www.italiasera.it/*/az-pneumatica.jpg
+||wp.com/www.italiasera.it/*/civico-parrucchiere.jpg
+||wp.com/www.italiasera.it/*/comfort-store-
+||wp.com/www.italiasera.it/*/farmacia-gellini-
+||wp.com/www.italiasera.it/*/galeno.jpg
+||wp.com/www.italiasera.it/*/green-power.jpg
+||wp.com/www.italiasera.it/*/halex.jpg
+||wp.com/www.italiasera.it/*/kuchen-design.jpg
+||wp.com/www.italiasera.it/*/logo-le-case-di-paola.jpg
+||wp.com/www.italiasera.it/*/nlt-
+||wp.com/www.italiasera.it/*/ostia-holiday.jpg
+||wp.com/www.italiasera.it/*/parenti-ascensori.jpg
+||wp.com/www.italiasera.it/*/SEGIMM.jpg
+||wp.com/www.italiasera.it/*/the-king-arrosticino-
+||wp.com/www.italiasera.it/*/vanity-maison.jpg
+||wp.com/www.italiasera.it/*/venere-spa.jpg
 ||wp.com/www.medicalexcellencetv.it/*_300x100.
 ||wp.com/www.medicalexcellencetv.it/*_600x500.
 ||wp.com/www.tsdtv.it/*/300x300-
@@ -2159,7 +2231,7 @@ business.it###logoYobee
 eurogamer.it###low-leaderboard
 salernonotizie.it###machette_left
 salernonotizie.it###machette_right
-bolognanews.net,fcinternews.it,tuttoatalanta.com,tuttopotenza.com###main-slim
+bolognanews.net,fcinternews.it,tuttoatalanta.com,tuttopotenza.com,tuttovicenza.it###main-slim
 qdpnews.it,viterbopost.it###manchette-dx
 qdpnews.it,viterbopost.it###manchette-sx
 stadionews.it###manchette_dx_container
@@ -2214,6 +2286,7 @@ mondodelgusto.it###super_sx
 diretta.it###tab-bonus-offers
 diretta.it###tab-odds
 gamesvillage.it###takeover_gv
+radioluna.it###testata
 studio5fm.com###text-13
 giornalistitalia.it,noinotizie.it###text-19
 noinotizie.it###text-20
@@ -2250,6 +2323,7 @@ sscalciobari.it###wl-sponsor
 animeclick.it###wrapper
 corriere.it###yoodeal
 corriere.it###yoodeal2
+comolive.it,resegoneonline.it,valtellinanews.it##.Banner
 cinemaitaliano.info##.Banner01
 cinemaitaliano.info##.Banner430x45
 cinemaitaliano.info##.Banner970x250
@@ -2274,7 +2348,7 @@ topdigamma.it,tuttotek.it##.aawp-product
 tag24.it##.above-footer
 ilsole24ore.com##.abox
 radioitalia.it##.acquista
-jugo.it,lacrocequotidiano.it,liberatv.ch,lonelyplanetitalia.it,mondoplay.it,mondoxbox.com,serietvu.link,smartbuildingitalia.it,trend-online.com,tripadvisor.it##.ad
+jugo.it,lacrocequotidiano.it,liberatv.ch,lonelyplanetitalia.it,mondoplay.it,mondoxbox.com,quotidianoapuano.net,serietvu.link,smartbuildingitalia.it,trend-online.com,tripadvisor.it##.ad
 tusciaweb.eu##.ad-article
 laltrapagina.it##.ad1
 laltrapagina.it##.ad5
@@ -2285,10 +2359,13 @@ unonotizie.it##.add
 ildolomiti.it##.adsB
 chistachiamando.it,pcprofessionale.it##.adsense
 adessoin.tv,allaguida.it,amica.it,ansa.it,buttalapasta.it,calciomercato.com,curioctopus.it,dissapore.com,forbes.it,gelocal.it,gianlucadimarzio.com,gta-expert.it,ilfattoquotidiano.it,ilpost.it,ilsole24ore.com,latina24ore.it,mediaset.it,movieplayer.it,multiplayer.it,nanopress.it,notiziemilan.it,pourfemme.it,prealpina.it,radioindiretta.fm,repubblica.it,salepepe.it,skuola.net,staffettaonline.com,stylosophy.it,supereva.it,virgilio.it,vocenuova.tv##.adv
+teleunica.com##.adv-body
+animatamente.net##.adv-link
 rbe.it##.adv-section
 radiocittadelcapo.it##.adv-space
-diredonna.it##.adv-style
+diredonna.it,robadadonne.it##.adv-style
 quattroruote.it##.adv-wrap
+ilgallo.it##.adv4
 virgilio.it##.advTuning
 corrierecomunicazioni.it,ilsussidiario.net##.adv_container
 calabria7.it##.advanced_floating_content
@@ -2329,7 +2406,7 @@ lacnews24.it##.ban_1000x45
 lacnews24.it##.ban_300x250
 ascolinotizie.it,fermonotizie.info,maceratanotizie.it,marchenotizie.info,pesarourbinonotizie.it,senigallianotizie.it,valmisa.com##.ban_box
 olbianotizie.it##.bann_square
-agi.it,america24.com,casateonline.it,cremonaoggi.it,cronacheancona.it,cronachemaceratesi.it,cuneocronaca.it,dagospia.com,designmag.it,diretta.it,ejatv.com,euroregionalpmed.eu,foodweb.it,globalist.it,gossip.it,guidaviaggi.it,html.it,ilfriuli.it,ilturista.info,informacalcio.quotidiano.net,irpinianews.it,lavoripubblici.it,legnanonews.com,lipari.biz,merateonline.it,meteoweb.eu,modellismopiu.it,oggitreviso.it,radionorba.it,rockit.it,sassarinotizie.com,secoloditalia.it,sostariffe.it,strettoweb.com,teatronaturale.it,technologyreview.it,telejato.it,tenews.it,tg24.info,traniviva.it,varesenews.it,vocenuova.tv##.banner
+agi.it,america24.com,casateonline.it,cremonaoggi.it,cronacheancona.it,cronachemaceratesi.it,cuneocronaca.it,dagospia.com,designmag.it,diretta.it,ejatv.com,euroregionalpmed.eu,foodweb.it,globalist.it,gossip.it,guidaviaggi.it,html.it,ilfriuli.it,ilturista.info,informacalcio.quotidiano.net,irpinianews.it,lavoripubblici.it,legnanonews.com,lipari.biz,merateonline.it,meteoweb.eu,modellismopiu.it,oggitreviso.it,radionorba.it,riassuntini.com,rockit.it,sassarinotizie.com,secoloditalia.it,sostariffe.it,strettoweb.com,teatronaturale.it,technologyreview.it,telejato.it,tenews.it,tg24.info,traniviva.it,varesenews.it,vocenuova.tv##.banner
 m100.it##.banner-1
 welfarenetwork.it##.banner-468-hp
 parmareport.it##.banner-big
@@ -2392,6 +2469,7 @@ notizialocale.it##.bc_random_banner
 corriere.it##.bck-media-list-sponsor
 nuovosud.it##.bg_skin
 libero.it##.big
+ilcaffe.tv##.big_box
 foodnetwork.it##.billboard
 ludomedia.it##.blocchiPbi
 ladige.it##.block--dfp
@@ -2495,6 +2573,7 @@ ondatv.tv##.header-banner
 nuovosud.it##.header-banner-wrapper
 calciomercato.com##.header-banner__container
 lanuovacalabria.it##.headerBanner
+h24notizie.com##.headerbanner
 internazionale.it##.hentry--banner
 transfermarkt.it##.hide-for-small[style="height: 273px; text-align: center; overflow: hidden;"]
 altamuralife.it,andriaviva.it,bariviva.it,barlettaviva.it,bisceglieviva.it,bitontoviva.it,canosaviva.it,cerignolaviva.it,coratoviva.it,giovinazzoviva.it,gravinalife.it,margheritaviva.it,materalife.it,minervinoviva.it,modugnoviva.it,molfettaviva.it,ruvoviva.it,sanferdinandoviva.it,spinazzolaviva.it,terlizziviva.it,traniviva.it,trinitapoliviva.it##.home-election-wrapper
@@ -2513,6 +2592,7 @@ juventus.com##.jcom-o-sponsors-nav__child
 superscommesse.it##.js_tracking_gtm
 nientepopcorn.it##.justwatch
 bluerating.com##.large_home_adv
+ilgallo.it##.leader-board
 close-up.it,foodweb.it,meteovista.it,pneusnews.it,prealpina.it,ridble.com,today.it##.leaderboard
 blastingnews.com##.leaderboard-article
 erbanotizie.com##.leaderboard-bottom
@@ -2542,7 +2622,7 @@ altamuralive.it,barilive.it,barlettalive.it,bisceglielive.it,bitontolive.it,cass
 altamuralive.it,barilive.it,barlettalive.it,bisceglielive.it,bitontolive.it,cassanolive.it,coratolive.it,giovinazzolive.it,lavocedimanduria.it,okfirenze.com,okmugello.it,okvaldisieve.it,ruvolive.it,santeramolive.it,terlizzilive.it,termolionline.it,unicosettimanale.it##.mkt-728x90
 altamuralive.it,barilive.it,barlettalive.it,bisceglielive.it,bitontolive.it,cassanolive.it,coratolive.it,giovinazzolive.it,lavocedimanduria.it,okfirenze.com,okmugello.it,okvaldisieve.it,ruvolive.it,santeramolive.it,terlizzilive.it,termolionline.it,unicosettimanale.it##.mkt-970x250
 bisceglielive.it##.mkt-editorial
-eurogamer.it,foodnetwork.it,gioco.it##.mpu
+boingtv.it,eurogamer.it,foodnetwork.it,gioco.it##.mpu
 affaritaliani.it##.mutui
 cb001.xyz##.mvic-btn
 calciocasteddu.it,qdmnotizie.it##.mvp-wall-link
@@ -2595,6 +2675,7 @@ telestense.it##.pushbar
 quotidianosanita.it##.qs_n_interno_basso
 italiana.fm,radiobussola.it##.qt-sponsors
 vivafm.it##.qt-widget-sponsor
+quizammissione.it##.quiza-prima
 html.it##.rail-800
 giardinaggio.it##.reattiva_x_90
 sportytrader.it##.redirectou
@@ -2630,10 +2711,11 @@ alpauno.com,business24tv.it,legavolleyfemminile.it,teleoccidente.it##.slides
 agrifoodtoday.it,agrigentonotizie.it,anconatoday.it,avellinotoday.it,baritoday.it,bolognatoday.it,bresciatoday.it,brindisireport.it,casertanews.it,cataniatoday.it,cesenatoday.it,chietitoday.it,firenzetoday.it,foggiatoday.it,forlitoday.it,genovatoday.it,ilpescara.it,ilpiacenza.it,latinatoday.it,lecceprima.it,leccotoday.it,milanotoday.it,modenatoday.it,monzatoday.it,napolitoday.it,novaratoday.it,padovaoggi.it,palermotoday.it,parmatoday.it,perugiatoday.it,pisatoday.it,quicomo.it,ravennatoday.it,riminitoday.it,romagnaoggi.it,romatoday.it,salernotoday.it,sondriotoday.it,sportpiacenza.it,today.it,torinotoday.it,trentotoday.it,trevisotoday.it,triesteprima.it,udinetoday.it,veneziatoday.it,veronasera.it,vicenzatoday.it##.slot
 agrifoodtoday.it,agrigentonotizie.it,anconatoday.it,avellinotoday.it,baritoday.it,bolognatoday.it,bresciatoday.it,brindisireport.it,casertanews.it,cataniatoday.it,cesenatoday.it,chietitoday.it,firenzetoday.it,foggiatoday.it,forlitoday.it,genovatoday.it,ilpescara.it,ilpiacenza.it,latinatoday.it,lecceprima.it,leccotoday.it,milanotoday.it,modenatoday.it,monzatoday.it,napolitoday.it,novaratoday.it,padovaoggi.it,palermotoday.it,parmatoday.it,perugiatoday.it,pisatoday.it,quicomo.it,ravennatoday.it,riminitoday.it,romagnaoggi.it,romatoday.it,salernotoday.it,sondriotoday.it,sportpiacenza.it,today.it,torinotoday.it,trentotoday.it,trevisotoday.it,triesteprima.it,udinetoday.it,veneziatoday.it,veronasera.it,vicenzatoday.it##.slot-skin
 agrifoodtoday.it,agrigentonotizie.it,anconatoday.it,avellinotoday.it,baritoday.it,bolognatoday.it,bresciatoday.it,brindisireport.it,casertanews.it,cataniatoday.it,cesenatoday.it,chietitoday.it,firenzetoday.it,foggiatoday.it,forlitoday.it,genovatoday.it,ilpescara.it,ilpiacenza.it,latinatoday.it,lecceprima.it,leccotoday.it,milanotoday.it,modenatoday.it,monzatoday.it,napolitoday.it,novaratoday.it,padovaoggi.it,palermotoday.it,parmatoday.it,perugiatoday.it,pisatoday.it,quicomo.it,ravennatoday.it,riminitoday.it,romagnaoggi.it,romatoday.it,salernotoday.it,sondriotoday.it,sportpiacenza.it,today.it,torinotoday.it,trentotoday.it,trevisotoday.it,triesteprima.it,udinetoday.it,veneziatoday.it,veronasera.it,vicenzatoday.it##.slots
+ilgallo.it##.small-banner-1
 corriere.ca##.small_banner
 siciliaoggi.com##.sow-image-container
 tvoggisalerno.it##.sow-slider-image-container
-calciocasteddu.it,calciohellas.it,virtus.it##.sp-sponsors
+calciocasteddu.it,calciohellas.it,forzamonza.it,virtus.it##.sp-sponsors
 lifegate.it##.special-contents
 comingsoon.it##.sponPro
 europages.it,ilmonferrato.it,legab.it,olimpiamilano.com,repubblica.it,stickmangames.altervista.org##.sponsor
@@ -2697,10 +2779,11 @@ ilgiornaledivicenza.it,larena.it##.v3_horz-banner
 bresciaoggi.it,ilgiornaledivicenza.it,larena.it##.v4_section-redazionale-home
 uscatanzaro.net##.vce-featured-header-background
 larivieraonline.com##.view-Banners
+sportsondrio.it##.view-inserzioni-sponsorizzate
 vitatrentina.it##.vitat-testata-dx
 vitatrentina.it##.vitat-testata-sx
 lavorincasa.it##.wallpaper-1
-algheroeco.com##.wallpaper-link
+algheroeco.com,radioluna.it##.wallpaper-link
 notiziarioeolie.it##.well
 transfermarkt.it##.werbung
 transfermarkt.it##.werbung-skyscraper
@@ -2709,6 +2792,7 @@ wired.it##.wia
 newsly.it##.widget_aawp_widget_box
 dilei.it##.widget_promo_box_widget
 nursetimes.org##.widget_realty_widget
+teleunica.com##.wrap-adv-body
 lavorincasa.it##.wrapper-banner-footerbanner
 lavorincasa.it##.wrapper-banner-medium-rectangle
 lavorincasa.it##.wrapper-sider-bacheca-aziende
@@ -2745,7 +2829,7 @@ cb01.dev##a[href*="/film-in-full-hd-ultra.php"]
 abruzzoweb.it##a[href*="/go.php?"]
 migliorisitistreaming-hd.blogspot.com##a[href*="/go/"]
 filmsenzalimiti.bz,ilgeniodellostreaming.xyz,piratestreaming.eu##a[href*="/hd/"]
-autobusweb.com,citynow.it,firstonline.info,fortuneita.com,iocaccio.it,latinaquotidiano.it,triesteallnews.it##a[href*="/linkout/"]
+altomantovanonews.it,autobusweb.com,citynow.it,firstonline.info,fortuneita.com,iocaccio.it,latinacorriere.it,latinaquotidiano.it,mantovasport24.it,mantovauno.it,oltrepomantovanonews.it,triesteallnews.it##a[href*="/linkout/"]
 supercoin.it##a[href*="/out/"]
 cineblog01.green##a[href*="/premium-download.php"]
 cineblog01.place##a[href*="/scar-hd.php"]
@@ -2777,7 +2861,7 @@ mymovies.it##a[href^="https://disneyplus.bn5x.net/"]
 diventaretrader.com##a[href^="https://iqbroker.com/"]
 rockol.it##a[href^="https://rover.ebay.com/"]
 gnoccatravels.com##a[href^="https://wellcum.at/"]
-alfemminile.com,badcomics.it,badgames.it,badtaste.it,badtv.it,beppegrillo.it,birramoriamoci.it,bora.la,bsnews.it,cityrumors.it,classifichemusica.it,comingsoon.it,comprovendodischi.it,comprovendolibri.it,consigli.it,donnamoderna.com,eurogamer.it,everyeye.it,facciabuco.com,frasicelebri.it,game-experience.it,gamerclick.it,giardinaggio.it,giardinaggio.net,giardiniblog.it,giornaledellabirra.it,gizchina.it,hdblog.it,hwupgrade.it,inter.it,mangaforever.net,nerdmovieproductions.it,newsly.it,nientepopcorn.it,notebookcheck.it,orologipertutti.it,punto-informatico.it,ridble.com,rifaidate.it,rockol.it,spaziogames.it,telefonino.net,termometropolitico.it,topdigamma.it,tuttotek.it,vuemmetv.it,webnews.it##a[href^="https://www.amazon."][href*="tag="]
+alfemminile.com,badcomics.it,badgames.it,badtaste.it,badtv.it,beppegrillo.it,birramoriamoci.it,bora.la,bsnews.it,cityrumors.it,classifichemusica.it,comingsoon.it,comprovendodischi.it,comprovendolibri.it,consigli.it,donnamoderna.com,eurogamer.it,everyeye.it,facciabuco.com,frasicelebri.it,game-experience.it,gamerclick.it,giardinaggio.it,giardinaggio.net,giardiniblog.it,giornaledellabirra.it,gizchina.it,hdblog.it,hwupgrade.it,inter.it,mangaforever.net,mantovanotizie.com,nerdmovieproductions.it,newsly.it,nientepopcorn.it,notebookcheck.it,orologipertutti.it,pianetamamma.it,punto-informatico.it,ridble.com,rifaidate.it,rockol.it,spaziogames.it,telefonino.net,termometropolitico.it,topdigamma.it,tuttotek.it,vuemmetv.it,webnews.it##a[href^="https://www.amazon."][href*="tag="]
 atalanta.it,diventaretrader.com##a[href^="https://www.plus500.com/"]
 animeemanga.it,comingsoon.it,trovacinema.repubblica.it##a[href^="https://www.primevideo.com/"][href*="tag="]
 genoanews1893.it##div[astyle="text-align: center; width: 336px; height: 280px; padding: 3px 0px 3px 0px;"]
@@ -2785,6 +2869,7 @@ acmilan.com##div[class^="Partners_"]
 alvolante.it##div[id^="dfp-alv-slot"]
 ebikecult.it,mtbcult.it##div[id^="id="mtbcu-"]
 amazon.it##div[id^="sp_detail"]
+manduriaoggi.it##div[style="background-color:#FFF; border:#FC0 1px solid; padding:10px"]
 affaritaliani.it##div[style="box-sizing: content-box;padding: 9px; border: 1px solid #ccc; zoom:1;overflow:hidden;height:80px;width:280px;font: normal 12px/14px arial, sans-serif;text-align:left;margin-bottom:10px;"]
 affaritaliani.it##div[style="box-sizing: content-box;padding: 9px; border: 1px solid #ccc; zoom:1;overflow:hidden;height:80px;width:280px;font: normal 12px/14px arial, sans-serif;text-align:left;margin-bottom:10px;background:#fff;"]
 gazzettadilivorno.it,quinewsabetone.it,quinewsamiata.it,quinewsarezzo.it,quinewscasentino.it,quinewscecina.it,quinewschianti.it,quinewscuoio.it,quinewselba.it,quinewsempolese.it,quinewsfirenze.it,quinewsgarfagnana.it,quinewsgrosseto.it,quinewslucca.it,quinewslunigiana.it,quinewsmaremma.it,quinewsmassacarrara.it,quinewsmugello.it,quinewspisa.it,quinewspistoia.it,quinewssiena.it,quinewsvalbisenzio.it,quinewsvaldarno.it,quinewsvaldelsa.it,quinewsvaldera.it,quinewsvaldichiana.it,quinewsvaldicornia.it,quinewsvaldinievole.it,quinewsvaldisieve.it,quinewsvaltiberina.it,quinewsversilia.it,quinewsvolterra.it,toscanamedianews.it##div[style="height: 250px !important;margin-bottom: 15px"]
@@ -2800,10 +2885,10 @@ milannews.it,sampdorianews.net##div[style="min-height: 120px;"]
 lalaziosiamonoi.it,notiziariocalcio.com,tuttoveneziasport.it##div[style="min-height: 250px; max-height: 600px; overflow: hidden; width: 300px; margin: auto;"]
 politicanews.it##div[style="min-height: 250px;"]
 tuttosalernitana.com##div[style="min-height: 280px; max-height: 600px; overflow: hidden; width: 336px; margin: auto;"]
-fcinternews.it,genoanews1893.it,lalaziosiamonoi.it,pianetabasket.com,tuttoatalanta.com,tuttocalciopuglia.com,tuttohellasverona.it,tuttopotenza.com,tuttoveneziasport.it##div[style="overflow: hidden; height: 250px; width: 300px; margin: auto;"]
-fcinternews.it,genoanews1893.it,lalaziosiamonoi.it,pianetabasket.com,tuttoatalanta.com,tuttocalciopuglia.com,tuttohellasverona.it,tuttopotenza.com##div[style="overflow: hidden; height: 250px; width: 970px; margin: auto;"]
+fcinternews.it,genoanews1893.it,lalaziosiamonoi.it,pianetabasket.com,tuttoatalanta.com,tuttocalciopuglia.com,tuttohellasverona.it,tuttopotenza.com,tuttoveneziasport.it,tuttovicenza.it##div[style="overflow: hidden; height: 250px; width: 300px; margin: auto;"]
+fcinternews.it,genoanews1893.it,lalaziosiamonoi.it,pianetabasket.com,tuttoatalanta.com,tuttocalciopuglia.com,tuttohellasverona.it,tuttopotenza.com,tuttovicenza.it##div[style="overflow: hidden; height: 250px; width: 970px; margin: auto;"]
 interdipendenza.net,notiziariocalcio.com,tuttobenevento.it##div[style="overflow: hidden; height: 280px; width: 336px; margin: auto;"]
-fcinternews.it,genoanews1893.it,tuttoatalanta.com,tuttocalciopuglia.com,tuttohellasverona.it,tuttopotenza.com##div[style="overflow: hidden; height: 600px; width: 160px; margin: auto;"]
+fcinternews.it,genoanews1893.it,tuttoatalanta.com,tuttocalciopuglia.com,tuttohellasverona.it,tuttopotenza.com,tuttovicenza.it##div[style="overflow: hidden; height: 600px; width: 160px; margin: auto;"]
 pianetabasket.com##div[style="overflow: hidden; height: 600px; width: 300px; margin: auto;"]
 bolognanews.net,tuttoatalanta.com,tuttosalernitana.com##div[style="overflow: hidden; height: 60px; width: 160px; margin: auto;"]
 fcinternews.it,genoanews1893.it,interdipendenza.net,pianetabasket.com,tuttoatalanta.com,tuttocalciopuglia.com,tuttosalernitana.com,tuttoveneziasport.it##div[style="overflow: hidden; height: 60px; width: 468px; margin: auto;"]
@@ -2819,9 +2904,9 @@ lalaziosiamonoi.it,tuttocagliari.net##div[style="text-align: center; width: 160p
 tuttojuve.com##div[style="text-align: center; width: 160px; height: 600px; padding: 3px 0; margin: 0 auto;"]
 lalaziosiamonoi.it##div[style="text-align: center; width: 300px; height: 250px; padding: 0px 0px 3px 0px;"]
 tuttoatalanta.com,tuttoveneziasport.it##div[style="text-align: center; width: 300px; height: 250px; padding: 3px 0px 3px 0px;"]
-bolognanews.net,lalaziosiamonoi.it,milannews.it,sampdorianews.net,tuttocagliari.net,tuttocalciopuglia.com,tuttohellasverona.it,tuttopotenza.com,vocegiallorossa.it##div[style="text-align: center; width: 300px; height: 250px;"]
+bolognanews.net,lalaziosiamonoi.it,milannews.it,sampdorianews.net,tuttocagliari.net,tuttocalciopuglia.com,tuttohellasverona.it,tuttopotenza.com,tuttovicenza.it,vocegiallorossa.it##div[style="text-align: center; width: 300px; height: 250px;"]
 tuttojuve.com##div[style="text-align: center; width: 336px; height: 280px; padding: 3px 0; margin: 0 auto;"]
-pianetabasket.com,tuttocagliari.net,tuttochievoverona.it,tuttosalernitana.com##div[style="text-align: center; width: 336px; height: 280px; padding: 3px 0px 3px 0px;"]
+pianetabasket.com,tuttocagliari.net,tuttochievoverona.it,tuttolatina.com,tuttosalernitana.com##div[style="text-align: center; width: 336px; height: 280px; padding: 3px 0px 3px 0px;"]
 tuttocagliari.net,tuttojuve.com##div[style="text-align: center; width: 468px; height: 60px; padding: 3px 0px 3px 0px;"]
 tuttohellasverona.it##div[style="text-align: center; width: 468px; height: 60px;"]
 ilgiornaledabruzzo.it##div[style="text-align: left; width: 260px; float: left; margin-bottom: 40px; margin-right: 8px; margin-left: 8px; position: relative; font-size: 9px; font-weight: bold; color: #706e70; border: 2px solid orange;"]
@@ -2830,9 +2915,11 @@ libero.it,tp24.it##div[style="width: 300px; height: 250px;"]
 incircolo.altervista.org##div[style="width: 300px; height: 260px; margin-top: 10px;"]
 sardegnaoggi.it##div[style="width: 336px; height: 280px; margin: 1em 1em 1em 0; float: left"]
 corrierinocampaniasport.it##div[style="width: 960px; height: 120px; visibility: visible;"]
+albanesi.it##div[style="width: 970px; height: 250px; margin: 0 auto"]
 footballnews24.it##div[style="width:250px;max-width:100%;margin:16px auto;"]
 hwupgrade.it##div[style="width:300px; height:250px; "]
 cittadellaspezia.com##div[style="width:300px; height:250px;"]
+paginainizio.com##div[style="width:300px;height:600px;margin:25px 27px 9px 8px;"]
 reggiotv.it##div[style="width:468px; height:60px; border:1px solid #DDD; margin:10px; margin-left:60px; overflow:hidden; text-align:center"]
 asroma24.com,ilmilanista.it,interistaweb.it##div[style="width:480px; height:72px; padding: 6px; margin-left:auto; margin-right:auto;"]
 blogcagliaricalcio1920.net##div[style="width:680px; height:100px; margin-bottom:20px;"]

@@ -1,8 +1,8 @@
-! Checksum: mAw4ofjeZOdXOYt1BnRpoQ
+! Checksum: DyMro41rbE6c3QoLrEMwOw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.15.99
-! TimeUpdated: 2020-10-25T21:30:13+03:00
+! Version: 2.0.16.2
+! TimeUpdated: 2020-10-26T20:02:50+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1264,6 +1264,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/66328
+mail.ru#$?#.pulse-lenta div[id^="_pcard_"]:has(> a[href^="https://t.mail.ru/redir/"]) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66050
 m.hindustantimes.com#?#body > section:has(> div.center > div[id^="div-gpt-ad-"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65480
@@ -2175,6 +2177,12 @@ dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshar
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+asahi.com##li.FeatureBox_list
+asahi.com##.ad
+asahi.com##.p-topBanner
+news18.com##div[class*="_mobile_header_ad_"]
+news18.com##[class^="Article_ad_container"]
+news18.com##div[class*="Footer_closestickybtn_"]
 9gag.com##.salt-container
 ||m.pufei8.com/skin/view/ft2.js
 ||m.pufei8.com/skin/middle.js

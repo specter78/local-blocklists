@@ -1,8 +1,8 @@
-! Checksum: yIUmf/LgpNulygK9R/NFSg
+! Checksum: HwUHBn3TX8ofdNpBuNwASQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.79
-! TimeUpdated: 2020-10-25T16:03:31+03:00
+! Version: 2.0.17.84
+! TimeUpdated: 2020-10-26T21:31:23+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -206,6 +206,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||dw-eu.com.com^
 ||indexww.com^$third-party
 ||i.viafoura.co^
 ||adsrvr.org^$third-party
@@ -4617,6 +4618,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||t.webjavaskript.net^
 ||track.nifty.com^
 ||analysis.shinobi.jp^
 ||asumi.shinobi.jp^
@@ -6527,6 +6529,10 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||blogpeople.net/images/0.gif?
+||rule34.paheal.net/stat.txt
+||pornhub.com/video/category_tracker?e=$important
+||wp-r.github.io/*/assets/js/jquery.iframetracker.js
 business.nikkei.com##.cbCxense
 koneta.nifty.com###custom_html-2
 ||api.aws.mapquest.com/logger
@@ -8868,6 +8874,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/66405
+@@||imtexh.com/js/counter.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66213
 @@||google-analytics.com/analytics.js$domain=onul-hoi.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=onul-hoi.com
