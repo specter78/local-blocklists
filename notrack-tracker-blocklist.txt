@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 20 Oct 2020
+#Updated: 27 Oct 2020
 #LatestVersion 20.10
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -1332,6 +1332,11 @@ imedia.cz
 img-taboola.com #Taboola - Advertising
 imgclick.net
 imiclk.com
+imitrk1.com #Unknown - Tracker
+imitrk2.com #Unknown - Tracker
+imitrk3.com #Unknown - Tracker
+imitrk4.com #Unknown - Tracker
+imitrk5.com #Unknown - Tracker
 impact-ad.com
 impact-ad.jp
 impactradius-event.com #Impact Radius
@@ -12537,6 +12542,7 @@ qeryz.com
 qifann.com
 qingcdn.com #Unknown - Advertising
 qmerce.com
+qoe-1.yottaa.net #Yottaa - Tracker
 qservz.com
 qualityoffers.info #msales
 qualtrics.com
@@ -12570,6 +12576,7 @@ realads.com #AppNexus Inc
 realclever.com #Clever
 realmedia.com #AppNexus Inc
 realsrv.com #Unknown - Advertising
+realtime-bid.com #RealtimeBid - Advertising
 realtime.email
 realytics.io #Realytics
 rebelmouse.com
@@ -13183,6 +13190,7 @@ trk.homeaway.com #Homeaway.com - Tracker
 trk.informationweek.com #Informationweek.Com - Tracker
 trk.justanswer.com #justanswer.com
 trk.pinterest.com #Pinterest
+trk2.pinterest.com #Pinterest - Tracker
 trkme.net
 trkn.us #Claritas - Tracker
 tru.am #TrueAnthem
