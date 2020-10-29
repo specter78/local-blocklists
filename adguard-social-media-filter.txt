@@ -1,8 +1,8 @@
-! Checksum: tX7chZ37L8u9LES/K+Xe3Q
+! Checksum: 70mB4+Zer+sljyPB/sUJLg
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.32.0
-! TimeUpdated: 2020-10-27T18:31:32+03:00
+! Version: 2.0.32.3
+! TimeUpdated: 2020-10-28T16:04:18+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -338,6 +338,7 @@ lj_bookmarklet
 !
 ! Extended CSS rules
 !
+tverigrad.ru#?##center_column + div[class] > div > div[class]:has(> div[id] > div[class] b:contains(/Твериград\s[в\s]?(\sFacebook|Вконтакте)/))
 oddschecker.com#?#div[data-regression-tag="article-text-block"] ~ div[class]:has(> div[class] > a[class][title="WhatsApp"])
 timebucks.com#?#div[class^="col-"] > div.widget-container:has(> div.fb_iframe_widget)
 horki.info#?#.region-inner > div.block:has(> div.block-inner td > a[href="https://t.me/horki_info"])
@@ -1852,7 +1853,7 @@ livemaster.ru##div[data-event="stickySocialActionBlock"]
 ingolstadt-today.de##.artikelfuss > .social
 sportsseoul.com##a[onclick="show_sns();"]
 flacon-magazine.com,mega-hentai2.blogspot.com##.post__share
-voenhronika.ru,inforesist.org,neowin.net##.twitter-follow-button
+porngun.net,voenhronika.ru,inforesist.org,neowin.net##.twitter-follow-button
 ytn.co.kr##.bt_facebook
 ytn.co.kr##.bt_twitter
 fxmag.pl##.Social-title
@@ -3686,7 +3687,7 @@ denfaminicogamer.jp##.entryMeta > .snsPalette.flxBox
 kalptensozler.com##.osd-sms-wrapper
 yenisafak.com##li.social
 ||social-plugins.line.me/widget^$third-party
-tutorialsteacher.com,sozsepeti.com,ozgurgundemtrakya.com,bilecik11.com###social-platforms
+kibriswebhaber.com,tutorialsteacher.com,sozsepeti.com,ozgurgundemtrakya.com,bilecik11.com###social-platforms
 extraimage.co###tab-about > .panel-share-networks
 extraimage.co##.header-content-right > a.btn.red[data-target="modal-share"]
 br.de##.c_toolbar_list > li.c_tb_social
