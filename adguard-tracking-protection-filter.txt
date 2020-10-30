@@ -1,8 +1,8 @@
-! Checksum: Nb8s0dsyYV/pNqXOOA/WGw
+! Checksum: flkNVCgh1rJofaPjV+Jk5w
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.91
-! TimeUpdated: 2020-10-28T15:31:41+03:00
+! Version: 2.0.17.93
+! TimeUpdated: 2020-10-29T18:31:34+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -206,6 +206,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||browser.events.data.msn.com^
 ||lngtd.com^$third-party
 ||dw-eu.com.com^
 ||indexww.com^$third-party
@@ -8877,6 +8878,7 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/66583
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66480
 @@||geolocation.onetrust.com^$domain=popsugar.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66397
