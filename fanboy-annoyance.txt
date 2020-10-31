@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202010300502
+! Version: 202010310413
 ! Title: Fanboy's Annoyance List
-! Last modified: 30 Oct 2020 05:02 UTC
+! Last modified: 31 Oct 2020 04:13 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -28625,6 +28625,7 @@ _site_cookie_
 ##.cm-user-message
 ##.cmc-cookie-policy-banner
 ##.cmp-app_gdpr
+##.cmp-cookie-stmt
 ##.cmp_cookies_usage_wr
 ##.cms-cookielaw
 ##.cms_dp_bar_fixed
@@ -45242,7 +45243,7 @@ belgafiles.com,dakine.com,linkedin.com,way2sms.com#@#.share-box
 bitly.com,framestr.com,nytimes.com#@#.share-btn
 kcrw.com,vimeo.com#@#.share-button
 bandcamp.com,bleacherreport.com,distractify.com,naekranie.pl,thedodo.com#@#.share-buttons
-aerospace-technology.com,airport-technology.com,analyticsindiamag.com,army-technology.com,awarenessact.com,bbcccnn.com.ua,cbronline.com,chatsports.com,chemicals-technology.com,clinicaltrialsarena.com,comicbook.com,cosmetics-technology.com,designbuild-network.com,dogs-magazin.de,drinks-insight-network.com,foodprocessing-technology.com,foodtank.com,gamerisle.org,gen-pop.com,gfycat.com,homelandsecurity-technology.com,hospitalmanagement.net,hotelmanagement-network.com,hydrocarbons-technology.com,invisioncommunity.co.uk,lcms.org,livetheorganicdream.com,mama-notes.de,medicaldevice-network.com,mining-technology.com,naval-technology.com,nursetimes.org,offshore-technology.com,packaging-gateway.com,pharmaceutical-technology.com,player.it,popsugar.co.uk,popsugar.com,popsugar.com.au,power-technology.com,professorshouse.com,railway-technology.com,reefbuilders.com,renewable-technology.com,retail-insight-network.com,roadtraffic-technology.com,sensationrock.net,ship-technology.com,stocksbeat.com,tdiesel.ru,thesportsrush.com,trancentral.tv,tripzilla.ph,uploadvr.com,verdict.co.uk,verdictfoodservice.com,warlegend.net,water-technology.net,zagranie.com#@#.share-container
+aerospace-technology.com,airport-technology.com,analyticsindiamag.com,army-technology.com,awarenessact.com,bbcccnn.com.ua,cbronline.com,chatsports.com,chemicals-technology.com,clinicaltrialsarena.com,comicbook.com,cosmetics-technology.com,designbuild-network.com,dkoding.in,dogs-magazin.de,drinks-insight-network.com,foodprocessing-technology.com,foodtank.com,gamerisle.org,gen-pop.com,gfycat.com,homelandsecurity-technology.com,hospitalmanagement.net,hotelmanagement-network.com,hydrocarbons-technology.com,invisioncommunity.co.uk,lcms.org,livetheorganicdream.com,mama-notes.de,medicaldevice-network.com,mining-technology.com,naval-technology.com,nursetimes.org,offshore-technology.com,packaging-gateway.com,pharmaceutical-technology.com,player.it,popsugar.co.uk,popsugar.com,popsugar.com.au,power-technology.com,professorshouse.com,railway-technology.com,reefbuilders.com,renewable-technology.com,retail-insight-network.com,roadtraffic-technology.com,sensationrock.net,ship-technology.com,stocksbeat.com,tdiesel.ru,thesportsrush.com,trancentral.tv,tripzilla.ph,uploadvr.com,verdict.co.uk,verdictfoodservice.com,warlegend.net,water-technology.net,zagranie.com#@#.share-container
 podbean.com#@#.share-content
 mediafire.com#@#.share-facebook
 bild.de#@#.share-fb
@@ -45828,6 +45829,7 @@ yoigo.com#@#thor-cookies
 @@||paypalobjects.com^*/opinionLab/$script,domain=paypal.com
 @@||paysera.com^*/email-icon-over.png
 @@||phonearena.com/?b=$~third-party
+@@||placehold.it^$image,domain=blunote.it
 @@||reactandshare.com/plugin/rns.js$script
 @@||redditarchive.com^
 @@||rentalsystems.com/advert_price_imbed.asp
@@ -45860,6 +45862,7 @@ yoigo.com#@#thor-cookies
 @@/cookie_law/plugin.js$script,~third-party
 @@/v1/gdpr/native-message$domain=chip.de|focus.de|n-tv.de
 @@/zig_cookiepolicybar/*/CookieBar.js$script,~third-party
+@@||chasecdn.com^*/cookie.js$script,domain=chase.com
 @@||digikey.com^*/cookie-notice.css$stylesheet,domain=digikey.com
 @@||ecestaticos.com/build/js/common/components/messageapi/cookiemessage.$script,domain=www.elconfidencial.com
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/$script,domain=blog.google
