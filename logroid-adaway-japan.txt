@@ -5,8 +5,8 @@
 #         http://logroid.blogspot.jp/
 #         https://twitter.com/logroid
 #
-# last updated: 2020/10/22
-# block hosts: 31200 entry
+# last updated: 2020/10/31
+# block hosts: 31201 entry
 
 # 000webhost.com
 127.0.0.1 err.000webhost.com
@@ -17851,6 +17851,9 @@
 # dnion.com
 127.0.0.1 trjoy.dnion.com
 127.0.0.1 www.dnion.com
+
+# dnitv.com
+127.0.0.1 mercury.dnitv.com
 
 # dnparking.com
 127.0.0.1 forsale.dnparking.com

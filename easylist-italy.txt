@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: tY67u5MK5KiDoUR8m2akSA
-! Version: 202010310511
+! Checksum: 6rgk8V2m2PBTQ3kRwRHN8A
+! Version: 202011010511
 ! Title: EasyList Italy
-! Last modified: 31 Oct 2020 05:11 UTC
+! Last modified: 01 Nov 2020 05:11 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -950,6 +950,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||cralistruzione.it/images/banners/
 ||cremonaoggi.it^*/BANNERINO-
 ||cronacaqui.it^*/banner-
+||cronacaqui.it^*/mmotors.jpg
 ||cronachedibirra.it^*/banner_
 ||cronachetarantine.it/images/banners/
 ||cronachetarantine.it^*/53c487a8-
@@ -1275,6 +1276,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||imgpress.it^*/banner2
 ||imgpress.it^*/banner3
 ||imgpress.it^*/Pubbl-
+||industria-online.com/storage/b-
 ||industriaitaliana.it^*/300x250
 ||industriaitaliana.it^*/Rettangolo-
 ||industriaitaliana.it^*_Banners-
@@ -3041,7 +3043,7 @@ sportytrader.it##.sticky-header_banner_first
 occhionotizie.it##.sticky_bar_container
 webnews.it##.sticky_wrapper
 andreagaleazzi.com##.store-box
-100ideeperristrutturare.it,calabria7.it,casa-naturale.com,primopianomolise.it,quattrozampe.online,radiomovida.net,radioradio.it,uominietrasporti.it,vendingnews.it,villeecasali.com##.strack_cli
+100ideeperristrutturare.it,calabria7.it,casa-naturale.com,fruitbookmagazine.it,primopianomolise.it,quattrozampe.online,radiomovida.net,radioradio.it,uominietrasporti.it,vendingnews.it,villeecasali.com##.strack_cli
 ilcorriere.net##.stream-item-top-wrapper
 filmtv.it##.streaming
 affaritaliani.it##.strillo-speciale3

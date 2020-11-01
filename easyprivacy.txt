@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202010310413
+! Version: 202011010408
 ! Title: EasyPrivacy
-! Last modified: 31 Oct 2020 04:13 UTC
+! Last modified: 01 Nov 2020 04:08 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10459,7 +10459,6 @@ _mongo_stats/
 ||collector.mazeberry.com^
 ||collector.roistat.com^
 ||collector.sspinc.io^
-||comet.ibsrv.net^
 ||comic-rocket.com/metrics.js
 ||comms.thewhiskyexchange.com^$image
 ||communicatorcorp.com^*/conversiontracking.js
@@ -11221,6 +11220,7 @@ _mongo_stats/
 ||musvc2.net/e/c?
 ||mutinyhq.com/impressions/
 ||mv.treehousei.com^
+||mx.technolutions.net^
 ||mxmfb.com/rsps/img/
 ||myblueday.com^*/count.asp?
 ||myfreecams.com/mfc2/lib/o-mfccore.js
