@@ -1,8 +1,8 @@
-! Checksum: SSxQol0NKaIKydVHtiGBOw
+! Checksum: 6vB0/MplU+OeMqvgvQFVuw
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.32.17
-! TimeUpdated: 2020-10-31T22:31:26+03:00
+! Version: 2.0.32.19
+! TimeUpdated: 2020-11-01T20:03:41+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1013,7 +1013,7 @@ maxconsole.com,hdmekani.com,gezenbilir.com,maxicep.com,australianfrequentflyer.c
 ! ###alt
 filmizleplay.com,hdfilmkamyonu.com,fullfilmvakti.com,indirmedenizleyin.com,hdfilmsizle1.com,hdfilmsizle.org,hdfilmevreni.co###alt
 ! ##.dp-share
-pornopank.com,3w-video.com,coqporn.com,paraticlube.com,pornopix.net,isexpro.net,javhdonline.com,pornoworlds.org##.dp-share
+pornopank.com,paraticlube.com,pornopix.net,isexpro.net,javhdonline.com,pornoworlds.org##.dp-share
 ! ##.paylas
 bilimhaber.net,balikesirhaber.net,gruppal.com,somaaktuel.com,filmizleten.com,medyagazeteleri.com,kentvizyonhaber.com,duzcedamla.com,muglagazetesi.com.tr,apron24.com,bilecikses.com,enzahome.com.tr,dizilove.com,filmizlex.com,habernida.com,guvenlifilmizle.com,full1080pfilmizle.com,istanbultakipte.com,dizilost.com,bodrumhaberpostasi.com,hdfilmizlesene2.com,gazetelink.com,dizivay.com,hizlifilmizlehd.com,simdifilmizle.com,filmdizievi1.com,asyadizileri.net,fullfilmizledim.com,fiilmizleyeni.com,canlitvlive.io,sondakika.com.tc,bolununsesi.com,sivashaber.com,anlasevgimi.com,ademocut.com,akdenizhaber.com.tr,donanimhaber.com,hayatbul.org,kimdirkim.com##.paylas
 !
@@ -1377,7 +1377,7 @@ bursahakimiyet.com.tr##.share-gallery
 bursahakimiyet.com.tr##.sharenewsin
 bursahakimiyet.com.tr##.detailShare
 ekantipur.com##.bottom-share-count
-lecturas.com##.mangiroshare
+clara.es,lecturas.com##.mangiroshare
 lecturas.com##.article-mobile-share
 radiofm-online.com###share-wrapper
 vgorode.ua##.pinSaveBtn
@@ -3019,7 +3019,7 @@ formel1.de##.shariff-button
 microsoft.com##.jetpack_widget_social_icons
 microsoft.com##.social-footer-wrap
 microsoft.com##.pad-social
-fronda.pl,bodrumguncelhaber.com,tailieuhoctiengnhat.com,ingilizcenotlar.com,klasmp3indir.net,golbee.com,ozengen.com,kitekinto.hu,kutahyaekspres.com,ritm.tv##.facebook-widget
+fronda.pl,bodrumguncelhaber.com,tailieuhoctiengnhat.com,ingilizcenotlar.com,golbee.com,ozengen.com,kitekinto.hu,kutahyaekspres.com,ritm.tv##.facebook-widget
 kozmikanafor.com,savunmasanayisi.com,pravda-tv.ru,teknobalta.com##.penci-social-buttons
 taker.im##.share__actions
 taker.im##div[data-widget-key="forum_overview_share_page"]
@@ -5997,7 +5997,6 @@ genius.com##.song_header-share_buttons
 cosmopolitanturkiye.com,filmizle.film,islahhaber.net##.sosyal
 anadolugazetesi.net##.sosyal > a[onclick][href]
 buguzelsozler.net##.sosyal-yan
-scroll.com.tr##.sosyalAglar
 dizibilgi.net,dizibilgi.tv,esekadam.com,kadinextra.com,sempatiklopedi.com##.sosyal_buton
 fullhdfilmadresi.com##.sosyal_medya
 dha.com.tr##.sosyalmedya

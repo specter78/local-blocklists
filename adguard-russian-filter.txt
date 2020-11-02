@@ -1,8 +1,8 @@
-! Checksum: OaEYMiWSbFIeSLmmOSAxlQ
+! Checksum: vkkR4lO9JcBfCJ+aPGJ6Ag
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.43.74
-! TimeUpdated: 2020-10-31T22:30:50+03:00
+! Version: 2.0.43.78
+! TimeUpdated: 2020-11-01T20:30:49+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -86,6 +86,8 @@
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||whiteboxdigital.ru^$third-party
+||rtb.mts.ru^$third-party
 ||alixil.ru^$third-party
 ||nsminuu.mobi^$third-party
 ||ddcfzd.com^$third-party
@@ -5284,7 +5286,8 @@ flymer.ru#$#.ad-home { position: absolute!important; left: -3000px!important; }
 !
 ! START: Ads replacement (piguiqproxy.com etc.)
 !
-pravda.com.ua,u-news.com.ua,epravda.com.ua,i.ua#%#//scriptlet('abort-on-property-read', 'Object.prototype.ads')
+!+ NOT_PLATFORM(windows, mac, android)
+pravda.com.ua,epravda.com.ua#%#"use strict";if(document.head)throw new Error("Head already exists - make sure to enable instant script injection");var insertedNodes=[],observer=new MutationObserver(function(e){e.forEach(function(e){for(var t=0;t<e.addedNodes.length;t++)e.addedNodes[t].innerText.match(/ShadowRoot.*pravda\.com\.ua|AdnetAttachScript/)&&e.addedNodes[t].remove()})});observer.observe(document.documentElement,{childList:!0,subtree:!0});
 !+ NOT_PLATFORM(windows, mac, android)
 dt.ua,autoua.net,gorod.dp.ua,4mama.ua,beauty.ua,bigmir.net,enovosty.com,epravda.com.ua,eurointegration.com.ua,facenews.ua,gagadget.com,gismeteo.ua,hvylya.net,internetua.com,kolobok.ua,kp.ua,liga.net,nnovosti.info,obyava.ua,okino.ua,real-vin.com,ringside24.com,smak.ua,strana.ua,tochka.net,toneto.net,tv.ua,tvgid.ua,ubr.ua,vesti.ua#%#(function(){var a=document.currentScript,b=String.prototype.charCodeAt,c=function(){return true;};Object.defineProperty(String.prototype,"charCodeAt",{get:function(){return document.currentScript===a?b:c},set:function(a){}})})();
 ! Скрипт есть, но без рекламы:
@@ -10591,6 +10594,11 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+||cooldj.com/api/iframe/footer
+||cooldj.com/api/iframe/header
+cooldj.com###footerBanner
+cooldj.com###headerBanner
+||cdn.viqeo.tv/js/vq_starter.js$domain=kp.ru
 mashyna.com.ua##div[data-adid]
 news.24tv.ua###informerWrapper
 u-f.ru##a[href^="https://www.avito.ru/"]
@@ -19629,7 +19637,7 @@ animevost.am,smotret-anime-365.ru,animevost.site,animevost.online,animevost.net,
 animevost.am,smotret-anime-365.ru,animevost.site,animevost.online,animevost.net,animevost.org,animerost.org,animevost.am,agorov.org##div[style="width:240px;height:400px;margin:auto;"]
 animevost.am,smotret-anime-365.ru,animevost.site,animevost.online,animevost.net,animevost.org,animerost.org,animevost.am,agorov.org##div[class^="headbg"] > a[target="_blank"]
 !
-4pda.ru##.slider-list ~ div[class="post"][style="position: absolute; top: -99999px;"] ~ div[id][class][style*="opacity:"]
+4pda.ru##.slider-list ~ div[style="position: absolute; top: -99999px;"] ~ div[id][class][style*="opacity:"]
 ||4pda.ru/st/ztm?
 ||app.4pda.ru/er/*/m2?_=
 4pda.ru##div.second-menu ~ * > * > div[style="display: none !important;"] ~ div[style="display: none !important;"] ~ div[id][style*="opacity:"]:empty

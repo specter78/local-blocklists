@@ -1,8 +1,8 @@
-! Checksum: Oqw6yVv0wy3f7GtJfgs2Kw
+! Checksum: rsjOKN8nwDU0ySDrrMdBIw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.17.97
-! TimeUpdated: 2020-10-31T20:03:58+03:00
+! Version: 2.0.17.99
+! TimeUpdated: 2020-11-01T19:31:20+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -207,6 +207,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||beam.koddi.com^$third-party
 ||casalemedia.com^
 ||ct2.kimodameshi.com^
 ||tag.pprl.io^
@@ -4630,6 +4631,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||stat.videonow.ru^$third-party
 ||insight.bellmetric.net^
 ||t.afi-b.com^
 ||tag.cribnotes.jp^
@@ -6551,6 +6553,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+-vdn.ops.beeline.ru/p?ssp=vdn&id=
 ||poder360.com.br/_tracker
 ||newsbreak.com/_api/stat/
 ||blogpeople.net/images/0.gif?
