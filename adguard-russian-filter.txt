@@ -1,8 +1,8 @@
-! Checksum: vkkR4lO9JcBfCJ+aPGJ6Ag
+! Checksum: 87e/BhnY2o+Rrt7DQKPvlA
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.43.78
-! TimeUpdated: 2020-11-01T20:30:49+03:00
+! Version: 2.0.43.90
+! TimeUpdated: 2020-11-03T00:30:51+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -79,13 +79,13 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
-! rbConfig={start:performance.now(),rbDomain:"www.takidd.site",rotator:'1tisz'};
-! например, vph-holod.ru
-!
 ! AdsWell.ru
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||extrablocks.ru^$third-party
+||mpsuadv.ru^$third-party
+||tut.prosmotrov.net^$third-party
 ||whiteboxdigital.ru^$third-party
 ||rtb.mts.ru^$third-party
 ||alixil.ru^$third-party
@@ -5287,8 +5287,6 @@ flymer.ru#$#.ad-home { position: absolute!important; left: -3000px!important; }
 ! START: Ads replacement (piguiqproxy.com etc.)
 !
 !+ NOT_PLATFORM(windows, mac, android)
-pravda.com.ua,epravda.com.ua#%#"use strict";if(document.head)throw new Error("Head already exists - make sure to enable instant script injection");var insertedNodes=[],observer=new MutationObserver(function(e){e.forEach(function(e){for(var t=0;t<e.addedNodes.length;t++)e.addedNodes[t].innerText.match(/ShadowRoot.*pravda\.com\.ua|AdnetAttachScript/)&&e.addedNodes[t].remove()})});observer.observe(document.documentElement,{childList:!0,subtree:!0});
-!+ NOT_PLATFORM(windows, mac, android)
 dt.ua,autoua.net,gorod.dp.ua,4mama.ua,beauty.ua,bigmir.net,enovosty.com,epravda.com.ua,eurointegration.com.ua,facenews.ua,gagadget.com,gismeteo.ua,hvylya.net,internetua.com,kolobok.ua,kp.ua,liga.net,nnovosti.info,obyava.ua,okino.ua,real-vin.com,ringside24.com,smak.ua,strana.ua,tochka.net,toneto.net,tv.ua,tvgid.ua,ubr.ua,vesti.ua#%#(function(){var a=document.currentScript,b=String.prototype.charCodeAt,c=function(){return true;};Object.defineProperty(String.prototype,"charCodeAt",{get:function(){return document.currentScript===a?b:c},set:function(a){}})})();
 ! Скрипт есть, но без рекламы:
 ! tivix.co - ломается плеер, forumodua.com - авторизация
@@ -6088,14 +6086,14 @@ sdamgia.ru#%#AG_abortOnPropertyRead('Ya.Direct');
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|Tennessine|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|Sulfur|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|Tennessine|computer/');
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|Sulfur|computer/');
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|Tennessine|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|Sulfur|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|Tennessine|computer/');
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|Sulfur|computer/');
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -6265,10 +6263,10 @@ ofxru.net#$?#.main-content { margin-top: 0!important; }
 mirknig.su#?#td[width="100%"] > table[width="100%"][align="center"]:has(> tbody > tr > td > div > div[align="center"]:contains(Ya.Metrika))
 mirknig.su#?#td[width="240"] > table[width="240"]:has(> tbody > tr > td > div[align="center"] > b.addnews:contains(Реклама))
 ! hdrezka - удаление отступа сверху, остатка
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com#?#.b-content__main > div[id]:has(> iframe[src^="https://rstbtmd.com/"])
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com#?#.b-seriesupdate__block_list > li.b-seriesupdate__block_list_item:has(> div.b-seriesupdate__block_list_item_inner[style^="display: block; height: 150px;"])
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com#?#.b-seriesupdate__block_list > li.b-seriesupdate__block_list_item:has(> div.b-seriesupdate__block_list_item_inner:empty)
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com#$?#body.active-brand { padding-top: 0!important; background: none!important; }
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com#?#.b-content__main > div[id]:has(> iframe[src^="https://rstbtmd.com/"])
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com#?#.b-seriesupdate__block_list > li.b-seriesupdate__block_list_item:has(> div.b-seriesupdate__block_list_item_inner[style^="display: block; height: 150px;"])
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com#?#.b-seriesupdate__block_list > li.b-seriesupdate__block_list_item:has(> div.b-seriesupdate__block_list_item_inner:empty)
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com#$?#body.active-brand { padding-top: 0!important; background: none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33951
 baby.ru#?#.content > [class]:has(> [class][id] > [id]:not(:has(> *)))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38475
@@ -6581,6 +6579,7 @@ milkua.info#?#section > div.block:has(> div.row > div[class] a[onmousedown*="'ba
 glianec.com#?##col-right > div:not([class^="bl-middle"]:has(> h4 > strong:contains(/Додати|^Твій$/)))
 glianec.com#?##col-left > div[class]:has(> h4 > strong:contains(/Новин[к]?и|Join/))
 !
+afportal.ru#?#div[id^="yandex_rtb"]:upward(div.block-block)
 horki.info#?#.node-news > div.block:has(> div.block-inner div[id^="adfox_"])
 topgir.com.ua#?#.widget-area > div.textwidget:not(:has(> form#searchform))
 windwix.ru#?##post_body > div[class]:has(> ins.adsbygoogle)
@@ -10594,6 +10593,12 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+zvonoknaurok.ru##table[style^="z-index:10000;width:"]
+blog.themarfa.name##img[alt="1200x100"]
+.viewlost.club/*.xml|
+vc.ru##a[class^="hp-"][class*="-head"]
+||focusfilm.org/telamon.png
+||sibdom.ru/upload/b/
 ||cooldj.com/api/iframe/footer
 ||cooldj.com/api/iframe/header
 cooldj.com###footerBanner
@@ -11332,7 +11337,6 @@ tehnichka.pro##a[class^="tehnichka-banner-"]
 tehnichka.pro##.ads-right-block
 ||rsload.net/images*/telamon_.png
 gotoshop.ua##.welcome2
-knigilub.ru##.forum-body > table > tbody > tr > td[id="r-colonka"]
 gorodarmavir.ru,015.by##div[id^="banner-slider-"]
 shostka.info###news-inside > div[id="dont_copy"] + div[class][style]
 ||shostka.info/media/$image
@@ -12213,7 +12217,7 @@ mir-seksa.tv##body > div[style="margin-top:300px"]
 tproger.ru##.adsLinkBlockFixBaner
 tproger.ru###float-widget-container
 tproger.ru##.sharing
-filmix.ink,filmix.today,filmix.cc,filmix.co###body .container[style^="padding: 0px; height: 0px;"]
+filmix.today,filmix.cc,filmix.co###body .container[style^="padding: 0px; height: 0px;"]
 sexicelebs.ru##a[href^="https://bongacams"] > img
 newsru.com##.top_prm
 newsru.com##.right-column-prm
@@ -15196,7 +15200,7 @@ remontka.pro##.uk-clearfix > div.responsive2
 hirologos.com##.uk-container > #tm-bottom-b
 hirologos.com##.uk-container > #tm-top-a
 remontka.pro##.uk-panel.widget_text > div.responsive
-filmix.ink,filmix.today,filmix.cc,filmix.co##.ukr-sda
+filmix.today,filmix.cc,filmix.co##.ukr-sda
 odessa.net##.ukrnet_linkator
 kinoprofi.org##.under-player
 kinoprofi.vip##.under-player > a > img
@@ -16569,7 +16573,7 @@ kinotochka.club##div[id^="tiz_"]
 c-s.net.ua##div[id^="toplayer"]
 agrimpasa.com##div[id^="trafmag"]
 goha.ru##div[id^="trurlmedia_"]
-wi-fi.ru,kriminal.net.ua,vesti.ru,province.ru,nashe.ru,rusvesna.su,7info.ru,ntv.ru,365news.biz,life.ru,rb.ru,business.ru,rosbalt.ru,mir24.tv,utro.ru,progorodnn.ru,newsru.com,anekdot.ru,astrakhan-24.ru,bel.ru,belive.ru,chrdk.ru,dni.ru,finam.info,gazeta.ru,gmbox.ru,iz.ru,kaspyinfo.ru,m24.ru,marieclaire.ru,mhealth.ru,mixnews.lv,moika78.ru,nation-news.ru,penzavzglyad.ru,pravda.ru,radioromantika.ru,realty.interfax.ru,riamo.ru,rusplt.ru,russian.rt.com,severpost.ru,snob.ru,sovsport.ru,steaklovers.menu,teleprogramma.pro,topwar.ru,trendymen.ru,tvc.ru,tvzvezda.ru,ua-football.com,ukraina.ru,vesti.uz,vokrugsveta.ru,warhead.su,zakon.kz,zr.ru##div[id^="unit_"]
+neg.by,wi-fi.ru,kriminal.net.ua,vesti.ru,province.ru,nashe.ru,rusvesna.su,7info.ru,ntv.ru,365news.biz,life.ru,rb.ru,business.ru,rosbalt.ru,mir24.tv,utro.ru,progorodnn.ru,newsru.com,anekdot.ru,astrakhan-24.ru,bel.ru,belive.ru,chrdk.ru,dni.ru,finam.info,gazeta.ru,gmbox.ru,iz.ru,kaspyinfo.ru,m24.ru,marieclaire.ru,mhealth.ru,mixnews.lv,moika78.ru,nation-news.ru,penzavzglyad.ru,pravda.ru,radioromantika.ru,realty.interfax.ru,riamo.ru,rusplt.ru,russian.rt.com,severpost.ru,snob.ru,sovsport.ru,steaklovers.menu,teleprogramma.pro,topwar.ru,trendymen.ru,tvc.ru,tvzvezda.ru,ua-football.com,ukraina.ru,vesti.uz,vokrugsveta.ru,warhead.su,zakon.kz,zr.ru##div[id^="unit_"]
 220vk.com##div[id^="user_250x600_"][class="new_block"]
 anistar.pro,anistar.org,anistar.world,anistar1.org,anistar10.org,anistar11.org,anistar12.org,anistar13.org,anistar2.org,anistar3.org,anistar4.org,anistar5.org,anistar6.org,anistar7.org,anistar8.org,anistar9.org,online-stars.org,online-star.org##div[id^="videoroll"]
 ero-top.com,pics-money.ru##div[id^="visitweb"]
@@ -19517,13 +19521,13 @@ censor.net##.partners
 24video.net,24video.vip,24video.site,24video.adult,24video.in##a[href][target][style]
 !
 ! Hdrezka
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##div[style^="height: 200px; display: block; max-width: 100%;"]
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##.b-seriesupdate__block_list_item_inner[style^="display: block; height: 150px;"]
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##[style="height: 250px; overflow: hidden; width: 680px;"]
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com###ownplayer-link-show
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##.b-content > a
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##.b-content > center > a
-hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##.b-content__main > div[id]:not([class]):empty
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##div[style^="height: 200px; display: block; max-width: 100%;"]
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##.b-seriesupdate__block_list_item_inner[style^="display: block; height: 150px;"]
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##[style="height: 250px; overflow: hidden; width: 680px;"]
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com###ownplayer-link-show
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##.b-content > a
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##.b-content > center > a
+akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka-online.me,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##.b-content__main > div[id]:not([class]):empty
 !
 24smi.org##.adfox-side
 24smi.org##.ads-headline
@@ -19689,7 +19693,7 @@ liveinternet.ru##div[style="margin-top:-5px;margin-bottom:-20px;"]
 hdgo.cc,vio.to###payadvert
 !
 ! Ads on content farm sites. Don't use for normal sites
-/(\.ru|\.com)\/.+\/.+\/.+/$script,xmlhttprequest,other,third-party,domain=maxpark.com|theplace.ru|fastpic.ru|globuss24.ru|prozoro.net.ua|comp-profi.com|car.ru|sobesednik.ru|teleprogramma.pro|homius.ru|ogodom.ru|progorod59.ru|car.ru|mainavi.ru|e-news.su|yconsult.ru|tsargrad.tv|zakonprost.ru|sadovodu.com|adderall.ru|km.ru|proroofer.ru|luna-segodnja.ru|aftershock.news|bigbangserial.ru|darkside.ru|farap.ru|gryadki.com.mnogo-krolikov.ru|it-tehnik.ru|lostseries.ru|modernfirearms.net|pravda.ru|primamedia.ru|sobakada.ru|sonnikonline.club|sovsport.ru|y-story.ru|7ogorod.ru|fermilon.ru|moidom38.ru|сельхозпортал.рф
+/(\.ru|\.com)\/.+\/.+\/.+/$script,xmlhttprequest,other,third-party,domain=maxpark.com|theplace.ru|fastpic.ru|globuss24.ru|prozoro.net.ua|comp-profi.com|car.ru|sobesednik.ru|teleprogramma.pro|homius.ru|ogodom.ru|progorod59.ru|car.ru|mainavi.ru|e-news.su|yconsult.ru|tsargrad.tv|zakonprost.ru|sadovodu.com|adderall.ru|km.ru|proroofer.ru|luna-segodnja.ru|aftershock.news|bigbangserial.ru|darkside.ru|farap.ru|gryadki.com.mnogo-krolikov.ru|it-tehnik.ru|lostseries.ru|modernfirearms.net|primamedia.ru|sobakada.ru|sonnikonline.club|sovsport.ru|y-story.ru|7ogorod.ru|fermilon.ru|moidom38.ru|сельхозпортал.рф
 /(\.ru|\.com)\/.+\/.+/$script,xmlhttprequest,other,third-party,domain=vringe.com
 https://rgqxbf.com/mn9l17912/ilvpm003y/oln/786/vqu768kypc01r
 !
@@ -19874,7 +19878,6 @@ mirtesen.aif.ru,mirtesen.profile.ru,mirtesen.sovsport.ru,mirtesen.spletnik.ru,mi
 !
 ! START: rutracker/pornolab
 !
-!
 ||rutracker.org/brand/$image
 ||rutracker.org/iframe/
 ||rutracker.org/misc/*-240x400
@@ -20021,8 +20024,7 @@ auto.mail.ru##.trg-b-banner-block
 ||r.mradx.net/img/CE/0A0EDE.mp4
 ||r.mradx.net/img/DC/B4910A.ogg
 !
-cloud.mail.ru##.public_shove > div[style^="background:"][class="shove shove_file"]
-cloud.mail.ru##.public_folder > div[style="background: #382E6C;"][class="shove shove_folder"]
+cloud.mail.ru##.public_shove > div[class^="shove"][style^="background:"]
 cloud.mail.ru##.trg-b-banner-block
 cloud.mail.ru##.content__left > style + div[id]:empty
 cloud.mail.ru##.public_folder > div.w-public__content + div[style] > a[target="_blank"] + iframe[class][src]
@@ -20204,13 +20206,13 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-covtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-covtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-covtent div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-covtent div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-covtent div.review-contents + [class]
-otzovik.com##.produkt-covtent div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-covtent div.review-contents > div.review-body > div[id]
+otzovik.com##.produkt-cojtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-cojtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-cojtent div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-cojtent div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-cojtent div.review-contents + [class]
+otzovik.com##.produkt-cojtent div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-cojtent div.review-contents > div.review-body > div[id]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
@@ -20629,7 +20631,7 @@ tutby.*,tut.by##div[id^="b-prmplace-"]
 tutby.*,tut.by##div[class^="b-prmplace"]
 tutby.*,tut.by##div[data-io-title="Новости компаний"]
 news.tut.by##.branding_links
-news.tut.by##.impl-vscroll-container[style="min-height: 770px;"]
+tut.by##.impl-vscroll-container[style="min-height: 770px;"]
 news.tut.by##.branding_bottom_links
 ||tutby.gcdn.co/n/os/06/e/680x190_pm_bf.png
 ||tutby.gcdn.co/n/os/03/f/140_parimatch_bf.jpg
@@ -20773,6 +20775,8 @@ ut-1.alexbranding.com,unitheme.net#@#[class^="adv-"]
 !#################
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/66792
+@@||rosseti.ru/bitrix/components/rugrids/advertising.banners/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65840
 @@||moevideo.biz/vast$domain=strah.video
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65371

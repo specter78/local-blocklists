@@ -5,8 +5,8 @@
 #         http://logroid.blogspot.jp/
 #         https://twitter.com/logroid
 #
-# last updated: 2020/10/31
-# block hosts: 31201 entry
+# last updated: 2020/11/02
+# block hosts: 31200 entry
 
 # 000webhost.com
 127.0.0.1 err.000webhost.com
@@ -35497,9 +35497,6 @@
 
 # mikandi.com
 127.0.0.1 analytics.mikandi.com
-
-# mikle.com
-127.0.0.1 feed.mikle.com
 
 # mildescargas.com
 127.0.0.1 www.mildescargas.com

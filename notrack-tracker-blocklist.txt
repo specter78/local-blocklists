@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 27 Oct 2020
+#Updated: 02 Nov 2020
 #LatestVersion 20.10
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -17,6 +17,7 @@
 10cms.com #Amplience
 123-tracker.com #Lead Forensics - Tracker
 123count.com #SpidersWatchp
+152media.com #152Media - Advertising
 1s3h4f7sl.com #HelloWorld
 200summit.com #Lead Forensics - Tracker
 2020mustang.com #Unknown - Advertising
@@ -56,6 +57,8 @@
 95095.com #Alibaba
 9nl.com #ClickMeter - Tracker
 9nl.org #ClickMeter - Tracker
+9qovcur0guk3.com #Unknown - Advertising
+a-mo.net #Unknown - Advertising
 a.mobify.com #Mobify - Advertising
 a1webstats.com #A1Webstats
 a2dfp.net #Unknown - Tracker
@@ -107,6 +110,7 @@ adbutler-tachyon.com
 adbutter.net #Makazi Group
 adc-srv.net #ADC Media
 adcash.com
+adcashimg.xyz #Unknown - Advertising
 adcentriconline.com
 adclick.stuff.co.nz #Stuff
 adclk.co #Unknown - Advertising
@@ -270,6 +274,7 @@ adtng.com #Unknown - Advertising
 adtoma.com #Adtoma
 adtomafusion.net #Adtoma
 adtopia.club #Adtopia
+adtracker.network #Unknown - Advertising
 adtrackir1.co.uk #Adenzo
 adtrue.com #AdTrue
 adtruth.com #Experian
@@ -673,6 +678,7 @@ ccemails.com #Email Vision
 ccmp.eu #Experian
 cdn-mxpnl.com #Mixpanel
 cdn-net.com
+cdn4ads.com #Unknown - Advertising
 cdnh3.net #Team Internet AG
 cdxr53.com #Cedexis Radar
 cedexis-radar.net #Cedexis Radar
@@ -917,6 +923,7 @@ deployads.com
 device-metrics-us.amazon.com
 deviceidshare.twitch.tv #Twitch
 devnxs.net #AppNexus Inc
+dexpredict.com #Unknown - Advertising
 diamondeal.click #msales
 dianomi.com
 digidip.net #My Dealz
@@ -1347,6 +1354,7 @@ improveads.fi #Improve Media
 improving.duckduckgo.com #DuckDuckGo Tracker
 imrworldwide.com
 imshopping.com #Blackhawk Network
+in-page-push.com #Unknown - Advertising
 in.mydirtyhobby.de #Unknown - Advertising Adult
 incoming.telemetry.mozilla.org #Mozilla
 indexww.com #CassleMedia
@@ -1536,6 +1544,7 @@ m6r.eu #MBR Targeting
 madisonlogic.com
 magnetmail.net #Real Magnet Media
 magreprints.com
+mahimeta.com #Mahimeta - Advertising
 mailadvertising.co.uk
 mailchimp.com
 mailerlite.com #MailerLite
@@ -12469,6 +12478,7 @@ popcash.net #Unknown - Advertising
 popcon.ubuntu.com #Ubuntu unaproved tracking
 popmonetize.com #Unknown - Advertising
 popmyads.com #Pop My Ads
+populationparts.com #Unknown - Advertising
 postrelease.com #Nativo
 postroller.com #BrightRoll
 postup.com #Post Up
@@ -12614,6 +12624,7 @@ revdepo.com #RevenueHits
 revealytics.com #Revealytics
 revenue-tracker.com #Unknown - Tracker
 revenue.com #World Media Group
+revenuehit.xyz #Unknown - Advertising
 revenuehits.com #RevenueHits
 revive.workmedia.pt #Work Media
 revjet.com #RevJet Advertising
@@ -12624,10 +12635,12 @@ rfihub.net
 rhombusads.com #Rhombus - Advertising
 rhtag.com #RevenueHits
 rhythmxchange.com
+richaudience.com #Rich Audience - Advertising
 richmedia.cz #Grape Media
 richmetrics.com #Burt Corp
 richrelevance.com
 rightmoveanalytics.co.uk #Rightmove Tracker
+rilelogicbuy.com #Unknown - Advertising
 ringringmedia.com #Amobee
 rivne.space #Unknown - Tracker
 rkdms.com #Merkle
@@ -13052,6 +13065,7 @@ technorail.com
 technorati.com #Technorati
 technoratimedia.com #Technorati
 techtarget.com #TechTarget - Tracker
+tekblue.net #Plan Blue - Tracker
 telemetry-dce.gfe.nvidia.com #Nvidia GeForce Experience - Tracking
 telemetry-experiment.cdn.mozilla.net #Mozilla
 telemetry-in.battle.net #Battle.net
@@ -13085,6 +13099,7 @@ thepornsurvey.com #Polling
 theresulter.com #RevenueHits
 thescv.team #Unknown - Tracker
 thetacdn.net #Verizon
+thisiswaldo.com #Newor Media - Advertising
 thrillingos.herokuapp.com #YouTube Best Video Downloader 2 add-on
 thrtle.com #Throtle
 tidaltv.com
@@ -13191,6 +13206,7 @@ trk.informationweek.com #Informationweek.Com - Tracker
 trk.justanswer.com #justanswer.com
 trk.pinterest.com #Pinterest
 trk2.pinterest.com #Pinterest - Tracker
+trkad.network #Unknown - Advertising
 trkme.net
 trkn.us #Claritas - Tracker
 tru.am #TrueAnthem
@@ -13417,7 +13433,7 @@ yieldoptimizer.com
 yieldpartners.com
 yjoiunf.com #Unknown - Advertising
 yjtag.jp
-yldbt.com #YeildBot
+yldbt.com #YeildBot - Tracker
 yldmgrimg.net #Yahoo
 yohoads.com #Unknown - Advertising
 yospace.com #Yospace
