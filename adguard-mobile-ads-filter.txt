@@ -1,8 +1,8 @@
-! Checksum: HoJwsK2iiloArlJAovJkfg
+! Checksum: 7K2s+xVWU/6bTT80120+UA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.14
-! TimeUpdated: 2020-11-02T20:30:15+03:00
+! Version: 2.0.16.17
+! TimeUpdated: 2020-11-03T22:30:15+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1264,6 +1264,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! winfuture.mobi - left-over in article
+winfuture.mobi#?#body > div.text > .mb20:has(> div[id^="div-gpt-ad"])
 ! golem.de - amazon ad on main page
 golem.de#?#.media__teaser-list > li[class]:has(> div > a[href^="https://www.golem.de/news/anzeige-"])
 golem.de#$?#.media__teaser-list > li[class]:has(> div > a[href^="https://www.golem.de/news/anzeige-"]) + li { border-top: solid 1px #EEE; !important }
@@ -2185,6 +2187,8 @@ dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshar
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+sports.ndtv.com##.add_top-wrp
+daydayin.com##body > div[class^="spu-"]
 russkie-seriali.online##.fix-message
 sibdom.ru##.fixed-position
 24tv.ua##.within-ads
