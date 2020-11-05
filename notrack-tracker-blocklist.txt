@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 02 Nov 2020
+#Updated: 04 Nov 2020
 #LatestVersion 20.10
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -418,6 +418,7 @@ analytics.mercadolibre.com.ve #MercadoLibre Tracker
 analytics.mercadolivre.com.br #MercadoLibre Tracker
 analytics.mercadopago.com #MercadoPago Tracker
 analytics.mlstatic.com #MercadoLibre Tracker
+analytics.mobile.walmart.com #Walmart.Com - Tracker
 analytics.motionarray.com #Motionarray.com - Tracker
 analytics.nerdonthestreet.com #Nerdonthestreet.com - Tracker
 analytics.nike.com #Nike.Com - Tracker
@@ -958,6 +959,7 @@ dohi.se #Dohi
 domdex.com
 dotandad.com
 dotomi.com
+doubleclick.net #Google - Advertising
 doubleclickbygoogle.com #Google
 doublepimp.com #DoublePimp
 doublepimpssl.com #Double Pimp
@@ -1397,6 +1399,7 @@ intercom.io
 invitemedia.com
 invoc.us
 ioam.de
+iotcplatform.com #ThroughTek - Suspect
 ipccdn.co.uk
 ipinfo.io #IPinfo
 ipredictive.com #Adelphic
@@ -1428,6 +1431,7 @@ justpremium.com #JustPremium Advertising
 justuno.com #Justuno Tracker
 jwpltx.com #JW Player
 k-analytix.com
+kalay.net.cn #ThroughTek - Suspect
 kaloo.ga #Kalooga
 kalooga.com #Kalooga
 kameleoon.com #Kameleoon - Tracker
@@ -1446,7 +1450,10 @@ kimcurlrvsms.com #msales
 kinaninglerophe.info #Unknown - Tracker
 kiosked.com
 kissmetrics.com
+klaviyo.com #Klaviyo - Tracker
+klclick1.com #Klaviyo - Tracker
 klick2contact.com #Eckoh
+kochava.com #Kochava - Tracker
 komoona.com
 kontera.com #Amobee
 korrelate.net
@@ -1465,6 +1472,7 @@ leadformix.com
 leadid.com #Jornaya
 leadid.net #Jornaya
 leadinfo.net #Leadinfo Tracker
+leady.com #Leady - Tracker
 leanplum.com #Leanplum
 legolas-media.com
 leiki.com #Leiki
@@ -12867,6 +12875,7 @@ sjremetrics.java.com #Oracle Tracker
 skiftmedia.pt
 skimresources.com #Skimlinks
 skyhookwireless.com #Skyhook Tracker
+skyword.com #Skyword - Tracker
 sli-spark.com
 slimcutmedia.com #SlimCut Media
 smaato.com #Smaato
@@ -13071,6 +13080,7 @@ telemetry-experiment.cdn.mozilla.net #Mozilla
 telemetry-in.battle.net #Battle.net
 telemetry.allrecipes.com #Allrecipes.Com - Tracker
 telemetry.api.2kcoretech.online #2K Tracker
+telemetry.api.playstation.com #Playstation.Com - Tracker
 telemetry.api.swiftkey.com #Swiftkey
 telemetry.art19.com #Art19.Com - Tracker
 telemetry.battle.net #Blizzard
@@ -13462,7 +13472,6 @@ ziffdavisinternational.com
 zkcdn.net
 znaptag.com
 zoomanalytics.co #Zoom Analytics - Tracker
-zopim.com #Zendesk Chat
 zotabox.com #Zotabox - Tracker
 zqtk.net #comScore
 zsj18.com #Unknown - Advertising

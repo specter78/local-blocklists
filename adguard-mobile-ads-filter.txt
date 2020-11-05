@@ -1,8 +1,8 @@
-! Checksum: 7K2s+xVWU/6bTT80120+UA
+! Checksum: g7rO9B5gb2iJ2Z3Ypn03pQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.17
-! TimeUpdated: 2020-11-03T22:30:15+03:00
+! Version: 2.0.16.19
+! TimeUpdated: 2020-11-04T19:30:14+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2187,6 +2187,7 @@ dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshar
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+washingtonexaminer.com##.fixed-wrapper
 sports.ndtv.com##.add_top-wrp
 daydayin.com##body > div[class^="spu-"]
 russkie-seriali.online##.fix-message
@@ -3924,6 +3925,7 @@ livejournal.com##.mdspost-aside__item--banner
 ! Blocking Facebook mobile ads
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/66939
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66514
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65956
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64666
