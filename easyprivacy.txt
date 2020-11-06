@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202011050037
+! Version: 202011060442
 ! Title: EasyPrivacy
-! Last modified: 05 Nov 2020 00:37 UTC
+! Last modified: 06 Nov 2020 04:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7788,6 +7788,7 @@ _mongo_stats/
 ||ssm.codes^$third-party
 ||stack-sonar.com^$third-party
 ||stackadapt.com^$third-party
+||stackvaults.com^$third-party
 ||stadsvc.com^$third-party
 ||star-cntr-5.com^$third-party
 ||stat-track.com^$third-party
@@ -11978,6 +11979,7 @@ _mongo_stats/
 ||vdo.ai/core/logger.php?
 ||veeseo.com/tracking/
 ||ventunotech.com/beacon/
+||venturify.at/pixel/
 ||verticalacuity.com/varw/sendEvent?
 ||verticalacuity.com/vat/
 ||vidazoo.com/aggregate?
@@ -12972,6 +12974,7 @@ _mongo_stats/
 ||stat.matichon.co.th^
 ! Turkish
 ||st.tmgrup.com.tr^
+||tracking.venturify.at^
 ! Ukranian
 ||informers.sinoptik.ua^
 ||mgz.com.ua/counter.php?
@@ -13548,6 +13551,7 @@ _mongo_stats/
 ||drugs.com/api/logger/
 ||dsm.com^*/searchenginetracking.js
 ||duckduckgo.com/t/
+||dumpster.cam4.com^
 ||dvdempire.com/images/empty2.asp
 ||dvdempire.com/include/user/empty2.asp?
 ||dw.cnet.com^
@@ -14505,6 +14509,7 @@ _mongo_stats/
 ||play.com/sitetrak/
 ||playboy.com/libs/analytics/
 ||playdom.com/affl/show_pixel?
+||player-telemetry.vimeo.com^
 ||playlist.com/scripts/remote_logger.js
 ||playserver1.com/analytics/
 ||playstation.com/beacon/
@@ -15282,6 +15287,8 @@ _mongo_stats/
 ||ulogin.ru/stats.html
 ||ultimedia.com/deliver/statistiques/
 ||ultra-gamerz-zone.cz.cc/b/stats?
+||unagi-eu.amazon.*/events/$domain=~aws.amazon.com
+||unagi.amazon.*/events/$domain=~aws.amazon.com
 ||unicornapp.com^*/Metrics/
 ||unionleader.com/js/ul/ga.js
 ||unisys.com^*/dcsMultiTrack.js
