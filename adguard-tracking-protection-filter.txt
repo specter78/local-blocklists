@@ -1,8 +1,8 @@
-! Checksum: bsjaqJxL5wIYWaFnzdCmwg
+! Checksum: JYDE5jJTwo6ZiMxWXwPS+w
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.11
-! TimeUpdated: 2020-11-06T19:32:00+03:00
+! Version: 2.0.18.12
+! TimeUpdated: 2020-11-08T20:03:38+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -207,6 +207,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||log-marketing.jp^
+||tatsumi-sys.jp^$third-party
 ||tracking.venturify.at^$third-party
 ||ad4m.at^
 ||mycheckergeo.com^$third-party
@@ -6251,6 +6253,9 @@ charlestownwyllie.oaklawnnonantum.com^
 /submission/pageview
 /collect-*/pageview|
 !
+/mtracking.
+/sr.gif?
+/pv.php?id=
 /set_tracking.js
 /Analytics/Tracking.js
 /autotrack.custom.js
@@ -6558,6 +6563,9 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||webryblog.biglobe.ne.jp/beacon/
+||wowgame.jp/countup.asp
+inside-games.jp##.cx-subhead
 ||bongacams.com/track?$document
 ||xxxbunker.com/ajax/guestlog
 ||xxxbunker.com/ajax/viewlog

@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 20.11.313
-# Release: 313
-# Entries: 41,019
+# Version: 20.11.314
+# Release: 314
+# Entries: 41,018
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Sun, 08 Nov 20 06:05:36
+# Updated: Mon, 09 Nov 20 06:05:41
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -4870,7 +4870,6 @@ akamai.invitemedia.com
 akamai.mathtag.com
 akamai.smartadserver.com
 akamai.taboola.com
-akamai.tiqcdn.com
 akar.iad.appboy.com
 aka-root.com
 akashdayalgroups.com
@@ -11914,6 +11913,7 @@ crashlogs.woniu.com
 crashlytics.163.com
 crashlytics2.l.google.com
 crashlytics.com
+crashlyticsreports-pa.googleapis.com
 crash-metadata.flurry.com
 crash-metrics.sdk.inmobi.com
 crashstats-collector.opera.com
@@ -20293,6 +20293,7 @@ kindertrikot.com
 kindertroedel-katzem.de
 kindervereinigung-erfurt.de
 kinderwagenoutlet.com
+kinesis.us-east-1.amazonaws.com
 kingbtc.co
 king-contenido-prod.secure2.footprint.net
 kingtds.xyz
@@ -23302,6 +23303,7 @@ mobilegames.mobi
 mobile-global.baidu.com
 mobile.gunungemas.cc
 mobile.help.adfox.ru
+mobile-http-intake.logs.datadoghq.com
 mobile.ib.sin1.geoadnxs.com
 mobileiconnect.com
 mobileiosapi.punchh.com
@@ -33394,7 +33396,6 @@ tags.clickintext.net
 tags.crwdcntrl.net
 tags.deployads.com
 tags.digital-metric.com
-tags-eu.tiqcdn.com
 tags.expo9.exponential.com
 tags.extole.com
 tags.foxnews.com
@@ -33409,7 +33410,6 @@ tags.premiumads.com.br
 tags-prod.vrvm.com
 tags.spider-mails.com
 tags.srv.stackadapt.com
-tags.tiqcdn.com.edgekey.net
 tags.t.tailtarget.com
 tags.us.onscroll.com
 tags.viewdeos.com
@@ -34084,7 +34084,6 @@ tipetapeco.com
 tiphkuloov.com
 tippsfuerreisen.de
 tipsurf.com
-tiqcdn.com.edgekey.net
 tir94wepsdxox.appspot.com
 tirerackcom.112.2o7.net
 t.irtyd.com
