@@ -1,8 +1,8 @@
-! Checksum: 5j/yFXW408sOxrX5NqUpGA
+! Checksum: B6ZMLGC4jrqskQiJd2wCDA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.24
-! TimeUpdated: 2020-11-08T20:30:21+03:00
+! Version: 2.0.16.30
+! TimeUpdated: 2020-11-09T22:30:21+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2189,6 +2189,12 @@ dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshar
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+rambler.ru##div[style="height: 250px; margin-top: 20px;"]
+rambler.ru##div[style="height: 250px; margin-bottom: 20px;"]
+rambler.ru##div[style="height: 250px; margin-bottom: 15px;"]
+thegatewaypundit.com##.persistent-footer
+se.pl###floorLayer
+baiscopedownloads.co##.mob_div
 ||renote.jp/assets/sp_inline_ad_
 ||renote.jp/assets/sp_overlay_ad_
 amazon.de##div[cel_widget_id="mobile-cart-carousels_SponsoredProductsPaginatedMobileCartEXPSubstitutesStrategy"]
@@ -3933,6 +3939,7 @@ livejournal.com##.mdspost-aside__item--banner
 ! Blocking Facebook mobile ads
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/67193
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66939
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66514
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65956

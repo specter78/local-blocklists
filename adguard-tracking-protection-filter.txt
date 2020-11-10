@@ -1,8 +1,8 @@
-! Checksum: JYDE5jJTwo6ZiMxWXwPS+w
+! Checksum: Lgz+TBar7T8KmABwr7b8CA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.12
-! TimeUpdated: 2020-11-08T20:03:38+03:00
+! Version: 2.0.18.17
+! TimeUpdated: 2020-11-09T20:03:45+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -207,6 +207,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||bewilderedbattle.com^$third-party
 ||log-marketing.jp^
 ||tatsumi-sys.jp^$third-party
 ||tracking.venturify.at^$third-party
@@ -4636,6 +4637,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||ymprove.web.de^
+||wa.web.de^
 ||stat.alloha.tv^
 ||counter.web.money^
 ||stat.videonow.ru^$third-party
@@ -6563,6 +6566,8 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||24support.cc/js/stats.js
+||static.me.me/static/versions/js/external/google_analytics-*.js
 ||webryblog.biglobe.ne.jp/beacon/
 ||wowgame.jp/countup.asp
 inside-games.jp##.cx-subhead
@@ -8917,6 +8922,7 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/67114
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67101
 @@||ia.hit.interia.pl/spider/date?$domain=interia.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67061
@@ -8924,12 +8930,11 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67051
 @@||stat.sputnik.ru/cnt.js$domain=krskstate.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67068
+! https://github.com/AdguardTeam/AdguardFilters/issues/67110
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66639
-@@||googletagmanager.com/gtm.js$domain=tvnow.de
+@@||googletagmanager.com/gtm.js$domain=tvnow.de|tvnow.at
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66715
 @@||googletagmanager.com/gtm.js$domain=linline-clinic.ru
-! https://github.com/AdguardTeam/AdguardFilters/issues/66682
-@@||veta.naver.com/adcall$xmlhttprequest,domain=vlive.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66783
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=tvn24.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66624
