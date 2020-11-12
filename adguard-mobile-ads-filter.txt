@@ -1,8 +1,8 @@
-! Checksum: HGcjM6kvp52fQwa4WUv3rw
+! Checksum: 1qKsm9LODV693u9NyV+BzA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.32
-! TimeUpdated: 2020-11-10T19:30:20+03:00
+! Version: 2.0.16.34
+! TimeUpdated: 2020-11-11T22:30:14+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -212,8 +212,6 @@
 ||adslog.apexinnotech.com^
 ||pa.afreecatv.com^
 ||matrix.dailyinnovation.biz^
-||view.adjust.com^
-||app.adjust.com^
 ||powerlinks.com^
 ||adkernel.com^
 ||dotomi.com^
@@ -3039,7 +3037,7 @@ m.adevarul.ro##.article > div[style="width:336px;height:280px;margin:5px auto;"]
 mail.yahoo.com##a[href*="beap.gemini.yahoo.com/bmclk"]
 mail.yahoo.com##form[name="showFolderForm"] > div.mb
 m.rp5.by,m.rp5.kz,m.rp5.ru,m.rp5.ua##div[onclick*="/reClickAdvert.php?key="]
-01net.com,ghacks.net,sagligabiradim.com##.mrf-adv
+gizchina.com,01net.com,ghacks.net,sagligabiradim.com##.mrf-adv
 ||momon-ga.com/*/pickup1.js
 ||momon-ga.com/*/pickup2.js
 momon-ga.com###lite_link > .list-box
@@ -3940,6 +3938,7 @@ livejournal.com##.mdspost-aside__item--banner
 ! Blocking Facebook mobile ads
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/60163
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67193
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66939
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66514

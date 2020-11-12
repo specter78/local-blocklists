@@ -5,8 +5,8 @@
 #         http://logroid.blogspot.jp/
 #         https://twitter.com/logroid
 #
-# last updated: 2020/11/02
-# block hosts: 31200 entry
+# last updated: 2020/11/12
+# block hosts: 31197 entry
 
 # 000webhost.com
 127.0.0.1 err.000webhost.com
@@ -16519,9 +16519,6 @@
 127.0.0.1 ssl-vpn.cutterbuck.com
 127.0.0.1 www.cutterbuck.com
 
-# cvh.jp
-127.0.0.1 cvh.jp
-
 # cvrank.com
 127.0.0.1 www.cvrank.com
 
@@ -17851,9 +17848,6 @@
 # dnion.com
 127.0.0.1 trjoy.dnion.com
 127.0.0.1 www.dnion.com
-
-# dnitv.com
-127.0.0.1 mercury.dnitv.com
 
 # dnparking.com
 127.0.0.1 forsale.dnparking.com
@@ -57788,7 +57782,6 @@
 127.0.0.1 now-visitor3.ziyu.net
 127.0.0.1 now-visitor4.ziyu.net
 127.0.0.1 now-visitor5.ziyu.net
-127.0.0.1 rranking5.ziyu.net
 127.0.0.1 ziyu.net
 
 # zmags.com

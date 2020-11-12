@@ -1,8 +1,8 @@
-! Checksum: oD8mcyXC9273mHcONSSBNQ
+! Checksum: RUs4E++ogbXMX/7dDp1S4A
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.19
-! TimeUpdated: 2020-11-10T18:31:38+03:00
+! Version: 2.0.18.28
+! TimeUpdated: 2020-11-11T23:31:30+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -207,6 +207,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||track-mixer.ru^$third-party
+||dmpprof.com^$third-party
+||pwrlkyotm.com^$third-party
+||g.wait.re^$third-party
 ||getcode.cotsta.ru^$third-party
 ||bewilderedbattle.com^$third-party
 ||log-marketing.jp^
@@ -4638,6 +4642,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||ish.tumedia.no^
 ||ymprove.web.de^
 ||wa.web.de^
 ||stat.alloha.tv^
@@ -4725,7 +4730,6 @@ nethunt.com/api/v1/track/email/$image
 ||stats.popupmaker.com^
 ||hstats.hepsiburada.com^
 ||tracker.unbxdapi.com^
-||d21gpk1vhmjuf5.cloudfront.net^
 ||spkrth.scw.systems^
 ||api-analytics.rozetka.com.ua^
 ||rrss.abc.es^
@@ -6567,6 +6571,9 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||101.ru/api/counters/
+||d21gpk1vhmjuf5.cloudfront.net/unbxdAnalytics.js
+||tiava.com/js/analytics
 ||fuq.com/js/analytics
 ||gazeteduvar.com.tr/hit-increment/$xmlhttprequest
 ||cdn.jsdelivr.net/npm/perfops-rom$domain=kropic.com|opensubtitles.org
@@ -8435,7 +8442,6 @@ link.gmapp*.net$image
 ||trackersimulator.org^
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31290
-! https://github.com/AdguardTeam/AdguardFilters/issues/7099
 ! https://github.com/AdguardTeam/AdguardForAndroid/issues/908
 !
 ! For apps
@@ -8839,7 +8845,6 @@ link.gmapp*.net$image
 ||tu.dxcnd.cn^
 ||tumblr.com/services/cslog
 ||tunein.adswizz.com^
-||ulink.adjust.com^
 ||umeng.com/app_logs
 ||upalytics.com^
 ||ups.ksmobile.net^
@@ -8896,10 +8901,6 @@ link.gmapp*.net$image
 @@||google-analytics.com/analytics.js$domain=brownbagcoffee.co.kr
 @@||google-analytics.com/gtm/js^$domain=brownbagcoffee.co.kr
 ! https://forum.adguard.com/index.php?threads/28222/
-! https://github.com/AdguardTeam/AdguardFilters/issues/15495
-@@||relap.io/api/*/similar_pages_jsonp.js$domain=adme.ru
-! https://github.com/AdguardTeam/AdguardFilters/issues/2263
-@@||relap.io/api/*/head.js?$domain=surfingbird.ru
 ! https://forum.adguard.com/index.php?threads/12119/
 @@||googletagmanager.com/gtm.js$domain=society6.com
 @@||google-analytics.com/analytics.js$domain=society6.com
@@ -8914,8 +8915,6 @@ link.gmapp*.net$image
 @@||googletagmanager.com/gtm.js$domain=saturn.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/2943
 @@||metrics.us.playstation.com/b/ss/
-! https://github.com/AdguardTeam/AdguardFilters/issues/8900
-@@||app.adjust.com^$domain=dawanda.com
 !-------------------------------------------------------------------------------!
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
@@ -8926,6 +8925,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/67328
+@@||googletagmanager.com/gtm.js$domain=runlesswire.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67262
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67114
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67101
@@ -9201,14 +9202,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=citethisforme.com
 @@||google-analytics.com/analytics.js$domain=citethisforme.com
 @@||google-analytics.com/gtm/js?id=$domain=citethisforme.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/54994
-@@||relap.io/v*/relap.js$domain=zr.ru
-@@||relap.io/v*/vendor.*.js$domain=zr.ru
-@@||relap.io/v*/core.*.js$domain=zr.ru
-@@||relap.io/v*/*daeb.js$domain=zr.ru
-@@||relap.io/api/v*/active_widget_cfgs?token=$xmlhttprequest,domain=zr.ru
-@@||relap.io/api/v*/recs|$xmlhttprequest,domain=zr.ru
-@@||cdn.relap.io^$image,domain=zr.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55038
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=globes.co.il
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54350
@@ -9491,11 +9484,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=bodyandsoul.com.au|whimn.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43411
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=taste.com.au
-! https://github.com/AdguardTeam/AdguardFilters/issues/49069
-@@||relap.io/api/v*/head.js$domain=briefly.ru|kulturologia.ru
-@@||relap.io/api/v*/similar_pages.js$domain=briefly.ru|kulturologia.ru
-@@||cdn.relap.io^$image,domain=briefly.ru|kulturologia.ru
-@@||relap.io/css/api/v*/block.css$domain=briefly.ru|kulturologia.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42981
 @@||repco.com.au/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43037
@@ -9578,8 +9566,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$domain=nhk.or.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37721
 @@||ugdturner.com/xd.sjs$domain=tbs.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/37574
-@@||relap.io/api/*/similar_pages_jsonp.js$domain=ivi.ru
 ! anime-planet.com - fix player
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37430
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35744
@@ -9614,8 +9600,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||googletagmanager.com/gtm.js^$domain=kaspersky.com.tr|aptekanizkihcen.ua|gala.fr
 ! berliner-zeitung.de - broken videos
 @@||pp.lp4.io/app^$domain=berliner-zeitung.de
-! https://github.com/AdguardTeam/AdguardFilters/issues/36189
-@@||relap.io/api/v*/similar_pages_jsonp.js$domain=adme.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35132
 @@/tracking.php?id$domain=a1.express
 ! https://forum.adguard.com/index.php?threads/2034/
@@ -10174,8 +10158,6 @@ kizi.com#%#window.google_trackConversion = function() {};
 @@||googletagmanager.com/gtm.js$domain=trendyol.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8301
 @@||apple.com/metrics/scripts/$domain=locate.apple.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/8147
-@@||relap.io/api/*/similar_pages_jsonp.js?url=*brightside.me$domain=brightside.me
 ! https://forum.adguard.com/index.php?threads/27592/
 @@||googletagmanager.com/gtm.js$domain=shop.kyivstar.ua
 @@||google-analytics.com/analytics.js$domain=shop.kyivstar.ua
