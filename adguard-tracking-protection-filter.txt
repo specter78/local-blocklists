@@ -1,8 +1,8 @@
-! Checksum: RUs4E++ogbXMX/7dDp1S4A
+! Checksum: deUfjs5xKtEiXTvx5/5/xg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.28
-! TimeUpdated: 2020-11-11T23:31:30+03:00
+! Version: 2.0.18.31
+! TimeUpdated: 2020-11-12T22:31:27+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -207,6 +207,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||tag.wknd.ai^$third-party
+||ext-inv-cdn.presage.io^$third-party
 ||track-mixer.ru^$third-party
 ||dmpprof.com^$third-party
 ||pwrlkyotm.com^$third-party
@@ -4642,6 +4644,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||smetrics.samsung.com^
+||target-us.samsung.com^
 ||ish.tumedia.no^
 ||ymprove.web.de^
 ||wa.web.de^
@@ -6261,6 +6265,7 @@ charlestownwyllie.oaklawnnonantum.com^
 /submission/pageview
 /collect-*/pageview|
 !
+/img.gif?
 /mtracking.
 /sr.gif?
 /pv.php?id=
@@ -6571,6 +6576,8 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||api-cf.affirm.com/api/v*/session/touch_track
+||feedify.net/thirdparty/json/track/
 ||101.ru/api/counters/
 ||d21gpk1vhmjuf5.cloudfront.net/unbxdAnalytics.js
 ||tiava.com/js/analytics
@@ -8944,8 +8951,8 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66783
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=tvn24.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66624
-! also .com.*
-@@||kaspersky.com$content
+! also .com.* and .co.in
+@@||kaspersky.co$content
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66583
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66480
 @@||geolocation.onetrust.com^$domain=popsugar.co.uk

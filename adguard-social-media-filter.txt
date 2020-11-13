@@ -1,8 +1,8 @@
-! Checksum: cU1IjEywLSakzqZ1qyVRkw
+! Checksum: VA3gjb90vgl7O6trZsCRww
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.32.70
-! TimeUpdated: 2020-11-12T01:31:38+03:00
+! Version: 2.0.32.79
+! TimeUpdated: 2020-11-12T23:31:29+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -338,6 +338,8 @@ lj_bookmarklet
 !
 ! Extended CSS rules
 !
+steamcommunity.com#?#div[class^="partnereventshared_Button"]:has(> span[class]:contains(Поделиться))
+mirsmart.com.ua#?#.condel > div.delivery:has(> div[style]:contains(Поделиться))
 mschistota.ru#?#.share > div.row > div.col-md-6 > div:contains(Поделитесь)
 javmost.com#?#.row ~ h4.text-warning:contains(SHARE)
 javmost.com#?#.row ~ h4.text-warning:contains(SHARE) + table.table-bordered
@@ -563,7 +565,7 @@ progorodsamara.ru#?##MainContentBox > #CENTER > h3:contains(Вступай в г
 progorodsamara.ru#?##MainContentBox > #CENTER > h3:contains(Вступай в группу) ~ div[style*="float"][style*="width"]
 hentai365.ru#?#.card-content:has(> div.m-translation-view__share)
 dailycaller.com#?#ul.list-none > li:has(button[data-social])
-store.steampowered.com#?#.rightcol > div > div.responsive_apppage_details_right:has(> div.block_content > div.share)
+store.steampowered.com#?#.rightcol div.block > a[onclick]:has(> span:contains(Поделиться))
 epochtimes.jp#?#.sidebar >section[class="hidden-xs"]:has(> header > h3:contains(LINE NEWS))
 winnote.ru#?#article > .news-text > div:has(> .ya-share2)
 it-tehnik.ru#?#.content-area > .content-box:has(> .text-center > div > .social-button)
@@ -1027,12 +1029,18 @@ filmizleplay.com,hdfilmkamyonu.com,fullfilmvakti.com,indirmedenizleyin.com,hdfil
 ! ##.dp-share
 pornopank.com,paraticlube.com,pornopix.net,isexpro.net,javhdonline.com,pornoworlds.org##.dp-share
 ! ##.paylas
-bilimhaber.net,balikesirhaber.net,gruppal.com,somaaktuel.com,filmizleten.com,medyagazeteleri.com,kentvizyonhaber.com,duzcedamla.com,muglagazetesi.com.tr,apron24.com,bilecikses.com,enzahome.com.tr,dizilove.com,filmizlex.com,habernida.com,guvenlifilmizle.com,full1080pfilmizle.com,istanbultakipte.com,dizilost.com,bodrumhaberpostasi.com,hdfilmizlesene2.com,gazetelink.com,dizivay.com,hizlifilmizlehd.com,simdifilmizle.com,filmdizievi1.com,asyadizileri.net,fullfilmizledim.com,fiilmizleyeni.com,canlitvlive.io,sondakika.com.tc,bolununsesi.com,sivashaber.com,anlasevgimi.com,ademocut.com,akdenizhaber.com.tr,donanimhaber.com,hayatbul.org,kimdirkim.com##.paylas
+realfilmizle1.com,bilimhaber.net,balikesirhaber.net,gruppal.com,somaaktuel.com,filmizleten.com,medyagazeteleri.com,kentvizyonhaber.com,duzcedamla.com,muglagazetesi.com.tr,apron24.com,bilecikses.com,enzahome.com.tr,dizilove.com,filmizlex.com,habernida.com,guvenlifilmizle.com,full1080pfilmizle.com,istanbultakipte.com,dizilost.com,bodrumhaberpostasi.com,hdfilmizlesene2.com,gazetelink.com,dizivay.com,hizlifilmizlehd.com,simdifilmizle.com,filmdizievi1.com,asyadizileri.net,fullfilmizledim.com,fiilmizleyeni.com,canlitvlive.io,sondakika.com.tc,bolununsesi.com,sivashaber.com,anlasevgimi.com,ademocut.com,akdenizhaber.com.tr,donanimhaber.com,hayatbul.org,kimdirkim.com##.paylas
 !
 ! ##.twitter-timeline + widgets.js
 ||platform.twitter.com/widgets.js$domain=kevinpurcell.org|015.by|airkule.com|altyazi.net|anilibria.tv|asyaspor21.tv|bartinolay.com|bedava-film.com|belaruspartisan.by|belgeselciyiz.com|belsat.eu|brauer-bund.de|btcnewz.com|businessturkeytoday.com|cj3z.com|corgit.xyz|creatorlabs.net|cwbaltimore.com|daemon-hentai.com|der-postillon.com|desimartini.com|discoverskills.com|discoverychannel.com.tr|dizilara.org|dizitube.net|dizivay.com|efelerhaber.com|egeyonhaber.com|elazigyenihaber.com|ellegirl.ru|erkekadam.org|erzurumajans.com|eurolab.ua|filmakinesi.net|filmold.com|fontanka.ru|forums.flyer.co.uk|fox38corpuschristi.com|fox47.com|foxkansas.com|foxrichmond.com|gazetaby.com|gercekizmir.com|gidavitrini.com.tr|halklailiskiler.com.tr|hizlifilmizlehd.com|inforesist.org|jetvis.ru|karsolay.com|kbsi23.com|kdsm17.com|kg-portal.ru|kinopoisk.userecho.com|kp.ua|losst.ru|magazinekibi.com|manisamanset.gen.tr|mforos.com|mogilev.online|muchohentai.com|multifilemirror.com|mvs.gov.ua|mywebtimes.com|news-journalonline.com|nk.org.ua|noticierodigital.com|ntp-servers.net|obltv.ru|orbita.dn.ua|pctip.ru|podrobnosti.ua|ppt.ru|proglang.su|queenbet4.tv|raleighcw.com|real-vin.com|rmj.ru|rusvesna.su|sanatatak.com|seirsanduk.us|simdifilmizle.com|sonkaleizmir.com|sp-mobile-blog.com|star64.tv|tomiks33.ru|torrentbe.net|torrentrg.org|tqm.com.ua|tribundergi.com|tva.in.ua|utofiles.com|wcti12.com|womanel.com.ua|wpgh53.com|wtto21.com|wutv29.com|xn----8sbcm1bmcar0m.xn--p1ai|earthsky.org|hentairules.net|actualcomment.ru|nkj.ru
 kevinpurcell.org,015.by,airkule.com,altyazi.net,anilibria.tv,asyaspor21.tv,bartinolay.com,bedava-film.com,belaruspartisan.by,belgeselciyiz.com,belsat.eu,brauer-bund.de,btcnewz.com,businessturkeytoday.com,cj3z.com,corgit.xyz,creatorlabs.net,cwbaltimore.com,daemon-hentai.com,der-postillon.com,desimartini.com,discoverskills.com,discoverychannel.com.tr,dizilara.org,dizitube.net,dizivay.com,efelerhaber.com,egeyonhaber.com,elazigyenihaber.com,ellegirl.ru,erkekadam.org,erzurumajans.com,eurolab.ua,filmakinesi.net,filmold.com,fontanka.ru,forums.flyer.co.uk,fox38corpuschristi.com,fox47.com,foxkansas.com,foxrichmond.com,gazetaby.com,gercekizmir.com,gidavitrini.com.tr,halklailiskiler.com.tr,hizlifilmizlehd.com,inforesist.org,jetvis.ru,karsolay.com,kbsi23.com,kdsm17.com,kg-portal.ru,kinopoisk.userecho.com,kp.ua,losst.ru,magazinekibi.com,manisamanset.gen.tr,mforos.com,mogilev.online,muchohentai.com,multifilemirror.com,mvs.gov.ua,mywebtimes.com,news-journalonline.com,nk.org.ua,noticierodigital.com,ntp-servers.net,obltv.ru,orbita.dn.ua,pctip.ru,podrobnosti.ua,ppt.ru,proglang.su,queenbet4.tv,raleighcw.com,real-vin.com,rmj.ru,rusvesna.su,sanatatak.com,seirsanduk.us,simdifilmizle.com,sonkaleizmir.com,sp-mobile-blog.com,star64.tv,tomiks33.ru,torrentbe.net,torrentrg.org,tqm.com.ua,tribundergi.com,tva.in.ua,utofiles.com,wcti12.com,womanel.com.ua,wpgh53.com,wtto21.com,wutv29.com,xn----8sbcm1bmcar0m.xn--p1ai,earthsky.org,hentairules.net,actualcomment.ru,nkj.ru##.twitter-timeline
 !
+proprofs.com##.share-inner-wrp > .share-click
+proprofs.com##.share-inner-wrp > .share-click1
+nasa.gov##.chertools_floater
+uzone.id##.button-share-box
+semanticscholar.org##.icon-share-twitter
+semanticscholar.org##.icon-share-facebook
 mel.fm##.article__social-widget
 iguides.ru##.social__subscribe
 eurosport.ru##.ShareIcons__title
@@ -1205,7 +1213,7 @@ inoprosport.ru##.news__block_social_wrap
 milliyet.com.tr,webvoyeur.com##.btnShare
 papiroom.net##.HD_paylas
 kevinpurcell.org##.widget_twitter_timeline
-pushsquare.com##.ui-share-page
+nintendolife.com,pushsquare.com##.ui-share-page
 cryptohamster.org##.s_stk
 lachainemeteo.com##.socialNetworksBar
 vitebsk.cc##.widget_twitter_feed_widget
@@ -2152,7 +2160,7 @@ futurelearn.com##.m-whisperbox
 rawstory.com##div[class$="-content-share-tools"]
 javascript.ru##.addtoany
 zentralplus.ch##.entry-social-share
-odatv.com##.st-sticky-share-buttons
+blimey.pro,odatv.com##.st-sticky-share-buttons
 postnauka.ru##.socials__items
 postnauka.ru##.share-wrapper__title
 tqm.com.ua##.share-buttons-area
@@ -2740,7 +2748,7 @@ the-challenger.ru##.socialshares
 the-challenger.ru##.mobileshares
 osp.ru,saglamolun.az,life-fitness.ru##.likes-block
 autogidas.lt##.btn-action-facebook
-sydroid.co,onet.pl,thescore.com##.shareButton
+noizz.pl,sydroid.co,onet.pl,thescore.com##.shareButton
 focus.ua##.social-list
 focus.ua##.main-post__social-footer
 xataka.com###fb-share-button
@@ -4065,7 +4073,7 @@ translate.weblio.jp##a[href*="plus.google.com/share"]
 kimnereli.net##.row > .col-md-8:not([style]) > span[itemprop="description"] + div[style="margin-bottom:15px;"]:not([class]):not([id])
 derstandard.at###articleTools > #infoslide
 deraktionaer.de###story-social
-sanattanyansimalar.com,larende.com,projemlak.com##.SocialMediaPopup
+hicrethaber.com,sanattanyansimalar.com,larende.com,projemlak.com##.SocialMediaPopup
 duzcepusula.com,denizlidesiyaset.com,habermarmara.com.tr,gazete365.com,haber1905.net,turgutluyanki.com,haber16.com,projemlak.com##.SocialTools > ul > li:not(.print):not(.resizer)
 gmx.net##.content > .topicWrapper.mobile
 muzikmp3indir.com##.sosyal-medya
@@ -7337,7 +7345,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.social_bar
 ##.social_btn
 ##.social_btns
-##.social_buttons
+~career.habr.com##.social_buttons
 ##.social_container
 ~fotografwdrodze.pl,~raiffeisen-media.ru##.social_facebook
 ##.social_fix

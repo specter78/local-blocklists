@@ -1,8 +1,8 @@
-! Checksum: 1qKsm9LODV693u9NyV+BzA
+! Checksum: jqaY7m88fm811s7CkFvJFg
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.34
-! TimeUpdated: 2020-11-11T22:30:14+03:00
+! Version: 2.0.16.36
+! TimeUpdated: 2020-11-12T19:31:07+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -196,6 +196,7 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||adservice.tohsoft.com^
 ||delivery-cdn-cf.adswizz.com^
 ||appboy-images.com^
 ||ad.particlenews.com^
@@ -1580,6 +1581,8 @@ yandex.ru#?#body[class*="news_phone"] div.news-container > span > div > div.unit
 pornhub.com,pornhubthbh7ap3u.onion#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
 !#################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/67467
+straitstimes.com#%#//scriptlet("abort-current-inline-script", "bindPostitial")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65853
 aol.com#%#//scriptlet('hide-in-shadow-dom', 'div[class^="AdItem-components-adPlaceholder"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65274
