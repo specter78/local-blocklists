@@ -1,8 +1,8 @@
-! Checksum: deUfjs5xKtEiXTvx5/5/xg
+! Checksum: WNQMwEHxNsM9xB2Fd5BkjQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.31
-! TimeUpdated: 2020-11-12T22:31:27+03:00
+! Version: 2.0.18.34
+! TimeUpdated: 2020-11-13T19:31:52+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -207,6 +207,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||api.rubic.com.tr^$third-party
+||datadoghq-browser-agent.com^$third-party
 ||tag.wknd.ai^$third-party
 ||ext-inv-cdn.presage.io^$third-party
 ||track-mixer.ru^$third-party
@@ -4644,6 +4646,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||uid.mavencoalition.io^
+||hummingbird.mavencoalition.io^
 ||smetrics.samsung.com^
 ||target-us.samsung.com^
 ||ish.tumedia.no^
@@ -8932,6 +8936,12 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/67507
+@@||uid.mavencoalition.io^$xmlhttprequest,domain=mtonews.com|thestreet.com
+! https://www.gmx.com/consentpage
+@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=gmx.com
+! https://www.mail.com/consentpage
+@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=mail.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67328
 @@||googletagmanager.com/gtm.js$domain=runlesswire.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67262
