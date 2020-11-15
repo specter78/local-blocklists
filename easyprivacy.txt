@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202011140505
+! Version: 202011150454
 ! Title: EasyPrivacy
-! Last modified: 14 Nov 2020 05:05 UTC
+! Last modified: 15 Nov 2020 04:54 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5804,6 +5804,7 @@ _mongo_stats/
 ||alltagcloud.info^$third-party
 ||alltracked.com^$third-party
 ||alocdn.com^$third-party
+||alpixtrack.com^$third-party
 ||altabold1.com^$third-party
 ||altastat.com^$third-party
 ||alvenda.com^$third-party
@@ -5954,6 +5955,7 @@ _mongo_stats/
 ||bfmio.com^$third-party
 ||bfoleyinteractive.com^$third-party
 ||bgpng.me^$third-party
+||bidphysics.com^$third-party
 ||bidr.io^$third-party
 ||bidsimulator.com^$third-party
 ||bidswitch.net^$third-party
@@ -7794,7 +7796,6 @@ _mongo_stats/
 ||ssm.codes^$third-party
 ||stack-sonar.com^$third-party
 ||stackadapt.com^$third-party
-||stackvaults.com^$third-party
 ||stadsvc.com^$third-party
 ||star-cntr-5.com^$third-party
 ||stat-track.com^$third-party
@@ -10526,6 +10527,7 @@ _mongo_stats/
 ||counter.top.ge^
 ||counter.yadro.ru^
 ||counters.freewebs.com^
+||countly.stackvaults.com^
 ||country.yepshare.com^
 ||creativecdn.com/pix/?
 ||creativecdn.com/tags?
@@ -11933,6 +11935,7 @@ _mongo_stats/
 ||tree-pixel-log.s3.amazonaws.com^
 ||tremorhub.com^
 ||trendmd.com/events
+||trends.newsmaxwidget.com^
 ||trf.intuitwebsites.com^
 ||triggers.wfxtriggers.com^
 ||tritondigital.com/lt?sid*&hasads=
