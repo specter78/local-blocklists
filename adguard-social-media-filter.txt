@@ -1,8 +1,8 @@
-! Checksum: jpy+/3fF+AYerWJi3tQGUQ
+! Checksum: 6H7Ta3KmuW9CYt267BlJkA
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.32.83
-! TimeUpdated: 2020-11-13T17:31:34+03:00
+! Version: 2.0.32.84
+! TimeUpdated: 2020-11-15T22:31:23+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5787,7 +5787,6 @@ trabzonspor.org.tr##.newdetailsocialwrapper
 sozcu.com.tr##.news-content-share
 anews.com##.news-item-sharing
 haber7.com,toneto.net,aksam.com.tr,dalealbo.cl,yenienerji.com,pirogovclinic.ru,yenikocaeli.com,hellomagazine.com,hola.com,dk.ru,maxicep.com,sporx.com##.news-share
-kg-portal.ru##.news_shares
 ngs.ru,ngs55.ru##.ngs-share-button
 ngs.ru##.ngs-t-share-button
 kinokong.net##.no_ampr
