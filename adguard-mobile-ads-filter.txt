@@ -1,8 +1,8 @@
-! Checksum: aerQcObWCSGyVsV+qEI8zg
+! Checksum: bKU9QLg6OOjlFGn4T/+Zrw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.40
-! TimeUpdated: 2020-11-16T21:30:15+03:00
+! Version: 2.0.16.41
+! TimeUpdated: 2020-11-17T16:30:21+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1848,6 +1848,8 @@ yandex.ru#$#div[class*="_with-url-actualizer_yes"] > div.adv_type_top ~ div[clas
 ! ##### TEMPORARY END #####
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/67705
+@@||cdn.ampproject.org/v0.js$domain=politnavigator.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66650
 @@||bc.marfeelcache.com/punchng.com/$xmlhttprequest,domain=punchng.com
 @@||bc.marfeelcache.com/statics/marfeel/gardac-sync.js$domain=punchng.com
@@ -2194,6 +2196,8 @@ dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshar
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+politnavigator.net##amp-iframe[id^="adskeeper_iframe"]
+politnavigator.net##amp-embed[type="smi2"]
 mashina.kg##.append-branding-block
 mashina.kg##.mobile-inside-cars
 detik.com##.megabillboard

@@ -1,8 +1,8 @@
-! Checksum: LFKqVJkpwvbFCzFqjnKQRA
+! Checksum: HtwP2bGhxdx2A9XKUOWRGA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.38
-! TimeUpdated: 2020-11-16T23:31:20+03:00
+! Version: 2.0.18.42
+! TimeUpdated: 2020-11-17T23:31:23+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6580,6 +6580,8 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||salesmanago.com/api/r.gif
+||tubedupe.com/js/KernelTeam$script
 ||mybbc-analytics.files.bbci.co.uk^$script
 ||lun.com/Style%20Library/Scripts/Analytics.js
 ||api-cf.affirm.com/api/v*/session/touch_track
@@ -6697,7 +6699,7 @@ android-tools.ru###text-8
 ||static.wellsfargo.com/tracking/toppages/utag.js
 ||wellsfargo.com/assets/images/global/s.gif?log=
 ||wellsfargo.com/tas|
-/wp-content/plugins/google-analytics-for-wordpress/*$domain=graphicdesignresources.net
+/wp-content/plugins/google-analytics-for-wordpress/*$domain=graphicdesignresources.net|ebonyo.com
 ||tweakers.net/x/scripts/min/ptBO.js
 ||franeski.net/js/lib.js
 ||kbb.com/pixall/
@@ -8940,6 +8942,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/67655
+@@||dev.visualwebsiteoptimizer.com/v.gif$domain=watch.impress.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67578
 @@||geolocation.onetrust.com/cookieconsentpub/*$domain=eurogamer.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67507
