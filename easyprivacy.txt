@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202011180450
+! Version: 202011190429
 ! Title: EasyPrivacy
-! Last modified: 18 Nov 2020 04:50 UTC
+! Last modified: 19 Nov 2020 04:29 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -658,6 +658,7 @@
 /analytics-social.
 /analytics-tag.
 /analytics-tracker/*
+/analytics-tracking.
 /analytics-v1.
 /analytics.*/event?
 /analytics.*/ping/?
@@ -2158,7 +2159,7 @@
 /google_analytics.$~image
 /google_analytics/*
 /google_analytics3_
-/google_analytics_
+/google_analytics_$domain=~github.com
 /google_page_track
 /google_tag.
 /google_tag/*
@@ -10023,7 +10024,8 @@ _mongo_stats/
 ||afrigator.com/track/
 ||agendize.com^*/counts.jsp?
 ||aiya.com.cn/stat.js
-||akamaized.net/sc/$domain=msn.com
+||akamaized.net/sc/*.gif$domain=msn.com
+||akamaized.net/sc/*.js$domain=msn.com
 ||akanoo.com/tracker/
 ||akatracking.esearchvision.com^
 ||aklamio.com/ovlbtntrk?
@@ -11377,6 +11379,7 @@ _mongo_stats/
 ||ping.dozuki.com^
 ||ping.hellobar.com^
 ||ping.smyte.com^
+||ping.staticmoly.me^
 ||pings.conviva.com^
 ||pings.vidpulse.com^
 ||pipe-collect.ebu.io^
@@ -12316,6 +12319,7 @@ _mongo_stats/
 ||mlm.de/pagerank-ranking/
 ||movad.de/c.ount?
 ||myv-img.de/m2/e?
+||nct.ui-portal.de/gmx/gmx/s?$image
 ||newelements.de/tracker/
 ||ntmb.de/count.html?
 ||oe-static.de^*/wws.js
@@ -15637,6 +15641,8 @@ _mongo_stats/
 ||localhost^$third-party,domain=globo.com
 ||pages.ebay.com/identity/device/$subdocument
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
+! genieesspv https://github.com/easylist/easylist/issues/6471
+/^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 ! Fingerprint
 /^https?:\/\/www\.halifax-online\.co\.uk\/assets\/[0-9a-z]{25,}/$script,domain=halifax-online.co.uk
 /^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
@@ -16497,6 +16503,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||vip.de^*/tracking.js
 ||viviano.de/cgi-bin/stat_gateway.cgi?
 ||vv.ricardo.ch^
+||wa.gmx.net/gmxde/gmxde/s?$image
 ||wdm.map24.com^
 ||web-track.telekom-dienste.de^
 ||web.de/ivw/cp/
@@ -17439,7 +17446,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cdn-ds.com/analytics/sockjs.js$script,domain=tuttleclickgenesis.com
 @@||cdn-net.com/cc.js$script,domain=uber.com|ubereats.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|imageshack.com
-@@||cdn.privacy-mgmt.com^$domain=telegraph.co.uk
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca
 @@||changenow.io/js/tracking.js$script
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
@@ -17534,14 +17540,14 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
-@@||google-analytics.com/analytics.js$domain=afternic.com|allmusic.com|amctv.com|anchor.fm|bebo.com|bennysva.com|blastingnews.com|ch10.co.il|cliphunter.com|daemon-tools.cc|desigual.com|easyjet.com|firehousesubs.com|gamepix.com|greentoe.com|health2000.co.nz|housing.wisc.edu|infogr.am|jackbox.tv|jobs.net|keygames.com|m.timesofindia.com|manowthaimordialloc.com.au|maxiclimber.com|orbitum.com|pluto.tv|pure.com|rebtel.com|sbnation.com|sci2.tv|seatgeek.com|stitcher.com|support.amd.com|tagheuer.com.au|tracking.narvar.com|tv10play.se|tv3play.se|tv6play.se|tv8play.se|video.pbs.org|vox.com|vpnster.com|weather.gov|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg|www.google.com
+@@||google-analytics.com/analytics.js$domain=afternic.com|allmusic.com|amctv.com|anchor.fm|bebo.com|beinsports.com|bennysva.com|blastingnews.com|ch10.co.il|cliphunter.com|daemon-tools.cc|desigual.com|easyjet.com|firehousesubs.com|gamepix.com|greentoe.com|health2000.co.nz|housing.wisc.edu|infogr.am|jackbox.tv|jobs.net|keygames.com|m.timesofindia.com|manowthaimordialloc.com.au|maxiclimber.com|orbitum.com|pluto.tv|pure.com|rebtel.com|sbnation.com|sci2.tv|seatgeek.com|stitcher.com|support.amd.com|tagheuer.com.au|tracking.narvar.com|tv10play.se|tv3play.se|tv6play.se|tv8play.se|video.pbs.org|vox.com|vpnster.com|weather.gov|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg|www.google.com
 @@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|cinemassacre.com|comingsoon.net|dailyfreegames.com|donanimhaber.com|ehow.com|eonline.com|everydayhealth.com|expensify.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
 @@||google-analytics.com/gtm/js$script,domain=curbed.com|eater.com|funnyordie.com|gumtree.com|mmafighting.com|mmamania.com|nflgamepass.com|polygon.com|racked.com|reuters.com|riftherald.com|sbnation.com|theringer.com|theta.tv|toysrus.ca|vox.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=lovehoney.co.uk|maxiclimber.com|opendns.com|openshift.com|vimeo.com|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|playphrase.me|ryanair.com
-@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nflgamepass.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|postable.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nflgamepass.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|postable.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
@@ -17875,7 +17881,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||asadcdn.com/adlib/pages/sport1.js$domain=sport1.de
 @@||businessclick.ch/index.js$domain=finanzen.ch
-@@||cdn.privacy-mgmt.com^$subdocument,xmlhttprequest,domain=ekstrabladet.dk|giga.de|manager-magazin.de|spiegel.de|sport1.de|vtm.begmt.com|welt.de
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
 @@||energy.de^*/ivw.js?$domain=energy.de
@@ -17891,10 +17896,14 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
+@@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=rtl.de
+@@||showheroes.com/publishertag.js$domain=rtl.de
+@@||showheroes.com/pubtag.js$domain=rtl.de
+@@||showheroes.com/spot/iframe?pageurl=$script,subdocument,domain=rtl.de
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||sunday.de/skin/*/googleanalytics.js$script
-@@||taboola.com/libtrc/impl.$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|techbook.de|travelbook.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
+@@||taboola.com/libtrc/impl.$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: E5pDYWpDMFTPzOQ/zINuZg
-! Version: 202011180511
+! Checksum: FFABlo71wbKKbi+BM+D+PA
+! Version: 202011190511
 ! Title: EasyList Italy
-! Last modified: 18 Nov 2020 05:11 UTC
+! Last modified: 19 Nov 2020 05:11 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -38,6 +38,7 @@
 /ajax/adv/?
 /altro/adv/*
 /annunciogoogle.
+/archivio/advertising/*
 /banner/adv-
 /banners/ADV-
 /banners/pubb/*
@@ -337,6 +338,7 @@ _sito/adv/
 ##a[href^="http://tracking.performoney.it/"]
 ##a[href^="http://www.bet365.it/"][href*="?affiliate="]
 ##a[href^="http://www.sostariffe.it/tracker2.php?"]
+##a[href^="https://4kmovies.online/download/"]
 ##a[href^="https://adserver.html.it/"]
 ##a[href^="https://affiliate.across.it/"]
 ##a[href^="https://affiliazioniads.snai.it/"]
@@ -435,6 +437,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||mycookies.it^$third-party
 ||nativery.com^$third-party
 ||netfilia.com^$third-party
+||netszex.com^$third-party
 ||newclick.com^$third-party
 ||noddus.com^$third-party
 ||novadv.com^$third-party
@@ -591,6 +594,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||iolam.it/js/easyBid.js
 ||ipercast.net/uploads/sponsors/
 ||italycharter.it/searchwidget$third-party
+||jooble.org/css/images/logos/jooble_$third-party
 ||kataweb.it/zbanner_consorzio.js
 ||kataweb.it^*/negozi/$third-party
 ||kuko.it/banner.
@@ -779,11 +783,15 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||almajuventusfano1906.com^*/ContoCreval_
 ||almajuventusfano1906.com^*/namirial.jpg
 ||alqamah.it/banners/
+||altadefinizione.legal/templates/altadef/img/download
+||altadefinizione.legal/templates/altadef/img/stream
 ||altadefinizione01.army/templates/Dark/img/view
 ||altadefinizione01.global/buton
 ||altadefinizione01.green^*/btn4k.
 ||altadefinizione01.green^*/btn_dwn.
 ||altadefinizione01.green^*/btntorrent.png
+||altadefinizione01.store^*/btn_dwn.png
+||altadefinizione01.store^*/btntorrent.png
 ||altadefinizione4k.stream/c.png
 ||altarimini.it/bannerBoxCatalog.php
 ||altoadigegol.it//immagini/File_banner/
@@ -823,6 +831,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||anteprima24.it^*/WhatsApp-Image-2020-10-07-at-16.45.03.jpeg
 ||anteprima24.it^*/WhatsApp-Image-2020-10-29-at-16.21.021.jpeg
 ||aostaoggi.it/images/banners/
+||arcatliguria.it/templates/cloud/img/tad2.png
 ||ascittadella.it^*/sponsor/
 ||ascolicalcio1898.it^*/sponsor/
 ||ascolinews.it^*/GUIDALUSSO2000.gif
@@ -998,6 +1007,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||citynotizie.it^*/regina.jpg
 ||cityrumors.it/images/banners/
 ||cityrumors.it/modules/mod_flexbanner/
+||cityrumors.it^*-banner-
 ||cityrumors.it^*/banner-
 ||cityrumors.it^*/skin-
 ||classificaporno.com/d/
@@ -1130,6 +1140,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||farevela.net^*/QIcompositesFV.jpg
 ||farevela.net^*/unnamed-1.gif
 ||farevela.net^*_banner_
+||farodiroma.it^*/8x1000.gif
 ||fashionandroid.com^*-banner.
 ||fattoincasadabenedetta.it/images/prenota-
 ||fattoincasadabenedetta.it/images/prenota.jpg
@@ -1254,8 +1265,6 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||giornalistitalia.it^*-banner-
 ||giornalistitalia.it^*/banner_
 ||gizchina.it^*-gshopper.
-||gizchina.it^*/banggood-
-||gizchina.it^*/geekbuying-
 ||gnoccaforum.com^*/banners/
 ||gnoccatravels.com/files/banner
 ||gnoccatravels.com/files/pbblct
@@ -1317,8 +1326,10 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||ideawebtv.it^*/Vodafone.jpg
 ||ideawebtv.it^*/WK_IdeaWeb-
 ||ideawebtv.it^*_350x250px-
+||il-genio-dello-streaming.com/play/
 ||ilcalcioillustrato.it^*/banner-
 ||ilcambiamento.it/data/banner/
+||ilcentroabruzzo.it/immagine-profilo-.jpg
 ||ilclandestinogiornale.italiasera.it^*/Oktoberfest-nettuno-
 ||ilcorriere.net^*-banner.
 ||ilcorrieredelgiorno.it^*/720x300_
@@ -1341,6 +1352,9 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||ilgeniodellostreaming.cam^*/ooBE1HG.png
 ||ilgeniodellostreaming.cam^*/scarica.
 ||ilgeniodellostreaming.cam^*/YcijKef.png
+||ilgeniodellostreaming.gold/fake2/
+||ilgeniodellostreaming.gold/templates/GdTheme/images/scarico-
+||ilgeniodellostreaming.gold/templates/GdTheme/images/vediparte
 ||ilgeniodellostreaming.tel/templates/GdTheme/images/guarda
 ||ilgeniodellostreaming.tel/templates/GdTheme/images/lato
 ||ilgeniodellostreaming.tel/templates/GdTheme/images/scarica
@@ -1453,6 +1467,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||itvonline.news^*/Schermata-2020-07-07-alle-12.27.14.png
 ||itvonline.news^*/skin-
 ||itvonline.news^*_banner-
+||iwp.com/abruzzoweb.it/*-400X200.
 ||jamma.tv^*/sanremo
 ||jamma.tv^*/skin
 ||juventus.com^*/sponsors/
@@ -1662,6 +1677,8 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||modellismopiu.it/modules/banners/
 ||modenacalcio.com^*/Kerakoll-Logo-
 ||modenaindiretta.it/yb-modenaindirettait.js
+||mogliinmostra.it^*/1017046211.gif
+||mogliinmostra.it^*/1018107841.jpg
 ||mole24.it^*-skin-
 ||mole24.it^*/skin-
 ||momentosera.it/bannerupload/
@@ -1833,6 +1850,8 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||piuvallitv.it^*/sponsors/
 ||poliziamunicipale.it/script/getbnr.aspx?
 ||pordenoneoggi.it^*/banner-
+||pornoitaliano.com^*/sign6-
+||pornoitaliano.com^*/sign7-
 ||portaledelverde.it/upload/banner/
 ||positanonotizie.it^*/b1nn3r/
 ||positanonotizie.it^*/banner/
@@ -1999,6 +2018,14 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||repubblica.it^*_contentsense_
 ||resegoneonline.it^*-larioreti-
 ||rete8.it^*/banner_
+||reteabruzzo.com^*/20201105101341-
+||reteabruzzo.com^*/Artisanitas-
+||reteabruzzo.com^*/ASCOM-2019.jpg
+||reteabruzzo.com^*/BCC-PRATOLA.jpg
+||reteabruzzo.com^*/CasaFuneraria-
+||reteabruzzo.com^*/ediltoro.jpg
+||reteabruzzo.com^*/LIQUORE1-
+||reteabruzzo.com^*/ottica-ciancarelli-
 ||retesei.com^*/depam.png
 ||retesei.com^*/EMANUELE-LA-RUSSA.jpg
 ||retesei.com^*/fibra.gif
@@ -2056,6 +2083,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||sassuolooggi.it/public/slides/
 ||savonanews.it^*/banner/
 ||savonanews.it^*/box/
+||scopateitaliane.com/nb/
 ||scopateitaliane.it/nb/
 ||scubaportal.it^*/skin-
 ||segretodonna.com^*/720x90-
@@ -2173,6 +2201,7 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||tantifilm.guru^*/wsxhQH2QyPxFBhiByjd1hQ.gif
 ||tantifilm.rest^*/bannersca.png
 ||tantifilm.rest^*/wsxhQH2QyPxFBhiByjd1hQ.gif
+||tantifilm.surf^*/wsxhQH2QyPxFBhiByjd1hQ.gif
 ||tantifilmhd.com^*/player.jpg
 ||targatocn.it^*/banner/
 ||technologyreview.it/_media/_adv/
@@ -2311,6 +2340,10 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||trsp.tv^*/banner_
 ||trsp.tv^*/logo_tv-
 ||trsp.tv^*/mondolavoro.jpg
+||tse-tse.it^*/1016794421.gif
+||tse-tse.it^*/1017422901.gif
+||tse-tse.it^*/1018114891.jpg
+||tse-tse.it^*/pulsante-contattami.png
 ||turismoitalianews.it^*/banner/
 ||turismoitalianews.it^*/banners/
 ||turistadimestiere.com^*/banner-
@@ -2563,9 +2596,9 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||wp.com/www.worldofwrestling.it/*/wow.gif
 ||wp.com/www.zerosette.it/*/bella-venezia.png
 ||wp.com^*-banner-$domain=gazzettadiavellino.it|gazzettadisalerno.it|infonewsvietri.it
-||wp.com^*-banner.$domain=gazzettadiavellino.it|gazzettadisalerno.it|infonewsvietri.it
+||wp.com^*-banner.$domain=abruzzoweb.it|gazzettadiavellino.it|gazzettadisalerno.it|infonewsvietri.it
 ||wp.com^*/675x238-$domain=tv9italia.it
-||wp.com^*/banner-$domain=cinecorriere.it|giornaledicalabria.it|ilgiornaledeiveronesi.it|infocilento.it|nonsoloturisti.it|temporeale.info|vesuvianonews.it
+||wp.com^*/banner-$domain=abruzzoweb.it|cinecorriere.it|giornaledicalabria.it|ilgiornaledeiveronesi.it|infocilento.it|nonsoloturisti.it|temporeale.info|vesuvianonews.it
 ||wp.com^*/banner/$domain=cronacaflegrea.it
 ||wp.com^*/banners/$domain=proiezionidiborsa.it
 ||wp.com^*/BRIGNOLA20201.jpg$domain=infonewsvietri.it
@@ -2577,6 +2610,9 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 ||yesmagazine.it^*_780X90.
 ||youtg.net^*/cornice_
 ||youtvrs.it^*/banner-
+||zaffiromagazine.com^*/futurcasa.png
+||zaffiromagazine.com^*/hgnews.jpg
+||zaffiromagazine.com^*/planetconsult-
 ||zenzero.info/images/call-to-action-
 ||zerocinquantuno.it^*-banner-
 ||zerocinquantuno.it^*-la-bologna-ferramenta.png
@@ -2610,10 +2646,14 @@ festivalnervi.it#@#a[href^="https://track.adform.net/"]
 |https://$script,third-party,domain=guardaserie.fit
 ! (/sw.js)
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,domain=dundi.it|pornototale.com|skip.li
+!
+/^https?:\/\/.*\/[a-z0-9A-Z]{3,15}\.(php|jsx|1ph)/$image,script,subdocument,domain=amatorialeporno.it|granditetteporno.it|matrignaporno.it|matureporno.it|milfporno.it|porno-anale.it|porno-gay.it|porno-hardcore.it|porno-lesbica.it|pornoadolescente.it|pornomatura.it|scopateitaliane.com|scopateitaliane.it|videoporno-gratis.it
 ! webrtc ads
 $webrtc,domain=hentaisaturn.com|leggenditalia.com|leggenditaloi.com
 ! *** easylistitaly:easylistitaly/easylistitaly_specific_block_popup.txt ***
 ||altadefinizione.coach/4k/$popup
+||altadefinizione01.store/UHD/$popup
+||altadefinizone.click/HD/$popup
 ||avmagazine.it/advertise/$popup
 ||cineblog01.green/cineblog01-premium-film.php$popup
 ||cineblog01.love/fake2/$popup
@@ -2621,11 +2661,13 @@ $webrtc,domain=hentaisaturn.com|leggenditalia.com|leggenditaloi.com
 ||guardaserie.host/4k/$popup
 ||guardaserie.store/4k/$popup
 ||ilgeniodellostreaming.cam/fake2/$popup
+||ilgeniodellostreaming.gold/fake2/$popup
 ||ilgeniodellostreaming.to/stream/$popup
+||supervideo.tv/vedo4k.php$popup
 ! about:blank popups
 /about:blank.*/$popup,domain=casacinema.work|guardaserie.biz|guardaserie.cam|ilgeniodellostreaming.cam|leggenditaloi.com
 ! html/image popups
-/^https?:\/\/.*\.(jpg|png|html|svg|ico)/$popup,domain=cinefun.co|eurostreaming.movie|eurostreaming.vision|filmpertutti.voto|filmsenzalimiti.li|guardaserie.fashion|ilgeniodellostreaming.tel
+/^https?:\/\/.*\.(jpg|png|html|svg|ico)/$popup,domain=altadefinizione01.store|cinefun.co|eurostreaming.movie|eurostreaming.vision|filmpertutti.voto|filmsenzalimiti.li|guardaserie.fashion|ilgeniodellostreaming.dance|ilgeniodellostreaming.tel
 !--------------Regole specifiche per le pubblicità da nascondere--------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_specific_hide.txt ***
 nauticareport.it###BanBG
@@ -2712,6 +2754,7 @@ newsf1.it###cb-bg-to
 cdt.ch###cdt-ads-medium-rectangle
 virgilio.it###cht_banner
 libero.it###chunnel-affari-300x170
+altadefinizione-site.it###clickToDown
 corrieredellacalabria.it###click_dxa
 corrieredellacalabria.it###click_sxa
 amazon.it###click_withinLazyLoad_tower
@@ -2818,6 +2861,7 @@ mondoplay.it,mondoxbox.com###offersbox_wide
 sassuolocalcio.it,ship2shore.it###partners
 lafeltrinelli.it###partners-slider
 amazon.it###pdagMwebCarousel
+incesti.xxx,pornopizza.it,tuboitaliano.it,videopornoitalia.com###playerOverlay
 acprosesto.it###prefooter
 flashgames.it###pub_sotto
 odontoiatria33.it###rowHeader
@@ -2914,7 +2958,7 @@ theitaliantimes.it##.Side_DX
 telestense.it##.StandardBanner
 uominietrasporti.it##._ning_inner
 100ideeperristrutturare.it,casa-naturale.com,quattrozampe.online,villeecasali.com##._ning_outer
-rietinvetrina.it##.a-single
+rietinvetrina.it,ultimenotizieflash.com##.a-single
 badcomics.it,badgames.it,badtaste.it,badtv.it##.aalb-880-product-carousel-unit
 gnius.it##.aalb-product-carousel-unit
 repubblica.it##.aas_whole_wrapper
@@ -2947,8 +2991,10 @@ corrierecomunicazioni.it,ilsussidiario.net##.adv_container
 calabria7.it##.advanced_floating_content
 addicted2play.com,eurogamer.it,gioco.it,lausc.it,morningstar.it##.advert
 ilfoglio.it,liberoquotidiano.it,pharmastar.it##.advertisement
+zonalocale.it##.advertising
 sienafree.it##.advs
 soldionline.it##.afc_boxcontent_taglist
+incesti.xxx,pornopizza.it,tuboitaliano.it,videopornoitalia.com##.aff
 alfemminile.com##.affi-button
 agi.it##.agi-ad-wrap
 cityrumors.it,tantasalute.it##.ai-viewport-1
@@ -2977,6 +3023,7 @@ supercoin.it##.atla-card-link
 radiogold.it##.autobanner
 subito.it##.autopromo
 uspistoiese1921.it##.av-partner-fake-img
+ciaoporno.it##.aviso
 amazon.it##.aw-campaigns
 gnoccatravels.com##.b-nner-desktop-block
 amalfinews.it,ilvescovado.it,liratv.it,occhisusalerno.it,positanonotizie.it##.b1nn3rs
@@ -3083,8 +3130,8 @@ mediaworld.it##.block-mw-external-banner
 ilroma.net##.block-rotating-banner
 punto-informatico.it,telefonino.net##.blz-url
 stateofmind.it##.bnn-fullwidth
-ilgeniodellostreaming.tel##.bnnr1
-ilgeniodellostreaming.tel##.bnnr2
+ilgeniodellostreaming.gold,ilgeniodellostreaming.tel##.bnnr1
+ilgeniodellostreaming.gold,ilgeniodellostreaming.tel##.bnnr2
 meteovalmorea.it##.bnr-row
 staffettaonline.com##.bnrZonaLati
 giornaledibarga.it##.bnside
@@ -3111,8 +3158,8 @@ pneusnews.it##.boxes
 sscnapoli.it##.brand
 tvserial.it##.break-adv
 infomedianews.com##.bsaProContainerNew
-123eurostreaming.fun,eurostreaming3.pro##.btn-01
-123eurostreaming.fun,eurostreaming3.pro##.btn-02
+123eurostreaming.fun,eurostreaming3.pro,ilgeniodellostreaming9.pro##.btn-01
+123eurostreaming.fun,eurostreaming3.pro,ilgeniodellostreaming9.pro##.btn-02
 filmitalianostreaming.com##.btn-danger
 donnamoderna.com##.btn-offerte-amazon
 game-game.it##.btn-play
@@ -3120,7 +3167,9 @@ parcofaunistico.it,piratestreaming.network##.btnaaa
 cinemalibero.cloud,cinemalibero.life##.btnaaa4k
 cinemalibero.cloud,cinemalibero.life##.btnaaahd
 abruzzolive.it##.btxe-container
+altadefinizione-site.it##.buttComment
 scaricarelibri.net##.button
+il-genio-dello-streaming.com##.button1
 parcofaunistico.it##.buttonGuardaOra
 altadefinizione01.army##.buttonbox
 pensieriparole.it##.buyblock
@@ -3130,6 +3179,7 @@ lineapress.it##.cfxi-container
 cliccascienze.it##.clicc-prima-del-contenuto
 edilportale.com##.click-Skin
 puntocellulare.it##.clklnk
+pornototale.com##.co_sponsor
 pomiglianolive.it##.code-block-11
 pomiglianolive.it##.code-block-12
 pomiglianolive.it##.code-block-5
@@ -3158,6 +3208,7 @@ automoto.it,moto.it##.crm-unit-bx3
 automoto.it,moto.it##.crm-unit-bx4
 automoto.it,moto.it##.crm-unit-mh
 affaritaliani.it##.csslider1
+mogliinmostra.it,tse-tse.it##.ctaiscriviti
 giornaleadige.it,piacenza24.eu,radionorba.it,radioyacht.com##.custom_banners_big_link
 fiorentinanews.com##.destra_banner
 flashscore.it##.detail-bonus-match-summary-content-inner
@@ -3166,7 +3217,7 @@ quotidiano.net##.discount-block
 cuneodice.it,genovadice.it,italiadice.it,torinodice.it##.div_banner
 laleggepertutti.it##.div_topbanner
 ridble.com##.dn
-casacinema.work,ilgeniodellostreaming.icu,tantifilm.surf,tantifilm.work##.download-links
+casacinema.work,ilgeniodellostreaming.icu,tantifilm-ita.it,tantifilm.surf,tantifilm.work##.download-links
 cronachedibirra.it##.e3lan125
 ilpaesenuovo.it##.e3lanat-layout-rotator
 stile.it##.egg-container
@@ -3198,7 +3249,7 @@ quattroruote.it##.four-box-sponsor
 quattroruote.it##.fullBanner
 agro24.it##.fullwidthbanner-container
 legnagocalcio.it##.fusion-carousel-holder
-anteprima24.it,bolognaindiretta.it,buttanissima.it,centropagina.it,corrieresalentino.it,gazzettadasti.it,giornaledellabirra.it,giornaledellavela.com,ilfattonisseno.it,ilsicilia.it,informazioneonline.it,junglam.com,labtv.net,latina24ore.it,lavalsusa.it,lavocedeltrentino.it,lavocedibolzano.it,lineauno.it,milanosud.it,modenaindiretta.it,padovacalcio.it,qds.it,quicosenza.it,radioibiza.it,reggionline.com,reportmotori.it,rietinvetrina.it,rivistastudio.com,sportmagazinetrentino.it,statoquotidiano.it,superj.it,tarantobuonasera.it,telebari.it,ticinonotizie.it,travelnostop.com,unicoebello.it##.g
+anteprima24.it,bolognaindiretta.it,buttanissima.it,centropagina.it,corrieresalentino.it,gazzettadasti.it,giornaledellabirra.it,giornaledellavela.com,ilfattonisseno.it,ilsicilia.it,informazioneonline.it,junglam.com,labtv.net,latina24ore.it,lavalsusa.it,lavocedeltrentino.it,lavocedibolzano.it,lineauno.it,milanosud.it,modenaindiretta.it,padovacalcio.it,qds.it,quicosenza.it,radioibiza.it,reggionline.com,reportmotori.it,reteabruzzo.com,rietinvetrina.it,rivistastudio.com,sportmagazinetrentino.it,statoquotidiano.it,superj.it,tarantobuonasera.it,telebari.it,ticinonotizie.it,travelnostop.com,unicoebello.it##.g
 4yougratis.it##.g-top-text
 agendadigitale.eu##.gallery-container-home
 virtusfrancavilla.it##.gallery-icon
@@ -3211,8 +3262,8 @@ eurostreaming.voto##.guarda
 altadefinizione.coach,guardaserie.store##.guarda_hd
 toonitalia.org##.guarda_in_hd
 ilgeniodellostreaming.dance,ilgeniodellostreaming.rest,ilgeniodellostreaming.to##.guardasingle
-ilgeniodellostreaming.dance,ilgeniodellostreaming.rest,ilgeniodellostreaming.to,ilgeniodellostreamings.it##.guardasingleserie1
-ilgeniodellostreaming.dance,ilgeniodellostreaming.rest,ilgeniodellostreaming.to,ilgeniodellostreamings.it##.guardasingleserie2
+ecwgcortina2016.it,ilgeniodellostreaming.dance,ilgeniodellostreaming.rest,ilgeniodellostreaming.to,ilgeniodellostreamings.it##.guardasingleserie1
+ecwgcortina2016.it,ilgeniodellostreaming.dance,ilgeniodellostreaming.rest,ilgeniodellostreaming.to,ilgeniodellostreamings.it##.guardasingleserie2
 quattroruote.it##.halfPageBanner2
 emmelle.it##.header-ainfo
 ecodelcinema.com,ondatv.tv##.header-banner
@@ -3240,13 +3291,14 @@ aeroporto.net##.items_aff_styles
 juventus.com##.jcom-o-footer__corporate
 juventus.com##.jcom-o-sponsors-nav__child
 superscommesse.it##.js_tracking_gtm
+pornototale.com##.js_webcam_models_container
 nientepopcorn.it##.justwatch
 cookaround.com##.lancio-speciale-logo
 libero.it##.lancio_promo
 bluerating.com##.large_home_adv
 pensieriparole.it##.latspot
 ilgallo.it##.leader-board
-close-up.it,foodweb.it,meteovista.it,pneusnews.it,prealpina.it,ridble.com,today.it##.leaderboard
+close-up.it,foodweb.it,meteovista.it,pneusnews.it,prealpina.it,ridble.com,today.it,ultimenotizieflash.com##.leaderboard
 blastingnews.com##.leaderboard-article
 erbanotizie.com##.leaderboard-bottom
 simonandthestars.it##.leaderboard-container
@@ -3315,6 +3367,7 @@ dolcidee.it,rtinradio.com##.partners
 100ideeperristrutturare.it,casa-naturale.com,quattrozampe.online,villeecasali.com##.partners-wrapper
 sarnonotizie.it##.penci-container__content
 filmsenzalimiti.love##.playbtn
+altadefinizione-site.it##.player-container
 cb01.world##.playerad
 cb01.in##.playex
 assopoker.com##.poker-room-list
@@ -3465,6 +3518,7 @@ bresciaoggi.it,larena.it##.v2_banner-wrapper
 ilgiornaledivicenza.it,larena.it##.v3_horz-banner
 bresciaoggi.it,ilgiornaledivicenza.it,larena.it##.v4_section-redazionale-home
 pugliapress.org##.vc_carousel-inner
+abruzzoweb.it##.vc_column-inner
 uscatanzaro.net##.vce-featured-header-background
 larivieraonline.com##.view-Banners
 sportsondrio.it##.view-inserzioni-sponsorizzate
@@ -3506,10 +3560,10 @@ videopornoitalia.it##a[href*=".rivcash.com/"]
 altraeta.it,amalfinotizie.it,birramoriamoci.it,canale3.tv,centotrentuno.com,concorsi-letterari.it,corrieredellacalabria.it,cremaoggi.it,cremonaoggi.it,cremonasport.it,freeonline.org,hwupgrade.it,lasiritide.it,latelanera.com,lavorincasa.it,oglioponews.it,ricettedellanonna.net,rivistanatura.com,settesere.it,telegramdirectory.it,tusciaweb.eu,tuttowrestling.com,tvadrano.com##a[href*="//bit.ly/"]
 animeemanga.it,comprovendodischi.it,comprovendolibri.it,corrieredellacalabria.it,passionemaglie.it,stiletv.it##a[href*="//goo.gl/"]
 cb01.live##a[href*="/4K/"]
-altadefinizione.coach,altadefinizione01.army,cb01.events,cb01.online,cb01.run,cb01.solutions,cb01.wales,cineblog01.love,filmsenzalimiti.love,guardarefilm.vin,guardaserie.cam,speedvideo.net##a[href*="/4k/"]
+altadefinizione.coach,altadefinizione.legal,altadefinizione01.army,cb01.events,cb01.online,cb01.run,cb01.solutions,cb01.wales,cineblog01.love,filmsenzalimiti.love,guardarefilm.vin,guardaserie.cam,speedvideo.net##a[href*="/4k/"]
 cb01.dev,cineblog01.love##a[href*="/FULLHD/"]
 piratestreaming.movie##a[href*="/Guarda4K/"]
-altadefinizione01.green,cineblog01.love,guardaserie.cam##a[href*="/UHD/"]
+altadefinizione01.green,altadefinizione01.store,cineblog01.love,guardaserie.cam##a[href*="/UHD/"]
 ilquotidianodellazio.it,romait.it##a[href*="/ad/click/"]
 telecitynews24.it##a[href*="/ads/"]
 diventaretrader.com##a[href*="/banner/redirect/"]
@@ -3523,8 +3577,9 @@ ilgeniodellostreaming.tel##a[href*="/fake2/"]
 filmsenzalimiti.li##a[href*="/fddown/"]
 filmsenzalimiti.li##a[href*="/fdhh/"]
 cb01.dev##a[href*="/film-in-full-hd-ultra.php"]
-abruzzoweb.it##a[href*="/go.php?"]
+abruzzoweb.it,ecwgcortina2016.it##a[href*="/go.php?"]
 migliorisitistreaming-hd.blogspot.com##a[href*="/go/"]
+ilgeniodellostreaming.gold##a[href*="/guarda-hd.php"]
 eurostreaming.ca,filmsenzalimiti.bz,filmsenzalimiti.ink,ilgeniodellostreaming.xyz,piratestreaming.eu##a[href*="/hd/"]
 altomantovanonews.it,autobusweb.com,citynow.it,firstonline.info,fortuneita.com,iocaccio.it,latinacorriere.it,latinaquotidiano.it,mantovasport24.it,mantovauno.it,oltrepomantovanonews.it,triesteallnews.it##a[href*="/linkout/"]
 supercoin.it##a[href*="/out/"]
@@ -3538,7 +3593,7 @@ cineblog01.place##a[href*="/streaming-full-hd.php"]
 altadefinizione4k.stream,piratestreaming.page##a[href*="/streaming-gratis.php"]
 pallacanestrocantu.com##a[href*="/trackingsponsor.aspx?"]
 cartaricaricabile.net##a[href*="/vai/"]
-altadefinizione01.green,cb01.run,cineblog01.green,cineblog01.love,filmsenzalimiti.love,guardaserie.cam,ilgeniodellostreaming.cam##a[href*="/vedo4k.php"]
+altadefinizione.legal,altadefinizione01.green,cb01.run,cineblog01.green,cineblog01.love,filmsenzalimiti.love,guardaserie.cam,ilgeniodellostreaming.cam##a[href*="/vedo4k.php"]
 altadefinizione.sh##a[href*="/view.php?"]
 filmpertutti.onl,ilgeniodellostreaming.dance##a[href*="/vss/"]
 birramoriamoci.it##a[href*="?affiliates="]
