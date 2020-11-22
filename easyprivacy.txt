@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202011210141
+! Version: 202011220444
 ! Title: EasyPrivacy
-! Last modified: 21 Nov 2020 01:41 UTC
+! Last modified: 22 Nov 2020 04:44 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4378,6 +4378,7 @@
 /tracker.*/visit?
 /tracker.1.0.gif?
 /tracker.do?
+/tracker.ga.
 /tracker.gif?
 /tracker.js.php?
 /tracker.json.php?
@@ -15481,6 +15482,7 @@ _mongo_stats/
 ||whstatic.com^*/ga.js?
 ||wikihow.com/visit_info
 ||wikihow.com/x/collect?
+||wikihow.com/x/event?
 ||wikimedia.org/wiki/Special:RecordImpression?
 ||wikimonde.com/h.php
 ||wikinvest.com/plugin/api.php?*=metricld&
@@ -15641,7 +15643,6 @@ _mongo_stats/
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com
-||ebay.com/nkfytkqtoxtljvzb.js$script,domain=ebay.com
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
@@ -17385,7 +17386,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
-@@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com
+@@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com|foodnetwork.com
+@@||adobedtm.com^*/AppMeasurement_Module_$script,domain=foodnetwork.com
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script

@@ -1,8 +1,8 @@
-! Checksum: ypdPw0oyX9enGfF4Yg5hGQ
+! Checksum: 5uZ3MxI5NU2SkzEfadaybA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.50
-! TimeUpdated: 2020-11-20T14:30:25+03:00
+! Version: 2.0.16.53
+! TimeUpdated: 2020-11-21T23:30:14+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1668,6 +1668,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/68045
+wtftime.ru#$#.adaptive_ads { position: absolute!important; left: -3000px!important; }
 ! pcgames.de - left-over at top
 pcgames.de#$#.stickyHeader+#loginFormMobileWrapper+.navigation+main { margin-top: 5,5rem !important; }
 ! ixbt.com - исправление отступа в мобильной версии
@@ -1853,6 +1855,8 @@ yandex.ru#$#div[class*="_with-url-actualizer_yes"] > div.adv_type_top ~ div[clas
 ! ##### TEMPORARY END #####
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/68075
+@@||d-cache.microad.jp/js/td_iw_access.js$domain=watch.impress.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67968
 @@||static00.forvo.com/_presentation/assets/js/vendor_mobile_no_ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67705
@@ -3031,7 +3035,7 @@ obozrevatel.com##amp-iframe.branding
 m.sabah.com.tr##.promo
 gametech.ru##.mobadv
 /:\/\/[A-Za-z0-9]+.ru\/[A-Za-z0-9]{20,25}.js/$domain=music-radio.ru
-dialog.ua##amp-iframe[src^="https://m.mixadvert.com/"]
+dp.ua,dialog.ua##amp-iframe[src^="https://m.mixadvert.com/"]
 101android.ru##.spu-box
 101android.ru##.spu-bg
 101android.ru##.myblockbottom
