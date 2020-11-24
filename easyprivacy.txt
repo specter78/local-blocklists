@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202011230417
+! Version: 202011240030
 ! Title: EasyPrivacy
-! Last modified: 23 Nov 2020 04:17 UTC
+! Last modified: 24 Nov 2020 00:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7372,7 +7372,7 @@ _mongo_stats/
 ||pinpoll.com^$third-party
 ||pipfire.com^$third-party
 ||pippio.com^$third-party
-||piwik.pro^$third-party,domain=~piwikpro.de
+||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
 ||pixel.ad^$third-party
 ||pixel.watch^$third-party
 ||pixeleze.com^$third-party
@@ -17437,6 +17437,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.segment.io/v1/$xmlhttprequest,domain=instacart.com
 @@||api.vidaxl.com^*/trackingservice/customerportal/*?$xmlhttprequest,domain=tracking.vidaxl.com
+@@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
 @@||aramex.co.nz/Umbraco/Api/Tracking/
 @@||archive.softwareheritage.org^*/stat/counters/$xmlhttprequest
 @@||asendiausa.com/tracking/js/tracking/customertracking.js?

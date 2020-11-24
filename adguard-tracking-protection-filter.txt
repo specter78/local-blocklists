@@ -1,8 +1,8 @@
-! Checksum: ZnEF8xQTvnypoSza0FPQfQ
+! Checksum: 9gfVZuqf6qHlhGPgZbR4fQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.59
-! TimeUpdated: 2020-11-23T01:31:21+03:00
+! Version: 2.0.18.66
+! TimeUpdated: 2020-11-24T01:31:21+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -205,6 +205,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||www.clarity.ms^$third-party
+||los.2hisnd.com^$third-party
+||wh.giftd.tech^
 ||privatelands.biz^$third-party
 ||click.vgnett.no^
 ||api.rubic.com.tr^$third-party
@@ -3470,6 +3473,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||satisfycork.com^$third-party
 ||placidperson.com^$third-party
 ||regularplants.com^$third-party
 ||producecopy.com^$third-party
@@ -6317,7 +6321,6 @@ _analytics.js?
 /omniture/visitorapi.
 /wp-content/plugins/wp-google-analytics-events/*
 /wp-content/cache/busting/google-tracking/*
-/googleanalytics.js
 /insights-emitter.
 /insights-emitter/*
 /log-nt/*
@@ -6585,6 +6588,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||media.r18.com/track/$document,popup
 ||app.retargetapp.com/pixel/pixel.min.js
 ||discord.com/api/*/typing
 ||ssl.pstatic.net/static.gn/js/clickcrD.js
@@ -8438,16 +8442,23 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||fusionmovies.to^$cookie=/^_tezer_|_on_page/
+||imgur.com^$cookie=/^amplitude_id_/
+||senmanga.com^$cookie=sen_manga_session
+||theatlantic.com^$cookie=/atl_uuid|datadome|kppid/
+||businessinsider.com^$cookie=/traffic_src|_uetvid|^_ga_|^_sp_/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64976
 ||herder.de^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 ! https://forum.adguard.com/index.php?threads/31364/
 ||moniteurautomobile.be^$cookie=/_dc_gtm_|_gat_/
 !
-||vc.ru/$cookie=fingerprint
-||vc.ru^$cookie=adblock-state
+||vc.ru^$cookie=/osnova-aid|fingerprint|adblock-state/
 ! onthe.io cookies
 ||vc.ru^$cookie=/^__io/
 ||vc.ru^$cookie=/^io_/
+! ad networks
+||exoclick.com^$cookie
+||realsrv.com^$cookie
 !------------------------------
 !---- Generic rules -----------
 !------------------------------
@@ -8513,6 +8524,7 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||v-collector.dp.aws.charter.com^
 ||smetrics.cnn.com^
 ||metrics.claspws.tv^
 ||geolocation.onetrust.com^
@@ -10904,7 +10916,6 @@ mozilla-russia.org#@#img[width="88"][height="31"]
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
 @@||go.com/stat/dolwebanalytics.js
 @@||go.com/stat/flash/analyticreportingas3.swf
-@@||goldbet.com/Scripts/googleAnalytics.js
 @@||goldmansachs.com/a/pg/js/prod/gs-analytics-init.js
 @@||google-analytics.com$domain=bt.com
 @@||google-analytics.com/analytics.js$domain=afternic.com|clipitto.com|deviantart.com
@@ -10945,7 +10956,6 @@ mozilla-russia.org#@#img[width="88"][height="31"]
 @@||koldcast.tv/mint/*/tracker.php?
 @@||l.yimg.com/g/combo/*/comscore.$script
 @@||latimes.com/hive/javascripts/loggingService.js
-@@||lenovo.com^*/GoogleAnalytics.js
 @@||lesacasino.com^*/EMERPEventCollector.$script,subdocument
 @@||link.theplatform.com/*/tracker.log?
 @@||link.theplatform.com/*?affiliate=
@@ -10994,7 +11004,6 @@ mozilla-russia.org#@#img[width="88"][height="31"]
 @@||netdna-ssl.com/lib/jquery-google-analytics/jquery.google-analytics.js$domain=homepath.com
 @@||netinsight.travelers.com/scripts/ntpagetaghttps.js
 @@||networkworld.com^*/demandbase.js
-@@||next.co.uk/Scripts/GoogleAnalytics.js?
 @@||nike.com/checkout/analytics/js/analyticFunctions.js$domain=nike.com
 @@||nyandcompany.com^*/resxclsa.js$domain=nyandcompany.com
 @@||nymag.com/decor/javascript/magnify_stats.js
@@ -11035,8 +11044,6 @@ mozilla-russia.org#@#img[width="88"][height="31"]
 @@||reinvigorate.net/re_.js$domain=thenounproject.com
 @@||remodelista.com/media/js/libs/ga_social_tracking.js
 @@||res-x.com^*/Resonance.aspx?
-@@||safelinkwireless.com/enrollment/*/GoogleAnalytics.js
-@@||samepage.io/assets/lib/google-analytics/GoogleAnalytics.js?
 @@||scorecardresearch.com$domain=bt.com
 @@||scorecardresearch.com/beacon.js$domain=agame.com|allrecipes.com|apl.tv|babycenter.com|cbc.ca|deviantart.com|fastcompany.com|firstwefeast.com|hitfix.com|huffingtonpost.com|laptopmag.com|last.fm|linkinpark.com|mainstreet.com|ning.com|ouramazingplanet.com|outsideonline.com|plixi.com|radaronline.com|salon.com|thedailybeast.com|thinkatheist.com
 @@||scripts.demandmedia.com/wm.js$domain=ehow.com
