@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 19 Nov 2020
+#Updated: 24 Nov 2020
 #LatestVersion 20.10
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -175,6 +175,7 @@ admized.com
 admo.tv #Clickon
 admob.com #AdMob
 admobclick.com #Invite Media
+admobile.top #Unknown - Advertising
 adnami.io #Adnami - Advertising
 adnet.de #Unknown - Advertising
 adnexus.com #AppNexus Inc
@@ -224,6 +225,7 @@ ads.ebay.com #eBay
 ads.gold #msales
 ads.hearstmags.com
 ads.linkedin.com #LinkedIn Advertising
+ads.mindfactory.de #Mindfactory.de - Tracker
 ads.msn.com #Microsoft
 ads.nordcurrent.com #nordcurrent.com - Adverts
 ads.samba.tv #Samba - Advertising
@@ -245,6 +247,7 @@ adsclean.com
 adsco.re #Adscore
 adsensecustomsearchads.com
 adserv.com #AdRate
+adservd.com #Unknown - Advertising
 adserver.pandora.com #Pandora radio
 adserver.pressboard.ca #Pressboard.ca - Advertising
 adsfac.eu
@@ -435,6 +438,7 @@ analytics.snidigital.com #Snidigital.Com - Tracker
 analytics.spotify.com #Spotify Tracker
 analytics.svt.se #Svt.Se - Tracker
 analytics.sykescottages.co.uk #Sykescottages.Co.Uk - Tracker
+analytics.tiktok.com #Tiktok.Com - Tracker
 analytics.trackerstatus.info #TrackerStatus
 analytics.tripwireinteractive.com #Tripwire Interactive Tracker
 analytics.trovit.com #Trovit.com - Tracker
@@ -899,6 +903,7 @@ dakic-ia-300.com #Lead Forensics - Tracker
 dapxl.com
 dart.l.doubleclick.net #Google
 dartsearch.net
+data-analytics.top #Unknown - Tracker
 data-eroadvertising.com
 data.coremetrics.com
 data.mistat.xiaomi.com #Xiaomi
@@ -1359,6 +1364,7 @@ imrworldwide.com
 imshopping.com #Blackhawk Network
 in-page-push.com #Unknown - Advertising
 in.mydirtyhobby.de #Unknown - Advertising Adult
+incoming-telemetry.thunderbird.net #Thunderbird - Tracker
 incoming.telemetry.mozilla.org #Mozilla
 indexww.com #CassleMedia
 indpcr1.com #Lead Forensics - Tracker
@@ -1473,6 +1479,7 @@ leadformix.com
 leadid.com #Jornaya
 leadid.net #Jornaya
 leadinfo.net #Leadinfo Tracker
+leadscope.de #Leadscope - Tracker
 leady.com #Leady - Tracker
 leanplum.com #Leanplum
 legolas-media.com
@@ -1551,6 +1558,7 @@ lyrislm.com #Aurea - Advertising
 lytics.io #Lytics Tracker
 m6r.eu #MBR Targeting
 madisonlogic.com
+magic1.info #Unknown Chinese - Tracker
 magnetmail.net #Real Magnet Media
 magreprints.com
 mahimeta.com #Mahimeta - Advertising
@@ -1642,6 +1650,7 @@ metrics.marksandspencer.com #Marks and Spencer
 metrics.plex.tv #PleX
 metrics.postoffice.co.uk #Postoffice.Co.Uk - Tracker
 metrics.raptr.com #Raptr
+metrics.roblox.com #Roblox.com - Tracker
 metrics.royalmail.com #Royalmail.com - Tracker
 metrics.three.co.uk #Three.Co.Uk - Tracker
 metricswindow.com #Digital Window
@@ -2311,33 +2320,283 @@ mkt10499.com #IBM Silverpop
 mkt105.com #IBM Silverpop
 mkt1050.com #IBM Silverpop
 mkt10500.com #IBM Silverpop
+mkt10501.com #IBM Silverpop - Advertising
+mkt10502.com #IBM Silverpop - Advertising
+mkt10503.com #IBM Silverpop - Advertising
+mkt10504.com #IBM Silverpop - Advertising
+mkt10505.com #IBM Silverpop - Advertising
+mkt10506.com #IBM Silverpop - Advertising
+mkt10507.com #IBM Silverpop - Advertising
+mkt10508.com #IBM Silverpop - Advertising
+mkt10509.com #IBM Silverpop - Advertising
 mkt1051.com #IBM Silverpop
+mkt10510.com #IBM Silverpop - Advertising
+mkt10511.com #IBM Silverpop - Advertising
+mkt10512.com #IBM Silverpop - Advertising
+mkt10513.com #IBM Silverpop - Advertising
+mkt10514.com #IBM Silverpop - Advertising
+mkt10515.com #IBM Silverpop - Advertising
+mkt10516.com #IBM Silverpop - Advertising
+mkt10517.com #IBM Silverpop - Advertising
+mkt10518.com #IBM Silverpop - Advertising
+mkt10519.com #IBM Silverpop - Advertising
 mkt1052.com #IBM Silverpop
+mkt10520.com #IBM Silverpop - Advertising
+mkt10521.com #IBM Silverpop - Advertising
+mkt10522.com #IBM Silverpop - Advertising
+mkt10523.com #IBM Silverpop - Advertising
+mkt10524.com #IBM Silverpop - Advertising
+mkt10525.com #IBM Silverpop - Advertising
+mkt10526.com #IBM Silverpop - Advertising
+mkt10527.com #IBM Silverpop - Advertising
+mkt10528.com #IBM Silverpop - Advertising
+mkt10529.com #IBM Silverpop - Advertising
 mkt1053.com #IBM Silverpop
+mkt10530.com #IBM Silverpop - Advertising
+mkt10531.com #IBM Silverpop - Advertising
+mkt10532.com #IBM Silverpop - Advertising
+mkt10533.com #IBM Silverpop - Advertising
+mkt10534.com #IBM Silverpop - Advertising
+mkt10535.com #IBM Silverpop - Advertising
+mkt10536.com #IBM Silverpop - Advertising
+mkt10537.com #IBM Silverpop - Advertising
+mkt10538.com #IBM Silverpop - Advertising
+mkt10539.com #IBM Silverpop - Advertising
 mkt1054.com #IBM Silverpop
+mkt10540.com #IBM Silverpop - Advertising
+mkt10541.com #IBM Silverpop - Advertising
+mkt10542.com #IBM Silverpop - Advertising
+mkt10543.com #IBM Silverpop - Advertising
+mkt10544.com #IBM Silverpop - Advertising
+mkt10545.com #IBM Silverpop - Advertising
+mkt10546.com #IBM Silverpop - Advertising
+mkt10547.com #IBM Silverpop - Advertising
+mkt10548.com #IBM Silverpop - Advertising
+mkt10549.com #IBM Silverpop - Advertising
 mkt1055.com #IBM Silverpop
+mkt10550.com #IBM Silverpop - Advertising
+mkt10551.com #IBM Silverpop - Advertising
+mkt10552.com #IBM Silverpop - Advertising
+mkt10553.com #IBM Silverpop - Advertising
+mkt10554.com #IBM Silverpop - Advertising
+mkt10555.com #IBM Silverpop - Advertising
+mkt10556.com #IBM Silverpop - Advertising
+mkt10557.com #IBM Silverpop - Advertising
+mkt10558.com #IBM Silverpop - Advertising
+mkt10559.com #IBM Silverpop - Advertising
 mkt1056.com #IBM Silverpop
+mkt10560.com #IBM Silverpop - Advertising
+mkt10561.com #IBM Silverpop - Advertising
+mkt10562.com #IBM Silverpop - Advertising
+mkt10563.com #IBM Silverpop - Advertising
+mkt10564.com #IBM Silverpop - Advertising
+mkt10565.com #IBM Silverpop - Advertising
+mkt10566.com #IBM Silverpop - Advertising
+mkt10567.com #IBM Silverpop - Advertising
+mkt10568.com #IBM Silverpop - Advertising
+mkt10569.com #IBM Silverpop - Advertising
 mkt1057.com #IBM Silverpop
+mkt10570.com #IBM Silverpop - Advertising
+mkt10571.com #IBM Silverpop - Advertising
+mkt10572.com #IBM Silverpop - Advertising
+mkt10573.com #IBM Silverpop - Advertising
+mkt10574.com #IBM Silverpop - Advertising
+mkt10575.com #IBM Silverpop - Advertising
+mkt10576.com #IBM Silverpop - Advertising
+mkt10577.com #IBM Silverpop - Advertising
+mkt10578.com #IBM Silverpop - Advertising
+mkt10579.com #IBM Silverpop - Advertising
 mkt1058.com #IBM Silverpop
+mkt10580.com #IBM Silverpop - Advertising
+mkt10581.com #IBM Silverpop - Advertising
+mkt10582.com #IBM Silverpop - Advertising
+mkt10583.com #IBM Silverpop - Advertising
+mkt10584.com #IBM Silverpop - Advertising
+mkt10585.com #IBM Silverpop - Advertising
+mkt10586.com #IBM Silverpop - Advertising
+mkt10587.com #IBM Silverpop - Advertising
+mkt10588.com #IBM Silverpop - Advertising
+mkt10589.com #IBM Silverpop - Advertising
 mkt1059.com #IBM Silverpop
+mkt10590.com #IBM Silverpop - Advertising
+mkt10591.com #IBM Silverpop - Advertising
+mkt10592.com #IBM Silverpop - Advertising
+mkt10593.com #IBM Silverpop - Advertising
+mkt10594.com #IBM Silverpop - Advertising
+mkt10595.com #IBM Silverpop - Advertising
+mkt10596.com #IBM Silverpop - Advertising
+mkt10597.com #IBM Silverpop - Advertising
+mkt10598.com #IBM Silverpop - Advertising
+mkt10599.com #IBM Silverpop - Advertising
 mkt106.com #IBM Silverpop
 mkt1060.com #IBM Silverpop
+mkt10600.com #IBM Silverpop - Advertising
+mkt10601.com #IBM Silverpop - Advertising
+mkt10602.com #IBM Silverpop - Advertising
+mkt10603.com #IBM Silverpop - Advertising
+mkt10604.com #IBM Silverpop - Advertising
+mkt10605.com #IBM Silverpop - Advertising
+mkt10606.com #IBM Silverpop - Advertising
+mkt10607.com #IBM Silverpop - Advertising
+mkt10608.com #IBM Silverpop - Advertising
+mkt10609.com #IBM Silverpop - Advertising
 mkt1061.com #IBM Silverpop
+mkt10610.com #IBM Silverpop - Advertising
+mkt10611.com #IBM Silverpop - Advertising
+mkt10612.com #IBM Silverpop - Advertising
+mkt10613.com #IBM Silverpop - Advertising
+mkt10614.com #IBM Silverpop - Advertising
+mkt10615.com #IBM Silverpop - Advertising
+mkt10616.com #IBM Silverpop - Advertising
+mkt10617.com #IBM Silverpop - Advertising
+mkt10618.com #IBM Silverpop - Advertising
+mkt10619.com #IBM Silverpop - Advertising
 mkt1062.com #IBM Silverpop
+mkt10620.com #IBM Silverpop - Advertising
+mkt10621.com #IBM Silverpop - Advertising
+mkt10622.com #IBM Silverpop - Advertising
+mkt10623.com #IBM Silverpop - Advertising
+mkt10624.com #IBM Silverpop - Advertising
+mkt10625.com #IBM Silverpop - Advertising
+mkt10626.com #IBM Silverpop - Advertising
+mkt10627.com #IBM Silverpop - Advertising
+mkt10628.com #IBM Silverpop - Advertising
+mkt10629.com #IBM Silverpop - Advertising
 mkt1063.com #IBM Silverpop
+mkt10630.com #IBM Silverpop - Advertising
+mkt10631.com #IBM Silverpop - Advertising
+mkt10632.com #IBM Silverpop - Advertising
+mkt10633.com #IBM Silverpop - Advertising
+mkt10634.com #IBM Silverpop - Advertising
+mkt10635.com #IBM Silverpop - Advertising
+mkt10636.com #IBM Silverpop - Advertising
+mkt10637.com #IBM Silverpop - Advertising
+mkt10638.com #IBM Silverpop - Advertising
+mkt10639.com #IBM Silverpop - Advertising
 mkt1064.com #IBM Silverpop
+mkt10640.com #IBM Silverpop - Advertising
+mkt10641.com #IBM Silverpop - Advertising
+mkt10642.com #IBM Silverpop - Advertising
+mkt10643.com #IBM Silverpop - Advertising
+mkt10644.com #IBM Silverpop - Advertising
+mkt10645.com #IBM Silverpop - Advertising
+mkt10646.com #IBM Silverpop - Advertising
+mkt10647.com #IBM Silverpop - Advertising
+mkt10648.com #IBM Silverpop - Advertising
+mkt10649.com #IBM Silverpop - Advertising
 mkt1065.com #IBM Silverpop
+mkt10650.com #IBM Silverpop - Advertising
+mkt10651.com #IBM Silverpop - Advertising
+mkt10652.com #IBM Silverpop - Advertising
+mkt10653.com #IBM Silverpop - Advertising
+mkt10654.com #IBM Silverpop - Advertising
+mkt10655.com #IBM Silverpop - Advertising
+mkt10656.com #IBM Silverpop - Advertising
+mkt10657.com #IBM Silverpop - Advertising
+mkt10658.com #IBM Silverpop - Advertising
+mkt10659.com #IBM Silverpop - Advertising
 mkt1066.com #IBM Silverpop
+mkt10660.com #IBM Silverpop - Advertising
+mkt10661.com #IBM Silverpop - Advertising
+mkt10662.com #IBM Silverpop - Advertising
+mkt10663.com #IBM Silverpop - Advertising
+mkt10664.com #IBM Silverpop - Advertising
+mkt10665.com #IBM Silverpop - Advertising
+mkt10666.com #IBM Silverpop - Advertising
+mkt10667.com #IBM Silverpop - Advertising
+mkt10668.com #IBM Silverpop - Advertising
+mkt10669.com #IBM Silverpop - Advertising
 mkt1067.com #IBM Silverpop
+mkt10670.com #IBM Silverpop - Advertising
+mkt10671.com #IBM Silverpop - Advertising
+mkt10672.com #IBM Silverpop - Advertising
+mkt10673.com #IBM Silverpop - Advertising
+mkt10674.com #IBM Silverpop - Advertising
+mkt10675.com #IBM Silverpop - Advertising
+mkt10676.com #IBM Silverpop - Advertising
+mkt10677.com #IBM Silverpop - Advertising
+mkt10678.com #IBM Silverpop - Advertising
+mkt10679.com #IBM Silverpop - Advertising
 mkt1068.com #IBM Silverpop
+mkt10680.com #IBM Silverpop - Advertising
+mkt10681.com #IBM Silverpop - Advertising
+mkt10682.com #IBM Silverpop - Advertising
+mkt10683.com #IBM Silverpop - Advertising
+mkt10684.com #IBM Silverpop - Advertising
+mkt10685.com #IBM Silverpop - Advertising
+mkt10686.com #IBM Silverpop - Advertising
+mkt10687.com #IBM Silverpop - Advertising
+mkt10688.com #IBM Silverpop - Advertising
+mkt10689.com #IBM Silverpop - Advertising
 mkt1069.com #IBM Silverpop
+mkt10690.com #IBM Silverpop - Advertising
+mkt10691.com #IBM Silverpop - Advertising
+mkt10692.com #IBM Silverpop - Advertising
+mkt10693.com #IBM Silverpop - Advertising
+mkt10694.com #IBM Silverpop - Advertising
+mkt10695.com #IBM Silverpop - Advertising
+mkt10696.com #IBM Silverpop - Advertising
+mkt10697.com #IBM Silverpop - Advertising
+mkt10698.com #IBM Silverpop - Advertising
+mkt10699.com #IBM Silverpop - Advertising
 mkt107.com #IBM Silverpop
 mkt1070.com #IBM Silverpop
+mkt10700.com #IBM Silverpop - Advertising
+mkt10701.com #IBM Silverpop - Advertising
+mkt10702.com #IBM Silverpop - Advertising
+mkt10703.com #IBM Silverpop - Advertising
+mkt10704.com #IBM Silverpop - Advertising
+mkt10705.com #IBM Silverpop - Advertising
+mkt10706.com #IBM Silverpop - Advertising
+mkt10707.com #IBM Silverpop - Advertising
+mkt10708.com #IBM Silverpop - Advertising
+mkt10709.com #IBM Silverpop - Advertising
 mkt1071.com #IBM Silverpop
+mkt10710.com #IBM Silverpop - Advertising
+mkt10711.com #IBM Silverpop - Advertising
+mkt10712.com #IBM Silverpop - Advertising
+mkt10713.com #IBM Silverpop - Advertising
+mkt10714.com #IBM Silverpop - Advertising
+mkt10715.com #IBM Silverpop - Advertising
+mkt10716.com #IBM Silverpop - Advertising
+mkt10717.com #IBM Silverpop - Advertising
+mkt10718.com #IBM Silverpop - Advertising
+mkt10719.com #IBM Silverpop - Advertising
 mkt1072.com #IBM Silverpop
+mkt10720.com #IBM Silverpop - Advertising
+mkt10721.com #IBM Silverpop - Advertising
+mkt10722.com #IBM Silverpop - Advertising
+mkt10723.com #IBM Silverpop - Advertising
+mkt10724.com #IBM Silverpop - Advertising
+mkt10725.com #IBM Silverpop - Advertising
+mkt10726.com #IBM Silverpop - Advertising
+mkt10727.com #IBM Silverpop - Advertising
+mkt10728.com #IBM Silverpop - Advertising
+mkt10729.com #IBM Silverpop - Advertising
 mkt1073.com #IBM Silverpop
+mkt10730.com #IBM Silverpop - Advertising
+mkt10731.com #IBM Silverpop - Advertising
+mkt10732.com #IBM Silverpop - Advertising
+mkt10733.com #IBM Silverpop - Advertising
+mkt10734.com #IBM Silverpop - Advertising
+mkt10735.com #IBM Silverpop - Advertising
+mkt10736.com #IBM Silverpop - Advertising
+mkt10737.com #IBM Silverpop - Advertising
+mkt10738.com #IBM Silverpop - Advertising
+mkt10739.com #IBM Silverpop - Advertising
 mkt1074.com #IBM Silverpop
+mkt10740.com #IBM Silverpop - Advertising
+mkt10741.com #IBM Silverpop - Advertising
+mkt10742.com #IBM Silverpop - Advertising
+mkt10743.com #IBM Silverpop - Advertising
+mkt10744.com #IBM Silverpop - Advertising
+mkt10745.com #IBM Silverpop - Advertising
+mkt10746.com #IBM Silverpop - Advertising
+mkt10747.com #IBM Silverpop - Advertising
+mkt10748.com #IBM Silverpop - Advertising
+mkt10749.com #IBM Silverpop - Advertising
 mkt1075.com #IBM Silverpop
+mkt10750.com #IBM Silverpop - Advertising
 mkt1076.com #IBM Silverpop
 mkt1077.com #IBM Silverpop
 mkt1078.com #IBM Silverpop
@@ -12488,6 +12747,7 @@ popcon.ubuntu.com #Ubuntu unaproved tracking
 popmonetize.com #Unknown - Advertising
 popmyads.com #Pop My Ads
 populationparts.com #Unknown - Advertising
+portbay.trade #Unknown Chinese - Tracker
 postrelease.com #Nativo
 postroller.com #BrightRoll
 postup.com #Post Up
@@ -12505,6 +12765,7 @@ priority-static-api.nkstatic.com #NinjaKiwi
 privacy.aol.com #AOL - Advertising
 prnx.net
 pro-market.net
+prod-telemetry.paradox-interactive.com #Paradox-interactive.com - Tracker
 prod.telemetry.ros.rockstargames.com #Rockstar Games
 productserve.com #Digital Window
 profitwell.com #ProfitWell
@@ -12585,6 +12846,7 @@ raasnet.com
 rad.live.com #Microsoft
 radiumone.com #RadiumOne
 rampanel.com #Research and Analysis of Media - Tracker
+rat1.com #Unknown Chinese - Tracker
 rayjump.com #Mobvista - Advertising
 rcsmetrics.it #Corriere.it
 rdrct.cloud #msales
@@ -12641,6 +12903,7 @@ revmetrix.com
 revsci.net #AudienceScience
 rfihub.com
 rfihub.net
+rfrl.pw #Unknown - Advertising
 rhombusads.com #Rhombus - Advertising
 rhtag.com #RevenueHits
 rhythmxchange.com
@@ -12888,18 +13151,73 @@ smartology.co #Smartology
 smartology.net #Smartology
 smartstream.tv
 smct.co
+smetrics.3monoamines.com #Adobe - Tracker
+smetrics.aaamidatlantic.com #Adobe - Tracker
+smetrics.alainmikli.com #Adobe - Tracker
+smetrics.americanairlines.be #Adobe - Tracker
+smetrics.americanairlines.jp #Adobe - Tracker
+smetrics.amitiza.com #Adobe - Tracker
+smetrics.ansys.com #Adobe - Tracker
+smetrics.apolloplatform.com #Adobe - Tracker
 smetrics.barclays.co.uk #Barclays.Co.Uk - Tracker
+smetrics.bbva.com.co #Adobe - Tracker
+smetrics.bbvanet.com.co #Adobe - Tracker
 smetrics.bestbuy.com #Bestbuy.Com - Tracker
+smetrics.blockchain-linkdrive.cf #Adobe - Tracker
+smetrics.boehringer-ingelheim.cn #Adobe - Tracker
+smetrics.boehringer-ingelheim.com.au #Adobe - Tracker
+smetrics.boehringer-ingelheim.com.hk #Adobe - Tracker
+smetrics.boehringer-ingelheim.com.tr #Adobe - Tracker
+smetrics.boehringer-interactief.nl #Adobe - Tracker
+smetrics.boehringer-interaktiv.de #Adobe - Tracker
+smetrics.boezemfibrilleren.nl #Adobe - Tracker
+smetrics.cartoonnetwork.ca #Adobe - Tracker
 smetrics.cnn.com #Cnn.Com - Tracker
+smetrics.coinbene.plus #Adobe - Tracker
 smetrics.corus.ca #Iobit - Tracker
+smetrics.disneychannel.ca #Adobe - Tracker
+smetrics.disneylachaine.ca #Adobe - Tracker
 smetrics.elsevier.com #Elsevier - Tracker
+smetrics.faceipf.com #Adobe - Tracker
+smetrics.forthedriven.com #Adobe - Tracker
+smetrics.foxnews.com #Foxnews.com - Tracker
+smetrics.frontline.com.ar #Adobe - Tracker
+smetrics.frontline.com.br #Adobe - Tracker
+smetrics.frontline.com.cn #Adobe - Tracker
+smetrics.frontline.com.cy #Adobe - Tracker
+smetrics.frontline.fr #Adobe - Tracker
+smetrics.getturbotax.com #Adobe - Tracker
+smetrics.global.jcb #Adobe - Tracker
+smetrics.globalnews.ca #Adobe - Tracker
+smetrics.hjerteflimmer.dk #Adobe - Tracker
+smetrics.investec.com #Adobe - Tracker
+smetrics.jewsonpartnershipsolutions.com #Adobe - Tracker
+smetrics.lasexta.com #Adobe - Tracker
 smetrics.mcafee.com #McAfee
+smetrics.mrelectric.com #Adobe - Tracker
+smetrics.mrrooter.ca #Adobe - Tracker
+smetrics.myhome.ie #Adobe - Tracker
+smetrics.ondacero.es #Adobe - Tracker
+smetrics.otel.com #Adobe - Tracker
+smetrics.quickenloans.org #Adobe - Tracker
+smetrics.rainbowintl.com #Adobe - Tracker
 smetrics.redhat.com #Redhat.com - Tracker
+smetrics.regionstest.com #Adobe - Tracker
+smetrics.respimat.com #Adobe - Tracker
+smetrics.santandree.xyz #Adobe - Tracker
 smetrics.sky.com #Sky
+smetrics.switch2t-mobile.com #Adobe - Tracker
+smetrics.t-mobilesavings.com #Adobe - Tracker
 smetrics.tesco.com #Tesco.Com - Tracker
 smetrics.three.co.uk #Three.Co.Uk - Tracker
 smetrics.timeout.com #Timeout.Com - Tracker
+smetrics.trygghansa.se #Adobe - Tracker
+smetrics.vikingline.ax #Adobe - Tracker
+smetrics.vikingline.ru #Adobe - Tracker
 smetrics.vodafone.co.uk #Vodafone Tracker
+smetrics.wilsonniblett.com #Adobe - Tracker
+smetrics.yahoodictionary.hk #Adobe - Tracker
+smetrics.ytv.com #Adobe - Tracker
 smrk.io #Smarkio
 snapads.com #SnapAds
 snapengage.com #SnapEngage LLC
@@ -12973,6 +13291,7 @@ static.ads-twitter.com #Twitter
 stats.addsearch.com #Addsearch Tracker
 stats.bbc.co.uk
 stats.bbc.net.uk #BBC Tracker
+stats.curds.io #Curds.io - Tracker
 stats.ebay.com #eBay
 stats.elementary.io #Elementary.io - Tracker
 stats.ft.com #Financial Times
@@ -13164,8 +13483,9 @@ track.sublytics-5db087d02a8b8.com #Sublytics Tracker
 track.sublytics-5db9e5dd1b2c2.com #Sublytics Tracker
 track.sublytics-5db9fa0b5700f.com #Sublytics Tracker
 track.sublytics-5df8eec4bca66.com #Sublytics Tracker
+track.sublytics-5f85c1cfb6a39.com #Sublytics - Tracker
+track.sublytics-5faedd0b88cec.com #Sublytics - Tracker
 track.thesaurus.com #Thesaurus.Com - Tracker
-track.toggl.com #Toggl.com - Tracker
 track.untd.com #UnitedOnline - Tracker
 track.us.org #TrackAd
 track.wikibuy.com #Wikibuy.Com - Tracker
@@ -13255,6 +13575,7 @@ umbel.com
 umeng.com #Umeng
 unanimis.co.uk #Unanimis Advertising
 undrininvereb.info #Unknown - Advertising
+uniconsent.com #Uniconsent - Annoyance
 uniqodo.com
 univide.com
 unoadsrv.com #Adtelligent

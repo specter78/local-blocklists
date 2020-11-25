@@ -1,8 +1,8 @@
-! Checksum: GLzsVfKF/ewj252MBUyN6A
+! Checksum: pdm7UvdsL/oIM8jyrjGxbw
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.33.22
-! TimeUpdated: 2020-11-24T01:31:26+03:00
+! Version: 2.0.33.27
+! TimeUpdated: 2020-11-24T20:04:32+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -338,6 +338,7 @@ lj_bookmarklet
 !
 ! Extended CSS rules
 !
+money.pl#?#article > div[class*=" "] > div[id^="part"] > button > span:contains(/^Podziel się$/):upward(1)
 softportal.com#?#.cardPageLinks > div.Menu2ETd:has(> a[onclick^="showShare"])
 e1.ru#?#p[class]:has(> svg[width="20"][height="15"]):contains(Поделиться)
 steamcommunity.com#?#div[class^="partnereventshared_Button"]:has(> span[class]:contains(Поделиться))
@@ -1042,6 +1043,8 @@ spooor.com,mavididim.com.tr,filmfiz.net,filmw.net,filmkapani.com,realfilmizle1.c
 ||platform.twitter.com/widgets.js$domain=kevinpurcell.org|015.by|airkule.com|altyazi.net|anilibria.tv|asyaspor21.tv|bartinolay.com|bedava-film.com|belaruspartisan.by|belgeselciyiz.com|belsat.eu|brauer-bund.de|btcnewz.com|businessturkeytoday.com|cj3z.com|corgit.xyz|creatorlabs.net|cwbaltimore.com|daemon-hentai.com|der-postillon.com|desimartini.com|discoverskills.com|discoverychannel.com.tr|dizilara.org|dizitube.net|dizivay.com|efelerhaber.com|egeyonhaber.com|elazigyenihaber.com|ellegirl.ru|erkekadam.org|erzurumajans.com|eurolab.ua|filmakinesi.net|filmold.com|fontanka.ru|forums.flyer.co.uk|fox38corpuschristi.com|fox47.com|foxkansas.com|foxrichmond.com|gazetaby.com|gercekizmir.com|gidavitrini.com.tr|halklailiskiler.com.tr|hizlifilmizlehd.com|inforesist.org|jetvis.ru|karsolay.com|kbsi23.com|kdsm17.com|kg-portal.ru|kinopoisk.userecho.com|kp.ua|losst.ru|magazinekibi.com|manisamanset.gen.tr|mforos.com|mogilev.online|muchohentai.com|multifilemirror.com|mvs.gov.ua|mywebtimes.com|news-journalonline.com|nk.org.ua|noticierodigital.com|ntp-servers.net|obltv.ru|orbita.dn.ua|pctip.ru|podrobnosti.ua|ppt.ru|proglang.su|queenbet4.tv|raleighcw.com|real-vin.com|rmj.ru|rusvesna.su|sanatatak.com|seirsanduk.us|simdifilmizle.com|sonkaleizmir.com|sp-mobile-blog.com|star64.tv|tomiks33.ru|torrentbe.net|torrentrg.org|tqm.com.ua|tribundergi.com|tva.in.ua|utofiles.com|wcti12.com|womanel.com.ua|wpgh53.com|wtto21.com|wutv29.com|xn----8sbcm1bmcar0m.xn--p1ai|earthsky.org|hentairules.net|actualcomment.ru|nkj.ru|tayga.info
 kevinpurcell.org,015.by,airkule.com,altyazi.net,anilibria.tv,asyaspor21.tv,bartinolay.com,bedava-film.com,belaruspartisan.by,belgeselciyiz.com,belsat.eu,brauer-bund.de,btcnewz.com,businessturkeytoday.com,cj3z.com,corgit.xyz,creatorlabs.net,cwbaltimore.com,daemon-hentai.com,der-postillon.com,desimartini.com,discoverskills.com,discoverychannel.com.tr,dizilara.org,dizitube.net,dizivay.com,efelerhaber.com,egeyonhaber.com,elazigyenihaber.com,ellegirl.ru,erkekadam.org,erzurumajans.com,eurolab.ua,filmakinesi.net,filmold.com,fontanka.ru,forums.flyer.co.uk,fox38corpuschristi.com,fox47.com,foxkansas.com,foxrichmond.com,gazetaby.com,gercekizmir.com,gidavitrini.com.tr,halklailiskiler.com.tr,hizlifilmizlehd.com,inforesist.org,jetvis.ru,karsolay.com,kbsi23.com,kdsm17.com,kg-portal.ru,kinopoisk.userecho.com,kp.ua,losst.ru,magazinekibi.com,manisamanset.gen.tr,mforos.com,mogilev.online,muchohentai.com,multifilemirror.com,mvs.gov.ua,mywebtimes.com,news-journalonline.com,nk.org.ua,noticierodigital.com,ntp-servers.net,obltv.ru,orbita.dn.ua,pctip.ru,podrobnosti.ua,ppt.ru,proglang.su,queenbet4.tv,raleighcw.com,real-vin.com,rmj.ru,rusvesna.su,sanatatak.com,seirsanduk.us,simdifilmizle.com,sonkaleizmir.com,sp-mobile-blog.com,star64.tv,tomiks33.ru,torrentbe.net,torrentrg.org,tqm.com.ua,tribundergi.com,tva.in.ua,utofiles.com,wcti12.com,womanel.com.ua,wpgh53.com,wtto21.com,wutv29.com,xn----8sbcm1bmcar0m.xn--p1ai,earthsky.org,hentairules.net,actualcomment.ru,nkj.ru,tayga.info##.twitter-timeline
 !
+4mens.pl##.text_share
+reform.by###content div.social-buttons
 javtrailers.com###share-card
 babel.ua##.js-article-share
 mayak.org.ua##.article-item__social
@@ -1051,7 +1054,6 @@ salon24.pl##.article__socials > a[onclick*="ShareThis(this)"]
 coffeefan.info##.socshare
 drugs.com##.ddc-social-share
 drugs.com##a[data-ga-category="social"]
-mobeseizle.net##.safirShare
 china-review.com.ua##div[class="butn  pull-left"]
 ng.ru##.b-article-share
 haberofisi.com.tr##.share-items
@@ -3916,7 +3918,7 @@ habergazetesi.com.tr##.payla
 m.akparti.org.tr##.share > li:not(.pdf):not(.email)
 ulusal.com.tr##.panel-sosyal
 hepfullfilmizle1.com,tekpartizlefullhd.net,hdfilmevrenizle.com,fullhdtekpartizle.org,filmklasigi.org,superfullhdfilm.com,dfilmevrenizle.com##.filmcontent > #alt
-beydagihaberajansi.com,hdfulldiziler.com,askvemavi1.dizifragmanlar.com##.safirShare
+kanaldenizli.com,kalemlervekiliclar.com,mobeseizle.net,beydagihaberajansi.com,hdfulldiziler.com,askvemavi1.dizifragmanlar.com##.safirShare
 reytingler.biz###share_links_3
 huffingtonpost.jp,m-huffingtonpost-de.cdn.ampproject.org##.shareBarBottom
 shopback.com.tw,techsini.com##.fsb-social-bar
@@ -4799,7 +4801,7 @@ anpfiff.info##[id$="SocialMediaValues"] + [id$="divSpTgAkt"] > .content-col-r > 
 pixxxels.org##.sh-link
 flagma.ru,pentestpartners.com,lingq.com,androidheadlines.com,autobytel.com,theonion.com##.share-widget
 newsmalta.com##.widget_simple_facebook_page_feed_widget
-v-androide.com,wildo.ru##.social-tabs
+starhit.ru,v-androide.com,wildo.ru##.social-tabs
 creative-tools.de###sidebar > .widget_monarchwidget
 heidelberg24.de##.id-Actionbox-items > li.id-Actionbox-items-el--whatsapp
 heidelberg24.de##.id-Actionbox-items > li.id-Actionbox-items-el--facebook

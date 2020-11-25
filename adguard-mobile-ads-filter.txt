@@ -1,8 +1,8 @@
-! Checksum: nEs81P99x3KXVxOLzF79UA
+! Checksum: YLrMLRwuUoyxGZsOtcaPlw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.55
-! TimeUpdated: 2020-11-23T20:30:14+03:00
+! Version: 2.0.16.59
+! TimeUpdated: 2020-11-24T17:30:26+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1271,8 +1271,6 @@ winfuture.mobi#?#body > div.text > .mb20:has(> div[id^="div-gpt-ad"])
 ! golem.de - amazon ad on main page
 golem.de#?#.media__teaser-list > li[class]:has(> div > a[href^="https://www.golem.de/news/anzeige-"])
 golem.de#$?#.media__teaser-list > li[class]:has(> div > a[href^="https://www.golem.de/news/anzeige-"]) + li { border-top: solid 1px #EEE; !important }
-! google ads with links to vendors
-google.*#?##kp-wp-tab-overview > .mnr-c:has(> div[class*="__wholepage-card"] > div > div[class] > div[class][lang]:not([style]):not([data-attrid]))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66328
 mail.ru#$?#.pulse-lenta div[id^="_pcard_"]:has(> a[href^="https://t.mail.ru/redir/"]) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66050
@@ -2209,6 +2207,10 @@ amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwel
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+/sponsor/*.jpg$domain=mephimnhat.com
+mephimnhat.com##.ff-banner
+||mephimnhat.com/vast*.xml
+blog.goo.ne.jp##.article__hideads
 m.hurriyet.com.tr##a[href^="http://www.mobilbilgiservisleri.com/lp"] > img
 withinnigeria.com##div[data-adid]
 metruyenchu.com##main > section.nh-section > div.text-center.bg-light
@@ -2558,8 +2560,20 @@ m.comic.sportsseoul.com##div[style*="width:100%"][style*="height:100px"]
 winfuture.mobi##iframe[src^="//j.wfcdn.de/j/iframes/outbrain_"]
 setfilmizle.vip##.menu_alti_reklam_mobil
 m.imdb.com##.cornerstone_slot
+itest.5ch.net###instant_ad
+itest.5ch.net###float-bnr
+itest.5ch.net###js-adstir-300x250
+itest.5ch.net###js-adstir-320x50
+itest.5ch.net###js-bottom-ad-300x250
+itest.5ch.net###js-bottom-ad-320x250
+itest.5ch.net###js-cardview_ad
 itest.5ch.net##.js-cardview_ad-320x180 > iframe
+itest.5ch.net##.js-cardview_ad-320x50
+itest.5ch.net##.js-overlay_ad
+itest.5ch.net##.ranking > div[style^="height: 320px;"]
+itest.5ch.net##.res_ad
 itest.5ch.net##div[class^="sproutad_"]
+itest.5ch.net##[class*="js-ads-content-top_"]
 thenewsminute.com##.view-ads
 thenewsminute.com##amp-iframe#prebid-user-sync
 purepc.pl##a[databx][href*="/red1r.php"]
