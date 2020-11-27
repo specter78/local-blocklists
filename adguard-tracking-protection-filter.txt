@@ -1,8 +1,8 @@
-! Checksum: h4jHSWwSNk6SoDVWJtenbg
+! Checksum: 8rWctAwH9j8xPsZn/tCHIw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.69
-! TimeUpdated: 2020-11-25T03:31:26+03:00
+! Version: 2.0.18.71
+! TimeUpdated: 2020-11-26T19:31:38+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -79,6 +79,8 @@
 !-------------------
 !-------JS----------
 !-------------------
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/64616
 !
 !! facebook.com - removing tracking parameter
 !! external links
@@ -4666,6 +4668,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||p.imgur.com^
 ||uid.mavencoalition.io^
 ||hummingbird.mavencoalition.io^
 ||smetrics.samsung.com^
@@ -6599,6 +6602,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||fapster.xxx/player/stats.php
 ||media.r18.com/track/$document,popup
 ||app.retargetapp.com/pixel/pixel.min.js
 ||discord.com/api/*/typing
