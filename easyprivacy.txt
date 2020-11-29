@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202011280508
+! Version: 202011290500
 ! Title: EasyPrivacy
-! Last modified: 28 Nov 2020 05:08 UTC
+! Last modified: 29 Nov 2020 05:00 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2094,6 +2094,7 @@
 /geoip_cc
 /geoip_script?
 /geoipAPI.js?
+/geolocation?utm_
 /geoLocationData/v1/*
 /geomap.js?
 /geov2.js
@@ -5127,6 +5128,7 @@
 /zaius.gif?
 /zaius.js
 /zanox.js
+/zdcc.min.js
 /zddmp.min.js
 /zdgurgler.min.js
 /zemtracker.
@@ -12056,6 +12058,7 @@ _mongo_stats/
 ||upt.graphiq.com^
 ||uptime.com/static/rum/$third-party
 ||usercentrics.eu/session/$image
+||userexperience.thehut.net^
 ||usersegment.wpdigital.net^
 ||uservoice.com^*/track.js
 ||userway.org/api/stats/
@@ -13051,6 +13054,7 @@ _mongo_stats/
 ||analitica.webrpp.com^
 ||contadores.miarroba.com^
 ||contadores.miarroba.es^
+||creatives.sunmedia.tv^
 ||enetres.net/StatisticsV1/
 ||epimg.net/js/vr/vrs.
 ||g-stats.openhost.es^
@@ -13062,6 +13066,7 @@ _mongo_stats/
 ||stats.miarroba.info^
 ||stats.sec.telefonica.com^
 ||tag.shopping-feed.com^
+||track.sunmedia.tv^
 ||tracker.thinkindot.com^
 ! Swedish
 ||aftonbladet.se/blogportal/view/statistics?$third-party
@@ -15494,10 +15499,8 @@ _mongo_stats/
 ||wallpaperstock.net/partners.js
 ||warp.prnewswire.co.uk^
 ||washingtonpost.com/notification-sw.js
-||washingtonpost.com/rw/sites/twpweb/js/init/init.track-header-1.0.0.js
-||washingtonpost.com/wp-srv/javascript/placeSiteMetrix.
 ||washingtonpost.com/wp-stat/analytics/
-||washingtonpost.com^*/one.gif?
+||washingtonpost.com/zeus/iris/iris-main.js
 ||watch-series.to/analytics.html
 ||watchmouse.com^*/jsrum/
 ||watson.live.com^
@@ -17488,6 +17491,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||att.com/ui/*/jsnlog.js
 @@||audioeye.com/ae.js$domain=woodlanddirect.com
 @@||azureedge.net^*/eventtracking.js$domain=crimemapping.com
+@@||banned.video/videojs-event-tracking/dist/videojs-event-tracking.js$script,domain=banned.video|infowars.com
 @@||barclays.co.uk/content/dam/$script
 @@||barclays.co.uk/touchclarity/mbox.js
 @@||barclays.touchclarity.com^$domain=barclaycard.co.uk

@@ -1,8 +1,8 @@
-! Checksum: ExIY37v1Lgqj1eTxG0j9Iw
+! Checksum: 2RvLJnZxKRna99qA+K4tbw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.67
-! TimeUpdated: 2020-11-27T20:02:48+03:00
+! Version: 2.0.16.69
+! TimeUpdated: 2020-11-28T21:30:13+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -844,6 +844,7 @@
 ||i-vengo.com^
 ||i.skimresources.com^
 ||iad.appboy.com^
+||iad-*.appboy.com^
 ||iadsdk.apple.com^
 ||iamediaserve.com^
 ||imasdk.googleapis.com^
@@ -1906,8 +1907,6 @@ businessinsider.co.za#@#.ad-loaded
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47849
 @@||bc.marfeelcache.com^$domain=01net.com
 @@||bc.marfeel.com^$domain=01net.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/46739
-m.olx.ua#@#.adbox
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44518
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=games.metv.com
 ! kiss-anime.ws - broken pages iOS
