@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 26 Nov 2020
+#Updated: 29 Nov 2020
 #LatestVersion 20.11
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -248,7 +248,6 @@ adspsp.com
 adsrvr.org
 adsrvs.com #WhiteOps
 adsterra.com #Adsterra
-adstheaa.com #The AA
 adstir.com #Adstir - Advertising
 adsupply.com #AdSupply Advertising
 adsupplyssl.com #AdSupply Advertising
@@ -363,7 +362,6 @@ analytics-static.ugc.bazaarvoice.com #Bazaar Voice
 analytics.163.com #163.com - Tracker
 analytics.amakings.com
 analytics.archive.org #Archive.Org - Tracker
-analytics.bluemosh.com #Bluemosh Tracker
 analytics.brave.com #Brave Browser
 analytics.businessinsider.com #BusinessInsider Tracker
 analytics.ccs.mcafee.com #McAfee
@@ -427,7 +425,6 @@ analytics.spotify.com #Spotify Tracker
 analytics.svt.se #Svt.Se - Tracker
 analytics.sykescottages.co.uk #Sykescottages.Co.Uk - Tracker
 analytics.tiktok.com #Tiktok.Com - Tracker
-analytics.trackerstatus.info #TrackerStatus
 analytics.tripwireinteractive.com #Tripwire Interactive Tracker
 analytics.trovit.com #Trovit.com - Tracker
 analytics.twitter.com #Twitter
@@ -448,7 +445,6 @@ apester.com
 api.b2c.com #b2c
 api.mobula.sdk.duapps.com #DU Apps
 apn.co.nz
-apnex.us #AppNexus Inc
 app-analytics.snapchat.com #Snapchat
 app-measurement.com #Googles android analytics
 app.link #Branch
@@ -463,13 +459,8 @@ applvn.com #AppLovin
 appmetrica.webvisor.com #Yandex Tracker
 appmetrica.yandex.com #Yandex
 appmetrica.yandex.net #Yandex Tracker
-appnex.us #AppNexus Inc
-appnexis.com #AppNexus Inc
-appnexus.biz #AppNexus Inc
 appnexus.com #AppNexus Inc
-appnexus.info #AppNexus Inc
 appnexus.net #AppNexus Inc
-appnexus.us #AppNexus Inc
 appnexuscloud.com #AppNexus Inc
 appround.biz
 appsmonitoring.com #AppDynamics
@@ -498,7 +489,6 @@ auditorius.ru #iAge
 auditude.com
 audtd.com #iAge
 augur.io
-authexa.xyz #Unknown - Tracker
 avantisvideo.com #Avantis Video Advertising
 avazuinc.com #Azavu
 avazunativeads.com #Azavu
@@ -512,7 +502,6 @@ awltovhc.com
 ayads.co #Ayads - Advertising
 ayc0zsm69431gfebd.xyz #Unknown - Tracker
 azalead.com
-azera-s014.com #Lead Forensics - Tracker
 b86d4006e465f5ef74e4438b0cb802605e5c7993ac0002a876149c70.com #Appodeal - Tracker
 bae5tracker.com #Lead Forensics - Tracker
 bam-x.com #Narrativ
@@ -529,7 +518,6 @@ baw5tracker.com #Lead Forensics - Tracker
 baynote.net
 bcovery.com #Bcovery Tracker
 bdex.com #Big Data Exchange
-bdg001a.com #Lead Forensics - Tracker
 beacon.guim.co.uk #The Guardian
 beacons.gcp.gvt2.com #Google
 beacons.gvt2.com #Google
@@ -658,7 +646,6 @@ canddi.download #CANDDi
 canddi.email #CANDDi
 canddi.io #CANDDi
 candid.io #Candid
-candobees.com #Ad Web
 candodigital.biz #Ad Web
 cap-mii.net
 captifymedia.com
@@ -674,7 +661,6 @@ ccmp.eu #Experian
 cdn-mxpnl.com #Mixpanel
 cdn-net.com
 cdn4ads.com #Unknown - Advertising
-cdnh3.net #Team Internet AG
 cdxr53.com #Cedexis Radar
 cedexis-radar.net #Cedexis Radar
 cedexis-test.com #Cedexis Radar
@@ -746,8 +732,6 @@ closealert.com #CloseAlert Tracker
 cloud-9751.com #Lead Forensics - Tracker
 cloud.ca.com #CA
 cluodlfare.com #Unknown - Tracker
-clusteredcloud.com #AppNexus Inc
-clusteredcloud.net #AppNexus Inc
 cm.gy #ClickMeter - Tracker
 cmail.link #Campaign Monitor Pty
 cmail1.com #Campaign Monitor Pty
@@ -789,7 +773,6 @@ compete.com
 comscore.biz #comScore
 comscore.com #comScore
 comscoredatamine.com #comScore
-comscoredirect.com #comScore
 comscoreresearch.com #comScore
 comscoreresearch.net #comScore
 comscorestudies.com #comScore
@@ -919,7 +902,6 @@ device-metrics-us.amazon.com
 deviceidshare.twitch.tv #Twitch
 devnxs.net #AppNexus Inc
 dexpredict.com #Unknown - Advertising
-diamondeal.click #msales
 dianomi.com
 digidip.net #My Dealz
 digitalanalytix.net #comScore
@@ -932,10 +914,8 @@ digitalwindow.com #Digital Window
 digitru.st #DigiTrust Tracker
 direct-aws-a1.com #Lead Forensics - Tracker
 direct-azr-78.com #Lead Forensics - Tracker
-directedat.asia
 directrev.com
 displaymarketplace.com
-displaywords.com #AppNexus Inc
 disqusads.com #Disqus
 divvit.com #Divvit
 djfiln.com #Ad-center Advertising
@@ -995,7 +975,6 @@ eclkmpsa.com #RevenueHits
 eclkspbn.com #RevenueHits
 eclkspsa.com #RevenueHits
 ecomcbjs.jomodns.com #Baidu
-ecopute.com #AppNexus Inc
 ecustomeropinions.com
 ed-clr-01.com #Lead Forensics - Tracker
 edatasales.com #Chrome Extension Easy Auto Refresh
@@ -1007,7 +986,6 @@ effectivemeasure.com #Effective Measure
 effectivemeasure.net #Effective Measure Tracker
 egeng.info #eGain Corporation
 ekomi-pl.com #eKomi
-ekomi-ru.com #eKomi
 ekomi-us.com #eKomi
 ekomi.com #eKomi
 ekomi.de #eKomi
@@ -1059,7 +1037,6 @@ emxdgt.com #EMX
 en25.com #Oracle - Tracker
 enecto.com #Enecto
 engagesciences.com
-engine54.com #AppNexus Inc
 ensighten.com
 envnxs.net #AppNexus Inc
 epmads.com
@@ -1116,10 +1093,8 @@ eyeota.net
 eyereturn.com #EyeReturn Marketing
 eyeviewads.com #EyeView
 ezoic.net #Ezoic
-f6591f7b0fcba816ef1d195e7ffd1e6c.com #Unknown - Advertising
 face3media.com
 facetz.net #Exebid DCA
-facetz.ru #Exebid DCA
 fairsharelabs.com #Fairshare
 fallingfalcon.com #Unknown - Tracker
 fancybar.net #BuySellAds
@@ -1183,7 +1158,6 @@ gator.io
 gaug.es
 gbl007.com #Lead Forensics - Tracker
 gblwebcen.com #Lead Forensics - Tracker
-gdl5vtbbv0lj.com #Unknown - Tracker
 gemius.pl
 generalsearches.com #Unknown - Tracker
 genericlink.com
@@ -1205,7 +1179,6 @@ getsentry.org #GetSentry
 getsidekick.com #Hubspot - Tracker
 getsitecontrol.com #GetSiteControl
 getsocial.io #GetSocial
-gettally.com #Hubspot - Tracker
 gettraff.com
 ghostery.com #Ghostery Enterprise
 gigaonclick.com #Unknown - Advertising
@@ -1233,11 +1206,9 @@ googletagservices.com
 gorillanation.com
 goroost.com
 gosquared.com #GoSquared
-got2sell.co #Unknown - Advertising
 gotraffic.net #Unknown - Tracker
 govmetric.com #GovMetric - Tracker
 gpwebsolutions.co.uk
-graf.ly #Bright Pixel
 granify.com #Granify
 grapeshot-apac.com #Oracle - Advertising
 grapeshot-emea.com #Oracle - Advertising
@@ -1265,7 +1236,6 @@ gwallet.net #RadiumOne
 hackers.lv #Unknown - Tracker
 hanapinmarketing.com
 happyfoxchat.com #HappyFox Chat
-header.tech #Unknown - Tracker
 heapanalytics.com
 heartbeat.dm.origin.com #EA
 heartbeat.flickr.com #Flickr
@@ -1296,14 +1266,12 @@ hsadspixel.net #Hubspot - Tracker
 hscta.net
 hskwq.com #Unknown - Tracker
 hsleadflows.net #Hubspot - Tracker
-hsms01.com #Hubspot - Tracker
 hsms02.com #Hubspot - Tracker
 hsms03.com #Hubspot - Tracker
 hsms04.com #Hubspot - Tracker
 hsms06.com #Hubspot - Tracker
 hsms07.com #Hubspot - Tracker
 hsms08.com #Hubspot - Tracker
-hsms09.com #Hubspot - Tracker
 hsms10.com #Hubspot - Tracker
 hsstatic.net
 httptrack.com #Unknown - Tracker
@@ -1406,7 +1374,6 @@ isboost.co.jp #Boost
 ist-track.com
 iterable.com #Iterable
 iwanttodeliver.com #Unknown - Tracker
-jail-ios.com #Spam
 jetlore.com #Jetlore
 jiashule.com #Adverts
 jisuoping.com #Unknown - Advertising
@@ -1488,7 +1455,6 @@ lightcast.com #Lightcast Advertising
 lightdatahouse.com #LightDataHouse
 lijit.com #Lijit
 linkbucks.com
-linkednexus.com #AppNexus Inc
 linkis.com #Linkis
 linkoffers.net
 linkpulse.com #Linkpulse
@@ -1508,7 +1474,6 @@ liveramp.com #LiveRamp
 liwio.com #AB Tasty
 lkqd.com #LKQD
 lkqd.net #LKQD
-local-finders.com #Unknown - Tracker
 localcreatesend.com #Campaign Monitor Pty
 localytics.com #Localytics
 log.kmplayer.com #KMPlayer
@@ -2585,17 +2550,117 @@ mkt10748.com #IBM Silverpop - Advertising
 mkt10749.com #IBM Silverpop - Advertising
 mkt1075.com #IBM Silverpop
 mkt10750.com #IBM Silverpop - Advertising
+mkt10751.com #IBM Silverpop - Advertising
+mkt10752.com #IBM Silverpop - Advertising
+mkt10753.com #IBM Silverpop - Advertising
+mkt10754.com #IBM Silverpop - Advertising
+mkt10755.com #IBM Silverpop - Advertising
+mkt10756.com #IBM Silverpop - Advertising
+mkt10757.com #IBM Silverpop - Advertising
+mkt10758.com #IBM Silverpop - Advertising
+mkt10759.com #IBM Silverpop - Advertising
 mkt1076.com #IBM Silverpop
+mkt10760.com #IBM Silverpop - Advertising
+mkt10761.com #IBM Silverpop - Advertising
+mkt10762.com #IBM Silverpop - Advertising
+mkt10763.com #IBM Silverpop - Advertising
+mkt10764.com #IBM Silverpop - Advertising
+mkt10765.com #IBM Silverpop - Advertising
+mkt10766.com #IBM Silverpop - Advertising
+mkt10767.com #IBM Silverpop - Advertising
+mkt10768.com #IBM Silverpop - Advertising
+mkt10769.com #IBM Silverpop - Advertising
 mkt1077.com #IBM Silverpop
+mkt10770.com #IBM Silverpop - Advertising
+mkt10771.com #IBM Silverpop - Advertising
+mkt10772.com #IBM Silverpop - Advertising
+mkt10773.com #IBM Silverpop - Advertising
+mkt10774.com #IBM Silverpop - Advertising
+mkt10775.com #IBM Silverpop - Advertising
+mkt10776.com #IBM Silverpop - Advertising
+mkt10777.com #IBM Silverpop - Advertising
+mkt10778.com #IBM Silverpop - Advertising
+mkt10779.com #IBM Silverpop - Advertising
 mkt1078.com #IBM Silverpop
+mkt10780.com #IBM Silverpop - Advertising
+mkt10781.com #IBM Silverpop - Advertising
+mkt10782.com #IBM Silverpop - Advertising
+mkt10783.com #IBM Silverpop - Advertising
+mkt10784.com #IBM Silverpop - Advertising
+mkt10785.com #IBM Silverpop - Advertising
+mkt10786.com #IBM Silverpop - Advertising
+mkt10787.com #IBM Silverpop - Advertising
+mkt10788.com #IBM Silverpop - Advertising
+mkt10789.com #IBM Silverpop - Advertising
 mkt1079.com #IBM Silverpop
+mkt10790.com #IBM Silverpop - Advertising
+mkt10791.com #IBM Silverpop - Advertising
+mkt10792.com #IBM Silverpop - Advertising
+mkt10793.com #IBM Silverpop - Advertising
+mkt10794.com #IBM Silverpop - Advertising
+mkt10795.com #IBM Silverpop - Advertising
+mkt10796.com #IBM Silverpop - Advertising
+mkt10797.com #IBM Silverpop - Advertising
+mkt10798.com #IBM Silverpop - Advertising
+mkt10799.com #IBM Silverpop - Advertising
 mkt108.com #IBM Silverpop
 mkt1080.com #IBM Silverpop
+mkt10800.com #IBM Silverpop - Advertising
+mkt10801.com #IBM Silverpop - Advertising
+mkt10802.com #IBM Silverpop - Advertising
+mkt10803.com #IBM Silverpop - Advertising
+mkt10804.com #IBM Silverpop - Advertising
+mkt10805.com #IBM Silverpop - Advertising
+mkt10806.com #IBM Silverpop - Advertising
+mkt10807.com #IBM Silverpop - Advertising
+mkt10808.com #IBM Silverpop - Advertising
+mkt10809.com #IBM Silverpop - Advertising
 mkt1081.com #IBM Silverpop
+mkt10810.com #IBM Silverpop - Advertising
+mkt10811.com #IBM Silverpop - Advertising
+mkt10812.com #IBM Silverpop - Advertising
+mkt10813.com #IBM Silverpop - Advertising
+mkt10814.com #IBM Silverpop - Advertising
+mkt10815.com #IBM Silverpop - Advertising
+mkt10816.com #IBM Silverpop - Advertising
+mkt10817.com #IBM Silverpop - Advertising
+mkt10818.com #IBM Silverpop - Advertising
+mkt10819.com #IBM Silverpop - Advertising
 mkt1082.com #IBM Silverpop
+mkt10820.com #IBM Silverpop - Advertising
+mkt10821.com #IBM Silverpop - Advertising
+mkt10822.com #IBM Silverpop - Advertising
+mkt10823.com #IBM Silverpop - Advertising
+mkt10824.com #IBM Silverpop - Advertising
+mkt10825.com #IBM Silverpop - Advertising
+mkt10826.com #IBM Silverpop - Advertising
+mkt10827.com #IBM Silverpop - Advertising
+mkt10828.com #IBM Silverpop - Advertising
+mkt10829.com #IBM Silverpop - Advertising
 mkt1083.com #IBM Silverpop
+mkt10830.com #IBM Silverpop - Advertising
+mkt10831.com #IBM Silverpop - Advertising
+mkt10832.com #IBM Silverpop - Advertising
+mkt10833.com #IBM Silverpop - Advertising
+mkt10834.com #IBM Silverpop - Advertising
+mkt10835.com #IBM Silverpop - Advertising
+mkt10836.com #IBM Silverpop - Advertising
+mkt10837.com #IBM Silverpop - Advertising
+mkt10838.com #IBM Silverpop - Advertising
+mkt10839.com #IBM Silverpop - Advertising
 mkt1084.com #IBM Silverpop
+mkt10840.com #IBM Silverpop - Advertising
+mkt10841.com #IBM Silverpop - Advertising
+mkt10842.com #IBM Silverpop - Advertising
+mkt10843.com #IBM Silverpop - Advertising
+mkt10844.com #IBM Silverpop - Advertising
+mkt10845.com #IBM Silverpop - Advertising
+mkt10846.com #IBM Silverpop - Advertising
+mkt10847.com #IBM Silverpop - Advertising
+mkt10848.com #IBM Silverpop - Advertising
+mkt10849.com #IBM Silverpop - Advertising
 mkt1085.com #IBM Silverpop
+mkt10850.com #IBM Silverpop - Advertising
 mkt1086.com #IBM Silverpop
 mkt1087.com #IBM Silverpop
 mkt1088.com #IBM Silverpop
@@ -13163,6 +13228,7 @@ smetrics.cartoonnetwork.ca #Adobe - Tracker
 smetrics.cnn.com #Cnn.Com - Tracker
 smetrics.coinbene.plus #Adobe - Tracker
 smetrics.corus.ca #Iobit - Tracker
+smetrics.desparasitaatumascota.es #Adobe - Tracker
 smetrics.disneychannel.ca #Adobe - Tracker
 smetrics.disneylachaine.ca #Adobe - Tracker
 smetrics.elsevier.com #Elsevier - Tracker
@@ -13173,7 +13239,9 @@ smetrics.frontline.com.ar #Adobe - Tracker
 smetrics.frontline.com.br #Adobe - Tracker
 smetrics.frontline.com.cn #Adobe - Tracker
 smetrics.frontline.com.cy #Adobe - Tracker
+smetrics.frontline.de #Adobe - Tracker
 smetrics.frontline.fr #Adobe - Tracker
+smetrics.frontlinecanegatto.it #Adobe - Tracker
 smetrics.getturbotax.com #Adobe - Tracker
 smetrics.global.jcb #Adobe - Tracker
 smetrics.globalnews.ca #Adobe - Tracker
@@ -13184,6 +13252,7 @@ smetrics.lasexta.com #Adobe - Tracker
 smetrics.mcafee.com #McAfee
 smetrics.mrelectric.com #Adobe - Tracker
 smetrics.mrrooter.ca #Adobe - Tracker
+smetrics.mutua.es #Adobe - Tracker
 smetrics.myhome.ie #Adobe - Tracker
 smetrics.ondacero.es #Adobe - Tracker
 smetrics.otel.com #Adobe - Tracker
@@ -13194,11 +13263,14 @@ smetrics.regionstest.com #Adobe - Tracker
 smetrics.respimat.com #Adobe - Tracker
 smetrics.santandree.xyz #Adobe - Tracker
 smetrics.sky.com #Sky
+smetrics.sony.com.sg #Adobe - Tracker
 smetrics.switch2t-mobile.com #Adobe - Tracker
 smetrics.t-mobilesavings.com #Adobe - Tracker
+smetrics.teletoon.com #Adobe - Tracker
 smetrics.tesco.com #Tesco.Com - Tracker
 smetrics.three.co.uk #Three.Co.Uk - Tracker
 smetrics.timeout.com #Timeout.Com - Tracker
+smetrics.treehousetv.com #Adobe - Tracker
 smetrics.trygghansa.se #Adobe - Tracker
 smetrics.vikingline.ax #Adobe - Tracker
 smetrics.vikingline.ru #Adobe - Tracker

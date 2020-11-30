@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202011290500
+! Version: 202011300513
 ! Title: EasyPrivacy
-! Last modified: 29 Nov 2020 05:00 UTC
+! Last modified: 30 Nov 2020 05:13 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -831,6 +831,7 @@
 /api-analytics.
 /api/0/stats
 /api/analytics/*
+/api/analytics?
 /api/analytics|
 /api/log?
 /api/lt/ref?
@@ -4623,6 +4624,7 @@
 /trackpidv3.
 /trackpix.
 /trackpixel.
+/trackpixel?
 /trackpush.min.js
 /trackpush/*
 /trackpxl?
@@ -11493,6 +11495,7 @@ _mongo_stats/
 ||primedia.co.za/analytics/
 ||print2webcorp.com/mkt3/_js/p2w_tracker.js
 ||prism.app-us1.com^$script,third-party
+||privacy-center.org^*/events
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
 ||processor.asccommunications.com^
 ||production-mcs.lvp.llnw.net^
@@ -12183,6 +12186,7 @@ _mongo_stats/
 ||yellowbrix.com/images/content/cimage.gif?
 ||yellowpages.com^*.gif?tid$third-party
 ||yext.com/plpixel?
+||yimg.com/aaq/vzm/$script,domain=news.yahoo.com
 ||yimg.com/ss/vops.js
 ||yimg.com/wi/ytc.js
 ||yimg.com^*/l?ig=$image
@@ -13068,6 +13072,8 @@ _mongo_stats/
 ||tag.shopping-feed.com^
 ||track.sunmedia.tv^
 ||tracker.thinkindot.com^
+||tracking.smartmeapp.com^
+||webpixel.smartmeapp.com^
 ! Swedish
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||collector.schibsted.io^

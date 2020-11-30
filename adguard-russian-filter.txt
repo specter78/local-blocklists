@@ -1,8 +1,8 @@
-! Checksum: rXhGsEU+okR46l4fdlJW2A
+! Checksum: IOVnOwtHz4QN0pCdks5TzA
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.45.53
-! TimeUpdated: 2020-11-29T01:30:51+03:00
+! Version: 2.0.45.57
+! TimeUpdated: 2020-11-29T21:30:50+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,7 @@
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||farantitid.racing^$third-party
 ||zgxrht.com^$third-party
 ||gswtol.com^$third-party
 ||sayhinews.com^$third-party
@@ -6240,8 +6241,6 @@ razlozhi.ru#%#//scriptlet("set-constant", "common4", "noopFunc")
 !
 ! Extended CSS rules
 !
-! tribuna.com,sports.ru - clickable background
-tribuna.com,sports.ru#$?#.page-layout:not(:has(> div.content-wrapper)) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67424
 kino-teatr.ru#?##root div[class^="relap-"]:contains(РЕКОМЕНДУЕТ) div[class^="relap-"] > div[style]:has(div[class^="relap-"] > div:contains(Реклама))
 kino-teatr.ru#?##root div[class^="relap-"]:contains(РЕКОМЕНДУЕТ) div[class^="relap-"]:has(> div[class^="relap-"] > span:contains(Relap))
@@ -6646,6 +6645,8 @@ argumenti.ru#?#.row > article[class="col"]:has(> div[id^="yandex_rtb"])
 argumenti.ru#?#.online_top > ul > li:has(> p > a[href^="https://smi2.ru/"])
 argumenti.ru#?#.online_top > ul > li:has(> p > a[href^="https://news.mirtesen.ru/"])
 !
+huawei.mobzon.ru#?##sidebar > div.module:has(h3.module-title:contains(/(Блок ссылок)|(Блок Google)|(Рекламный блок)/))
+mobzon.ru#?#.leftbigger > div.moduletable:has(span.backh3:contains(/(Блок ссылок)|(Блок Google)|(Рекламный блок)/))
 senat.org#?##sidebar > aside:has(> h2:contains(РЕКЛАМА))
 tv-one.org#?#table[align="center"] tbody:has(> tr > td[style] > b:contains(Реклама))
 ytro.ru#?#.container > div.news-center__item:has(> div.news-block > div[class^="partners-block"])
@@ -10652,6 +10653,9 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+winline.ru##.banners-right
+winline.ru##wlb-promo-event-slider
+ichip.ru##a[href="/rek/"]
 talks.by##.bottom-navigation__ul
 ||1xbet.kz/?*_clickunder$document,popup
 ||agroru.com/b_a_n/
@@ -11143,7 +11147,6 @@ politnavigator.net##img[alt="Studyclerk"]
 politnavigator.net##a[href="https://smi.biz.ua/"]
 mmo13.ru##.div_r
 /tghr.js$script,redirect=noopjs,domain=ruspornvideos.net
-||ptigjkkds.com/*/tghr.js$script,redirect=noopjs
 ||ukrnews24.net/wp-content/uploads/*/roco*.jpg
 cq.ru##div[data-cqnner-id="branding"]
 nashaniva.by,nn.by##.sp-block.clearfix
