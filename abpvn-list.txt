@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 02 Dec 2020 09:38 UTC+7
+# Updated: 02 Dec 2020 14:36 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -15373,6 +15373,16 @@
 0.0.0.0 cf.artsai.com
 0.0.0.0 s1.artsai.com
 0.0.0.0 www.artsai.com
+#[keywee.co]
+0.0.0.0 cdn.keywee.co
+0.0.0.0 keywee.co
+0.0.0.0 logger.keywee.co
+0.0.0.0 p2.keywee.co
+0.0.0.0 pixel.keywee.co
+0.0.0.0 reports.keywee.co
+0.0.0.0 t.keywee.co
+0.0.0.0 tracking.keywee.co
+0.0.0.0 www.keywee.co
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn

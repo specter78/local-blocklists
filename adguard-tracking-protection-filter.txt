@@ -1,8 +1,8 @@
-! Checksum: iag4nt/bcB8QjPvSOQ9J9A
+! Checksum: x5OK6yc0OVAHuTyXj87vUQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.82
-! TimeUpdated: 2020-12-01T15:31:45+03:00
+! Version: 2.0.18.87
+! TimeUpdated: 2020-12-02T18:32:08+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -208,6 +208,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||docodoco.jp^$third-party
+||mieru-ca.com^$third-party
 ||nlog.nethru.io^
 ||uc.xddi.ru^$third-party
 ||events.demoup.com^
@@ -3482,6 +3484,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||stiffgame.com^$third-party
 ||satisfycork.com^$third-party
 ||placidperson.com^$third-party
 ||regularplants.com^$third-party
@@ -4674,6 +4677,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||signal-collector.gemaltodigitalbankingidcloud.com^
 ||analytics.bi.encuentra24.com^
 ||sl-h-statistics-ch-1.storeland.ru^
 ||hc-analytics.idp.clogin.att.com^
@@ -6611,6 +6615,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
 ||r.yna.co.kr/global/lib/*/js/nlogger.js
 ||uol.com.br/*/stats^
 ||clck.yandex.ru^$other
@@ -8554,6 +8559,8 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||us-tracking.nextdoor.com^
+||us-events.api.iheart.com^
 ||notes-analytics-events.apple.com^
 ||weather-analytics-events.apple.com^
 ||v-collector.dp.aws.charter.com^
@@ -8994,6 +9001,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/68894
+@@||lcs.naver.com/*?u=*service_id$image,domain=smartstore.naver.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68551
 @@||googletagmanager.com/gtm.js$domain=nestleprofessional.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68350
