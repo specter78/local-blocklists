@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202012040417
+! Version: 202012050105
 ! Title: EasyList
-! Last modified: 04 Dec 2020 04:17 UTC
+! Last modified: 05 Dec 2020 01:05 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1148,7 +1148,6 @@
 /ad/audsci.
 /ad/b_view?
 /ad/banner.
-/ad/banner/*
 /ad/banner?
 /ad/banner_
 /ad/bannerdetails/*
@@ -3809,7 +3808,7 @@
 /annonse.$domain=~annonse.nu
 /annonse/*
 /annonser.
-/annonser/*$domain=billink.no
+/annonser/*$domain=~billink.no
 /announce/adv/*
 /anyad.js
 /ape-ad-
@@ -4201,6 +4200,7 @@
 /campaign/advertiser_
 /campus/ads/*
 /carbonads-
+/CarbonAds.
 /carbonads/*
 /carousel_ads.
 /carouselads.
@@ -18223,6 +18223,7 @@ _popunder+$popup
 ##.ad--just-in-feed
 ##.ad--large
 ##.ad--leaderboard
+##.ad--loading
 ##.ad--marker-inner
 ##.ad--medium-rectangle
 ##.ad--mid-content
@@ -46331,6 +46332,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||smartadserver.com^$third-party
 ||smartadtags.com^$third-party
 ||smartadv.ru^$third-party
+||smartasset.com^$third-party
 ||smartclip.net^$third-party
 ||smartdevicemedia.com^$third-party
 ||smartredirect.de^$third-party
@@ -48160,6 +48162,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hotchatdate.com^$popup,third-party
 ||hotchatdirect.com^$popup,third-party
 ||hpeprovisioning17.live^$popup
+||hpyjmp.com^$popup
 ||hqtrk.com^$popup
 ||hrahdmon.com^$popup
 ||hrtye.com^$popup
@@ -52390,6 +52393,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cd1025.com/www/assets/a/
 ||cdn77.org^$domain=telerium.tv
 ||ceforum.co.uk/images/misc/PartnerLinks
+||celebjihad.com/celeb-jihad/pu_stc.js
 ||celebstoner.com/assets/components/bdlistings/uploads/
 ||celebstoner.com/assets/images/img/sidebar/$image
 ||chinadaily.com.cn/s?
@@ -52823,6 +52827,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||youtube.com/pagead/
 ||ytmp3.cc/bn/
 ||yts.mx/ypt3.js
+||zdnet.com/m3d0s1/
 ||zkillboard.com/img/brave_switch.png
 ! 
 /^https?:\/\/.*.(club|bid|xyz|site|pro|info)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|flashx.tv|powvideo.net|powvldeo.me|videobin.co
@@ -54766,6 +54771,7 @@ $script,domain=porno333.com
 ||hegansex.com/exo.php$popup
 ||heganteens.com/exo.php$popup
 ||hilostripper.com/live/$popup
+||icebns.com/redirect/$popup,domain=iceporn.com
 ||imagebam.com/redirect_awe.php$popup
 ||imgadult.com/url.php$popup
 ||livejasmin.com/pu/$popup
@@ -55590,6 +55596,7 @@ hackaday.com,joystiq.com,peninsuladailynews.com###medrect
 atom.com,happytreefriends.com###medrect-container
 joystiq.com###medrectrb
 michiguide.com###medrectright
+zdnet.com###medusa-unit
 comesrilanka.com###meerkat-wrap
 encyclopedia-titanica.org###menuheaderbio
 spinitron.com###merchpanel
