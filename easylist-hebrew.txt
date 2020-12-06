@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: M58FR0JVI1mjkrf59lYAXw
+! Checksum: +Xi5ZvF7b/TapW4PTUifGw
 ! Title: EasyList Hebrew
-! Last modified: 03 Dec 2020 17:51 UTC
+! Last modified: 05 Dec 2020 20:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/EasyListHebrew
 ! Licence: https://easylist.to/pages/licence.html
@@ -955,6 +955,7 @@ auto.co.il##.content.awLng[style="text-align: center;"]
 auto.co.il##.tower-banner
 auto.co.il##div[style="width:300px;height:250px;margin-left:auto;margin-right:auto;"]
 baba-mail.co.il###banner_google
+baba-mail.co.il##.ad-970-250
 baba-mail.co.il##.banner300x250
 beok.co.il##.BannerMid
 bhol.co.il###AdvertisementSystemTakeOver
@@ -1186,7 +1187,6 @@ mako.co.il##.sidebar_pic
 mako.co.il##[href^="https://adclick.g.doubleclick.net/"]
 mako.co.il##div[class*="mainRoot"] > div:nth-child(4) > div[class*="ordering"] > div:nth-child(6)
 mako.co.il##div[id^="top-strip"]
-mako.co.il##div[id^="top-strip-v_"]
 mako.co.il##iframe[src*="javascript:document.write('"]
 makorrishon.co.il###bLColumnText.small
 makorrishon.co.il###bRColumnText.small

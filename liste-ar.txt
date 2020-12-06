@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: JAqDviZ4vwIpOmahhHYS3w
-! Version: 202012050510
+! Checksum: D7y8/EhG/rZtBTpm0AlpEA
+! Version: 202012060510
 ! Title: Liste AR
 ! Expires: 2 days
 ! Description: القائمة العربية لمانع الشرائط الإعلانية آدبلوك بلس، مكمِّلة للقائمة الفرنسية و الإنجليزية
@@ -45,8 +45,15 @@
 /728x90+
 /a3lan.
 /ad120.
+/ad120x600.
+/ad160x600.
 /ad250.
+/ad300-250.
+/ad300-300.
+/ad300-600.
+/ad468-60.
 /ad600.
+/ad720x120.
 /adds.gif
 /adedinfo/*
 /adfuel-
