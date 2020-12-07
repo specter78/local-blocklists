@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 29 Nov 2020
+#Updated: 06 Dec 2020
 #LatestVersion 20.11
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -67,6 +67,8 @@ aamapi.com #Unknown - Tracker
 aamsitecertifier.com #Unknown - Tracker
 abmr.net #Akami
 abtasty.com #AB Tasty
+abtest.mistat.intl.xiaomi.com #Xiaomi.com - Tracker
+abtest.mistat.xiaomi.com #Xiaomi.com - Tracker
 acceptableserver.com #Amazon
 acexedge.com #WhiteOps
 active-agent.com #Active Agent
@@ -316,6 +318,7 @@ affinity.com #Adtech - Advertising
 affrh2022.com #RevenueHits
 afftrack.com #AffTrack
 afh32lkjwe.net #Unknown - Advertising
+aftv-serving.bid #Bebi - Advertising
 agentanalytics.com #agentanalytics.com
 agil1.biz
 agil1.info
@@ -469,7 +472,7 @@ appuniverseapplication.com #Tracker unknown
 apxlv.com
 aqcxa.com #Unknown - Tracker
 arc.msn.com #Microsoft
-arcpublishing.com #Washington Post
+arcpublishing.com #Arcpublishing - Advertising
 areyouahuman.com #Are You A Human
 astutemetrics.com #Astute Trackr
 aswpsdkus.com #Airship - Annoyance
@@ -806,6 +809,8 @@ cookiesv2.publiekeomroep.nl
 corp.aol.com #AOL - Advertising
 corporate-ir.net
 counciladvertising.net #Council Advertising Network
+count-us.rudo.video #Rudo.video - Tracker
+count.rudo.video #Rudo.video - Tracker
 countess.twitch.tv #Twitch
 coveritlive.com #Coverit Live
 cp1.news.com.au
@@ -877,7 +882,8 @@ dartsearch.net
 data-analytics.top #Unknown - Tracker
 data-eroadvertising.com
 data.coremetrics.com
-data.mistat.xiaomi.com #Xiaomi
+data.mistat.intl.xiaomi.com #Xiaomi.com - Tracker
+data.mistat.xiaomi.com #Xiaomi.com - Tracker
 databreakers.com #Data Breakers
 datacaciques.com
 datacentric.ru #Exebid DCA
@@ -908,6 +914,7 @@ digitalanalytix.net #comScore
 digitalanalytixmp.net #comScore
 digitaldoughnut.com #Digital Doughnut
 digitaldoughnut.email #Digital Doughnut
+digitalproserver.com #Digitalproserver - Advertising
 digitalreflectionpanel.com #TMRG
 digitalreflectionpanel.net #TMRG
 digitalwindow.com #Digital Window
@@ -915,6 +922,7 @@ digitru.st #DigiTrust Tracker
 direct-aws-a1.com #Lead Forensics - Tracker
 direct-azr-78.com #Lead Forensics - Tracker
 directrev.com
+discovery.rudo.video #Rudo.video - Tracker
 displaymarketplace.com
 disqusads.com #Disqus
 divvit.com #Divvit
@@ -1092,7 +1100,8 @@ eyeota.com
 eyeota.net
 eyereturn.com #EyeReturn Marketing
 eyeviewads.com #EyeView
-ezoic.net #Ezoic
+ezodn.com #Ezoic - Tracker
+ezoic.net #Ezoic - Tracker
 face3media.com
 facetz.net #Exebid DCA
 fairsharelabs.com #Fairshare
@@ -1235,6 +1244,8 @@ gwallet.com #RadiumOne
 gwallet.net #RadiumOne
 hackers.lv #Unknown - Tracker
 hanapinmarketing.com
+hand.bid #Handbid - Advertising
+handbid.com #Handbid - Advertising
 happyfoxchat.com #HappyFox Chat
 heapanalytics.com
 heartbeat.dm.origin.com #EA
@@ -12577,6 +12588,7 @@ netseer.com
 netshelter.net
 networkadvertising.org #Network Advertising Initiative
 newrelic.com #New Relic
+newrrb.bid #Unknown - Advertising
 newscred.com #NewsCred Tracker
 newsinc.com #NewsInc
 nex8.net #Medi8
@@ -12623,6 +12635,7 @@ ofnsv69.com #Lead Forensics - Tracker
 ogl.primorske.si #Primorske novice
 ojrq.net #Impact Radius
 olapic.com #Olapic Tracker
+oldrrb.bid #Unknown - Advertising
 om.au
 omessage.com
 ometria.com #Ometria
@@ -12826,6 +12839,7 @@ proformics.com #Proformics Digital
 projectwonderful.com
 propellerads.com #PropellerAds
 propellerclick.com #PropellerAds
+proxyclick.com #Proxyclick - Tracker
 prscripts.com #Unknown - Advertising
 ps7894.com #Unknown - Advertising
 pshtrk.com #Spiroox Tracker
@@ -13046,6 +13060,7 @@ schibsted.se #Schibsted
 scorecardresearch.com #TMRG
 scoutanalytics.net
 sdad.guru #instartlogic
+sdkconfig.ad.intl.xiaomi.com #Xiaomi.com - Tracker
 sdsjweb.com
 se-core-pipe.com #Lead Forensics - Tracker
 sea-nov-1.com #Lead Forensics - Tracker
@@ -13197,6 +13212,7 @@ sli-spark.com
 slimcutmedia.com #SlimCut Media
 smaato.com #Smaato
 smaato.net #Smaato
+smart.bid #Unknown - Advertising
 smartadserver.com #Smart Ad Server
 smartclip.net #Smartclip
 smarterclick.co.uk
@@ -13208,14 +13224,18 @@ smetrics.3monoamines.com #Adobe - Tracker
 smetrics.aaamidatlantic.com #Adobe - Tracker
 smetrics.alainmikli.com #Adobe - Tracker
 smetrics.americanairlines.be #Adobe - Tracker
+smetrics.americanairlines.de #Adobe - Tracker
+smetrics.americanairlines.hu #Adobe - Tracker
 smetrics.americanairlines.jp #Adobe - Tracker
 smetrics.amitiza.com #Adobe - Tracker
 smetrics.ansys.com #Adobe - Tracker
 smetrics.apolloplatform.com #Adobe - Tracker
+smetrics.argos.co.uk #Adobe - Tracker
 smetrics.barclays.co.uk #Barclays.Co.Uk - Tracker
 smetrics.bbva.com.co #Adobe - Tracker
 smetrics.bbvanet.com.co #Adobe - Tracker
 smetrics.bestbuy.com #Bestbuy.Com - Tracker
+smetrics.biosimilarsbyboehringer.com #Adobe - Tracker
 smetrics.blockchain-linkdrive.cf #Adobe - Tracker
 smetrics.boehringer-ingelheim.cn #Adobe - Tracker
 smetrics.boehringer-ingelheim.com.au #Adobe - Tracker
@@ -13225,12 +13245,14 @@ smetrics.boehringer-interactief.nl #Adobe - Tracker
 smetrics.boehringer-interaktiv.de #Adobe - Tracker
 smetrics.boezemfibrilleren.nl #Adobe - Tracker
 smetrics.cartoonnetwork.ca #Adobe - Tracker
+smetrics.cisco.com #Adobe - Tracker
 smetrics.cnn.com #Cnn.Com - Tracker
 smetrics.coinbene.plus #Adobe - Tracker
 smetrics.corus.ca #Iobit - Tracker
 smetrics.desparasitaatumascota.es #Adobe - Tracker
 smetrics.disneychannel.ca #Adobe - Tracker
 smetrics.disneylachaine.ca #Adobe - Tracker
+smetrics.eastdane.com #Adobe - Tracker
 smetrics.elsevier.com #Elsevier - Tracker
 smetrics.faceipf.com #Adobe - Tracker
 smetrics.forthedriven.com #Adobe - Tracker
@@ -13245,14 +13267,17 @@ smetrics.frontlinecanegatto.it #Adobe - Tracker
 smetrics.getturbotax.com #Adobe - Tracker
 smetrics.global.jcb #Adobe - Tracker
 smetrics.globalnews.ca #Adobe - Tracker
+smetrics.groundsguys.com #Adobe - Tracker
 smetrics.hjerteflimmer.dk #Adobe - Tracker
 smetrics.investec.com #Adobe - Tracker
 smetrics.jewsonpartnershipsolutions.com #Adobe - Tracker
+smetrics.krugerseed.com #Adobe - Tracker
 smetrics.lasexta.com #Adobe - Tracker
 smetrics.mcafee.com #McAfee
 smetrics.mrelectric.com #Adobe - Tracker
 smetrics.mrrooter.ca #Adobe - Tracker
 smetrics.mutua.es #Adobe - Tracker
+smetrics.mutuateayuda.es #Adobe - Tracker
 smetrics.myhome.ie #Adobe - Tracker
 smetrics.ondacero.es #Adobe - Tracker
 smetrics.otel.com #Adobe - Tracker
@@ -13264,6 +13289,7 @@ smetrics.respimat.com #Adobe - Tracker
 smetrics.santandree.xyz #Adobe - Tracker
 smetrics.sky.com #Sky
 smetrics.sony.com.sg #Adobe - Tracker
+smetrics.stoneseed.com #Adobe - Tracker
 smetrics.switch2t-mobile.com #Adobe - Tracker
 smetrics.t-mobilesavings.com #Adobe - Tracker
 smetrics.teletoon.com #Adobe - Tracker
@@ -13545,6 +13571,7 @@ track.sublytics-5db9fa0b5700f.com #Sublytics Tracker
 track.sublytics-5df8eec4bca66.com #Sublytics Tracker
 track.sublytics-5f85c1cfb6a39.com #Sublytics - Tracker
 track.sublytics-5faedd0b88cec.com #Sublytics - Tracker
+track.sublytics-5fbd3e32d31c2.com #Sublytics - Tracker
 track.thesaurus.com #Thesaurus.Com - Tracker
 track.untd.com #UnitedOnline - Tracker
 track.us.org #TrackAd
@@ -13600,6 +13627,7 @@ trk2.pinterest.com #Pinterest - Tracker
 trkad.network #Unknown - Advertising
 trkme.net
 trkn.us #Claritas - Tracker
+trkshark.cc #Unknown - Tracker
 tru.am #TrueAnthem
 truehits.in.th #Truehits
 truehits.net #Truehits
