@@ -1,8 +1,8 @@
-! Checksum: ZcVrDYbMex97xVeNxzx1fQ
+! Checksum: fW2JgoG9fF4SMSLNwc8T0A
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.18.94
-! TimeUpdated: 2020-12-06T21:31:20+03:00
+! Version: 2.0.18.98
+! TimeUpdated: 2020-12-08T00:03:53+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -210,6 +210,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !
 ||adblock-analytics.io^$third-party
 ||aukana.jp^$third-party
+||stat.tiara.
+||track.tiara.
 ||telemetry.api.wmcdp.io^$third-party
 ||logs.psm.wmcdp.io^$third-party
 ||doubleverify.com^$third-party
@@ -6331,7 +6333,7 @@ charlestownwyllie.oaklawnnonantum.com^
 /comscore-min.js
 /pv?u=$image
 directtrack.*.js
-/js/trackjs.js
+/trackjs.js
 /diffuser.js
 /qlitics.js
 /api/increment-pv$xmlhttprequest
@@ -6646,6 +6648,7 @@ _tracking.php?b=
 ||ytn.co.kr/_comm/asplog.php
 ||cinematoday.jp^*/pageviews.min.js
 ||zenback.jp^*/tracking.html
+||t1.daumcdn.net/tiara/js/*/tiara.min.js
 ||cdn.retailrocket.ru/javascript/tracking.js
 ||matchid.adfox.yandex.ru/getcookie$domain=vseinstrumenti.ru
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
@@ -6657,7 +6660,6 @@ _tracking.php?b=
 ||fapster.xxx/player/stats.php
 ||media.r18.com/track/$document,popup
 ||app.retargetapp.com/pixel/pixel.min.js
-||discord.com/api/*/typing
 ||ssl.pstatic.net/static.gn/js/clickcrD.js
 ||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
 ||salesmanago.com/api/r.gif
@@ -7151,7 +7153,6 @@ continentseven.com##.gaoop
 ||yvesrocher.com.tr/images/js/tracking^
 ||yvesrocher.com.tr/images/__utm.gif^
 ||teenporn.ws/zaq/cron.php
-||lib.zumst.com/3rd/zum-logger
 ||news.nate.com/js/today/userAgent
 ||search1.daumcdn.net/search/statics/common/js/log
 ||map.naver.com/v5/api/searchAddressById
