@@ -1,8 +1,8 @@
-! Checksum: GGpuGMYgEyTnFzYvNvWVdA
+! Checksum: dHQFumaEkN65+LK43hD0Tw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.4
-! TimeUpdated: 2020-12-09T21:31:23+03:00
+! Version: 2.0.19.7
+! TimeUpdated: 2020-12-10T21:31:24+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -208,6 +208,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||s.srvsynd.com^$third-party
 ||track.customer.io^
 ||lcs.loginfra.com^
 ||adblock-analytics.io^$third-party
@@ -1878,7 +1879,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||hyperactivate.com^$third-party
 ||hypestat.com^$third-party
 ||i-stats.com^$third-party
-||iadvize.com^$third-party
 ||ib-ibi.com^$third-party
 ||ibillboard.com^$third-party
 ||ibpxl.com^$third-party
@@ -4649,6 +4649,7 @@ nethunt.com/api/v1/track/email/$image
 ||telemetry.mozilla.org^
 !
 ||gak.webtoons.com^
+||s.news.naver.com^
 ||jtrackern.joins.com^
 ||analytics.cinematoday.jp^
 ||log.cinematoday.jp^
@@ -6606,6 +6607,7 @@ _tracking.php?b=
 !
 ||book.naver.com/monitor/cc
 ||vlive.tv/logging
+||cc.naver.com/cc
 ||ytn.co.kr/_comm/ylog.php
 ||ytn.co.kr/_comm/asplog.php
 ||cinematoday.jp^*/pageviews.min.js
@@ -8550,7 +8552,6 @@ link.gmapp*.net$image
 ||v-collector.dp.aws.charter.com^
 ||smetrics.cnn.com^
 ||metrics.claspws.tv^
-||geolocation.onetrust.com^
 ||logs.gaaana.com^
 ||sdk-log-inter.youdao.com^
 ||sensors.snappea.com^
@@ -8996,8 +8997,6 @@ link.gmapp*.net$image
 @@||app-sjf.marketo.com^$domain=live.altium.com
 ! fix broken glamusha.ru
 @@||googletagmanager.com/gtm.js$domain=glamusha.ru
-! https://github.com/AdguardTeam/AdguardFilters/issues/68007
-@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=eurogamer.pl
 ! https://forum.adguard.com/index.php?threads/fantasyfootballgeek-adblock-detect.40668/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67991
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67989
@@ -9007,14 +9006,8 @@ link.gmapp*.net$image
 @@||google-analytics.com/analytics.js$domain=wikium.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67655
 @@||dev.visualwebsiteoptimizer.com/v.gif$domain=watch.impress.co.jp
-! https://github.com/AdguardTeam/AdguardFilters/issues/67578
-@@||geolocation.onetrust.com/cookieconsentpub/*$domain=eurogamer.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67507
 @@||uid.mavencoalition.io^$xmlhttprequest,domain=mtonews.com|thestreet.com
-! https://www.gmx.com/consentpage
-@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=gmx.com
-! https://www.mail.com/consentpage
-@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=mail.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67328
 @@||googletagmanager.com/gtm.js$domain=runlesswire.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67262
@@ -9031,14 +9024,10 @@ link.gmapp*.net$image
 @@||googletagmanager.com/gtm.js$domain=tvnow.de|tvnow.at
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66715
 @@||googletagmanager.com/gtm.js$domain=linline-clinic.ru
-! https://github.com/AdguardTeam/AdguardFilters/issues/66783
-@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=tvn24.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66624
 ! also .com.* and .co.in
 @@||kaspersky.co$content
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66583
-! https://github.com/AdguardTeam/AdguardFilters/issues/66480
-@@||geolocation.onetrust.com^$domain=popsugar.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66397
 @@||s1.daumcdn.net/svc/original/U03/cssjs/userAgent$domain=tistory.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66237
