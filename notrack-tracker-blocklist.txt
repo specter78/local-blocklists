@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 06 Dec 2020
+#Updated: 13 Dec 2020
 #LatestVersion 20.11
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -40,7 +40,6 @@
 3lift.com #TripleLift - Advertising
 45.gs #ClickMeter - Tracker
 4dsply.com #AdSupply
-4nabs.com #Unknown - Tracker
 4seeresults.com #ForeSee - Tracker
 51.la #Unknown - Tracker
 51yes.com #Unknown - Tracker
@@ -60,7 +59,6 @@ a-mo.net #Unknown - Advertising
 a.mobify.com #Mobify - Advertising
 a1webstats.com #A1Webstats
 a2dfp.net #Unknown - Tracker
-a60b4ddd0c257fb3f1bb059bcbc42862.com #Unknown - Advertising
 a8bt.com #Unknown - Advertising
 a9.com #Amazon
 aamapi.com #Unknown - Tracker
@@ -317,6 +315,7 @@ affiliatewindow.com #Digital Window
 affinity.com #Adtech - Advertising
 affrh2022.com #RevenueHits
 afftrack.com #AffTrack
+afftrack.pro #Tracker - Unknown
 afh32lkjwe.net #Unknown - Advertising
 aftv-serving.bid #Bebi - Advertising
 agentanalytics.com #agentanalytics.com
@@ -720,7 +719,6 @@ clientsend.com #Campaign Monitor Pty
 clinch.co #Clinch - Tracker
 clixgalore.com #ClixGalore
 clixmetrix.com #ClixMetrix
-clk1011.com #RevenueHits
 clk1013.com #RevenueHits
 clkads.com #RevenueHits
 clkbid.com #RevenueHits
@@ -732,7 +730,6 @@ clkpback3.com #RevenueHits
 clkrev.com #RevenueHits
 clksite.com #RevenueHits
 closealert.com #CloseAlert Tracker
-cloud-9751.com #Lead Forensics - Tracker
 cloud.ca.com #CA
 cluodlfare.com #Unknown - Tracker
 cm.gy #ClickMeter - Tracker
@@ -865,7 +862,6 @@ customer.io #Customer.io Tracker
 customize.cz #Customize.cz
 custora.com #Custora - Tracker
 cxense.com #Cxsense
-d09.no
 d15cjcet1djbmv.cloudfront.net #trandsey.info
 d1g3gvqfdsvkse.cloudfront.net #Canvas Fingerprinting
 d2jjzw81hqbuqv.cloudfront.net #Canvas Fingerprinting
@@ -1123,6 +1119,7 @@ final-aws-01.com #Lead Forensics - Tracker
 final-azr-01.com #Lead Forensics - Tracker
 firebaseio.com #Firebase Tracker
 firebaselogging.googleapis.com #Firebase Tracker
+fitanalytics.com #Fit Analytics - Tracker
 fits.me
 flagcounter.com
 flashtalking.com
@@ -1277,7 +1274,6 @@ hsadspixel.net #Hubspot - Tracker
 hscta.net
 hskwq.com #Unknown - Tracker
 hsleadflows.net #Hubspot - Tracker
-hsms02.com #Hubspot - Tracker
 hsms03.com #Hubspot - Tracker
 hsms04.com #Hubspot - Tracker
 hsms06.com #Hubspot - Tracker
@@ -1520,6 +1516,7 @@ lyrishq.net #Aurea - Advertising
 lyrislabs.com #Aurea - Advertising
 lyrislm.com #Aurea - Advertising
 lytics.io #Lytics Tracker
+m2.ai #Monetizemore - Tracker
 m6r.eu #MBR Targeting
 madisonlogic.com
 magic1.info #Unknown Chinese - Tracker
@@ -1605,6 +1602,7 @@ metric.ipv6test.net #Unknown - Tracker
 metrics.aftonbladet.se #Aftonbladet
 metrics.allrecipes.co.uk #Allrecipes.Co.Uk - Tracker
 metrics.argos.co.uk
+metrics.asos.com #Asos.Com - Tracker
 metrics.cbc.ca #CBC
 metrics.corus.ca #Iobit - Tracker
 metrics.foxnews.com #Fox
@@ -12510,7 +12508,6 @@ mobpals.com #Mobpals
 mobpartner.com #MobPartner
 mobpartner.mobi #MobPartner
 mobring.co #MEGA Communications Advertising
-mobutrafsrcms.com #msales
 mobytrks.com
 mocean.mobi #PubMatic
 moengage.com #MoEngage - Tracker
@@ -12853,6 +12850,7 @@ pszyzxh.org #Unknown - Advertising
 ptengine.com #PTEngine
 ptmind.com #PTEngine
 pubexchange.com
+pubguru.com #Monetizemore - Tracker
 publicidade.jn.pt #Global Media Group
 pubmatic.com #PubMatic
 pubmine.com
@@ -13224,6 +13222,7 @@ smetrics.3monoamines.com #Adobe - Tracker
 smetrics.aaamidatlantic.com #Adobe - Tracker
 smetrics.alainmikli.com #Adobe - Tracker
 smetrics.americanairlines.be #Adobe - Tracker
+smetrics.americanairlines.cl #Adobe - Tracker
 smetrics.americanairlines.de #Adobe - Tracker
 smetrics.americanairlines.hu #Adobe - Tracker
 smetrics.americanairlines.jp #Adobe - Tracker
@@ -13233,8 +13232,10 @@ smetrics.apolloplatform.com #Adobe - Tracker
 smetrics.argos.co.uk #Adobe - Tracker
 smetrics.barclays.co.uk #Barclays.Co.Uk - Tracker
 smetrics.bbva.com.co #Adobe - Tracker
+smetrics.bbva.es #Adobe - Tracker
 smetrics.bbvanet.com.co #Adobe - Tracker
 smetrics.bestbuy.com #Bestbuy.Com - Tracker
+smetrics.binarystew.com #Adobe - Tracker
 smetrics.biosimilarsbyboehringer.com #Adobe - Tracker
 smetrics.blockchain-linkdrive.cf #Adobe - Tracker
 smetrics.boehringer-ingelheim.cn #Adobe - Tracker
@@ -13266,6 +13267,7 @@ smetrics.frontline.fr #Adobe - Tracker
 smetrics.frontlinecanegatto.it #Adobe - Tracker
 smetrics.getturbotax.com #Adobe - Tracker
 smetrics.global.jcb #Adobe - Tracker
+smetrics.globalmedcomms.com #Adobe - Tracker
 smetrics.globalnews.ca #Adobe - Tracker
 smetrics.groundsguys.com #Adobe - Tracker
 smetrics.hjerteflimmer.dk #Adobe - Tracker
@@ -13281,14 +13283,18 @@ smetrics.mutuateayuda.es #Adobe - Tracker
 smetrics.myhome.ie #Adobe - Tracker
 smetrics.ondacero.es #Adobe - Tracker
 smetrics.otel.com #Adobe - Tracker
+smetrics.otsuka-us.com #Adobe - Tracker
 smetrics.quickenloans.org #Adobe - Tracker
 smetrics.rainbowintl.com #Adobe - Tracker
 smetrics.redhat.com #Redhat.com - Tracker
 smetrics.regionstest.com #Adobe - Tracker
 smetrics.respimat.com #Adobe - Tracker
 smetrics.santandree.xyz #Adobe - Tracker
+smetrics.shopbop.com #Adobe - Tracker
 smetrics.sky.com #Sky
 smetrics.sony.com.sg #Adobe - Tracker
+smetrics.sony.hu #Adobe - Tracker
+smetrics.southaustralia.com #Adobe - Tracker
 smetrics.stoneseed.com #Adobe - Tracker
 smetrics.switch2t-mobile.com #Adobe - Tracker
 smetrics.t-mobilesavings.com #Adobe - Tracker
@@ -13502,6 +13508,7 @@ telemetry.urs.microsoft.com #Microsoft
 telize.com
 tellapart.com
 tellme.com #[24]7 - Tracker
+tend.io #Tend - Tracker
 terraclicks.com #Unknown - Tracker
 testanalytics.net
 testdata.coremetrics.com
