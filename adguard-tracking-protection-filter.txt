@@ -1,8 +1,8 @@
-! Checksum: bG9crmFu6U/s5jbPv3IoNg
+! Checksum: pKY7aaehqOmLpbw/rX0smg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.19
-! TimeUpdated: 2020-12-15T01:31:22+03:00
+! Version: 2.0.19.26
+! TimeUpdated: 2020-12-15T23:31:25+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4653,6 +4653,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||counter.adguard.com^
+||l.www.naver.com^
 ||metrics.makemytrip.com^
 ||tracking.shopback.com^
 ||logger.cbs.co.kr^
@@ -6614,6 +6616,9 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||pb.m.naver.com/abpblock
+||ewaline.su/stats.js
+||data.html5games.com/event/ad
 ||livehdcams.com/api/metrics
 ||livehdcams.com/api/events
 ||pornhublive.com/api/metrics
@@ -6629,7 +6634,6 @@ _tracking.php?b=
 ||ytn.co.kr/_comm/asplog.php
 ||cinematoday.jp^*/pageviews.min.js
 ||zenback.jp^*/tracking.html
-||t1.daumcdn.net/tiara/js/*/tiara.min.js
 ||cdn.retailrocket.ru/javascript/tracking.js
 ||matchid.adfox.yandex.ru/getcookie$domain=vseinstrumenti.ru
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
@@ -6744,7 +6748,6 @@ android-tools.ru###text-8
 ||arms.aliyuncs.com/r.png
 ||alljapanesepass.com/ascripts/gcu.js
 ||alljapanesepass.com/rstat
-||verify.snssdk.com^$xmlhttprequest,redirect=nooptext
 ||stats.viqeo.tv^
 ||links.services.disqus.com/api/ping
 ||nikkei.com/.resources/tracking/
@@ -8565,6 +8568,7 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||mobiletelemetry.ebay.com^
 ||tracker.departapp.com^
 ||us-tracking.nextdoor.com^
 ||us-events.api.iheart.com^
@@ -9007,6 +9011,19 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/69907
+@@||googletagmanager.com/gtag/js?id=$domain=view.epageview.com
+||googletagmanager.com/gtag/js?id=$script,other,redirect=noopjs,domain=view.epageview.com,important
+! https://github.com/AdguardTeam/AdguardFilters/issues/69890
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=naujasis.lrytas.lt,important
+@@||google-analytics.com/analytics.js$domain=naujasis.lrytas.lt
+! https://github.com/AdguardTeam/AdguardFilters/issues/69857
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=chess24.com,important
+@@||google-analytics.com/analytics.js$domain=chess24.com
+@@||google-analytics.com/plugins/ua/linkid.js$domain=chess24.com
+@@||google-analytics.com/gtm/js?id=$domain=chess24.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/69578#issuecomment-744650704
+nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnmclub.to#@#img[width="88"][height="31"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69740
 @@||daumcdn.net/tiara/js/v*/tiara.min.js$domain=kakao.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68894
