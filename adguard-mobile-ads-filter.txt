@@ -1,8 +1,8 @@
-! Checksum: RYR6p0cT4hZRuN1KA+ZfUQ
+! Checksum: voyVYsCz3iieoPigSfdFXw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.97
-! TimeUpdated: 2020-12-16T16:30:13+03:00
+! Version: 2.0.16.99
+! TimeUpdated: 2020-12-17T16:30:17+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2178,6 +2178,7 @@ deviantart.com#@#.mobile-ad
 ! https://forum.adguard.com/index.php?threads/10464/
 ||images-*.ssl-images-amazon.com/images/*/ape/sf/MAsf-*_.js
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/69965
 !+ NOT_OPTIMIZED
 24tv.ua##.within-ads
 ! https://forum.adguard.com/index.php?threads/android-not-blocking-ads-on-yahoo-sites.34021
@@ -2220,6 +2221,9 @@ amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwel
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+in.news.yahoo.com###sda-WFPAD
+||xxxadd.com/js/hrqst.js
+hdpornfree.xxx##.block-mobile
 sammobile.com##body > header.navbar-fixed-top + div.container-fluid
 kztarif.ru##.stadck-content
 amazon.de##.sbx-mobile
@@ -3283,7 +3287,7 @@ m.onvista.de##.marketOverviewIntegration
 m.onvista.de##a[href^="https://track.adform.net"]
 m.onvista.de##.ANZEIGE
 nekopoi.cash##div[class^="mobileads"]
-hellporno.net###fltd
+zbporn.com,xbabe.com,hdpornfree.xxx,hellporno.net###fltd
 kozmopolitik.com.tr##div[class="iconHome1"]
 evdesifa.com##.code-block
 ||m.txxx.com/sizo^
@@ -3303,7 +3307,6 @@ youtube.com##ytm-promoted-video-renderer
 m.alpha.facebook.com,touch.alpha.facebook.com,mtouch.alpha.facebook.com,x.alpha.facebook.com,iphone.alpha.facebook.com,touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,touch.facebookcorewwwi.onion,mtouch.facebookcorewwwi.onion,x.facebookcorewwwi.onion,iphone.facebookcorewwwi.onion,touch.beta.facebookcorewwwi.onion,m.facebook.com,m.facebookcorewwwi.onion,b-m.facebook.com,b-m.facebookcorewwwi.onion,mobile.facebook.com,mobile.facebookcorewwwi.onion###m_newsfeed_stream article[data-ft*='"ei\":']
 m.voyeurhit.com##.container > .section--normal[style*="margin-top: -15px"]
 avcanada.ca##.postbody > div[id^="post_content"] > .content ~ center
-xbabe.com###fltd
 vikiporn.com##.under_player_adv
 m.alpha.facebook.com,touch.alpha.facebook.com,mtouch.alpha.facebook.com,x.alpha.facebook.com,iphone.alpha.facebook.com,touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,touch.facebookcorewwwi.onion,mtouch.facebookcorewwwi.onion,x.facebookcorewwwi.onion,iphone.facebookcorewwwi.onion,touch.beta.facebookcorewwwi.onion,m.facebook.com,m.facebookcorewwwi.onion,b-m.facebook.com,b-m.facebookcorewwwi.onion,mobile.facebook.com,mobile.facebookcorewwwi.onion##article[data-store*="is_sponsored.1"]
 m.alpha.facebook.com,touch.alpha.facebook.com,mtouch.alpha.facebook.com,x.alpha.facebook.com,iphone.alpha.facebook.com,touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,touch.facebookcorewwwi.onion,mtouch.facebookcorewwwi.onion,x.facebookcorewwwi.onion,iphone.facebookcorewwwi.onion,touch.beta.facebookcorewwwi.onion,m.facebook.com,m.facebookcorewwwi.onion,b-m.facebook.com,b-m.facebookcorewwwi.onion,mobile.facebook.com,mobile.facebookcorewwwi.onion##.storyStream > .fullwidth.carded
@@ -3373,7 +3376,6 @@ yahoo.com##.stream-items > li.stream-item[data-wf-image-beacons]
 readlightnovel.org##.desc > .col-lg-12 > center > small
 sozcu.com.tr###sz_manset_advertise
 zbporn.com##.b-spot
-zbporn.com###fltd
 www-chip-de.cdn.ampproject.org##.NewsArticle__Widget > .BC-Content
 m.miaobige.com##.adcontent
 m.timesofindia.com##.adsinview

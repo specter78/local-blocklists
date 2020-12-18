@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202012170258
+! Version: 202012180419
 ! Title: EasyPrivacy
-! Last modified: 17 Dec 2020 02:58 UTC
+! Last modified: 18 Dec 2020 04:19 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6583,6 +6583,7 @@ _mongo_stats/
 ||fprnt.com^$third-party
 ||fqsecure.com^$third-party
 ||fqtag.com^$third-party
+||fraudjs.io^$third-party
 ||free-counter.co.uk^$third-party
 ||free-counter.com^$third-party
 ||free-counters.co.uk^$third-party
@@ -7177,6 +7178,7 @@ _mongo_stats/
 ||monitus.net^$third-party
 ||monstat.com^$third-party
 ||monu.delivery^$third-party
+||mooo.com^$third-party
 ||mooseway.com^$third-party
 ||mopinion.com^$third-party
 ||motrixi.com^$third-party
@@ -15324,6 +15326,7 @@ _mongo_stats/
 ||tmagazine.com/js/track_
 ||tms.eharmony.ca^
 ||tms.eharmony.co.uk^
+||tnaflix.com^$ping
 ||tnla.thenewslens.com^
 ||tongji.meizu.com^
 ||toolbox.com/DataLayerPixelServlet|
@@ -15816,6 +15819,7 @@ _mongo_stats/
 ! genieesspv https://github.com/easylist/easylist/issues/6471
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 ! Fingerprint
+/^https?:\/\/editorial\.rottentomatoes\.com\/bundles\/[a-z0-9]{30,}/$script,xmlhttprequest,domain=rottentomatoes.com
 /^https?:\/\/www\.halifax-online\.co\.uk\/bundles\/[a-z0-9]{15,}/$script,domain=halifax-online.co.uk
 /^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
 /^https?:\/\/www\.mouser\.com\/[a-z]{25,}.js/$script,xmlhttprequest,domain=mouser.com
@@ -16832,6 +16836,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||analy.qq.com^
 ||analyse.weather.com.cn^
 ||analytics.163.com^
+||analytics.oneplus.cn^
 ||analytics.shop.hisense.com^
 ||analytics.zhihu.com^
 ||anti-bot.baidu.com^
@@ -16859,6 +16864,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||cdn.baidupcs.com/monitor.jpg?
 ||click.ali213.net^
 ||click.gamersky.com^
+||click.oneplus.cn^
 ||click.suning.cn^
 ||clkstat.qihoo.com^
 ||cmstool.youku.com^
