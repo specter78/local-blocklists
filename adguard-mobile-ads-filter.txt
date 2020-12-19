@@ -1,8 +1,8 @@
-! Checksum: voyVYsCz3iieoPigSfdFXw
+! Checksum: UjZaXazqMBP/TWmRqJr6DA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.16.99
-! TimeUpdated: 2020-12-17T16:30:17+03:00
+! Version: 2.0.17.3
+! TimeUpdated: 2020-12-19T04:30:13+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -741,7 +741,6 @@
 ||brealtime.com^
 ||bridgetrack.com^
 ||brokerbabe.com^$third-party
-||bttn.io^
 ||bubblesmedia.ru^
 ||burstnet.com^
 ||buzzcity.net^
@@ -2221,6 +2220,9 @@ amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwel
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+outlook.live.com###app main > div[class] > div[style] > div[style*="height: 93px"]:not([class])
+corriere.it##.bck-adv
+detik.com##.footer_banner
 in.news.yahoo.com###sda-WFPAD
 ||xxxadd.com/js/hrqst.js
 hdpornfree.xxx##.block-mobile
