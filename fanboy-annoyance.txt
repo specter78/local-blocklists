@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202012190518
+! Version: 202012200243
 ! Title: Fanboy's Annoyance List
-! Last modified: 19 Dec 2020 05:18 UTC
+! Last modified: 20 Dec 2020 02:43 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -38762,6 +38762,7 @@ newshub.co.nz##.ArticleAttribution
 sitepoint.com##.ArticleHead_supplemental
 mic.com##.Bsv
 talkingpointsmemo.com##.Daybreaker
+walmart.com##.EmailCapture
 cbssports.com##.EventPromoInline
 walmart.com##.Footer-topSection
 sitepoint.com##.FooterSub_form
@@ -39413,6 +39414,7 @@ thenation.com##.takeaction
 10clouds.com##.tenc-blog-post__progress
 eos.org##.text-15
 nymag.com##.text-form-wrapper
+publicintegrity.org##.themomentcontainer
 time.com##.time-newsletters
 gomechanicalkeyboard.com##.tl-state-root
 thenewdaily.com.au##.tnd-subscribe-modal

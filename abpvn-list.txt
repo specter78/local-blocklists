@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 09 Dec 2020 10:42 UTC+7
+# Updated: 19 Dec 2020 19:49 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -15410,6 +15410,113 @@
 #[mobads.baidu.com]
 0.0.0.0 mobads.baidu.com
 0.0.0.0 static.mobads.baidu.com
+#[userreport.com]
+0.0.0.0 analytics.userreport.com
+0.0.0.0 cdn.userreport.com
+0.0.0.0 sak.userreport.com
+0.0.0.0 sdscdn.userreport.com
+0.0.0.0 sync.userreport.com
+0.0.0.0 tag.userreport.com
+0.0.0.0 userreport.com
+#[appier.net]
+0.0.0.0 a.c.appier.net
+0.0.0.0 ad.appier.net
+0.0.0.0 ad2.apx.appier.net
+0.0.0.0 ad3.apx.appier.net
+0.0.0.0 adserv.c.appier.net
+0.0.0.0 adx.c.appier.net
+0.0.0.0 aiqua-config.c.appier.net
+0.0.0.0 aiqua-sdk.c.appier.net
+0.0.0.0 aiqua-user.c.appier.net
+0.0.0.0 anylist.c.appier.net
+0.0.0.0 apn.c.appier.net
+0.0.0.0 apnjp.c.appier.net
+0.0.0.0 appier.net
+0.0.0.0 apx.appier.net
+0.0.0.0 arm.c.appier.net
+0.0.0.0 c.appier.net
+0.0.0.0 c.c.appier.net
+0.0.0.0 cr-mon.appier.net
+0.0.0.0 d.c.appier.net
+0.0.0.0 dynamic-ads.appier.net
+0.0.0.0 dync.c.appier.net
+0.0.0.0 dync2.c.appier.net
+0.0.0.0 dync4.c.appier.net
+0.0.0.0 g.c.appier.net
+0.0.0.0 gocm.c.appier.net
+0.0.0.0 in.c.appier.net
+0.0.0.0 jprtb.c.appier.net
+0.0.0.0 jscdn.appier.net
+0.0.0.0 pmp-beacon.apx.appier.net
+0.0.0.0 rcp.c.appier.net
+0.0.0.0 rtb.appier.net
+0.0.0.0 s.c.appier.net
+0.0.0.0 sg.c.appier.net
+0.0.0.0 ss.c.appier.net
+0.0.0.0 t0.c.appier.net
+0.0.0.0 track.appier.net
+0.0.0.0 tw.c.appier.net
+0.0.0.0 vad.appier.net
+0.0.0.0 vst.c.appier.net
+0.0.0.0 xx.c.appier.net
+#[loopme.me]
+0.0.0.0 adtag.api.loopme.me
+0.0.0.0 adtag.loopme.me
+0.0.0.0 cdn.loopme.me
+0.0.0.0 csync.loopme.me
+0.0.0.0 i.loopme.me
+0.0.0.0 loopme.me
+0.0.0.0 m.loopme.me
+0.0.0.0 tag-eu.loopme.me
+0.0.0.0 tag-us.loopme.me
+0.0.0.0 track.loopme.me
+0.0.0.0 www.loopme.me
+#[eskimi.com]
+0.0.0.0 ads.eskimi.com
+0.0.0.0 api.eskimi.com
+0.0.0.0 dsp-ap.eskimi.com
+0.0.0.0 dsp-media.eskimi.com
+0.0.0.0 dsp-trk.eskimi.com
+0.0.0.0 eskimi.com
+0.0.0.0 m.eskimi.com
+0.0.0.0 stats.eskimi.com
+0.0.0.0 trk.eskimi.com
+0.0.0.0 www.eskimi.com
+#[pinterest.com]
+0.0.0.0 ads.pinterest.com
+0.0.0.0 analytics.pinterest.com
+0.0.0.0 ct.pinterest.com
+0.0.0.0 log.pinterest.com
+0.0.0.0 trk.pinterest.com
+0.0.0.0 trk2.pinterest.com
+0.0.0.0 widgets.pinterest.com
+#[storiespace.com]
+0.0.0.0 links.storiespace.com
+0.0.0.0 rotator.storiespace.com
+0.0.0.0 storiespace.com
+0.0.0.0 trk.storiespace.com
+0.0.0.0 www.storiespace.com
+#[supercounters.com]
+0.0.0.0 supercounters.com
+0.0.0.0 widget.supercounters.com
+0.0.0.0 www.supercounters.com
+#[cdnads.com]
+0.0.0.0 cdnads.com
+0.0.0.0 pads.cdnads.com
+0.0.0.0 perf.cdnads.com
+0.0.0.0 push.cdnads.com
+0.0.0.0 www.cdnads.com
+#[neptuneadspush.com]
+0.0.0.0 ads.neptuneadspush.com
+0.0.0.0 neptuneadspush.com
+0.0.0.0 pushlite.neptuneadspush.com
+0.0.0.0 pushlite1.neptuneadspush.com
+0.0.0.0 pushrev.neptuneadspush.com
+#[mavq.net]
+0.0.0.0 adware.mavq.net
+0.0.0.0 cdn.mavq.net
+0.0.0.0 mavq.net
+0.0.0.0 www.mavq.net
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -15656,23 +15763,27 @@
 #[coccoc]
 0.0.0.0 ads-target.coccoc.com
 0.0.0.0 banners-gallery.coccoc.com
-0.0.0.0 catalog.qc.coccoc.com
 0.0.0.0 cdn-qc.coccoc.com
 0.0.0.0 cdn.comedia.coccoc.com
+0.0.0.0 metrics.coccoc.com
+0.0.0.0 nt-cdn.coccoc.com
+0.0.0.0 qc-static.coccoc.com
+0.0.0.0 shop-cdn.coccoc.com
+0.0.0.0 shopping.coccoc.com
+#[qc.coccoc.com]
+0.0.0.0 catalog.qc.coccoc.com
 0.0.0.0 cdn.qc.coccoc.com
 0.0.0.0 context.qc.coccoc.com
 0.0.0.0 cp.qc.coccoc.com
 0.0.0.0 display.qc.coccoc.com
-0.0.0.0 metrics.coccoc.com
-0.0.0.0 nt-cdn.coccoc.com
 0.0.0.0 ntrb.qc.coccoc.com
-0.0.0.0 qc-static.coccoc.com
 0.0.0.0 qc.coccoc.com
 0.0.0.0 searcher.qc.coccoc.com
-0.0.0.0 shop-cdn.coccoc.com
-0.0.0.0 shopping.coccoc.com
-0.0.0.0 qccoccocmedia.vn
+0.0.0.0 ssp.qc.coccoc.com
+#[qc.coccoc.vn]
 0.0.0.0 qc.coccoc.vn
+0.0.0.0 qccoccocmedia.vn
+#[itim.vn]
 0.0.0.0 itim.vn
 0.0.0.0 spell.itim.vn
 #[rungrinh.vn]
@@ -15789,6 +15900,15 @@
 0.0.0.0 retg.ambient-platform.com
 0.0.0.0 static.ambient-platform.com
 0.0.0.0 www.ambient-platform.com
+#[ambientdsp.com]
+0.0.0.0 ambientdsp.com
+0.0.0.0 clk.ambientdsp.com
+0.0.0.0 cm.ambientdsp.com
+0.0.0.0 imp.ambientdsp.com
+0.0.0.0 metrics.ambientdsp.com
+0.0.0.0 static.ambientdsp.com
+0.0.0.0 trk.ambientdsp.com
+0.0.0.0 www.ambientdsp.com
 #[ants.vn]
 0.0.0.0 a.ants.vn
 0.0.0.0 abs.ants.vn
@@ -16738,6 +16858,7 @@
 0.0.0.0 admin.sothuchi.vn
 0.0.0.0 adpostback.headlines.pw
 0.0.0.0 ads-cdn.fptplay.net
+0.0.0.0 ads.1thegioi.vn
 0.0.0.0 ads.baodatviet.vn
 0.0.0.0 ads.baotainguyenmoitruong.vn
 0.0.0.0 ads.bkitsoftware.com
@@ -16746,15 +16867,20 @@
 0.0.0.0 ads.home.vn
 0.0.0.0 ads.ictnews.vn
 0.0.0.0 ads.khoahocdoisong.vn
+0.0.0.0 ads.kiemsat.vn
+0.0.0.0 ads.lamchame.vn
+0.0.0.0 ads.laodongnghean.vn
 0.0.0.0 ads.nghenhinvietnam.vn
 0.0.0.0 ads.phunuonline.com.vn
 0.0.0.0 ads.phunusuckhoe.vn
 0.0.0.0 ads.phunuvagiadinh.vn
 0.0.0.0 ads.thegioitiepthi.vn
 0.0.0.0 ads.thesaigontimes.vn
+0.0.0.0 ads.thitruongtaichinhtiente.vn
 0.0.0.0 ads.tiki.vn
 0.0.0.0 ads.vietbao.vn
 0.0.0.0 ads.vkool.info
+0.0.0.0 ads.vovlive.vn
 0.0.0.0 ads.xemphimso.com
 0.0.0.0 ads1.careerbuilder.vn
 0.0.0.0 adserver.lag.vn
@@ -16793,6 +16919,7 @@
 0.0.0.0 bgadx.com
 0.0.0.0 boxpr.aiservice.vn
 0.0.0.0 cdn-ads.thesaigontimes.vn
+0.0.0.0 cdn2.cache.vn
 0.0.0.0 cdnasset.dantri.com.vn
 0.0.0.0 chiasephim.xyz
 0.0.0.0 click-ads.saoteen.net
@@ -17105,7 +17232,6 @@
 0.0.0.0 ad.lupa.cz
 0.0.0.0 ad.mail.ru
 0.0.0.0 ad.media-servers.net
-0.0.0.0 ad.mediastorm.hu
 0.0.0.0 ad.mgd.de
 0.0.0.0 ad.mox.tv
 0.0.0.0 ad.musicmatch.com
@@ -17136,7 +17262,6 @@
 0.0.0.0 ad.unimhk.com
 0.0.0.0 ad.usatoday.com
 0.0.0.0 ad.virtual-nights.com
-0.0.0.0 ad.wavu.hu
 0.0.0.0 ad.way.cz
 0.0.0.0 ad.weatherbug.com
 0.0.0.0 ad.wsod.com
@@ -17243,8 +17368,6 @@
 0.0.0.0 adimages.been.com
 0.0.0.0 adimages.carsoup.com
 0.0.0.0 adimages.homestore.com
-0.0.0.0 adimages.omroepzeeland.nl
-0.0.0.0 adimages.sanomawsoy.fi
 0.0.0.0 adimg.cbsi.com
 0.0.0.0 adimg.net
 0.0.0.0 adimg.uimserv.net
@@ -17405,7 +17528,6 @@
 0.0.0.0 ads.cc
 0.0.0.0 ads.cdn.rovio.com
 0.0.0.0 ads.centraliprom.com
-0.0.0.0 ads.channel4.com
 0.0.0.0 ads.clearchannel.com
 0.0.0.0 ads.co.com
 0.0.0.0 ads.colombiaonline.com
@@ -17416,7 +17538,6 @@
 0.0.0.0 ads.cybersales.cz
 0.0.0.0 ads.dada.it
 0.0.0.0 ads.datingyes.com
-0.0.0.0 ads.deltha.hu
 0.0.0.0 ads.dennisnet.co.uk
 0.0.0.0 ads.desmoinesregister.com
 0.0.0.0 ads.detelefoongids.nl
@@ -17697,13 +17818,10 @@
 0.0.0.0 adserver.nydailynews.com
 0.0.0.0 adserver.o2.pl
 0.0.0.0 adserver.oddschecker.com
-0.0.0.0 adserver.omroepzeeland.nl
 0.0.0.0 adserver.pl
 0.0.0.0 adserver.portugalmail.net
 0.0.0.0 adserver.pressboard.ca
 0.0.0.0 adserver.quizdingo.com
-0.0.0.0 adserver.realhomesex.net
-0.0.0.0 adserver.sanomawsoy.fi
 0.0.0.0 adserver.sciflicks.com
 0.0.0.0 adserver.sharewareonline.com
 0.0.0.0 adserver.spankaway.com
@@ -17711,7 +17829,6 @@
 0.0.0.0 adserver.twitpic.com
 0.0.0.0 adserver.viagogo.com
 0.0.0.0 adserver.virginmedia.com
-0.0.0.0 adserver01.de
 0.0.0.0 adserver1-images.backbeatmedia.com
 0.0.0.0 adserver1.backbeatmedia.com
 0.0.0.0 adserver1.mindshare.de
@@ -17760,7 +17877,6 @@
 0.0.0.0 adsrevenue.net
 0.0.0.0 adsrocket.net
 0.0.0.0 adsrv.deviantart.com
-0.0.0.0 adsrv.iol.co.za
 0.0.0.0 adsrv.vidnt.com
 0.0.0.0 adsrveys.com
 0.0.0.0 adsstat.com
@@ -17816,7 +17932,6 @@
 0.0.0.0 adventory.com
 0.0.0.0 adverserve.net
 0.0.0.0 advert.bayarea.com
-0.0.0.0 advert.dyna.ultraweb.hu
 0.0.0.0 advert360.com
 0.0.0.0 adverticum.com
 0.0.0.0 adverticum.net
@@ -17942,7 +18057,6 @@
 0.0.0.0 anglishreasts.site
 0.0.0.0 annonser.dagbladet.no
 0.0.0.0 anrdoezrs.net
-0.0.0.0 antiviruspro-vietnam.info
 0.0.0.0 antvoice.com
 0.0.0.0 anxiousapples.com
 0.0.0.0 apathetictheory.com
@@ -17967,7 +18081,6 @@
 0.0.0.0 appflood.com
 0.0.0.0 appia.com
 0.0.0.0 appier.com
-0.0.0.0 appier.net
 0.0.0.0 appnext-a.akamaihd.net
 0.0.0.0 appolicious.com
 0.0.0.0 apprebates.com
@@ -18019,8 +18132,6 @@
 0.0.0.0 audienceinsights.com
 0.0.0.0 audiencemanager.de
 0.0.0.0 audiens.com
-0.0.0.0 audit.median.hu
-0.0.0.0 audit.webinform.hu
 0.0.0.0 audrte.com
 0.0.0.0 augur.io
 0.0.0.0 auto-bannertausch.de
@@ -18037,6 +18148,7 @@
 0.0.0.0 axdsz.pro
 0.0.0.0 axiomaticalley.com
 0.0.0.0 aylarl.com
+0.0.0.0 azoaltou.com
 0.0.0.0 b-1st.com
 0.0.0.0 b4psads.com
 0.0.0.0 babs.tv2.dk
@@ -18500,7 +18612,6 @@
 0.0.0.0 crownrecluse.com
 0.0.0.0 crsspxl.com
 0.0.0.0 crtv.mate1.com
-0.0.0.0 ctnetwork.hu
 0.0.0.0 cubics.com
 0.0.0.0 cumbersomecloud.com
 0.0.0.0 curtaincows.com
@@ -18545,6 +18656,7 @@
 0.0.0.0 deloplen.com
 0.0.0.0 deloton.com
 0.0.0.0 demdex.net
+0.0.0.0 denetsuk.com
 0.0.0.0 desertedbreath.com
 0.0.0.0 desertedrat.com
 0.0.0.0 detailedglue.com
@@ -18611,6 +18723,7 @@
 0.0.0.0 e-ssl.apsalar.com
 0.0.0.0 e.apsalar.com
 0.0.0.0 e.kde.cz
+0.0.0.0 e2ertt.com
 0.0.0.0 e2wysbacctt1.com
 0.0.0.0 eadexchange.com
 0.0.0.0 earnify.com
@@ -18878,6 +18991,7 @@
 0.0.0.0 havamedia.net
 0.0.0.0 healthyoffers.com
 0.0.0.0 heap.com
+0.0.0.0 heeteefu.com
 0.0.0.0 hegarberetrof.pro
 0.0.0.0 heias.com
 0.0.0.0 hellobar.com
@@ -18981,7 +19095,6 @@
 0.0.0.0 images.footballaddicts.se
 0.0.0.0 imarketservices.com
 0.0.0.0 imatmobile.com
-0.0.0.0 img.prohardver.hu
 0.0.0.0 imgpromo.easyrencontre.com
 0.0.0.0 imimobile.com
 0.0.0.0 immensehoney.com
@@ -19039,7 +19152,6 @@
 0.0.0.0 intergi.com
 0.0.0.0 internetfuel.com
 0.0.0.0 interreklame.de
-0.0.0.0 interstat.hu
 0.0.0.0 intnotif.club
 0.0.0.0 intowow.com
 0.0.0.0 inuvi.com
@@ -19063,6 +19175,7 @@
 0.0.0.0 j93557g.com
 0.0.0.0 jadeitite.com
 0.0.0.0 jaduda.com
+0.0.0.0 jaftouja.net
 0.0.0.0 jaizouji.com
 0.0.0.0 jatxt.com
 0.0.0.0 jcount.com
@@ -19073,6 +19186,7 @@
 0.0.0.0 jiwire.com
 0.0.0.0 joetec.net
 0.0.0.0 jokedollars.com
+0.0.0.0 jomtingi.net
 0.0.0.0 js.hsforms.net
 0.0.0.0 jugjetwok.com
 0.0.0.0 julysystems.com
@@ -19086,7 +19200,6 @@
 0.0.0.0 karonty.com
 0.0.0.0 keapeiros.xyz
 0.0.0.0 ketchapp.org
-0.0.0.0 keymedia.hu
 0.0.0.0 keynotedeviceanywhere.com
 0.0.0.0 kindads.com
 0.0.0.0 kiolim.com
@@ -19495,6 +19608,7 @@
 0.0.0.0 onlinecashmethod.com
 0.0.0.0 onlinerewardcenter.com
 0.0.0.0 onlyadshere.info
+0.0.0.0 onmarshtompor.com
 0.0.0.0 onmobile.com
 0.0.0.0 onstunkyr.com
 0.0.0.0 onvictinitor.com
@@ -19817,7 +19931,6 @@
 0.0.0.0 reklam.rfsl.se
 0.0.0.0 reklama.mironet.cz
 0.0.0.0 reklama.reflektor.cz
-0.0.0.0 reklamcsere.hu
 0.0.0.0 reklame.unwired-i.net
 0.0.0.0 relevanz10.de
 0.0.0.0 relmaxtop.com
@@ -19882,6 +19995,7 @@
 0.0.0.0 rundsp.com
 0.0.0.0 rusenov.com
 0.0.0.0 ruthlessrobin.com
+0.0.0.0 ruwertur.com
 0.0.0.0 s.click.aliexpress.com
 0.0.0.0 s2d6.com
 0.0.0.0 sageanalyst.net
@@ -19953,7 +20067,6 @@
 0.0.0.0 shareasale.com
 0.0.0.0 sharepointads.com
 0.0.0.0 sharppatch.com
-0.0.0.0 sher.index.hu
 0.0.0.0 shermore.info
 0.0.0.0 shinystat.com
 0.0.0.0 shinystat.it
@@ -20071,7 +20184,6 @@
 0.0.0.0 startsmajesty.com
 0.0.0.0 stat.cliche.se
 0.0.0.0 stat.dealtime.com
-0.0.0.0 stat.dyna.ultraweb.hu
 0.0.0.0 stat.pl
 0.0.0.0 stat.su
 0.0.0.0 stat.webmedia.pl
@@ -20247,8 +20359,6 @@
 0.0.0.0 top.list.ru
 0.0.0.0 top.mail.ru
 0.0.0.0 top.proext.com
-0.0.0.0 top100-images.rambler.ru
-0.0.0.0 top100.mafia.ru
 0.0.0.0 top123.ro
 0.0.0.0 top20.com
 0.0.0.0 top20free.com
@@ -20260,7 +20370,6 @@
 0.0.0.0 topgamesites.net
 0.0.0.0 toplist.cz
 0.0.0.0 toplist.pornhost.com
-0.0.0.0 toplista.mw.hu
 0.0.0.0 toplistcity.com
 0.0.0.0 topmmorpgsites.com
 0.0.0.0 topping.com.ua
@@ -20466,11 +20575,9 @@
 0.0.0.0 web-stat.com
 0.0.0.0 web.btncdn.com
 0.0.0.0 web.informer.com
-0.0.0.0 web2.deja.com
 0.0.0.0 webads.eu
 0.0.0.0 webads.nl
 0.0.0.0 webangel.ru
-0.0.0.0 webcash.nl
 0.0.0.0 webcontentassessor.com
 0.0.0.0 webcounter.cz
 0.0.0.0 webcounter.goweb.de
@@ -20484,7 +20591,6 @@
 0.0.0.0 webreseau.com
 0.0.0.0 webseoanalytics.com
 0.0.0.0 websponsors.com
-0.0.0.0 webstat.channel4.com
 0.0.0.0 webstat.com
 0.0.0.0 webstat.net
 0.0.0.0 webstats4u.com
@@ -20551,7 +20657,6 @@
 0.0.0.0 www.allmygoodlife.com
 0.0.0.0 www.allmyverygreatlife.com
 0.0.0.0 www.anrdoezrs.net
-0.0.0.0 www.antiviruspro-vietnam.info
 0.0.0.0 www.axdsz.pro
 0.0.0.0 www.beauty-tea.com
 0.0.0.0 www.beharmalted.info
@@ -20622,7 +20727,6 @@
 0.0.0.0 www.zekiatagur.com
 0.0.0.0 www.zxc.world
 0.0.0.0 x-traceur.com
-0.0.0.0 x6.yakiuchi.com
 0.0.0.0 xad.com
 0.0.0.0 xchange.ro
 0.0.0.0 xclicks.net
@@ -20691,6 +20795,7 @@
 0.0.0.0 zmedia.com
 0.0.0.0 zqtk.net
 0.0.0.0 zumobi.com
+0.0.0.0 zuphaims.com
 0.0.0.0 zxc.world
 # --- Block other trackingVN ---
 0.0.0.0 2o7.net
@@ -20772,8 +20877,6 @@
 0.0.0.0 ccgateway.net
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdn.promotionengine.com
-0.0.0.0 cdn.zarget.com
-0.0.0.0 cedexis.com
 0.0.0.0 clerrrep.com
 0.0.0.0 cleverpush.com
 0.0.0.0 client-analytics.braintreegateway.com
@@ -20789,7 +20892,6 @@
 0.0.0.0 creative.dailymail.co.uk
 0.0.0.0 crittercism.com
 0.0.0.0 csdian.net
-0.0.0.0 ct.pinterest.com
 0.0.0.0 d24n15hnbwhuhn.cloudfront.net
 0.0.0.0 d4n.platformd.com
 0.0.0.0 databerries.com
@@ -20867,7 +20969,6 @@
 0.0.0.0 log.getdropbox.com
 0.0.0.0 log.kmplayer.com
 0.0.0.0 log.kuwo.cn
-0.0.0.0 log.pinterest.com
 0.0.0.0 log.quora.com
 0.0.0.0 log.snapdeal.com
 0.0.0.0 log.tutuapp.com
@@ -20999,7 +21100,6 @@
 0.0.0.0 tracking.lenzmx.com
 0.0.0.0 traffic.spot.im
 0.0.0.0 trk.clinch.co
-0.0.0.0 trk.pinterest.com
 0.0.0.0 ultimedia.com
 0.0.0.0 um.videmob.com
 0.0.0.0 unicaitaly.it
