@@ -1,6 +1,6 @@
 # Title: Lightswitch05's tracking-aggressive-extended.txt
-# Released: 2020-12-20T01:05:16+00:00
-# Count: 16425 domains
+# Released: 2020-12-21T01:05:15+00:00
+# Count: 16436 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
@@ -709,6 +709,7 @@
 0.0.0.0 api.luyou.360.cn
 0.0.0.0 test.api.luyou.360.cn
 0.0.0.0 appapi.luyou.360.cn
+0.0.0.0 test.appapi.luyou.360.cn
 0.0.0.0 newapi.cloudquery.luyou.360.cn
 0.0.0.0 download.luyou.360.cn
 0.0.0.0 fwlog.luyou.360.cn
@@ -7713,6 +7714,7 @@
 0.0.0.0 cuarentena.qualtrics.com
 0.0.0.0 cuboulder.qualtrics.com
 0.0.0.0 cuchicago.qualtrics.com
+0.0.0.0 cuhk.qualtrics.com
 0.0.0.0 cuhkbaf.qualtrics.com
 0.0.0.0 cultivate.qualtrics.com
 0.0.0.0 cumc.qualtrics.com
@@ -7723,6 +7725,7 @@
 0.0.0.0 d8mzcovidzj.qualtrics.com
 0.0.0.0 dairymanagement.qualtrics.com
 0.0.0.0 dca.qualtrics.com
+0.0.0.0 dcbs.qualtrics.com
 0.0.0.0 dcps.qualtrics.com
 0.0.0.0 dcsg.qualtrics.com
 0.0.0.0 delftxtudelft.qualtrics.com
@@ -7793,6 +7796,7 @@
 0.0.0.0 emory.qualtrics.com
 0.0.0.0 employbridge.qualtrics.com
 0.0.0.0 employeepulsecheck.qualtrics.com
+0.0.0.0 employersgroup.qualtrics.com
 0.0.0.0 employment.qualtrics.com
 0.0.0.0 encuesta.qualtrics.com
 0.0.0.0 encuestas.qualtrics.com
@@ -8729,6 +8733,9 @@
 0.0.0.0 opra360.qualtrics.com
 0.0.0.0 oregon.qualtrics.com
 0.0.0.0 oregonstate.qualtrics.com
+0.0.0.0 origin-az1.qualtrics.com
+0.0.0.0 origin-co1.qualtrics.com
+0.0.0.0 origin-us.qualtrics.com
 0.0.0.0 origin-us2.qualtrics.com
 0.0.0.0 originaz1.qualtrics.com
 0.0.0.0 star.originaz1.qualtrics.com
@@ -9842,9 +9849,11 @@
 0.0.0.0 skidmore.qualtrics.com
 0.0.0.0 www.skidmore.qualtrics.com
 0.0.0.0 skillsoft.qualtrics.com
+0.0.0.0 smac.qualtrics.com
 0.0.0.0 smart.qualtrics.com
 0.0.0.0 smeal.qualtrics.com
 0.0.0.0 smithsmedical.qualtrics.com
+0.0.0.0 sms-adapter-ps.qualtrics.com
 0.0.0.0 smsadapter-ps.qualtrics.com
 0.0.0.0 smtp-centraldevacinas.qualtrics.com
 0.0.0.0 smu.qualtrics.com
@@ -16005,6 +16014,7 @@
 0.0.0.0 rogersbank.ada.support
 0.0.0.0 roku.ada.support
 0.0.0.0 rollout.ada.support
+0.0.0.0 scoutcellar.ada.support
 0.0.0.0 securly.ada.support
 0.0.0.0 seesaw.ada.support
 0.0.0.0 seminolecounty.ada.support
@@ -16132,6 +16142,7 @@
 0.0.0.0 deliver.tawk.to
 0.0.0.0 developer.tawk.to
 0.0.0.0 devph.tawk.to
+0.0.0.0 direct.tawk.to
 0.0.0.0 downloads.tawk.to
 0.0.0.0 embed.tawk.to
 0.0.0.0 feedback.tawk.to
