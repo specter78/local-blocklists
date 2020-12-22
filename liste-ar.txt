@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: AIdw6aVKC8qVU8Xe+4gPGA
-! Version: 202012210520
+! Checksum: LEDn45DXGYXr0xPijLAA0A
+! Version: 202012220520
 ! Title: Liste AR
 ! Expires: 2 days
 ! Description: القائمة العربية لمانع الشرائط الإعلانية آدبلوك بلس، مكمِّلة للقائمة الفرنسية و الإنجليزية
@@ -12,6 +12,9 @@
 ! Merci de signaler toute publicité non bloquée ou tout blocage inadéquat.
 ! dans le forum : https://forums.lanik.us/viewforum.php?f=98
 ! e-mail : liste.ar.easylist $ gmail.com
+!
+! To be efficient, Liste AR should be used in addition to EasyList + Liste FR
+! https://easylist-downloads.adblockplus.org/liste_fr+easylist.txt
 !
 !----------------------- Filtres génériques -----------------!
 &ad_size=
