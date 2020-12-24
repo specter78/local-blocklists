@@ -1,8 +1,8 @@
-! Checksum: Yl5K4B+3TJ2eKwbrKZ8sQw
+! Checksum: zFo86DM8TxD1KjaCSzewmg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.37
-! TimeUpdated: 2020-12-22T19:32:39+03:00
+! Version: 2.0.19.40
+! TimeUpdated: 2020-12-23T16:31:35+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4657,6 +4657,10 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||geo.mattel163.com^
+||tc-log.mattel163.com^
+||events-api*.outfit7.com^
+||bilanx.dcard.tw^
 ||events.emogi.com^
 ||log.ohmynews.com^
 ||analytics2.tvreport.co.kr^
@@ -9031,6 +9035,10 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/70603
+@@||google-analytics.com/analytics.js$domain=hepsiburada.com
+@@||google-analytics.com/plugins/ua/ec.js$domain=hepsiburada.com
+@@||google-analytics.com/gtm/js?id=$domain=hepsiburada.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70452
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70405
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70383
