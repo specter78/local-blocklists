@@ -1,8 +1,8 @@
-! Checksum: Ore3lEEVz1kZis7DoFF56g
+! Checksum: wVn8D/NOK7Mv+WaD024fow
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.46.96
-! TimeUpdated: 2020-12-23T19:31:00+03:00
+! Version: 2.0.47.3
+! TimeUpdated: 2020-12-24T20:30:49+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,10 @@
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||lidplay.net^$third-party
+||bcvideod.com^$third-party
+||allowandgo.link^$third-party
+||jlpbyt.com^$third-party
 ||porno365go.com^$third-party
 ||2fk0iss45c.ru^$third-party
 ||voqonea.ru^$third-party
@@ -6166,14 +6170,14 @@ sdamgia.ru#%#AG_abortOnPropertyRead('Ya.Direct');
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|Silver|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|Bismuth|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|Silver|computer/');
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|Bismuth|computer/');
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|Silver|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|Bismuth|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|Silver|computer/');
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|Bismuth|computer/');
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -6279,6 +6283,10 @@ kino-teatr.ru#?##root div[class^="relap-"]:contains(РЕКОМЕНДУЕТ) div[
 underverse.su,underver.se#?##sidebar1-wrap > h3:contains(Реклама)
 underverse.su,underver.se#?##sidebar1-wrap > h3:contains(Реклама) + div.sb_back
 underverse.su,underver.se#?##sidebar1-wrap > h3:contains(Реклама) + div.sb_back + div.sb_bottom
+! https://github.com/AdguardTeam/AdguardFilters/issues/70722
+ero-top.info#?##menu > div.shap:contains(Реклама)
+! https://github.com/AdguardTeam/AdguardFilters/issues/70720
+girlstop.info#?#td[id^="main_body"] table > tbody > tr > td[style]:has(> script[src^="http://www.girlstop.info/jstt/"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64379
 dota2.ru#$##kalambur { display: none!important; }
 dota2.ru#$#html { overflow: visible!important; }
@@ -6682,6 +6690,8 @@ argumenti.ru#?#.online_top > ul > li:has(> p > a[href^="https://news.mirtesen.ru
 coronavirus-monitor.ru#?#.entry-content > div[style]:has(> ins.adsbygoogle)
 coronavirus-monitor.ru#?#.entry-content > center:has(> div[style] > div.mk-ad-container)
 !
+rustxt.ru#?#body > div.container > div.row > div[class]:has(> ins.adsbygoogle)
+new-rutor.org#?##content > div[style]:has(> div[id^="advplayer"])
 eg.ru#?#.page-wrapper > div.row:has(> div[class] center > div[id^="adfox_"])
 echo.msk.ru#?##mainsidebar > div.ad.iblock:not(:has(> a[href]))
 golospravdy.eu#?#div[id^="sidebar-widget-"] > div.widget_text:has(> h3.sidebar-header > span:contains(/Тема дня|РЕКЛАМА/i))
@@ -10700,7 +10710,7 @@ ganc-chas.by,shliah.by,rcmm.ru,bel.biz,blitz.if.ua,iguides.ru,naviny.by,naviny.m
 !
 ! luckyads.tech - 'Lucky' at advertising domain tab's name
 ! another new 03.06.2020
-/^http(s?):\/\/[a-z]{6}\..*\/[a-z0-9]{3,30}\/[a-z0-9]{5,}\.php$/$script,third-party,domain=allkey.org|beejournal.ru|coronavirus-control.ru|fatelines.net|film.lafa.site|ovgorskiy.ru|fixmaster74.ru|winnote.ru|sundaria.su|amperof.ru|aleks-beauty.ru|220.guru|vph-holod.ru|severpost.ru|mnogotolka.ru|siniy-ekran.ru|ua.news|kslift.ru|politnavigator.net|tarifec.com|vse-vino.ru|pornreactor.cc|joyreactor.cc|reactor.cc|rsute.ru|diclophenac.ru|audioknigi-online.ru|enovosty.com|tayga.info|xnewsq.net|om1.ru
+/^http(s?):\/\/[a-z]{6}\..*\/[a-z0-9]{3,30}\/[a-z0-9]{5,}\.php$/$script,third-party,domain=allkey.org|beejournal.ru|coronavirus-control.ru|fatelines.net|film.lafa.site|ovgorskiy.ru|fixmaster74.ru|winnote.ru|sundaria.su|amperof.ru|aleks-beauty.ru|220.guru|vph-holod.ru|severpost.ru|mnogotolka.ru|siniy-ekran.ru|ua.news|kslift.ru|politnavigator.net|tarifec.com|vse-vino.ru|pornreactor.cc|joyreactor.cc|reactor.cc|rsute.ru|diclophenac.ru|audioknigi-online.ru|enovosty.com|tayga.info|xnewsq.net|om1.ru|rustxt.ru
 ! https://qlnomb.com/rncl17921ivl0mp03y8qh768uqv768kpy8hlb.php
 /^http(s?):\/\/[A-Za-z0-9]{6}\.[A-Za-z0-9]{3}\/[A-Za-z0-9]{30,}\.php$/$script,third-party,domain=advicesos.com|rsute.ru|afn.by|hdvideobox.ru|samelectrik.ru|amazingfacts.ru|allkey.org
 ! new (01.06.2020)
@@ -10722,11 +10732,17 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 !
 ! For URL shorteners or simple sites with frequently changed ad servers.
 ! Incorrectly blocked domains can be excluded using regex(synchronize this regexp in all filters)
-/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.net|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com)).*$/$third-party,script,domain=pornosuk.com|ebalovo.pro|yarnews.net|pornohype.mobi|pornomoll.net|4ertik.mobi|porno-dojki.mobi|mobila.guru|manesu.com|sovetov.su|krot.info|sad24.ru|web-shpargalka.ru|pornolavka.xxx|pornona.me|tureckiy-serial.ru|crast.ru|sobytiya.net|bazliter.ru|swoofe.ru|maximp3.ru|carlasart.ru|torrent-bro.ru|dv-gazeta.info|tiviha.ru|great-tv.tv|ovgorskiy.ru|next.2yxa.mobi|xxxlatinki.com|rybkies.ru|doctorhouse.tv|ruspornvideos.net|art-textil.ru|agronomu.com|gorodarmavir.ru|kormushka-burg.ru|ua.news|uniondht.org|seksoeb.com|hdxclub.tv|porno-vhd.com|incestporno.tv|mypornolab.site|zporno.porn|inspectrum.su|zavtra.ru|newsyou.info|infohome.com.ua|tdnu.ru|ruspolitnews.ru|kinokordon.net|politpuzzle.ru|4rl.ru|tolknews.ru|tvvse.my1.ru|lifedon.com.ua|pornogolod.net|seksvideo.tv|volkovysk.by|pro100tv.my1.ru|pornoham.net|bestweapon.ru|pronpic.org|mosgorsait.ru|apnews.com.ua|tipsforyou.ru|peoples.ru|minus-on.ru|nudecelebs.pro|sexicelebs.su|vchaspik.ua|sekreta.net|chelny-izvest.ru|newsbel.by|theageoffootball.com|iptvmaster.ru|kztarif.ru|4systems.ru|rus24.tv|homesantehnica.ru|xpmuxznuxcuxcxyczczxcxb.lupka.ru|kinovideo.tv|torren.eu|kriminal.net.ua|obmenvsem.org
+/^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.net|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com)).*$/$third-party,script,domain=pornosuk.com|ebalovo.pro|yarnews.net|pornohype.mobi|pornomoll.net|4ertik.mobi|porno-dojki.mobi|mobila.guru|manesu.com|sovetov.su|krot.info|sad24.ru|web-shpargalka.ru|pornolavka.xxx|pornona.me|tureckiy-serial.ru|crast.ru|sobytiya.net|bazliter.ru|swoofe.ru|maximp3.ru|carlasart.ru|torrent-bro.ru|dv-gazeta.info|tiviha.ru|great-tv.tv|ovgorskiy.ru|next.2yxa.mobi|xxxlatinki.com|rybkies.ru|doctorhouse.tv|ruspornvideos.net|art-textil.ru|agronomu.com|gorodarmavir.ru|kormushka-burg.ru|ua.news|uniondht.org|seksoeb.com|hdxclub.tv|porno-vhd.com|incestporno.tv|mypornolab.site|zporno.porn|inspectrum.su|zavtra.ru|newsyou.info|infohome.com.ua|tdnu.ru|ruspolitnews.ru|kinokordon.net|politpuzzle.ru|4rl.ru|tolknews.ru|tvvse.my1.ru|lifedon.com.ua|pornogolod.net|seksvideo.tv|volkovysk.by|pro100tv.my1.ru|pornoham.net|bestweapon.ru|pronpic.org|mosgorsait.ru|apnews.com.ua|tipsforyou.ru|peoples.ru|minus-on.ru|nudecelebs.pro|sexicelebs.su|vchaspik.ua|sekreta.net|chelny-izvest.ru|newsbel.by|theageoffootball.com|iptvmaster.ru|kztarif.ru|4systems.ru|rus24.tv|homesantehnica.ru|xpmuxznuxcuxcxyczczxcxb.lupka.ru|kinovideo.tv|torren.eu|kriminal.net.ua|obmenvsem.org|ero-top.info
 !
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+||erolub.com/js95ad/
+||ero-top.info/uploads/banner*.jpg
+||girlstop.info/jstt/
+girlstop.info##td[style="height:215px"]
+new-rutor.org##div[id^="advplayer"]
+new-rutor.org###download_page_panel_overlay
 eg.ru##.page-wrapper div.greyback > script + div.whiteback + div[class][style]
 5-tv.ru##.partner-lenta
 mobiltelefon.ru###bbanners
@@ -19761,7 +19777,7 @@ www.ex.ua/*/index.css
 ||youhack.ru/stz/
 ||youpk.ru/wp-content/uploads/2015/01/wm.jpg
 ||yourlifestyle.ru/ads*.js
-||youtube.com/embed/$domain=trashbox.mobi|simpsonsua.tv
+||youtube.com/embed/$domain=trashbox.mobi|simpsonsua.tv|new-rutor.org
 ||youtube.com/embed/ygJTKDZPhCo$domain=7days-ua.com
 ||youtube.com/embed/a1Vz_nWYWS8$domain=xalyava.club
 ||youtube.com/embed/d6rVjyAegA8?rel=$domain=sadikionline.ru
@@ -20451,13 +20467,13 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-content div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-content div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-content div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-content div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-content div.review-contents + [class]
-otzovik.com##.produkt-content div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-content div.review-contents > div.review-body > div[id]
+otzovik.com##.produkt-coftent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-coftent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-coftent div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-coftent div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-coftent div.review-contents + [class]
+otzovik.com##.produkt-coftent div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-coftent div.review-contents > div.review-body > div[id]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
@@ -21022,6 +21038,9 @@ ut-1.alexbranding.com,unitheme.net#@#[class^="adv-"]
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/70435
+sexogolic.info#@#.ads-iframe
+@@||sexogolic.info/player/player_ads.html
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70330
 @@||cdn.aviva.com/static/core/*/js/block.js$domain=aviva.ca
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69683
