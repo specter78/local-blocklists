@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202012250415
+! Version: 202012260457
 ! Title: EasyPrivacy
-! Last modified: 25 Dec 2020 04:15 UTC
+! Last modified: 26 Dec 2020 04:57 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1150,6 +1150,7 @@
 /campaign_tracker.
 /campaign_trax.
 /caos-analytics/*
+/caos/analytics.
 /capture_client.js
 /CaptureStat.
 /CardioLogAgent/*
@@ -12089,6 +12090,7 @@ _mongo_stats/
 ||tracking.quisma.com^
 ||tracking.rapidape.com^
 ||tracking.rightmessage.com^
+||tracking.scenepass.com^
 ||tracking.searchmarketing.com^
 ||tracking.sembox.it^$third-party
 ||tracking.skyword.com^$third-party
@@ -13225,6 +13227,7 @@ _mongo_stats/
 ||6waves.com/trker/
 ||99bitcoins.com/_load/
 ||a.huluad.com/beacons/
+||a3xo-eng.spankbang.com^
 ||a7.org/infol.php?
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^

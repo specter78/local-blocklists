@@ -1,8 +1,8 @@
-! Checksum: lPv83EH48skfHMAvPEbm6A
+! Checksum: ikwqIJKEI9P6uj9cCCRYqg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.42
-! TimeUpdated: 2020-12-25T07:31:23+03:00
+! Version: 2.0.19.46
+! TimeUpdated: 2020-12-25T15:31:36+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4657,6 +4657,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||check.tadapi.info^
+||count.munhwa.com^
 ||geo.mattel163.com^
 ||tc-log.mattel163.com^
 ||events-api*.outfit7.com^
@@ -6627,6 +6629,8 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||a*.pr-cy.ru/stat/
+||sportsseoul.com/news/site_log/
 ||res.heraldm.com/js/acecounter_*.js
 ||res.heraldm.com/js/logcollectscript_*.js
 ||app.revhunter.tech/px^
@@ -7688,7 +7692,6 @@ merkur.de##.id-Amp-recommendation
 ||sa.sayaclar.com/c/s*.php?$third-party
 ||faz.net/placingservice/count
 ||free-sex-video.net/templates/default/js/fingerprintjs/fingerprint2.js
-||hqq.watch/js/video.counters.js
 ||freehostedscripts.net^*.php?site=*&s=*&h=$third-party
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
