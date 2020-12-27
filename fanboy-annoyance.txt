@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202012260457
+! Version: 202012270401
 ! Title: Fanboy's Annoyance List
-! Last modified: 26 Dec 2020 04:57 UTC
+! Last modified: 27 Dec 2020 04:01 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -34677,6 +34677,7 @@ _site_cookie_
 ||easytutoriel.com/wp-content/themes/easytutoriel-10-1/js/scripts.js
 ||eatout.co.za^*/iab-
 ||emailsherlock.com/javascripts/lightbox.js
+||feedback.wwe.com/survey/
 ||fin24.com^*/iabLogo.
 ||findthebest.co.uk/ajax/load_tracker
 ||gamesindustry.biz/jobs-widget
@@ -39307,6 +39308,7 @@ mybroadband.co.za##.subscribe-submit
 medicaldaily.com##.subscribe-to
 hindustantimes.com##.subscribe-update
 bikeexif.com##.subscribe-win
+faroutmagazine.co.uk##.subscribe-wrap
 icepop.com##.subscribe__wrapper
 optimumenergy.com##.subscribe_content
 mobilemarketingmagazine.com##.subscribe_section_wrap

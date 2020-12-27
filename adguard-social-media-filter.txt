@@ -1,8 +1,8 @@
-! Checksum: 8YWIme2doe2Mzr9IgcRuNw
+! Checksum: Cp2YyqnwksGzUzpaPOU+/Q
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.34.45
-! TimeUpdated: 2020-12-25T20:31:27+03:00
+! Version: 2.0.34.46
+! TimeUpdated: 2020-12-26T18:31:29+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1082,6 +1082,7 @@ dila.ua##.article-share-block
 enginform.com##.social_block
 m-timesofindia-com.cdn.ampproject.org##div.as_heading > .pdTop_2 > div[id^="ss-"]
 m-timesofindia-com.cdn.ampproject.org##.adspacing
+vpnmentor.com##.main-content-holder > div.article-thanks-wrap
 m.jpnn.com##.share-medsos
 nashkiev.ua##.flex_social
 quiz.ink##.quiz__final-below-social
