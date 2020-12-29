@@ -5,8 +5,8 @@
 #         http://logroid.blogspot.jp/
 #         https://twitter.com/logroid
 #
-# last updated: 2020/11/19
-# block hosts: 31200 entry
+# last updated: 2020/12/28
+# block hosts: 31201 entry
 
 # 000webhost.com
 127.0.0.1 err.000webhost.com
@@ -7868,6 +7868,9 @@
 # afftrackinglinks.com
 127.0.0.1 afftrackinglinks.com
 127.0.0.1 www.afftrackinglinks.com
+
+# afi-b.com
+127.0.0.1 afi-b.com
 
 # afixi.com
 127.0.0.1 ads.afixi.com
@@ -23365,9 +23368,6 @@
 127.0.0.1 garss.tv
 127.0.0.1 image.garss.tv
 
-# gasuki.com
-127.0.0.1 banacity.gasuki.com
-
 # gate24.ch
 127.0.0.1 ad.gate24.ch
 
@@ -25009,6 +25009,9 @@
 
 # gyao.jp
 127.0.0.1 clickgp.gyao.jp
+
+# gyro-n.com
+127.0.0.1 gyro-n.com
 
 # gyswad.com
 127.0.0.1 gyswad.com
@@ -49078,6 +49081,9 @@
 # stockway.net
 127.0.0.1 www.stockway.net
 
+# storage-ad.com
+127.0.0.1 p.storage-ad.com
+
 # storage-tasp.com
 127.0.0.1 www.storage-tasp.com
 
@@ -57677,7 +57683,6 @@
 127.0.0.1 zero-tools.com
 
 # zeroredirect12.com
-127.0.0.1 zeroredirect12.com
 127.0.0.1 zy1.zeroredirect12.com
 
 # zestadz.com
