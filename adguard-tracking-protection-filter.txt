@@ -1,8 +1,8 @@
-! Checksum: WtjmjYeHtNJkihkJMV/V0Q
+! Checksum: GnPqZPmOU8zhLDeOi1jgPg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.51
-! TimeUpdated: 2020-12-28T19:32:43+03:00
+! Version: 2.0.19.54
+! TimeUpdated: 2020-12-29T17:32:17+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -80,6 +80,8 @@
 !-------JS----------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/70941
+pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackOutboundLink"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64616
 !
 !! facebook.com - removing tracking parameter
@@ -6649,6 +6651,7 @@ _tracking.php?b=
 ||livehdcams.com/api/metrics
 ||livehdcams.com/api/events
 ||pornhublive.com/api/metrics
+||piano.io/tracker/$domain=inc42.com,important
 ||pornhublive.com/api/events
 ||nocutnews.co.kr/js/logger*.htm
 ||justswallows.com/lib/ajax/track.php
@@ -9038,6 +9041,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/71041
+! https://github.com/AdguardTeam/AdguardFilters/issues/70941
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70789
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70625
