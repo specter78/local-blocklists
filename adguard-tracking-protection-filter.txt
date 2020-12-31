@@ -1,8 +1,8 @@
-! Checksum: GnPqZPmOU8zhLDeOi1jgPg
+! Checksum: uh1objo2/i+8gOL8DDps3w
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.54
-! TimeUpdated: 2020-12-29T17:32:17+03:00
+! Version: 2.0.19.56
+! TimeUpdated: 2020-12-30T20:03:24+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -307,6 +307,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||client-analytics.braintreegateway.com^
 ||log.propermessage.io^
 ||hit.acstat.com^
+||code.acstat.com^
 ||fhits.xyz^$third-party
 ||intelligenceretarget.com^$third-party
 ||stpmgo.com^$third-party
@@ -6664,7 +6665,8 @@ _tracking.php?b=
 ||ytn.co.kr/_comm/asplog.php
 ||cinematoday.jp^*/pageviews.min.js
 ||zenback.jp^*/tracking.html
-||cdn.retailrocket.ru/javascript/tracking.js
+||cdn.retailrocket.ru/*/tracking.js
+||ru-mi.com/*/ee_tracking.js
 ||matchid.adfox.yandex.ru/getcookie$domain=vseinstrumenti.ru
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
 ||r.yna.co.kr/global/lib/*/js/nlogger.js
@@ -7164,16 +7166,16 @@ continentseven.com##.gaoop
 ||teenporn.ws/zaq/cron.php
 ||news.nate.com/js/today/userAgent
 ||search1.daumcdn.net/search/statics/common/js/log
-||map.naver.com/v5/api/searchAddressById
+||map.naver.com/*/api/searchAddressById
 ||ca-fe.pstatic.net/web-mobile/static/web-crash-logger
 ||ca-fe.pstatic.net/web-mobile/static/naverStatLogger
 ||cafe.naver.com/static/js/*/javascript/lcslog
-||scv.band.us/jackpotlog/v1/logs
+||scv.band.us/jackpotlog/*/logs
 ||comic.naver.com/aggregate/javascript/release/lcslog
 ||apis.naver.com/videostat/videostat/qoe
 ||s1.daumcdn.net/svc/original/U03/cssjs/userAgent
-||tv.naver.com/resources/release/js_v2/player*Logge
-||tv.naver.com/resources/release/js_v2/clickcr
+||tv.naver.com/resources/release/js_*/player*Logge
+||tv.naver.com/resources/release/js_*/clickcr
 ||ssl.pstatic.net/img.tvcast/pc/js/wcslog
 ||videostats.kakao.com/log^
 ||t1.daumcdn.net/language/cssjs/*/js/lib/userAgent
