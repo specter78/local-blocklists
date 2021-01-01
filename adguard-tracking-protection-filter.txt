@@ -1,8 +1,8 @@
-! Checksum: uh1objo2/i+8gOL8DDps3w
+! Checksum: cK7zPrqpjDAc072YUE1Lwg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.56
-! TimeUpdated: 2020-12-30T20:03:24+03:00
+! Version: 2.0.19.58
+! TimeUpdated: 2020-12-31T14:31:45+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6630,6 +6630,9 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||notepet.co.kr/js/sitelog.js
+||notepet.co.kr/etc/logs/siteLog
+||ceoscoredaily.com/weblog/gtracker
 ||avn.com/server/visitors/
 ||a*.pr-cy.ru/stat/
 ||sportsseoul.com/news/site_log/
@@ -9043,6 +9046,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/71199
+@@||polfan.pl/app/vendor/fingerprint2.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71041
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70941
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70789
