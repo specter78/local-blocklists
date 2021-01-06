@@ -1,8 +1,8 @@
-! Checksum: D46e4mtLALZqgtG9MlgqJg
+! Checksum: GulW1M0iLx75esZV3M80EQ
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.47.27
-! TimeUpdated: 2021-01-04T20:02:54+03:00
+! Version: 2.0.47.28
+! TimeUpdated: 2021-01-05T20:30:48+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10745,6 +10745,9 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+||lider-press.by/modules/mod_random_image_extended/
+lider-press.by##.custom > a[target="_blank"] > img
+lider-press.by##.custom > p > a[target="_blank"] > img[width="300"][height="250"]
 ||r.z1.fm/*.js
 ykt.ru##body > div[style^="position: relative; padding-bottom:"]
 ykt.ru##.n-most-banner-wrapper

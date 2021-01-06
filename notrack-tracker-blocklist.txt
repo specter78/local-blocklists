@@ -4,14 +4,13 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 03 Jan 2021
+#Updated: 05 Jan 2021
 #LatestVersion 20.12
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
 1000mercis.com #Numberly - Tracker
 1001-onlinewinacties.com #Unknown - Advertising
 1010data.com #1010data
-103bees.com #Unknown - Tracker
 105app.com #Unknown - Tracker
 10cms.com #Amplience
 123-tracker.com #Lead Forensics - Tracker
@@ -115,7 +114,6 @@ adcash.com
 adcashimg.xyz #Unknown - Advertising
 adcentriconline.com
 adclick.stuff.co.nz #Stuff
-adclk.co #Unknown - Advertising
 adcolony.com #AdColony Mobile Advertising
 adcolony.xyz #AdColony - Advertising
 addeluxe.jp
@@ -323,7 +321,6 @@ affinity.com #Adtech - Advertising
 affrh2022.com #RevenueHits
 afftrack.com #AffTrack
 afftrack.pro #Tracker - Unknown
-afh32lkjwe.net #Unknown - Advertising
 aftv-serving.bid #Bebi - Advertising
 agentanalytics.com #agentanalytics.com
 agil1.biz
@@ -335,7 +332,6 @@ agilone.com
 agilone.info
 agilone.us
 agkn.com #Neustar
-agm1.us
 ahalogy.com
 aimatch.com
 airpr.com #AirPR - Tracker
@@ -441,7 +437,7 @@ analytics.primorske.si #Primorske novice
 analytics.qiqiuyun.net #qiqiuyun.net - Tracker
 analytics.query.yahoo.com #Yahoo
 analytics.rodpub.com #rodpub.com - Tracker
-analytics.sapo.pt #Sapo
+analytics.sapo.pt #PT Telecomunicacoes - Tracker
 analytics.schoolwires.com
 analytics.sevenval-fit.com #sevenval-fit.com - Tracker
 analytics.slashdotmedia.com #Slash dot
@@ -470,7 +466,6 @@ anm.co.uk #Associated Newspapers Limited
 anrdoezrs.net
 ans.mlb.com #Major League Baseball
 answerscloud.com #Answers Cloud
-anuncios.sapo.pt #Sapo Adverts
 anyclip.com #AnyClip
 apester.com
 api.b2c.com #b2c
@@ -539,7 +534,7 @@ bam-x.com #Narrativ
 bannerflow.com #Bannerflow
 barra.iol.pt #IOL
 barranew.iol.pt #IOL
-bars.sapo.pt #PT Telecomunicacoes
+bars.sapo.pt #PT Telecomunicacoes - Tracker
 basebanner.com
 basis.net #Centro Tracker
 bat.bing.com
@@ -638,7 +633,6 @@ brightrollexchange.com #BrightRoll
 brightrollmarketplace.com #BrightRoll
 brightroulette.com #BrightRoll
 brilig.com
-broker.to
 brpx.com #Bright Pixel
 brpx.io #Bright Pixel
 brvideosummit.com #BrightRoll
@@ -646,7 +640,6 @@ brvs.com #BrightRoll
 brxvideosummit.com #BrightRoll
 bstats.org #bStats
 btrll.com #BrightRoll
-btrll.net #BrightRoll
 btrll.org #BrightRoll
 btserve.com #Blockthrough Advertising
 btstatic.com
@@ -751,7 +744,6 @@ clientsend.com #Campaign Monitor Pty
 clinch.co #Clinch - Tracker
 clixgalore.com #ClixGalore
 clixmetrix.com #ClixMetrix
-clk1013.com #RevenueHits
 clkads.com #RevenueHits
 clkbid.com #RevenueHits
 clkcln.com #RevenueHits
@@ -787,7 +779,6 @@ cmail7.com #Campaign Monitor Pty
 cmail8.com #Campaign Monitor Pty
 cmail9.com #Campaign Monitor Pty
 cmcore.com
-cmmeglobal.com
 cnt-tm-1.com #Lead Forensics - Tracker
 cntr-di5.com #Lead Forensics - Tracker
 cntr-di7.com #Lead Forensics - Tracker
@@ -800,6 +791,7 @@ collective-media.net #Collective
 collective.com
 collector.githubapp.com #Github
 comm100.com #Comm100
+commander1.com #CommandersAct - Tracker
 company-target.com #Demandbase
 compete.com
 comscore.biz #comScore
@@ -1040,7 +1032,6 @@ elabs15.com #Aurea - Advertising
 elabs16.com #Aurea - Advertising
 elabs2.com #Aurea - Advertising
 elabs3.com #Aurea - Advertising
-elabs4.com #Aurea - Advertising
 elabs5.com #Aurea - Advertising
 elabs6.com #Aurea - Advertising
 elabs7.com #Aurea - Advertising
@@ -1049,7 +1040,6 @@ elabs9.com #Aurea - Advertising
 elasticad.net #Smartkeeter
 elevationadvertising.com #Elevation Advertising
 elitechnology.com #Enne Solutions
-ellard.biz #Ad Web
 ellard.net #Ad Web
 eloq.fiducial.fr #Oracle - Tracker
 eloqua-tracking.unity3d.com #Oracle - Tracker
@@ -1270,6 +1260,7 @@ grapeshot.com #Oracle - Advertising
 grapeshotinc.com #Oracle - Advertising
 graphiq.com #Graphiq
 gravity.com
+greengrowth.space #Unknown Chinese - Tracker
 greystripe.com #Conversant
 grumft.com #Grumft
 grvcdn.com
@@ -1284,7 +1275,6 @@ gumgum.com
 guomob.com
 gw100-10.com #Lead Forensics - Tracker
 gwallet.com #RadiumOne
-gwallet.net #RadiumOne
 hackers.lv #Unknown - Tracker
 hanapinmarketing.com
 hand.bid #Handbid - Advertising
@@ -1299,7 +1289,6 @@ hellobar.com #Crazy Egg
 helloinsiders.com #HelloWorld
 helloworld.com #HelloWorld
 helloworldmail.com #HelloWorld
-herasawelsov.com #Unknown - Tracker
 hilltopads.net #HillTopAds
 himediads.com #Hi Media
 histats.com
@@ -1325,7 +1314,6 @@ hsms04.com #Hubspot - Tracker
 hsms06.com #Hubspot - Tracker
 hsms07.com #Hubspot - Tracker
 hsms08.com #Hubspot - Tracker
-hsms10.com #Hubspot - Tracker
 hsstatic.net
 httptrack.com #Unknown - Tracker
 hubapi.com #Hubspot - Tracker
@@ -1552,6 +1540,7 @@ lognormal.net
 logs.dashlane.com #Dashlane Password Manager
 logs.roku.com #Roku
 logsss.com #Unknown - Tracker
+longabeach.com #Unknown Chinese - Tracker
 loopme.me #Loopme - Advertising
 lp4.io #Linkpulse
 lpsnmedia.net
@@ -1608,7 +1597,6 @@ mcstats.org #Minecraft
 mcstats.spigotmc.org #Spigot
 mdotlabs.com #Viewability
 mdotm.com #MdotM
-measure.mf.cz #Mlada fronta
 measuread.com #MeasureAd Tracker
 medals.bizrate.com #TBC
 medi-8.net #Medi8
@@ -1653,7 +1641,6 @@ metric.ipv6test.com #Unknown - Tracker
 metric.ipv6test.net #Unknown - Tracker
 metrics.aftonbladet.se #Aftonbladet
 metrics.allrecipes.co.uk #Allrecipes.Co.Uk - Tracker
-metrics.argos.co.uk
 metrics.asos.com #Asos.Com - Tracker
 metrics.cbc.ca #CBC
 metrics.corus.ca #Iobit - Tracker
@@ -12622,7 +12609,6 @@ nanorep.com #NanoRep
 nativeads.com #Native Ads
 navrcholu.cz #Navrcholu
 ncaudienceexchange.com #News IQ - Tracker
-nearbyad.com #Rubicon
 nedstat.com #comScore
 nedstat.info #comScore
 nedstat.net #comScore
@@ -12703,7 +12689,7 @@ omgt5.com #Optimise
 omgt6.com #Optimise
 omgt8.com #Optimise
 omguk.com #Optimise
-omnitagjs.com
+omnitagjs.com #Adobe - Tracker
 omniture.com #Adobe - Tracker
 omtrdc.net #Adobe - Tracker
 onaudience.com #OnAudience
@@ -12733,6 +12719,7 @@ ontoplist.com
 ooyala.com
 opecloud.com #1PlusX
 open.oneplus.net #OnePlus
+openair.pw #Unknown Chinese - Tracker
 opencandy.com #OpenCandy
 opendsp.com #OpenDSP
 openstat.com #OpenStat
@@ -12803,6 +12790,7 @@ performgroup.com #Perform
 permission-research.com #TMRG
 permission-research.net #TMRG
 permissionresearch.com #TMRG
+permutive.app #Permutive - Tracker
 permutive.com #Permutive - Tracker
 persoo.cz #Persoo
 petametrics.com #Petametrics
@@ -12884,6 +12872,7 @@ prijspakkertjes.nl #Unknown - Advertising
 priority-static-api.nkstatic.com #NinjaKiwi
 privacy.aol.com #AOL - Advertising
 privatestats.whatsapp.net #Whatsapp - Tracker
+prmutv.co #Permutive - Tracker
 prnx.net
 pro-market.net
 prod-telemetry.paradox-interactive.com #Paradox-interactive.com - Tracker
@@ -12968,6 +12957,7 @@ r7ls.net #Impact Radius
 r867qq.net #Ad-center Advertising
 raasnet.com
 rad.live.com #Microsoft
+radiantsands.com #Unknown Chinese - Tracker
 radiumone.com #RadiumOne
 rampanel.com #Research and Analysis of Media - Tracker
 rat1.com #Unknown Chinese - Tracker
@@ -12985,6 +12975,7 @@ realtime-bid.com #RealtimeBid - Advertising
 realtime.email
 realytics.io #Realytics
 rebelmouse.com
+rebornads.com #Rebornads - Advertising
 rebrand.link #ClickMeter - Tracker
 rebrand.today #ClickMeter - Tracker
 rebrandly.com #ClickMeter - Tracker
@@ -14256,6 +14247,7 @@ stats.wp.com #Wordpress Tracker
 stats2.jobs.bg #Jobs.bg Tracker
 statsfe1.ws.microsoft.com #Microsoft
 statsfe2.ws.microsoft.com #Microsoft
+statsforads.com #Unknown - Advertising
 statsy.net #Unknown - Tracker
 statuscake.com #Traffic Cake
 steelhousemedia.com
@@ -14449,6 +14441,7 @@ trackonomics.net #Trackonomics - Tracker
 tradeadexchange.com
 tradedoubler.com
 tradefxads.com
+tradetracker.net #TradeTracker - Tracker
 traffic.jackpot247.com #Jackpot247
 traffic.ru
 trafficbee.com #Trafficbee
