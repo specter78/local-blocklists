@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 05 Jan 2021
+#Updated: 06 Jan 2021
 #LatestVersion 20.12
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -1659,6 +1659,10 @@ metrigo.com
 mfadsrvr.com #BidSwitch
 mgid.com #mgid
 micpn.com
+microad-cn.com #MicroAd - Advertising
+microad.co.jp #MicroAd - Advertising
+microad.jp #MicroAd - Advertising
+microad.net #MicroAd - Advertising
 midas-network.com #Midas Network
 midrollvideo.com #BrightRoll
 millennialmedia.com
@@ -12647,7 +12651,6 @@ nmp1.com #Email Vision
 nmp2.com #Email Vision
 nobeta.com.br #NoBeta
 nosto.com #Nosto
-notificationmessaging.com #Email Vision
 notifyvisitors.com #NotifyVisitors - Tracker
 nowinteract.com #Now Interact Tracker
 npario-inc.net #nPario
@@ -12796,7 +12799,6 @@ persoo.cz #Persoo
 petametrics.com #Petametrics
 pf.newegg.com #Newegg Tracker
 phluant.com #Phluant
-phluantmobile.net #Phluant
 phone.igexin.com #Igexin Spyware
 photorank.me #Olapic Tracker
 pictela.net #AOL - Advertising
@@ -12820,7 +12822,6 @@ pixel.honestjohn.co.uk
 pixel.ionos.com #Ionos - Tracker
 pixel.madadsmedia.com #Madadsmedia.Com - Tracker
 pixel.nymag.com #New York Magazine
-pixel.reddit.com
 pixel.redditmedia.com
 pixel.spotify.com #Spotify Tracker
 pixel.watch #ClickMeter - Tracker
@@ -12898,7 +12899,6 @@ ptengine.com #PTEngine
 ptmind.com #PTEngine
 pubexchange.com
 pubguru.com #Monetizemore - Tracker
-publicidade.jn.pt #Global Media Group
 publitas.com #Publitas - Tracker
 pubmatic.com #PubMatic
 pubmine.com
@@ -12937,7 +12937,6 @@ qingcdn.com #Unknown - Advertising
 qmerce.com
 qoe-1.yottaa.net #Yottaa - Tracker
 qservz.com
-qualityoffers.info #msales
 qualtrics.com
 quantcast.com #Quantcast
 quantcount.com #Quantcast
@@ -12987,7 +12986,6 @@ redstar.co.uk
 rees46.com #REES46
 reevoo.com
 refinedads.com
-regularimptracker.xyz #Unknown - Tracker
 relestar.com
 relevantknowledge.com #TMRG
 remarketingpixel.com #Remarketing Pixel
@@ -13028,7 +13026,6 @@ richmetrics.com #Burt Corp
 richrelevance.com
 rightmoveanalytics.co.uk #Rightmove Tracker
 rilelogicbuy.com #Unknown - Advertising
-ringringmedia.com #Amobee
 rivne.space #Unknown - Tracker
 rkdms.com #Merkle
 rlcdn.com
@@ -13050,26 +13047,13 @@ rm10.net #IBM Silverpop
 rng-snp-003.com #Lead Forensics - Tracker
 rockabox.co #Scoota
 roia.biz
-roost.me
 route.to
 routecdn.com
-royalada.com #Unknown - Advertising
 royapp.com #Roy App
 rqtrk.eu #Roq.ad
 rsvpgenius.com
-rtbc.info #AppNexus Inc
-rtbc.mobi #AppNexus Inc
-rtbc.us #AppNexus Inc
-rtbconnect.biz #AppNexus Inc
-rtbconnect.info #AppNexus Inc
-rtbconnect.mobi #AppNexus Inc
-rtbconnect.net #AppNexus Inc
-rtbconnect.org #AppNexus Inc
-rtbconnect.us #AppNexus Inc
 rtbidder.net
 rtbx.biz #AppNexus Inc
-rtbx.info #AppNexus Inc
-rtbx.us #AppNexus Inc
 rtmark.net #PropellerAds Advertising
 rts.mobula.sdk.duapps.com #DU Apps
 ru4.com
@@ -13094,7 +13078,6 @@ salecycle.com #SafeCycle
 salesforce.com #Salesforce
 salesmanago.pl #Sales Manago.pl
 samsungads.com #Samsung Advertising
-sanya1.com
 sas15k01.com #Lead Forensics - Tracker
 sascdn.com #Smart Ad Server
 saymedia.com
@@ -13118,7 +13101,6 @@ search123.com #BrainBox Digital
 searchlinks.com #PartnetLinks
 searchmarketing.com
 seat.it #Seat PG
-seatac15.com #Lead Forensics - Tracker
 secretmedia.com
 securedvisit.com #4cite
 securepaths.com #Forensiq
@@ -13155,9 +13137,7 @@ shoppingshadow.com #ebay
 shopwindow.com #Digital Window
 shore.uno #Shore
 shrfbdg004.com #Lead Forensics - Tracker
-sid-ads.com
 sidekickopen01.com #Hubspot - Tracker
-sidekickopen02.com #Hubspot - Tracker
 sidekickopen03.com #Hubspot - Tracker
 sidekickopen04.com #Hubspot - Tracker
 sidekickopen05.com #Hubspot - Tracker
@@ -13166,53 +13146,20 @@ sidekickopen07.com #Hubspot - Tracker
 sidekickopen08.com #Hubspot - Tracker
 sidekickopen09.com #Hubspot - Tracker
 sidekickopen10.com #Hubspot - Tracker
-sidekickopen11.com #Hubspot - Tracker
 sidekickopen12.com #Hubspot - Tracker
 sidekickopen13.com #Hubspot - Tracker
-sidekickopen14.com #Hubspot - Tracker
-sidekickopen15.com #Hubspot - Tracker
 sidekickopen16.com #Hubspot - Tracker
-sidekickopen17.com #Hubspot - Tracker
-sidekickopen18.com #Hubspot - Tracker
-sidekickopen19.com #Hubspot - Tracker
-sidekickopen20.com #Hubspot - Tracker
-sidekickopen21.com #Hubspot - Tracker
-sidekickopen22.com #Hubspot - Tracker
-sidekickopen23.com #Hubspot - Tracker
 sidekickopen24.com #Hubspot - Tracker
 sidekickopen25.com #Hubspot - Tracker
-sidekickopen26.com #Hubspot - Tracker
-sidekickopen27.com #Hubspot - Tracker
-sidekickopen28.com #Hubspot - Tracker
 sidekickopen29.com #Hubspot - Tracker
-sidekickopen30.com #Hubspot - Tracker
-sidekickopen31.com #Hubspot - Tracker
 sidekickopen32.com #Hubspot - Tracker
-sidekickopen33.com #Hubspot - Tracker
-sidekickopen34.com #Hubspot - Tracker
 sidekickopen35.com #Hubspot - Tracker
 sidekickopen36.com #Hubspot - Tracker
-sidekickopen37.com #Hubspot - Tracker
-sidekickopen38.com #Hubspot - Tracker
-sidekickopen39.com #Hubspot - Tracker
-sidekickopen40.com #Hubspot - Tracker
-sidekickopen51.com #Hubspot - Tracker
-sidekickopen52.com #Hubspot - Tracker
 sidekickopen53.com #Hubspot - Tracker
-sidekickopen54.com #Hubspot - Tracker
 sidekickopen55.com #Hubspot - Tracker
-sidekickopen56.com #Hubspot - Tracker
-sidekickopen57.com #Hubspot - Tracker
-sidekickopen58.com #Hubspot - Tracker
-sidekickopen59.com #Hubspot - Tracker
-sidekickopen60.com #Hubspot - Tracker
 sidekickopen61.com #Hubspot - Tracker
-sidekickopen62.com #Hubspot - Tracker
 sidekickopen63.com #Hubspot - Tracker
-sidekickopen64.com #Hubspot - Tracker
 sidekickopen65.com #Hubspot - Tracker
-sidekickopen66.com #Hubspot - Tracker
-sidekickopen67.com #Hubspot - Tracker
 sidekickopen68.com #Hubspot - Tracker
 sidekickopen69.com #Hubspot - Tracker
 sidekickopen70.com #Hubspot - Tracker
@@ -13222,15 +13169,10 @@ signaletre.com #Hubspot - Tracker
 signauxcinq.com #Hubspot - Tracker
 signauxdeux.com #Hubspot - Tracker
 signauxdix.com #Hubspot - Tracker
-signauxhuit.com #Hubspot - Tracker
 signauxsix.com #Hubspot - Tracker
 signauxtrois.com #Hubspot - Tracker
 signauxun.com #Hubspot - Tracker
 sigopn01.com #Hubspot - Tracker
-sigopn02.com #Hubspot - Tracker
-sigopn03.com #Hubspot - Tracker
-sigopn04.com #Hubspot - Tracker
-sigopn05.com #Hubspot - Tracker
 siliconanalytics.com #Silicon Analytics
 silktide.com #Silk Tide
 silverpop.com #IBM Silverpop

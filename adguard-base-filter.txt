@@ -1,8 +1,8 @@
-! Checksum: 82Go8WxFjsQpb4oMCBW1sQ
+! Checksum: kbJ9QyJI6N2EeQEJf2XOug
 ! Title: AdGuard Base filter
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.1.57.43
-! TimeUpdated: 2021-01-06T05:31:15+03:00
+! Version: 2.1.57.49
+! TimeUpdated: 2021-01-07T06:31:18+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,7 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||app-department.report^$document,popup
 ||saguvacu.xyz^
 ||adcryp.to^$third-party
 ||bitcointraffic.ltd^$third-party
@@ -3828,6 +3829,9 @@ kzclip.com,ru-clip.com,ruclip.com###morev
 !
 !
 !
+! https://forum.adguard.com/index.php?threads/25917/
+@@||myli3k.com/ad.sense/ad-m.js
+@@/\/\d{5,7}$/$domain=myli3k.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71513
 ||miraculousladybug.cf/abt.js
 miraculousladybug.cf###arlinablock
@@ -3855,8 +3859,8 @@ sayrodigital.com#%#//scriptlet("set-constant", "adsbygoogle.length", "undefined"
 @@||mylivesignature.com/js/adblocker.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70562
 memoryhackers.org#@#.ads-header
-memoryhackers.org#$#.ads-header { position: absolute!important; left: -3000px!important; width: 1px!important; height: 1px!important; }
-memoryhackers.org#%#//scriptlet("prevent-setTimeout", "/window\['\\x6c\\x6f\\x63\\x61\\x74\\x69\\x6f\\x6e'\]|var _0x|0x10/")
+memoryhackers.org#$#.ads-header { position: absolute!important; left: -3000px!important; width: 2500px!important; height: 280px!important; }
+memoryhackers.org#%#//scriptlet("prevent-setTimeout", "/window\['\\x6c\\x6f\\x63\\x61\\x74\\x69\\x6f\\x6e'\]|var _0x|0x1/")
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=memoryhackers.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70979
 @@||ctrlv.link/js/seo-ads.js
@@ -8525,7 +8529,6 @@ video-static.tunnl.com#%#window.canRunAds = true;
 @@||hdliveextra-a.akamaihd.net/HD/scripts/*/config/ads.js
 ! https://forum.adguard.com/index.php?threads/zmovs-com-pop-up-nsfw.25923/
 @@||zmovs.com/js/pop.js
-! https://forum.adguard.com/index.php?threads/mylink-st-anti-adblock.25917/
 ! https://forum.adguard.com/index.php?threads/bigspeeds-com-anti-ad-block.25908/
 @@||bigspeeds.com/ajax/advertisement.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65094
@@ -20912,6 +20915,8 @@ kissmanga.com,getpronews.com,akltu.com,shorten.sh,9xmovies.app,toonily.com,kimin
 !
 !
 !
+! https://forum.adguard.com/index.php?threads/25917/
+myli3k.com#%#//scriptlet("prevent-window-open")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71312
 moviesverse.in#%#//scriptlet("abort-current-inline-script", "document.createElement", "document?document:null")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71406
@@ -24982,6 +24987,7 @@ feetporno.com,familyporn.tv,freehardcore.com,webvoyeur.com,moviesand.com,momvids
 !
 !
 !
+myanimelist.net##div[style="padding:16px 0px 0px 0px;margin:14px 0px 0px 0px;"]:not([class]):not([id])
 calc-online.xyz##td[class="full-display"][style="vertical-align: top; width: 60%"]
 ||mediaelements.github.io/MediaElements/extrastuff.js$domain=miraculousladybug.cf
 gainbtc.click##.panel-heading > center > ins[style="display:inline-block;width:300px;height:250px;"]
@@ -27600,7 +27606,7 @@ owllink.net,cumple.xyz##center > a[href][target="_blank"]
 allsex.xxx##div[class^="block-"] > .table
 ||allsex.xxx/adv/
 ||zooredtube.com/zr*.js
-utorrent.com,mylink.st,windowscentral.com,ustvgo.tv##a[href^="https://go.nordvpn.net/"]
+utorrent.com,windowscentral.com,ustvgo.tv##a[href^="https://go.nordvpn.net/"]
 routinehub.co###advertisement
 nuvid.com##iframe#spot_video_livecams
 nuvid.com##iframe#spot_video_underplayer_livecams
@@ -41770,9 +41776,6 @@ sportstream365.com,justintvizletir.tv#%#Object.defineProperty(window, 'Blob', { 
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11222
 @@||coinhive.com/lib/coinhive.min.js$domain=xpau.se
-! CoinHive captcha
-@@||coinhive.com/lib/captcha.min.js$domain=mylink.st
-@@||coinhive.com/captcha/?goal=$domain=mylink.st
 !-------------------------------------------------------------------------------!
 !------------------ Content blocker rules -----------------------------------!
 !-------------------------------------------------------------------------------!
@@ -94584,6 +94587,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||feurl.com/asset/barr.js
 ||file-upload.net/include/img/300-
 ||finchannel.com/images/banners/
+||findagrave.com/get-ancestry-ads
 ||findit.com.mt/viewer/
 ||finextra.com/finextra-images/leaderboards/
 ||fishki.net/code?
@@ -94866,6 +94870,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 /^https?:\/\/.*.(club|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|flashx.tv|powvideo.net|powvldeo.me|videobin.co
 /^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|mixdrop.co|mixdrop.to|ovagames.com
 ||bustle.com^*/prebid-
+||dw.com/js/advertisement/
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
 ||minutemediaservices.com/mplayer_embed.html$third-party
 ||playbuzz.com/embed/$script,third-party
@@ -96943,6 +96948,7 @@ kanonitv.net##.code-block-2
 getdroidtips.com##.code-block-4
 getdroidtips.com##.code-block-8
 link-base.org##.col-lg-12
+tineye.com##.col-md-4.sidebar
 disqus.com##.col-promoted
 nycgo.com##.colBBox
 jamendo.com##.col_extra
@@ -98028,6 +98034,7 @@ windowsreport.com##div[data-insertion]
 engadget.com##div[data-nav-drawer-slide-panel] > aside[role="banner"]
 techspot.com##div[data-type="zadbl_downloads_single"]
 quora.com##div[id$="content_box"]
+buzzfeednews.com##div[id^="BF_ADX_"]
 sockshare.net##div[id^="MGWrap"]
 searchenginejournal.com##div[id^="SEJ_300x250_"]
 weather.com##div[id^="Taboola-main-"]
