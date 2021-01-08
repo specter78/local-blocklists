@@ -1,8 +1,8 @@
-! Checksum: tyeWW0ehFp+O+mG6DILjEw
+! Checksum: Qev3LjzvLLDohSo5zgyGWg
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.18
-! TimeUpdated: 2021-01-06T20:30:12+03:00
+! Version: 2.0.17.21
+! TimeUpdated: 2021-01-07T17:30:15+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1687,6 +1687,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/70505
+scmp.com#$##main-content > .home-page--slide-up { transform: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68853
 filmakinesi.com#$#.nav-mobile { top: 0 !important; }
 filmakinesi.com#$#.wrapper { padding-top: 64px !important; }
@@ -2231,6 +2233,8 @@ amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwel
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+theblockcrypto.com##body .sponsorFooter
+scmp.com##.section-content-bottom__ad-container
 web.de,gmx.*##.base-page__ad
 youmath.it###contenuto > #T[style="text-align: center;"]:empty
 hd21.com##.mercantile_title

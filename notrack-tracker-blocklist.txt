@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 06 Jan 2021
+#Updated: 07 Jan 2021
 #LatestVersion 20.12
 #---------------------
 1-cl0ud.com #Lead Forensics - Tracker
@@ -29,7 +29,6 @@
 247realmedia.com #AppNexus Inc
 247realmedia.org #AppNexus Inc
 254a.com #Yieldr
-296f6d066d2d677acb6808a4679e79638fc7a4db9d511f33a0c245d8.com #Appodeal - Tracker
 2nyan.org #Unknown - Tracker
 2o7.net #Adobe - Tracker
 2znp09oa.com #Unknown - Tracker
@@ -49,12 +48,10 @@
 65twenty.com #Unknown - Tracker
 778669.com #Unknown - Advertising
 7eer.net #Impact Radius
-8617ebae48a9676d9988f72e4f1f84f7e5681d28bfefb7fb34a6f2a4.com #Appodeal - Tracker
 8m5sew59gr.bid #Unknown - Advertising
 95095.com #Alibaba
 9nl.com #ClickMeter - Tracker
 9nl.org #ClickMeter - Tracker
-9qovcur0guk3.com #Unknown - Advertising
 a-mo.net #Unknown - Advertising
 a.mobify.com #Mobify - Advertising
 a1webstats.com #A1Webstats
@@ -111,7 +108,6 @@ adbutler-tachyon.com
 adbutter.net #Makazi Group
 adc-srv.net #ADC Media
 adcash.com
-adcashimg.xyz #Unknown - Advertising
 adcentriconline.com
 adclick.stuff.co.nz #Stuff
 adcolony.com #AdColony Mobile Advertising
@@ -381,6 +377,7 @@ analytics.cohesionapps.com #Cohesionapps
 analytics.convertlanguage.com #ConvertLanguage Tracker
 analytics.credible.com #Credible.com - Tracker
 analytics.directlinegroup.com #directlinegroup.com - Tracker
+analytics.dns-shop.ru #Dns-Shop.Ru - Tracker
 analytics.dominos.com #Dominos.Com - Tracker
 analytics.eip.telegraph.co.uk #Telegraph Tracker
 analytics.evehome.com #evehome.com - Tracker
@@ -428,12 +425,12 @@ analytics.mkini.xyz #Malaysiakini.com - Tracker
 analytics.mlstatic.com #MercadoLibre Tracker
 analytics.mobile.walmart.com #Walmart.Com - Tracker
 analytics.motionarray.com #Motionarray.com - Tracker
-analytics.nerdonthestreet.com #Nerdonthestreet.com - Tracker
 analytics.nike.com #Nike.Com - Tracker
 analytics.openelec.tv #Openelec - Tracker
 analytics.pinterest.com #pinterest.com - Tracker
 analytics.plex.tv #Plex
 analytics.primorske.si #Primorske novice
+analytics.prod.mybuddy.ai #Mybuddy.Ai - Tracker
 analytics.qiqiuyun.net #qiqiuyun.net - Tracker
 analytics.query.yahoo.com #Yahoo
 analytics.rodpub.com #rodpub.com - Tracker
@@ -1251,6 +1248,7 @@ gosquared.com #GoSquared
 gotraffic.net #Unknown - Tracker
 govmetric.com #GovMetric - Tracker
 gpwebsolutions.co.uk
+grafana.org #Grafana - Tracker
 granify.com #Granify
 grapeshot-apac.com #Oracle - Advertising
 grapeshot-emea.com #Oracle - Advertising
@@ -1346,9 +1344,7 @@ img-taboola.com #Taboola - Advertising
 imgclick.net
 imiclk.com
 imitrk1.com #Unknown - Tracker
-imitrk2.com #Unknown - Tracker
 imitrk3.com #Unknown - Tracker
-imitrk4.com #Unknown - Tracker
 imitrk5.com #Unknown - Tracker
 imonomy.com #Imonomy - Tracker
 impact-ad.com
@@ -1526,6 +1522,7 @@ log.olark.com #Olark
 log.pinterest.com #Pinterest
 log.quora.com #Quora
 log.spotify.com #Spotify Tracker
+log.strm.yandex.ru #Yandex.Ru - Tracker
 log.video.taobao.com #Taobao.Com - Tracker
 log.zoom.us #Zoom - Tracker
 logger.dailymotion.com #Dailymotion.Com - Tracker
@@ -1537,6 +1534,7 @@ loggly.net #Loggly
 loginradius.com #LoginRadius - Tracker
 logmatic.io #Logmatic
 lognormal.net
+logs.amap.com #Amap.Com - Tracker
 logs.dashlane.com #Dashlane Password Manager
 logs.roku.com #Roku
 logsss.com #Unknown - Tracker
@@ -13008,7 +13006,6 @@ revdepo.com #RevenueHits
 revealytics.com #Revealytics
 revenue-tracker.com #Unknown - Tracker
 revenue.com #World Media Group
-revenuehit.xyz #Unknown - Advertising
 revenuehits.com #RevenueHits
 revive.workmedia.pt #Work Media
 revjet.com #RevJet Advertising
@@ -13324,9 +13321,6 @@ smetrics.bmo.com #Adobe - Tracker
 smetrics.bnymellon.com #Adobe - Tracker
 smetrics.boehringer-ingelheim.cn #Adobe - Tracker
 smetrics.boehringer-ingelheim.com #Adobe - Tracker
-smetrics.boehringer-ingelheim.com.au #Adobe - Tracker
-smetrics.boehringer-ingelheim.com.hk #Adobe - Tracker
-smetrics.boehringer-ingelheim.com.tr #Adobe - Tracker
 smetrics.boehringer-ingelheim.de #Adobe - Tracker
 smetrics.boehringer-ingelheim.jp #Adobe - Tracker
 smetrics.boehringer-interactief.nl #Adobe - Tracker
@@ -13498,10 +13492,8 @@ smetrics.foxnews.com #Foxnews.com - Tracker
 smetrics.fpl.com #Adobe - Tracker
 smetrics.frontier.com #Adobe - Tracker
 smetrics.frontline.com #Adobe - Tracker
-smetrics.frontline.com.ar #Adobe - Tracker
 smetrics.frontline.com.br #Adobe - Tracker
 smetrics.frontline.com.cn #Adobe - Tracker
-smetrics.frontline.com.cy #Adobe - Tracker
 smetrics.frontline.de #Adobe - Tracker
 smetrics.frontline.fr #Adobe - Tracker
 smetrics.frontlinecanegatto.it #Adobe - Tracker
@@ -14098,8 +14090,6 @@ snoop.minecraft.net #Microsoft
 snorkletech.com #AppNexus Inc
 snt1.net #Sentori
 snt2.net #Sentori
-snt3.net #Sentori
-snta0034.com #Lead Forensics - Tracker
 socialhoney.co
 sociomantic.com
 socy.es #Brandcrumb
@@ -14172,7 +14162,6 @@ stats.l.doubleclick.net #Google
 stats.merriam-webster.com #Merriam Webster Tracker
 stats.newsweek.com #Newsweek.Com - Tracker
 stats.nextcloud.com #Nextcloud.Com - Tracker
-stats.olark.com #Olark
 stats.paypal.com #PayPal
 stats.qnapclub.eu #Qnapclub.Eu - Tracker
 stats.redditmedia.com #Reddit Tracker
@@ -14181,6 +14170,7 @@ stats.rs-online.com #RS - Tracker
 stats.ryzeo.com #Ryzeo - Tracker
 stats.searchanise.com #Searchanise.Com - Tracker
 stats.unity3d.com #Unity3d.Com - Tracker
+stats.uptimerobot.com #Uptimerobot.Com - Tracker
 stats.videodelivery.net #Cloudflare - Tracker
 stats.vk-portal.net #VK Tracker
 stats.wikimedia.org #Wikimedia.Org - Tracker
@@ -14220,7 +14210,6 @@ supersonicads.com #SupersonicAds Advertising
 survata.com #Survata Tracker
 survata.net
 survey-poll.com #ComScore
-surveybit.com #Campaign Monitor Pty
 surveybus.com #Campaign Monitor Pty
 surveyi.com #Surveyi
 surveyrocket.com #Campaign Monitor Pty
@@ -14267,7 +14256,6 @@ tekblue.net #Plan Blue - Tracker
 telemetry-dce.gfe.nvidia.com #Nvidia GeForce Experience - Tracking
 telemetry-experiment.cdn.mozilla.net #Mozilla
 telemetry-in.battle.net #Battle.net
-telemetry.allrecipes.com #Allrecipes.Com - Tracker
 telemetry.api.2kcoretech.online #2K Tracker
 telemetry.api.playstation.com #Playstation.Com - Tracker
 telemetry.api.swiftkey.com #Swiftkey
@@ -14296,7 +14284,6 @@ thebrighttag.com
 thehut.net
 themoneytizer.com #Moneytizer
 thepornsurvey.com #Polling
-theresulter.com #RevenueHits
 thescv.team #Unknown - Tracker
 thetacdn.net #Verizon
 thisisarray.com #Array Digital - Tracker
@@ -14314,14 +14301,12 @@ tkqlhce.com
 tl813.com
 tm-awx.com #Trinity Mirror Midland Group
 tm1-001.com #Lead Forensics - Tracker
-tmrginc.com #TMRG
 tnctrx.com #Team Internet AG
 tns-counter.ru
 tns-cs.net #Direkte
 toluna-analytics.com #Toluna Surveys
 topaz-analytics.com #Topaz Solutions
 topclickguru.com #Unknown - Advertising
-topfox.co.uk
 touchcommerce.com #Touch Commerce
 touchstoneresearch.com #Touchstone Research
 tqlkg.com
@@ -14329,32 +14314,26 @@ tqn.com
 track-mv.com #MultiView
 track.cpa.iqoption.com #IQOption
 track.dictionary.com #Dictionary.Com - Tracker
+track.easeus.com #Easeus.Com - Tracker
 track.flexlinkspro.com #Unknown - Tracker
 track.freecallinc.com #Freecallinc.Com - Tracker
 track.ft.com #Financial Times
 track.juno.com #Juno.com - Tracker
 track.ktplay.com #KTplay.com - Tracker
 track.lexico.com #Lexico Tracker
-track.mypcbackup.com #MyPCBackup
 track.news.bg #News.bg Tracker
 track.sublytics-5bb3bd7244788.com #Sublytics Tracker
 track.sublytics-5be5edecc10bf.com #Sublytics Tracker
-track.sublytics-5c4b49e17bf18.com #Sublytics Tracker
 track.sublytics-5c671946c725e.com #Sublytics Tracker
 track.sublytics-5caf966ded053.com #Sublytics Tracker
 track.sublytics-5cffe909e69e6.com #Sublytics Tracker
-track.sublytics-5d028ee628e1e.com #Sublytics Tracker
-track.sublytics-5d02a489ae8b0.com #Sublytics Tracker
 track.sublytics-5d24d6515d46a.com #Sublytics Tracker
-track.sublytics-5d49d796f001d.com #Sublytics Tracker
 track.sublytics-5d6fc61ecbaab.com #Sublytics Tracker
 track.sublytics-5d6fcf0a813fd.com #Sublytics Tracker
 track.sublytics-5dae180ba29aa.com #Sublytics Tracker
-track.sublytics-5db087d02a8b8.com #Sublytics Tracker
 track.sublytics-5db9e5dd1b2c2.com #Sublytics Tracker
 track.sublytics-5db9fa0b5700f.com #Sublytics Tracker
 track.sublytics-5df8eec4bca66.com #Sublytics Tracker
-track.sublytics-5f85c1cfb6a39.com #Sublytics - Tracker
 track.sublytics-5faedd0b88cec.com #Sublytics - Tracker
 track.sublytics-5fbd3e32d31c2.com #Sublytics - Tracker
 track.thesaurus.com #Thesaurus.Com - Tracker
@@ -14374,6 +14353,7 @@ tracking.intl.miui.com #Miui - Tracker
 tracking.lenzmx.com #Mobvista
 tracking.minitool.com #MiniTool - Tracker
 tracking.netdoktor.at #netdoktor.at - Tracker
+tracking.ott.yandex.net #Yandex.Net - Tracker
 tracking.resortsandlodges.com #Resortsandlodges.Com - Tracker
 tracking.sezzle.com #Sezzle.Com - Tracker
 tracking.volo-mobile.com #Volo
@@ -14386,7 +14366,6 @@ tradefxads.com
 tradetracker.net #TradeTracker - Tracker
 traffic.jackpot247.com #Jackpot247
 traffic.ru
-trafficbee.com #Trafficbee
 trafficbot.uk #TrafficBot
 trafficfabrik.com #TrafficFabrik
 trafficfactory.biz
@@ -14482,7 +14461,6 @@ userreport.com #User Report
 userzoom.com
 utarget.ru
 utndln.com #Ad-center Advertising
-uw-scout.com #Unknown - Advertising
 vacaneedasap.com #Unknown - Tracker
 valassisdigital.io #Valassis Digital
 vcmedia.vn
@@ -14498,21 +14476,17 @@ venturead.com
 veoxa.com
 vergic.com #Vergic
 vergic.net #Vergic
-vergic.org #Vergic
 verityresearchpanel.com #TMRG
 verityresearchpanel.net #TMRG
 vertamedia.com #Adtelligent
 verticalscope.com
-verticaltechmedia.de
 vertmarkets.com
 veruta.com
 vgwort.de
 viafoura.com
 viafoura.net #Viafoura
-viame-cdn.com #RadiumOne
 vicinity.media #Vicinity.media - Advertising
 videe.tv #Adtelligent
-videoad.cz #Grape Media
 videoadex.com
 videoamp.com #VideoAmp
 videohub.tv #VideoHub - Advertising
@@ -14562,7 +14536,6 @@ wearehearken.com #We are Hearken - Tracker
 web-01-gbl.com #Lead Forensics - Tracker
 web-metrica.yandex.ru #Yandex
 webads.eu #WebAds - Advertising
-webanalytics2.ovh.net #OVH
 webcollage.com #Webcollage
 webcollage.net #Webcollage
 webcontentassessor.com #Web Content Assessor - Tracker
@@ -14576,10 +14549,7 @@ webrankresearch.com #TMRG
 webrankresearch.net #TMRG
 webserviceaward.com #Web Service Award
 websiteperform.com
-webspectator.biz #WebSpectator
 webspectator.com #WebSpectator
-webspectator.info #WebSpectator
-webspectator.mobi #WebSpectator
 webstat.channel4.com #Channel4 - Tracker
 webstatsresearch.com #TMRG
 webstatsresearch.net #TMRG
@@ -14593,7 +14563,6 @@ webtrends.com #WebTrends
 webtrends.telegraph.co.uk #Telegraph
 webtrendslive.com #WebTrends
 wedgies.com #Polling
-wemedredmobmsmt.com #msales
 whoisvisiting.com
 widespace.com #Widespace Mobile Advertising
 wingify.com #Wingify
@@ -14661,7 +14630,6 @@ ywjxsp168.cn #Unknown - Advertising
 ywxi.net #PathDefender
 yygslb.com #Unknown - Advertising
 zanox.com #Zanox
-zanox.org #Zanox
 zbuckz.com
 zdbb.net #Ziff Davis
 zedo.com
@@ -14669,7 +14637,6 @@ zemanta.com
 zenaps.com #Digital Window
 zencdn.net #Brightcove
 zeotap.com #Zeotap - Tracker
-zepteo.com
 zeusclicks.com #Zeus Clicks
 ziffdavisinternational.com
 zkcdn.net
