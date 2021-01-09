@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: s+9cGRSMApT00w36FKUi5w
-! Version: 202101080541
+! Checksum: SG7R7EpWS5FIcGFhhF5LFg
+! Version: 202101090541
 ! Title: EasyList Italy
-! Last modified: 08 Jan 2021 05:41 UTC
+! Last modified: 09 Jan 2021 05:41 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -581,7 +581,7 @@ brocardi.it#@#.with-background-ads
 ||dodiblog.it/banner_diretti/
 ||dohop.com/widget/$third-party
 ||duke.it/images/banners/
-||dynamic.rcefoto.com^domain=juzaphoto.com
+||dynamic.rcefoto.com^$domain=juzaphoto.com
 ||dzt1km7tv28ex.cloudfront.net^
 ||easyvols.org^*/300x150/$third-party
 ||ediscom.it^*banner/
@@ -4699,7 +4699,7 @@ boingtv.it,eurogamer.it,foodnetwork.it,gioco.it##.mpu
 stellafm.it##.ms-slide-link
 affaritaliani.it##.mutui
 cb001.xyz##.mvic-btn
-,calcioatalanta.it,calciocasteddu.it,calciocremonese.it,calciofere.it,calciogrifo.it,calciohellas.it,calciolecce.it,calciorosanero.it,calciospezia.it,forzaparma.it,labaricalcio.it,qdmnotizie.it,siamolaroma.it,sololalazio.it,tifocosenza.it,trapanigranata.it##.mvp-wall-link
+calcioatalanta.it,calciocasteddu.it,calciocremonese.it,calciofere.it,calciogrifo.it,calciohellas.it,calciolecce.it,calciorosanero.it,calciospezia.it,forzaparma.it,labaricalcio.it,qdmnotizie.it,siamolaroma.it,sololalazio.it,tifocosenza.it,trapanigranata.it##.mvp-wall-link
 passioneorologio.it##.my_best-price-btn
 donnaclick.it##.myadv
 scuolissima.com##.nascondiads
@@ -5334,7 +5334,7 @@ msn.com##a[href^="https://www.awin1.com/"]
 @@||online-retail.unicredit.it/adv/$~third-party
 @@||repubblica.it/adimages/
 @@||services.brid.tv/player/build/plugins/adunit.js$domain=fidelityhouse.eu|laroma24.it
-@@||stats.betradar.com^subdocument,domain=sisal.it
+@@||stats.betradar.com^$subdocument,domain=sisal.it
 @@||synchrobox.adswizz.com/register2.php$script,domain=105.net|r101.it|radiomontecarlo.net|virginradio.it
 @@||terradidelizie.s3.amazonaws.com/banners/$image,domain=terradidelizie.it
 @@||ubibanca.com^*/ubi-adbanner.js
