@@ -1,8 +1,8 @@
-! Checksum: UouUIJXU8wQ3odC7BaYvdg
+! Checksum: O7bU/ybVKHBQXLzGNaHwtQ
 ! Title: AdGuard Base filter
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.1.57.76
-! TimeUpdated: 2021-01-09T07:31:14+03:00
+! Version: 2.1.57.80
+! TimeUpdated: 2021-01-10T02:31:16+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10453,7 +10453,9 @@ cointelegraph.com#?#.posts-listing__list > li.posts-listing__item:has(> div.post
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54629
 servedez.com#?##sp_right > .sp_block_section:has(> #sp_block_20 > .windowbg > .sp_block > a[href="https://nexusbytes.com"] > img)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54410
+!+ NOT_OPTIMIZED
 lifehacker.com,lifehacker-com.cdn.ampproject.org#?#article > div[class*=" "]:has(> div > p:contains(Advertisement))
+!+ NOT_OPTIMIZED
 lifehacker.com,lifehacker-com.cdn.ampproject.org#?#article > aside:has(> div > div > a[data-amazonsin])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54094
 shrtbtc.com#?#.content > center:not(:has(.btn-success))
@@ -25026,6 +25028,7 @@ feetporno.com,familyporn.tv,freehardcore.com,webvoyeur.com,moviesand.com,momvids
 !
 !
 !
+compressor.io##.adwrapp
 cartoonbrew.com##.cb-ad
 lolalytics.com###any
 lolalytics.com##div[class^="AdsGutter_"]
@@ -46626,7 +46629,6 @@ whathifi.com,smokingmeatforums.com,ecosia.org,myzyia.com,robotikforum.net,kinogo
 /floatingad.
 /FloatingAd_
 /floatingads.
-/floaty_rotator
 /flowplayer.ads.
 /flv-ad-
 /flvad_
@@ -94893,6 +94895,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||webdevforums.com/images/inmotion_banner.gif
 ||webhostingtalk.com/images/style/lw-header.png
 ||whoownsfacebook.com/images/topbanner.gif
+||wikihow.com/x/zscsucgm?
 ||windowsreport.com/rwIvq95hjpZa.js
 ||wlcr.org/banners/
 ||worldstadiums.com/world_stadiums/bugarrishoes/

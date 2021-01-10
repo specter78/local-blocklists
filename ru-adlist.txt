@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pOqlFH8ud9kXvp+73MD+Bg
-! Version: 202101090540
+! Checksum: JR8C6W78wjRzr5vKAdGgDQ
+! Version: 202101100540
 ! Title: RU AdList
-! Last modified: 09 Jan 2021 05:40 UTC
+! Last modified: 10 Jan 2021 05:40 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6949,6 +6949,7 @@ _tizers.
 ||jewnsk.pro^$third-party
 ||jfhoq.com^$third-party
 ||jfveak.com^
+||jhn-news1.club^$third-party
 ||jhvhbc.com^$third-party
 ||jin0cbonpi.ru^$third-party
 ||jincodiks.com^$third-party
@@ -8647,6 +8648,7 @@ _tizers.
 ||qgdzy.top^$third-party
 ||qhdlssvk.pro^$third-party
 ||qhiip.com^$third-party
+||qhnwj.com^$third-party
 ||qhvbq.com^$third-party
 ||qiklsv.com^$third-party
 ||qirnz.com^$third-party
@@ -8867,6 +8869,7 @@ _tizers.
 ||rndnam3.xyz^$third-party
 ||rne1uqtnnzz0.pro^$third-party
 ||rnet.plus^$third-party,domain=~passion.ru|~wmj.ru
+||rnldustal.com^$third-party
 ||rnnuw.com^$third-party
 ||roagz.us^$third-party
 ||robaduvulo.com^$third-party
@@ -9878,6 +9881,7 @@ _tizers.
 ||ucurtatus.com^$third-party
 ||uegbqw.ru^$third-party
 ||uektb.com^$third-party
+||ueopf.com^$third-party
 ||uezbshzpdcbb.info^$third-party
 ||ugadn39.ru^$third-party
 ||ughtedrab.ru^$third-party
@@ -12525,6 +12529,7 @@ dachnye-sovety.ru###widgetized-area
 1snau.ru###widgets .custom-html-widget
 tonkosti.ru###wikihead
 news14.wifiram.ru###win
+turbobi.pw###window-frame > #window-body
 vk.com#?##wk_content > #wl_post > div:-abp-has(.wall_marked_as_ads)
 tuningkod.ru###wlyeyyz
 leonkrevs.ucoz.ru###wmciframe
@@ -12806,7 +12811,7 @@ cmlt.ru##.an-pic-top-box
 pogodnik.com##.animate > .day-expectations
 creativportal.ru##.anime > script + div[id]
 youtube.com##.annotation.iv-promo
-freesoft.ru##.app__download__timer .yandex__title ~ div
+freesoft.ru##.app__download__timer div ~ div
 megamult.net##.apygame
 filmstart.ru##.art-nostyle
 filmstart.ru##.art-sidebar1
@@ -13004,7 +13009,7 @@ nr2.ru,russian-bazaar.com##.bann
 ubr.ua##.bann-cont
 ubr.ua##.bann-wrap
 kafa-info.com.ua##.bann_set
-112.ua,1plus1.international,1plus1.ua,1yar.tv,2mm.ru,2pricolisty.ru,46tv.ru,78.142.19.8,allcio.ru,altgazeta.ru,anadyr.org,apihost.ru,avoka.do,baltnews.ee,baltnews.lt,be-in.ru,bgoperator.ru,blizko.ru,budport.com.ua,carsweek.ru,champion.com.ua,chipfind.ru,chistosex.me,copyright.ru,dailycomm.ru,danilin.biz,delovoibiysk.ru,echo-oren.ru,echomsk.spb.ru,ecology.md,econo.com.ua,etver.ru,euro-football.ru,eva.ru,examen.ru,exler.ru,f1cd.ru,f1news.ru,factroom.ru,finobzor.ru,foodinnovation.ru,football.ua,forum.tiguans.ru,gamestar.ru,gooool.org,gorod55.ru,hen-tai.ru,hightech.fm,hostingkartinok.com,igry-man.net,iguides.ru,inosmi.ru,interfax.by,interior.ru,intermedia.ru,intex-press.by,it-weekly.ru,it-world.ru,joxi.ru,kherson.net.ua,kino-nada.net,kinoafisha.ua,kinoplex.ru,kinorom.com,klassnye-chasy.ru,kod.ru,kolesa.kz,korabel.ru,kritika24.ru,kulichki.net,kurs.com.ua,kyivpost.ua,l2top.ru,lentasporta.com,life.ru,ligasy.kz,live4fun.ru,livejournal.com,lookatme.ru,loveradio.ru,marker.ru,maximum.ru,medinfo.ua,mignews.com.ua,minus.lviv.ua,moviestape.net,moyareklama.ru,namba.kg,namba.kz,namba.tj,new.sib.fm,news.nashbryansk.ru,news.pn,newslab.ru,newsone.ua,odpublic.net,officepackage.info,oneprog.ru,online-mult.net,ontvtime.ru,opentorrent.ru,oper.ru,osvita.ua,penzadoctor.ru,peugeot-citroen.net,pleer.ru,pn.com.ua,politobzor.net,post-tracker.ru,ppc.world,pravo.ru,prm.ru,radiorecord.ru,relax-fm.ru,render911.ru,repost.uz,reverso.net,roem.ru,root.ua,rusfolder.com,russia.ru,rybalka.com,rzn.info,sakh.com,sakhalin.info,samara24.ru,sarnovosti.ru,savepic.ru,seodiz.ru,showgid.tv,skypefree.info,slon.ru,softkey.ru,sonikelf.ru,sopsport.org,sports.uz,stereo.ru,strana.ua,stranaru.ru,superomsk.ru,supersadovnik.ru,tele.click,teleg.run,teramult.org.ua,tet.tv,tochka.net,topwar.ru,tr.anidub.com,trademaster.ua,tsn.ua,tulapressa.ru,tumix.ru,turizm.ru,tvernews.ru,tvrain.ru,ukrlife.tv,ukrreal.info,val.ua,vce-besplatno.ru,vm.ru,vomske.ru,vprognoze.ru,vseprosport.ru,vsluh.net,warfiles.ru,weacom.ru,wildo.ru,www.goha.ru,www.ivi.ru,yk.kz,yourlink.in,yuginform.ru,yznal.ru,zanoza.kg,zvezdi.ru##.banner
+112.ua,1plus1.international,1plus1.ua,1yar.tv,2mm.ru,2pricolisty.ru,46tv.ru,78.142.19.8,allcio.ru,altgazeta.ru,anadyr.org,apihost.ru,avoka.do,baltnews.ee,baltnews.lt,be-in.ru,bgoperator.ru,blizko.ru,budport.com.ua,carsweek.ru,champion.com.ua,chipfind.ru,chistosex.me,copyright.ru,dailycomm.ru,danilin.biz,delovoibiysk.ru,echo-oren.ru,echomsk.spb.ru,ecology.md,econo.com.ua,etver.ru,euro-football.ru,eva.ru,examen.ru,exler.ru,f1cd.ru,f1news.ru,factroom.ru,finobzor.ru,foodinnovation.ru,football.ua,forum.tiguans.ru,gamestar.ru,gooool.org,gorod55.ru,hen-tai.ru,hightech.fm,hostingkartinok.com,igry-man.net,iguides.ru,inosmi.ru,interfax.by,interior.ru,intermedia.ru,intex-press.by,it-weekly.ru,it-world.ru,joxi.ru,kherson.net.ua,kino-nada.net,kinoafisha.ua,kinoplex.ru,kinorom.com,klassnye-chasy.ru,kod.ru,kolesa.kz,korabel.ru,kritika24.ru,kulichki.net,kurs.com.ua,kyivpost.ua,l2top.ru,lentasporta.com,life.ru,ligasy.kz,live4fun.ru,livejournal.com,lookatme.ru,loveradio.ru,marker.ru,maximum.ru,medinfo.ua,mignews.com.ua,minus.lviv.ua,moviestape.net,moyareklama.ru,namba.kg,namba.kz,namba.tj,new.sib.fm,news.nashbryansk.ru,news.pn,newslab.ru,newsone.ua,odpublic.net,officepackage.info,oneprog.ru,online-mult.net,ontvtime.ru,opentorrent.ru,oper.ru,osvita.ua,penzadoctor.ru,peugeot-citroen.net,pn.com.ua,politobzor.net,post-tracker.ru,ppc.world,pravo.ru,prm.ru,radiorecord.ru,relax-fm.ru,render911.ru,repost.uz,reverso.net,roem.ru,root.ua,rusfolder.com,russia.ru,rybalka.com,rzn.info,sakh.com,sakhalin.info,samara24.ru,sarnovosti.ru,savepic.ru,seodiz.ru,showgid.tv,skypefree.info,slon.ru,softkey.ru,sonikelf.ru,sopsport.org,sports.uz,stereo.ru,strana.ua,stranaru.ru,superomsk.ru,supersadovnik.ru,tele.click,teleg.run,teramult.org.ua,tet.tv,tochka.net,topwar.ru,tr.anidub.com,trademaster.ua,tsn.ua,tulapressa.ru,tumix.ru,turizm.ru,tvernews.ru,tvrain.ru,ukrlife.tv,ukrreal.info,val.ua,vce-besplatno.ru,vm.ru,vomske.ru,vprognoze.ru,vseprosport.ru,vsluh.net,warfiles.ru,weacom.ru,wildo.ru,www.goha.ru,www.ivi.ru,yk.kz,yourlink.in,yuginform.ru,yznal.ru,zanoza.kg,zvezdi.ru##.banner
 kod.ru##.banner + hr
 saratovnews.ru##.banner > noindex
 football.ua##.banner ~ .separator
@@ -13638,7 +13643,7 @@ vazhno.info##.da-h
 automoto.ua##.da-iframe
 beliyspisok.ru##.danabol
 stopgame.ru#?#.dark:-abp-has(> .section-heading:-abp-contains(/Не забудьте посмотреть|Смотрите еще/))
-govoritmoskva.ru##.darkPart > .connection ~ div[align="center"] > a[href][target="_blank"] > img
+govoritmoskva.ru##.darkPart > .connection ~ a[href][target="_blank"] > img
 darkwebs.ws##.darkrek
 obrkarta.ru##.data-banner > #brunch
 obrkarta.ru##.data-banner > #zarniza
@@ -13806,7 +13811,7 @@ radikal.ru##.footer a[href="/Misc/GetRules"] ~ *
 finam.ru##.footer-banner-block
 kino.video,tasix.me##.footer-container #blink7
 zaruba.fun##.footer-first-widgets-section
-ebalovo.pro,lenkino.net,lenkino.org##.footer-lb
+ebalovo.porn,ebalovo.pro,lenkino.net,lenkino.org##.footer-lb
 hitsovet.ru##.footer-one.fbox
 diets.ru##.footer-other-interesting
 megatyumen.ru##.footer-promo-block
@@ -14673,7 +14678,7 @@ oane.ws##.plaintext > noindex
 bigpicture.ru##.plashka
 bnkirov.ru##.plate-panel
 megacritic.ru#?#.platform-content:-abp-has(> .moduletable a[rel="sponsored"])
-ebalovo.pro,lenkino.net,lenkino.org##.player-lb
+ebalovo.porn,ebalovo.pro,lenkino.net,lenkino.org##.player-lb
 hdrezka.su,novinki-kino.net,smotra.net##.player22
 lideo.ru##.player_advert
 forshow.info##.player_notice
@@ -17722,7 +17727,7 @@ sinoptik.ua##div[style^="margin"][style$="width: 300px;"]
 rivne.media##div[style^="margin-bottom"] > a[href][onclick]
 smart-lab.ru##div[style^="min-height: 250px;"][style*="font-size: 0;"]
 liveposts.ru##div[style^="min-height: 700px;"]
-freesoft.ru##div[style^="padding-left:"] > a:not([href])[style*="cursor:"]
+freesoft.ru##div[style^="padding-left:"] > a[href="#"]
 1pnz.ru##div[style^="position: relative; width: 230px; height: 400px"]
 lostfilmstv.com##div[style^="promo"]
 e-reading.club##div[style^="width:"] > noindex
@@ -18673,7 +18678,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|kinohom
 /default/vbanners/$domain=noi.md
 /do/$domain=myzuka.club
 /engine/ad/*$domain=anistar.org|anistar.pro|anistar.world|anistar1.org|anistar10.org|anistar11.org|anistar12.org|anistar13.org|anistar2.org|anistar3.org|anistar4.org|anistar5.org|anistar6.org|anistar7.org|anistar8.org|anistar9.org|online-star.org|online-stars.org
-/files/js/ab.$script,xmlhttprequest,domain=ebalovo.pro|lenkino.net|lenkino.org
+/files/js/ab.$script,xmlhttprequest,domain=ebalovo.porn|ebalovo.pro|lenkino.net|lenkino.org
 /forum/images/*$object,domain=hvosty.ru|vsehvosty.ru
 /galya.ru/clients/places/*
 /gb.php?idb_=$domain=e-katalog.ru|ek.ua|m.ua
@@ -19558,6 +19563,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||fotokto.ru^*/m2/
 ||freakenergy.ru/imgpls/
 ||freealt.net/daos/
+||freep2p.info/vast/
 ||freezpic.ru/tpl/
 ||freezpic.ru^*/code.js
 ||fresher.ru/js/ajax-banner.js
@@ -20566,7 +20572,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||playvideolink.com/img/promo/
 ||playvideolink.com/partner?partner$subdocument
 ||playvideolink.com/player/
-||pleer.ru/pbann/
 ||pln-pskov.ru/roll/
 ||pn.com.ua^*/pnimages/banners/
 ||podfm.ru/content/promo/
@@ -21208,6 +21213,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||tulapressa.ru/partner/
 ||tumix.ru/*/banners/
 ||turbo.az/banners/
+||turbobi.pw/*/*/ybrowser/frame.png
 ||turbobit.net/opnauz/
 ||turbobit.net/pics/
 ||turbobit.net^*/brinpopup.js
@@ -24088,7 +24094,7 @@ pvpru.com#@##ad_global_above_footer
 newsland.com#@##ad_ph_1
 manshet.org#@##adcontent
 track24.ru#@##ads-1
-24tude.com,720video.me,bessporno.me,beszporno.tv,lenkino.net,lenkino.org,molll.mobi,pbembed.me,pornobomba.live,pornomoll.red,tolkorus.info#@##ads_iframe
+24tude.com,720video.me,bessporno.me,beszporno.tv,ebalovo.porn,ebalovo.pro,lenkino.net,lenkino.org,molll.mobi,pbembed.me,pornobomba.live,pornomoll.red,tolkorus.info#@##ads_iframe
 era-igr.ru#@##adsense2
 101.ru,motogp-news.ru#@##advert-1
 liga.net#@##bottomAd
@@ -24110,7 +24116,7 @@ green-way.com.ua#@#.adWrapper
 mail.ru,quantrum.me,revelationonlinedb.ru,seetv.tv,track24.ru,vg672plpaer.ru#@#.ad_text
 savevideo.me#@#.ads
 track24.ru#@#.ads-1
-24tude.com,720video.me,bessporno.me,beszporno.tv,lenkino.net,lenkino.org,molll.mobi,pbembed.me,pornobomba.live,pornomoll.red,tolkorus.info#@#.ads-iframe
+24tude.com,720video.me,bessporno.me,beszporno.tv,ebalovo.porn,ebalovo.pro,lenkino.net,lenkino.org,molll.mobi,pbembed.me,pornobomba.live,pornomoll.red,tolkorus.info#@#.ads-iframe
 videoredaktor.ru#@#.adsBlock
 anitokyo.tv,kosmos-x.net.ru#@#.adsBox
 mks.space#@#.ads_banner
@@ -24154,7 +24160,7 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,kinogo2.b
 @@/js/advert.js$~third-party
 @@/pagead2.$domain=50na50.net|aa1aa.xyz|akmaya.net|amxxmodx.ru|audiotag.info|axd.semestr.ru|bestradio.fm|d-mod.ru|discounts-online.info|draug.ru|elsyst.gnomio.com|ensage-forum.ru|file-upload.cc|forum.hitechnic31.ru|forvk.space|freefotohelp.ru|freeopenvpn.org|ghame.ru|gnatkovsky.com.ua|gta-gaming.ru|hosgeldi.com|izzylaif.com|kinotube.info|lb.ua|leninsw.info|math.semestr.ru|maxpark.com|minimalsy.xyz|most-dnepr.info|multoigri.ru|mysmsbox.ru|onlinemschool.com|pc-radio.ru|ph4.ru|primpogoda.ru|profatom.ru|pvpru.com|sinref.ru|sitecoder.blogspot.ru|slushat-tekst-pesni.ru|sovremennoepravo.ru|spec-komp.com|survarium.pro|temp-mail.org|testkrok.org.ua|tests24.ru|trialkeys.ru|tvfeed.in|vargr.ru|vimperor.ru|www.inoreader.com|zona-iptv.ru
 @@/pagead2.ads.js|$script,domain=remont-aud.net
-@@/player/player_ads.html$subdocument,domain=24tude.com|720video.me|bessporno.me|beszporno.tv|lenkino.net|lenkino.org|molll.mobi|pbembed.me|pornobomba.live|pornomoll.red|tolkorus.info
+@@/player/player_ads.html$subdocument,domain=24tude.com|720video.me|bessporno.me|beszporno.tv|ebalovo.porn|ebalovo.pro|lenkino.net|lenkino.org|molll.mobi|pbembed.me|pornobomba.live|pornomoll.red|tolkorus.info
 @@/popunder_$script,~third-party,domain=pic4you.ru|pic5you.ru
 @@|http://octomarket.com/j2/$script,domain=tapochek.net
 @@||1plus1.video/static/pubads.ad?_$xmlhttprequest,domain=1plus1.video

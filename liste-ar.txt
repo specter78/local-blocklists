@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: obm+Uny4AwJ2JFoOW/uVUg
-! Version: 202101090540
+! Checksum: S5Rptjul1z3rxXY1O99kNg
+! Version: 202101100540
 ! Title: Liste AR
 ! Expires: 2 days
 ! Description: القائمة العربية لمانع الشرائط الإعلانية آدبلوك بلس، مكمِّلة للقائمة الفرنسية و الإنجليزية
@@ -27,6 +27,8 @@
 -866x120.
 -866x120_
 -90x728.
+-ad-300x250-
+-ad-728x90-
 -delivery.js
 -e3lnat/
 -left-ads/
@@ -144,6 +146,7 @@
 /vb/*/bnr.gif
 /vb/open.js
 800x100.gif?
+://fbm.*/banners/
 ://go.*/afu.
 ://partners.*/widget/$third-party
 =openx&aid=
@@ -1634,6 +1637,7 @@ $popup,domain=aflamsexnek.com|aflamyz.com|anime2001.com|arabincest.com|cima4up.c
 ||mwadah.com/images/mwadahhost.swf
 ||myegy.*/files/img/content/6/85/1534966446.original.jpg
 ||mysite.ma/KHALID.js
+||mzabmedia.com/portal/sites/default/files/2020-04/sarayy.jpg
 ||nadorcity.com/docs/imaipub.gif
 ||nadorcity.com/docs/kitra3.jpg
 ||neswangy.net/chat/

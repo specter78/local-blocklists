@@ -1,8 +1,8 @@
-! Checksum: Qev3LjzvLLDohSo5zgyGWg
+! Checksum: fxSjms+MKb6ghkP4O7zo8A
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.21
-! TimeUpdated: 2021-01-07T17:30:15+03:00
+! Version: 2.0.17.22
+! TimeUpdated: 2021-01-09T23:30:12+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -667,7 +667,6 @@
 ||adtilt.com^
 ||adtrack.king.com^
 ||adultadworld.com^
-||adups.com^
 ||adv.mxmcdn.net^
 ||adversal.com^
 ||adverticum.net^
