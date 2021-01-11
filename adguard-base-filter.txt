@@ -1,8 +1,8 @@
-! Checksum: O7bU/ybVKHBQXLzGNaHwtQ
+! Checksum: R4t6lzlZUPm+t2Ieqcd/1Q
 ! Title: AdGuard Base filter
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.1.57.80
-! TimeUpdated: 2021-01-10T02:31:16+03:00
+! Version: 2.1.57.88
+! TimeUpdated: 2021-01-11T06:31:19+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,14 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+!+ NOT_OPTIMIZED
+||coccusadmanlob.com^
+!+ NOT_OPTIMIZED
+||leaderhistliness.info^
+!+ NOT_OPTIMIZED
+||resumersvo.fun^
+!+ NOT_OPTIMIZED
+||yiatelychur.top^
 ||blastcahs.com^
 ||deligrassdull.com^
 ||sitefeytout.com^
@@ -3284,11 +3292,12 @@ www.llllllllllll.net^$third-party
 ||ddvfoj5yrl2oi.cloudfront.net^
 ||concertads-configs.vox-cdn.com^
 ||ads.roku.com^
+!+ NOT_OPTIMIZED
 ||dc5k8fg5ioc8s.cloudfront.net^
 ||direct.apus.tech^$third-party
+!+ NOT_OPTIMIZED
 ||d1r90st78epsag.cloudfront.net^
 ||searchad-phinf.pstatic.net^$third-party
-||d1r90st78epsag.cloudfront.net^
 ||d31mxuhvwrofft.cloudfront.net^
 ||d3d52lhoy0sh2w.cloudfront.net^
 ||d2oa97wrxvxm7y.cloudfront.net^
@@ -25995,6 +26004,7 @@ gocomics.com##.gc-deck--is-ad
 ||youtube-video.download/bn.php
 ||youtube-video.download/y-vd.php
 ||livingtraditionally.com/wp-content/uploads/*/line2.jpg
+!+ NOT_OPTIMIZED
 shrinke.me,unishort.com##.expop
 movies07.co##.sidebar > ul > #custom_html-3
 timesofindia.indiatimes.com##div[style="min-height:250px; display:block!important"]
@@ -43032,9 +43042,11 @@ whathifi.com,smokingmeatforums.com,ecosia.org,myzyia.com,robotikforum.net,kinogo
 /ad/common_
 /ad/commons/*
 /ad/content/*
+/ad/count.
 /ad/cpmstar/*
 /ad/cross-
 /ad/css/*$domain=~cspace.com
+/ad/dfp/*
 /ad/directcall/*
 /ad/empty.
 /ad/extra/*
@@ -48302,6 +48314,7 @@ whathifi.com,smokingmeatforums.com,ecosia.org,myzyia.com,robotikforum.net,kinogo
 /services/ads/*
 /services/getbanner?
 /servlet/view/*
+/set_adcode?
 /settings/ad.
 /sevenads.
 /sevenl_ad.
@@ -50057,6 +50070,7 @@ _prx/ba_$script
 /prebid4.
 /prebid?
 /prebid_$script
+/prebidAdcall.
 /prebidlink/*
 /prebidtest.
 /prodprebidheader-
@@ -51353,6 +51367,7 @@ _popunder+$popup
 ###HomepageAd2
 ###HomepageAd3
 ###HomepageAdSpace
+###HometopAdOuter
 ###HorizontalAd
 ###HouseAd
 ###HouseAdInsert
@@ -52649,6 +52664,7 @@ _popunder+$popup
 ###adUn_1
 ###adUn_2
 ###adUn_3
+###adUnderArticle
 ###adUnit
 ###adValue
 ###adVcss
@@ -58349,6 +58365,8 @@ _popunder+$popup
 ###sideAd
 ###sideAd1
 ###sideAd2
+###sideAd3
+###sideAd4
 ###sideAdArea
 ###sideAdLarge
 ###sideAdSmall
@@ -59680,6 +59698,7 @@ _popunder+$popup
 ##.AmazonSimpleAdmin_widget
 ##.ArticleAd
 ##.ArticleInlineAd
+##.ArticleInnerAD
 ##.ArticleLayout-nativeAdLabel
 ##.ArticleLeaderboard_ad
 ##.ArticlePage-ad
@@ -65108,6 +65127,7 @@ _popunder+$popup
 ##.bigsponsor
 ##.billboard-ad
 ##.billboard-ads
+##.billboard.ad
 ##.billboard300x250
 ##.billboardAd
 ##.billboard__advert
@@ -69864,6 +69884,7 @@ _popunder+$popup
 ##.sideBySideAds
 ##.sideToSideAd
 ##.side_300_ad
+##.side__ad-box
 ##.side_ad
 ##.side_ad2
 ##.side_ad300
@@ -71467,6 +71488,7 @@ _popunder+$popup
 ##.widget_newscorpau_ads
 ##.widget_openxwpwidget
 ##.widget_plugrush_widget
+##.widget_pmc-ads-widget
 ##.widget_po_ads_widget
 ##.widget_postmedia_layouts_ad
 ##.widget_quads_ads_widget
@@ -87222,6 +87244,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||justrelevant.com^$third-party
 ||jwplayer.space^$third-party
 ||kaishist.top^$third-party
+||kaiu-marketing.com^$third-party
 ||kanoodle.com^$third-party
 ||kantarmedia.com^$third-party
 ||kargo.com^$third-party
@@ -94583,6 +94606,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cloudfront.net^*/sponsors/$domain=indycar.com|overwatchleague.com
 ||cnn.com/ad/
 ||cntr.lookmovie.io^
+||coincodex.com/o8po7iqs9guyte85/
 ||coincodex.com^*/poposition.php?
 ||collector.viki.io^
 ||constructionreviewonline.com^*banner
@@ -95796,6 +95820,8 @@ carsdir.com###AddCarBanner
 igcd.net,webcarstory.com###Ads
 search.snapdo.com###AfloatingD
 weegy.com###BannerDiv
+coincodex.com###CCx2Sticky
+coincodex.com###CCxStickyTop
 tweaktown.com###DesktopTop
 audioz.download###PromoHead
 daringfireball.net###SidebarMartini
@@ -96765,6 +96791,7 @@ smallseotools.com##.after_navbar
 surfwap.com##.ahblock2
 techporn.ph##.ai-track
 bizpacreview.com##.ai_widget
+coincodex.com##.align-items-center.d-none
 music-news.com,nintendolife.com##.amazon
 ttgmedia.com##.ao-creative-bg
 motor1.com##.ap
@@ -96917,6 +96944,7 @@ armenpress.am##.bnrcontainer
 southerntimesafrica.com##.body-header-banner
 cmo.com.au,interiordesign.net##.boombox
 etherscan.io##.border-top
+coincodex.com##.bottom
 pixxxels.cc##.bottom-a
 liligo.com##.bottom-banner
 livehdq.info##.bottom-bar
@@ -97003,11 +97031,12 @@ whatleaks.com##.clr > .banner2
 coinmarketcap.com##.cmc-native-ad-row
 bustedcoverage.com,coed.com,collegecandy.com##.cmg-ads-wrapper
 iotwreport.com,wuxiaworld.com##.code-block
-getdroidtips.com,kanonitv.net##.code-block-1
+geekspin.co,getdroidtips.com,kanonitv.net##.code-block-1
 getdroidtips.com##.code-block-13
 getdroidtips.com##.code-block-15
-kanonitv.net##.code-block-2
+geekspin.co,kanonitv.net##.code-block-2
 getdroidtips.com##.code-block-4
+geekspin.co##.code-block-7
 getdroidtips.com##.code-block-8
 link-base.org##.col-lg-12
 tineye.com##.col-md-4.sidebar
@@ -97294,7 +97323,6 @@ geekwire.com##.home_listing
 securitymattersmag.com##.homeart_marketpl_container
 mancunianmatters.co.uk##.homepage-leader
 inaruto.net##.honey-out
-xda-developers.com##.honor-spon-banner
 esecurityplanet.com##.horiz-banner
 lushstories.com##.horizhide
 tetris.com##.horizontalAx
@@ -97470,6 +97498,7 @@ searchenginejournal.com##.mh-90
 krebsonsecurity.com##.mid-banner
 investing.com##.midHeader
 edutourism.in##.middMain
+coincodex.com##.middle
 scanwith.com##.middle-banner
 tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
@@ -97509,6 +97538,7 @@ motorsport.com##.ms-ap
 motorsport.com##.ms-apb-dmpu
 motortrend.com##.mt-spotlight
 zerolives.com##.munder-fn5udnsn
+standardmedia.co.ke##.my-2
 google.com##.nH.MC
 mail.google.com##.nH.PS
 seura.fi##.nativead:not(.list)
@@ -97524,7 +97554,6 @@ cookingforengineers.com##.nothing
 nplusonemag.com##.nurble
 cheezburger.com##.nw-rail-min-250
 marineelectronics.com,marinetechnologynews.com,maritimeprofessional.com##.nwm-banner
-coincodex.com##.o8po7iqs9guyte85-l
 comicbook.com##.oas
 forums.somethingawful.com##.oma_pal
 mma-core.com##.outVidAd
@@ -97725,7 +97754,6 @@ tutorialrepublic.com##.sidebar
 radiotoday.co.uk##.sidebar-column-secondary > .sidebar
 freshbusinessthinking.com##.sidebar-mpu
 spearswms.com##.sidebar-mpu-1
-coincodex.com##.sidebar-skyscraper
 indianapublicmedia.org##.sidebar-upper-underwritings
 thebadandugly.com##.sidebar30
 celebritynetworth.com##.sidebarAvtBox
@@ -97800,9 +97828,7 @@ informer.com##.spnsd
 sundayworld.co.za##.spnsorhome
 worldtimezone.com##.spon-menu
 1130thetiger.com,1310news.com,2oceansvibe.com,abc22now.com,airlineroute.net,animepaper.net,ar15.com,austinist.com,bognor.co.uk,bostonstandard.co.uk,cd1025.com,chicagoist.com,chichester.co.uk,concordmonitor.com,dcist.com,dnsleaktest.com,domainincite.com,dramafever.com,eastbourneherald.co.uk,europages.co.uk,eurovision.tv,gamingcloud.com,gothamist.com,halifaxcourier.co.uk,hastingsobserver.co.uk,homelife.com.au,isearch.igive.com,itwebafrica.com,khak.com,kkyr.com,kosy790am.com,kpbs.org,kygl.com,laist.com,lcfc.com,lep.co.uk,limerickleader.ie,mix933fm.com,newrepublic.com,newsweek.com,nocamels.com,nouse.co.uk,phillyvoice.com,portsmouth.co.uk,power959.com,sfist.com,shieldsgazette.com,spaldingtoday.co.uk,speedcafe.com,westernjournal.com,wnd.com,wscountytimes.co.uk##.sponsor
-xda-developers.com##.sponsor-banner
 tekrevue.com##.sponsor-blurb
-xda-developers.com##.sponsor-dyn-banner
 diynetwork.com##.sponsor-lead
 techwire.net##.sponsor-logos
 yourclassical.org##.sponsor-main-top
@@ -97819,7 +97845,7 @@ washingtontimes.com##.sponsored-heading
 armageddonexpo.com,audiforums.com,ferrarichat.com,jaguarforums.com,thebugle.co.za,wbal.com##.sponsors
 seahawks.com##.sponsorship-bottom
 newswiretoday.com,przoom.com##.sponsortd
-alexandriagazette.com,arlingtonconnection.com,burkeconnection.com,centre-view.com,connection-sports.com,emporis.com,fairfaxconnection.com,fairfaxstationconnection.com,greatfallsconnection.com,herndonconnection.com,kusports.com,mcleanconnection.com,mountvernongazette.com,potomacalmanac.com,reston-connection.com,springfieldconnection.com,union-bulletin.com,viennaconnection.com##.spot
+alexandriagazette.com,arlingtonconnection.com,burkeconnection.com,centre-view.com,connection-sports.com,emporis.com,fairfaxconnection.com,fairfaxstationconnection.com,forum.xda-developers.com,greatfallsconnection.com,herndonconnection.com,kusports.com,mcleanconnection.com,mountvernongazette.com,potomacalmanac.com,reston-connection.com,springfieldconnection.com,union-bulletin.com,viennaconnection.com##.spot
 bizarrepedia.com##.spsnrd
 motorauthority.com##.sq-block
 nutritioninsight.com##.squarblk
@@ -99671,6 +99697,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||anandabazar.com/js/anandabazar-bootstrap/$script
 @@||api.friends.ponta.jp/api/$~third-party
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
+@@||asahicom.jp/ads/$image,script,stylesheet,domain=asahi.com
 @@||ascii.jp/img/ad/yayoi/rank_$image,~third-party
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||bancodevenezuela.com/imagenes/publicidad/$~third-party
