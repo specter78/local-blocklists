@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xMEZhFQ3+RI2vr7x7rIilg
-! Version: 202101110541
+! Checksum: I089bWcV8iGgG7Z5NUW9Cg
+! Version: 202101120541
 ! Title: EasyList Italy
-! Last modified: 11 Jan 2021 05:41 UTC
+! Last modified: 12 Jan 2021 05:41 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -4870,6 +4870,7 @@ archilovers.com##.spot-homepage
 mostraip.com##.spot1
 radiorcs.it##.spotaltosottomenutre
 radiorcs.it##.spotcentrato
+ebay.it##.srp-banner
 pmi.it##.sticky-banner
 sportytrader.it##.sticky-header_banner_first
 quattroruote.it##.sticky-sponsor
@@ -5286,7 +5287,10 @@ livornolive.it##rs-mask-wrap[style="width: 100% !important; height: 100% !import
 bloopers.it##table[name="banner.tbl"]
 ilcaso.it##td[style="border-left: 0px solid rgb(192, 192, 192); border-top-width: 1px; border-bottom-width: 1px;"]
 ! Advanced element hiding rules for Adblock Plus
+ebay.it#?#.s-item:-abp-has(span.s-item__title--tagblock__SPONSORED)
+iene.mediaset.it#?#.bx:-abp-has(div:-abp-contains(CONTENUTO SPONSORIZZATO))
 innaturale.com#?#.ruby-block-wrap:-abp-has(a:-abp-contains(SPONSORED))
+open.online#?#.news:-abp-has(div:-abp-contains(in collaborazione con ))
 tgcom24.mediaset.it#?#.right.es.large:-abp-has(span:-abp-contains(contenuto sponsorizzato))
 ! Site Specific filters (used with $generichide)
 msn.com##a[href^="https://marketing.net.occhiali24.it/"]

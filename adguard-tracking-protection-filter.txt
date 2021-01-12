@@ -1,8 +1,8 @@
-! Checksum: BzzWKA5iFgH59cTva/yKeQ
+! Checksum: a9lyGvZyYwnM2Gf5xAEE8w
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.72
-! TimeUpdated: 2021-01-10T21:31:20+03:00
+! Version: 2.0.19.78
+! TimeUpdated: 2021-01-11T22:31:22+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -214,6 +214,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||counter.daara.kr^$third-party
+||tr.line.me^
+||log22.makeshop.co.kr^$third-party
+||piclick.kr^$third-party
 ||log.perfecttitspics.com^
 ||analytics.mbga.jp^
 ||herald.loginside.co.kr^
@@ -6634,6 +6638,12 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||daumcdn.net/*/ba.min.js
+||laurenhi.com/app/Eclog/
+/lcslog*.js$domain=naver.com|playentry.org|modoo.at
+/clickcr*.js$domain=naver.com|modoo.at
+||ssl.pstatic.net/static.gn/js/clickcrD.js
+||paypal.com/xoplatform/logger/$domain=tapas.io
 ||api-router.kaspersky-labs.com/logger2^
 ||signal-collector.gemaltodigitalbankingidcloud.com^$script
 ||notepet.co.kr/js/sitelog.js
@@ -6666,7 +6676,6 @@ _tracking.php?b=
 ||nocutnews.co.kr/js/logger*.htm
 ||justswallows.com/lib/ajax/track.php
 ||science.ytn.co.kr/_comm/clog.php
-||help.naver.com/support/js/common/lcslog.js
 ||book.naver.com/monitor/cc
 ||vlive.tv/logging
 ||cc.naver.com/cc$image
@@ -6686,7 +6695,6 @@ _tracking.php?b=
 ||fapster.xxx/player/stats.php
 ||media.r18.com/track/$document,popup
 ||app.retargetapp.com/pixel/pixel.min.js
-||ssl.pstatic.net/static.gn/js/clickcrD.js
 ||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
 ||salesmanago.com/api/r.gif
 ||tubedupe.com/js/KernelTeam$script
@@ -7178,13 +7186,10 @@ continentseven.com##.gaoop
 ||map.naver.com/*/api/searchAddressById
 ||ca-fe.pstatic.net/web-mobile/static/web-crash-logger
 ||ca-fe.pstatic.net/web-mobile/static/naverStatLogger
-||cafe.naver.com/static/js/*/javascript/lcslog
 ||scv.band.us/jackpotlog/*/logs
-||comic.naver.com/aggregate/javascript/release/lcslog
 ||apis.naver.com/videostat/videostat/qoe
 ||s1.daumcdn.net/svc/original/U03/cssjs/userAgent
 ||tv.naver.com/resources/release/js_*/player*Logge
-||tv.naver.com/resources/release/js_*/clickcr
 ||ssl.pstatic.net/img.tvcast/pc/js/wcslog
 ||videostats.kakao.com/log^
 ||t1.daumcdn.net/language/cssjs/*/js/lib/userAgent
@@ -7838,7 +7843,6 @@ westnews.com.ua##a[href="http://www.bigmir.net/"]
 ||amazonaws.com/ki.js/
 ||dr.dk/drWebStat/
 ||playentry.org/js/analytics.js
-||playentry.org/js/lcslog.js
 ||dr.dk/mu-online/api/*/reporting/
 ||storeedgefd.dsx.mp.microsoft.com/*/oemdiscovery?
 ||playout.3qsdn.com/watchtime?event=
@@ -8628,6 +8632,10 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||ad-creative.projectcarmen.com^
+||analytics.projectcarmen.com^
+||monitoring-sdk.experimentation.intuit.com^
+||logging.api.intuit.com^
 ||analytics.prod.mybuddy.ai^
 ||logs.amap.com^
 ||edmanalytics.pandahall.com^
@@ -9080,6 +9088,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/71099
+@@||st.top100.ru/top100/top100.js$domain=m.gazeta.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71980
 @@||media.kaspersky.com/tracking/omniture/s_code_single_suite.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71941

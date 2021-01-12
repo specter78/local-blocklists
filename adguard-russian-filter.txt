@@ -1,8 +1,8 @@
-! Checksum: U1/YBM2e2T40xBY9Y6steA
+! Checksum: 43shxEvEpx8oUHD/vQacDQ
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.47.30
-! TimeUpdated: 2021-01-06T22:30:47+03:00
+! Version: 2.0.47.38
+! TimeUpdated: 2021-01-11T21:30:51+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6174,14 +6174,14 @@ sdamgia.ru#%#AG_abortOnPropertyRead('Ya.Direct');
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|liPkbtFdIkYqc|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|EMCzniGaQ|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|liPkbtFdIkYqc|computer/');
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|EMCzniGaQ|computer/');
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|liPkbtFdIkYqc|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|EMCzniGaQ|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|liPkbtFdIkYqc|computer/');
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|EMCzniGaQ|computer/');
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -6694,13 +6694,14 @@ argumenti.ru#?#.online_top > ul > li:has(> p > a[href^="https://news.mirtesen.ru
 coronavirus-monitor.ru#?#.entry-content > div[style]:has(> ins.adsbygoogle)
 coronavirus-monitor.ru#?#.entry-content > center:has(> div[style] > div.mk-ad-container)
 !
+igrypk.net#?#.vladik > span.nimmmmmm:contains(От партнеров)
+eg.ru#?#div[style].row:has(> div.columns > div.article_znamya)
 vc.ru#?#div[class="feed"][data-feed-more-url^="https://vc.ru/"] div.feed__item:has(> div.content-feed--promo)
 a.pr-cy.ru#?#.box-content > div.analysis-test__wrap:has(> a[href^="https://"][target="_blank"])
 rustxt.ru#?#body > div.container > div.row > div[class]:has(> ins.adsbygoogle)
 2ip.ru#?##content > div[class] a[href="https://krot.io"]:upward(1)
 new-rutor.org#?##content > div[style]:has(> div[id^="advplayer"])
 cryptoworld.su#?##widget-area > div.widget_container:has(> h4 > span:contains(Реклама))
-eg.ru#?#.page-wrapper > div.row:has(> div[class] center > div[id^="adfox_"])
 echo.msk.ru#?##mainsidebar > div.ad.iblock:not(:has(> a[href]))
 golospravdy.eu#?#div[id^="sidebar-widget-"] > div.widget_text:has(> h3.sidebar-header > span:contains(/Тема дня|РЕКЛАМА/i))
 tvtvtv.ru#?#table:has(> tbody > tr > td:contains(/Объявления|Реклама/))
@@ -10292,7 +10293,7 @@ http://*.ru/leftunit.pl?
 /baner_final.gif
 /baneru/*
 /bannar.jpg
-/banner.png$third-party
+/banner.png$third-party,domain=~github.com
 /banner.swf
 /banner/*.gif
 /banner/*.swf
@@ -10747,6 +10748,9 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+igrypk.net##a[href^="http://sub2.admitlead.ru/"]
+eg.ru##.article_znamya
+allcalc.ru##div[style="margin: 15px 0 20px 0; min-height:290px"]
 kinohru.ru###uyvm_preload
 ||lider-press.by/modules/mod_random_image_extended/
 lider-press.by##.custom > a[target="_blank"] > img
@@ -10758,6 +10762,7 @@ ykt.ru###topbanner
 ykt.ru##.n-banner
 womanvip.ru##center[style] > a[target="_blank"] > img
 womanvip.ru##.flat_pm_3_out
+golyefoto.site##.widget_custom_html
 /^https?:\/\/(?!image\.)[a-z0-9]{0,6}\.fhserv\.ru/$domain=fishingsib.ru
 ||erolub.com/js95ad/
 ||ero-top.info/uploads/banner*.jpg
@@ -11060,6 +11065,7 @@ app2top.ru##.backgroundmain
 ||look-sport.org^$domain=ok-tv.org|super-tv.net
 ok-tv.org,super-tv.net##iframe[src^="http://look-sport.org/"]
 tolknews.ru##.b-partners
+rusplt.ru##.b-partners-integration
 ipb-board.ru##li[data-blockid^="plugin_197"]
 ||playep.pro/pl/vendor/vast.min.js
 ||playep.pro/pl/vendor/vpaid2.min.js
@@ -14107,7 +14113,7 @@ megatrest.ru##.bpartn
 portableappz.ru##.bpartners
 vgolos.com.ua##.bplace
 torrent-games.net##.brabra
-idwl.cn,iwantgames.ru,kinorezka.com##.brand
+igrypk.net,idwl.cn,iwantgames.ru,kinorezka.com##.brand
 sovetromantica.com##.brand--href
 bnkirov.ru##.brand-bg
 gamegpu.com##.brand-block
@@ -16548,7 +16554,7 @@ newsru.com##div[align="center"] > div[style*="width: 328px;"]
 land-cruiser.ru##div[align="center"] > div[style*="width: 730px;"]
 kinozadrot.club##div[align="center"] > img[width="520"]
 balakhna.ru##div[align="center"] > marquee[direction="left"]
-igrigo.net##div[align="center"] > noindex
+igrypk.net,igrigo.net##div[align="center"] > noindex
 adult-images.ru##div[align="center"] > table[width="150"]
 adult-images.ru##div[align="center"] > table[width="962"]
 dlltop.ru##div[align="center"] a[target="_blank"] > img
@@ -17903,7 +17909,7 @@ www.ex.ua/*/index.css
 ||bombato.net/teasernet/
 ||booking.com/searchbox.html$domain=awd.ru
 ||bookmix.ru/images/branding/
-||bp.blogspot.com^$image,domain=shpargalkablog.ru
+||bp.blogspot.com^$image,domain=shpargalkablog.ru|golyefoto.site
 ||brandings.kanobu.ru^
 ||bravopornru.com/player/html.php?aid=
 ||bravopornru.com/v/if*/*.html
@@ -20490,13 +20496,13 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-cogtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-cogtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-cogtent div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-cogtent div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-cogtent div.review-contents + [class]
-otzovik.com##.produkt-cogtent div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-cogtent div.review-contents > div.review-body > div[id]
+otzovik.com##.produkt-coytent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-coytent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-coytent div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-coytent div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-coytent div.review-contents + [class]
+otzovik.com##.produkt-coytent div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-coytent div.review-contents > div.review-body > div[id]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
@@ -20745,6 +20751,8 @@ auto.ru##.PageIndex > .Index > .Index__block > :not(div) > :not(div)
 auto.ru##.ListingCars-module__list > :not(.ListingItem-module__container)
 auto.ru##.LayoutSidebar__content > div[class$="_container"] > h1 + div[class$="_container"] > div[class$="__line_3"] > div[class$="__line_3_right"] > *:not(div):not(span)
 auto.ru##.Journal__content > :not(a.Link)
+auto.ru##.LayoutSidebar > div:not(.LayoutSidebar__content) > div[class] > *:not(div):not(span)
+auto.ru##.LayoutSidebar__content > div[class$="_container"] > *:not(div):not(span):not(h1)
 !
 ! END: Auto.ru
 !
@@ -20950,6 +20958,7 @@ health.24tv.ua##.adv-news-within
 !
 ! Start: vc.ru, dtf.ru, tjournal.ru, spark.ru
 vc.ru##.vk-results-of-the-year
+vc.ru##a[class^="vc-results-of-the-year"]
 dtf.ru,tjournal.ru##.vk-express
 dtf.ru,tjournal.ru##div[air-module="module.boosterPromo"]
 dtf.ru##.ya-profi-quiz
