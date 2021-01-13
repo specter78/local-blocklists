@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202101120515
+! Version: 202101130441
 ! Title: Fanboy's Annoyance List
-! Last modified: 12 Jan 2021 05:15 UTC
+! Last modified: 13 Jan 2021 04:41 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -26694,6 +26694,7 @@ _site_cookie_
 ###leycookies
 ###leydecookies
 ###lf_cookie_msg
+###lgpd-wrapper
 ###lh-consent-dialog
 ###light_cookies_bar
 ###lineCookieInfo
@@ -42258,7 +42259,7 @@ truecaller.com##span > .max-w-md.shadow-lg
 web.dev##web-snackbar
 ! mobile.twitter.com
 mobile.twitter.com###react-root > div > div > .rn-gvpnoh
-twitter.comtwitter.com##.r-13qz1uu.r-1w50u8q
+twitter.com##.r-13qz1uu.r-1w50u8q
 mobile.twitter.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
 ! Custom Filters
 play.google.com##.gb_g:has-text(cookie)

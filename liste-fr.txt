@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 8/+JeC4BiCLiMUKG9B9Adg
-! Version: 202101120532
+! Checksum: 9mkbEXNVYmtMnBfKz33wRQ
+! Version: 202101130542
 ! Title: Liste FR
 ! Expires: 1 days
 ! Description: Filtres publicitaires francophones complémentaires à EasyList
@@ -12010,7 +12010,8 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||flashkof.fr/flash/partenaires.swf
 ||flashmatin.fr/pub/
 ||flashresultats.fr^*/image/banner/
-||flaticon.com/banner2/
+||flaticon.com/banner
+||flaticon.com/edge/banner
 ||flux.liberation.fr/fnac/
 ||flv-tool.pornravage.com^
 ||fm93.com/images/publiereportage/
@@ -13121,6 +13122,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||sosvirus.net/wp-content/uploads/*336x*.png
 ||soundlightup.com/wp-content/uploads/pub/
 ||souqsky.net/glx_
+||sourdline.com/banniere/
 ||sous-la-mer.com/javascripts/sunder.min.js
 ||sp.nasdaq.com^
 ||speedgame.fr/pub/
@@ -17442,7 +17444,7 @@ turfomania.fr##.ad1
 vinyculture.com##.ad2
 lastminute.com,t-algerie.com##.adContainer
 fusac.fr##.adblock
-msn.com##.adcontainer
+msn.com,sourds.net##.adcontainer
 reverso.net##.adcontent
 gmx.fr,lebonguide.com,online-image-editor.com##.add
 allostreaming-fr.com##.addInfos + a
