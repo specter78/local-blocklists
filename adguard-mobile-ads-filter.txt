@@ -1,8 +1,8 @@
-! Checksum: PB/xKMy8zNCVda/y7kF5xA
+! Checksum: uQpCwReFrWhBLVccRTKxeQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.25
-! TimeUpdated: 2021-01-12T19:12:25+03:00
+! Version: 2.0.17.30
+! TimeUpdated: 2021-01-13T23:30:14+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2236,6 +2236,7 @@ amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwel
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+mirtesen.ru##.footer-ad-block
 gadgetsnow.com##.dfp[data-type="atf"]
 gadgetsnow.com##iframe[src^="https://timesofindia.indiatimes.com/affiliate_new.cms?"]
 gadgetsnow.com##amp-iframe[src^="https://timesofindia.indiatimes.com/affiliate_new.cms?"]
@@ -2257,6 +2258,8 @@ detik.com##.footer_banner
 in.news.yahoo.com###sda-WFPAD
 ||xxxadd.com/js/hrqst.js
 hdpornfree.xxx##.block-mobile
+korrespondent.net##amp-embed[style^="height: 350px;"]
+korrespondent.net##amp-iframe[style^="height: 275px;"]
 irecommend.ru##.adfox_block
 sammobile.com##body > header.navbar-fixed-top + div.container-fluid
 kztarif.ru##.stadck-content
@@ -2685,7 +2688,7 @@ finance.yahoo.com##.ys-mobileFeaturedAd
 dailywire.com##div[style^="width: 320px; height: 50px;"]
 it-here.ru##.pum-overlay
 mobile.donanimhaber.com##div[style="width: 100%; float: left; position: relative; height: auto; text-align: center;"]
-gadgets.ndtv.com##._ad._gry-bg
+gadgets.ndtv.com##._ad
 gadgets.ndtv.com##amp-script.i-amphtml-hydrated[style="height: 1px;"]
 futurezone.de##.admarker + amp-fx-flying-carpet
 google.de,spiegel.de,www-spiegel-de.cdn.ampproject.org##amp-fx-flying-carpet[height="300px"][style*="height:"][style*="300px;"]
@@ -3030,7 +3033,7 @@ banazguncelhaber.com##.mobil_advert
 milliyetemlak.com##a[href][target="_blank"].sno-itunes.external > img
 pdalife.ru##.js-banner
 anifresh.com###minpack-sticker-frame
-stockingfetishvideo.com##.happy-header-mobile
+gaytail.com,stockingfetishvideo.com##.happy-header-mobile
 www-news18-com.cdn.ampproject.org,eurogamer.net,mumsnet.com,news18.com,amp.indiatimes.com,dronedj.com,bodybuilding.com,transfermarkt.de,mobil.stern.de##.ad-container
 jianshu.com##.dt-open-bg[data-scene="leftBtn"]
 jianshu.com##.note-comment-above-ad-wrap

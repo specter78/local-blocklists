@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3WZ7viQDNi4DiLT5GL5H1w
-! Version: 202101130551
+! Checksum: fle1Hgmnt2wNcUWynHU1rg
+! Version: 202101140551
 ! Title: EasyList Italy
-! Last modified: 13 Jan 2021 05:51 UTC
+! Last modified: 14 Jan 2021 05:51 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -739,6 +739,7 @@ brocardi.it#@#.with-background-ads
 ||adserver.incontrierotici.it^$popup
 ||bet365-scommesse.com/?affiliate=$popup,third-party
 ||betclic.it/partner.aspx?$popup
+||campaign.aliexpress.com^$popup,domain=tantifilm.pink
 ||edreams.it/?affiliate=$popup
 ||eurostreaming.cam^$popup,third-party
 ||incontripersesso.com/landing/$popup
@@ -3749,7 +3750,7 @@ $webrtc,domain=hentaisaturn.com|leggenditalia.com|leggenditaloi.com
 ! about:blank popups
 /about:blank.*/$popup,domain=casacinema.work|guardaserie.biz|guardaserie.cam|ilgeniodellostreaming.cam|leggenditaloi.com
 ! html/image popups
-/^https?:\/\/.*\.(jpg|png|html|svg|ico)/$popup,domain=altadefinizione01.store|cineblog01.bid|cinefun.co|eurostreaming.movie|eurostreaming.vision|filmpertutti.lol|filmpertutti.voto|filmsenzalimiti.li|guardaserie.fashion|ilgeniodellostreaming.dance|ilgeniodellostreaming.tel
+/^https?:\/\/.*\.(jpg|png|html|svg|ico)/$popup,domain=altadefinizione01.store|cineblog01.bid|cinefun.co|eurostreaming.movie|eurostreaming.vision|filmpertutti.lol|filmpertutti.voto|filmsenzalimiti.li|guardaserie.fashion|ilgeniodellostreaming.dance|ilgeniodellostreaming.tel|tantifilm.pink
 ! javascript popups
 |javascript^$popup,domain=eurostreaming.camp
 !--------------Regole specifiche per le pubblicità da nascondere--------------!
