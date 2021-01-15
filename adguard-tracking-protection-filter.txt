@@ -1,8 +1,8 @@
-! Checksum: zKIv1oVqf2/gUEvkT1eC1Q
+! Checksum: P3oxJCJ2zKnlVORDyBNIMw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.86
-! TimeUpdated: 2021-01-13T19:31:38+03:00
+! Version: 2.0.19.92
+! TimeUpdated: 2021-01-14T22:31:29+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -216,6 +216,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||livetracker.rfe.pangea-cms.com^
+||trackerhqu.com^$third-party
+||rum*.cdnvideo.ru^
+||rum*.a.trbcdn.net^
+||kiynew.com^$third-party
 ||tracker.metricool.com^$third-party
 ||stats.myangular.life^
 ||counter.daara.kr^$third-party
@@ -228,6 +233,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||110.93.143.144^$third-party
 ||log002.commutil.kr^
 ||analy1.dtnnetwork.be^$third-party
+||cerdmann.com^$third-party
 ||polarbyte.com^$third-party
 ||revcatch.com^$third-party
 ||revprotect.com^$third-party
@@ -4671,6 +4677,10 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||analytics.move.ru^
+||telegraf.detmir-stats.ru^
+||track.tproger.ru^
+||stats.travelask.ru^
 ||x.babe.today^
 ||prod-collector.bigbasket.com^
 ||tracking.game8.jp^
@@ -8640,6 +8650,8 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||tracking-receiver.prod-general.stocard-backend.com^
+||metrics.happycolor.app^
 ||digianalytics.airtel.in^
 ||ad-creative.projectcarmen.com^
 ||analytics.projectcarmen.com^
@@ -9097,6 +9109,11 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/71370
+@@||d2.alternativeto.net/dist/*/piwik_*.png
+! https://github.com/AdguardTeam/AdguardFilters/issues/71401
+@@||mc.yandex.ru/watch/$xmlhttprequest,domain=mtstv.mts.ru
+@@||mc.yandex.ru/metrika/tag.js$domain=mtstv.mts.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72131
 @@||mc.yandex.ru/metrika/watch.js$domain=stylenews.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71786
@@ -9767,8 +9784,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||cdn-gl.imrworldwide.com/conf/*.js#name=nlsnInstance$domain=joyn.de
 @@||cdn-gl.imrworldwide.com/novms/js/*/nlsSDK*.eu.bundle.min.js$domain=joyn.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/40366
-@@||marketo.com/js/forms$domain=pages.addigy.com
-@@||marketo.com/index.php/form/$domain=pages.addigy.com
 @@||templates.marketo.net/template*/$script,stylesheet,domain=pages.addigy.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/40034#issuecomment-530061406
 @@||bestbuy.com/*/vendor/analytics*/dist/analyticsQ.bundle.js
@@ -9925,8 +9940,8 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33135
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31097
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42985
-@@||marketo.com/js/forms$domain=box.com|inthecloud.withgoogle.com|coursera.org|cloudflare.com|rocketsoftware.com|sherweb.com|kaspersky.com|workspace.circuitmaker.com|collab.net
-@@||marketo.com/index.php/form/$domain=box.com|inthecloud.withgoogle.com|coursera.org|cloudflare.com|rocketsoftware.com|sherweb.com|kaspersky.com|workspace.circuitmaker.com|collab.net
+@@||marketo.com/js/forms$script,stylesheet
+@@||marketo.com/index.php/form/
 ! https://forum.adguard.com/index.php?threads/31245/
 @@||ssl.google-analytics.com/ga.js$domain=gmail.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30981
