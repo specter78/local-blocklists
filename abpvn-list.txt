@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 13 Jan 2021 20:49 UTC+7
+# Updated: 15 Jan 2021 22:04 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -2168,6 +2168,9 @@
 0.0.0.0 astore.amazon.com
 0.0.0.0 device-metrics-us-2.amazon.com
 0.0.0.0 device-metrics-us.amazon.com
+0.0.0.0 fls-cn.amazon.com
+0.0.0.0 fls-eu.amazon.com
+0.0.0.0 fls-fe.amazon.com
 0.0.0.0 fls-na.amazon.com
 0.0.0.0 mads-eu.amazon.com
 0.0.0.0 mads.amazon.com
@@ -7545,6 +7548,7 @@
 0.0.0.0 landing.useinsider.com
 0.0.0.0 location.api.useinsider.com
 0.0.0.0 log.api.useinsider.com
+0.0.0.0 mediamartvn.api.useinsider.com
 0.0.0.0 mobile.useinsider.com
 0.0.0.0 mobileanalytics.useinsider.com
 0.0.0.0 parter.api.useinsider.com
@@ -7553,6 +7557,7 @@
 0.0.0.0 thegioididongvn.api.useinsider.com
 0.0.0.0 unification.useinsider.com
 0.0.0.0 useinsider.com
+0.0.0.0 viettelstorevn.api.useinsider.com
 0.0.0.0 weather.api.useinsider.com
 0.0.0.0 www.useinsider.com
 #[juicyads.com]
@@ -15463,6 +15468,55 @@
 0.0.0.0 o.bluekai.com
 0.0.0.0 stags.bluekai.com
 0.0.0.0 tags.bluekai.com
+#[beeketing.com]
+0.0.0.0 beeketing.com
+0.0.0.0 gapi.beeketing.com
+0.0.0.0 m.beeketing.com
+0.0.0.0 sdk.beeketing.com
+0.0.0.0 stag.beeketing.com
+0.0.0.0 track.beeketing.com
+#[webengage.com]
+0.0.0.0 afiles.webengage.com
+0.0.0.0 api.webengage.com
+0.0.0.0 c.webengage.com
+0.0.0.0 cdn.beeketing.com
+0.0.0.0 msdk-files.webengage.com
+0.0.0.0 notification.webengage.com
+0.0.0.0 p.webengage.com
+0.0.0.0 ssl.widgets.webengage.com
+0.0.0.0 webengage.com
+0.0.0.0 wsdk-files.webengage.com
+#[omguk.com]
+0.0.0.0 omguk.com
+0.0.0.0 static.track.omguk.com
+0.0.0.0 track.omguk.com
+0.0.0.0 www.omguk.com
+#[invl.co]
+0.0.0.0 invl.co
+0.0.0.0 xhr.invl.co
+#[dtscout.com]
+0.0.0.0 c.dtscout.com
+0.0.0.0 dtscout.com
+0.0.0.0 e.dtscout.com
+0.0.0.0 t.dtscout.com
+0.0.0.0 www.dtscout.com
+#[bee7.com]
+0.0.0.0 api-proxy.bee7.com
+0.0.0.0 api.bee7.com
+0.0.0.0 bee7.com
+0.0.0.0 cdn.bee7.com
+#[iqzone.com]
+0.0.0.0 cdn.iqzone.com
+0.0.0.0 iqzone.com
+0.0.0.0 pssvc.iqzone.com
+#[apps*.outfit7.com]
+0.0.0.0 apps.outfit7.com
+0.0.0.0 apps2.outfit7.com
+#[events-api*.outfit7.com]
+0.0.0.0 events-api-cn.outfit7.com
+0.0.0.0 events-api-ea.outfit7.com
+0.0.0.0 events-api-ew1.outfit7.com
+0.0.0.0 events-api.outfit7.com
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -16490,7 +16544,6 @@
 0.0.0.0 www.vads.net.vn
 #[mepuzz.com]
 0.0.0.0 mepuzz.com
-0.0.0.0 mysql.mepuzz.com
 0.0.0.0 static.mepuzz.com
 0.0.0.0 www.mepuzz.com
 #[mobilead.vn]
@@ -16796,6 +16849,17 @@
 0.0.0.0 services.adnet.vn
 0.0.0.0 widget.adnet.vn
 0.0.0.0 www.adnet.vn
+#[haravan.com]
+0.0.0.0 buyxgety-omni.haravan.com
+0.0.0.0 buyxgety.haravan.com
+0.0.0.0 combo-omni.haravan.com
+0.0.0.0 combo.haravan.com
+0.0.0.0 haravan.com
+0.0.0.0 onapp.haravan.com
+#[starseed.fr]
+0.0.0.0 cdn.starseed.fr
+0.0.0.0 log.starseed.fr
+0.0.0.0 starseed.fr
 # --- Block adsVN ---
 0.0.0.0 5734a40f2d.vws.vegacdn.vn
 0.0.0.0 703531862.vws.vegacdn.vn
@@ -16999,6 +17063,7 @@
 0.0.0.0 analytics.sohatv.vn
 0.0.0.0 analytics.thethao247.org
 0.0.0.0 analytics.tiki.vn
+0.0.0.0 analytics.tintuc.vn
 0.0.0.0 analytics.viblo.asia
 0.0.0.0 analytics.videocloud.top
 0.0.0.0 analytics.vietnamfinance.vn
@@ -17066,6 +17131,7 @@
 0.0.0.0 logscafef.channelvn.net
 0.0.0.0 newlog.daidoanket.vn
 0.0.0.0 nstat.headlines.pw
+0.0.0.0 partner.accesstrade.vn
 0.0.0.0 report.vnay.vn
 0.0.0.0 s.baomoi.xdn.vn
 0.0.0.0 s.kenh14.vn
@@ -17124,6 +17190,7 @@
 0.0.0.0 widget.sbz.vn
 0.0.0.0 widget.subiz.net
 0.0.0.0 widget.subiz.xyz
+0.0.0.0 widgetv4.subiz.com
 # --- Block scamVN ---
 0.0.0.0 bloodleian.club
 0.0.0.0 celerantatters.com
@@ -17135,6 +17202,7 @@
 # --- Block popupVN ---
 0.0.0.0 h6o2z0pwx5ja7dwxn0wx4fhv7mp0qoladm8vj6do4h1c6gja8evrn6g5fixk.me
 0.0.0.0 m6pz5h8qi18jq1s7hjkytxn7sjc0zpxw5gks3vyk8dcxs2cstjgdxkp7t1eb.me
+0.0.0.0 wfgo5vjs6cp0cdjx7bms3cn9lof2p01xho0pxgm1fd2fah3j5d8qd7x1d6eu.me
 # --- Block other adsVN ---
 0.0.0.0 1-1ads.com
 0.0.0.0 1phads.com
@@ -19562,6 +19630,7 @@
 0.0.0.0 newtopsites.com
 0.0.0.0 nexac.com
 0.0.0.0 ng3.ads.warnerbros.com
+0.0.0.0 nicksstevmark.com
 0.0.0.0 nitratory.com
 0.0.0.0 nitroclicks.com
 0.0.0.0 noiselessplough.com
@@ -20016,6 +20085,7 @@
 0.0.0.0 ru-traffic.com
 0.0.0.0 ru4.com
 0.0.0.0 runads.com
+0.0.0.0 runbornto.com
 0.0.0.0 rundsp.com
 0.0.0.0 rusenov.com
 0.0.0.0 ruthlessrobin.com
@@ -20906,7 +20976,6 @@
 0.0.0.0 bugsense.com
 0.0.0.0 burstly.com
 0.0.0.0 c.snnd.co
-0.0.0.0 c.webengage.com
 0.0.0.0 c2i-cdn.startappnetwork.com
 0.0.0.0 cankaowang.com
 0.0.0.0 cc.swiftype.com
@@ -20932,6 +21001,7 @@
 0.0.0.0 crittercism.com
 0.0.0.0 csdian.net
 0.0.0.0 d24n15hnbwhuhn.cloudfront.net
+0.0.0.0 d38fey2d93vryi.cloudfront.net
 0.0.0.0 d4n.platformd.com
 0.0.0.0 dap.digitalgov.gov
 0.0.0.0 databerries.com
@@ -21135,6 +21205,7 @@
 0.0.0.0 sync2ad.com
 0.0.0.0 t.9gag.com
 0.0.0.0 t.dailymail.co.uk
+0.0.0.0 t.dtscdn.com
 0.0.0.0 tag.researchnow.com
 0.0.0.0 tdf.ringier.ch
 0.0.0.0 ted.dailymail.co.uk
