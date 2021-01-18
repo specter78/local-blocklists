@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202101170257
+! Version: 202101180441
 ! Title: EasyList
-! Last modified: 17 Jan 2021 02:57 UTC
+! Last modified: 18 Jan 2021 04:41 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -20046,6 +20046,7 @@ _popunder+$popup
 ##.ad__create
 ##.ad__desk
 ##.ad__disclosure
+##.ad__full--width
 ##.ad__gapfix
 ##.ad__header
 ##.ad__in-loop
@@ -27526,6 +27527,7 @@ _popunder+$popup
 ##.refreshAds
 ##.refreshInarticleAd
 ##.refreshable_ad
+##.region-ad-bottom-leaderboard
 ##.region-ad-right
 ##.region-ad-top
 ##.region-ads
@@ -44363,7 +44365,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||clickable.com^$third-party
 ||clickad.pl^$third-party
 ||clickadilla.com^$third-party
-||clickagy.com^$third-party
 ||clickbet88.com^$third-party
 ||clickbooth.com^$third-party
 ||clickboothlnk.com^$third-party
@@ -55520,8 +55521,8 @@ blackcaps.co.nz##.commercial-partners
 telegraph.co.uk##.commercial-unit
 sportingnews.com##.commercial-wrapper
 versusio.com##.compare_leaderboard
-binnews.com##.component-pushdown
-binnews.com##.component-recommendation
+binnews.com,iheart.com##.component-pushdown
+binnews.com,iheart.com##.component-recommendation
 washingtontimes.com##.connatixcontainer
 spoonyexperiment.com##.cont_adv
 marketwatch.com##.container--sponsored
@@ -56158,6 +56159,8 @@ catholic.net##.publicidad
 eitb.eus##.publicidad_robapaginas
 the18.com##.push-downv
 2conv.com##.push-offer
+thedirect.com##.pw-ph-leaderboard
+thedirect.com##.pw-ph-sky
 tri247.com##.q2w3-fixed-widget-container
 qrobe.it##.qad
 revolution935.com##.qt-sponsor
@@ -56480,6 +56483,7 @@ davidwalsh.name##[href="https://requestmetrics.com/"]
 mhktricks.org##[href="https://www.deepbrid.com/"]
 deshdoaba.com##[href="https://www.nsbinsures.com/"]
 noypigeeks.com##[href] > .litespeed-loaded
+bittools.net##[href^="//www.bittools.net/binance"]
 yoursports.stream##[href^="/bet"]
 nzbindex.com##[href^="/i/c/"]
 steroid.com##[href^="/out.php"]

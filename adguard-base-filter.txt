@@ -1,8 +1,8 @@
-! Checksum: /uuoUXbbDv/MAfcq3hmodw
+! Checksum: 4+ywuQc4nMIlr4CU8yDppg
 ! Title: AdGuard Base filter
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.1.58.78
-! TimeUpdated: 2021-01-17T02:31:19+03:00
+! Version: 2.1.58.85
+! TimeUpdated: 2021-01-18T08:03:45+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10318,8 +10318,8 @@ mousecity.com#?#div[style^="display: inline-block; width: 728px; height: 90px; b
 mousecity.com#?#.main-slides > div[style^="float: left; width: 468px; height: 60px; display: inline-block;"] > script:only-child:upward(1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66035
 lcpdfr.com#?#.ipsPad > div[id^="lcpdfr_728x90_970x90_970x250_320x50_"].clsReductionLeaderboardHeight:only-child:upward(1)
-! https://github.com/AdguardTeam/AdguardFilters/issues/65895
-facebook.com#?#div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
+! https://github.com/AdguardTeam/AdguardFilters/issues/68917
+facebook.com#?#div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[href^="https://l.facebook.com/l.php?u="][target="_blank"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65400
 bing.com#?#.insights > .insml > li > .ins_exp > div > ul > li > .ta_c > a[href*="/aclick?ld="]:upward(1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65389
@@ -36823,6 +36823,8 @@ msn.com#@#[src*="data:"]
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/72416
+||popin.cc/popin_discovery/$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72085
 cheapdigitaldownload.com#@#.banner-right
 cheapdigitaldownload.com#@#.banner-search
@@ -61979,6 +61981,7 @@ _popunder+$popup
 ##.ad__create
 ##.ad__desk
 ##.ad__disclosure
+##.ad__full--width
 ##.ad__gapfix
 ##.ad__header
 ##.ad__in-loop
@@ -69457,6 +69460,7 @@ _popunder+$popup
 ##.refreshAds
 ##.refreshInarticleAd
 ##.refreshable_ad
+##.region-ad-bottom-leaderboard
 ##.region-ad-right
 ##.region-ad-top
 ##.region-ads
@@ -86246,7 +86250,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||clickable.com^$third-party
 ||clickad.pl^$third-party
 ||clickadilla.com^$third-party
-||clickagy.com^$third-party
 ||clickbet88.com^$third-party
 ||clickbooth.com^$third-party
 ||clickboothlnk.com^$third-party
@@ -97238,8 +97241,8 @@ blackcaps.co.nz##.commercial-partners
 telegraph.co.uk##.commercial-unit
 sportingnews.com##.commercial-wrapper
 versusio.com##.compare_leaderboard
-binnews.com##.component-pushdown
-binnews.com##.component-recommendation
+binnews.com,iheart.com##.component-pushdown
+binnews.com,iheart.com##.component-recommendation
 washingtontimes.com##.connatixcontainer
 spoonyexperiment.com##.cont_adv
 marketwatch.com##.container--sponsored
@@ -97876,6 +97879,8 @@ catholic.net##.publicidad
 eitb.eus##.publicidad_robapaginas
 the18.com##.push-downv
 2conv.com##.push-offer
+thedirect.com##.pw-ph-leaderboard
+thedirect.com##.pw-ph-sky
 tri247.com##.q2w3-fixed-widget-container
 qrobe.it##.qad
 revolution935.com##.qt-sponsor
@@ -98198,6 +98203,7 @@ davidwalsh.name##[href="https://requestmetrics.com/"]
 mhktricks.org##[href="https://www.deepbrid.com/"]
 deshdoaba.com##[href="https://www.nsbinsures.com/"]
 noypigeeks.com##[href] > .litespeed-loaded
+bittools.net##[href^="//www.bittools.net/binance"]
 yoursports.stream##[href^="/bet"]
 nzbindex.com##[href^="/i/c/"]
 steroid.com##[href^="/out.php"]

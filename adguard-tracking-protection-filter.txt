@@ -1,8 +1,8 @@
-! Checksum: KrgKInG0kf5uveHaBJ/fug
+! Checksum: yuR+gf4AmR758dGC4+/9bQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.19.96
-! TimeUpdated: 2021-01-15T17:31:36+03:00
+! Version: 2.0.19.98
+! TimeUpdated: 2021-01-17T22:31:31+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6653,6 +6653,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||popin.cc/popin_discovery/$script
 ||bilanx.dcard.tw/*/events
 ||dcf.espn.com/privacy/
 ||mhevent.segye.com/mbi/pvcount
@@ -9113,6 +9114,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! fix msi reward program join button
+@@||googletagmanager.com/gtm.js$domain=rewards.msi.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71501
 @@||mc.yandex.ru/metrika/tag.js$domain=stopgame.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72114
