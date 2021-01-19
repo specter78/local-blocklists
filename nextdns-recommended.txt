@@ -66957,7 +66957,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 hzs9.cnzz.com
 127.0.0.1 hzvs1.cnzz.com
 127.0.0.1 pcookie.cnzz.com
-#version=202101171917
+#version=202101180922
 #url=https://github.com/VeleSila/yhosts/blob/master/hosts
 #-----Test
 127.0.0.1 at.umeng.com
@@ -66990,7 +66990,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 htracker4.zmzfile.com
 127.0.0.1 htracker5.zmzfile.com
 127.0.0.1 file.apicvn.com
-127.0.0.1 xm.163.com
 #-----Test End
 127.0.0.1 ereg.adobe.com
 127.0.0.1 hlrcv.stage.adobe.com
@@ -75557,6 +75556,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 cm.zhiziyun.com
 127.0.0.1 sspservice.ad-survey.com
 127.0.0.1 tracking.ad-survey.com
+127.0.0.1 sspmservice.ad-survey.com
 127.0.0.1 www.ad-survey.com
 127.0.0.1 ads.ad4game.com
 127.0.0.1 cdn.ad4game.com

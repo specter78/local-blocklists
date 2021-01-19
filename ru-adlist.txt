@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SAG2el2KVWuD2NbUdowcTA
-! Version: 202101180550
+! Checksum: nBljyIWmrLHSzsXjo7j1Mw
+! Version: 202101190550
 ! Title: RU AdList
-! Last modified: 18 Jan 2021 05:50 UTC
+! Last modified: 19 Jan 2021 05:50 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -8486,6 +8486,7 @@ _tizers.
 ||pop-under.ru^
 ||popadon.com^$third-party
 ||popcornews.me^$third-party
+||poptyto.ru^$third-party
 ||popunder-mladnet.medialand.ru
 ||porhuk.com^$third-party
 ||porno365go.com^$third-party
@@ -12851,6 +12852,7 @@ penzadoctor.ru##.article-banner
 playua.net##.article-comments > .row > div[class] + div[class]
 mk.ru#?#.article-footer > div:-abp-has(> script:-abp-contains(blockId))
 mmorpg.su##.article-free
+mk.ru##.article-grid__good-top
 dt.ua,zn.ua##.article-informer
 superdom.ua,viva.ua##.article-partners
 4mama.ua,tvoymalysh.com.ua##.article-partners-news
@@ -14833,6 +14835,7 @@ aromatmasla.ru,progrib.ru##.randomizer
 zakonia.ru##.randomtable
 www.zoneofgames.ru##.randshop > a:not([href^="https://forum.zoneofgames.ru/"])
 autoreview.ru##.rastyagka-logo
+rau.ua##.rau-header-slider-wrap
 onlainfilm.co##.rb
 rusbody.com##.rb-adv
 onlainfilm.co##.rb-cont-last
@@ -17250,7 +17253,7 @@ ukraina.ru##div[class^="b-partners"]
 newbum.net##div[class^="ban"]
 buzday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru##div[class^="ban_"]
 aces.gg##div[class^="banaces"]
-soccer.ru##div[class^="baner"]
+bug.org.ua,soccer.ru##div[class^="baner"]
 ktv-ray.ru##div[class^="banlist_x"]
 mynizhyn.com##div[class^="bann_"]
 101.ru,999.md,alau.kz,animeonline.su,asiarussia.ru,bezparazita.ru,botinok.porn,bountymax.ru,buzday.ru,calend.ru,citydog.by,clubvolvo.ru,crazymailing.com,dnepr.info,dom2stars.ru,dt.ua,eva.ru,gmod-fan.ru,goodhouse.ru,gorod.dp.ua,gorod48.ru,gtavicecity.ru,hochu.ua,infobank.by,internetua.com,kamchatinfo.com,kerchinfo.com,khersonline.net,kino-kingdom.com,klops.ru,kluch.media,kvnews.ru,manga24.ru,mediaryazan.ru,menquestions.ru,mgorod.kz,mmo13.ru,moya-semya.ru,musicforums.ru,myslo.ru,nlo-mir.ru,nn.ru,ntr-24.ru,nv.ua,nversia.ru,ogolosha.ua,onlineradiobox.com,orenday.ru,pln-pskov.ru,ponedelnik.info,postovoy.net,psm7.com,saltday.ru,sevkavportal.ru,sorochinskday.ru,sovets.net,sovets24.ru,spark.ru,studfiles.net,subscribe.ru,telegraf.in.ua,the-village.com.ua,the-village.me,the-village.ru,topvideo.tj,torrents.in.ua,trisosny.ru,trymobile.ru,tvzvezda.ru,ukrinform.ru,vdvsn.ru,vklybe.tv,vorle.ru,vse.sale,wincore.ru,womanhit.ru,worldofmods.ru,yarik-sat.com,yarnews.net,zerno-ua.com,zhitomir.info,zn.ua,zoon.ru##div[class^="banner"]
@@ -17366,7 +17369,7 @@ tvnet.lv##div[class^="right_custom_ad_"]
 ficbook.net##div[class^="rkl-"]
 move.ru##div[class^="rnb-"]
 animedub.ru##div[class^="rolic"]
-tgstat.com,tgstat.ru##div[class^="row r"]
+tgstat.com,tgstat.ru##div[class^="row mg"]
 kirovnet.ru##div[class^="rsya_block"]
 kinovidos.com##div[class^="sidebar-"] > div[type="text/css"][rel="nofollow"]
 prikol.ru##div[class^="sidebar-advert-block"]
@@ -18058,7 +18061,7 @@ www.ruhim.ru##p[align="center"] > noindex > a[href][target="_blank"] > img
 frenglish.ru##p[style="text-align: center"] > a[href] > img
 kinogo.appspot.com,kinogo.la##pjsdiv[id^="oframe"] > pjsdiv[style*="left: 305px;"][style*="display: none"] ~ pjsdiv[style*="top: 75"]
 stormo.online,stormo.tv##pjsdiv[style^="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 10000; display: block; background:"][style*="/player/loader.png"]
-brclip.com,flash-player.net,frvid.com,ibb.co,kzblow.info,kzclip.com,ru-clip.com,ru-clip.net,ruburn.info,ruclip.com,vnclip.net##pp
+brclip.com,flash-player.net,frvid.com,ibb.co,kzblow.info,kzclip.com,ru-clip.com,ru-clip.net,ruburn.info,ruclip.com,trshow.info,vnclip.net##pp
 sftv.ru##script[src*="iwantyourpromo.com"] ~ div[align="center"]
 megaimg.ru##script[src^="http://am10.ru/"] + center
 car72.ru##section > .container-fluid > div[style^="width:"][style$="%"]
@@ -19266,6 +19269,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||centoroy.okis.ru/files/*banner$image
 ||champion.com.ua/get_partner_news_list$xmlhttprequest
 ||changer.com/graphics/12.png
+||channel4it.com/pub/banners/
 ||charter97.org/img/partners/
 ||check-host.net/images/ddos-guard$image
 ||chehov-vid.ru/wp-content/uploads/*banner$image
@@ -20509,7 +20513,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||opennet.ru/img/bsh_
 ||opennet.ru/img/ihor_
 ||opennet.ru^*/hints.cgi?
-||opensharing.org/adblock.php
+||opensharing.org/old-pop.php
 ||opensharing.org/site-stile/
 ||openssource.biz/st/pic/$image
 ||openssource.biz/st/ps/
@@ -23123,6 +23127,7 @@ inforesist.org##tqwidget[style^="position: fixed"]
 ||riafan.ru/template/pc/assets/*popUp$script,stylesheet
 ||russia.tv/js/modules/social-subscriber.js
 ||sendpulse.com^$domain=reaction.org.ua
+||senior.ua/disable/request-banner
 ||shokru.com/wp-content/plugins/elegance-modal-box/
 ||sim-portal.ru/jfbe7r9.js
 ||slovoidilo.ua/cp/css/reminder.css$stylesheet
@@ -24118,7 +24123,8 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||yandex.st/swf/ad-sdk-module/1_0/info?nc=
 @@||yastatic.net/jquery/*/jquery.min.js|$third-party,script
 @@||yastatic.net/market-export/*/adv/advert.js|
-@@||yastatic.net/pcode/adfox/loader.js$domain=1000.menu|crowdrepublic.ru|dnevnik.ru|hitfm.ru|iz.ru|klops.ru|level.travel|makler.md|mos.ru|mosmetod.ru|mosreg.ru|mts.ru|nashe.ru|ogorod.ru|ok-magazine.ru|rbkgames.com|sm-news.ru|sm.news|stylenews.ru|vseinstrumenti.ru|webcaster.pro
+@@||yastatic.net/pcode/adfox/header-bidding.js|$script,domain=car.ru
+@@||yastatic.net/pcode/adfox/loader.js$domain=1000.menu|car.ru|crowdrepublic.ru|dnevnik.ru|hitfm.ru|iz.ru|klops.ru|level.travel|makler.md|mos.ru|mosmetod.ru|mosreg.ru|mts.ru|nashe.ru|ogorod.ru|ok-magazine.ru|rbkgames.com|sm-news.ru|sm.news|stylenews.ru|vseinstrumenti.ru|webcaster.pro
 @@||yastatic.net/share2/share.js
 @@||yastatic.net/sitesearch*.js|$third-party,script
 @@||ytimg.com/yts/jsbin/*/www-widgetapi.js|$script,domain=imperiya.by
@@ -24287,7 +24293,6 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,kinogo2.b
 @@||fosshub.com/media/js/adblock.js|$domain=fosshub.com
 @@||free-send.ru^$elemhide
 @@||freefotohelp.ru^*.js|$script,domain=freefotohelp.ru
-@@||freeopenvpn.org^$image,domain=www.freeopenvpn.org
 @@||fwdcdn.com^*/advertisment.js|$script
 @@||gamak.tv^*-contrib-ads.$xmlhttprequest,domain=gamak.tv
 @@||gamesglue.com/game_core/check/ima3.js|$script,domain=gameswf.com
