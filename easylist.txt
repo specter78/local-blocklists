@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202101190222
+! Version: 202101200538
 ! Title: EasyList
-! Last modified: 19 Jan 2021 02:22 UTC
+! Last modified: 20 Jan 2021 05:38 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2112,7 +2112,7 @@
 /adman_
 /admanagement/*
 /admanagementadvanced.
-/admanager.$~object,domain=~admanager.google.com
+/admanager.$~object,domain=~admanager.alzura.com|~admanager.google.com
 /admanager/*$~object,domain=~konograma.com
 /admanager3.
 /admanager_$domain=~konograma.com
@@ -2548,6 +2548,7 @@
 /ads/generator/*
 /ads/get/*
 /ads/getall
+/ads/getPositions?
 /ads/google1.
 /ads/google2.
 /ads/google_
@@ -3097,6 +3098,7 @@
 /adslides.
 /adsline.
 /AdsLoad.
+/adslot-
 /adslots.
 /adslug-
 /adslug_
@@ -9365,6 +9367,7 @@ _popunder+$popup
 ###AdvertsBottomR
 ###Adverts_AdDetailsBottom_300x600
 ###Adverts_AdDetailsMiddle_300x250
+###AnchorAd
 ###ArticleBottomAd
 ###ArticleContentAd
 ###BANNER_160x600
@@ -19325,6 +19328,7 @@ _popunder+$popup
 ##.ad.sidebar-module
 ##.ad.size-300x250
 ##.ad.super
+##.ad.widget
 ##.ad01
 ##.ad01-obj
 ##.ad02
@@ -21045,6 +21049,7 @@ _popunder+$popup
 ##.ads-container-mediumrectangle
 ##.ads-container__inner
 ##.ads-content
+##.ads-core-placer
 ##.ads-custom
 ##.ads-div
 ##.ads-divider
@@ -24218,6 +24223,7 @@ _popunder+$popup
 ##.convert-media-ad
 ##.copy-adChoices
 ##.core-adplace
+##.coreAdsPlacer
 ##.cornerBoxInnerWhiteAd
 ##.cornerad
 ##.cosmo-ads
@@ -25481,6 +25487,7 @@ _popunder+$popup
 ##.hm_top_right_google_ads
 ##.hm_top_right_google_ads_budget
 ##.hn-ads
+##.holder-ad
 ##.home-300x250-ad
 ##.home-activity-ad
 ##.home-ad
@@ -26799,6 +26806,7 @@ _popunder+$popup
 ##.native-advts
 ##.native-leaderboard-ad
 ##.native-sidebar-ad
+##.native.ad
 ##.nativeAd
 ##.nativeAd-sponsor-position
 ##.nativeMessageAd
@@ -28384,6 +28392,7 @@ _popunder+$popup
 ##.sovrn-onetag-ad
 ##.sovrn_ad_unit
 ##.sp-ad
+##.sp-ad__leaderboard
 ##.spLinks
 ##.sp_ad
 ##.spaceAdds
@@ -52891,6 +52900,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adserver.pandora.com^
 ||adss.yahoo.com^
 ||adswikia.com^*banner
+||adz.wattpad.com^
 ||afedmag.com/uploaded/images/banner-
 ||afloat.ie/images/banners/
 ||afr.com/assets/europa.
@@ -53256,6 +53266,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||wall.vgr.com^
 ||walmart.com^*/api/wpa?
 ||watoday.com.au/assets/europa.
+||wattpad.com/js/ados.min.js
 ||webconfs.com/wp-content/uploads/2017/08/300x250bw.png
 ||webdevforums.com/images/inmotion_banner.gif
 ||webhostingtalk.com/images/style/lw-header.png
@@ -54938,6 +54949,7 @@ khistocks.com,milb.com###standard_banner
 cucirca.eu###stanga
 geekwire.com###startup-resources-sidebar
 activistpost.com###stb-overlay
+cryptoslate.com###sticky-footer-global
 fool.com###sticky-wrapper
 afr.com###stickyLeaderboard
 gsmarena.com###subHeader
@@ -55037,6 +55049,7 @@ armenpress.am###topbnnr
 worldtimebuddy.com###toprek
 macworld.com,pcworld.com,techhive.com###tso
 kuklaskorner.com###ultimate
+tomshardware.com###ultimedia_wrapper
 my.juno.com###usWorldTile
 nutritioninsight.com###verticlblks
 sofascore.com###video-banner-root
@@ -56302,10 +56315,7 @@ foodfacts.com##.slimBanner
 ecommercetimes.com##.slink-text
 ecommercetimes.com##.slink-title
 inbox.com##.slinks
-tomshardware.com##.slot-beforePopularBox
-tomshardware.com##.slot-leaderboard
-tomshardware.com##.slot-lightbox1
-tomshardware.com##.slot-topOfSidebar
+tomshardware.com##.slot-afterPopularBox
 gamesradar.com,techradar.com##.slotify-contents
 bikeexif.com##.small
 tbs.com##.smallBanners
@@ -56443,6 +56453,8 @@ wbal.com##.wbal-banner
 glamourvanity.com##.wdt_gads
 qwant.com##.web_add_block
 vg.no##.webboard
+rxlist.com##.webmdrx
+rxlist.com##.webmdrx_coup
 probuilds.net##.welcome-bnr
 mobygames.com,taskcoach.org##.well
 gearlive.com##.wellvert
@@ -56468,6 +56480,7 @@ acprimetime.com,brigantinenow.com,downbeachbuzz.com##.widget_sp_image
 screenbinge.com##.widget_sp_image-image-link
 lostintechnology.com##.widget_text
 nypost.com##.widget_text.no-mobile.box
+helpnetsecurity.com##.widgetized_wrapper
 windowsloop.com##.wl-prakatana
 hack-sat.com##.wp-image-31131
 talkers.com##.wpss_slideshow
@@ -56488,6 +56501,7 @@ gamecopyworld.com,gamecopyworld.eu##[href*="@"]
 9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,dailypost.ng,digitallydownloaded.net,downturk.net,fresherslive.com,gizmochina.com,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,mbauniverse.com,motachashma.com,mydramalist.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,techspot.com,tetris.com,trancentral.tv,ultshare.com,vumafm.co.za,yeyeboyz.net,zmescience.com##[href*="bit.ly/"]
 whatleaks.com##[href*="doublevpn.com"]
 steroid.com##[href*="https://www.anabolics.com"]
+bittools.net##[href="//www.bittools.net/binance"]
 audiobookbay.net##[href="/dl-14-days-trial"]
 1movies.is##[href="/user/premiummembership"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
@@ -56598,9 +56612,12 @@ issuu.com##div[class^="ExploreShelf__ad"]
 versus.com##div[class^="LegendSingle__show"]
 keybr.com##div[class^="Supporter"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##div[class^="_multi-card-creative-desktop_Container_container"]
+goodrx.com##div[class^="adContainer"]
+goodrx.com##div[class^="adWrapper-"]
 greatandhra.com##div[class^="add"]
 technical.city##div[class^="banner_"]
 keengamer.com##div[class^="gameon-mpu-"]
+tomshardware.com##div[class^="slot-double-height"]
 kijiji.ca##div[class^="sponsored-"]
 whatsondisneyplus.com##div[class^="whats-"]
 amazon.com##div[data-ad-id]
@@ -56619,7 +56636,6 @@ weather.com##div[id^="Taboola-main-"]
 kisshentai.net##div[id^="ad"]
 azcentral.com,detroitnews.com,freep.com##div[id^="ad-slot-"]
 ucoz.com,ucoz.net,ucoz.org##div[id^="adBar"]
-goodrx.com##div[id^="adContainer"]
 govtech.com##div[id^="ad_id_"]
 amgreatness.com##div[id^="ag-front-"]
 engadget.com##div[id^="atwAdFrame"]

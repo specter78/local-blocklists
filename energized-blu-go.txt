@@ -24,12 +24,12 @@
 # Title: Energized Blu Go Protection
 # Description: A Lightweight Mid Ranger Protection Pack.
 # Format: domain list
-# Version: 21.01.019
-# Release: 019
-# Entries: 175,502
+# Version: 21.01.020
+# Release: 020
+# Entries: 175,503
 # Pack Code: E8LUG0-P
 # License: MIT, https://energized.pro/license
-# Updated: Tue, 19 Jan 21 06:06:00
+# Updated: Wed, 20 Jan 21 06:06:03
 # RAW: https://block.energized.pro/bluGo/formats/domains.txt
 # --------------------------------------------
 #
@@ -39553,6 +39553,7 @@ collector.kstptv5.com
 collector.mazeberry.com
 collector-medium.lightstep.com
 collector.newrelic.com
+collector.ozeex.com
 collector.placelocal.com
 collector-pool.newrelic.com
 collector.prod.expedia.com
