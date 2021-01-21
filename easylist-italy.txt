@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6IsJ7iyfuDuJZSCMXrGkWg
-! Version: 202101200551
+! Checksum: f1SY1/54AyUUzSB2kLnHaw
+! Version: 202101210551
 ! Title: EasyList Italy
-! Last modified: 20 Jan 2021 05:51 UTC
+! Last modified: 21 Jan 2021 05:51 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -1613,10 +1613,15 @@ brocardi.it#@#.with-background-ads
 ||game-experience.it^*/BANNER-
 ||gamesoul.it^*/skin-
 ||gamesvillage.it/ajax.php?do=gv_amazon_page&
+||gamingtoday.it^*/Banner-
+||gamingtoday.it^*/logo_scritta.png
+||gamingwiki.it^*/Blackwidow-Razer.jpg
+||gamingwiki.it^*/Razer-Kraken.jpg
 ||gammaradio.it/iwm.gif
 ||garedepoca.com/grafica/banner_
 ||gay.it/js/brightcove/adonly.js
 ||gazzettabenevento.it/Sito2009/image/banner/
+||gazzettadellaspezia.it/images/banners/
 ||gazzettadiavellino.it^*-banner.
 ||gazzettadilivorno.it^*/skin/
 ||gazzettadimilano.it^*-banner-
@@ -1737,6 +1742,8 @@ brocardi.it#@#.with-background-ads
 ||gommeblog.it^*/Gommadiretto-
 ||gommeblog.it^*/Gommadiretto.
 ||gomorraweb.com^*/granvesuvio-
+||gonews.it^*/Istituto_Tecnico_Cattaneo_
+||gonews.it^*/Servizio_Civile_gen21-
 ||gonews.it^*_Banner-
 ||gratisfree.it/cgi-bin/bannergest$script
 ||greenews.info/wp-content/banners/
@@ -1777,6 +1784,7 @@ brocardi.it#@#.with-background-ads
 ||hcb.net^*/wuerth-
 ||hcgherdeina.com/img/db/s/20160422164221.png
 ||hcgherdeina.com/img/db/sponsor/
+||hcgherdeina.com^*_sponsor_
 ||hcpustertal.com^*/sponsors/
 ||hellogreen.it^*/libro-del-mese-
 ||hellogreen.it^*600x600
@@ -3812,12 +3820,13 @@ beverfood.com###backy
 rimini.com###bann-top-dx
 daneel59.altervista.org,ilmioip.it,superwheels.net###banner
 bresciaoggi.it,ilgiornaledivicenza.it,larena.it###banner-autodoc
+torinonews24.it###banner-bottom
 veneziafc.it###banner-box-up
 quotidianocanavese.it###banner-column
 canavesenews.it###banner-left-bottom
 canavesenews.it###banner-left-top
 cuneocronaca.it,larivieraonline.com,oggitreviso.it,piccolenote.ilgiornale.it###banner-top
-canavesenews.it###banner-top-container
+canavesenews.it,torinonews24.it###banner-top-container
 cataniapubblica.tv###banner1
 cataniapubblica.tv###banner2
 hdblog.it,hdmotori.it###banner3_300600
@@ -3991,6 +4000,7 @@ casa.it###leaderboard_footer
 corrieredellosport.it,tuttosport.com###leaderboard_top
 brocardi.it###libgiurista
 diritto.it###libpro
+gazzettadellaspezia.it###linkbg
 teleradio-news.it###linkcat-12
 benessere.com###logo-bannerino
 business.it###logoYobee
@@ -4318,7 +4328,7 @@ umbria24.it##.banner-show-desktop
 leccesette.it##.banner-side
 digital-news.it##.banner-sidebar
 universodelgioco.it##.banner-sky
-canavesenews.it##.banner-slider
+canavesenews.it,torinonews24.it##.banner-slider
 qualenergia.it##.banner-space
 vienormali.it##.banner-testata
 frasimania.it,matrimonio.com##.banner-top
@@ -4690,15 +4700,17 @@ lattemiele.com##.lp-link
 tuttitalia.it##.lt
 omnifurgone.it##.m1-apb
 buttanissima.it##.machette
+gonews.it##.machette-destra
 gonews.it##.machette-over-logo
+gonews.it##.machette-sinistra
 orologi-subacquei.it##.main-cta-banner
 inter.it##.main-footer-sponsor
 filmaltadefinizione.me##.main-news-more
 reggionline.com##.mainBack
 hceppan.it##.mainSponsor
 larionews.com,opinione.it,ship2shore.it,tuttomercatoweb.com##.manchette
-erbanotizie.com,noinotizie.it##.manchette-dx
-erbanotizie.com,noinotizie.it##.manchette-sx
+erbanotizie.com,gazzettadellaspezia.it,noinotizie.it##.manchette-dx
+erbanotizie.com,gazzettadellaspezia.it,noinotizie.it##.manchette-sx
 winenews.it##.manchette_l
 winenews.it##.manchette_r
 24emilia.com##.marquee0
@@ -4813,6 +4825,7 @@ meteofinanza.com##.reading-box
 giardinaggio.it##.reattiva_x_90
 ispazio.net##.reclame
 live-sport-tv.it##.rectangles
+gonews.it##.redazionale
 sportytrader.it##.redirectou
 viversano.net##.referral-small
 passioneorologio.it##.rehub_feat_block
@@ -4942,7 +4955,7 @@ gioconews.it##.tcvn-banner-item
 ilprimatonazionale.it##.td-banner-bg
 edagricole.it##.td-banner-footer
 01net.it,edagricole.it##.td-banner-wrap-full
-calciofemminileitaliano.it,calciomercato.it,phonetoday.it,romagiallorossa.it,tecnoandroid.it##.td-container-header
+calciofemminileitaliano.it,calciomercato.it,gamingtoday.it,phonetoday.it,romagiallorossa.it,tecnoandroid.it##.td-container-header
 radioradio.it##.td-fix-index
 amoreaquattrozampe.it##.td-footer-container
 ilgiornaledeltermoidraulico.it,pescaracalcio.com,tennispavese.it,ternanacalcio.com##.td-footer-wrapper
@@ -5014,6 +5027,7 @@ transfermarkt.it##.werbung
 transfermarkt.it##.werbung-skyscraper
 spettegolando.it##.wf-widget-container
 wired.it##.wia
+sportando.basketball##.widget > a[rel="noopener"]
 esportsonline.it##.widget-above-header
 ideeregaloper.it##.widget-banner
 it.businessinsider.com##.widget-financialounge
@@ -5152,6 +5166,7 @@ atalanta.it,diventaretrader.com##a[href^="https://www.plus500.com/"]
 animeemanga.it,comingsoon.it,trovacinema.repubblica.it##a[href^="https://www.primevideo.com/"][href*="tag="]
 2backpack.it##a[href^="https://www.worldnomads.com/Turnstile/AffiliateLink?"]
 2backpack.it##a[href^="https://www.worldnomads.it/?affiliate="]
+gamingwiki.it##a[href^="https://www2.razer.com/"]
 lavocedellevalli.it##a[onclick^="ga('send', 'event',"]
 mobileworld.it##a[style="background-color: #fe8774; padding: 10px; border: none; text-align: center; text-decoration: none; font-size: 18px; width: 200px; font-weight: bold; border-radius: 10px; color: white;"]
 androidworld.it##a[style="background-color: #ff9900; padding: 10px; border: none; text-align: center; text-decoration: none; font-size: 18px; width: 200px; font-weight: bold; border-radius: 10px; color: white;"]

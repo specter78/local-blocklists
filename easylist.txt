@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202101200538
+! Version: 202101210527
 ! Title: EasyList
-! Last modified: 20 Jan 2021 05:38 UTC
+! Last modified: 21 Jan 2021 05:27 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9302,6 +9302,7 @@ _popunder+$popup
 ###AdsVideo250
 ###AdsWrap
 ###Ads_BA_BUT
+###Ads_BA_BUT2
 ###Ads_BA_BUT_box
 ###Ads_BA_CAD
 ###Ads_BA_CAD2
@@ -23313,6 +23314,7 @@ _popunder+$popup
 ##.bigads
 ##.bigadtxt1
 ##.bigbox-ad
+##.bigbox.ad
 ##.bigbox_ad
 ##.bigboxad
 ##.bigsponsor
@@ -26135,6 +26137,7 @@ _popunder+$popup
 ##.leaderboard-ads
 ##.leaderboard-advert
 ##.leaderboard-advertisement
+##.leaderboard.ad
 ##.leaderboardAd
 ##.leaderboardAdContainer
 ##.leaderboardAdContainerInner
@@ -33704,6 +33707,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ckotfhgn.com^
 ||claimbit.tk^
 ||clairedikio.club^
+||clairvoyantvigourcelebrity.com^
 ||clarizonsimp.top^
 ||clasphs.xyz^
 ||classisingew.club^
@@ -35081,6 +35085,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fasvgvzxsqxqhu.com^
 ||fatbuydoc.com^
 ||fatchilli.media^
+||fathuntsgall.com^
 ||fatrjjcm.com^
 ||fatrvclgpnb.com^
 ||fatwalkinger.club^
@@ -46919,6 +46924,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sedatorsinted.info^$third-party
 ||sedatorslegallock.info^$third-party
 ||sedidencesothere.info^$third-party
+||sedodna.com^$third-party
 ||sedoparking.com^$third-party
 ||seductionprofits.com^$third-party
 ||seecontentdelivery.info^$third-party
@@ -53147,7 +53153,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||naukri.com/banners
 ||newsnow.co.uk/pharos.js
 ||newstrackindia.com/images/hairfallguru728x90.jpg
-||nicoad.nicovideo.jp^$domain=~live2.nicovideo.jp|~nicoad.nicovideo.jp
+||nicoad.nicovideo.jp^$domain=~blog.nicovideo.jp|~live2.nicovideo.jp|~nicoad.nicovideo.jp
 ||nigerianbulletin.com/data/siropu/
 ||ninemanga.com/files/js/ninemanga_300.js
 ||norwaypost.no/images/banners/
@@ -54561,6 +54567,7 @@ vocm.com###leaderboard-area
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
 oaoa.com###leaderboard-top
+narcity.com###leaderboard-wrapper
 drdobbs.com###leaderboard1
 drdobbs.com###leaderboard2
 planetminecraft.com###leaderboard_atf
@@ -56618,6 +56625,7 @@ greatandhra.com##div[class^="add"]
 technical.city##div[class^="banner_"]
 keengamer.com##div[class^="gameon-mpu-"]
 tomshardware.com##div[class^="slot-double-height"]
+tomshardware.com##div[class^="slot-light"]
 kijiji.ca##div[class^="sponsored-"]
 whatsondisneyplus.com##div[class^="whats-"]
 amazon.com##div[data-ad-id]
