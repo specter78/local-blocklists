@@ -1,8 +1,8 @@
-! Checksum: BjpDjqbgXS7m+q3eKHmUzA
+! Checksum: vL+TJs/MGz+avHPsf2s/Zg
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.35.9
-! TimeUpdated: 2021-01-21T02:31:30+03:00
+! Version: 2.0.35.11
+! TimeUpdated: 2021-01-21T19:31:37+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1121,7 +1121,6 @@ om1.ru##.socialnetworks-posting
 parasut.com##.button-share-linkedin
 kinoafisha.info##.article_footerShare
 rockstargames.su##.post-share__title
-work.ua##.col-left > div.card-indent
 elle.pl##.share-result
 elle.pl##.photo-social-media
 dcinside.com##.btn_snsmore
@@ -8306,6 +8305,8 @@ neokur.com#$#.jquery-modal.blocker { display: none!important; }
 ! #Social locker#
 ! #End Social locker
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/72815
+kjell.com#@#input.fb
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72278
 mailfence.com#@#a[href^="https://twitter.com/intent/tweet?"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71253

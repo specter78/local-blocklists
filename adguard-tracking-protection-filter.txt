@@ -1,8 +1,8 @@
-! Checksum: 51ZS8YA7W8bAvWT9YYdq4w
+! Checksum: pj5KP3DfA/Do0emZOpMVNg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.8
-! TimeUpdated: 2021-01-20T20:31:29+03:00
+! Version: 2.0.20.12
+! TimeUpdated: 2021-01-21T16:31:35+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -218,6 +218,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||jtracking.lulusoft.com^
 ||traceprof.com^$third-party
 ||livetracker.rfe.pangea-cms.com^
 ||trackerhqu.com^$third-party
@@ -3121,7 +3122,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||trace-2000.com^$third-party
 ||trace.events^$third-party
 ||tracelytics.com^$third-party
-||tracemyip.org^$third-party
 ||tracer.jp^$third-party
 ||tracetracking.net^$third-party
 ||traceworks.com^$third-party
@@ -4679,6 +4679,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||tracker.arc.io^
+||prx.wayfair.com^
 ||e-stat.huya.com^
 ||statwup.huya.com^
 ||metric.huya.com^
@@ -6662,6 +6664,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||gate.upclick.com/btn/visitor.min.js
 ||macg.co/modules/statistics/statistics.php
 ||nelo2-col.navercorp.com/_store
 ||popin.cc/popin_discovery/$script
