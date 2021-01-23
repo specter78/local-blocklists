@@ -1,8 +1,8 @@
-! Checksum: pj5KP3DfA/Do0emZOpMVNg
+! Checksum: 659r3aLHOpPC3kkGleI/8Q
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.12
-! TimeUpdated: 2021-01-21T16:31:35+03:00
+! Version: 2.0.20.16
+! TimeUpdated: 2021-01-22T19:31:34+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6664,6 +6664,7 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+k*ck*ss*/static/cache/?url=https://mc.yandex.ru/
 ||gate.upclick.com/btn/visitor.min.js
 ||macg.co/modules/statistics/statistics.php
 ||nelo2-col.navercorp.com/_store
@@ -7671,7 +7672,6 @@ dizibey.com##.sidebar > #text-19
 ||hdmz.co/site/user_geo
 ||data.shopgate.com/tracking/shopgate-analytics-sdk.production.min.js
 ||bildderfrau.de/stats/
-bilgibizde.net##.sidebar > #addthis_tool_by_class_name_widget-0
 ||oas.monster.com/Scripts/oas_analytics.js
 ||logs.jobs.com/impression_trackingv*.min.js
 ||webstats.thesoul-publishing.com/track/ws.gif
@@ -9128,6 +9128,16 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://forum.adguard.com/index.php?threads/41486/
+@@||dpm.zebestof.com/*/tag.js$domain=commentcamarche.net
+||dpm.zebestof.com/*/tag.js$script,redirect=noopjs,important,domain=commentcamarche.net
+! https://github.com/AdguardTeam/AdguardFilters/issues/72031
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,important,domain=flyingv.cc
+||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=flyingv.cc
+@@||googletagmanager.com/gtm.js$domain=flyingv.cc
+@@||google-analytics.com/analytics.js$domain=flyingv.cc
+@@||google-analytics.com/plugins/ua/ecommerce.js$domain=flyingv.cc
+@@||google-analytics.com/plugins/ua/ec.js$domain=flyingv.cc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72465
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69078#issuecomment-762889762
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72221
