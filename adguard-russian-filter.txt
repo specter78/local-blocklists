@@ -1,8 +1,8 @@
-! Checksum: QTneW7IzuhWVuBXymYIRDg
+! Checksum: viZwNwYQvspvMLF7JcZxyw
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.48.12
-! TimeUpdated: 2021-01-22T22:30:54+03:00
+! Version: 2.0.48.13
+! TimeUpdated: 2021-01-23T18:30:52+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10803,7 +10803,7 @@ translate.ru###rightAdvBlock
 mining-cryptocurrency.ru##img[width="300"][height="250"]
 forklog.com##div[id^="da"][style="width: 100%; height: 100%"]
 jjjo.ru###epvb_uvk
-||ukrnews24.net/wp-content/uploads/2020/09/САЙТ.png
+||ukrnews24.net/wp-content/uploads/2020/09/%D0%A1%D0%90%D0%99%D0%A2.png
 ficbook.net##body .fb-ads-block
 nickelodeon.ru##.module-content-stream-leaderboard
 nickelodeon.ru##.edge-gui-ad-metadata

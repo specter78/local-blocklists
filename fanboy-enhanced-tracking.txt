@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: uob52a7s2AEaykNAIpDOew
+! Checksum: q8RYfy+WNaXValcODQpo6w
 ! Title: Fanboy's Enhanced Tracking List
-! Updated: 11 Jan 2021
+! Updated: 23 Jan 2021
 ! Expires: 5 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -2999,6 +2999,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||assets.pinterest.com/js/pinit.js$domain=mandatory.com
 @@||bank.barclays.co.uk/touchclarity/mbox.js
 @@||bankofamerica.com/pa/components/*/TouchClarity.js
+@@||bankofamerica.com/pa/global-assets/*/mbox.js
 @@||barclays.co.uk/js/sitecatalyst/$domain=bank.barclays.co.uk
 @@||bigfishsites.com/*/global/javascript/webtrends_capi_$domain=bigfishgames.com
 @@||bing.com/travel/scripts/sCode.js$~third-party
@@ -3170,6 +3171,7 @@ xkorean.net##a[href*="&aff_id"]
 @@||unionbank.com/coremetrics/cmdatatagutils.js
 @@||ups.com/javascript/webtrends*.js
 @@||usairways.com/en-US/Resources/javascript/omniture*.js
+@@||usbank.com^*/reporting/Omniture_Constants.js
 @@||verizon.com/content/contactus/includes/javascript/hbx.js
 @@||victoriassecret.com/app/coremetrics/eluminate.js
 @@||video.nbcuni.com/core/*/omniture_
