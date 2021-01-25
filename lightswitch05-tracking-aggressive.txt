@@ -1,6 +1,6 @@
 # Title: Lightswitch05's tracking-aggressive-extended.txt
-# Released: 2021-01-24T01:05:17+00:00
-# Count: 27907 domains
+# Released: 2021-01-25T01:05:16+00:00
+# Count: 27913 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
@@ -39,6 +39,7 @@
 0.0.0.0 adserver.va3.megaphone.cloud
 0.0.0.0 360.cn
 0.0.0.0 0kee.360.cn
+0.0.0.0 ns01.0kee.360.cn
 0.0.0.0 nslogadmin.0kee.360.cn
 0.0.0.0 res.0kee.360.cn
 0.0.0.0 110.360.cn
@@ -925,6 +926,7 @@
 0.0.0.0 renew.360.cn
 0.0.0.0 renzheng.360.cn
 0.0.0.0 research.360.cn
+0.0.0.0 rz.360.cn
 0.0.0.0 s.360.cn
 0.0.0.0 euc.s.360.cn
 0.0.0.0 g.s.360.cn
@@ -1376,7 +1378,6 @@
 0.0.0.0 amprobe.ugc.bazaarvoice.com
 0.0.0.0 analytics-static.ugc.bazaarvoice.com
 0.0.0.0 aonhewitt.ugc.bazaarvoice.com
-0.0.0.0 arcteryx.ugc.bazaarvoice.com
 0.0.0.0 argos.ugc.bazaarvoice.com
 0.0.0.0 arrow.ugc.bazaarvoice.com
 0.0.0.0 att.ugc.bazaarvoice.com
@@ -1528,7 +1529,6 @@
 0.0.0.0 nizoral.ugc.bazaarvoice.com
 0.0.0.0 norauto.ugc.bazaarvoice.com
 0.0.0.0 nordstrom.ugc.bazaarvoice.com
-0.0.0.0 northerntool.ugc.bazaarvoice.com
 0.0.0.0 ob.ugc.bazaarvoice.com
 0.0.0.0 odysseygolf.ugc.bazaarvoice.com
 0.0.0.0 officedesigns.ugc.bazaarvoice.com
@@ -4409,6 +4409,7 @@
 0.0.0.0 flemail.flipboard.com
 0.0.0.0 flipper.flipboard.com
 0.0.0.0 from.flipboard.com
+0.0.0.0 github.flipboard.com
 0.0.0.0 gumby.flipboard.com
 0.0.0.0 ic-cdn.flipboard.com
 0.0.0.0 inside.flipboard.com
@@ -4430,6 +4431,7 @@
 0.0.0.0 staging-about.flipboard.com
 0.0.0.0 it-it.staging-about.flipboard.com
 0.0.0.0 ko-kr.staging-about.flipboard.com
+0.0.0.0 sxsw.flipboard.com
 0.0.0.0 test.flipboard.com
 0.0.0.0 theinsight.flipboard.com
 0.0.0.0 tips.flipboard.com
@@ -6574,6 +6576,7 @@
 0.0.0.0 anbank.qualtrics.com
 0.0.0.0 ancestry.qualtrics.com
 0.0.0.0 andersonucla.qualtrics.com
+0.0.0.0 anselmir.qualtrics.com
 0.0.0.0 answerlab.qualtrics.com
 0.0.0.0 anz360.qualtrics.com
 0.0.0.0 aopa.qualtrics.com
@@ -8113,6 +8116,7 @@
 0.0.0.0 encuestas1.eu.qualtrics.com
 0.0.0.0 erasmusuniversity.eu.qualtrics.com
 0.0.0.0 essex.eu.qualtrics.com
+0.0.0.0 www.essex.eu.qualtrics.com
 0.0.0.0 etihad.eu.qualtrics.com
 0.0.0.0 eui.eu.qualtrics.com
 0.0.0.0 euroclearbank.eu.qualtrics.com
@@ -10404,6 +10408,7 @@
 0.0.0.0 umichsi.qualtrics.com
 0.0.0.0 umichumhs.qualtrics.com
 0.0.0.0 umissouri.qualtrics.com
+0.0.0.0 umkc.qualtrics.com
 0.0.0.0 umn.qualtrics.com
 0.0.0.0 umr.qualtrics.com
 0.0.0.0 umt.qualtrics.com
@@ -12269,12 +12274,15 @@
 0.0.0.0 gleam.io
 0.0.0.0 blog.gleam.io
 0.0.0.0 crunch.gleam.io
+0.0.0.0 dropbear.gleam.io
+0.0.0.0 em.gleam.io
 0.0.0.0 email.gleam.io
 0.0.0.0 info.gleam.io
 0.0.0.0 js.gleam.io
 0.0.0.0 next.gleam.io
 0.0.0.0 preview.gleam.io
 0.0.0.0 r.gleam.io
+0.0.0.0 re.gleam.io
 0.0.0.0 stage.gleam.io
 0.0.0.0 preview.stage.gleam.io
 0.0.0.0 www.gleam.io
@@ -13907,7 +13915,6 @@
 0.0.0.0 avifilmovj5.duckdns.org
 0.0.0.0 aviryhome.duckdns.org
 0.0.0.0 avner-home.duckdns.org
-0.0.0.0 avoidha.duckdns.org
 0.0.0.0 avonstowe.duckdns.org
 0.0.0.0 awbshass.duckdns.org
 0.0.0.0 ha.awdark.duckdns.org
@@ -21744,7 +21751,6 @@
 0.0.0.0 mosaikbrunnen.duckdns.org
 0.0.0.0 mosdatlanfalusi.duckdns.org
 0.0.0.0 mossi.duckdns.org
-0.0.0.0 mostoles41.duckdns.org
 0.0.0.0 mothranextcloud.duckdns.org
 0.0.0.0 motoarte.duckdns.org
 0.0.0.0 motoemporio.duckdns.org

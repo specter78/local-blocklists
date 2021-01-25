@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202101240400
+! Version: 202101250355
 ! Title: EasyList
-! Last modified: 24 Jan 2021 04:00 UTC
+! Last modified: 25 Jan 2021 03:55 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7312,7 +7312,7 @@
 ://oas.*@
 ://ox-*/jstag^
 ://pop-over.
-://promo.$third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com
+://promo.$third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://rss.*/~a/
 ://synad.
 ://wrapper.*/a?
@@ -23406,6 +23406,7 @@ _popunder+$popup
 ##.block-altads
 ##.block-ami-ads
 ##.block-appnexus-sidebar-banner-oas-ad
+##.block-awareads-adsense
 ##.block-bean-adocean
 ##.block-bf_ads
 ##.block-bg-advertisement
@@ -29705,6 +29706,7 @@ _popunder+$popup
 ##.widget_dfp_lb-widget
 ##.widget_econaabachoadswidget
 ##.widget_emads
+##.widget_epcl_ads_fluid
 ##.widget_etcenteredadwidget
 ##.widget_evolve_ad_gpt_widget
 ##.widget_fearless_responsive_image_ad
@@ -37972,6 +37974,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||murdened.club^
 ||murdenedo.club^
 ||mushroomresolved.com^
+||mutenessdollyheadlong.com^
 ||muttonvalet.com^
 ||muwjxxvovtb.com^
 ||muyoozrkkyr.com^
@@ -46232,6 +46235,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||okanjo.com^$third-party
 ||oldership.com^$third-party
 ||ologyarriedpr.info^$third-party
+||olveddel.xyz^$third-party
 ||omareeper.com^$third-party
 ||omclick.com^$third-party
 ||omg2.com^$third-party
@@ -47826,6 +47830,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yieldbuild.com^$third-party
 ||yieldkit.com^$third-party
 ||yieldlab.net^$third-party
+||yieldlove-ad-serving.net^$third-party
 ||yieldlove.com^$third-party
 ||yieldmanager.com^$third-party
 ||yieldmanager.net^$third-party
@@ -54412,6 +54417,7 @@ baltic-course.com,webfail.com###bannertop
 h-online.com###bannerzone
 uinterview.com###below-content
 al.com,cleveland.com,gulflive.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com###below-toprail
+fightful.com###betway-sports
 bentoneveningnews.com,dailyregister.com,dailyrepublicannews.com,duquoin.com,randolphcountyheraldtribune.com###billBoardATF
 cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootballnetwork.net,timesandstar.co.uk###billboard
 inquirer.net###billboard_article
@@ -54425,6 +54431,7 @@ mbauniverse.com###block-views-home-page-banner-block
 picfont.com###block_a
 smbc-comics.com###boardleader
 boards.ie###boardsmpu
+bulbagarden.net###bodyContent > div[style*="min-height:315px;"]
 priceonomics.com###book-island
 cheese.com,investorplace.com###bottom-banner
 audioreview.com###bottom-leaderboard
@@ -54596,7 +54603,7 @@ oaoa.com###leaderboard-top
 narcity.com###leaderboard-wrapper
 drdobbs.com###leaderboard1
 drdobbs.com###leaderboard2
-planetminecraft.com###leaderboard_atf
+bulbagarden.net,planetminecraft.com###leaderboard_atf
 canadianbusiness.com,macleans.ca###leaderboard_container
 spoonuniversity.com###leaderboard_fixed
 thehollywoodgossip.com###leaderboard_wrapper
@@ -55338,6 +55345,7 @@ appagg.com##.atit
 pogdesign.co.uk##.atop
 mbl.is##.augl
 thehackernews.com##.av-side-box
+myabandonware.com##.avp
 gameplanet.co.nz##.avt-mr
 gameplanet.co.nz##.avt-placement
 whatsondisneyplus.com##.awac-wrapper
@@ -55424,6 +55432,7 @@ bbc.co.uk##.bbccom_companion
 ecommercetimes.com,ectnews.com,linuxinsider.com,macnewsworld.com,technewsworld.com##.bbframe
 h-online.com##.bcadv
 fakenamegenerator.com##.bcsw
+myabandonware.com##.be
 thepointsguy.com##.beam-card-feature
 beckershospitalreview.com##.becker_doubleclick
 wgbh.org##.becomeSponsor
@@ -55697,6 +55706,7 @@ w3techs.com##.feat
 mumbrella.com.au##.featureBanner
 slickdeals.net##.featureDealsAndCoupons
 ar12gaming.com,geekwire.com##.featured-sponsor
+fandom.com##.featured-video__wrapper
 slickdeals.net##.featuredCouponsDiscounts
 whitepages.ae##.featured_companies_bg_main
 tv.com##.featured_providers
@@ -55993,6 +56003,7 @@ jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
 babynamegenie.com,forless.com,o2cinemas.com,worldtimeserver.com##.links
 gosearchresults.com##.listing-right
+mobalytics.gg##.live-comp-wrap
 goodgearguide.com.au,pcworld.co.nz,pcworld.idg.com.au##.lo-toppromos
 calgaryherald.com##.local-branding
 1071thepeak.com##.logo-scroll
