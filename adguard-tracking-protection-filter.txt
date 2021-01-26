@@ -1,8 +1,8 @@
-! Checksum: 0EmQj/MDFwsZgMxhJfTZBA
+! Checksum: jQMEIxUIzTeC0R5r2uagdQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.17
-! TimeUpdated: 2021-01-23T16:31:27+03:00
+! Version: 2.0.20.23
+! TimeUpdated: 2021-01-25T19:31:35+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -218,6 +218,12 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||tracker.cauly.co.kr^
+||tk.mediacategory.com^$third-party
+||jscdn.appier.net^$third-party
+||ck.ncclick.co.kr^$third-party
+||tagmanager.toast.com^$third-party
+||receiver.pravoved.org^$third-party
 ||jtracking.lulusoft.com^
 ||traceprof.com^$third-party
 ||livetracker.rfe.pangea-cms.com^
@@ -437,7 +443,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||amunx.de^$third-party
 ||5baf1288cf.dl8.me^$third-party
 ||mopinion.com^$third-party
-||stat.sm-it.space^
 ||appcast.io^$third-party
 ||propeller-tracking.com^$third-party
 ||bigmining.com^$third-party
@@ -515,11 +520,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||adpies.com^$third-party
 ||altg.widerplanet.com^
 ||astg.widerplanet.com^
-||asp22.http.or.kr^
 ||cm-exchange.toast.com^
 ||log.mediacategory.com^
 ||analytic.press^
-||analytics.getaim.info^$third-party
 ||d1tracker.ru^
 ||bagbeam.com^$third-party
 ||irxcm.com^$third-party
@@ -585,7 +588,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||stat.livesportbar.net^
 ||analytics.datahc.com^
 ||collect.blishtech.co^$third-party
-||g.vev.io^$third-party
 ||rob.megaopen.ru^$third-party
 ||srv.dc-1.net^
 ||votetoda.com^$third-party
@@ -634,7 +636,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||api.cazamba.com^$third-party
 ||maliva-mcs.byteoversea.com^
 ||sgali-mcs.byteoversea.com^
-||mcs.byted.org^
 ||1dmp.io^$third-party
 ||wheredoyoucomefrom.ovh^
 ||profusesupport.com^
@@ -646,7 +647,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||pngme.ru^$third-party
 ||qoopler.ru^$third-party
 ||s.clicktex.ru^$third-party
-||hitme.pw^$third-party
 ||tracking.lqm.io^$third-party
 ||app.shoptarget.com.br^$third-party
 ||netdeal.com.br^$third-party
@@ -711,7 +711,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||rdstation.com^$third-party
 ||rdstation.com.br^$third-party
 ||analytic.rocks^
-||client-api.matchinguu.com^
 ||counter.log24.ru^$third-party
 ||dcmn.com^$third-party
 ||bouncyproperty.com^$third-party
@@ -739,10 +738,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||upscore.com^$third-party
 ||usereachpeople.com^$third-party
 ||yadropro.ru^$third-party
-||ablaze-class.space^$third-party
 ||iocnt.net^$third-party
 ||tracking.diginetica.net^$third-party
-||zcltracker.com^$third-party
 ||mytopf.com^$third-party
 ||dircont3.com^$third-party
 ||edrone.me^$third-party
@@ -765,7 +762,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||monkeytracker.cz^$third-party
 ||lhinsights.com^$third-party
 ||mobtop.com^$third-party
-||tabzz.xyz^$third-party
 ||spolecznosci.net^$third-party
 ||excpm.com^$third-party
 ||antvoice.com^$third-party
@@ -775,14 +771,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||rtbanalytics.com^
 ||waust.at^$third-party
 ||168logger.com^$third-party
-||isterra.ru^$third-party
 ||user-clicks.com^$third-party
-||mediapixelnet.com^$third-party
 ||bluecava.com^$third-party
 ||alcmpn.com^$third-party
 ||cdntrf.com^$third-party
-||trafscan.com^$third-party
-||retraffic.net^$third-party
 ||sentifi.com^$third-party
 ||yunit.org^$third-party
 ||dynatrace.com^$third-party
@@ -808,17 +800,13 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||dep-x.com^$third-party
 ||quantcount.com^$third-party
 ||fandommetrics.com^$third-party
-||chengyuplaza.com^$third-party
 ||12fou.com^$third-party
 ||rtmark.net^$third-party
-||xxxvv.ru^$third-party
 ||szsmtk.com^$third-party
 ||phywi.org^$third-party
 ||doomna.com^$third-party
 ||measuread.com^$third-party
 ||adblockanalytics.com^$third-party
-||sitestatlog.net^$third-party
-||listat.biz^$third-party
 ||lmodr.biz^$third-party
 ||hexagon-analytics.com^$third-party
 ||stat.media^$third-party
@@ -831,7 +819,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||pfxlive.com^$third-party
 ||fogl1onf.com^$third-party
 ||technical-service.net^$third-party
-||ko6ka.ru^$third-party
 ||pro100news.ru^$third-party
 ||trgtcdn.com^$third-party
 ||counterfire.info^$third-party
@@ -843,19 +830,16 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||tda.io^$third-party
 ||statpipe.ru^$third-party
 ||luxupcdnc.com^$third-party
-||hydr.work^$third-party
 ||connexity.net^
 ||bizrate.com^
 ||audienceinsights.net^$third-party
 ||pv.pjtsu.com^
 ||tt.ttarget.ru^$third-party
 ||adplus.io^$third-party
-||dewsburg.info^$third-party
 ||adheart.de^$third-party
 ||interakt.ru^$third-party
 ||ad.gt^$third-party
 ||toolcount.ru^$third-party
-||retarala.ru^$third-party
 ||dmpcloud.net^$third-party
 ||tanidigital.com^$third-party
 //t100.ru^$third-party
@@ -864,7 +848,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||0stats.com^$third-party
 ||0tracker.com^$third-party
 ||1-cl0ud.com^$third-party
-||100im.info^$third-party
 ||103bees.com^$third-party
 ||105app.com^$third-party
 ||11nux.com^$third-party
@@ -966,9 +949,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||adchemy.com^$third-party
 ||adclear.net^$third-party
 ||adclickstats.net^$third-party
-||addcontrol.net^$third-party
 ||addfreestats.com^$third-party
-||addlvr.com^$third-party
 ||adelixir.com^$third-party
 ||adfox.ru^$third-party
 ||adgreed.com^$third-party
@@ -1001,13 +982,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||affilae.com^$third-party
 ||affiliateedge.eu^$third-party
 ||affiliates-pro.com^$third-party
-||affiliatetrackingsetup.com^$third-party
 ||affiliatly.com^$third-party
 ||affinesystems.com^$third-party
 ||affinitymatrix.com^$third-party
 ||affistats.com^$third-party
 ||afsanalytics.com^$third-party
-||agencytradingdesk.net^$third-party
 ||agentinteractive.com^$third-party
 ||agillic.eu^$third-party
 ||agilone.com^$third-party
@@ -1022,9 +1001,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||alenty.com^$third-party
 ||alexacdn.com^$third-party
 ||alexametrics.com^$third-party
-||alltagcloud.info^$third-party
 ||alltracked.com^$third-party
-||alnera.eu^$third-party
 ||altabold1.com^$third-party
 ||altastat.com^$third-party
 ||alvenda.com^$third-party
@@ -1034,7 +1011,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||amazingcounters.com^$third-party
 ||amazy.ru^$third-party
 ||ambercrow.com^$third-party
-||amctp.net^$third-party
 ||amikay.com^$third-party
 ||amung.us^$third-party
 ||amxdt.com^$third-party
@@ -1046,7 +1022,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||analytk.com^$third-party
 ||anametrix.com^$third-party
 ||anametrix.net^$third-party
-||anatid3.com^$third-party
 ||andersenit.dk^$third-party
 ||andyhoppe.com^$third-party
 ||anexia-it.com^$third-party
@@ -1111,7 +1086,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||backlink-test.de^$third-party
 ||backlink-umsonst.de^$third-party
 ||backlinkdino.de^$third-party
-||backlinks.li^$third-party
 ||bam-x.com^$third-party
 ||baptisttop1000.com^$third-party
 ||barilliance.net^$third-party
@@ -1225,7 +1199,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||cache.fm^$third-party
 ||cadreon.com^$third-party
 ||call-tracking.co.uk^$third-party
-||callingjustified.com^$third-party
 ||callisto.fm^$third-party
 ||callmeasurement.com^$third-party
 ||callrail.com^$third-party
@@ -1240,7 +1213,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||captivate.ai^$third-party
 ||cashburners.com^$third-party
 ||cashcount.com^$third-party
-||castelein.nu^$third-party
 ||cccpmo.com^$third-party
 ||cedexis.com^$third-party
 ||cedexis.net^$third-party
@@ -1254,37 +1226,29 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||chartbeat.com^$third-party
 ||chartbeat.net^$third-party
 ||checkeffect.at^$third-party
-||checkmypr.net^$third-party
 ||checkstat.nl^$third-party
-||cheezburger-analytics.com^$third-party
 ||christiantop1000.com^$third-party
 ||christmalicious.com^$third-party
 ||chrumedia.com^$third-party
 ||circle.am^$third-party
 ||circular-counters.com^$third-party
 ||cityua.net^$third-party
-||clarifyingquack.com^$third-party
 ||claritytag.com^$third-party
 ||cleananalytics.com^$third-party
-||clearviewstats.com^$third-party
 ||cleveritics.com^$third-party
 ||clevi.com^$third-party
-||click-linking.com^$third-party
 ||click-url.com^$third-party
-||click2meter.com^$third-party
 ||click4assistance.co.uk^$third-party
 ||clickable.net^$third-party
 ||clickaider.com^$third-party
 ||clickalyzer.com^$third-party
 ||clickclick.net^$third-party
-||clickcloud.info^$third-party
 ||clickconversion.net^$third-party
 ||clickdensity.com^$third-party
 ||clickdimensions.com^$third-party
 ||clickening.com^$third-party
 ||clickforensics.com^$third-party
 ||clicki.cn^$third-party
-||clickigniter.io^$third-party
 ||clickinc.com^$third-party
 ||clickmanage.com^$third-party
 ||clickmap.ch^$third-party
@@ -1297,7 +1261,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||clickshift.com^$third-party
 ||clickstream.co.za^$third-party
 ||clicktale.net^$third-party
-||clicktrack1.com^$third-party
 ||clicktracks.com^$third-party
 ||clickzs.com^$third-party
 ||clickzzs.nl^$third-party
@@ -1330,7 +1293,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||compteur-gratuit.org^$third-party
 ||compteur.cc^$third-party
 ||compteur.com^$third-party
-||comradepony.com^$third-party
 ||confirmational.com^$third-party
 ||confirmit.com^$third-party
 ||contactmonkey.com^$third-party
@@ -1350,35 +1312,28 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||conversionruler.com^$third-party
 ||convertexperiments.com^$third-party
 ||convertglobal.com^$third-party
-||convertmarketing.net^$third-party
 ||convertro.com^$third-party
 ||cooladata.com^$third-party
-||copacast.net^$third-party
 ||copperegg.com^$third-party
 ||core-cen-54.com^$third-party
 ||coremetrics.com^$third-party
 ||coremotives.com^$third-party
-||cormce.com^$third-party
 ||cosmi.io^$third-party
 ||cost1action.com^$third-party
-||count-cnt.ru^$third-party
 ||count.fr^$third-party
 ||count24.de^$third-party
 ||countar.de^$third-party
 ||countby.com^$third-party
-||counted.at^$third-party
 ||counter-city.de^$third-party
 ||counter-go.de^$third-party
 ||counter-gratis.com^$third-party
 ||counter-kostenlos.info^$third-party
 ||counter-kostenlos.net^$third-party
-||counter-pagerank.de^$third-party
 ||counter-treff.de^$third-party
 ||counter.de^$third-party
 ||counter.gd^$third-party
 ||counter160.com^$third-party
 ||counter27.ch^$third-party
-||counter4all.de^$third-party
 ||counterbot.com^$third-party
 ||countercentral.com^$third-party
 ||countercity.de^$third-party
@@ -1398,9 +1353,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||counterviews.net^$third-party
 ||counthis.com^$third-party
 ||counti.de^$third-party
-||countimo.de^$third-party
 ||counting4free.com^$third-party
-||countingbiz.info^$third-party
 ||countino.de^$third-party
 ||countit.ch^$third-party
 ||countnow.de^$third-party
@@ -1430,14 +1383,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||crsspxl.com^$third-party
 ||crwdcntrl.net^$third-party
 ||csdata1.com^$third-party
-||csi-tracking.com^$third-party
 ||ctnsnet.com^$third-party
-||cttracking02.com^$third-party
 ||cuntador.com^$third-party
 ||curalate.com^$third-party
 ||customer.io^$third-party
 ||customerconversio.com^$third-party
-||customerdiscoverytrack.com^$third-party
 ||cxense.com^$third-party
 ||cxt.ms^$third-party
 ||cy-pr.com^$third-party
@@ -1450,7 +1400,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||dailycaller-alerts.com^$third-party
 ||dapxl.com^$third-party
 ||dashboard.io^$third-party
-||data-analytics.jp^$third-party
 ||databrain.com^$third-party
 ||datacaciques.com^$third-party
 ||datafeedfile.com^$third-party
@@ -1460,7 +1409,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||dataperforma.com^$third-party
 ||datarating.com^$third-party
 ||datvantage.com^$third-party
-||daylife-analytics.com^$third-party
 ||daylogs.com^$third-party
 ||dc-storm.com^$third-party
 ||de17a.com^$third-party
@@ -1468,27 +1416,22 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||decenthat.com^$third-party
 ||decibelinsight.net^$third-party
 ||decideinteractive.com^$third-party
-||declaredthoughtfulness.co^$third-party
 ||demandbase.com^$third-party
 ||demdex.net^$third-party
 ||deqwas.net^$third-party
 ||desert.ru^$third-party
 ||device9.com^$third-party
-||dgmsearchlab.com^$third-party
-||dhmtracking.co.za^$third-party
 ||dialogtech.com^$third-party
 ||did-it.com^$third-party
 ||didit.com^$third-party
 ||die-rankliste.com^$third-party
 ||diffusion-tracker.com^$third-party
-||digdeepdigital.com.au^$third-party
 ||digidip.net^$third-party
 ||digitaloptout.com^$third-party
 ||digitaltarget.ru^$third-party
 ||dignow.org^$third-party
 ||dimestore.com^$third-party
 ||dimml.io^$third-party
-||dinkstat.com^$third-party
 ||directcounter.de^$third-party
 ||directrdr.com^$third-party
 ||directrix.ru^$third-party
@@ -1498,8 +1441,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||distralytics.com^$third-party
 ||divolution.com^$third-party
 ||djers.com^$third-party
-||dk-statistik.de^$third-party
-||dlrowehtfodne.com^$third-party
 ||dmanalytics1.com^$third-party
 ||dmclick.cn^$third-party
 ||dmd53.com^$third-party
@@ -1512,18 +1453,15 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||dotmetrics.net^$third-party
 ||dotomi.com^$third-party
 ||doubleclick.net^$image,third-party
-||downture.in^$third-party
 ||dpbolvw.net^$third-party
 ||dps-reach.com^$third-party
 ||dreamcounter.de^$third-party
 ||dsmmadvantage.com^$third-party
 ||dsparking.com^$third-party
 ||dsply.com^$third-party
-||dstrack2.info^$third-party
 ||dtc-v6t.com^$third-party
 ||dti-ranker.com^$third-party
 ||dtscout.com^$third-party
-||dummy-domain-do-not-change.com^$third-party
 ||durocount.com^$third-party
 ||dwin1.com^$third-party
 ||dwin2.com^$third-party
@@ -1534,7 +1472,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||e-webtrack.net^$third-party
 ||e-zeeinternet.com^$third-party
 ||eanalyzer.de^$third-party
-||earnitup.com^$third-party
 ||easy-hit-counters.com^$third-party
 ||easy.lv^$third-party
 ||easycounter.com^$third-party
@@ -1572,7 +1509,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||emltrk.com^$third-party
 ||emsecure.net^$third-party
 ||enecto.com^$third-party
-||enectoanalytics.com^$third-party
 ||engageya.com^$third-party
 ||engine212.com^$third-party
 ||engine64.com^$third-party
@@ -1599,14 +1535,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||estat.com^$third-party
 ||estrack.net^$third-party
 ||etahub.com^$third-party
-||etherealhakai.com^$third-party
 ||ethn.io^$third-party
 ||ethnio.com^$third-party
 ||etracker.com^$third-party
 ||etracker.de^$third-party
 ||etracking24.de^$third-party
-||etrafficcounter.com^$third-party
-||etrafficstats.com^$third-party
 ||etrigue.com^$third-party
 ||etyper.com^$third-party
 ||eu-survey.com^$third-party
@@ -1622,9 +1555,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||everesttech.net^$third-party
 ||evergage.com^$third-party
 ||evisitanalyst.com^$third-party
-||evisitcs.com^$third-party
-||evisitcs2.com^$third-party
-||evolvemediametrics.com^$third-party
 ||evyy.net^$third-party
 ||ewebanalytics.com^$third-party
 ||ewebcounter.com^$third-party
@@ -1676,9 +1606,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||fixwap.net^$third-party
 ||flagcounter.com^$third-party
 ||flash-counter.com^$third-party
-||flash-stat.com^$third-party
 ||flashadengine.com^$third-party
-||flashgamestats.com^$third-party
 ||flcounter.com^$third-party
 ||t.flix360.com^
 ||rt.flix360.com^
@@ -1686,7 +1614,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||flixfacts.co.uk^$third-party
 ||flixfacts.com^$third-party
 ||flixsyndication.net^$third-party
-||flowstats.net^$third-party
 ||fluctuo.com^$third-party
 ||fluencymedia.com^$third-party
 ||fluidsurveys.com^$third-party
@@ -1739,13 +1666,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||freeweblogger.com^$third-party
 ||freihit.de^$third-party
 ||fremaks.net^$third-party
-||frescoerspica.com^$third-party
 ||freshcounter.com^$third-party
 ||freshplum.com^$third-party
 ||friendbuy.com^$third-party
 ||frosmo.com^$third-party
 ||fruitflan.com^$third-party
-||fshka.com^$third-party
 ||ftbpro.com^$third-party
 ||ftrack.ru^$third-party
 ||fueldeck.com^$third-party
@@ -1774,8 +1699,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||getbackstory.com^$third-party
 ||getclicky.com^$third-party
 ||getconversion.net^$third-party
-||getcounter.de^$third-party
-||getetafun.info^$third-party
 ||getfreebacklinks.com^$third-party
 ||getfreebl.com^$third-party
 ||getsidecar.com^$third-party
@@ -1801,7 +1724,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||goneviral.com^$third-party
 ||goodcounter.org^$third-party
 ||google-pagerank.net^$third-party
-||google-pr7.de^$third-party
 ||google-rank.org^$third-party
 ||googleadservices.com^$third-party
 ||googlerank.info^$third-party
@@ -1820,7 +1742,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||graphinsider.com^$third-party
 ||gratis-besucherzaehler.de^$third-party
 ||gratis-counter-gratis.de^$third-party
-||gratisbacklink.de^$third-party
 ||gravity4.com^$third-party
 ||greatviews.de^$third-party
 ||grepdata.com^$third-party
@@ -1836,13 +1757,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||gtop.ro^$third-party
 ||gtopstats.com^$third-party
 ||guanoo.net^$third-party
-||guardwork.info^$third-party
-||guruquicks.net^$third-party
 ||gvisit.com^$third-party
 ||h4k5.com^$third-party
 ||halldata.com^$third-party
 ||halstats.com^$third-party
-||haraju.co^$third-party
 ||haveamint.com^$third-party
 ||haymarket.com^$third-party
 ||heapanalytics.com^$third-party
@@ -1875,7 +1793,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||hitgraph.jp^$third-party
 ||hitmaster.de^$third-party
 ||hitmatic.com^$third-party
-||hitmaze-counters.net^$third-party
 ||hitmeter.ru^$third-party
 ||hitmir.ru^$third-party
 ||hits.e.cl^$third-party
@@ -1891,22 +1808,17 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||hitwake.com^$third-party
 ||hitwebcounter.com^$third-party
 ||hlserve.com^$third-party
-||hopurl.org^$third-party
 ||hostip.info^$third-party
-||hoststats.info^$third-party
 ||hot-count.com^$third-party
 ||hotcounter.de^$third-party
 ||hotjar.com^$third-party
 ||hotlog.ru^$third-party
 ||hotrank.com.tw^$third-party
-||hotstats.gr^$third-party
-||hqhrt.com^$third-party
 ||hs-analytics.net^$third-party
 ||humanclick.com^$third-party
 ||hung.ch^$third-party
 ||hunt-leads.com^$third-party
 ||hurra.com^$third-party
-||hurterkranach.net^$third-party
 ||hwpub.com^$third-party
 ||hxtrack.com^$third-party
 ||hyfntrak.com^$third-party
@@ -1929,16 +1841,13 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||ifactz.com^$third-party
 ||igaming.biz^$third-party
 ||iivt.com^$third-party
-||ijncw.tv^$third-party
 ||iljmp.com^$third-party
 ||ilk10.az^$third-party
 ||illumenix.com^$third-party
 ||ilogbox.com^$third-party
-||imanginatium.com^$third-party
 ||imcht.net^$third-party
 ||imetrix.it^$third-party
 ||immanalytics.com^$third-party
-||impcounter.com^$third-party
 ||improvely.com^$third-party
 ||imrtrack.com^$third-party
 ||imrworldwide.com^$third-party
@@ -1946,13 +1855,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||inboxtag.com^$third-party
 ||incentivesnetwork.net^$third-party
 ||index.ru^$third-party
-||c.index.ru^
 ||indexstats.com^$third-party
 ||indextools.com^$third-party
 ||indicia.com^$third-party
 ||individuad.net^$third-party
 ||ineedhits.com^$third-party
-||inet-tracker.de^$third-party
 ||inferclick.com^$third-party
 ||infinigraph.com^$third-party
 ||infinity-tracking.net^$third-party
@@ -1982,7 +1889,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||intentmedia.net^$third-party
 ||interaktiv-net.de^$third-party
 ||interceptum.com^$third-party
-||interestably.com^$third-party
 ||intergid.ru^$third-party
 ||intergient.com^$third-party
 ||interhits.de^$third-party
@@ -2004,7 +1910,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||ipcatch.com^$third-party
 ||ipcount.net^$third-party
 ||ipcounter.de^$third-party
-||ipcounter.net^$third-party
 ||iperceptions.com^$third-party
 ||ipfingerprint.com^$third-party
 ||ipfrom.com^$third-party
@@ -2014,10 +1919,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||iplocationtools.com^$third-party
 ||ipro.com^$third-party
 ||ipstat.com^$third-party
-||iptrack.biz^$third-party
 ||ipv6monitoring.eu^$third-party
 ||iqfp1.com^$third-party
-||irelandmetrix.ie^$third-party
 ||irs09.com^$third-party
 ||iryazan.ru^$third-party
 ||is.sabah.com.tr^$third-party
@@ -2036,15 +1939,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||iyi.net^$third-party
 ||izea.com^$third-party
 ||izearanks.com^$third-party
-||japanmetrix.jp^$third-party
 ||jdoqocy.com^$third-party
-||jetcounter.ru^$third-party
 ||jiankongbao.com^$third-party
-||jimdo-stats.com^$third-party
 ||jirafe.com^$third-party
 ||js.medi-8.net^$third-party
 ||jscounter.com^$third-party
-||jsid.info^$third-party
 ||jsonip.com^$third-party
 ||jstracker.com^$third-party
 ||jump-time.net^$third-party
@@ -2069,7 +1968,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||kisstesting.com^$third-party
 ||kitbit.net^$third-party
 ||kitcode.net^$third-party
-||kka.agitos.de^
 ||klamm-counter.de^$third-party
 ||klert.com^$third-party
 ||klldabck.com^$third-party
@@ -2118,14 +2016,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||link-smart.com^$third-party
 ||linkconnector.com^$third-party
 ||linkpulse.com^$third-party
-||linktausch.li^$third-party
 ||linkxchanger.com^$third-party
 ||listrakbi.com^$third-party
 ||listtop.ru^$third-party
 ||livecount.fr^$third-party
 ||livecounter.dk^$third-party
-||livehit.net^$third-party
-||liverank.org^$third-party
 ||livestat.com^$third-party
 ||livestats.fr^$third-party
 ||livewebstats.dk^$third-party
@@ -2139,7 +2034,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||logentries.com^$third-party
 ||loger.ru^$third-party
 ||logger.co.kr^$third-party
-||logger.su^$third-party
 ||loggly.com^$third-party
 ||lognormal.net^$third-party
 ||logua.com^$third-party
@@ -2157,7 +2051,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||lporirxe.com^$third-party
 ||lptracker.ru^$third-party
 ||lsfinteractive.com^$third-party
-||lstats.qip.ru^$third-party
 ||lucidel.com^$third-party
 ||luckyorange.com^$third-party
 ||lugansk-info.ru^$third-party
@@ -2179,13 +2072,11 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||maploco.com^$third-party
 ||mapmyuser.com^$third-party
 ||marinsm.com^$third-party
-||market015.com^$third-party
 ||market2lead.com^$third-party
 ||marketing-page.de^$third-party
 ||marketizator.com^$third-party
 ||marketo.net^$third-party
 ||marktest.pt^$third-party
-||martianstats.com^$third-party
 ||masterstats.com^$third-party
 ||matheranalytics.com^$third-party
 ||mathtag.com^$third-party
@@ -2198,7 +2089,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||mbsy.co^$third-party
 ||mbww.com^$third-party
 ||mcount.ru^$third-party
-||md-ia.info^$third-party
 ||mdotlabs.com^$third-party
 ||measure.ly^$third-party
 ||measuremap.com^$third-party
@@ -2206,7 +2096,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||mediaarmor.com^$third-party
 ||mediaforgews.com^$third-party
 ||mediagauge.com^$third-party
-||mediaindex.ee^$third-party
 ||mediametrics.ru^$third-party
 ||mediaplan.ru^$third-party
 ||mediaplex.com^$third-party
@@ -2214,15 +2103,12 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||mediego.com^$third-party
 ||meetrics.net^$third-party
 ||mega-stats.com^$third-party
-||megastat.net^$third-party
 ||megatopsites.com^$third-party
-||melatstat.com^$third-party
 ||memecounter.com^$third-party
 ||mengis-linden.org^$third-party
 ||mercadoclics.com^$third-party
 ||mercent.com^$third-party
 ||metakeyproducer.com^
-||metakeyproducer.com^$third-party
 ||metalyzer.com^$third-party
 ||meteorsolutions.com^$third-party
 ||metricsdirect.com^$third-party
@@ -2233,10 +2119,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||micodigo.com^$third-party
 ||microcounter.de^$third-party
 ||midas-i.com^$third-party
-||midkotatraffic.net^$third-party
 ||millioncounter.com^$third-party
 ||minewhat.com^$third-party
-||mitmeisseln.de^$third-party
 ||mixpanel.com^$third-party
 ||api.segment.io^$third-party
 ||mkt3261.com^$third-party
@@ -2245,12 +2129,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||mktoresp.com^$third-party
 ||ml314.com^$third-party
 ||mlclick.com^$third-party
-||mletracker.com^$third-party
 ||mlno6.com^$third-party
 ||mlstat.com^$third-party
 ||mm7.net^$third-party
 ||mmccint.com^$third-party
-||mmetrix.mobi^$third-party
 ||mmi-agency.com^$third-party
 ||mmstat.com^$third-party
 ||mmtro.com^$third-party
@@ -2281,12 +2163,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||mr-rank.de^$third-party
 ||msgapp.com^$third-party
 ||msgtag.com^$third-party
-||mstop.ru^$third-party
 ||mstracker.net^$third-party
 ||mtrack.nl^$third-party
 ||mtracking.com^$third-party
-||mtrics.cdc.gov^$third-party
-||mucocutaneousmyrmecophaga.com^$third-party
 ||musiccounter.ru^$third-party
 ||mvilivestats.com^$third-party
 ||mvtracker.com^$third-party
@@ -2350,7 +2229,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||netbiscuits.net^$third-party
 ||netclickstats.com^$third-party
 ||netcounter.de^$third-party
-||netcustos.com^$third-party
 ||netdebit-counter.de^$third-party
 ||netflame.cc^$third-party
 ||netgraviton.net^$third-party
@@ -2363,23 +2241,19 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||netupdater.info^$third-party
 ||netzaehler.de^$third-party
 ||netzstat.ch^$third-party
-||newpoints.info^$third-party
 ||newsanalytics.com.au^$third-party
 ||newscurve.com^$third-party
-||newstatscounter.info^$third-party
 ||newtrackmedia.com^$third-party
 ||nexeps.com^$third-party
 ||nextstat.com^$third-party
 ||ngacm.com^$third-party
 ||ngastatic.com^$third-party
 ||ngmco.net^$third-party
-||nicewii.com^$third-party
 ||niftymaps.com^$third-party
 ||nik.io^$third-party
 ||ninestats.com^$third-party
 ||noowho.com^$third-party
 ||nordicresearch.com^$third-party
-||northclick-statistiken.de^$third-party
 ||notifyvisitors.com^$third-party
 ||nowinteract.com^$third-party
 ||npario-inc.net^$third-party
@@ -2399,7 +2273,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||observare.de^$third-party
 ||observerapp.com^$third-party
 ||octavius.rocks^$third-party
-||odesaconflate.com^$third-party
 ||odoscope.com^$third-party
 ||oewabox.at^$third-party
 ||offermatica.com^$third-party
@@ -2408,16 +2281,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||ogt.jp^$third-party
 ||ohmystats.com^$third-party
 ||oidah.com^$third-party
-||oix-stage.net^$third-party
 ||oix.com^$third-party
 ||oix.phorm.com^$third-party
-||oixcrv-lab.net^$third-party
-||oixcrv-stage.net^$third-party
-||oixcrv.net^$third-party
-||oixpre-stage.net^$third-party
-||oixpre.net^$third-party
-||oixssp-lab.net^$third-party
-||oixssp.net^$third-party
 ||ojrq.net^$third-party
 ||okt.to^$third-party
 ||oktopost.com^$third-party
@@ -2433,12 +2298,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||onestat.com^$third-party
 ||onetag-sys.com^$third-party
 ||ongsono.com^$third-party
-||online-media-stats.com^$third-party
 ||online-metrix.net^$third-party
-||online-right-now.net^$third-party
 ||onlinewebstat.com^$third-party
 ||onlinewebstats.com^$third-party
-||onlysix.co.uk^$third-party
 ||onthe.io^$third-party
 ||opbandit.com^$third-party
 ||openclick.com^$third-party
@@ -2448,7 +2310,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||openstat.net^$third-party
 ||opentracker.net^$third-party
 ||openvenue.com^$third-party
-||openxtracker.com^$third-party
 ||oproi.com^$third-party
 ||optify.net^$third-party
 ||optimahub.com^$third-party
@@ -2460,7 +2321,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||optorb.com^$third-party
 ||oranges88.com^$third-party
 ||orcapia.com^$third-party
-||org-dot-com.com^$third-party
 ||os-data.com^$third-party
 ||ositracker.com^$third-party
 ||osxau.de^$third-party
@@ -2478,18 +2338,14 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||page-hit.de^$third-party
 ||pagefair.com^$third-party
 ||pagerank-backlink.eu^$third-party
-||pagerank-hamburg.de^$third-party
 ||pagerank-linkverzeichnis.de^$third-party
 ||pagerank-online.eu^$third-party
 ||pagerank-suchmaschine.de^$third-party
 ||pagerank.fr^$third-party
-||pagerank4you.eu^$third-party
 ||pagerankfree.com^$third-party
 ||pageranking-counter.de^$third-party
-||pageranking.li^$third-party
 ||pages05.net^$third-party
 ||pagesense.com^$third-party
-||pageview.goroost.com^$third-party
 ||paidstats.com^$third-party
 ||parameter.dk^$third-party
 ||parklogic.com^$third-party
@@ -2501,7 +2357,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||pclicks.com^$third-party
 ||pcspeedup.com^$third-party
 ||peakcounter.dk^$third-party
-||pebed.dm.gg^$third-party
 ||peerius.com^$third-party
 ||percentmobile.com^$third-party
 ||perfdrive.com^$third-party
@@ -2514,20 +2369,15 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||permutive.com^$third-party
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
-||personage.name^$third-party
 ||personyze.com^$third-party
 ||petametrics.com^$third-party
 ||phonalytics.com^$third-party
 ||phone-analytics.com^$third-party
-||phorm.com.tr^$third-party
 ||phorm.kr^$third-party
 ||phormlabs.com^$third-party
 ||photorank.me^$third-party
 ||phpstat.com^$third-party
 ||pi-stats.com^$third-party
-||pi.a42.ru
-||piano-media.com^$third-party
-||pickzor.com^$third-party
 ||pikzor.com^$third-party
 ||pimpmypr.de^$third-party
 ||ping-fast.com^$third-party
@@ -2543,7 +2393,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||pixeleze.com^$third-party
 ||pixelinteractivemedia.com^$third-party
 ||pixelrevenue.com^$third-party
-||pixelsnippet.com^$third-party
 ||piximedia.com^$third-party
 ||pjatr.com^$third-party
 ||pjtra.com^$third-party
@@ -2554,7 +2403,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||plexop.com^$third-party
 ||plexworks.de^$third-party
 ||plugin.ws^$third-party
-||plwosvr.net^$third-party
 ||pm0.net^$third-party
 ||pm14.com^$third-party
 ||pmbox.biz^$third-party
@@ -2566,24 +2414,17 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||pointomatic.com^$third-party
 ||polarmobile.com^$third-party
 ||popsample.com^$third-party
-||popstats.com.br^$third-party
 ||populr.me^$third-party
 ||porngraph.com^$third-party
 ||portfold.com^$third-party
 ||posst.co^$third-party
 ||postaffiliatepro.com^$third-party
 ||postclickmarketing.com^$third-party
-||powerbar-pagerank.de^$third-party
 ||powercount.com^$third-party
-||ppclocation.biz^$third-party
-||ppctracking.net^$third-party
 ||pr-chart.com^$third-party
 ||pr-chart.de^$third-party
-||pr-link.eu^$third-party
 ||pr-linktausch.de^$third-party
-||pr-rang.de^$third-party
 ||pr-sunshine.de^$third-party
-||pr-textlink.de^$third-party
 ||pr-update.biz^$third-party
 ||prchecker.info^$third-party
 ||precisioncounter.com^$third-party
@@ -2597,21 +2438,16 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||proclivitysystems.com^$third-party
 ||productsup.com^$third-party
 ||proext.com^$third-party
-||profilertracking3.com^$third-party
 ||profilesnitch.com^$third-party
 ||projeanaliz.com^$third-party
-||projecthaile.com^$third-party
 ||projectsunblock.com^$third-party
 ||promotionengine.com^$third-party
 ||proofpositivemedia.com^$third-party
-||propagerank.de^$third-party
 ||prospecteye.com^$third-party
-||prostats.it^$third-party
 ||provenpixel.com^$third-party
 ||providence.voxmedia.com^$third-party
 ||prtracker.com^$third-party
 ||pstats.com^$third-party
-||psyma-statistics.com^$third-party
 ||ptengine.com^$third-party
 ||pto-slb-09.com^$third-party
 ||ptp123.com^$third-party
@@ -2627,7 +2463,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||push2check.com^$third-party
 ||putags.com^$third-party
 ||pxi.pub^$third-party
-||pzkysq.pink^$third-party
 ||q-counter.com^$third-party
 ||q-stats.nl^$third-party
 ||qbaka.net^$third-party
@@ -2656,7 +2491,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||ranking-charts.de^$third-party
 ||ranking-counter.de^$third-party
 ||ranking-hits.de^$third-party
-||ranking-it.de^$third-party
 ||ranking-links.de^$third-party
 ||rankingpartner.com^$third-party
 ||rankings24.de^$third-party
@@ -2672,12 +2506,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||reactful.com^$third-party
 ||readertracking.com^$third-party
 ||readnotify.com^$third-party
-||real5traf.ru^$third-party
 ||realcounter.eu^$third-party
 ||realcounters.com^$third-party
 ||reali.st^$third-party
 ||realist.gen.tr^$third-party
-||realtimeplease.com^$third-party
 ||realtimewebstats.net^$third-party
 ||realtracker.com^$third-party
 ||realtracking.ninja^$third-party
@@ -2691,7 +2523,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||reedge.com^$third-party
 ||referer.org^$third-party
 ||referforex.com^$third-party
-||referlytics.com^$third-party
 ||referrer.org^$third-party
 ||refersion.com^$third-party
 ||refinedads.com^$third-party
@@ -2705,7 +2536,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||relmaxtop.com^$third-party
 ||remarketstats.com^$third-party
 ||rep0pkgr.com^$third-party
-||repaynik.com^$third-party
 ||res-x.com^$third-party
 ||research-artisan.com^$third-party
 ||research-int.se^$third-party
@@ -2715,7 +2545,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||reseau-pub.com^$third-party
 ||reson8.com^$third-party
 ||responsetap.com^$third-party
-||retags.us^$third-party
 ||retargetly.com^$third-party
 ||reussissonsensemble.fr^$third-party
 ||revdn.net^$third-party
@@ -2723,7 +2552,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||revenuescience.com^$third-party
 ||revenuewire.net^$third-party
 ||revolvermaps.com^$third-party
-||revsw.net^$third-party
 ||rewardtv.com^$third-party
 ||reztrack.com^$third-party
 ||rfihub.com^$third-party
@@ -2772,7 +2600,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||salesgenius.com^$third-party
 ||saletrack.co.uk^$third-party
 ||sapha.com^$third-party
-||sarevtop.com^$third-party
 ||sas15k01.com^$third-party
 ||sayutracking.co.uk^$third-party
 ||sayyac.com^$third-party
@@ -2780,7 +2607,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||sbdtds.com^$third-party
 ||scaledb.com^$third-party
 ||scarabresearch.com^$third-party
-||scastnet.com^$third-party
 ||schoolyeargo.com^$third-party
 ||sciencerevenue.com^$third-party
 ||scorecardresearch.com^$third-party
@@ -2797,15 +2623,12 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||searchfeed.com^$third-party
 ||searchignite.com^$third-party
 ||searchplow.com^$third-party
-||searchstats.usa.gov^$third-party
-||secure-pixel.com^$third-party
 ||securepaths.com^$third-party
 ||securestudies.com^$third-party
 ||sedotracker.com^$third-party
 ||sedotracker.de^$third-party
 ||seehits.com^$third-party
 ||seewhy.com^$third-party
-||segment-analytics.com^$third-party
 ||segment.com^$third-party
 ||segment.io^$third-party
 ||segmentify.com^$third-party
@@ -4679,6 +4502,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||tracking.bonnier.news^
+||jtp.expressen.se^
 ||tracker.arc.io^
 ||prx.wayfair.com^
 ||e-stat.huya.com^
@@ -6664,6 +6489,9 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||cdn.megadata.co.kr/dist/prod/enp_tracker_
+||image.cauly.co.kr/script/caulytracker_async.js
+||scv.band.us/jackpotlog/*/logs
 ||gate.upclick.com/btn/visitor.min.js
 ||macg.co/modules/statistics/statistics.php
 ||nelo2-col.navercorp.com/_store
@@ -6962,7 +6790,6 @@ kanobu.ru##a[href^="https://www.liveinternet.ru/click"]
 beauty.ua##.footer-counters
 ctvnews.ca##img[alt="comscorebeacon"]
 ||s.pixfs.net/visitor.pixplug.in/
-||siteoid.com/matomo/matomo.js
 ||s.aimg.sk/livemonitor/js/aztracker.js
 ||vidazoo.com/aggregate?
 ||vidazoo.com/event/
@@ -7055,7 +6882,6 @@ dokonline.com###Counters + div[class="block"]
 ||sexu.com/api/ttrack
 ||fls.doubleclick.net/activityi
 ||analytics.dugun.com^
-||matomo.hellohi.me/matomo.js
 ||api.emailprivacytester.com/callback^$third-party
 portaltele.com.ua##.td-footer-template-9
 ||instadp.com/track
@@ -7095,7 +6921,6 @@ tap.az##.links-sites > .counters
 ||webtv.bundestag.de/iptv/js/youbora^
 .ru/stat/?c=$domain=ucoz.net
 levashove.ru##.footer-four > section#custom_html-5
-||citycost.matomo.cloud/matomo.js
 ||d1gofkrkum4ehe.cloudfront.net/tracker.js
 ||cloudfront.net/sso.js
 ||graph.instagram.com/logging_client_events
@@ -7107,7 +6932,6 @@ levashove.ru##.footer-four > section#custom_html-5
 ||wieistmeineip.de/ip-adresse/$third-party
 ||7days.ru/statistics/*/hit?id=
 ||reklama.lv/services/collect.php
-||anal.audio.sex/matomo.js
 ||corebipublic.blob.core.windows.net/*/corebi.event.js
 ||medium.com/_/stat?event=pixel.load
 ||glami.com.tr/js/compiled/pt.js
@@ -7223,7 +7047,6 @@ continentseven.com##.gaoop
 ||map.naver.com/*/api/searchAddressById
 ||ca-fe.pstatic.net/web-mobile/static/web-crash-logger
 ||ca-fe.pstatic.net/web-mobile/static/naverStatLogger
-||scv.band.us/jackpotlog/*/logs
 ||apis.naver.com/videostat/videostat/qoe
 ||s1.daumcdn.net/svc/original/U03/cssjs/userAgent
 ||tv.naver.com/resources/release/js_*/player*Logge
@@ -8572,6 +8395,7 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||gulfnews.com^$cookie=/incap_ses_|visid_incap_|NEW_VISITOR|nlbi_|___utmv/
 ||fusionmovies.to^$cookie=/^_tezer_|_on_page/
 ||imgur.com^$cookie=/^amplitude_id_/
 ||senmanga.com^$cookie=sen_manga_session
@@ -9130,6 +8954,9 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/72103
+! m.cafe.naver.com - fixed crash on https://m.cafe.naver.com/ca-fe/web/cafes/16174233/articles/27666?fromPopular=true
+@@||scv.band.us/jackpotlog/*/logs$domain=m.cafe.naver.com
 ! https://forum.adguard.com/index.php?threads/41486/
 @@||dpm.zebestof.com/*/tag.js$domain=commentcamarche.net
 ||dpm.zebestof.com/*/tag.js$script,redirect=noopjs,important,domain=commentcamarche.net
@@ -9415,6 +9242,7 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58944
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
 ! https://forum.adguard.com/index.php?threads/samsung-com.39002/
+@@||assets.adobedtm.com/*-source.min.js$domain=samsung.com
 @@||assets.adobedtm.com/*launch-*.min.js$domain=samsung.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58157
 ! liga.net - fixing comments
