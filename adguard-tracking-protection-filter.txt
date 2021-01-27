@@ -1,8 +1,8 @@
-! Checksum: jQMEIxUIzTeC0R5r2uagdQ
+! Checksum: TaemJ/eb1eRh9DcUcR8eiw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.23
-! TimeUpdated: 2021-01-25T19:31:35+03:00
+! Version: 2.0.20.28
+! TimeUpdated: 2021-01-26T23:31:26+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -218,6 +218,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||tag.goadopt.io^$third-party
+||tag.hariken.co^$third-party
 ||tracker.cauly.co.kr^
 ||tk.mediacategory.com^$third-party
 ||jscdn.appier.net^$third-party
@@ -480,7 +482,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||sys.refocus.ru^$third-party
 ||center.io^$third-party
 ||apn.c.appier.net^$third-party
-||d1gwclp1pmzk26.cloudfront.net^$third-party
 ||stats2.agilecrm.com^$third-party
 ||doorbrazil.com^$third-party
 ||dmzls.safe-installation.com^$third-party
@@ -651,7 +652,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||app.shoptarget.com.br^$third-party
 ||netdeal.com.br^$third-party
 ||ibclick.stream^$third-party
-||denakop.com^$third-party
+||v*.denakop.com^$third-party
 ||trv.upperbooking.com^$third-party
 ||trl.upperbooking.com^$third-party
 ||getback.ch^$third-party
@@ -686,6 +687,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||stats.coronalabs.com^
 ||track.special-offers.online^$third-party
 ||crm-analytics.imweb.ru^$third-party
+||crm.agency^$third-party
 ||i.clean.gg^
 ||xl-trk.com^$third-party
 ||168logger.com^$third-party
@@ -978,6 +980,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||advanced-web-analytics.com^$third-party
 ||advconversion.com^$third-party
 ||adyapper.com^$third-party
+||adagency.digital^$third-party
 ||afairweb.com^$third-party
 ||affilae.com^$third-party
 ||affiliateedge.eu^$third-party
@@ -4502,6 +4505,12 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||l.typesquare.com^
+||estat.zum.com^
+||statweb.egloos.com^
+||analytics.tio.ch^
+||d335luupugsy2.cloudfront.net^
+||d1gwclp1pmzk26.cloudfront.net^
 ||tracking.bonnier.news^
 ||jtp.expressen.se^
 ||tracker.arc.io^
@@ -6164,6 +6173,13 @@ charlestownwyllie.oaklawnnonantum.com^
 ! https://github.com/easylist/easylist/issues/5297
 /submission/pageview
 /collect-*/pageview|
+! RD Station
+/lead-tracking.
+/traffic-source-cookie.
+/rdstation-popup.min.js
+/rd-js-integration.min.js
+! Plausible
+/plausible.js
 !
 /gapro.js
 /img.gif?
@@ -8353,6 +8369,16 @@ dreamprogs.net##td[width="88"][height="31"]
 ||trk.freepik.com
 ||pornhd.com/pinky.gif
 ! ||nav.files.bbci.co.uk/nav-analytics^   - breaks weather flash
+!
+! Canvas LMS tracking
+||canvas.*.edu/page_views
+||canvas.*.edu.*/page_views
+||canvas.*.ac.*/page_views
+.instructure.com/page_views
+||canvas.*.edu/api/v1/courses/*/ping
+||canvas.*.edu.*/api/v1/courses/*/ping
+||canvas.*.ac.*/api/v1/courses/*/ping
+.instructure.com/api/v1/courses/*/ping
 !
 ! KickAss torrents
 /static/cache/?url=https://mc.yandex.ru/*
