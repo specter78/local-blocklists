@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: w56DDaioWeYiz04yulA+ow
-! Version: 202101270520
+! Checksum: J43e463z68+C+lAakXCrqg
+! Version: 202101280740
 ! Title: RU AdList
-! Last modified: 27 Jan 2021 05:20 UTC
+! Last modified: 28 Jan 2021 07:40 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1734,6 +1734,7 @@ me##body[onfocus*="reloadliveblock"] > #bugoverlay ~ table tr > td[height^="9"][
 ##div[id^="cpa_rotator_block"]
 ##div[id^="criteo-"][style]
 ##div[id^="gnezdo_ru_"]
+##div[id^="itizergroup_"]
 ##div[id^="join_informer_"]
 ##div[id^="news_2xclick_ru_"]
 ##div[id^="news_nest_msk_ru"]
@@ -9688,6 +9689,7 @@ _tizers.
 ||tizerset.net^
 ||tizerstock.com^
 ||tizertracker.ru^$third-party
+||tizgo.ml^$third-party
 ||tizierlady.ru^$third-party
 ||tizirc.ru^$third-party
 ||tizlex.ru^$third-party
@@ -11735,8 +11737,7 @@ pickupforum.ru###content div[id^="slider_"]
 vsezdes.info###content h3[style] > span[style^="color"]
 praetorians.ws###content noindex a[href][target="_blank"]
 football24.ua###content-roll-tracker
-rifey.ru###content-top
-stratege.ru###content-top:empty
+rifey.ru,stratege.ru###content-top
 fimlru.ru,tvsok.ru###content-wraper > p
 rp5.am,rp5.by,rp5.co.nz,rp5.co.uk,rp5.kz,rp5.lt,rp5.lv,rp5.md,rp5.ru,rp5.ua###content-wrapper > #content ~ div[id]:not([id="mapa"])
 doranime.net,nnm-club.pw###content123
@@ -12161,6 +12162,7 @@ i-pic.ru,ipadus.ru,joomlatown.net,klanwin.ru,radikal.ru,ruspicbox.ru###parent_po
 clip2net.com###partbn
 hostingkartinok.com###partner
 hostingkartinok.com###partner-aside
+lux.fm###partner-block
 footballua.tv,kanalukraina.tv###partner_title
 sibmama.info,sibmama.ru###partners
 football24.ua###partners-propositions
@@ -12285,6 +12287,7 @@ milliarderr.com###right_informer
 katushka5.top###right_menu div[id][class][style^="display"] *
 sibnet.ru###right_place_wrapper
 stadion.uz###right_section > div[style^="height: 400px"]
+fast-torrent.info###rightcol .dtop
 alfa-form.ru###rightcol > *
 sudakonline.info###rightcol > .module-outer1
 sudakonline.info###rightcol > .module-outertoppanel
@@ -12838,6 +12841,7 @@ apostrophe.ua##.advertinline
 rusbody.com##.advertis
 np.pl.ua,soft-i-kino.ru##.advertise
 almodi.org,fightnews.info,kun.uz,liveinternet.ru##.advertisement
+agroportal.ua##.advertisement_side
 diary.ru,fireman.club,kanalukraina.tv,pershij.com.ua,qrz.ru,ufanet.ru,vsenovostroyki.com.ua##.advertising
 podolsk.ru##.advertising > span.title
 minfin.com.ua##.advertising-caption
@@ -13137,7 +13141,7 @@ e-katalog.com.ua,e-katalog.kiev.ua,e-katalog.ru,ek.ua##.banner-topline
 lifehacker.ru##.banner-under-header
 teleportal.ua##.banner-wide
 kavtoday.ru,segodnya.ua,sletat.ru##.banner-wrap
-day.az##.banner-wrapper
+day.az,lux.fm##.banner-wrapper
 appleinsider.ru,finance.ua##.banner-zone
 androidinsider.ru,hi-news.ru##.banner-zone-parent
 allboxing.ru##.banner.black
@@ -16476,6 +16480,7 @@ rutracker21.org##a[href="/donate.php"] + a[target="_blank"]
 gameinonline.com##a[href="/go/vshapke.html"]
 soft-file.ru##a[href="/golink/https://soft-file.ru/yandeks-brauzer/"]
 kinotorrs.me##a[href="/help"]
+fast-torrent.info##a[href="/media_get.html"]
 kinobaza.net##a[href="/out.php"]
 news29.ru##a[href="/reklama/"]
 windata.ru##a[href="/shorturl"]
@@ -18261,6 +18266,7 @@ forum.zakonia.ru##td[class^="alt"][align="left"] [style="float:right"]
 molbuk.ua##td[height="180"] ~ td[height="180"]
 ruskino.ru##td[height="90"][bgcolor]
 livetv.sx##td[height^="9"][bgcolor]
+fast-torrent.info##td[id$="col"] > noindex
 poufe.ru##td[onclick*="cntr.php?ban_id="]
 stroi-help.ru##td[rowspan="2"] > [style^="width:100%; background-color:#FFFFFF; border:solid 2px #ccc; border-radius:12px"]
 armadaboard.com##td[style*="theme_orig"] > table
@@ -22451,6 +22457,7 @@ lenta.ru##.b-header-inner__banner
 lenta.ru##.okko
 lenta.ru##.theme_type_longgrid
 lenta.ru##div[id^="rnet_lenta"]
+lenta.ru##iframe[src*="://audiosalute.lenta.ru/"]
 mail.rambler.ru##.Direct-root-hG
 mail.rambler.ru##[class*="MaillistItemAdvertPlace"]
 mail.rambler.ru##div[class*="Ad-direct"]
@@ -22479,11 +22486,12 @@ www.championat.com##[class*="coeffs-"]
 www.championat.com##[data-href^="https://www.fonbet.ru/"]
 www.championat.com##a[href^="https://www.fonbet.ru/"]
 www.rambler.ru##a[href*="clck.ru"]
-www.rambler.ru##a[href*="okko.tv"]
+www.rambler.ru##a[href*="okko."]
 www.rambler.ru##div[id^="adfox"]
 www.rambler.ru##svg > defs + g
 www.rambler.ru##svg ~ img[src]
 www.rambler.ru#?##main div:-abp-has(> div[class]:not([id^="player-"]) > [style^="height:"] > div:first-child:last-child)
+||audiosalute.lenta.ru/
 ||plista.com^$domain=wmj.ru
 ||ssp.rambler.ru^$domain=~ssp.rambler.ru
 !

@@ -1,8 +1,8 @@
-! Checksum: Ok8+WkV5YDgdWezB5DTYmw
+! Checksum: pEZqQpbRXtHPwf49yN5igQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.45
-! TimeUpdated: 2021-01-26T20:30:15+03:00
+! Version: 2.0.17.48
+! TimeUpdated: 2021-01-27T17:30:38+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -82,6 +82,10 @@
 !
 ! ||mobileapptracking.com^ - don't block this domain with all subdomains. https://forum.adguard.com/index.php?threads/23917/
 !
+!
+! Apps by Ketchapp
+||ketchapp.org^
+||cdn-ketchapp.akamaized.net^
 !
 ! Samsung mobile ads
 ||sspapi-prd.samsungrs.com^
@@ -2237,6 +2241,7 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+collectionofbestporn.com##.banner-mobile-header
 javsubtitle.co###mimpanel
 javsubtitle.co##.mid-ads
 javsubtitle.co##.bottom-ads
@@ -2259,6 +2264,8 @@ scmp.com##.section-content-bottom__ad-container
 web.de,gmx.*##.base-page__ad
 youmath.it###contenuto > #T[style="text-align: center;"]:empty
 hd21.com##.mercantile_title
+ruliweb.com##.mo_ad_main_ti_wrapper
+||ruliweb.com/js/criteo.publishertag.js
 afisha.ru,daily.co.jp,m.pornerbros.com,m.mynet.com,m.porntube.com##.adv
 www-musixmatch-com.cdn.ampproject.org##.topBanner
 www-musixmatch-com.cdn.ampproject.org##.bottomBanner
@@ -3260,7 +3267,7 @@ dongtw.com##.adfixWp
 dongtw.com##.jeg_ad
 motherless.com###advertisement-below-menu
 ||motherless.com/floater_iframe.php
-imagebam.com,motherless.com##._ln-floater
+collectionofbestporn.com,imagebam.com,motherless.com##._ln-floater
 anyporn.com###mh-ad
 ||anyporn.com/xml^$media,redirect=noopmp4-1s
 blog.livedoor.com##.MdAdBox01

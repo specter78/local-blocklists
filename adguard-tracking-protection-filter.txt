@@ -1,8 +1,8 @@
-! Checksum: TaemJ/eb1eRh9DcUcR8eiw
+! Checksum: UTvD9W1WwXuzrEArs8ITIg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.28
-! TimeUpdated: 2021-01-26T23:31:26+03:00
+! Version: 2.0.20.34
+! TimeUpdated: 2021-01-28T10:31:31+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -218,6 +218,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||events.launchdarkly.com^$third-party
+||eclog*.cafe24.com^
 ||tag.goadopt.io^$third-party
 ||tag.hariken.co^$third-party
 ||tracker.cauly.co.kr^
@@ -4374,7 +4376,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||omtrdc.net^
 ! Commanders Act
 ||tagcommander.com^
-||commandersact.com^
+||commandersact.com^$third-party
 ! Wizaly
 ||wizaly.com^
 ! Ingenious Technologies
@@ -5570,6 +5572,7 @@ nethunt.com/api/v1/track/email/$image
 ||om.dowjoneson.com^$third-party
 ||oimg.nbcuni.com^
 ||od.visiblemeasures.com^$object,third-party
+||analytics.ovh.com^
 ||qos.video.yimg.com^
 ||px.dynamicyield.com^$third-party
 ||production-eqbc.lvp.llnw.net^
@@ -6505,6 +6508,11 @@ _tracking.php?b=
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 !
+||cdn.digitaloceanspaces.com/pixel/lp.js
+||maillist-manage.com/wa/ActionLogger?
+||softland.co.kr/exec/front/eclog/
+||softland.co.kr/app/Eclog/js/cid.generate.js
+||push.soft-com.biz/api/ui/metrics
 ||cdn.megadata.co.kr/dist/prod/enp_tracker_
 ||image.cauly.co.kr/script/caulytracker_async.js
 ||scv.band.us/jackpotlog/*/logs
@@ -6552,6 +6560,7 @@ _tracking.php?b=
 ||livehdcams.com/api/metrics
 ||livehdcams.com/api/events
 ||pornhublive.com/api/metrics
+||bbc.com/ngas/latest/dotcom-analytics.js
 ||piano.io/tracker/$domain=inc42.com,important
 ||pornhublive.com/api/events
 ||nocutnews.co.kr/js/logger*.htm
@@ -7059,7 +7068,6 @@ continentseven.com##.gaoop
 ||yvesrocher.com.tr/images/__utm.gif^
 ||teenporn.ws/zaq/cron.php
 ||news.nate.com/js/today/userAgent
-||search1.daumcdn.net/search/statics/common/js/log
 ||map.naver.com/*/api/searchAddressById
 ||ca-fe.pstatic.net/web-mobile/static/web-crash-logger
 ||ca-fe.pstatic.net/web-mobile/static/naverStatLogger
@@ -8481,8 +8489,6 @@ link.gmapp*.net$image
 ||app-analytics-ru.huami.com^
 ! spb tv android app
 ||metrics.spbtv.com^
-! wifire tv android app
-||sas53netbynet.visualon.info^
 ! acestream android app
 ||android-stat.acestream.net^
 ! whatsapp android app
