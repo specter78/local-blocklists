@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rkDNxauCf4Rf64YlGslmIg
-! Version: 202101290520
+! Checksum: +GNEiLpQNox6OSMwER/LSA
+! Version: 202101300520
 ! Title: RU AdList
-! Last modified: 29 Jan 2021 05:20 UTC
+! Last modified: 30 Jan 2021 05:20 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11730,6 +11730,7 @@ mobbit.info###content > center
 forum.saransk.ru###content > div > div[class^="zone_"]
 pesni-tut.com###content > div[id^="mx"]
 oddstyle.ru###content > div[style="margin-left: 15px; margin-top: 10px;"] > a > img
+turkcinema.org###content > div[style^="margin-bottom:"]
 melodiimp3.ru###content > div[style^="max-width:"]
 wooordhunt.ru###content > div[style^="min-height:90px;"]
 portamur.ru###content > div[style^="padding"]
@@ -11964,6 +11965,7 @@ kloomba.com,klumba.com###kl-ad-top
 kloomba.com###kl-o-gallery-ad
 price.ru###kontainer-top
 compulenta.ru###kph0
+clubtk.ru###kplus-popup-banner
 moviki.ru###kt_player > iframe[src]
 forum.vingrad.ru###kupitraff
 ogolosha.com###kv_banners
@@ -12757,7 +12759,6 @@ brunet-ka.ru##.add_zen
 chehov-vid.ru,spbdnevnik.ru##.adds
 hi-fi.ru##.adf
 sport-express.ru##.adfoxClickable
-turkcinema.me##.adglobal
 wintech.net.ru##.adgoogle
 mmoaddict.ru##.adl
 ua.today##.admix
@@ -13581,7 +13582,6 @@ talkwebber.ru##.col_c_stats > a[href^="http://talkwebber.ru/go/?"]
 alive-ua.com##.col_l_b
 itvcom.ru##.colr > h4
 naurfo.ru##.column a[href][target="_blank"]
-turkcinema.me##.column-left > .box-new-movies
 porngames.su##.column.last.mini > p
 alser.kz##.columnBanner
 mignews.com.ua#?#.columnTitle:-abp-contains(Новости партнеров)
@@ -14313,6 +14313,7 @@ lentainform.com##.left_column_news ~ *
 forexsystemsru.com##.left_ff a[href*="/fortrader.org/"]
 poezdato.net##.left_side
 kalugacity.ru##.leftb
+guland.com.ua##.leftbar a[href][target="_blank"] > img[src*="/image/banner/"]
 seasonvar.be,seasonvar.re##.leftbl
 thevista.ru##.leftblinks
 docfilms.info##.leftcol > noindex
@@ -15196,6 +15197,7 @@ freehd.com.ua,hdreactor.club,hdreactor.su##.sidebar > .menu-head:first-child + .
 do4a.net#?#.sidebar > .section:-abp-has(h3:-abp-contains(Реклама))
 fishki.net##.sidebar > .sidebar__block_tags ~ div
 habr.com##.sidebar > .sidebar_right_ad
+turkcinema.org##.sidebar > .widget-wrap ~ .widget-wrap > .widget_text
 ktozvonit.com.ua#?#.sidebar > .widget:-abp-has(> .adsbygoogle)
 ukrmilitary.com##.sidebar > .widget:nth-child(-n+4) > .widget-content div[style="text-align: center;"] > a[href]
 lavnik.net#?#.sidebar > .widget_list_mag_wp_300px:-abp-has(> .img-300 > a[href][target="_blank"])
@@ -15744,7 +15746,7 @@ i.ua##.widget_adv
 subbota.ua##.widget_atryspm
 rustaste.ru#?#.widget_categories:-abp-has(> div[align="center"] > img[src*="/aliban"])
 sdelalremont.ru##.widget_cb_widget
-alladvices.ru,amorefilms.ru,analitikaua.net,aspekty.net,auto-portal.com.ua,borodina-protiv-buzovoj.ru,dacha.help,dietdo.ru,electric-220.ru,erokomiksi.org,koskomp.ru,movienews.film,muwhi.ru,netsofta.net,psiholog4you.ru,rubrowsers.ru,sdelalremont.ru,sharknews.ru,simptomy-lechenie.net,tipsboard.ru,ua-report.info,vgolove.net,withcars.ru,zelenj.ru##.widget_custom_html
+alladvices.ru,amorefilms.ru,analitikaua.net,aspekty.net,auto-portal.com.ua,borodina-protiv-buzovoj.ru,cryptodzen.com,dacha.help,dietdo.ru,electric-220.ru,erokomiksi.org,koskomp.ru,movienews.film,muwhi.ru,netsofta.net,psiholog4you.ru,rubrowsers.ru,sdelalremont.ru,sharknews.ru,simptomy-lechenie.net,tipsboard.ru,ua-report.info,vgolove.net,withcars.ru,zelenj.ru##.widget_custom_html
 profootball.ua#?#.widget_custom_html:-abp-contains(/^новости партн|^реклама/i)
 rqnr.ru#?#.widget_custom_html:-abp-has(.adsbygoogle)
 125region.ru#?#.widget_custom_html:-abp-has(> .textwidget > #MediaMetricsInject)
@@ -22546,6 +22548,7 @@ games-pc.top,rustorka.com,rustorka.innal.top,rustorka.net,rustorka2.innal.top,ru
 ||bid/goto/*/*/$csp=sandbox allow-same-origin;
 ||hd.hnoph.top^$subdocument,domain=games-pc.top|innal.top|rustorka.com|rustorka.net|rustorkacom.lib
 ||info/goto/*/*/$csp=sandbox allow-same-origin;
+||popadon.com/goto/$csp=sandbox allow-same-origin;
 ||refpawqpttex.top^
 ||rustorka*/branding/$domain=games-pc.top|innal.top|rustorka.com|rustorka.net|rustorkacom.lib
 ||rustorka.*/goto/*/*/$csp=sandbox allow-same-origin;
@@ -24213,7 +24216,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||yastatic.net/jquery/*/jquery.min.js|$third-party,script
 @@||yastatic.net/market-export/*/adv/advert.js|
 @@||yastatic.net/pcode/adfox/header-bidding.js|$script,domain=car.ru
-@@||yastatic.net/pcode/adfox/loader.js$domain=1000.menu|car.ru|crowdrepublic.ru|dnevnik.ru|hitfm.ru|iz.ru|klops.ru|level.travel|makler.md|mos.ru|mosmetod.ru|mosreg.ru|mts.ru|nashe.ru|ogorod.ru|ok-magazine.ru|rbkgames.com|sm-news.ru|sm.news|stylenews.ru|vseinstrumenti.ru|webcaster.pro
+@@||yastatic.net/pcode/adfox/loader.js$domain=1000.menu|1prime.ru|car.ru|crowdrepublic.ru|dnevnik.ru|hitfm.ru|iz.ru|klops.ru|level.travel|makler.md|mos.ru|mosmetod.ru|mosreg.ru|mts.ru|nashe.ru|ogorod.ru|ok-magazine.ru|rbkgames.com|sm-news.ru|sm.news|stylenews.ru|vseinstrumenti.ru|webcaster.pro
 @@||yastatic.net/share2/share.js
 @@||yastatic.net/sitesearch*.js|$third-party,script
 @@||ytimg.com/yts/jsbin/*/www-widgetapi.js|$script,domain=imperiya.by
@@ -24528,7 +24531,7 @@ clan-soprano.ru##.popupBlock
 /static/libs/adetector/*$domain=cigarexpert.ru|swizz.ru|ulnar.ru|uxxa.ru
 @@||ddnk.advertur.ru/*/loader.js|$script
 pikabu.ru##[data-role="adb-warning"]
-cdnneedtv.ru,cdnpotok.com,cdntelesee.com,chepok.xyz,domatv.net,hdone.net,hindcine.tv,kipolino.site,klplayer.website,luxurytv.online,oneliketv.com,phys-kids.com,pokaz.me,rxtv.github.io,sovetromantica.com,t1pochek.site,tip0chek.site,tipochek.xyz,tivix.co,turkcinema.me,viks.tv,worldvideo.site#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/adblock|adblok|блокировщик/i))
+cdnneedtv.ru,cdnpotok.com,cdntelesee.com,chepok.xyz,domatv.net,hdone.net,hindcine.tv,kipolino.site,klplayer.website,luxurytv.online,oneliketv.com,phys-kids.com,pokaz.me,rxtv.github.io,sovetromantica.com,t1pochek.site,tip0chek.site,tipochek.xyz,tivix.co,viks.tv,worldvideo.site#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/adblock|adblok|блокировщик/i))
 sntch.com#?#article > p:-abp-contains(/отключите блокировку рекламы!$/)
 doctorrouter.ru,ranobe-novels.ru##body > :not([id]):not([class]):not(script)
 mods-club.ru##body > [id]:not([class]):not([iframe]):not(#main-bg)

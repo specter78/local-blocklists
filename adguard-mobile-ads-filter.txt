@@ -1,8 +1,8 @@
-! Checksum: V90ng8ILPPA9vcG6y5Cs1g
+! Checksum: cHH1TlVACZVWnsVzj9xl8A
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.49
-! TimeUpdated: 2021-01-28T17:30:35+03:00
+! Version: 2.0.17.51
+! TimeUpdated: 2021-01-29T20:03:18+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1273,6 +1273,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! greatist.com - leftover
+greatist.com#?##announcementBar ~ aside[class] button.icon-hl-close-thick:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71604
 gadgetsnow.com#?#div[class^="_"] > .mrecasadscode ~ div[class^="_"] > div[class*="_"] > h3:contains(/^Promoted$/) + ul > li > a[href^="https://www.gadgetsnow.com/affiliate_amazon.cms?"]:upward(3)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70343
@@ -1888,6 +1890,7 @@ yandex.ru#$#div[class*="_with-url-actualizer_yes"] > div.adv_type_top ~ div[clas
 ! ##### TEMPORARY END #####
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/73048
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68075
 @@||d-cache.microad.jp/js/td_iw_access.js$domain=watch.impress.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67968
