@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +GNEiLpQNox6OSMwER/LSA
-! Version: 202101300520
+! Checksum: 8ZvTSKgHazWy2rZUe9oEcQ
+! Version: 202101310520
 ! Title: RU AdList
-! Last modified: 30 Jan 2021 05:20 UTC
+! Last modified: 31 Jan 2021 05:20 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3142,6 +3142,7 @@ _tizers.
 ||moovy.ru/b*.php?
 ||moshoster.ru/images/$third-party
 ||mostinfo.net/img/top/
+||mostlv.com^$third-party,subdocument
 ||moviecash.ru^$third-party
 ||moyka66.ru^$third-party
 ||mrringo.com/images/banners/$third-party
@@ -11464,7 +11465,6 @@ myzuka.club###TVZavr
 videovegas.ru###VegasHeadAds
 1927.kiev.ua###WallpaperAd
 newsroom24.ru###_prizmaNE
-sdamgia.ru###a
 znaj.ua###above-header
 sbp-program.ru###activee
 balticlivecam.com###ad
@@ -11553,6 +11553,7 @@ meta.ua###aukro_s
 nm71.ru###az1
 nm71.ru###az2
 xyu.tv###azartplay-bttn
+sdamgia.ru###b
 23met.ru###b-bottom
 23met.ru###b-top
 meta.ua###b_meta_popup
@@ -12120,6 +12121,7 @@ donday-aksay.ru,donday-novocherkassk.ru,donday-shakhty.ru,donday-taganrog.ru,don
 saratovnews.ru###nws > .banner
 torrent-filmi.net,torrent-filmi.xyz###offBan
 youtube.com###offer-module
+russian.rt.com###offers
 kupidonia.ru###offers-right
 onlinemschool.com###oms_right > .oms_definition ~ div[style]
 kino-line.su###open_new_site
@@ -12272,6 +12274,7 @@ nezhatin.com.ua###right-sidebar > .widget_text:not(:first-child)
 hackware.ru,kali.tools#?##right-sidebar > aside:-abp-has(.adsbygoogle)
 hackware.ru,kali.tools#?##right-sidebar > aside:-abp-has([id^="yandex_rtb"])
 hackware.ru,kali.tools#?##right-sidebar > aside:-abp-has(div[name])
+smska.net.ua###right.widget-area
 translate.ru###rightAdvBlock
 disput.az###rightBanners
 sinoptik.ua###rightCol
@@ -13678,8 +13681,7 @@ spot.uz##.contentBoxR.floating_banner
 tsargrad.tv##.content__aside-banner
 fishki.net#?#.content__sub-heading:-abp-contains(Новости партнёров)
 putin-news.ru##.content_adv
-marpravda.ru,socportal.info##.content_banner
-kriminal.tv##.content_banner > :not(#hypercomments_widget)
+kriminal.tv,marpravda.ru,socportal.info##.content_banner
 work-info.com.ua##.content_bottom
 noob-club.ru##.content_cactus
 yaminecraft.ru##.content_f > div > center
@@ -17185,6 +17187,7 @@ zhukvesti.ru##div[class*="Banners"]
 career.ru##div[class*="HHC-Banner-"]
 fex.net##div[class*="__ads-"]
 vedomosti-ural.ru##div[class*="_bnr_"] a[href^="http"]:not([href*="vedomosti-ural.ru"])
+gamestracker.org##div[class*="_media"]
 www.eg.ru##div[class*="_promocodes "]
 track24.ru##div[class*="ad-vertising"]
 svpressa.ru##div[class*="adfox_banner"]
@@ -17211,7 +17214,6 @@ joinfo.ua##div[class*="content_ads"]
 livelib.ru##div[class*="context-ads-"]
 sveikata.lrytas.lt##div[class*="criteo"]
 fireman.club##div[class*="desktop_direct"]
-gamestracker.org##div[class*="downlo_media"]
 bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.ink,lib.sale,pravo.studio,provse.news,psihologia.biz,sci.house,scicenter.online,textbook.news,textbooks.studio,texts.news,uchebnikfree.com,xn--80aaivjfyj3e.com,xn--80ahc0abogjs.com##div[class*="edu_"]
 prnt.sc##div[class*="grundik"]
 fakty.ua##div[class*="informer banner"]
@@ -17720,7 +17722,7 @@ kosmetista.ru##div[id^="psn_"]
 kinogoo.cc##div[id^="qwetaper"]
 kp.ru##div[id^="rec"] > div div[style="align-items:center;"]
 vellisa.ru##div[id^="reclamads"]
-kabachok.online,s-platoon.ru,stulchik.net##div[id^="rek"]
+kabachok.online,stulchik.net##div[id^="rek"]
 nashol.com##div[id^="rek"][style]
 volzsky.ru##div[id^="rekl"]
 zastroyschiki39.ru##div[id^="reklama-box"]
@@ -17931,6 +17933,7 @@ rutracker.lib,rutracker.net,rutracker.nl,rutracker.org##iframe[src*="/rutrk.org/
 fapl.ru##iframe[src*="/upload/fapl_"]
 oilpoint.com.ua##iframe[src*="/wp-content/banner/"]
 gazeta.uz##iframe[src*="/www/delivery/"]
+s-platoon.ru##iframe[src*="://s-platoon.ru/forfon/"]
 ekovolga.com,imenie-home.ru,news-tape.ru,vamrecipes.ru##iframe[src*="://vamproducts.ru/"]
 yk.kz##iframe[src*="://yk.kz/"][src$="/"]
 protdt.ru##iframe[src*="ADVERT"]
@@ -20994,8 +20997,7 @@ igdz1.ru^$script,domain=igdz.ru
 ||rz.com.ua/sites/default/files/baneri-
 ||s*.website^$third-party,script
 ||s-info.ru/img/recl/
-||s-platoon.ru/barek/
-||s-platoon.ru/rek/
+||s-platoon.ru/forfon/$subdocument
 ||s13.ru/bframe/
 ||s1block.com^$third-party
 ||safe.vk-saver.in.ua^$domain=vk-saver.in.ua

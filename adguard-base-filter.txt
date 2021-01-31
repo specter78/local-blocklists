@@ -1,8 +1,8 @@
-! Checksum: T+6vb5+wb9JQUpZiSUCeUQ
+! Checksum: Jvw08YXAQLsKalMK6nIXCw
 ! Title: AdGuard Base filter
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.1.60.48
-! TimeUpdated: 2021-01-30T08:03:29+03:00
+! Version: 2.1.60.54
+! TimeUpdated: 2021-01-31T08:03:33+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,7 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||baresi.xyz^$third-party
 ||roduster.com^$third-party
 ||xtraff1cx.space^$third-party
 ||ptongouh.net^$third-party
@@ -837,7 +838,6 @@
 ||523c579923fd35aa.com^
 ||815e8fa24ebb8686.com^
 ||trytipemo.com^
-||dumbpop.com^
 ||alespeonor.com^
 ||3djd3.xyz^
 ||rednews.me^$third-party
@@ -940,7 +940,6 @@
 ||tizgo.ml^$third-party
 ||tantractium.com^$third-party
 ||afshanthough.pro^$third-party
-||groupian.io^$third-party
 ||moonads.net^$third-party
 ||articlefddss1.info^
 ||tabookbusines.info^$third-party
@@ -1171,7 +1170,7 @@
 ||toonikab.com^
 ||itteholm.site^
 ||amarceusan.com^$third-party
-||go.ero-advertising.com^$document,popup
+||go.ero-advertising.com^$document
 ||bebasads.com^$third-party
 ||raiphupi.com^
 ||volyze.com^$third-party
@@ -1191,7 +1190,6 @@
 ||a.artamkari.com^$third-party
 ||glokta.info^$third-party
 ||olineman.pro^
-||bittraffic.io^$third-party
 ||bathouph.net^
 ||qlkms.ga^$third-party
 ||expertnifg.com^
@@ -1219,7 +1217,6 @@
 ||arearmark.club^$third-party
 ||nuclearads.com^$third-party
 ||aniashboy.club^$third-party
-||hertforthatharrigh.pro^
 ||pegloang.com^
 ||m.hbstjt88.cn^$third-party
 ||iqiyi.pub^$third-party
@@ -1227,7 +1224,6 @@
 ||6ki9d.cn^$third-party
 ||clipbongda.info^$third-party
 ||fiozxmznaba.com^
-||xcvibxsdchxh.com^
 ||bitcoadz.pw^$third-party
 ||fotw.xyz^
 ||addan.xyz^
@@ -2191,7 +2187,6 @@ www.llllllllllll.net^$third-party
 ||pndelfast.com^$third-party
 ||a.gerasopa.com^
 ||q0zsp5e3dv.com^
-||moneymakercdn.com^
 ||vidcpm.com^
 ||juicyads.com^
 ||pimmuter.com^$third-party
@@ -10125,6 +10120,8 @@ wolframclient.net#@#.adsbygoogle
 !
 ! Extended CSS rules
 !
+! https://www.reddit.com/r/uBlockOrigin/comments/l8tcfn/having_trouble_blocking_ads_on_a_sitecan_i_tweak/
+taxi-point.co.uk#?#div[id^="comp-"] > a[data-testid="linkElement"] > wix-image[data-src$="~mv2.gif"]:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71909
 comidoc.net#?#.MuiBox-root > .MuiCard-root > .adsbygoogle:upward(1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72387
@@ -25091,6 +25088,10 @@ feetporno.com,familyporn.tv,freehardcore.com,webvoyeur.com,moviesand.com,momvids
 !
 !
 !
+/rass7.$script,~third-party
+||wixstatic.com/media/*~mv2.gif$domain=taxi-point.co.uk
+taxi-point.co.uk##div[id^="comp-"][class^="_"] > div[class^="_"][style^="padding-left"]
+||t.crsmc.link/*&offer_id=$subdocument
 nfl.com##.d3-c-adblock
 searchenginejournal.com###sspcat_ifr
 startcrack.com,zuketcreation.net##a[onclick^="window.open("]
@@ -28063,7 +28064,7 @@ hellporno.net##span[id^="HT-TAB-"]
 hellporno.net##span[id^="HT-Native-Under-Player-"]
 hellporno.net##div[style="width:100%;margin:0 auto;text-align:center;"]
 txxx.com##div.text > a
-txxx.com##.video-page__content > .right
+vjav.com,txxx.com##.video-page__content > .right
 txxx.com##.underplayer__ad
 timesofindia.indiatimes.com##.most-searched-section
 timesofindia.indiatimes.com##div[data-cb="processCtnAds"]
@@ -31220,7 +31221,7 @@ theclassicporn.com##.player-container > div[id^="stop"]
 ||classicporn.club/ab_bl.php
 classicporn.club##.cpc_video_hors
 classicporn.club##.cpc_dark_bl
-hdzog.com,thegay.com,hclips.com,txxx.com,tubepornclassic.com##span.iRx9_wrt
+vjav.com,hdzog.com,thegay.com,hclips.com,txxx.com,tubepornclassic.com##span.iRx9_wrt
 ||pornwatch.ws/iamfront.js
 ||pornwatch.ws/bees.js
 popularmechanics.com##.leaderboard-ad
@@ -31734,7 +31735,7 @@ x1337x.ws##a[href^="/vpn"]
 ||imgprime.com/grfl.js
 bobs-tube.com,wankoz.com,tubsexer.com,fetishshrine.com,pornicom.com##.advertising
 pornicom.com###data > #related_videos_col + #related_videos_col
-upornia.com##.footer-banners
+vjav.com,upornia.com##.footer-banners
 vikiporn.com##.under_vid
 ||vikiporn.com/js/license.*.js
 updato.com##.post-ad-container
@@ -42191,7 +42192,6 @@ whathifi.com,smokingmeatforums.com,ecosia.org,myzyia.com,robotikforum.net,kinogo
 &ad_keyword=
 &ad_network_
 &ad_number=
-&ad_revenue=
 &ad_slot=
 &ad_sub=
 &ad_time=
@@ -63909,6 +63909,7 @@ _popunder+$popup
 ##.adside
 ##.adside-box-index
 ##.adside-box-single
+##.adside_box
 ##.adsidebar
 ##.adsidebox
 ##.adsider
@@ -65051,6 +65052,7 @@ _popunder+$popup
 ##.area_ad03
 ##.area_ad07
 ##.area_ad09
+##.area_ad2
 ##.aroundAdUnit
 ##.artAd
 ##.artAdInner
@@ -68492,6 +68494,7 @@ _popunder+$popup
 ##.m-sponsored
 ##.m4-adsbygoogle
 ##.mTopAd
+##.m_ad
 ##.m_ad1
 ##.m_ad300
 ##.m_banner_ads
@@ -73516,6 +73519,7 @@ weather.yahoo.com#@#.ad_slug_table
 huffingtonpost.ca,huffingtonpost.co.uk,huffingtonpost.in#@#.ad_spot
 bbs.newhua.com,starbuy.sk.data10.websupport.sk#@#.ad_text
 fastseeksite.com,njuskalo.hr#@#.ad_title
+kpanews.co.kr#@#.ad_top
 oxforddictionaries.com#@#.ad_trick_header
 oxforddictionaries.com#@#.ad_trick_left
 wg-gesucht.de#@#.ad_wrap
@@ -75180,6 +75184,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||batwaxwok.site^
 ||baudgassedtarot.com^
 ||bauthair.net^
+||bavftcgoapga.com^
 ||bayonetbikes.com^
 ||baysexthy.com^
 ||bb1acb0ea5ddb1fed8.com^
@@ -75681,6 +75686,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cddjdjwatndgja.com^
 ||cdn4ads.com^
 ||cdnads.com^
+||cdncontentdelivery.com^
 ||cdnmr.net^
 ||cdnvideo.mobi^
 ||cdooewrzvec.com^
@@ -95058,8 +95064,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cloudfront.net^*/sponsors/$domain=indycar.com|overwatchleague.com
 ||cnn.com/ad/
 ||cntr.lookmovie.io^
-||coincodex.com/o8po7iqs9guyte85/
-||coincodex.com^*/poposition.php?
+||coincodex.com^$subdocument,~third-party
 ||coingolive.com/assets/img/partners/
 ||collector.viki.io^
 ||constructionreviewonline.com^*banner

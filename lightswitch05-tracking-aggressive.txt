@@ -1,6 +1,6 @@
 # Title: Lightswitch05's tracking-aggressive-extended.txt
-# Released: 2021-01-30T01:05:18+00:00
-# Count: 30899 domains
+# Released: 2021-01-31T01:05:18+00:00
+# Count: 30907 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
@@ -32,6 +32,7 @@
 0.0.0.0 sdf.cortana.ai
 0.0.0.0 staging.cortana.ai
 0.0.0.0 eastus1.staging.cortana.ai
+0.0.0.0 test.cortana.ai
 0.0.0.0 tomtokenappauthentication.cortana.ai
 0.0.0.0 tomtokenencryption.cortana.ai
 0.0.0.0 www.cortana.ai
@@ -4552,7 +4553,6 @@
 0.0.0.0 info.gigya.com
 0.0.0.0 knowledge.gigya.com
 0.0.0.0 mailout2.gigya.com
-0.0.0.0 lb.mg1.gigya.com
 0.0.0.0 nestle.gigya.com
 0.0.0.0 origin.gigya.com
 0.0.0.0 pages.gigya.com
@@ -7867,6 +7867,7 @@
 0.0.0.0 conduent.qualtrics.com
 0.0.0.0 conduenthr.qualtrics.com
 0.0.0.0 conestoga.qualtrics.com
+0.0.0.0 conexus.qualtrics.com
 0.0.0.0 connexityautomation.qualtrics.com
 0.0.0.0 constantcontact.qualtrics.com
 0.0.0.0 copa.qualtrics.com
@@ -8950,6 +8951,7 @@
 0.0.0.0 network.qualtrics.com
 0.0.0.0 new.qualtrics.com
 0.0.0.0 new-aoi-virus.qualtrics.com
+0.0.0.0 newhavencas.qualtrics.com
 0.0.0.0 newmeasures360.qualtrics.com
 0.0.0.0 newnormal.qualtrics.com
 0.0.0.0 newschool.qualtrics.com
@@ -9006,6 +9008,7 @@
 0.0.0.0 oregon.qualtrics.com
 0.0.0.0 oregonstate.qualtrics.com
 0.0.0.0 origin-az1.qualtrics.com
+0.0.0.0 star.origin-az1.qualtrics.com
 0.0.0.0 origin-co1.qualtrics.com
 0.0.0.0 origin-us.qualtrics.com
 0.0.0.0 origin-us2.qualtrics.com
@@ -9065,6 +9068,7 @@
 0.0.0.0 ps.qualtrics.com
 0.0.0.0 psicsocialugr.qualtrics.com
 0.0.0.0 psychiatryoxford.qualtrics.com
+0.0.0.0 psychologyuwaterloo.qualtrics.com
 0.0.0.0 psychru.qualtrics.com
 0.0.0.0 psychruzn8cpg0snvaqe86xl-covid19triage.qualtrics.com
 0.0.0.0 psyunibe.qualtrics.com
@@ -9154,6 +9158,7 @@
 0.0.0.0 rhoworld.qualtrics.com
 0.0.0.0 rhr.qualtrics.com
 0.0.0.0 richmond.qualtrics.com
+0.0.0.0 richproducts.qualtrics.com
 0.0.0.0 ricoh.qualtrics.com
 0.0.0.0 riotgames.qualtrics.com
 0.0.0.0 rippleeffect.qualtrics.com
@@ -9230,6 +9235,7 @@
 0.0.0.0 simpleresearch.qualtrics.com
 0.0.0.0 simpsonscarborough.qualtrics.com
 0.0.0.0 singaporehospital.qualtrics.com
+0.0.0.0 singuser9a5bcdf1.qualtrics.com
 0.0.0.0 singuserb5a8231d.qualtrics.com
 0.0.0.0 siriusxm.qualtrics.com
 0.0.0.0 siteintercept.qualtrics.com
@@ -23938,6 +23944,7 @@
 0.0.0.0 dev.nasmann.duckdns.org
 0.0.0.0 blog.dev.nasmann.duckdns.org
 0.0.0.0 magento.nasmann.duckdns.org
+0.0.0.0 blog.magento.nasmann.duckdns.org
 0.0.0.0 old.nasmann.duckdns.org
 0.0.0.0 shop.nasmann.duckdns.org
 0.0.0.0 blog.shop.nasmann.duckdns.org
@@ -27550,6 +27557,7 @@
 0.0.0.0 st-home.duckdns.org
 0.0.0.0 staal.duckdns.org
 0.0.0.0 dav.staal.duckdns.org
+0.0.0.0 git.staal.duckdns.org
 0.0.0.0 r.staal.duckdns.org
 0.0.0.0 s.staal.duckdns.org
 0.0.0.0 stadionflat.duckdns.org
