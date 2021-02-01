@@ -1,8 +1,8 @@
-! Checksum: GLcj2KjfR/z73Xwv7V1Gyg
+! Checksum: PuSWkga7ex/7gYOYcHSySw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.50
-! TimeUpdated: 2021-01-30T16:03:45+03:00
+! Version: 2.0.20.52
+! TimeUpdated: 2021-01-31T15:31:44+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6517,6 +6517,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+the-ans.jp##.side-reccomend
 ||googleadservices.com/pagead/conversion_async.js$redirect=nooptext,domain=orcd.co
 ||cdn.omuz.com.tr/connect/pub-min.js
 ||trrsf.com.br/metrics/
@@ -6750,7 +6751,6 @@ android-tools.ru###text-8
 ||frog.wix.com/fed?
 ||frog.wix.com/da-client?
 ||frog.wix.com/pre?
-||forum.turkmmo.com/*/track-view
 ||eiga.k-img.com/javascripts/td.js?1578981009
 ||gnavi.co.jp/analysis/
 ||api.smg.com/Etrack/

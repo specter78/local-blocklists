@@ -1,8 +1,8 @@
-! Checksum: Jvw08YXAQLsKalMK6nIXCw
+! Checksum: zTL8pOENxLWNufrtpokXnA
 ! Title: AdGuard Base filter
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.1.60.54
-! TimeUpdated: 2021-01-31T08:03:33+03:00
+! Version: 2.1.60.61
+! TimeUpdated: 2021-02-01T08:03:35+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,8 @@
 !
 !! https://a.bestcontentitem.top/warp/*?r=
 !
+||submissionspurtgleamed.com^
+||tracot.com^$third-party
 ||baresi.xyz^$third-party
 ||roduster.com^$third-party
 ||xtraff1cx.space^$third-party
@@ -10120,7 +10122,7 @@ wolframclient.net#@#.adsbygoogle
 !
 ! Extended CSS rules
 !
-! https://www.reddit.com/r/uBlockOrigin/comments/l8tcfn/having_trouble_blocking_ads_on_a_sitecan_i_tweak/
+! https://github.com/AdguardTeam/AdguardFilters/issues/73666
 taxi-point.co.uk#?#div[id^="comp-"] > a[data-testid="linkElement"] > wix-image[data-src$="~mv2.gif"]:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71909
 comidoc.net#?#.MuiBox-root > .MuiCard-root > .adsbygoogle:upward(1)
@@ -12950,11 +12952,6 @@ youranshare.com#%#//scriptlet("abort-current-inline-script", "$", "adskilltest")
 mpyit.com##.post-999999
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58804
 493428493428c.monster##div[style^="width:728px;height:90px;"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/58587
-||53orz.com^$domain=hotpress.info
-hotpress.info##.widget_text:first-child
-hotpress.info##.widget_text:nth-of-type(n+5)
-hotpress.info#%#//scriptlet('prevent-setTimeout', 'nextFunction', '2000')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58327
 lnk2.cc#%#//scriptlet("set-constant", "adblock", "false")
 @@||lnk2.cc/js/ad_code.js
@@ -21045,6 +21042,10 @@ kissmanga.com,getpronews.com,akltu.com,shorten.sh,9xmovies.app,toonily.com,kimin
 kickasstracker.*,katfreak.*,kickasshydra.*,katbay.*,kickasst.*,kkickass.*,kattracker.*,topkickass.*,thekat.*,kat.*,kat2.*,kick4ss.*,kickass.*,kickass2.*,kickasstorrents.*,kat.fun,kat2.app,kat2.space,kat2.website,kat2.xyz,kick4ss.net,kickass.cd,kickass.earth,kickass.id,kickass.kim,kickass.love,kickass.me.uk,kickass.name,kickass.one,kickass.red,kickass.vc,kickass.ws,kickass2.app,kickass2.fun,kickass2.mobi,kickass2.online,kickass2.space,kickass2.top,kickass2.website,kickass2.xyz,kickassgo.com,kickasstorrent.cr,kickasstorrents.fun,kickasstorrents.icu,kickasstorrents.mobi,kickasstorrents.to,kickasstorrents2.net,kickassz.com,kkat.net,thekickass.org,kickasstorrents.space,thekat.cc,topkickass.org,kattracker.com#%#//scriptlet('abort-on-property-write', 'ospen')
 kickasstracker.*,katfreak.*,kickasshydra.*,katbay.*,kickasst.*,kkickass.*,kattracker.*,topkickass.*,thekat.*,kat.*,kat2.*,kick4ss.*,kickass.*,kickass2.*,kickasstorrents.*,kat.fun,kat2.app,kat2.space,kat2.website,kat2.xyz,kick4ss.net,kickass.cd,kickass.earth,kickass.id,kickass.kim,kickass.love,kickass.me.uk,kickass.name,kickass.one,kickass.red,kickass.vc,kickass.ws,kickass2.app,kickass2.fun,kickass2.mobi,kickass2.online,kickass2.space,kickass2.top,kickass2.website,kickass2.xyz,kickassgo.com,kickasstorrent.cr,kickasstorrents.fun,kickasstorrents.icu,kickasstorrents.mobi,kickasstorrents.to,kickasstorrents2.net,kickassz.com,kkat.net,thekickass.org,kickasstorrents.space,thekat.cc,topkickass.org,kattracker.com#%#//scriptlet("abort-on-property-read", "ini1Pu")
 kickasstracker.*,katfreak.*,kickasshydra.*,katbay.*,kickasst.*,kkickass.*,kattracker.*,topkickass.*,thekat.*,kat.*,kat2.*,kick4ss.*,kickass.*,kickass2.*,kickasstorrents.*,kat.fun,kat2.app,kat2.space,kat2.website,kat2.xyz,kick4ss.net,kickass.cd,kickass.earth,kickass.id,kickass.kim,kickass.love,kickass.me.uk,kickass.name,kickass.one,kickass.red,kickass.vc,kickass.ws,kickass2.app,kickass2.fun,kickass2.mobi,kickass2.online,kickass2.space,kickass2.top,kickass2.website,kickass2.xyz,kickassgo.com,kickasstorrent.cr,kickasstorrents.fun,kickasstorrents.icu,kickasstorrents.mobi,kickasstorrents.to,kickasstorrents2.net,kickassz.com,kkat.net,thekickass.org,kickasstorrents.space,thekat.cc,topkickass.org,kattracker.com#%#//scriptlet("prevent-addEventListener", "click", "checkxarget")
+! javynow.com popup
+javynow.com#%#//scriptlet("prevent-window-open")
+! https://github.com/AdguardTeam/AdguardFilters/issues/73652
+imgsen.com#%#//scriptlet('abort-on-property-read', 'CustomEvent')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73107
 savevideo.tube#%#//scriptlet("prevent-window-open")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72831
@@ -23703,6 +23704,8 @@ mobilapk.com#%#AG_onLoad(function() { setTimeout(function() {document.getElement
 !-------CSS---------
 !-------------------
 !
+! javynow.com black space
+javynow.com#$#.videos-ad__wrap { background-color: transparent !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72365
 adshrink.it,pairom.com#?#.dimmer:has(p:contains(Remove Ads))
 adshrink.it,pairom.com#$#body { overflow: visible !important; }
@@ -25088,6 +25091,7 @@ feetporno.com,familyporn.tv,freehardcore.com,webvoyeur.com,moviesand.com,momvids
 !
 !
 !
+javynow.com##.videos-ad__ad
 /rass7.$script,~third-party
 ||wixstatic.com/media/*~mv2.gif$domain=taxi-point.co.uk
 taxi-point.co.uk##div[id^="comp-"][class^="_"] > div[class^="_"][style^="padding-left"]
@@ -31022,8 +31026,6 @@ tornadomovies.to###container_outer
 ||tornadomovies.to/sw.js
 ||tornadomovies.to/site/kasdl7asd
 proxydocker.com##.facebookdiv[style="min-height:200px;"]
-||japanbros.com/vjav/nvb_*.js
-vjav.com##table.oImef0.oImef > tbody > tr > td[style="transform: scale(1);"]
 flyordie.com##div[style="text-align:center; margin: 0 auto 10px; color:#b0b0b0; font-size: 8px;"]
 flyordie.com###dasb
 flyordie.com##div[style^="position: absolute; width: 180px; height: 600px;"]
@@ -36833,6 +36835,8 @@ adguard.com##.hello_from_adguard
 !
 !
 !
+! javynow.com Hot Videos hidden
+javynow.com#@#.videos-ad
 ! https://github.com/easylist/easylist/pull/6920
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=t-mall.kantangame.com
 ! https://github.com/AdguardTeam/SafariConverterLib/issues/4
@@ -37024,7 +37028,7 @@ msn.com#@#[src*="data:"]
 @@||i.cdn.turner.com/ads/adfuel/ais/tcm-ais.js$domain=tcm.com
 @@||i.cdn.turner.com/ads/adfuel/ais/*/tbs-ais.min.js$domain=tbs.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72416
-||popin.cc/popin_discovery/$badfilter
+||popin.cc/popin_discovery$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72085
 cheapdigitaldownload.com#@#.banner-right
 cheapdigitaldownload.com#@#.banner-search
@@ -44240,7 +44244,7 @@ whathifi.com,smokingmeatforums.com,ecosia.org,myzyia.com,robotikforum.net,kinogo
 /adlib.$domain=~adlib.info|~adlib.mu|~catharijneconvent.nl|~rws.nl
 /adlift4.
 /adlift4_
-/adline.$domain=~adline.co.il
+/adline.$domain=~adline.co.il|~adline.com
 /adlink-$domain=~adlinktech.com
 /adlink.$domain=~adlink.guru|~adlinktech.com
 /adlink/*$domain=~adlinktech.com
@@ -67715,6 +67719,7 @@ _popunder+$popup
 ##.home_mrec_ad
 ##.home_offer_adv
 ##.home_sidebar_ads
+##.home_strip_ad
 ##.home_sway_adv
 ##.home_top_ad_slider
 ##.home_top_ad_slides
@@ -95415,6 +95420,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zkillboard.com/img/brave_switch.png
 /^https?:\/\/.*.(club|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|flashx.tv|powvideo.net|powvldeo.me|videobin.co
 /^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|mixdrop.co|mixdrop.to|ovagames.com
+$subdocument,domain=coincodex.com
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
@@ -98688,6 +98694,7 @@ sentinelnews.com,theandersonnews.com##div[style="height:620px;width:279px;margin
 worstpreviews.com##div[style="margin-top:15px;width:160;height:600;background-color:#FFFFFF;"]
 gizbot.com,goodreturns.in##div[style="min-height: 250px;"]
 drivespark.com##div[style="min-height: 260px;"]
+news18.com##div[style="min-height:90px"]
 add0n.com##div[style="min-height:90px;max-width:728px;text-align:center"]
 technical.city##div[style="padding-bottom: 20px"] > div[style="min-height: 250px"]
 bitcoin-otc.com##div[style="padding-left: 10px; padding-bottom: 10px; text-align: center; font-family: Helvetica;"]
