@@ -1,8 +1,8 @@
-! Checksum: cHH1TlVACZVWnsVzj9xl8A
+! Checksum: R2yod0L3mtsgKtzwOD25QQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.51
-! TimeUpdated: 2021-01-29T20:03:18+03:00
+! Version: 2.0.17.52
+! TimeUpdated: 2021-02-01T17:30:24+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2244,6 +2244,8 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+dict.cc##div[style="text-align:center;width:728px"]
+sefon.pro##.rklm
 namobilu.com##.b_adsen_wrap
 collectionofbestporn.com##.banner-mobile-header
 javsubtitle.co###mimpanel

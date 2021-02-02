@@ -1,8 +1,8 @@
-! Checksum: PuSWkga7ex/7gYOYcHSySw
+! Checksum: 0bbhh4ksqYg0+sTn3Qe/0w
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.52
-! TimeUpdated: 2021-01-31T15:31:44+03:00
+! Version: 2.0.20.56
+! TimeUpdated: 2021-02-01T23:31:33+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -218,6 +218,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||dataunion.com.br^$third-party
 ||breathebuds.com^
 ||4sqt6jq.de^
 ||sprocket-ping.s3.amazonaws.com^
@@ -4679,6 +4680,7 @@ nethunt.com/api/v1/track/email/$image
 ||infinityid.condenastdigital.com^$third-party
 ||track.berliner-kurier.de^
 ||collect.usefathom.com^
+||cdn.usefathom.com^
 ||wwwlog.thebell.co.kr^
 ||d1miwkthq39xj8.cloudfront.net^$third-party
 ||stats1.wpmudev.com^$third-party
@@ -7916,7 +7918,7 @@ dreamprogs.net##td[width="88"][height="31"]
 ||apple.com/metrics/
 ||arcpublishing.com^*/datapoint/save
 ||assets-jpcust.jwpsrv.com/*/ping.js
-||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|gittigidiyor.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru
+||assets.adobedtm.com^$domain=mcclatchydc.com|elnuevoherald.com|bellinghamherald.com|sacbee.com|charlotteobserver.com|newsobserver.com|miamiherald.com|ef.ru|algida.com.tr|bmw-motorrad.co.uk|cif.com.tr|clearhaircare.com|domestos.com|dove.com|elidor.com.tr|f1sport.autorevue.cz|geico.com|gittigidiyor.com|hellmanns.com.tr|herkessofraya.com|johnsonsbaby.com.tr|lipton.com|lnk.to|lux.com|magnumicecream.com|neutrogena.com.tr|omo.com|rexona.com|samsung.com|sap.com|schwarzkopf.com.tr|signalturkiye.com|msnbc.com|nbcnews.com|kbb.com|eurosport.ru|timgate.it
 ||at.mklaud.com/at/at_log_*.php
 ||auto-bild.de/*/gaEvents
 ||auto-motor-und-sport.de/js/sophus3/logging.js
@@ -9856,11 +9858,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||marketo.com/index.php/form/
 ! https://forum.adguard.com/index.php?threads/31245/
 @@||ssl.google-analytics.com/ga.js$domain=gmail.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/30981
-@@||googletagmanager.com/gtm.js$domain=reuters.com
-@@||google-analytics.com/analytics.js$domain=reuters.com
-@@||google-analytics.com/gtm/js?id=$domain=reuters.com
-@@||google-analytics.com/plugins/ua/linkid.js$domain=reuters.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30136
 @@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=crunchyroll.com|elconfidencial.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33440

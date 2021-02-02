@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 26 Jan 2021 16:34 UTC+7
+# Updated: 02 Feb 2021 11:34 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -15533,6 +15533,10 @@
 0.0.0.0 app3.salesmanago.pl
 0.0.0.0 salesmanago.pl
 0.0.0.0 www.salesmanago.pl
+#[buysellads.net]
+0.0.0.0 buysellads.net
+0.0.0.0 cdn-s2s.buysellads.net
+0.0.0.0 cdn4.buysellads.net
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -16048,7 +16052,6 @@
 #[zaloapp.com]
 0.0.0.0 ads.zaloapp.com
 0.0.0.0 centralized.zaloapp.com
-0.0.0.0 discovery.api.zaloapp.com
 0.0.0.0 log.api.zaloapp.com
 0.0.0.0 log.o2o.service.zaloapp.com
 0.0.0.0 photo-ads.zaloapp.com
@@ -16891,6 +16894,10 @@
 0.0.0.0 cdn.starseed.fr
 0.0.0.0 log.starseed.fr
 0.0.0.0 starseed.fr
+#[slimads.vn]
+0.0.0.0 app.slimads.vn
+0.0.0.0 slimads.vn
+0.0.0.0 www.slimads.vn
 # --- Block adsVN ---
 0.0.0.0 5734a40f2d.vws.vegacdn.vn
 0.0.0.0 703531862.vws.vegacdn.vn
@@ -16995,6 +17002,7 @@
 0.0.0.0 bluemaulpuffs.com
 0.0.0.0 boxpr.aiservice.vn
 0.0.0.0 cdn-ads.thesaigontimes.vn
+0.0.0.0 cdn.bongdadem.net
 0.0.0.0 cdn2.cache.vn
 0.0.0.0 cdnasset.dantri.com.vn
 0.0.0.0 chiasephim.xyz
@@ -17181,6 +17189,7 @@
 0.0.0.0 logsbin.dantri.com.vn
 0.0.0.0 logscafef.channelvn.net
 0.0.0.0 monitor.teko.vn
+0.0.0.0 myharavan.com
 0.0.0.0 newlog.daidoanket.vn
 0.0.0.0 nstat.headlines.pw
 0.0.0.0 partner.accesstrade.vn
@@ -18071,6 +18080,7 @@
 0.0.0.0 advbanners.global.ssl.fastly.net
 0.0.0.0 adventori.com
 0.0.0.0 adventory.com
+0.0.0.0 adverdirect.com
 0.0.0.0 adverserve.net
 0.0.0.0 advert.bayarea.com
 0.0.0.0 advert360.com
@@ -20450,6 +20460,7 @@
 0.0.0.0 tathitch.net
 0.0.0.0 tatsumi-sys.jp
 0.0.0.0 tawdryson.com
+0.0.0.0 tawelhawel.com
 0.0.0.0 tcads.net
 0.0.0.0 tdxio.com
 0.0.0.0 tealeaf.com
