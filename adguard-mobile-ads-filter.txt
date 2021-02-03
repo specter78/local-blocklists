@@ -1,8 +1,8 @@
-! Checksum: R2yod0L3mtsgKtzwOD25QQ
+! Checksum: 7wrdhDwWtmOLee+SjVEuew
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.52
-! TimeUpdated: 2021-02-01T17:30:24+03:00
+! Version: 2.0.17.54
+! TimeUpdated: 2021-02-02T21:30:26+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1273,6 +1273,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/72944
+m.proporn.com#$?##banner_overlay-postitial-video { remove: true; }
 ! greatist.com - leftover
 greatist.com#?##announcementBar ~ aside[class] button.icon-hl-close-thick:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71604
@@ -2244,6 +2246,7 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+sexkvartal.net##div[style^="text-align: center;"][style*="background-color: #FFFFFF;"][style*="overflow: hidden;"]
 dict.cc##div[style="text-align:center;width:728px"]
 sefon.pro##.rklm
 namobilu.com##.b_adsen_wrap

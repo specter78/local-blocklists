@@ -1,8 +1,8 @@
-! Checksum: 0bbhh4ksqYg0+sTn3Qe/0w
+! Checksum: dNYoBx/n1nNs0gw0ZfZHtQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.56
-! TimeUpdated: 2021-02-01T23:31:33+03:00
+! Version: 2.0.20.61
+! TimeUpdated: 2021-02-02T22:31:33+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -218,6 +218,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||event.syndigo.cloud^
+||event.webcollage.net^
 ||dataunion.com.br^$third-party
 ||breathebuds.com^
 ||4sqt6jq.de^
@@ -6519,6 +6521,11 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||episerver.net/ia.gif?r=
+||peerius.episerver.net/tracker/
+||gratis.com/ccstoreui/*/analytics/visitorsMetric
+||h.seznam.cz/hit/?
+||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 the-ans.jp##.side-reccomend
 ||googleadservices.com/pagead/conversion_async.js$redirect=nooptext,domain=orcd.co
 ||cdn.omuz.com.tr/connect/pub-min.js
@@ -9003,6 +9010,11 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/73395
+@@||googletagmanager.com/gtm.js$domain=kruidvat.nl
+! fix wechat
+! https://github.com/AdguardTeam/AdguardFilters/issues/72365
+@@||cdn.trackjs.com/agent/v*/latest/t.js$domain=adshrink.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72744
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72103
 ! m.cafe.naver.com - fixed crash on https://m.cafe.naver.com/ca-fe/web/cafes/16174233/articles/27666?fromPopular=true
