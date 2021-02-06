@@ -1,8 +1,8 @@
-! Checksum: dMhTEhtDvfQs1z/wsNvNeQ
+! Checksum: 44LIa9sxgjADePGkFxlfGQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.62
-! TimeUpdated: 2021-02-04T20:03:20+03:00
+! Version: 2.0.17.66
+! TimeUpdated: 2021-02-05T20:03:32+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2246,6 +2246,7 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+kutchkhabar.com##.advertise-horizontal-mobile
 ||smaero.jp/advimg/
 adacomi.com##div[style$="width:300px; height:250px;"]
 adacomi.com##div[style="width:300px;"]
@@ -2283,6 +2284,7 @@ gadgetsnow.com##iframe[src^="https://timesofindia.indiatimes.com/affiliate_new.c
 gadgetsnow.com##amp-iframe[src^="https://timesofindia.indiatimes.com/affiliate_new.cms?"]
 gadgetsnow.com##div[class^="_"] > .mrecasadscode ~ div[class^="_"] > div[class*="_"] > h3 + ul > li > a[href^="https://www.gadgetsnow.com/affiliate_amazon.cms?"]
 ||timesofindia.indiatimes.com/affiliate_new.cms?$domain=gadgetsnow.com
+top.gg###modal-root
 hindustantimes.com##.m_ads_unit
 theblockcrypto.com##body .sponsorFooter
 scmp.com##.section-content-bottom__ad-container
