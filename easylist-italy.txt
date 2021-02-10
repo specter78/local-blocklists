@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: OeSyUxsKPn+s4/ISvOjc7A
-! Version: 202102090511
+! Checksum: hCdEJdcPn/GMg8glGnnbOw
+! Version: 202102100511
 ! Title: EasyList Italy
-! Last modified: 09 Feb 2021 05:11 UTC
+! Last modified: 10 Feb 2021 05:11 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -1109,6 +1109,9 @@ brocardi.it#@#.with-background-ads
 ||bellunopress.it^*/Caaf-Cgil_
 ||bellunopress.it^*/pub_
 ||bellunopress.it^*/tecnosport-
+||benesserecorpomente.it^*/324x250_
+||benesserecorpomente.it^*/banner-
+||benesserecorpomente.it^*/banner_
 ||beneventocalcio.club/partners/
 ||bergamoesport.it^*/BANNER-
 ||bergamoesport.it^*/planetel.jpg
@@ -1363,6 +1366,8 @@ brocardi.it#@#.with-background-ads
 ||comingsoon.it/img/PrimeVideoColorBtn.png
 ||comingsoon.it/imgdb/banner/
 ||comolive.it^*-AVIS-logo-
+||compagniadellacima.it^*/logo-subianco250.jpg
+||compagniadellacima.it^*/Ronco_banner.jpg
 ||comprovendodischi.it/images/AMZ-
 ||comprovendolibri.it/images/ico-mondadori.jpg
 ||comprovendolibri.it/images/ico_FELT.jpg
@@ -2752,6 +2757,7 @@ brocardi.it#@#.with-background-ads
 ||radiocircuito29.it/images/atelier.jpg
 ||radiocircuito29.it/images/belleli.jpg
 ||radiocircuito29.it/images/DFZ-logo.jpg
+||radiocittafutura.it/images/banners/
 ||radiodigitalenergy.com/images/acweb.jpg
 ||radiodigitalenergy.com/images/canastri.jpg
 ||radiodigitalenergy.com/images/radio.net.jpg
@@ -3725,6 +3731,7 @@ brocardi.it#@#.with-background-ads
 ||wp.com/www.oggicronaca.it/*/divisionismolarge.gif
 ||wp.com/www.ostuninotizie.it/*/colazione-con-flavio.jpg
 ||wp.com/www.proiezionidiborsa.it/*/bnp-
+||wp.com/www.proiezionidiborsa.it/*/ig-
 ||wp.com/www.spaziotennis.it/*/dhs.jpg
 ||wp.com/www.statoquotidiano.it/*/727x247-
 ||wp.com/www.tabsernews.it/*/THE-SOUND.png
@@ -3823,6 +3830,7 @@ $webrtc,domain=hentaisaturn.com|leggenditalia.com|leggenditaloi.com
 |javascript^$popup,domain=eurostreaming.camp
 !--------------Regole specifiche per le pubblicità da nascondere--------------!
 ! *** easylistitaly:easylistitaly/easylistitaly_specific_hide.txt ***
+ilsoftware.it###ADleaderboard\ adtop
 nauticareport.it###BanBG
 nauticareport.it###BanCenter
 nauticareport.it###BanLeft
@@ -4562,6 +4570,8 @@ cottoepostato.it##.cont-bann
 edilportale.com##.cont-leaderBoard
 televisionando.it##.contBannDiv
 brindisisera.it,brindisisettenews.it##.cont_banner
+tiburno.tv##.container-ads
+tiburno.tv##.container-skin
 tuttiprezzi.it##.container.basso
 tiscali.it##.container_b_1
 frasimania.it##.content-banner
@@ -5131,7 +5141,7 @@ industriaitaliana.it##a[data-track]
 blog.libero.it,newscronaca.myblog.it##a[href*=".clickbank.net/"]
 voglioporno.com##a[href*=".com/track/"]
 videopornoitalia.it##a[href*=".rivcash.com/"]
-altraeta.it,amalfinotizie.it,aziendabanca.it,birramoriamoci.it,canale3.tv,centotrentuno.com,concorsi-letterari.it,corrieredellacalabria.it,cremaoggi.it,cremonaoggi.it,cremonasport.it,freeonline.org,hwupgrade.it,ilsussidiario.net,lasiritide.it,latelanera.com,lavorincasa.it,oglioponews.it,pistoiasport.com,ricettedellanonna.net,rivistanatura.com,settesere.it,sportando.basketball,telegramdirectory.it,tusciaweb.eu,tuttoandroid.net,tuttowrestling.com,tvadrano.com,umbriaradio.it,volleyball.it##a[href*="//bit.ly/"]
+altraeta.it,amalfinotizie.it,aziendabanca.it,birramoriamoci.it,canale3.tv,centotrentuno.com,concorsi-letterari.it,corrieredellacalabria.it,cremaoggi.it,cremonaoggi.it,cremonasport.it,freeonline.org,hwupgrade.it,ilsussidiario.net,lasiritide.it,latelanera.com,lavorincasa.it,oglioponews.it,pistoiasport.com,ricettedellanonna.net,rivistanatura.com,settesere.it,sportando.basketball,telegramdirectory.it,tiburno.tv,tusciaweb.eu,tuttoandroid.net,tuttowrestling.com,tvadrano.com,umbriaradio.it,volleyball.it##a[href*="//bit.ly/"]
 animeemanga.it,comprovendodischi.it,comprovendolibri.it,corrieredellacalabria.it,passionemaglie.it,stiletv.it##a[href*="//goo.gl/"]
 cb01.live##a[href*="/4K/"]
 altadefinizione.coach,altadefinizione.legal,altadefinizione01.army,cb01.directory,cb01.events,cb01.online,cb01.run,cb01.solutions,cb01.support,cb01.wales,cineblog01.love,filmsenzalimiti.love,guardarefilm.vin,guardaserie.cam,speedvideo.net##a[href*="/4k/"]
@@ -5193,6 +5203,7 @@ birramoriamoci.it##a[href*="?affiliates="]
 anteprima24.it,gnoccatravels.com,juzaphoto.com,lavorincasa.it,mangaforever.net,milanofinanza.it,voglioporno.com##a[href*="?utm_"]
 corrierenazionale.it##a[href="http://www.herobet.it/"]
 comprovendolibri.it##a[href^="/conta.asp?"]
+skiresort.it##a[href^="/outbound/"]
 facciabuco.com##a[href^="/sprclick/"]
 milanodabere.it##a[href^="http://ib.adnxs.com/clktrb?id="]
 juzaphoto.com,telefonino.net##a[href^="http://rover.ebay.com/"]

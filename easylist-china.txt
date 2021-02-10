@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: dqdu0AWjjC2m8kVQzn5YQg
-! Version: 202102090502
+! Checksum: yhwwFQxmro3CpkRwPqChQw
+! Version: 202102100502
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 09 Feb 2021 05:02 UTC
+! Last Modified: 10 Feb 2021 05:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1892,6 +1892,7 @@ ubmcmm.baidustatic.com
 ||bebelait.com^
 ||bedhdig.cn^
 ||behe.com^$third-party
+||beizhoujt.cn^
 ||bejzz.top^
 ||bensezhiye.com^
 ||bfgg365.com^
@@ -7146,6 +7147,8 @@ _yad_jsonp_
 ||loli.io^$domain=kisssub.org
 ||loli.net/2018/09/01/5b8ab2b61cec4.jpg
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
+||loli.net/2020/06/17/gpRx7AzGwI4kQmV.gif
+||loli.net/2020/06/17/vGALJ4mQx26T75u.gif
 ||loli.net/2020/07/10/wMqf6ivLVZc92UY.png
 ||loli.net/2020/07/13/b1gRsV4OutfYhvp.gif
 ||loli.net/2020/07/25/pRqtQvjgE74SzaW.gif
@@ -8974,6 +8977,7 @@ _yad_jsonp_
 ||zhulong.com/poster/get?*_960
 ||zhulong.com/poster/get?positions_name=ZY_JZ_300_02
 ||zhulong.com/poster/get?positions_name=ZY_SP_300
+||zhuna.cn/static/knowledge_pc/img/bussness
 ||zhushou.360.cn/script/plugin_tiper.js
 ||zhuwang.cc/api.php?op=ad_
 ||zhzyw.com/js/InsertJS.js
@@ -9057,6 +9061,8 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||zqnow.net/js/kh.js
+||8seaa.com/template/assets1/js/vue.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -10649,6 +10655,7 @@ jiyingdm.com##.abcde
 yesky.com##.abox
 w3cschool.cn##.abox-item
 yaolan.com##.abstract_ad
+lzdcctv.cn##.ac_pc
 2345.com##.act-market
 2345.com##.act-openJ-mask
 2345.com,hao774.com##.act-search-tab
@@ -11656,6 +11663,7 @@ cnblogs.com##.focus-gg
 zhongkao.com##.focusBox
 yinyuetai.com##.focus_bottom_banner
 sports.qq.com##.focus_con > .item > a[href^="http"]:not([href*=".qq."])
+lzdcctv.cn##.focusmo + table
 10fang.com##.foldcss
 900.la##.font-ad
 se8u.cc##.footAdv
@@ -13228,6 +13236,7 @@ flyzy2005.com##.widget_kratos_ad
 carrotchou.blog,landiannews.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
 landiannews.com,meijumi.net##.widget_metaslider_widget
 acwifi.net##.widget_ssr
+lzdcctv.cn##.widget_ssr > a > img
 codeceo.com,fuli8.net##.widget_text:first-child
 fulibl.cc##.widget_text:last-child
 py91.net##.widget_textads
@@ -13504,6 +13513,7 @@ v.sogou.com##a[href*="iwan.sogou.com/"]
 m.baidu.com##a[href*="m.lecai.com"]
 ccav1.com##a[href*="meidebi."]
 kafan.cn##a[href*="nameidi."]
+zhuna.cn##a[href*="quchuchai."]
 dmzj.com##a[href*="qunhei.com"]
 solarbe.com##a[href*="redirect"] > img[width^="3"]
 500.com##a[href*="sanyol.cn"]
@@ -14125,6 +14135,7 @@ chineseinla.com##div[style^="position:absolute;"][style$=":0px;top:30px;"]
 52youpiao.com##div[style^="position:fixed; right:40px;"]
 zimuku.cn##div[style^="position:fixed; text-align:"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
+txtle.com##div[style^="position:fixed;z-index:1000;top:200px;"]
 v.163.com##div[style^="width: 140px; height: 199px;"]
 ieche.com##div[style^="width: 298px;height:250px;"]
 elecfans.com##div[style^="width: 960px;height: 40px;"]
@@ -15508,6 +15519,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||a.4aqq.com^
 ||a.52wubi.com^
 ||a.52zxw.com^
+||a.78yx.net^
 ||a.91nets.cn^
 ||a.91zhongkao.com^
 ||a.armystar.com^
@@ -15613,6 +15625,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||bd.beimap.com^
 ||bd.czxuexi.com^
 ||bd.ershenghuo.com^
+||bd.watu.cn^
 ||bd1-china.6789.com^
 ||bd1-china.xsfaya.com^
 ||bd1.365qilu.com^
@@ -16881,6 +16894,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||bdxnc.com^
 ||bei7.clewx.com^
 ||beifmu.com^
+||beizhoujt.cn^
 ||bentengcn.com^
 ||berfd.xyz^
 ||betohomeall.com^
@@ -17938,6 +17952,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||netfix8.info^
 ||newknowledge.cn^
 ||ngceq.cn^
+||nggwhyk.cn^
 ||ngmaul.cn^
 ||ngsaang.top^
 ||nickarini.com^
@@ -18550,6 +18565,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||whxhhjx.com^
 ||wikevs.cn^
 ||win999.com.cn^
+||wjaa23.com^
 ||wjdfv.com^
 ||wjyljl.cn^
 ||wkjava.top^

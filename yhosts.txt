@@ -1,4 +1,4 @@
-#version=202102071254
+#version=202102091712
 #url=https://github.com/VeleSila/yhosts/blob/master/hosts
 #-----Test
 127.0.0.1 at.umeng.com
@@ -3327,6 +3327,7 @@
 127.0.0.1 cx.v5cam.com
 127.0.0.1 cycy.kxrxh.com
 127.0.0.1 cz.ifeng0.com
+127.0.0.1 cz75pw.kl0ru78.xyz
 127.0.0.1 czf.cchfjz.com
 127.0.0.1 d.107788.com
 127.0.0.1 d.517sccts.cn
@@ -5822,7 +5823,7 @@
 127.0.0.1 p.m5bn.com
 127.0.0.1 p.mendoc.cn
 127.0.0.1 p.niudashu.com
-127.0.0.1 p.pstatp.com
+#127.0.0.1 p.pstatp.com
 127.0.0.1 p.qiailm.com
 127.0.0.1 p.qijijs.top
 127.0.0.1 p.qfmzys.com
@@ -5837,19 +5838,19 @@
 127.0.0.1 p6.95558000.com
 127.0.0.1 p7.95558000.com
 127.0.0.1 p8.95558000.com
-127.0.0.1 p1.pstatp.com
-127.0.0.1 p2.pstatp.com
-127.0.0.1 p3.pstatp.com
-127.0.0.1 p4.pstatp.com
-127.0.0.1 p5.pstatp.com
-127.0.0.1 p6.pstatp.com
-127.0.0.1 p7.pstatp.com
-127.0.0.1 p8.pstatp.com
-127.0.0.1 p9.pstatp.com
-127.0.0.1 p10.pstatp.com
-127.0.0.1 pb1.pstatp.com
-127.0.0.1 pb2.pstatp.com
-127.0.0.1 pb3.pstatp.com
+#127.0.0.1 p1.pstatp.com
+#127.0.0.1 p2.pstatp.com
+#127.0.0.1 p3.pstatp.com
+#127.0.0.1 p4.pstatp.com
+#127.0.0.1 p5.pstatp.com
+#127.0.0.1 p6.pstatp.com
+#127.0.0.1 p7.pstatp.com
+#127.0.0.1 p8.pstatp.com
+#127.0.0.1 p9.pstatp.com
+#127.0.0.1 p10.pstatp.com
+#127.0.0.1 pb1.pstatp.com
+#127.0.0.1 pb2.pstatp.com
+#127.0.0.1 pb3.pstatp.com
 127.0.0.1 package.minghui.org
 127.0.0.1 pad.zhywyl.cn
 127.0.0.1 page.santc.cn
@@ -6028,6 +6029,7 @@
 127.0.0.1 rabc1.iteye.com
 127.0.0.1 rabc2.iteye.com
 127.0.0.1 raeqqe.cn
+127.0.0.1 rav4.wn052ucd.online
 127.0.0.1 raw.okwan.cn
 127.0.0.1 rbbf.07kfh.cn
 127.0.0.1 rbs.haiyunx.com
