@@ -1,8 +1,8 @@
-! Checksum: SF5qlzSGyvp25+sovUgnJA
+! Checksum: VpzmxkGvJSFj+dt3ZWQ9Ng
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.69
-! TimeUpdated: 2021-02-09T19:31:03+03:00
+! Version: 2.0.17.72
+! TimeUpdated: 2021-02-11T03:30:13+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -108,7 +108,7 @@
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61793
 ! Breaks Yahoo Finance app on iOS https://github.com/AdguardTeam/AdguardFilters/issues/63354
-||m.yap.yahoo.co^$domain=not.dns
+||m.yap.yahoo.com^$domain=~not.dns
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54135
 ||adv0*.msa.cdn.mediaset.net^
 ! Micromax India
@@ -2248,6 +2248,7 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+anime.anidub.life##div[style*="width: 300px;  height: 300px;"]
 kanasoku.info##body > div[style^="width:320px; height:100px"]
 standard.co.uk###stickyFooterRoot
 pravda.com.ua##amp-iframe[src^="https://orbit4.lun.ua/"]
@@ -2371,7 +2372,7 @@ profile.ru###test_mob_ad
 www-tellows-de.cdn.ampproject.org###singlecomments > li[style="padding:0px 5px 0px 5px;"]
 forum.golem.de##div[id^="mob_forum"]
 nation.africa##.ad-mobile-leaderboard_wrap
-google.*###kp-wp-tab-overview > .mnr-c > div[class*="__wholepage-card"] > div > div[class] > div[class][lang]:not([style]):not([data-attrid])
+! google.*###kp-wp-tab-overview > .mnr-c > div[class*="__wholepage-card"] > div > div[class] > div[class][lang]:not([style]):not([data-attrid])
 m.sports.ru##div[data-control="Common.Poll"]
 asahi.com##.ArticleRectangleAd
 asahi.com##.list-adL

@@ -1,8 +1,8 @@
-! Checksum: +O2g0QI4R9qImq9ibjFqGw
+! Checksum: wPlZ+PGWRh29iH7jUjWDBg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.78
-! TimeUpdated: 2021-02-09T17:33:21+03:00
+! Version: 2.0.20.81
+! TimeUpdated: 2021-02-10T22:31:20+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -218,6 +218,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||counter.monkeybanana3.com^
 ||analytic-client.playful-fairies.com^
 ||tk.promit.ru^$third-party
 ||ztest1track.com^$third-party
@@ -4522,6 +4523,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||metrics-broker.prod.p.tf1.fr^
 ||pappagallu.onefootball.com^
 ||stat.adguard.com^
 ||pvtag.yahoo.co.jp^
@@ -6205,6 +6207,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Plausible
 /plausible.js
 !
+/astrack.js
 /gv-analytics/*
 /gapro.js
 /img.gif?
@@ -6531,6 +6534,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+club-opel.com##.toplist
 insider.com##.taboola
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/mux.js
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/adobe/
