@@ -1,8 +1,8 @@
-! Checksum: wPlZ+PGWRh29iH7jUjWDBg
+! Checksum: XXLDnlVfIp8zDAzEtA7L9w
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.81
-! TimeUpdated: 2021-02-10T22:31:20+03:00
+! Version: 2.0.20.83
+! TimeUpdated: 2021-02-11T19:32:00+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6009,7 +6009,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d3avqv6zaxegeu.cloudfront.net^
 ||d3c3cq33003psk.cloudfront.net^
 ||d3cxv97fi8q177.cloudfront.net^
-||d3ezl4ajpp2zy8.cloudfront.net^
 ||d3h1v5cflrhzi4.cloudfront.net^
 ||d3hr5gm0wlxm5h.cloudfront.net^
 ||d3l3lkinz3f56t.cloudfront.net^
@@ -6207,6 +6206,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Plausible
 /plausible.js
 !
+-track-inview.
+/onetag/*
 /astrack.js
 /gv-analytics/*
 /gapro.js

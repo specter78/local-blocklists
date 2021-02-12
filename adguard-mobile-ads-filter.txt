@@ -1,8 +1,8 @@
-! Checksum: VpzmxkGvJSFj+dt3ZWQ9Ng
+! Checksum: ounUp2e9yadVfbEwljoBDg
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.72
-! TimeUpdated: 2021-02-11T03:30:13+03:00
+! Version: 2.0.17.77
+! TimeUpdated: 2021-02-11T18:30:26+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1806,7 +1806,6 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 !-------------------
 !
 ! AMP ads in ShadowRoot
-! 4pda.ru - main page
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61958
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28322
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17500
@@ -2248,6 +2247,8 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+vp.rambler.ru##.eagleplayer-advertisement-remain-time
+ixbt.com##.br-mobile-pic
 anime.anidub.life##div[style*="width: 300px;  height: 300px;"]
 kanasoku.info##body > div[style^="width:320px; height:100px"]
 standard.co.uk###stickyFooterRoot
@@ -2270,10 +2271,13 @@ outlook.live.com###OwaContainer
 www-androidauthority-com.cdn.ampproject.org##.andro-in-article-mobile-placement
 stileproject.com##.stage-promo
 stileproject.com##.mobile-vda
+/x-3111-33.js$domain=pianku.li
 onet.pl##.slot-placeholder--active
 sexkvartal.net##div[style^="text-align: center;"][style*="background-color: #FFFFFF;"][style*="overflow: hidden;"]
 dict.cc##div[style="text-align:center;width:728px"]
 sefon.pro##.rklm
+tutudao.net##a[href="https://hhyy33.com/"][target="_blank"]
+tutudao.net##.m_adv > a[href="https://m.13xp.com/"]
 namobilu.com##.b_adsen_wrap
 collectionofbestporn.com##.banner-mobile-header
 javsubtitle.co###mimpanel
@@ -3338,11 +3342,6 @@ m.haberler.com##.reklamAlan
 toucharcade.com##header > #header > .ta_mobileScrollMessage
 boards.4chan.org##body > iframe[id^="ag"][src="about:blank"]
 m.perfectgirls.net##.banner-wrapper-static
-4pda.ru##body > :not(div) > :not(div) > div > :not(div) > div > section > article > article > div  > div[itemprop="description"] a > img[width="400"][height="300"]
-4pda.ru##body > [style*="zoom:0."] > a > img
-4pda.ru##body > div#appbanner ~ * [style*="zoom:0."] > a > img
-4pda.ru##body > a[role="button"]
-4pda.ru##body > div[style*="zoom:"]
 m.anysex.com##.top_b
 m.anysex.com##.divExoCustomLayer
 /^https?:\/\/m\.anysex\.com\/[a-zA-Z]{1,4}\/[a-zA-Z]+\.php$/$image,script,domain=m.anysex.com
