@@ -1,8 +1,8 @@
-! Checksum: XXLDnlVfIp8zDAzEtA7L9w
+! Checksum: jg/gPQXk2KMuuiHGYwphiQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.83
-! TimeUpdated: 2021-02-11T19:32:00+03:00
+! Version: 2.0.20.84
+! TimeUpdated: 2021-02-12T19:32:39+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -159,6 +159,7 @@ donnerwetter.de#?#.col-xs-12 > div.block.prepend-top[-ext-has='> div.blocktitle-
 hdreactor.club,hdreactor.su,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики)
 hdreactor.club,hdreactor.su,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики) + div.menu-head1
 !
+myfirstcomp.ru##.tm-sidebar-b > div.uk-panel:has(script[src^="https://adcounter"])
 musicrock24.ru#?#.art-layout-cell > div.art-box:has(> div.art-box-body > div.art-blockheader > h3:contains(Счётчики))
 pryamoj-efir.ru#?#.layout-post-right > h1.playmaker-list:contains(Статистика)
 elmundo.es#?#body > main[role="main"] > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__main-column > aside > div[id^="taboola"])
