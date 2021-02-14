@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 11 Feb 2021
+#Updated: 13 Feb 2021
 #LatestVersion 20.12
 #---------------------
 0gs5mb24su.ru #PushProfit - Advertising
@@ -69,6 +69,7 @@ aa-metrics.hpbcosme.com #hpbcosme.com - Tracker
 aa-metrics.jalan.net #jalan.net - Tracker
 aamapi.com #Unknown - Tracker
 aamsitecertifier.com #Unknown - Tracker
+aanqylta.com #Wildbear - Advertising
 abmr.net #Akami
 abtasty.com #AB Tasty
 abtest.mistat.intl.xiaomi.com #Xiaomi.com - Tracker
@@ -335,6 +336,7 @@ affilbox.cz #AffilBox
 affiliatehub.skybet.com #Sky
 affiliatewindow.com #Digital Window
 affinity.com #Adtech - Advertising
+affise.com #Affise Tracker
 affrh2022.com #RevenueHits
 afftrack.com #AffTrack
 afftrack.pro #Tracker - Unknown
@@ -1144,6 +1146,7 @@ emxdgt.com #EMX
 en25.com #Oracle - Tracker
 enecto.com #Enecto
 engagesciences.com
+engageya.com #Engageya - Advertising
 ensighten.com
 envnxs.net #AppNexus Inc
 epmads.com
@@ -1156,6 +1159,7 @@ esearchvision.com
 esm1.net #Dealer.com
 esomniture.com #Adobe - Tracker
 esprima.org
+esputnik.com #eSputnik - Tracker
 estatcounter.com
 esvdigital.com
 et.lv
@@ -1263,6 +1267,7 @@ fullstory.com
 futureusmedia.com
 fwmrm.net #FreeWheel
 fyre.co
+g2afse.com #Affise Tracker
 gall-tarquin.com #Unknown - Tracker
 gallup.eset.com #ESET Tracker
 gamblingsyndication.com #Unknown - Advertising
@@ -1294,6 +1299,7 @@ getsitecontrol.com #GetSiteControl
 getsocial.io #GetSocial
 gettraff.com
 ghostery.com #Ghostery Enterprise
+ghostsinstance.com #Unknown - Advertising
 gigaonclick.com #Unknown - Advertising
 gigya.com
 gixioanalytics.com #Unknown - Tracker
@@ -1506,6 +1512,7 @@ jpgtrk.com #Spiroox Tracker
 jpush.cn
 jpush.io
 jslog.post.cz #Seznam
+jst.ai #Justuno Tracker
 jswebcollects.kugou.com #Kugou Music Streaming
 juicyads.com
 jumptap.com #Jumptap
@@ -1628,7 +1635,10 @@ logs.amap.com #Amap.Com - Tracker
 logs.boardkingsgame.com #Boardkingsgame.com - Tracker
 logs.dashlane.com #Dashlane Password Manager
 logs.roku.com #Roku
+logserver.hicloud.com #hicloud.com - Tracker
+logservice-dra.platform.hicloud.com #hicloud.com - Tracker
 logsss.com #Unknown - Tracker
+logtransform.hicloud.com #hicloud.com - Tracker
 longabeach.com #Unknown Chinese - Tracker
 loopme.me #Loopme - Advertising
 lp4.io #Linkpulse
@@ -1705,6 +1715,7 @@ medianexusnetwork.com
 mediaplex.com
 mediative.ca #Mediative
 mediative.com #Mediative
+mediavine.com #Mediavine - Advertising
 mediavoice.com
 mediawhirl.net #Unknown - Advertising
 medleyads.com #Unknown - Advertising
@@ -1732,6 +1743,7 @@ metric.asos.com
 metric.gstatic.com #Google
 metric.ipv6test.com #Unknown - Tracker
 metric.ipv6test.net #Unknown - Tracker
+metrics-lxc136.aviasales.ru #aviasales.ru - Tracker
 metrics.aftonbladet.se #Aftonbladet
 metrics.allrecipes.co.uk #Allrecipes.Co.Uk - Tracker
 metrics.asos.com #Asos.Com - Tracker
@@ -12644,6 +12656,8 @@ moatpixel.com #Moat
 mobcastlead.com #MobcastleAd Advertising
 mobclix.com #Velti
 mobfox.com #MobFox
+mobile-ads-content.aviasales.ru #aviasales.ru - Advertising
+mobile-tracking.aviasales.ru #aviasales.ru - Tracker
 mobileadexchange.net #Mobileadexchange - Advertising
 mobileads.msn.com #Microsoft - Advertising
 mobileadstrk.com #AdStork Advertising
@@ -13002,6 +13016,7 @@ projectwonderful.com
 promo.tutotoons.com #tutotoons.com - Advertising
 propellerads.com #PropellerAds
 propellerclick.com #PropellerAds
+prosperitypartying.com #Wildbear - Advertising
 proxyclick.com #Proxyclick - Tracker
 prscripts.com #Unknown - Advertising
 ps7894.com #Unknown - Advertising
@@ -13106,6 +13121,7 @@ rebrand.link #ClickMeter - Tracker
 rebrand.today #ClickMeter - Tracker
 rebrandly.com #ClickMeter - Tracker
 reckintersupwas.info #Unknown - Tracker
+recoveryyielded.com #Wildbear - Advertising
 redeye.international
 redirecting2.net
 redshell.io #Red Shell
@@ -14455,6 +14471,7 @@ technorail.com
 technorati.com #Technorati
 technoratimedia.com #Technorati
 techtarget.com #TechTarget - Tracker
+teenyreligious.com #Wildbear - Advertising
 tekblue.net #Plan Blue - Tracker
 telemetry-dce.gfe.nvidia.com #Nvidia GeForce Experience - Tracking
 telemetry-experiment.cdn.mozilla.net #Mozilla
@@ -14758,6 +14775,8 @@ wbtrk.net #Casale Media
 we-stats.com #Unknown - Tracker
 wearehearken.com #We are Hearken - Tracker
 web-01-gbl.com #Lead Forensics - Tracker
+web-analytics-cn.huami.com #Huami.com - Tracker
+web-analytics-de.huami.com #Huami.com - Tracker
 web-analytics.huami.com #huami.com - Tracker
 web-metrica.yandex.ru #Yandex
 webads.eu #WebAds - Advertising
