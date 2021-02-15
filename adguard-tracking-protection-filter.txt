@@ -1,8 +1,8 @@
-! Checksum: noApyfuyk8U5GNd75DEfyQ
+! Checksum: 7x5QdcGWDp0rBTpIuwrqQw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.87
-! TimeUpdated: 2021-02-13T23:31:22+03:00
+! Version: 2.0.20.90
+! TimeUpdated: 2021-02-14T19:31:21+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4525,6 +4525,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||media.fc2.com^
 ||metrics-broker.prod.p.tf1.fr^
 ||pappagallu.onefootball.com^
 ||stat.adguard.com^
@@ -6537,6 +6538,9 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||playbrain.io/analytics/
+||linkwithin.com/pixel.png
+||livedoor.jp/js/c2.js
 club-opel.com##.toplist
 insider.com##.taboola
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/mux.js
