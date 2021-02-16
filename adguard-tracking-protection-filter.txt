@@ -1,8 +1,8 @@
-! Checksum: 7x5QdcGWDp0rBTpIuwrqQw
+! Checksum: NnOZT9Aq6m3sKHLjbDNhXg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.90
-! TimeUpdated: 2021-02-14T19:31:21+03:00
+! Version: 2.0.20.92
+! TimeUpdated: 2021-02-15T12:31:23+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3342,6 +3342,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||unwieldyhealth.com^$third-party
 ||wearbasin.com^$third-party
 ||puffypaste.com^$third-party
 ||stiffgame.com^$third-party
@@ -4525,7 +4526,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
-||media.fc2.com^
+||media.fc2.com^$image
 ||metrics-broker.prod.p.tf1.fr^
 ||pappagallu.onefootball.com^
 ||stat.adguard.com^

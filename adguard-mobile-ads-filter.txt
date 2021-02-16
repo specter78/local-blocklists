@@ -1,8 +1,8 @@
-! Checksum: 0PTyYreM6kbkXYNM1nxh/A
+! Checksum: Kiv0o8L6p6BP/cnbihPaOQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.81
-! TimeUpdated: 2021-02-14T19:30:12+03:00
+! Version: 2.0.17.83
+! TimeUpdated: 2021-02-16T04:30:12+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1273,6 +1273,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/74988
+lxax.com#?#article > div.in-row > iframe[src^="/_ad#"]:upward(2)
 ! mildch.com placeholder
 mildch.com#?##container > div.free-area > div[align="center"] > script[src*="adingo.jp"]:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74013
@@ -3101,7 +3103,7 @@ milliyetemlak.com##a[href][target="_blank"].sno-itunes.external > img
 pdalife.ru##.js-banner
 anifresh.com###minpack-sticker-frame
 gaytail.com,stockingfetishvideo.com##.happy-header-mobile
-www-news18-com.cdn.ampproject.org,eurogamer.net,mumsnet.com,news18.com,amp.indiatimes.com,dronedj.com,bodybuilding.com,transfermarkt.de,mobil.stern.de##.ad-container
+opencritic.com,www-news18-com.cdn.ampproject.org,eurogamer.net,mumsnet.com,news18.com,amp.indiatimes.com,dronedj.com,bodybuilding.com,transfermarkt.de,mobil.stern.de##.ad-container
 jianshu.com##.dt-open-bg[data-scene="leftBtn"]
 jianshu.com##.note-comment-above-ad-wrap
 theinventory.com,thetakeout.com,theonion.com,splinternews.com,clickhole.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theroot.com##main > div > script[type="application/ld+json"] ~ div[class*="-1 "][class*="-0 "]
