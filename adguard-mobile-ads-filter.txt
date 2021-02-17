@@ -1,8 +1,8 @@
-! Checksum: Kiv0o8L6p6BP/cnbihPaOQ
+! Checksum: KJ2x3k3Y/ebG2IizzbgdtQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.83
-! TimeUpdated: 2021-02-16T04:30:12+03:00
+! Version: 2.0.17.86
+! TimeUpdated: 2021-02-16T18:30:46+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2251,6 +2251,10 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+novelmultiverse.com##.adace-slideup-slot-wrap
+vg247.com###last-mpu-slot
+vg247.com###last-mpu-slot + #recommendations
+kotaku.com##.js_commerce-inset-permalink
 video.fc2.com##.advertisement
 negisoku.com###fluct_overlay
 lnews.jp,ryutsuu.biz##.bnrad
@@ -2463,8 +2467,8 @@ rankedboost.com##.top-mob-div-stick
 russkoe-porno.me##.player-bn
 news18.com##.closestickybtn
 honeysanime.com###footerFloatingMenu
-kincir.com,zoomtventertainment.com,www-merkur-de.cdn.ampproject.org,merkur.de,amp-focus-de.cdn.ampproject.org##amp-fx-flying-carpet
-zoomtventertainment.com,www-merkur-de.cdn.ampproject.org,merkur.de,amp-focus-de.cdn.ampproject.org##.amp-flying-carpet-text-border
+koimoi.com,kincir.com,zoomtventertainment.com,www-merkur-de.cdn.ampproject.org,merkur.de,amp-focus-de.cdn.ampproject.org##amp-fx-flying-carpet
+koimoi.com,zoomtventertainment.com,www-merkur-de.cdn.ampproject.org,merkur.de,amp-focus-de.cdn.ampproject.org##.amp-flying-carpet-text-border
 amp-focus-de.cdn.ampproject.org##div[class="textBlock orange-button-artobj ps-tracking-position ps-trackingposition_OrangerButton"]
 znak.com##.SVKNative-Widget li[data-unit-type="promo"]
 pixnet.net##.in-read-ad
