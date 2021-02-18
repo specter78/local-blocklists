@@ -4,7 +4,7 @@
 #License: GNU General Public License v3.0
 #Home: https://quidsup.net/notrack/blocklist.php
 #@ GitLab : https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-#Updated: 15 Feb 2021
+#Updated: 17 Feb 2021
 #LatestVersion 20.12
 #---------------------
 0gs5mb24su.ru #PushProfit - Advertising
@@ -108,6 +108,7 @@ adagencyonline.net #AdAgencyOnline
 adalyser.com #Adalyser
 adap.tv #AOL - Advertising
 adblade.com #Adblade
+adblender.ru #AdBlender - Advertising
 adbrau.com #Unknown - Advertising
 adbrn.com #Adbrain
 adbroker.mp.dse.microsoft.com #Microsoft - Advertising
@@ -273,6 +274,7 @@ adsupplyssl.com #AdSupply Advertising
 adswizz.com #AdsWizz
 adsymptotic.com
 adtarget.me
+adtcdn.com #Unknown - Advertising
 adtech.de #Adtech - Advertising
 adtechium.com #AdTechium
 adtechus.com
@@ -409,6 +411,7 @@ analytics.evehome.com #evehome.com - Tracker
 analytics.faw.sky.com #Sky
 analytics.feeder.co #Feeder Tracker
 analytics.ff.avast.com #Avast Tracker
+analytics.ff.avast.sec.miui.com #Xiaomi - Tracker
 analytics.formstack.com #Formstack.Com - Tracker
 analytics.frdev.wikimedia.org #Wikimedia.Org - Tracker
 analytics.freemake.com #Freemake.Com - Tracker
@@ -490,6 +493,7 @@ analyticspixel.microsoft.com #Microsoft Tracker
 and.co.uk
 andmlb.kshwtj.com #Unknown - Advertising
 android-stat.acestream.net #Acestream.net - Tracker
+androidlog.ws.pho.to #pho.to - Tracker
 angorch-cdr7.com #Lead Forensics - Tracker
 anm.co.uk #Associated Newspapers Limited
 anrdoezrs.net
@@ -579,7 +583,9 @@ azalead.com
 bae5tracker.com #Lead Forensics - Tracker
 bam-x.com #Narrativ
 banner.profile.ru #Profile.ru - Tracker
+banner.ws.pho.to #pho.to - Advertising
 bannerflow.com #Bannerflow
+banners.bionika-media.ru #bionika-media.ru - Advertising
 barra.iol.pt #IOL
 barranew.iol.pt #IOL
 bars.sapo.pt #PT Telecomunicacoes - Tracker
@@ -592,7 +598,9 @@ baw5tracker.com #Lead Forensics - Tracker
 baynote.net
 bcovery.com #Bcovery Tracker
 bdex.com #Big Data Exchange
+beacon.direct.asda.com #asda.com - Tracker
 beacon.guim.co.uk #The Guardian
+beacon.riskified.com #riskified.com - Tracker
 beacon.wikia-services.com #Wikia-Services.Com - Tracker
 beacons.gcp.gvt2.com #Google
 beacons.gvt2.com #Google
@@ -741,6 +749,7 @@ ccemails.com #Email Vision
 ccmp.eu #Experian
 cdn-mxpnl.com #Mixpanel
 cdn-net.com
+cdn-rum.ngenix.net #ngenix.net - Tracker
 cdn4ads.com #Unknown - Advertising
 cdxr53.com #Cedexis Radar
 cedexis-radar.net #Cedexis Radar
@@ -766,6 +775,7 @@ chimpstatic.com #mailchimp
 choicestream.com
 chrs-mln-krs.com
 circulate.com #LiveRamp
+citruserve.com #Sainsbury - Tracker
 citypaketet.se #City Packetet
 cj.com #Conversant Media
 clarium.io #Confiant
@@ -785,6 +795,7 @@ clickadu.com #Clickadu
 clickagy.com #Clickagy
 clickbank.net
 clickdensity.com #Box UK
+clickfrog.ru #ClickFrog - Tracker
 clickfunnels.com #ClickFunnels - Tracker
 clickfuse.com
 clickio.com
@@ -890,7 +901,9 @@ cosmeticsgenerosity.com #Unknown - Advertising
 counciladvertising.net #Council Advertising Network
 count-us.rudo.video #Rudo.video - Tracker
 count.rudo.video #Rudo.video - Tracker
+counter.dsp.groupminteraction.ru #groupminteraction.ru - Tracker
 counter.nv.ua #Nv.Ua - Tracker
+counter.sefon.cc #sefon.cc - Tracker
 counter.yandro.ru #Yandro.ru - Tracker
 countess.twitch.tv #Twitch
 countly.ooni.io #Ooni.io - Tracker
@@ -1041,6 +1054,7 @@ doutthenhap.info #Danesco Trading Ltd
 dowjoneson.com
 dpmsrv.com
 dressipi.com #Style website which offers analytics for other retailers
+drift.com #Drift - Tracker
 dsf4t5jfds34j.com #Unknown - Advertising
 dsply.com
 dtc-330d.com #Lead Forensics - Tracker
@@ -1175,6 +1189,7 @@ euroads.se #EuroAds
 event.chitai-gorod.ru #Chitai-gorod.ru - Tracker
 eventcapture03.com #Lead Forensics - Tracker
 eventcapture06.com #Lead Forensics - Tracker
+eventstream.dodopizza.com #dodopizza.com - Advertising
 ever-track-51.com #Lead Forensics - Tracker
 everestads.net #Everest Ads Advertising
 everestjs.net
@@ -1319,6 +1334,7 @@ golittretre.info #Unknown - Tracker
 gooanalytics.com #Buta Trading
 google-analytics.com
 googleanalytics.com #Google
+googles-analytics.com #Unknown - Advertising
 googlesyndication.com
 googletagmanager.com
 googletagservices.com
@@ -1668,6 +1684,7 @@ mailerlite.com #MailerLite
 mailmunch.co
 mainad.com #MainADV
 mainadv.com #MainADV
+manalyticshub.com #Unknown - Tracker
 mandrillapp.com #MailChimp
 mantis-prod-reach.cdn.appdomain.cloud #Unknown - Tracker
 map2.ssl.hwcdn.net #HWCDN Tracker
@@ -13202,6 +13219,7 @@ rts.mobula.sdk.duapps.com #DU Apps
 ru4.com
 rubiconproject.com #Rubicon - Tracker
 rubiconproject.net.akadns.net #Rubicon - Tracker
+rum.ngenix.net #ngenix.net - Tracker
 rum20.a.trbcdn.net #cdnvideo - Tracker
 runadtag.com
 runative-syndicate.com #Runative Advertising
@@ -14376,6 +14394,7 @@ stats.bbc.net.uk #BBC Tracker
 stats.brave.com #Brave.Com - Tracker
 stats.curds.io #Curds.io - Tracker
 stats.cyclosm.org #Cyclosm.Org - Tracker
+stats.digitalcontactmails.net #digitalcontactmails.net - Tracker
 stats.ebay.com #eBay
 stats.elementary.io #Elementary.io - Tracker
 stats.ft.com #Financial Times
@@ -14397,8 +14416,8 @@ stats.royalbank.com #Canadian Royal Bank
 stats.rs-online.com #RS - Tracker
 stats.ryzeo.com #Ryzeo - Tracker
 stats.searchanise.com #Searchanise.Com - Tracker
+stats.stackexchange.com #stackexchange.com - Tracker
 stats.unity3d.com #Unity3d.Com - Tracker
-stats.uptimerobot.com #Uptimerobot.Com - Tracker
 stats.vashurok.ru #Vashurok.Ru - Tracker
 stats.videodelivery.net #Cloudflare - Tracker
 stats.vk-portal.net #VK Tracker
@@ -14453,6 +14472,7 @@ switchads.com
 swoop.com
 swordfishdc.com #Swordfish Inc
 swrve.com #Swrve
+t17service.com #Unknown - Advertising
 t4p-upd.info #Sergii Mykolaenko
 taboola.com
 taboolasyndication.com
