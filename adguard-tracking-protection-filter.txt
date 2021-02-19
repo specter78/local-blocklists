@@ -1,8 +1,8 @@
-! Checksum: QoKJwzucds1ZYmvD8///Ig
+! Checksum: ZpW5IS/9N/Pe28KaLHnVxA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.20.97
-! TimeUpdated: 2021-02-17T19:32:15+03:00
+! Version: 2.0.21.0
+! TimeUpdated: 2021-02-18T22:31:27+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6543,6 +6543,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||n11scdn.akamaized.net/assets/javascripts/ha.js
 ||playbrain.io/analytics/
 ||linkwithin.com/pixel.png
 ||livedoor.jp/js/c2.js
@@ -8581,6 +8582,8 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||p.statp.com^
+||api.imqtyik.com^
 ||events.claspws.tv^
 ||tracking-receiver.prod-general.stocard-backend.com^
 ||metrics.happycolor.app^
@@ -9041,6 +9044,10 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/75194
+||pvtag.yahoo.co.jp^$script,redirect=noopjs,domain=paypayfleamarket.yahoo.co.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/75154
+@@||analysys.cn^$domain=analysys.cn
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74614
 @@||se.monetate.net/js/*/entry.js$domain=debenhams.com
 @@||se.monetate.net/js/*/custom.js$domain=debenhams.com
@@ -9049,6 +9056,10 @@ link.gmapp*.net$image
 @@||trf.greatviews.de/cl?$domain=mitarbeiterangebote.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74275
 ||googletagmanager.com/gtag/js$script,other,redirect=googletagmanager-gtm,domain=guardaserie.*
+! https://github.com/AdguardTeam/AdguardFilters/issues/74712
+@@||cdn.taboola.com/libtrc/*/loader.js$domain=ilmeteo.it
+@@||cdn.taboola.com/libtrc/impl.*.js$domain=ilmeteo.it
+@@||trc.taboola.com/ilmeteo-*/trc/$domain=ilmeteo.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73794
 @@||gapt.hit.gemius.pl/gplayer.js$domain=radiocomercial.iol.pt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73701

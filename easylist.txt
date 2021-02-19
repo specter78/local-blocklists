@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202102180229
+! Version: 202102190058
 ! Title: EasyList
-! Last modified: 18 Feb 2021 02:29 UTC
+! Last modified: 19 Feb 2021 00:58 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -399,6 +399,7 @@
 -image/Ads/
 -images/ad-
 -img/ads/
+-inject-ads.
 -inspire-ad.
 -intern-ads/
 -js-advertising-
@@ -3853,7 +3854,6 @@
 /assets/ads/*
 /assets/ads3-
 /assets/ads_
-/assets/adv/*
 /assets/doubleclick/*
 /assets/sponsored/*
 /ast/ads/*
@@ -10511,6 +10511,7 @@ _popunder+$popup
 ###adBannerWrapperFtr
 ###adBar
 ###adBelt
+###adBillboard
 ###adBladeDeskArt
 ###adBlock01
 ###adBlock125
@@ -11776,6 +11777,7 @@ _popunder+$popup
 ###adrightrail
 ###adriver_middle
 ###adriver_top
+###adrotator
 ###adrow
 ###adrow-house
 ###adrow1
@@ -17226,6 +17228,7 @@ _popunder+$popup
 ###topOpenXAdSlot
 ###topOverallAdArea
 ###topRightBlockAdSense
+###topSponsorBanner
 ###topSponsoredLinks
 ###top_AD
 ###top_ad
@@ -18735,6 +18738,8 @@ _popunder+$popup
 ##.ad-footer-leaderboard
 ##.ad-footer-mobile
 ##.ad-force-center
+##.ad-format-300x250
+##.ad-format-300x600
 ##.ad-forum
 ##.ad-frame
 ##.ad-full
@@ -27862,6 +27867,7 @@ _popunder+$popup
 ##.ringtone-ad
 ##.risingstar-ad
 ##.risingstar-ad-inner
+##.river-item-sponsored
 ##.riverAdLoaded
 ##.riverAdsLoaded
 ##.riverSponsor
@@ -28926,6 +28932,7 @@ _popunder+$popup
 ##.t10ad
 ##.tAd
 ##.tAds
+##.tab-advert-image
 ##.tabAd
 ##.tabAds
 ##.tab_ad
@@ -33120,6 +33127,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bestvideo2019.xyz^
 ||betahit.click^
 ||betemolgar.com^
+||betjeyxf.com^
 ||betrayedregretdeadline.com^
 ||betteradsystem.com^
 ||bettercontentservice.top^
@@ -35668,6 +35676,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||huovernment.club^
 ||hurchasisounci.site^
 ||husbandbazaar.com^
+||hustlereorganizesatin.com^
 ||huyqmtpqhemcv.com^
 ||hvato.info^
 ||hvawrj8yeqru.com^
@@ -47746,6 +47755,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||awesomenewspush.com^$popup
 ||awptjmp.com^$popup
 ||awsclic.com^$popup,third-party
+||azasdf.be.^$popup
 ||azasdf.be^$popup
 ||b3z29k1uxb.com^$popup
 ||b54m4qbmt0b9.com^$popup
@@ -54509,7 +54519,7 @@ swahilihub.com##.ban125x125
 izismile.com##.ban_top
 lexico.com##.banbox
 lexico.com##.banbox-mini
-adnkronos.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,internetnews.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,residentadvisor.net,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sportsvibe.co.uk,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,thetriangle.org,timeslive.co.za,timesofisrael.com,tmi.me,twirlit.com,universalmusic.com,vice.com,victoriafalls24.com,vnexpress.net,weather.gc.ca,weatheronline.co.uk,webfg.com,wego.com,whatsock.com,worldcrunch.com,xbiz.com,yabeat.com,ynetnews.com,zbigz.com##.banner
+adnkronos.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,internetnews.com,irishtimes.com,japantimes.co.jp,jpost.com,keygames.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,residentadvisor.net,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sportsvibe.co.uk,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,thetriangle.org,timeslive.co.za,timesofisrael.com,tmi.me,twirlit.com,universalmusic.com,vice.com,victoriafalls24.com,vnexpress.net,weather.gc.ca,weatheronline.co.uk,webfg.com,wego.com,whatsock.com,worldcrunch.com,xbiz.com,yabeat.com,ynetnews.com,zbigz.com##.banner
 oilprice.com##.banner--articleSidebar
 ariacharts.com.au,nation.sc,techshout.com##.banner-1
 nation.sc##.banner-2
@@ -55146,7 +55156,7 @@ fog24.com##.leaderboardholder
 cherokeetribune.com,rockpapershotgun.com,vg247.com##.leaderboards
 theprospectordaily.com##.leaderboardwrap
 morewords.com##.lef
-solidfiles.com,youserials.com##.left
+keygames.com,solidfiles.com,youserials.com##.left
 republicbroadcasting.org##.left-sidebar-padder > #text-8
 gogetaroomie.com##.left-space
 yellowpages.com.ps##.leftSponsors
@@ -55458,6 +55468,7 @@ amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##.sbv-video-
 newindianexpress.com##.scc
 minecraftservers.org##.second-banner
 wbur.org##.section--breakout
+nzherald.co.nz##.section-iframe
 pipeflare.io##.section-promo-banner
 studyfinds.org##.sfspot
 shortorial.com##.sgpb-popup-dialog-main-div-wrapper
@@ -55854,6 +55865,7 @@ goodrx.com##div[class^="adWrapper-"]
 greatandhra.com##div[class^="add"]
 technical.city##div[class^="banner_"]
 keengamer.com##div[class^="gameon-mpu-"]
+pcgamer.com,tomsguide.com,tomshardware.com##div[class^="slot-"]
 kijiji.ca##div[class^="sponsored-"]
 whatsondisneyplus.com##div[class^="whats-"]
 amazon.com##div[data-ad-id]
@@ -56012,8 +56024,6 @@ planetinsane.com,radiosurvivor.com##text-18
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##tr > td + td[style*="height:"]
 uvnc.com##tr > td[valign="middle"][style="width: 10px;"]:first-child + td[valign="top"][style="width: 180px;"]
 elizium.nu##ul[style="padding: 0; width: 100%; margin: 0; list-style: none;"]
-keygames.com##.banner
-keygames.com##.left
 ! youtube.com#?#ytd-rich-item-renderer:-abp-has(ytd-display-ad-renderer)
 ! Google https://forums.lanik.us/viewtopic.php?f=62&t=45153
 ##.section-subheader > .section-hotel-prices-header

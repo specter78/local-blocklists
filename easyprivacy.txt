@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202102180229
+! Version: 202102190058
 ! Title: EasyPrivacy
-! Last modified: 18 Feb 2021 02:29 UTC
+! Last modified: 19 Feb 2021 00:58 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5471,20 +5471,26 @@ cgi-bin/counter
 ||meetrics.netbb-
 ! Email tracking pixels
 -track-email-open?
+.bhphotovideo.com/mo/
 .bluekai.com/*?e_id_
 .cmail19.com/t/
+.cmail19.com/ti/
 .delivery-status.com/open?
 .demdex.net/event?
+.duolingo.com/open/
 .emltrk.com/
 .epicgames.com/O/
 .flipboard.com/usage?
+.getblueshift.com/q/
 .hootsuite.com/trk?
 .innologica.com/t/
 .intercom-mail.com/q/
 .kijiji.ca/r/
+.members.babbel.com/mo/
 .publish0x.com/t/
 .sendcloud.net/track/
 .sendibm1.com/mk/
+.simplicitycrm.com/rd/
 .spotify.com/ss/
 .starbucks.com/a/
 .webex.com/q/
@@ -5492,16 +5498,22 @@ cgi-bin/counter
 .zalando.com/images/probe.png
 /1x1_usermatch.gif?
 /clicks.email.
+/cmail2.com/t/
 /email-pixel?
+/email/open?
 /eo?_t=$image
 /exmo.email/open.html
+/link.coindesk.com/img/*
 /lzdmailer.letter.open?
 /open.aspx?
+/pixel-prod.
 /sendmail.backerupdate.com/t/*
+/sptracking.
 /track/open.php?
 /track/open?
 /trcksp.
 /wf/open?upn=$image
+://email.*/e/o/
 ! DNS checks
 /DNSCheck.js
 /DNSChecker.js
@@ -7122,6 +7134,7 @@ _mongo_stats/
 ||leadsius.com^$third-party
 ||leadsmonitor.io^$third-party
 ||leadsrx.com^$third-party
+||leafmedia.io^$third-party
 ||leanplum.com^$third-party
 ||legolas-media.com^$third-party
 ||leokross.com^$third-party
@@ -8478,6 +8491,7 @@ _mongo_stats/
 ||ygsm.com^$third-party
 ||yieldbot.com^$third-party
 ||yieldify.com^$third-party
+||yieldlift.com^$third-party
 ||yieldsoftware.com^$third-party
 ||yjtag.jp^$third-party
 ||yldr.io^$third-party
@@ -9392,6 +9406,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hot-count.com^$third-party
 ||hotcounter.de^$third-party
 ||hstrck.com^$third-party
+||htm1.ch^$third-party
 ||hung.ch^$third-party
 ||iivt.com^$third-party
 ||imcht.net^$third-party
@@ -11012,6 +11027,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dlvkf5067xruv.cloudfront.net^
 ||dmcdn.net/behavior/
 ||dmdentertainment.com^*/video_debug.gif?
+||dmdt.io/collect
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||domodomain.com^*/ddsense.aspx?
@@ -12623,6 +12639,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! -----------------International third-party tracking services-----------------!
 ! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
 ! German
+/rdir.baur.de/g.html?uid=$image
 ||78.46.19.203^$third-party,domain=~sprueche-zitate.net.ip
 ||ablida.net^$third-party
 ||adc-srv.net/retargeting.php
@@ -12718,7 +12735,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pyroactive.de/counter/
 ||quiz.stroeermediabrands.de/pub/$image
 ||rc.aol.de^*/getrcmd.js
-||rdir.baur.de/g.html?uid=$image
 ||retrack.q-divisioncdn.de^
 ||retresco.de^*/stats/$third-party
 ||script.idgentertainment.de/gt.js
@@ -14028,6 +14044,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||easy2.com^*/logging/
 ||eba-amadeus.netdna-ssl.com/fastTrack/$domain=flyasiana.com
 ||ebay-us.com/fp/
+||ebay.*/autotrk/
 ||ebay.com/op/t.do?event
 ||ebayobjects.com/*;dc_pixel_url=$image
 ||ebaystatic.com^*/agof_survey_
@@ -15931,6 +15948,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||whatcar.com/Client/Stats/
 ||whistleout.com.au/track
 ||whstatic.com^*/ga.js?
+||wikihow.com/ev/*?events=
 ||wikihow.com/visit_info
 ||wikihow.com/x/collect?
 ||wikihow.com/x/event?
@@ -18130,7 +18148,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com|vitacost.com
 @@||mpsnare.iesnare.com/wu/snare.js$domain=westernunion.com
-@@||msecnd.net/scripts/jsll-$script,domain=office.com|sharepoint.com|teams.microsoft.com
+@@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com|greentoe.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
