@@ -1,8 +1,8 @@
-! Checksum: bpCucl+SnyThQtsFdT73eQ
+! Checksum: 6pzjdM770m2eQ6z23/a5bw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.91
-! TimeUpdated: 2021-02-18T19:30:16+03:00
+! Version: 2.0.17.94
+! TimeUpdated: 2021-02-19T16:03:05+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2267,6 +2267,10 @@ novelmultiverse.com##.adace-slideup-slot-wrap
 vg247.com###last-mpu-slot
 vg247.com###last-mpu-slot + #recommendations
 kotaku.com##.js_commerce-inset-permalink
+||fc2.com/video/js/u/sp/hdr/
+||video.fc2.com^*/suggest_list_ad.php
+video.fc2.com###pr
+video.fc2.com##.ad_area_top
 video.fc2.com##.advertisement
 negisoku.com###fluct_overlay
 lnews.jp,ryutsuu.biz##.bnrad
@@ -2876,7 +2880,6 @@ m.timesofindia.com##li[data-ptype="sponsoredcityent"]
 m-jatimnow-com.cdn.ampproject.org##amp-iframe[src^="https://click.advertnative.com/"]
 m.nuvid.com##.banner-full-fixed
 amp-suara-com.cdn.ampproject.org##.suara-populer-feed ~ amp-embed
-99.co###floating_ads_bottom_textcss_container
 rumusrumus.com,rumus.co.id##.closads
 m.sakaryacark.com##.mobilReklam
 hdxclub.com##.video-wrapper + aside.video-aside
@@ -4108,6 +4111,7 @@ livejournal.com##.mdspost-aside__item--banner
 ! Blocking Facebook mobile ads
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/75038
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69657
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67951
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60163

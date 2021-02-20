@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202102181807
+! Version: 202102191732
 ! Title: EasyList Germany
-! Last modified: 18 Feb 2021 18:07 UTC
+! Last modified: 19 Feb 2021 17:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -824,6 +824,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||kontakt-vermittler.de/banner2/$third-party
 ||pccdn.com^*/banner/$third-party
 ||rastplatzsex.com/banner/$third-party
+||rhein.rfw-koeln.de^$third-party
 ||seitensprungarea.com/medien/$third-party
 ||sexkontaktportal.com/banner/$third-party
 ||smskontakt.ch/images/$third-party
@@ -1649,6 +1650,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||gofeminin.de/home4/skin/*_*/home.css|
 ||goldesel.to/img/*.gif|
 ||goldesel.to/img/fe7fb5b07e72161a27cca446df46743e13.jpg
+||golfmagazin.de/content/uploads/*/banner_
 ||googlewatchblog.de/apt.png
 ||googlewatchblog.de/wp-content/uploads/amazon-music-hd-stream.jpg
 ||gota.ch/images/pbanner/
@@ -1951,6 +1953,8 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||schule-studium.de/buhv-Unterrichtsmaterial/Banner/
 ||schule-studium.de/images/Head-Dateien-jpgs/Thalia-Startseite.jpg
 ||scm-handball.de^*/Sponsoren/
+||segeljournal.com/wp-content/uploads/*/730x90_
+||segeljournal.com/wp-content/uploads/*_webbanner_
 ||selbstaendig-im-netz.de/Bilder/affiliate-banner/
 ||selbstaendig-im-netz.de/Bilder/Profi/
 ||sensor-test.de/assets/Banner/
@@ -1980,6 +1984,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||sissymag.de/wp-content/uploads/*/ottinger_salzgeber_club_1.jpg
 ||sissymag.de/wp-content/uploads/*/qfn01-
 ||sissymag.de/wp-content/uploads/*/tanzten_kaufen.jpg
+||sonic-seducer.de/images/banners/
 ||soundportal.at/fileadmin/user_upload/werbung/
 ||spanienlive.com^*/Werbung/
 ||speedtorrent.com/usenet/
@@ -2009,6 +2014,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||stadtradio-goettingen.de/apool/srg/content/ads
 ||stern.de/bilder/stern_5/allgemein/extras_vermarktet/
 ||stream-oase.tv/images/banners/
+||studio-magazin.de/files/banner/
 ||studium-ratgeber.de^*/auslandszeit-starterkit.png
 ||studium-ratgeber.de^*/Studententarife-300x250.png
 ||suche.1und1.de/uns/affilinet?$xmlhttprequest
@@ -2060,6 +2066,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||taschenlampen-forum.de/images/imalent/
 ||taschenlampen-forum.de/images/olight/
 ||taschenlampen-forum.de/images/wubenlight/
+||tauchen.de/content/uploads/*_billboard_
 ||tbv-lemgo-lippe.de/fileadmin/_processed_/*_banner_
 ||tbv-lemgo-lippe.de^*/sponsoren/
 ||tchgdns.de/wp-content/uploads/*-300-600.jpg
@@ -2396,6 +2403,7 @@ kriminalpolizei.de###banner-wrapper-top-v1
 nrhz.de###banner_container_rc
 geemag.de###banner_content
 nrhz.de###banner_left_container_lc
+sonic-seducer.de###banner_oben
 dreingau-zeitung.de###banner_right
 juve.de###banner_sidebar
 dreingau-zeitung.de,linguee.de###banner_top
@@ -2491,7 +2499,7 @@ abload.de###layerleft
 abload.de###layerright
 tellows.de###lb_header
 1erforum.de,bauexpertenforum.de,dasheimwerkerforum.de,fitness-foren.de,lpgforum.de,mazda-forum.info,mercedes-forum.com,notebookforum.at,pkw-forum.de,skodacommunity.de,toyota-forum.de,vermieter-forum.com,windows-7-forum.net###leader_top_desk
-skiinfo.ch,skiinfo.com,skiinfo.de,spieletipps.de###leaderboard
+skiinfo.ch,skiinfo.com,skiinfo.de,spieletipps.de,videoaktiv.de###leaderboard
 ebay-kleinanzeigen.de###liberty-vip-middle
 ebay-kleinanzeigen.de###liberty-zsrp-bottom
 ebay-kleinanzeigen.de###liberty-zsrp-top-banner
@@ -2505,7 +2513,7 @@ startxxl.com###mcebox
 startxxl.com###mcebox-sidebar
 eihi.de###media_gallery-2
 basicthinking.de,zurzeit.at###media_image-3
-africa-positive.de,kremser-sc.at###media_image-4
+africa-positive.de,golfmagazin.de,kremser-sc.at###media_image-4
 kremser-sc.at###media_image-5
 kremser-sc.at###media_image-6
 kremser-sc.at###media_image-7
@@ -2560,6 +2568,7 @@ gamereactor.de###sky2_1
 ad-hoc-news.de###skyL_wrapper
 ad-hoc-news.de###skyR_wrapper
 aktionspreis.de###skyScraper
+videoaktiv.de###skypos
 eurogamer.de,firmenwissen.de,fussballdaten.de,halle.de###skyscraper
 it-production.com###skyscraper-group
 it-production.com###skyscraper-group-left
@@ -2664,11 +2673,13 @@ ak-kurier.de##.ad + #flashContent
 ak-kurier.de##.ad + .tdt
 ak-kurier.de##.ad + .uk-panel
 diegrenzgaenger.lu##.ad-listing
+spiesser.de##.ad-mark
 vsport.at##.ad1
 vsport.at##.ad2
 vsport.at##.ad3
 journalonko.de,kress.de,promiflash.de##.adContainer
 11freunde.de##.ad_below-nav
+golfmagazin.de,jaegermagazin.de,st-georg.de,tennismagazin.de##.ad_list
 fairytail-tube.org,naruto-tube.org##.adb
 einrichtungsbeispiele.de,gevestor.de,latina-press.com,webwiki.de##.adbox
 vaterland.li##.adcontainer
@@ -2687,6 +2698,7 @@ hierspielen.com##.adtitle
 ibb-anzeiger.de##.adv
 oberberg-aktuell.de##.adv-indicator
 oberberg-aktuell.de##.adv-link
+blinker.de##.adv_widget
 eurogamer.de,morningstar.de,suedkurier.de,weser-kurier.de##.advert
 bankkaufmann.com##.advert_
 onvista.de##.advertisedFund
@@ -2752,7 +2764,7 @@ handy-player.de##.bannerbox
 xxxjob.ch##.bannerboxlinks-klein
 xxxjob.ch##.bannerboxrechts
 prost-magazin.at##.bannerfullbanner
-112-magazin.de,highway-magazin.de,kl-aktuell.de,naturundtherapie.at,pc-experience.de,spielbox.de,wahrschauer.net##.bannergroup
+112-magazin.de,highway-magazin.de,kl-aktuell.de,naturundtherapie.at,pc-experience.de,sonic-seducer.de,spielbox.de,wahrschauer.net##.bannergroup
 sportal.ch##.bannerspot
 frischauf-gp.de##.bannertop
 nnz-online.de##.bannerwrapper
@@ -2815,6 +2827,7 @@ derkleinegarten.de##.custom-inhoadd
 spox.com##.dazn
 dubisthalle.de##.dbh-widget
 deutschsex.com##.default__interest-block
+segeljournal.com##.displaybanner-container
 volksblatt.li##.divAdd_Banner
 gload.cc##.dl2019main
 scp07.de##.dp-sponsorenfooter
@@ -2843,7 +2856,7 @@ arboe.at##.frame-type-mask_toolboxcontentad1
 raidrush.net##.funbox
 99ers.at##.fusion-builder-row-14
 fcschweinfurt1905.de##.fusion-builder-row-3
-gailtal.news,gitschtal.news,greifenburg.news,hermagor.news,it-production.com,klagenfurt.news,lite-magazin.de,radenthein.news,spittal.news,steinfeld.news,troepolach.news,via-ferrata.de,villacher.news,weissensee.news##.g
+gailtal.news,gitschtal.news,greifenburg.news,hermagor.news,it-production.com,klagenfurt.news,lite-magazin.de,radenthein.news,spittal.news,steinfeld.news,troepolach.news,unternehmermagazin.de,via-ferrata.de,villacher.news,weissensee.news##.g
 golem.de##.gbox_affiliate
 jungfrauzeitung.ch##.gokb
 jungfrauzeitung.ch##.gokwblock
@@ -2901,6 +2914,7 @@ ofc.de##.main-club-partner
 vienna-capitals.at##.main-sponsorlogo
 hceppan.it##.mainSponsor
 aerotelegraph.com##.marcopolo
+mein-pferd.de##.marketing-wrapper
 oe24.at##.marketingTeaserBanner
 winfuture.de##.mb25[style="min-height:261px"]
 t-online.de##.med_anz
@@ -2912,7 +2926,7 @@ schweizer-illustrierte.ch##.ministage-channel-sponsor-paragraph
 intimesrevier.com##.miragobox
 finanzen.net##.mleft-10 + .table-quotes
 fc.de##.mod-sponsor-icon
-blaue-blume.tv,goldstar-tv.de,romance-tv.de##.mod_banner
+blaue-blume.tv,goldstar-tv.de,romance-tv.de,studio-magazin.de##.mod_banner
 aarauer-nachrichten.ch,st-galler-nachrichten.ch,wiler-nachrichten.ch,winterthurer-zeitung.ch,zugerwoche.ch##.mod_printanzeigen
 schalke04.de##.module-advertising
 jetztspielen.de##.mpu
@@ -2961,6 +2975,7 @@ tchgdns.de##.pub-single-side
 radiobeo.ch##.qf-standard-banner-wrapp
 jamesfm.ch##.qt-sponsor
 codecheck.info##.r
+videoaktiv.de##.rec
 games.ch##.rect
 anisearch.de##.rect_sidebar
 fussballdaten.de,modhoster.de,rheintaler.ch##.rectangle
@@ -3042,11 +3057,12 @@ bitreporter.de##.td-a-rec-id-custom-spot
 pi-news.net##.td-a-rec-id-header
 primavera24.de##.td-header-container
 bild.de##.tea-rectangle
-analsexporno.net##.tf-ho.tf-de
+analsexporno.net,pornomonster.com##.tf-de
 hifitest.de##.themenmonat
 rro.ch##.tisement
 t-online.de##.toi-sh-breaker
 oberberg-aktuell.de##.top-leaderboard
+angelshow.de##.top-panel
 macwelt.de##.top-products
 gload.cc##.top2019main
 buffed.de,gamezone.de,pcgames.de,pcgameshardware.de##.topFrameEddie
@@ -3177,6 +3193,7 @@ giga.de##div[data-trigger="sourcepoint-ad"]
 formel1.de##div[id="outer_sas_"]
 t-online.de##div[id^="T-"].Tmm.Tltb.Tts.Tmc1.Tww1.Thh3[onfocus^="A('zid="] > .Ttsc.Ttsv169
 t-online.de##div[id^="T-"][oncontextmenu="return false"]
+ebay.de##div[id^="ad_html_"]
 areadvd.de##div[id^="aread-"]
 finanzen100.de,spielen.de##div[id^="banner_"]
 hpd.de##div[id^="block-views-advertising-"]

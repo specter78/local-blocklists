@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Xpw0YGcGfaT6IVYBLjrrIA
-! Version: 202102190502
+! Checksum: YzSPM86yb1/yrS/bCEWwRQ
+! Version: 202102200502
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 19 Feb 2021 05:02 UTC
+! Last Modified: 20 Feb 2021 05:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1176,6 +1176,9 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||meituangov.cn^
+||k9dzax.cn^
+:12443/*/*-*-*.$script,third-party
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -2806,6 +2809,7 @@ ubmcmm.baidustatic.com
 ||log.interest.mix.sina.com.cn^
 ||lolmp4.com^$third-party
 ||longchengtg.com^
+||longdidi.top^
 ||loveconer.com^
 ||lovestyl.com^
 ||lovexia.top^
@@ -9082,9 +9086,13 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||alicdn.com/kf/Ucdaf8165ce43491681d63dc26ecf5d75l.jpg
+||hkmte.com/seo.js
+||dytt.com/pc.js
+||dytt.com/oj.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-ruyo.net###sidebar>:not(:first-child):not(:last-child)
+qb-api.com##.panel-success
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10278,6 +10286,7 @@ hao.360.com###sidebar
 iyejie.com###sidebar > .widget:first-child
 ainuody.com###sidebar > .widget:nth-child(-n+6)
 appinn.com###sidebar > .widget_text:first-child
+ruyo.net###sidebar > :not(:first-child):not(:last-child):not([id^="recent-posts"])
 jiecao123.com###sidebar > a
 fuliba.net###sidebar > div:first-child
 fuliba.net###sidebar > div:last-child
@@ -12472,7 +12481,6 @@ wallstreetcn.com##.omg-container
 10jqka.com.cn,hepan.com##.onead
 duba.com##.oneone-search
 bilibili.com##.online + .adpos
-bilibili.com##.online + .operate-card
 udn.com##.only_web > .DisplayVideo
 wdzj.com##.opentb
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
@@ -13662,7 +13670,7 @@ aibing.cc##a[href^="https://aibing.cc/go/"]
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/"] + .NoTextDecoration
 oschina.net##a[href^="https://citiccard.wjx.cn/"]
 acfun.cn##a[href^="https://click.dsp.com/"]
-github.com##a[href^="https://cloud.tencent.com/"]
+github.com##a[href^="https://cloud.tencent.com/redirect."] > img
 chongbuluo.com##a[href^="https://cn.udacity.com/"]
 tzfile.com##a[href^="https://d.oo14.com/"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
@@ -15978,6 +15986,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||luolikong.net^$third-party
 ||luoshenbest.cn^
 ||lv.myapks.com^
+||lynr.com^
 ||lyz.radio366.com^
 ||m1.100how.com^
 ||m1.27com.com^
