@@ -1,8 +1,8 @@
-! Checksum: hMaCKggiP3NgI807bN0C2g
+! Checksum: 7MLR0UAeESg79DQ9r8WL+A
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.21.1
-! TimeUpdated: 2021-02-19T15:31:39+03:00
+! Version: 2.0.21.4
+! TimeUpdated: 2021-02-20T20:31:27+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1781,7 +1781,6 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||halldata.com^$third-party
 ||halstats.com^$third-party
 ||haveamint.com^$third-party
-||haymarket.com^$third-party
 ||heapanalytics.com^$third-party
 ||heatmap.it^$third-party
 ||hellosherpa.com^$third-party
@@ -9045,6 +9044,16 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/75425
+@@||googletagmanager.com/gtag/js$domain=roman.com.tr
+! https://github.com/AdguardTeam/AdguardFilters/issues/75303
+! fix for long page loading
+@@||googletagmanager.com/gtm.js$domain=whatcar.com
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=whatcar.com,important
+@@||google-analytics.com/analytics.js$domain=whatcar.com
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=whatcar.com,important
+! https://github.com/AdguardTeam/AdguardFilters/issues/75260
+@@||googletagmanager.com/gtm.js$domain=ymobile.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75194
 ||pvtag.yahoo.co.jp^$script,redirect=noopjs,domain=paypayfleamarket.yahoo.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75154

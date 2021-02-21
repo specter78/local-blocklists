@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202102200447
+! Version: 202102210351
 ! Title: EasyPrivacy
-! Last modified: 20 Feb 2021 04:47 UTC
+! Last modified: 21 Feb 2021 03:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3259,6 +3259,7 @@
 /pageviews_counter.
 /PageviewsTracker.
 /pap.swf?
+/parsely-events.
 /parsely.js
 /particles/analytics.
 /partner/transparent_pixel-$image
@@ -5782,6 +5783,7 @@ _mongo_stats/
 ||g6338698720.co^
 ||g6536783055.co^
 ||g6734867390.co^
+||g6932951725.co^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
@@ -11806,6 +11808,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ptracker.nurturehq.com^
 ||ptsc.shoplocal.com^
 ||pub.sheknows.com^
+||public.cobrowse.oraclecloud.com/rely/storage/
 ||publicbroadcasting.net/analytics/
 ||pulsar.ebay.com^$third-party
 ||purevideo.com^*/pvshim.gif?
@@ -17949,6 +17952,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||audioeye.com/ae.js$domain=woodlanddirect.com
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||azureedge.net^*/eventtracking.js$domain=crimemapping.com
+@@||bam.nr-data.net^$script,domain=kapwing.com
 @@||banned.video/videojs-event-tracking/dist/videojs-event-tracking.js$script,domain=banned.video|infowars.com
 @@||barclays.co.uk/content/dam/$script
 @@||barclays.co.uk/touchclarity/mbox.js
@@ -18116,6 +18120,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
 @@||jabra.com/api/Analytics/$xmlhttprequest,domain=jabra.com
 @@||jbj.co.uk^*/analytics.js$script,~third-party
+@@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
 @@||jsrdn.com/s/cs.js$domain=distro.tv
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
