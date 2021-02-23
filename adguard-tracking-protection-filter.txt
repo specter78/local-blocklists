@@ -1,8 +1,8 @@
-! Checksum: 7MLR0UAeESg79DQ9r8WL+A
+! Checksum: Iv7ujnGJ37XOQO94uEvBnA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.21.4
-! TimeUpdated: 2021-02-20T20:31:27+03:00
+! Version: 2.0.21.6
+! TimeUpdated: 2021-02-22T19:31:25+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6443,6 +6443,7 @@ _analytics.js?
 /player_counter.ashx?
 /plista.js
 /pvcountup.
+/RankingLogging.
 /sayac.html
 /shareCounts.
 /shinystat.
@@ -6542,6 +6543,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||ikaclo.jp/api/admin/access_logs
 ||n11scdn.akamaized.net/assets/javascripts/ha.js
 ||playbrain.io/analytics/
 ||linkwithin.com/pixel.png

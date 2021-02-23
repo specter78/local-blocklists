@@ -1,8 +1,8 @@
-! Checksum: 6pzjdM770m2eQ6z23/a5bw
+! Checksum: 9kYWxONHlqUeH7yGm76FSg
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.17.94
-! TimeUpdated: 2021-02-19T16:03:05+03:00
+! Version: 2.0.17.95
+! TimeUpdated: 2021-02-22T13:30:14+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2262,6 +2262,8 @@ m.vz.ru##.header-banner
 pocketpc.ch##.mrf-adv__wrapper
 ||googleadservices.com/pagead/conversion_async.js$redirect=nooptext,domain=orcd.co
 news.rambler.ru##._1ErId
+avmoo.cyou##iframe[src^="//adserver.juicyads.com/"]
+avmoo.cyou##iframe[src^="https://syndication.exoclick.com/"]
 the-village.com.ua##.banners
 novelmultiverse.com##.adace-slideup-slot-wrap
 vg247.com###last-mpu-slot
