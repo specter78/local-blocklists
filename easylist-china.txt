@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: R4pXQdsxEXmJclW2v4WDbg
-! Version: 202102250502
+! Checksum: BX6TIm1ScZTxeIfm4pKCEw
+! Version: 202102260502
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 25 Feb 2021 05:02 UTC
+! Last Modified: 26 Feb 2021 05:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1069,6 +1069,7 @@ _xiuno_com_ad/
 ##a[href*=".acuxrecv.cn"]
 ##a[href*=".ahhxwavi.cn"]
 ##a[href*=".bayiyy.com/download."]
+##a[href*=".birthcaker.cn"]
 ##a[href*=".biwbmsyt.cn"]
 ##a[href*=".cangpie.com/"]
 ##a[href*=".caohang.com.cn/"]
@@ -1485,7 +1486,11 @@ ubmcmm.baidustatic.com
 ||321tui.com^$third-party
 ||32414.com^$third-party
 ||3324.cn^$third-party
+||3336653.com^
 ||3336657.com^
+||3336670.com^
+||3336691.com^
+||3337706.com^
 ||3337739.com^
 ||3337781.com^
 ||333dm.com^
@@ -3123,6 +3128,7 @@ ubmcmm.baidustatic.com
 ||qucaigg.com^
 ||qudaoweiwang.com^
 ||queene.cn^
+||quehq.com^
 ||qunale888.com/maizhan/
 ||quw18.com^
 ||qvpublish.com^
@@ -5563,6 +5569,7 @@ _yad_jsonp_
 ||catbox.moe/bb5wdv.jpg
 ||cb.com.cn/index/ad/
 ||cbfw.cn/gonggong/chibi/cf_
+||cbjs.ciwei.in^
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengdeguanggao.jpg
 ||ccav1.com/wp-content/uploads/an-temp/
 ||ccav1.com/wp-content/uploads/bMShkpexGYJd/
@@ -7512,6 +7519,7 @@ _yad_jsonp_
 ||nmgk.com/Uploads/nmgkgif/bfq.
 ||nmgnews.com.cn/other/003/000/*.swf
 ||no1.168abc.net/upload/
+||nongjitong.com/adm/
 ||nownews.com/assets/js/setAds.js
 ||nqbcf.cn/html/top
 ||nrsfh.com/neirong/
@@ -8698,6 +8706,7 @@ _yad_jsonp_
 ||xilu.com/iframe/pagepic/
 ||xilu.com/js/bd.js
 ||xilu.com/script/tag/2.0/func.js
+||xinchen2.com/3.gif
 ||xineurope.com/static/image/banner/
 ||xingkbjm.com/hengchuang.gif
 ||xingkbjm.com/wp-content/uploads/*/Ad
@@ -9538,7 +9547,7 @@ wpsoso.com###cse-search-box > p
 wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
 free.com.tw###custom_html-11
 hexieshe.cn,tlanyan.me###custom_html-2
-sunnylife.tw###custom_html-5
+18avinin.com,sunnylife.tw###custom_html-5
 wanghualang.com###cx_tag_cloud-2 ~ aside[id^="php_text-"]
 makaidong.com###cyWallsplugin
 eworldship.com###d1
@@ -10870,6 +10879,7 @@ itboth.com,itkeyword.com##.ad_pop_left
 itboth.com,itkeyword.com##.ad_pop_left_txy
 sogou.com##.ad_result
 9upk.com,ouyaoxiazai.com,smzy.com##.ad_show
+nongjitong.com##.ad_sms
 fx168.com##.ad_teshu
 tgfcer.com##.ad_text
 dmzj.com##.ad_th
@@ -10909,7 +10919,6 @@ duba.com,uu114.cn##.adfixed
 xineurope.com##.adft
 11px.cn##.adg
 92wy.com##.adhengfu
-159i.com##.adi
 jxdbg.com##.adindex
 huanqiu.com##.adindexList
 13tv.top,sina.com##.aditem
@@ -11491,6 +11500,7 @@ newxue.com##.dashuggtop1
 qinbing.cn##.day
 ggcj.com##.dbxf
 games.qq.com##.dc-kf_list
+159i.com##.ddi
 33lc.com##.ddnew
 chineseinla.com##.deal_discount
 8ziyuan.com##.deanadsside
@@ -11523,7 +11533,7 @@ bcbay.com##.discuss + table
 360.cn##.div-adv
 gs.chinanews.com.cn##.div1000_2 + .div980
 131458.com##.divGuanggao
-0597ok.com##.div_ad
+0597ok.com,nongjitong.com##.div_ad
 duote.com##.dl-banner
 dl.pconline.com.cn##.dlTips
 gfan.com##.dl_AD
@@ -12668,7 +12678,7 @@ baidu.com##.rec-feeditem
 douban.com##.rec_topics_name[href^="https://erebor.douban."]
 image.baidu.com##.recom
 taobao.com##.recomand-item
-image.baidu.com,xizi.com##.recommend
+image.baidu.com,nongjitong.com,xizi.com##.recommend
 csdn.net##.recommend-ad-box
 0597kk.com##.recommend-container
 csdn.net##.recommend-item-box[data-track-click*="http"]:not([data-track-click*=".csdn."])
@@ -13642,6 +13652,7 @@ yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/abc/"]
 chapaofan.com##a[href^="http"]:not([href*=".chapaofan."]) > img[src*=".sinaimg."]
 jrzj.com##a[href^="http"]:not([href*=".jrzj."]) > img[src^="https://img."]
 peizimenhu.com##a[href^="http"]:not([href*=".peizimenhu."]) > img[src^="data/attachment/portal/"]
+18avinin.com##a[href^="http"]:not([href*="18avinin."]) > img[src*=".18avinin.com/wp-content/uploads/"]
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
 ilvruan.com##a[href^="http"]:not([href*="ilvruan"]) > img
 stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/image/"]
@@ -13700,6 +13711,7 @@ chongbuluo.com##a[href^="https://cn.udacity.com/"]
 tzfile.com##a[href^="https://d.oo14.com/"]
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
 boke112.com##a[href^="https://dwz.cn/"]
+18avinin.com##a[href^="https://forms.gle/"]
 nownews.com##a[href^="https://goo.gl/"]
 hk.mobi.yahoo.com##a[href^="https://hk.promotions.yahoo.com/"]
 netbian.com##a[href^="https://ibaotu.com/guanggao/"]
@@ -16894,6 +16906,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||aitxt.com/bot-
 ||aitxt.com/js/ai.js
 ||aitxt.com/m_float.js
+||aixiawx.com/4B7LlzdA/4I6UpES.js
 ||aixiutui.com^
 ||aiyyu.com^
 ||ajiez.com^
@@ -17755,6 +17768,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||jixiby.cn^
 ||jiyuanzixun.com^
 ||jj0453.com^
+||jkdd.cc^*-
 ||jkert.com^
 ||jkleosnfjutme.top^
 ||jkxtd77.com^

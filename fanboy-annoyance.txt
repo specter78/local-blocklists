@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202102250324
+! Version: 202102260240
 ! Title: Fanboy's Annoyance List
-! Last modified: 25 Feb 2021 03:24 UTC
+! Last modified: 26 Feb 2021 02:40 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -26676,6 +26676,7 @@ _vpcookieconsent/
 ###iubenda-cs-banner-new
 ###ivu_privacy
 ###iw-cookie-message
+###iws-accept-cookies-container
 ###j-cookie-notification
 ###jCookiePrivacy_div_testo
 ###jQAlertAcceptCookie
@@ -38320,7 +38321,6 @@ pressherald.com##.related-call
 food52.com##.related-content
 firstwefeast.com##.related-stories
 worldstarhiphop.com##.relatedList
-kickstarter.com##.relative.z2
 ink361.com##.removeAds
 ink361.com##.removeAdsBlock
 networkworld.com##.resalert
@@ -45536,6 +45536,7 @@ cataniaoggi.it###thepriv
 sia.eu###toast
 cippy.it###toast-container
 luxuryzone.it###top-notification-container
+isweb.it###trace-form
 scuolerimini.it###upper_div
 puglialive.net###visitor_info
 farmacieaperte.it###warning-popup

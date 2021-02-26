@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wzqDXzUJy79/kY+2E04Duw
-! Version: 202102250510
+! Checksum: ZYG7+oAZeKa2e+5gKMsgCg
+! Version: 202102260510
 ! Title: RU AdList
-! Last modified: 25 Feb 2021 05:10 UTC
+! Last modified: 26 Feb 2021 05:10 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11821,7 +11821,6 @@ alldonors.ru###content_r_box
 youtube.com#?##contents > ytd-rich-item-renderer:-abp-has(> #content > ytd-display-ad-renderer)
 ucrazy.ru###crazy-content > div:not([id]):not([class])[style^="background-color:"]
 zzap.ru###ctl00_TopPanel_LangPanel > .top
-sdamgia.ru###d
 binary-forum.com###da-slider
 trialnod.club###danet
 pingvinoff.net,torrents.net.ua###daos
@@ -16299,6 +16298,7 @@ rin.ru##a > img[width="120"][height$="0"][src^="/images/"]
 ariom.ru##a > img[width="160"][height="120"]
 forzajuve.ru,omskregion.info##a > img[width="240"][height="400"]
 tort.fm##a#bg
+gorodrabot.ru##a.additional-earnings-banner-snippet:not([href*="gorodrabot.ru/"])
 focus.ua,zoneofgames.ru##a.branding
 poker-wiki.ru##a.external[rel="nofollow"][href*="/go/?site="] > img[src$=".gif"]
 ex-fs.net##a.film-online[target="_blank"]
@@ -17119,7 +17119,7 @@ tutu.ru##body > .freespace
 uzum.tv##body > .head
 www.anilibria.tv##body > .header
 avtoradio.ru##body > .info-block
-channels247.net,goool7.ws,sport7.biz,sportbar.biz,sporting77.com##body > .js-div:empty
+barsportbar.com,channels247.net,goool7.ws,sport7.biz,sportbar.biz,sporting77.com##body > .js-div:empty
 zorgee.ru##body > .jumbotron
 myfootball.top##body > .m-hidden
 ua-cinema.com##body > .mask
@@ -17156,7 +17156,7 @@ igraprestolov.ws##body > div > .container > a[href][target="_blank"]
 ingrus.net##body > div > .menu
 forum.watch.ru##body > div > div[style*="overflow"]
 nadavi.com.ua,nadavi.ru##body > div > table[width="92%"]:not([class="top-region"])
-drlink.online##body > div:not([id]):not([class])[style*="z-index"]
+boom365hd.com,drlink.online,sport365hd.com##body > div:not([id]):not([class])[style*="z-index"]
 4725.ru##body > div:not([id]):not([class])[style^="position: relative;z-index:"]
 remake.net.ru,subject.com.ua,ukrlit.net,zarlit.com##body > div[align="center"]
 gamesisart.ru##body > div[align="left"][style^="position: fixed;"]
@@ -17602,7 +17602,7 @@ tvnet.lv##div[class^="right_custom_ad_"]
 ficbook.net##div[class^="rkl-"]
 move.ru##div[class^="rnb-"]
 animedub.ru##div[class^="rolic"]
-tgstat.com,tgstat.ru##div[class^="row md"]
+tgstat.com,tgstat.ru##div[class^="row m"][class$="s"]
 kirovnet.ru##div[class^="rsya_block"]
 sd.ua##div[class^="sed"] a[href^="/out"]
 kinovidos.com##div[class^="sidebar-"] > div[type="text/css"][rel="nofollow"]
@@ -17699,6 +17699,7 @@ lalamus.cc,superhumor.ru,voffka.com##div[id*="teaser"]
 flowtation.ru##div[id*="tizer"]
 1tv.ru,4pda.ru,artem-kashkanov.ru,astrakhan-24.ru,baraholka.onliner.by,bigpicture.ru,energyfm.ru,galya.ru,gotovim-doma.ru,multitran.ru,qip.ru,telegraf.com.ua,vputilkovo.ru##div[id*="yandex_ad"]
 dv-gazeta.info#?#div[id] > [class]:-abp-contains(/^Новости партнеров/)
+sdamgia.ru##div[id]:first-child > [id] > [id]
 gorodrabot.ru##div[id]:not([class]):not([style])[aria-hidden="true"]
 kidpuz.ru,prohondroz.ru##div[id][block-id]
 progipertoniyu.ru##div[id][block-id][style]
@@ -17717,6 +17718,7 @@ mind.ua##div[id][style="padding-bottom: 35px;"]
 nnm-club.lib,nnm-club.me,nnmclub.ro,nnmclub.to##div[id][style^="display:"][style*="block"][style*="important"]
 vgae.ru##div[id][style^="min-height:100px;"]
 vgae.ru##div[id][style^="min-height:250px;"]
+sdamgia.ru##div[id][style^="width:"][style*="overflow:"]
 ivbb.ru##div[id^="ADS_"]
 1tv.ru,2mm.ru,auto.vesti.ru,ctc.ru,f1news.ru,irr.ru,probirka.org,sobesednik.ru,sportbox.ru,tjournal.ru,tvc.ru##div[id^="AdFox_banner"]
 dorognoe.ru,europaplus.ru,radio7.ru,retrofm.ru,sportfm.ru##div[id^="AdwolfBanner240x400_"]
@@ -18092,7 +18094,7 @@ sarov.info##iframe[data-src*="/reklama."]
 obozrevatel.com##iframe[id^="google"]
 ek.ua,m.ua##iframe[name*="banner"]
 qrz.ru##iframe[src*="//ads.qrz.ru/"]
-www.kinopoisk.ru##iframe[src*="//kinopoisk-ru.clstorage.net/"]
+www.kinopoisk.ru##iframe[src*="//kinopoisk-ru.clstorage.net/"]:not([src*="/dist/embed.html?frameId="])
 prodota.ru##iframe[src*="//prodota.ru/templates/"]
 x-minus.in##iframe[src*="/assets/rkl/"]
 newstube.ru##iframe[src*="/b/iframe?id="]
@@ -18147,7 +18149,6 @@ smotretonline.ucoz.org##iframe[src^="http://kinohouse.ucoz.ru"]
 lurkmore.co,lurkmore.net,lurkmore.re##iframe[src^="http://rareru.ru/"]
 kinograd.tv##iframe[src^="http://winvideo.org"]
 lostfilmonline.ru##iframe[src^="http://winvideo.org/"]
-www.kinopoisk.ru##iframe[src^="https://kinopoisk-ru.naydex.net/"]
 lostfilm.run,lostfilm.tv,lostfilm.tw##iframe[style*="240px"]
 adcdn.tv##iframe[style="visibility: hidden; display: none;"]
 forum.watch.ru##iframe[style="width: 100%; height: 60px;"]
@@ -20278,7 +20279,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||kinopod.ru/branding/
 ||kinopod.ru/show/
 ||kinopoisk-ru.clstorage.net^$subdocument,domain=www.kinopoisk.ru
-||kinopoisk-ru.naydex.net^$subdocument,domain=www.kinopoisk.ru
 ||kinored.club^*/player_field.png
 ||kinorom.com/img/binfon.
 ||kinosalo.com/player/*.php?*referer=
@@ -24095,6 +24095,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||kcrb63.ru/i/banners/$image,domain=kcrb63.ru
 @@||keramin.by^*_300x600.$image,domain=keramin.by
 @@||khersongaz.at.ua/baner.png$image,domain=khersongaz.at.ua
+@@||kinopoisk-ru.clstorage.net^**/dist/embed.html?frameId=$subdocument,domain=www.kinopoisk.ru
 @@||kitchentoys.ru^*/tizers_$image,domain=kitchentoys.ru
 @@||klcheck.com/z|$third-party,xmlhttprequest
 @@||klcheck.com/|$third-party,xmlhttprequest
@@ -24584,7 +24585,7 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,kinogo2.b
 @@||gemius.pl/gplayer.js|$script,domain=1plus1.video
 @@||gig.md^*/reklama/$domain=gig.md
 @@||go.mail.ru^*/adptest$script,domain=go.mail.ru
-@@||googleads.g.doubleclick.net/$xmlhttprequest,domain=cdnneedtv.ru|cdnpotok.com|cdntelesee.com|channels247.net|chepok.xyz|domatv.net|goool7.ws|hdone.net|hindcine.tv|kipolino.site|klplayer.website|pokaz.me|rxtv.github.io|sovetromantica.com|sport7.biz|sportbar.biz|sporting77.com|src.media-base.co|starserial.ru|sudya-dredd.ru|tivix.co|viks.tv
+@@||googleads.g.doubleclick.net/$xmlhttprequest,domain=2es.work|barsportbar.com|cdnneedtv.ru|cdnpotok.com|cdntelesee.com|channels247.net|chepok.xyz|domatv.net|goool7.ws|hdone.net|hindcine.tv|kipolino.site|klplayer.website|pokaz.me|rxtv.github.io|sovetromantica.com|sport7.biz|sportbar.biz|sporting77.com|src.media-base.co|starserial.ru|sudya-dredd.ru|tivix.co|viks.tv
 @@||googleadservices.com/pagead/conversion.js$script,domain=rzn.info
 @@||googlesyndication.com/pagead/images/$domain=spruto.tv
 @@||googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=free-send.ru|modfiles.ru|osettlers.com|sochi.camera
@@ -24729,7 +24730,7 @@ clan-soprano.ru##.popupBlock
 @@||ddnk.advertur.ru/*/loader.js|$script
 pikabu.ru##[data-role="adb-warning"]
 channels247.net,goool7.ws,sport7.biz,sportbar.biz,sporting77.com#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv > img[src$="/adblock.png"])
-cdnneedtv.ru,cdnpotok.com,cdntelesee.com,chepok.xyz,domatv.net,hdone.net,hindcine.tv,kipolino.site,klplayer.website,liveball8.ml,luxurytv.online,oneliketv.com,phys-kids.com,pokaz.me,rxtv.github.io,sovetromantica.com,t1pochek.site,tip0chek.site,tipochek.xyz,tivix.co,viks.tv,worldvideo.site#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/adblock|adblok|блокировщик/i))
+2es.work,cdnneedtv.ru,cdnpotok.com,cdntelesee.com,chepok.xyz,domatv.net,hdone.net,hindcine.tv,kipolino.site,klplayer.website,liveball8.ml,luxurytv.online,oneliketv.com,phys-kids.com,pokaz.me,rxtv.github.io,sovetromantica.com,t1pochek.site,tip0chek.site,tipochek.xyz,tivix.co,viks.tv,worldvideo.site#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/adblock|adblok|блокировщик/i))
 sntch.com#?#article > p:-abp-contains(/отключите блокировку рекламы!$/)
 doctorrouter.ru,ranobe-novels.ru##body > :not([id]):not([class]):not(script)
 mods-club.ru##body > [id]:not([class]):not([iframe]):not(#main-bg)
