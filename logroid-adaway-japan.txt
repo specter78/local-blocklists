@@ -5,8 +5,8 @@
 #         http://logroid.blogspot.jp/
 #         https://twitter.com/logroid
 #
-# last updated: 2020/12/28
-# block hosts: 31201 entry
+# last updated: 2021/02/26
+# block hosts: 31218 entry
 
 # 000webhost.com
 127.0.0.1 err.000webhost.com
@@ -3158,6 +3158,9 @@
 # 6dad.com
 127.0.0.1 6dad.com
 
+# 6ms.biz
+127.0.0.1 6ms.biz
+
 # 6rb.com
 127.0.0.1 adv.6rb.com
 
@@ -3442,6 +3445,9 @@
 
 # a-fast.com
 127.0.0.1 a-fast.com
+
+# a-i-ad.com
+127.0.0.1 a-i-ad.com
 
 # a-pagerank.net
 127.0.0.1 a-pagerank.net
@@ -3973,6 +3979,9 @@
 # ad-arata.com
 127.0.0.1 ad-arata.com
 127.0.0.1 ad.ad-arata.com
+
+# ad-arrow.com
+127.0.0.1 ad-arrow.com
 
 # ad-bemti.com
 127.0.0.1 ad-bemti.com
@@ -8973,6 +8982,9 @@
 
 # aol.jp
 127.0.0.1 info.aol.jp
+
+# aolp.jp
+127.0.0.1 bannerfarm.aolp.jp
 
 # ap.org
 127.0.0.1 ads.mm.ap.org
@@ -16599,6 +16611,9 @@
 # cybersales.cz
 127.0.0.1 ads.cybersales.cz
 
+# cybershop-affiliate.jp
+127.0.0.1 widget.cybershop-affiliate.jp
+
 # cybertechdev.com
 127.0.0.1 banner.cybertechdev.com
 
@@ -17777,9 +17792,6 @@
 # dlqm.net
 127.0.0.1 a.dlqm.net
 
-# dlsite.jp
-127.0.0.1 dlsite.jp
-
 # dlv4.com
 127.0.0.1 es6-scripts.dlv4.com
 127.0.0.1 scripts.dlv4.com
@@ -18871,6 +18883,7 @@
 
 # dxlive.com
 127.0.0.1 aff-jp.dxlive.com
+127.0.0.1 bn.dxlive.com
 
 # dynadot.com
 127.0.0.1 parkcloud.dynadot.com
@@ -28482,6 +28495,9 @@
 # imeem.com
 127.0.0.1 ads.imeem.com
 
+# img-c.net
+127.0.0.1 img-c.net
+
 # img-video-xxx.com
 127.0.0.1 img-video-xxx.com
 
@@ -31363,6 +31379,9 @@
 # jsfeedget.com
 127.0.0.1 jsfeedget.com
 127.0.0.1 www.jsfeedget.com
+
+# jskyservices.com
+127.0.0.1 aff.jskyservices.com
 
 # jslib2.info
 127.0.0.1 jslib2.info
@@ -34295,6 +34314,9 @@
 # mammanett.no
 127.0.0.1 ads.mammanett.no
 
+# managedweb.net
+127.0.0.1 managedweb.net
+
 # manageheavilyrenewedsystem.icu
 127.0.0.1 manageheavilyrenewedsystem.icu
 
@@ -35866,6 +35888,9 @@
 127.0.0.1 vc.mobclix.com
 127.0.0.1 www.mobclix.com
 
+# mobee2.jp
+127.0.0.1 mobee2.jp
+
 # mobfox.com
 127.0.0.1 mobfox.com
 127.0.0.1 my.mobfox.com
@@ -36140,6 +36165,9 @@
 # monetate.net
 127.0.0.1 a.monetate.net
 127.0.0.1 b.monetate.net
+
+# monetrack.com
+127.0.0.1 app.monetrack.com
 
 # money.bg
 127.0.0.1 ads.money.bg
@@ -36473,6 +36501,9 @@
 127.0.0.1 bimg.msk.bg
 127.0.0.1 bms.msk.bg
 
+# msmstatic.com
+127.0.0.1 dn.msmstatic.com
+
 # msmtrakk02a.com
 127.0.0.1 app.msmtrakk02a.com
 127.0.0.1 global.msmtrakk02a.com
@@ -36633,6 +36664,9 @@
 127.0.0.1 www.mtreexxx.net
 127.0.0.1 www7.mtreexxx.net
 127.0.0.1 xxx.mtreexxx.net
+
+# mttag.com
+127.0.0.1 mttag.com
 
 # mtv.com.tr
 127.0.0.1 addserver.mtv.com.tr
@@ -44209,6 +44243,9 @@
 127.0.0.1 adserver.reklamstore.com
 127.0.0.1 adstest.reklamstore.com
 
+# relaido.jp
+127.0.0.1 cdn.relaido.jp
+
 # relax.ru
 127.0.0.1 medialand.relax.ru
 
@@ -47436,6 +47473,9 @@
 127.0.0.1 sdk-android.ad.smaato.net
 127.0.0.1 smaato.net
 127.0.0.1 soma.smaato.net
+
+# smac-ad.com
+127.0.0.1 smac-ad.com
 
 # smart-browser.com
 127.0.0.1 smart-browser.com
@@ -50680,6 +50720,7 @@
 
 # thench.net
 127.0.0.1 stimgc.thench.net
+127.0.0.1 thench.net
 
 # thenewpaperclip.com
 127.0.0.1 ads.thenewpaperclip.com
@@ -52905,6 +52946,9 @@
 127.0.0.1 ads.ucomics.com
 127.0.0.1 ads2.ucomics.com
 127.0.0.1 ads3.ucomics.com
+
+# ucontent.net
+127.0.0.1 assets.ucontent.net
 
 # ucoz.com
 127.0.0.1 raskrutka.ucoz.com
@@ -57459,6 +57503,9 @@
 
 # z-adsense.com
 127.0.0.1 www.z-adsense.com
+
+# z-profit.com
+127.0.0.1 z-profit.com
 
 # z-stat.com
 127.0.0.1 stat1.z-stat.com

@@ -1,8 +1,8 @@
-! Checksum: gISkNi7UtoLrFgd6qwTKFA
+! Checksum: 7XApuIsI9NdldV9p1DITLw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.21.16
-! TimeUpdated: 2021-02-26T02:31:25+03:00
+! Version: 2.0.21.20
+! TimeUpdated: 2021-02-26T19:31:35+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -219,6 +219,16 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||adsmetadata.mobileadexchange.net^$third-party
+||adsmetadata.startappk8s.com^$third-party
+||counter.yandro.ru^$third-party
+||track-aws.notsy.io^$third-party
+||cdn.notsy.io^$third-party
+||cdn-b.notsy.io^$third-party
+||track.notsy.io^$third-party
+||log.ca.gov.vn^
+||tracking.gpm-rtv.ru^$third-party
+||pvk.jp^$third-party
 ||uncn.jp^$third-party
 ||ad-spire.net^
 ||f-counter.net^$third-party
@@ -4527,6 +4537,19 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||track.libii.cn^
+||track.oasis.magictavern.com^
+||kooappslogs.com^
+||log.zepeto.io^
+||apptracker.gamedock.io^
+||applog.zaycev.net^
+||events.cardsmobile.ru^
+||eventstream.dodopizza.com^
+||analytics.74.ru^
+||intake-logging.wikimedia.org^
+||event.chitai-gorod.ru^
+||counter.nv.ua^
+||metrika.myseldon.com^
 ||t.lidyana.com^
 ||stats.muasamcong.gov.vn^
 ||beacon.watch.impress.co.jp^
@@ -8592,6 +8615,7 @@ link.gmapp*.net$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||analytics.jodelapis.com^
 ||analytics.mobilegamestats.com^
 ||p.statp.com^
 ||api.imqtyik.com^
@@ -9055,6 +9079,8 @@ link.gmapp*.net$image
 ||rover.ebay.$image,object,script,badfilter
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/75643
+@@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75675
 ||xinnet.com/dcp/javascript/fingerprint2.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75425
