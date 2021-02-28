@@ -1,8 +1,8 @@
-! Checksum: 7XApuIsI9NdldV9p1DITLw
+! Checksum: m8897J9A8qqfvxVBDaq29g
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.21.20
-! TimeUpdated: 2021-02-26T19:31:35+03:00
+! Version: 2.0.21.23
+! TimeUpdated: 2021-02-27T20:31:30+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -8815,10 +8815,9 @@ link.gmapp*.net$image
 ||loadus.exelator.com^
 ||tracking.viewster.com^
 ||logcollector.viewster.com^
-||api.mixpanel.com/track
-||api.mixpanel.com/engage
+||api.mixpanel.com^
 ||decide.mixpanel.com^
-||api.segment.io/v1/
+||api.segment.io^
 ||applog.uc.cn^
 ||dispatcher.upmc.uc.cn^
 ||gj.applog.uc.cn^
@@ -9078,7 +9077,8 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
-!
+! Unblocking everything on check-in confirmation pages - blocking tracking breaks it
+@@||pobeda.aero/*/check-in/$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75643
 @@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75675
