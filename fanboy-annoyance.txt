@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202102280517
+! Version: 202103010407
 ! Title: Fanboy's Annoyance List
-! Last modified: 28 Feb 2021 05:17 UTC
+! Last modified: 01 Mar 2021 04:07 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -4346,6 +4346,7 @@ _youtube_social_
 /gdpr/gdpr_
 /gdpr/img/*
 /gdpr/messaging.
+/gdpr/native-message?
 /gdpr/optInCookieSSR?
 /gdpr/script_
 /gdpr/snack-
@@ -7074,6 +7075,7 @@ _vpcookieconsent/
 ##.slideup-newsletter-optin
 ##.sm_newsletter
 ##.small-newsletter
+##.smart-ajax-subscribe-form
 ##.sml_subscribe_widget
 ##.sna-newsletter
 ##.social-link-mail
@@ -11527,6 +11529,7 @@ _vpcookieconsent/
 ##.Social-link
 ##.SocialAccordion
 ##.SocialArticleHeader
+##.SocialArticleIcons
 ##.SocialBar
 ##.SocialBar__component
 ##.SocialBookmark
@@ -14600,6 +14603,7 @@ _vpcookieconsent/
 ##.header-icon-instagram
 ##.header-interna-share
 ##.header-item-social
+##.header-item__social
 ##.header-main-socs
 ##.header-menu__social
 ##.header-nav-social
@@ -18118,6 +18122,7 @@ _vpcookieconsent/
 ##.sharingtools-anon
 ##.sharingwrap
 ##.sharkskin-footer-social
+##.sharre-container
 ##.sharrre
 ##.sharrre-container
 ##.sharrre_widget
@@ -18127,6 +18132,7 @@ _vpcookieconsent/
 ##.show_facebook_widget
 ##.show_social
 ##.showing-shares
+##.showme-share-buttons
 ##.showsocial
 ##.showthread-social
 ##.shr-bookmarks
@@ -18443,6 +18449,7 @@ _vpcookieconsent/
 ##.socWidget
 ##.soc_box2
 ##.soc_btn
+##.soc_hello_ials
 ##.soc_icon
 ##.soc_icon-facebook
 ##.soc_icon-instagram
@@ -21120,6 +21127,7 @@ _vpcookieconsent/
 ##.wpdev-top-share
 ##.wpdev-twitter
 ##.wpex-social-share-wrap
+##.wplogout-social-wrapper
 ##.wps-seo-booster-social-buttons
 ##.wpsc-share
 ##.wpsocial-shareBox
@@ -35297,6 +35305,7 @@ _vpcookieconsent/
 ||ewnews.com^*/newsletter.
 ||forms.windowsitpro.com^
 ||fortune.com^*/OO-NL_
+||gn-flagpoles.api.bbci.co.uk^
 ||goodhousekeeping.co.za^*/subscribe-
 ||goodhousekeeping.co.za^*/subscribe.
 ||ibtimes.co.in^*/newsletter.js
@@ -38870,7 +38879,9 @@ osnews.com##table[width="285"]
 finestdaily.com##table[width="642"]
 ! Self-promo Ads
 alternet.org###kindest-container
+insidethegames.biz###top-story-alert
 theweek.com###us77-test
+independent.co.uk###vouchercodes
 out.com##.bean-house-promo
 wired.com##.cm-footer-container
 foxnews.com##.commenting-nation-promo
@@ -38895,6 +38906,7 @@ propublica.org##.module-donate
 newsweek.com##.msub
 lbry.tv##.nag
 buzzfeednews.com##.newsblock-tips
+shmoop.com##.no-ads
 propublica.org##.promo-bar__link-wrapper
 apkmirror.com##.promotedApp
 stuff.co.nz##.spade_3g.spade_3f.spade_3e
@@ -38999,6 +39011,7 @@ newser.com###divNewserInYourInbox
 dallasnews.com###dmnLightboxCenter
 washingtonexaminer.com###dy_Article_Newsletter_Signups
 arktimes.com###e2ma_signup_form
+insidethegames.biz###ealert-banner
 vwo.com###ebookform
 laptopmag.com,tomshardware.co.uk,tomshardware.com###ec-popup-modal
 cbc.ca###em_UpakneeSub
@@ -39032,6 +39045,7 @@ chaser.com.au###fixed_footer
 theglobeandmail.com###fixedpencil
 health-e.org.za###footer-cta
 scout.co.nz###footer-eletter
+independent.co.uk###footerPrompt
 theguardian.com###footer__email-form
 expatica.com###footer_subscribe
 engineeringnews.co.za###footerbar
@@ -39285,6 +39299,7 @@ sportspromedia.com##._floating-box
 commentarymagazine.com##._form_5
 collective-evolution.com##._form_7
 androidauthority.com##.aa-subscribe-video-button
+independent.co.uk##.above-article-prompt-donations
 the18.com##.above-email
 buzzfeed.com##.action-bar--hover-container
 alternet.org##.action_form
@@ -39943,6 +39958,7 @@ counterpunch.org##.topfixedtrailer-color
 tut.by##.toster-popup
 thenation.com##.tout
 independent.co.uk##.tp-active
+independent.co.uk##.tp-backdrop
 scotsman.com##.tp-container-inner
 tp-link.com##.tp-follow-container
 independent.co.uk##.tp-modal
@@ -41093,6 +41109,7 @@ bulova.com,cadenaazul.com,comicrelief.com,cwseed.com,dailystar.co.uk,filmfare.co
 dxomark.com##.instagram-banner
 winnipegfreepress.com##.interactive
 yahoo.com##.interest-bar
+insidethegames.biz##.inverse.btn-icon
 bestgamingmouse.online##.iqs
 viralnova.com##.is-sticky
 earnthenecklace.com##.ism_wrap
@@ -42312,6 +42329,7 @@ bing.com##.hpn_top_container
 devhut.net##.ht-notification-section
 huawei.com##.huawei-bootom-cookie
 zeroturnaround.com##.hud
+sfanytime.com##.iCWLQN.sc-hGwdws
 ibm.com##.ibm-show
 wccftech.com##.iframe-wrapper
 doff.co.uk##.ig_action_bar
@@ -46145,6 +46163,7 @@ infiniti-vietnam.com.vn##.c_128
 ||byom.de/js/cookie.de.js
 ||cmp.pcwelt.de^
 ||cmp.tvspielfilm.de^
+||consent-wrapper.jameda.de^
 ||consent.berliner-kurier.de^
 ||consent.faz.net^
 ||consent.gutefrage.net^
@@ -47085,6 +47104,7 @@ zeist.hu.nl#@#.cookie-block
 lg.com#@#.cookie-check
 zwijsen.nl#@#.cookie-consent-container
 zwijsen.nl#@#.cookie-consent-content
+dovoba.de#@#.cookie-consent-v2
 zwijsen.nl#@#.cookie-consent-wrapper
 airam.fi,codra.net,dovoba.de,medicinenet.com,meinebank.de#@#.cookie-consent:not(body):not(html)
 bokadirekt.se,danbolig.dk,hongkong.fi,rusta.com,xmradio.nl#@#.cookie-content
