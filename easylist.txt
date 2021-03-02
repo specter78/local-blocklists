@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202103010407
+! Version: 202103020422
 ! Title: EasyList
-! Last modified: 01 Mar 2021 04:07 UTC
+! Last modified: 02 Mar 2021 04:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1415,6 +1415,7 @@
 /ad_box?
 /ad_box_
 /ad_boxes/*
+/ad_break?
 /ad_bsb.
 /ad_button.
 /ad_cache/*
@@ -14255,6 +14256,7 @@ _popunder+$popup
 ###div-advert
 ###div-dfp-BelowContnet
 ###div-dfp-bottom_leaderboard
+###div-gpt-FloorAd
 ###div-gpt-LDB1
 ###div-gpt-MPU1
 ###div-gpt-MPU2
@@ -18934,6 +18936,7 @@ _popunder+$popup
 ##.ad-midleader
 ##.ad-mobile
 ##.ad-mobile-banner
+##.ad-mobile-flex-pos2
 ##.ad-mobile-mpu
 ##.ad-mod
 ##.ad-module
@@ -25656,6 +25659,7 @@ _popunder+$popup
 ##.homepage-banner-ad
 ##.homepage-footer-ad
 ##.homepage-footer-ads
+##.homepage-page__ff-ad-container
 ##.homepage-right-rail-ad
 ##.homepage-small-touts-ad
 ##.homepage-sponsoredlinks-container
@@ -31594,6 +31598,7 @@ bavaria86.com,ransquawk.com,trh.sk#@#.adverts
 stjornartidindi.is#@#.adverttext
 metropoli.net#@#.adwidget
 staircase.pl#@#.adwords
+cbc.ca#@#.afs_ads
 consumerist.com#@#.after-post-ad
 thisismoney.co.uk#@#.article-advert
 deluxemusic.tv#@#.article_ad
@@ -31800,7 +31805,7 @@ express.de,focus.de#@#.trc_rbox_border_elm .syndicatedItem
 express.de,focus.de#@#.trc_rbox_div .syndicatedItem
 express.de,focus.de#@#.trc_related_container div[data-item-syndicated="true"]
 yahoo.com#@#.type_ads_default
-wingsbirdpro.com#@#.vertical-ads
+codedevstuff.blogspot.com,wingsbirdpro.com#@#.vertical-ads
 youtube.com#@#.video-ads
 vinden.se#@#.view_ad
 nytimes.com,nytimes3xbfgragh.onion#@#.wideAd
@@ -35404,6 +35409,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gobmodfoe.com^
 ||gobovoul.net^
 ||goddessrig.com^
+||godvwcft.com^
 ||goingtocontent.com^
 ||gokjicokl.com^
 ||goldenbettingefforlessefforless.com^
@@ -35989,6 +35995,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||iouuorpkc.com^
 ||iouxtayinkmu.com^
 ||ipbiydocgvllrg.com^
+||ipfmbexfdzb.com^
 ||ipiech.com^
 ||ipnamtuezkwi.com^
 ||ipqjjrnciyi.com^
@@ -37781,6 +37788,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||outlookabsorb.com^
 ||outotheret.club^
 ||outsimfat.site^
+||outsmoke-niyaxabura.com^
 ||outtunova.com^
 ||outwarent.club^
 ||ouzoadru.net^
@@ -38097,7 +38105,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||poifinsegg.com^
 ||poignantcover.com^
 ||poignantsat.com^
-||point-of-entry.com^
 ||pointexcusestretching.com^
 ||pointpopu.top^
 ||policemanciderpeeks.com^
@@ -38624,6 +38631,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||redreven.fun^
 ||reducatedc.top^
 ||reductingds.club^
+||redvxjlmaehy.com^
 ||reembrasserait.website^
 ||reenrageasse.xyz^
 ||refaucherais.site^
@@ -39778,6 +39786,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||tkbo.com^
 ||tkickhhylnvm.com^
 ||tkjdwcigpyazr.com^
+||tkxiavegstgq.com^
 ||tl2go.com^
 ||tlgvoeeuhxsd.com^
 ||tljivh.com^
@@ -51799,6 +51808,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||loadingz.com/jflex.js
 ||local.tampabay.com^$subdocument
 ||lycos.com/catman/
+||machineseeker.com/data/ofni/
 ||mail-ads.google.com^
 ||manhwahentai.me/script/
 ||manilastandard.net/panel/_files/banner/
@@ -53318,6 +53328,7 @@ mymusic.com.ng###leftdown2
 technewsworld.com###lightview
 webpagetest.org###links
 m.beta.facebook.com,m.facebook.com,m.facebookcorewwwi.onion,touch.beta.facebook.com,touch.facebook.com###m_newsfeed_stream article[data-ft*="\"ei\":\""]
+wowhead.com###main > .blocks
 w3schools.com###mainLeaderboard
 investing.com###mainPopUpContainer
 neowin.net###main_below_promos
@@ -54898,6 +54909,7 @@ rare.us##.post-block
 androidpolice.com##.post-header > .i-amphtml-layout-fixed-height
 mac-forums.com##.postMREC
 thejournal.ie##.postSponsored
+fastcompany.com##.post__promotion
 fastcodesign.com##.post__relative--recommender
 923thefox.com,hot1035.com##.posts-banner
 thetowner.com##.powered

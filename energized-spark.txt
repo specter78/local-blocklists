@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.03.060
-# Release: 060
-# Entries: 41,810
+# Version: 21.03.061
+# Release: 061
+# Entries: 41,870
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Mon, 01 Mar 21 06:06:22
+# Updated: Tue, 02 Mar 21 06:06:06
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -902,6 +902,7 @@
 4706.content.swrve.com
 4753.api.swrve.com
 4753.content.swrve.com
+4761.api.swrve.com
 4768.api.swrve.com
 4768.content.swrve.com
 47e224be59415ec068b94bca857581bd7dde7fb6.cws.conviva.com
@@ -1222,6 +1223,7 @@
 91pool.com
 920sbo17zn88.com
 922.hittail.com
+92ab.playfabapi.com
 92kyxiz5xg.execute-api.us-west-2.amazonaws.com
 92.nbryb.com
 93367.hittail.com
@@ -1525,6 +1527,7 @@ abc.doublegear.com
 abcdserver.com
 abclnks.com
 abc.logly.co.jp
+abcnews.tt.omtrdc.net
 abcno.nuggad.net
 ab-config.propellerads.com
 abd.media.net
@@ -4823,6 +4826,7 @@ aiqua-sdk.c.appier.net
 aiqua-user.c.appier.net
 airbrake.io
 aircovid19virus.com
+airlytics.airlock.twcmobile.weather.com
 airmaxshopschweiz.com
 airplaypro-de.com
 airpodsdirekt.de
@@ -5899,6 +5903,7 @@ an.mlb.com
 annchea.com
 anners.ero-advertising.com
 anniecloth.com
+annoyedairport.com
 annuaire-autosurf.com
 annuzine.com
 anon.amazon-de.speedera.net
@@ -5946,6 +5951,7 @@ antivirusfree2017.s.xoxknct.com
 antivirusguard.r.xoxknct.com
 antivirusguard.s.xoxknct.com
 antivirus-scanner.com
+anti.yodo1api.com
 antonymsfor.com
 antpool.com
 anturnetss.bid
@@ -6167,6 +6173,7 @@ api.appwifi.com
 api.apsalar.com
 api-ap-southeast-1.adsnative.com
 api.areametrics.com
+api.arity.com
 api.atdmt.com
 api.ateam-ad.jp
 api.attentivemobile.com
@@ -6209,6 +6216,7 @@ api.connecto.io
 api.content.ad
 api.content-ad.net
 api.conversant.mgr.consensu.org
+api.coralogix.com
 apicosdk.onemt.co
 api.cossette.adgear.com
 api.crashlytics.com
@@ -6227,6 +6235,7 @@ api.doumob.com
 apidq.punchh.com
 api.dsp.batmobi.net
 api-edge.myfreecams.com
+api.engager.ecbsn.com
 api.ent.mobileanjian.com
 api.eqmob.com
 api.ero-advertising.com
@@ -6443,6 +6452,7 @@ api.tinypass.com
 api.trackuity.com
 api.trafficjunky.com
 api.treasuredata.com
+apituner.ecbsn.com
 api.tusdk.com
 apiuccenter.ucweb.com
 api.ucmate.info
@@ -6590,6 +6600,8 @@ app.adapt.io
 app-adforce.jp
 app.adjust.com
 app.adjust.io
+app.adjust.net.in
+app.adjust.world
 app.adroll.com
 appads.com
 app.adsunflower.cn
@@ -6598,6 +6610,7 @@ app.adviad.com
 app.adywind.com
 app.adzerk.com
 appai.de
+appanalysis.banggood.com
 app-analytics.huami.com
 app-analytics-us.huami.com
 appapi.adsafeprotected.com
@@ -6648,6 +6661,7 @@ app.games-to-run123.com
 appgift.sinaapp.com
 appgiftwall.oss-us-west-1.aliyuncs.com
 appgwv2.inmobi.com
+app.hubspot.com
 appia.com
 app.iappgame.com
 app-icons.apptentive.com
@@ -7271,6 +7285,7 @@ aud11000.pubmatic.com
 audacity.es
 audacity.fr
 audible.112.2o7.net
+audible.sc.omtrdc.net
 audicat.net
 audience-164723144.us-east-1.elb.amazonaws.com
 audience2media.com
@@ -7554,6 +7569,7 @@ b5uxs.trafficmagnates.com
 b60228e270e363f6.com
 b.6sc.co
 b6.scorecardresearch.com
+b77ad.playfabapi.com
 b8pfulzbyj7h.com
 b936c5932623f.com
 b95.s79.research.de.com
@@ -9621,6 +9637,7 @@ ccmoxtwauruz.bid
 c.codeonclick.com
 c.company-target.com
 c.contentsitesrv.com
+ccpa.psg.nexstardigital.net
 ccrbudgetca.112.2o7.net
 ccrgaviscom.112.2o7.net
 ccs.livejasmin.com
@@ -9859,6 +9876,7 @@ cdn.braze.eu
 cdn.brcdn.com
 cdn.broadstreetads.com
 cdn.brsrvr.com
+cdn.bskarn.com
 cdn.bss.wshareit.com
 cdnb-static.pornhd.com
 cdn.bttrack.com
@@ -9876,6 +9894,7 @@ cdn.celtra.com
 cdn-cf.fabric.io
 cdn-cf-hc-banners.hgonline.net
 cdn-cf.postitial.com
+cdn-channels-pixel.ex.co
 cdn.clickfuse.com
 cdn.clicktale.net
 cdn.clinch.co
@@ -10035,6 +10054,7 @@ cdn.lodeo.io
 cdn.logly.co.jp
 cdn.logrocket.com
 cdn.logrocket.io
+cdn-loyalty.yotpo.com
 cdn.lustseek.com
 cdnma.bidvertiser.com
 cdn.madkudu.com
@@ -10050,6 +10070,7 @@ cdn.mercent.com
 cdn.metalocator.com
 cdn.mgid.com
 cdn.microad.jp
+cdn.ml314.com
 cdn.mm.atwola.com
 cdnmm.bidvertiser.com
 cdn.mmtro.com
@@ -10229,6 +10250,7 @@ cdnvm.bidvertiser.com
 cdn.webclicks24.com
 cdn-webview-pge.unityads.unity3d.com
 cdnwidget.com
+cdn-widgetsrepository.yotpo.com
 cdn.wowtrk.com
 cdn.wshareit.com
 cdn-yjp.taboola.com
@@ -10472,6 +10494,7 @@ chronicads.com
 chs.smartclick.net
 ch-sync.taboola.com
 chtatic.appspot.com
+chtbl.com
 chufudsi.net
 chuknu.sokrati.com
 chumtv.122.2o7.net
@@ -10821,6 +10844,7 @@ clientmetrics-augmentum.kik.com
 clientmetrics.kik.com
 clientmetrics.outbrain.com
 client.midosoo.com
+client.rave-api.com
 clients.adcolony.com
 clients.advertising.com
 clients-alpha.adcolony.com
@@ -11000,9 +11024,9 @@ cmpkynhhmkni.com
 cmp-lb-ap-southeast.tubemogul.com
 cmpload.cmcm.com
 cmp.optad360.io
-cmp.osano.com
 cm.pos.baidu.com
 cmp.teads.mgr.consensu.org
+cmp.uniconsent.com
 cmp.uniconsent.mgr.consensu.org
 cmqyhtqkhduy.com
 cm.revcontent.com
@@ -11454,6 +11478,7 @@ config.pek1.vip.inmobi.com
 config.quantumgraph.com
 config.safedk.com
 config.samsungads.com
+configs-community-app.audent.io
 config.sdk.scopely.io
 config-sea-nfl.yinzcam.com
 config.sentinel.mob.com
@@ -13200,6 +13225,7 @@ dillas-pfandhaus.de
 dimaggio.heartlight.org
 dimandis.com
 dimessing-parker.com
+d.impactradius-event.com
 dingoftoftedrob.info
 dingroledintrep.pro
 dintwas.com
@@ -13428,6 +13454,7 @@ documents.supersonicads.com
 dod.appsflyer.com
 doeree.de
 doesok.top
+dogcollarfavourbluff.com
 doghole.ucweb.com
 doghoust.net
 do-global.com
@@ -14090,6 +14117,7 @@ edge.metroleads.com
 edge.quantserve.com
 edge.safedk.com
 edge.sharethis.com
+edge.uniconsent.com
 edge-west.customer.io
 edge.yieldify.com
 edg.startappservice.com
@@ -14775,6 +14803,7 @@ events.avantisvideo.com
 events.boomtrain.com
 events.cid.samba.tv
 event.scorecardresearch.com
+events.engager.ecbsn.com
 events.engageya.com
 eventserver-eastus.trafficmanager.idsp.inmobi.com
 events.foreseeresults.com
@@ -15291,6 +15320,7 @@ feylibertad.org
 ff1c0cc5.api.splkmobile.com
 ff84ae928c3b33064b76dec08f12500465e59a6f.cws.conviva.com
 ff-buch.de
+ffconf.ecbsn.com
 ffcqkvdaklrqkg.com
 ff.doubleclick.net
 fffzquckf.com
@@ -16663,6 +16693,7 @@ gleechie.net
 glenm.mtxcapital.com
 glfnjyzix.bid
 glhxoawgunlame.bid
+glimmer.hearstapps.com
 glimpse.allow.support
 glishais.net
 glispa.com
@@ -18092,6 +18123,7 @@ ht.adups.com
 htamaster.com
 h-tdcanada.online-metrix.net
 htkoyuyk.bid
+htlb.casalemedia.com
 htlb.casalemedia.com.edgekey.net
 htl.bid
 htlbid.com
@@ -21207,6 +21239,7 @@ lightcast.leadscoringcenter.com
 lightcushion.com
 lightinthebox.com
 lightminer.co
+lightning.cnn.com
 lightothansinheg.pro
 lightspeedcash.com
 lightspeedmining.com
@@ -21469,6 +21502,7 @@ local.tampabay.com
 localytics.com
 locator1.corevm.com
 locatorpp.corevm.com
+loc.bskarn.com
 lochjol.com
 locjzfoh.com
 locked4.com
@@ -21489,10 +21523,12 @@ lofentous.com
 log15.byteoversea.com
 log16.byteoversea.com
 log16-normal-c-useast2a.tiktokv.com
+log1.golfrival.net
 log-1.samsungacr.com
 log2.musical.ly
 log-2.samsungacr.com
 log2-useast2a.musical.ly
+log3.golfrival.net
 log3.optimizely.com
 log-3.samsungacr.com
 log-4.adclerks.com
@@ -23070,6 +23106,7 @@ metrics.landolakes.com
 metrics.lawyers.com
 metrics.lehighvalleylive.com
 metrics.lexus.com
+metrics.lfanalytics.io
 metrics-logger.spot.im
 metrics.macys.net
 metrics.mcafee.com
@@ -23280,6 +23317,7 @@ midatlanticstore.com
 midcru.112.2o7.net
 midkerci.bid
 midoweb.offerstrack.net
+mid.rkdms.com
 midsen.112.2o7.net
 midzwwrcrril.bid
 miegpokitjxm.com
@@ -25493,6 +25531,7 @@ olarshalrolli.com
 ol.at.atwola.com
 olazspdsld.bid
 olb.pns.kt.com
+olc.yodo1api.com
 oldftp.otenet.gr
 old.livejasmin.com
 oldmilram.com
@@ -25788,6 +25827,7 @@ opetiv.com
 opfrjkmmvqmm.com
 ophttps.rayjump.com
 opienetwork.com
+opimedia.azureedge.net
 opinion.inmobi.com
 opknogsela.bid
 opmnstr.com
@@ -26443,6 +26483,8 @@ panel.scorecardresearch.com
 panel.vargakragard.se
 panel.yieldbird.com
 pangle.io.edgekey.net
+pangolin16.isnssdk.com
+panickycurtain.com
 panoll.com
 pantherads.com
 panuwap.com
@@ -27558,6 +27600,7 @@ playcam.s.xoxknct.com
 player.adtelligent.com
 player.aniview.com
 player.kmpmedia.net
+player.stats.live-video.net
 playhaven.com
 play.heavymetalmachines.com
 playinvaders.com
@@ -28110,6 +28153,7 @@ prod-collecticon.outlookmobile.com
 prod.criteo.com
 prod.criteo.net
 prod-customfeeds.flashtalking.com
+prod-dcs-eventlog.decagames.com
 prod-defaulting-subscriptiontool.gismart.xyz
 prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com
 prod.embut.manycomponents.com
@@ -29592,6 +29636,7 @@ resources.presage.io
 resources.rubiconproject.com
 resources.taboola.com
 resources-us.yinzcam.com
+resources.xg4ken.com
 responder.wt-safetag.com
 responses.df.telemetry.microsoft.com
 responsiveads.com
@@ -29844,6 +29889,7 @@ rockwall.investments
 rock-you-d.openx.net
 rocwitty.com
 rodale.d1.sc.omtrdc.net
+rodeoconfig.yodo1api.com
 rodhaengefdr.info
 rogers.demdex.net
 rogers-digital-media-d.openx.net
@@ -30321,7 +30367,10 @@ s3-ap-southeast-2-amazonaws.com
 s3.buysellads.com
 s3cf.flashtalking.com
 s3.hit.stat24.com
+s3-iad-2.cf.dash.row.aiv-cdn.net
+s3-iad-ww.cf.videorolls.row.aiv-cdn.net
 s3.leadcontrol.net
+s3.ll.videorolls.row.aiv-cdn.net
 s3m.mediav.com
 s3m.trafficmagnates.com
 s3ns3.advertising.com
@@ -31144,8 +31193,10 @@ sensenetworks.com
 sensic.net
 sensismediasmart.com.au
 sensors.binance.cloud
+sensors.yodo1api.com
 sentinel.mob.com
 sento.122.2o7.net
+sentry.audent.io
 sentry.mopub.com
 se-old-setting.rayjump.com
 separatesilver.com
@@ -31298,6 +31349,7 @@ services.splunk.com
 services.vlicdn2.com
 services.webspectator.com
 services.wes.df.telemetry.microsoft.com
+services.xg4ken.com
 services.x-traceur.com
 serviceuphelper.com
 service.urchin.com
@@ -33115,6 +33167,7 @@ stats.ozwebsites.biz
 stats.pagefair.com
 stats.pandora.com
 stats.paycounter.com
+stats.playrix.com
 stats.polldaddy.com
 stats.popcap.com
 stats.popscreen.com
@@ -33520,6 +33573,7 @@ survey.112.2o7.net
 survey.122.2o7.net
 survey2.voicefive.com
 survey.g.doubleclick.net
+surveygizmobeacon.s3.amazonaws.com
 survey.nuggad.net
 surveypass.com
 survey-poll.com
@@ -34118,6 +34172,7 @@ tecfreaks.net
 tech.adroll.com
 techblog.outbrain.com
 techclicks.net
+techcrunch.mydashboard.oath.com
 tech.flurry.com
 tech.game-bonuses.club
 tech-land.de
@@ -34864,6 +34919,7 @@ tpnaabdwy.com
 tpnads.com
 tp-rtb-adserver-eu.eu-west-1.elasticbeanstalk.com
 tps10216.doubleverify.com
+tps11005.doubleverify.com
 tps11031.doubleverify.com
 tps30.doubleverify.com
 tps711.doubleverify.com
@@ -35214,6 +35270,7 @@ tracker.nitropay.com
 tracker.novalayer.org
 tracker.offermarket.net
 tracker.onapps.org
+tracker.personizely.net
 tracker.plasticlovers.co.uk
 tracker.promosvc.com
 tracker.promovalue.us
@@ -35475,6 +35532,7 @@ tracking.onefeed.co.uk
 tracking.opencandy.com.s3.amazonaws.com
 tracking.openx.com
 tracking.opienetwork.com
+tracking.orixa-media.com
 tracking.pandoiq.com
 tracking.paymentfindermail.net
 tracking.pennystockpicks.net
@@ -36800,6 +36858,7 @@ ukngpcuyc.com
 uk.openx.com
 uk-polo.com
 ukrbanner.net
+uk-script.dotmetrics.net
 uktbstore.top
 uktc.ijento.com
 ukvkloytfaw.bid
@@ -37461,6 +37520,7 @@ vcdn.rivertraffic.com
 vcdn.tsyndicate.com
 vcfnspbgztl.com
 v.cf.ssacdn.com
+vc.hotjar.io
 vcmedia.com
 vcm-match.dotomi.com
 vc.mobclix.com
