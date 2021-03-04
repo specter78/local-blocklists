@@ -1,8 +1,8 @@
-! Checksum: rasYgwIPD/odvf3L3/1+8Q
+! Checksum: VP8OhHJTkpeTzmVq9XkujA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.21.33
-! TimeUpdated: 2021-03-02T20:31:54+03:00
+! Version: 2.0.21.36
+! TimeUpdated: 2021-03-03T19:31:28+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -219,6 +219,12 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||log.gs3.goo.ne.jp^
+||static.karte.io^$third-party
+||wonder-ma.com^$third-party
+||sync.ebis.ne.jp^$third-party
+||taj1.ebis.ne.jp^
+||taj2.ebis.ne.jp^
 ||tracking.adweb.co.kr^$third-party
 ||tracking02.adweb.co.kr^$third-party
 ||d-collector.jennifersoft.com^
@@ -4407,6 +4413,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Adobe Experience Cloud
 ||2o7.net^
 ||omtrdc.net^
+||data.adobedc.net^$third-party
 ! Commanders Act
 ||tagcommander.com^
 ||commandersact.com^$third-party
