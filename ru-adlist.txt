@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tg+Wospk6wIdZB+zzC9GiA
-! Version: 202103050510
+! Checksum: c4NyAg6wKbBsTLJfBqpCSw
+! Version: 202103060510
 ! Title: RU AdList
-! Last modified: 05 Mar 2021 05:10 UTC
+! Last modified: 06 Mar 2021 05:10 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13965,6 +13965,7 @@ hi-fi.ru##.feature__ad-block
 anypictures.ru##.featured
 syl.ru#?#.featured_articles > .header:-abp-contains(/^Новости партнеров|^Также читайте/)
 playground.ru##.features-slider-item > a[href*="utm_"]
+pravoved.ru##.feed-bnnrs--right
 online.fliphtml5.com##.fh5---banner---container
 allboxing.ru#?#.field-item > p:-abp-has(> em > noindex > [href*="fonbet.ru"])
 allboxing.ru#?#.field-item > p:-abp-has(> em > noindex > [href*="parimatch.ru"])
@@ -14965,6 +14966,7 @@ anadyr.org#?#.posts-container > .card:-abp-has(> div > [id^="yandex_rtb_"])
 anadyr.org#?#.posts-container > .card:-abp-has(> iframe[src*="/banners/"])
 the-village.com.ua,the-village.me,the-village.ru##.posts-sidebar
 svoimirykami.club##.posts__adv
+professionali.ru##.pr-banner-wrap
 syzran-small.ru,xn----7sbabwosghnf8al4lkj7b.xn--p1ai#?#.pr:-abp-has(> [id^="smi_teaser_"])
 kuban24.tv##.prbImageInfo > a[href][target="_blank"]:not([href^="https://kuban24.tv/"]):not([href*="://t-do.ru/"])
 megaresheba.ru##.preloading
@@ -15001,6 +15003,7 @@ kinoafisha.ua##.promobar
 tochka.net##.promobar-trends a[href*="holder.com.ua/c?tz"]
 kinoafisha.ua##.promobrand
 tonkosti.ru##.proxima
+pravoved.ru##.prvd-af-primary-rnnb
 the-village.com.ua,the-village.me,the-village.ru##.pseudosidebar
 psy-music.ru##.psyTopBanner
 znak.com##.pub-box
@@ -17265,6 +17268,7 @@ hack-tool.org##center > div > noindex
 sibmail.com##center > div[style*="200px;"]
 0day.kiev.ua##center > div[style^="margin"][style*="orange"]
 youtext.ru##center > font > div[style*="#FFCC66;"]
+trserial.net.ua##center > ins ~ *
 sfw.org.ua##center > noindex
 fullgames.ru,haleava.net##center > noindex > a[target="_blank"]
 kinotwserial.ru##center > noindex > center > div
@@ -23374,7 +23378,6 @@ bomba.co##body > div[class^="remodal"]
 ladyclub.org##body > div[class^="revelation"]
 zismo.biz##body > div[class^="simplemodal"]
 moypodval.ru##body > div[class^="tccSm"]
-professionali.ru##body > div[data-control="dialog"]
 pollee.org##body > div[data-mg-c]
 tonnews.ru##body > div[id^="fancybox"]
 supertabak.ru##body > div[id^="jBox"]

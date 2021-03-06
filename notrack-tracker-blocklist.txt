@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 04 Mar 2021
+# Updated: 05 Mar 2021
 # LatestVersion 20.12
-# Domain Count: 14811
+# Domain Count: 14831
 #===============================================================
 
 0gs5mb24su.ru #PushProfit - Advertising
@@ -32,6 +32,7 @@
 247realmedia.com #AppNexus Inc - Tracker
 247realmedia.org #AppNexus Inc - Tracker
 254a.com #Yieldr - Tracker
+2mdnsys.com #Unknown - Advertising
 2nyan.org #Unknown - Tracker
 2o7.net #Adobe - Tracker
 304br.net #Integral Ad Science - Tracker
@@ -218,6 +219,7 @@ ads.brave.com #Brave.Com - Advertising
 ads.cdn.viber.com #Viber - Advertising
 ads.chaturbate.com #Chaturbate - Advertising
 ads.citymagazine.si #CityMagazine - Advertising
+ads.clubz.bg #clubz.bg - Advertising
 ads.debati.bg #Debati.Bg - Advertising
 ads.ebay.com #eBay - Advertising
 ads.eurocom.bg #Eurocom.Bg - Advertising
@@ -232,6 +234,7 @@ ads.mindfactory.de #Mindfactory.de - Tracker
 ads.msn.com #Microsoft - Advertising
 ads.nordcurrent.com #nordcurrent.com - Advertising
 ads.samba.tv #Samba - Advertising
+ads.sedemosmi.tv #sedemosmi.tv - Advertising
 ads.superawesome.tv #SuperAwesome Kids - Advertising
 ads.tutotoons.com #tutotoons.com - Advertising
 ads.twitter.com #Twitter - Advertising
@@ -370,6 +373,7 @@ analytics.74.ru #74.Ru - Tracker
 analytics.archive.org #Archive.Org - Tracker
 analytics.arecontvision.com #arecontvision.com - Tracker
 analytics.autodesk.com #Autodesk.Com - Tracker
+analytics.barnebys.sh #barnebys.sh - Tracker
 analytics.bluemosh.com #Bluemosh.com - Tracker
 analytics.brave.com #Brave Browser - Tracker
 analytics.businessinsider.com #businessinsider.com - Tracker
@@ -435,6 +439,7 @@ analytics.mobile.walmart.com #Walmart.Com - Tracker
 analytics.motionarray.com #Motionarray.com - Tracker
 analytics.move.ru #Move.Ru - Tracker
 analytics.nike.com #Nike.Com - Tracker
+analytics.ninjakiwi.com #ninjakiwi.com - Tracker
 analytics.openelec.tv #Openelec - Tracker
 analytics.ovh.com #Ovh.Com - Tracker
 analytics.pandahall.com #Pandahall.Com - Tracker
@@ -457,6 +462,7 @@ analytics.svt.se #Svt.Se - Tracker
 analytics.sykescottages.co.uk #Sykescottages.Co.Uk - Tracker
 analytics.theta360.com #theta360.com - Tracker
 analytics.tiktok.com #Tiktok.Com - Tracker
+analytics.trionworlds.com #trionworlds.com - Tracker
 analytics.tripwireinteractive.com #Tripwire Interactive - Tracker
 analytics.trovit.com #Trovit.com - Tracker
 analytics.twitter.com #Twitter - Tracker
@@ -594,6 +600,7 @@ beriacroft.com #Unknown - Advertising
 beta-i.pt #Beta-i - Tracker
 betrad.com #Ghostery - Tracker
 betweendigital.com #Between Digital - Advertising
+betweenx.com #Between Exchange - Advertising
 bevyup.com #BevyUp - Tracker
 bid.glass #Bid Glass - Advertising
 bidgear.com #BidGear - Tracker
@@ -1262,6 +1269,10 @@ graphiq.com #Graphiq - Advertising
 gravity.com #Gravity - Tracker
 greengrowth.space #Unknown Chinese - Tracker
 greystripe.com #Conversant - Advertising
+grs.dbankcloud.asia #Huawei - Tracker
+grs.dbankcloud.cn #Huawei - Tracker
+grs.dbankcloud.com #Huawei - Tracker
+grs.dbankcloud.eu #Huawei - Tracker
 grumft.com #Grumft - Advertising
 grvmedia.com #GRVMedia - Tracker
 gscontext.net #Grapeshot - Advertising
@@ -1601,6 +1612,7 @@ mcstats.org #Minecraft - Tracker
 mdotlabs.com #Viewability - Tracker
 mdotm.com #MdotM - Tracker
 measuread.com #MeasureAd - Tracker
+measurelib.com #Unknown - Tracker
 medals.bizrate.com #TBC - Tracker
 medi-8.net #Medi8 - Tracker
 media.complex.com #Complex - Tracker
@@ -13017,6 +13029,7 @@ redshell.io #Red Shell - Tracker
 redstar.co.uk #Unknown - Tracker
 rees46.com #REES46 - Tracker
 reevoo.com #Unknown - Tracker
+refersion.com #Refersion - Advertising
 refinedads.com #Unknown - Advertising
 regulationprivilegescan.top #Unknown - Advertising
 relestar.com #Unknown - Tracker
@@ -14411,6 +14424,7 @@ tapdaq.com #Tapdaq - Tracker
 tapfiliate.com #Unknown - Tracker
 tapjoyads.com #Unknown - Advertising
 tapnative.com #Tap Native - Advertising
+target2sell.com #Target2sell - Tracker
 tbcdn.cn #Unknown - Tracker
 tbnetwork.im #ClickTech - Advertising
 tctm.co #Unknown - Tracker
@@ -14422,6 +14436,7 @@ technoratimedia.com #Technorati - Tracker
 techtarget.com #TechTarget - Tracker
 teenyreligious.com #Wildbear - Advertising
 tekblue.net #Plan Blue - Tracker
+telematicsdirect.com #TelematicsDirect - Tracker
 telemetry-dce.gfe.nvidia.com #Nvidia - Tracker
 telemetry-experiment.cdn.mozilla.net #Mozilla - Tracker
 telemetry-in.battle.net #Blizzard - Tracker
@@ -14429,6 +14444,7 @@ telemetry-incoming.r53-2.services.mozilla.com #Mozilla - Tracker
 telemetry.api.2kcoretech.online #2K - Tracker
 telemetry.api.playstation.com #Playstation.Com - Tracker
 telemetry.api.swiftkey.com #Swiftkey - Tracker
+telemetry.api.wmcdp.io #Warner Media - Tracker
 telemetry.art19.com #Art19.Com - Tracker
 telemetry.battle.net #Blizzard - Tracker
 telemetry.dropbox.com #Dropbox - Tracker
@@ -14543,6 +14559,7 @@ tracking.volo-mobile.com #Volo - Tracker
 tracking.websitealive.com #Websitealive.Com - Tracker
 trackjs.com #Unknown - Tracker
 trackonomics.net #Trackonomics - Tracker
+tracks.yclients.com #yclients.com - Tracker
 tradeadexchange.com #Unknown - Advertising
 tradedoubler.com #Unknown - Advertising
 tradefxads.com #Unknown - Advertising
@@ -14563,6 +14580,7 @@ trafforsrv.com #Unknown - Tracker
 trail-web.com #Lead Forensics - Tracker
 trakingtraffic.com #Unknown - Tracker
 traktrafficflow.com #Unknown - Tracker
+travelaudience.com #Amadeus - Advertising
 trckrry.com #Trackerry - Tracker
 treasuredata.com #Treasure Data - Tracker
 tremorhub.com #Tremor Video - Advertising
@@ -14675,6 +14693,8 @@ videopostroll.com #BrightRoll - Advertising
 videopreroll.com #BrightRoll - Advertising
 vidible.tv #AOL - Advertising
 vidoomy.com #Vidoomy - Tracker
+vidver.to #Vidverto - Advertising
+vidverto.io #Vidverto - Advertising
 vidyard.com #Unknown - Tracker
 viglink.com #VigLink - Tracker
 vilynx.com #Vilynx - Tracker
