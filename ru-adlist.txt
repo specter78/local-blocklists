@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c4NyAg6wKbBsTLJfBqpCSw
-! Version: 202103060510
+! Checksum: r68y7nv98+MWTD1qECqD9Q
+! Version: 202103070510
 ! Title: RU AdList
-! Last modified: 06 Mar 2021 05:10 UTC
+! Last modified: 07 Mar 2021 05:10 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -6754,6 +6754,7 @@ _tizers.
 ||hw4mm.ru^$third-party
 ||hwmgcurmtkxk.bid^
 ||hxmtwz3cffemjy.ru^$third-party
+||hybrid.ai^$third-party
 ||hydr.work^$third-party
 ||hymipacu.pro^$third-party
 ||hymona.ru^$third-party
@@ -16691,6 +16692,7 @@ autodmir.ru##a[href="javascript:;"][class="vetrine"]
 aromatmasla.ru##a[href="span class="]
 taobao-forum.com##a[href]:not([href^="http://taobao-forum.com/"]) > img[src^="/banner/"]
 rivne.media##a[href][class^="info-"]
+bobsoccer.ru##a[href][class^="ls_"]
 directlot.ru##a[href][onclick*="Banners"]
 podolsk.ru##a[href][onclick*="banner_click"]
 vakhta-job.ru##a[href][onclick]
@@ -22004,15 +22006,15 @@ adblockmetrics.ru,antiadblock.ru,better-games.ru,clickscloud.net,disk-space.ru,f
 ||teleprogramma.pro^$xmlhttprequest,domain=teleprogramma.pro
 !
 ! Плееры tubeproton@protonmail.com
-$script,~third-party,domain=fplay.online|playep.pro|playy.online|plplayer.online|sorb.info|toplay.biz|ttutu.biz
-/bundle-vast.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|sorb.info|toplay.biz|ttutu.biz
-/bundle.vast.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|sorb.info|toplay.biz|ttutu.biz
-/vast-bundle.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|sorb.info|toplay.biz|ttutu.biz
-/vast.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|sorb.info|toplay.biz|ttutu.biz
-/vpaid2.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|sorb.info|toplay.biz|ttutu.biz
-@@/bundle.min.js$script,~third-party,domain=fplay.online|playep.pro|playy.online|plplayer.online|sorb.info|toplay.biz|ttutu.biz
-@@/bundle.serial.min.js$script,~third-party,domain=fplay.online|playep.pro|playy.online|plplayer.online|sorb.info|toplay.biz|ttutu.biz
-fplay.online,playep.pro,playy.online,plplayer.online,sorb.info,toplay.biz,ttutu.biz###vPreloader
+$script,~third-party,domain=fplay.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
+/bundle-vast.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
+/bundle.vast.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
+/vast-bundle.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
+/vast.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
+/vpaid2.min.js$domain=fplay.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
+@@/bundle.min.js$script,~third-party,domain=fplay.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
+@@/bundle.serial.min.js$script,~third-party,domain=fplay.online|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
+fplay.online,playep.pro,playy.online,plplayer.online,plwork.net,sorb.info,toplay.biz,ttutu.biz###vPreloader
 !
 ! 2ip.ru и 2ip.io
 ! Новый дизайн
@@ -24674,7 +24676,7 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,kinogo2.b
 @@||onlinemschool.com/script/ads*js|$script,domain=onlinemschool.com
 @@||opel-omega.ru^*?adType=$script,domain=opel-omega.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sochi.camera
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=3dsmaxvideo.ru|adult-images.ru|anitokyo.tv|anypictures.ru|archicadvideo.ru|autocadvideo.ru|bstudy.net|coreldrawvideo.ru|daz3d.ru|di.fm|draug.ru|electric-house.ru|electrotests.ru|excelvideo.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|helpsetup.ru|ikigaitest.com|img2txt.com|imgbum.ru|kompasvideo.ru|nv.ua|olegon.ru|open3dmodel.com|otzovik.com|ozlib.com|parnuxi.biz|photoshopvideo.ru|pixcloud.ru|radioromantika.ru|solidworksvideo.ru|stroi-help.ru|studbooks.net|studme.org|studref.com|studwood.ru|tarkov-market.com|tehnobzor.ru|tehnografi.com|test24.wweek.ru|tests24.su|testserver.pro|vargr.ru|videoredaktor.ru|vuzlit.ru|wallpapershome.ru|warhead.su|wordvideo.ru|xpicture.ru|xstud.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=3dsmaxvideo.ru|adult-images.ru|anitokyo.tv|anypictures.ru|archicadvideo.ru|autocadvideo.ru|bstudy.net|coreldrawvideo.ru|daz3d.ru|di.fm|draug.ru|electric-house.ru|electrotests.ru|excelvideo.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|helpsetup.ru|ikigaitest.com|img2txt.com|imgbum.ru|kompasvideo.ru|nv.ua|olegon.ru|otzovik.com|ozlib.com|parnuxi.biz|photoshopvideo.ru|pixcloud.ru|radioromantika.ru|solidworksvideo.ru|stroi-help.ru|studbooks.net|studme.org|studref.com|studwood.ru|tarkov-market.com|tehnobzor.ru|tehnografi.com|test24.wweek.ru|tests24.su|testserver.pro|vargr.ru|videoredaktor.ru|vuzlit.ru|wallpapershome.ru|warhead.su|wordvideo.ru|xpicture.ru|xstud.ru
 @@||patents.su/assets/themes/patents/js/main/$script,domain=patents.su
 @@||pb.wtf^$script,domain=pb.wtf
 @@||peers.tv/cnplayer/imasdk/$domain=peers.tv
@@ -24797,6 +24799,7 @@ rt02.ru##img[alt*="реклам"]
 ||csgohelp.ru/assets/app/js/checkIn.js
 ||in-english.club/statistic/my.js
 ||only-paper.ru/js/ablock.js
+||open3dmodel.com/wp-content/plugins/deblocker/
 ||pcnews.ru/js/blockadblock.js
 ||rybolov.ee/forum/Themes/RealPopup/
 ||starserial.ru/img/adblock.png

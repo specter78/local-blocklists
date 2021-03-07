@@ -1,8 +1,8 @@
-! Checksum: Xxa1w03x7a4dz5EcS8KicA
+! Checksum: zWftCWFJzaJecqNsaaG40w
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.50.17
-! TimeUpdated: 2021-03-05T09:30:50+03:00
+! Version: 2.0.50.18
+! TimeUpdated: 2021-03-07T03:30:48+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -21197,6 +21197,7 @@ gazeta.ru##.smi2_incut
 !
 ! sports.ru / ua.tribuna.com / by.tribuna.com
 !
+sports.ru##a[href^="https://l.linklyhq.com/"]
 sports.ru##.nav-top-line__content-wrapper > div:not([class*="-"])
 sports.ru,ua.tribuna.com,by.tribuna.com##.teaser-before-links
 sports.ru,tribuna.com###branding-layout>:not(div):not(.page-layout)[id][class]
