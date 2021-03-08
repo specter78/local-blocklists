@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 05 Mar 2021
+# Updated: 07 Mar 2021
 # LatestVersion 20.12
-# Domain Count: 14831
+# Domain Count: 14834
 #===============================================================
 
 0gs5mb24su.ru #PushProfit - Advertising
@@ -473,6 +473,7 @@ analytics.wikimedia.org #Wikimedia.Org - Tracker
 analytics.yahoo.com #Yahoo - Tracker
 analytics.yard.nl #yard.nl - Tracker
 analytics.yongjinbao.com.cn #yongjinbao.com.cn - Tracker
+analytics.zxz.su #zxz.su - Tracker
 analyticsmsp.com #MSP - Tracker
 analyticspixel.microsoft.com #Microsoft - Tracker
 and.co.uk #Associated Northcliffe Digital - Advertising
@@ -578,6 +579,7 @@ bdex.com #Big Data Exchange - Tracker
 beacon.direct.asda.com #asda.com - Tracker
 beacon.guim.co.uk #Guardian - Tracker
 beacon.riskified.com #riskified.com - Tracker
+beacon.wikia-services.com #wikia-services.com - Tracker
 beaconimages.netflix.net #Netflix - Tracker
 beacons.gcp.gvt2.com #Google - Tracker
 beacons.gvt2.com #Google - Tracker
@@ -1315,6 +1317,7 @@ hqcampaign.com #Aurea - Advertising
 hrb1tng0.com #Lead Forensics - Tracker
 hs-analytics.com #Hubspot - Tracker
 hs-analytics.net #Hubspot - Tracker
+hs-banner.com #Hubspot - Tracker
 hsadspixel.net #Hubspot - Tracker
 hskwq.com #Unknown - Tracker
 hsleadflows.net #Hubspot - Tracker
@@ -1374,7 +1377,6 @@ indpcr1.com #Lead Forensics - Tracker
 industrybrains.com #IndustryBrains - Advertising
 infernotions.com #Infernotions - Tracker
 infinity-tracking.net #Infinity - Tracker
-influxdata.com #InfluxDB - Tracker
 infolinks.com #Infolinks - Advertising
 ingest.sentry.io #Sentry - Tracker
 inmobi.com #InMobi - Advertising
@@ -13492,6 +13494,7 @@ smetrics.corus.ca #Iobit - Tracker
 smetrics.costacruise.com #Adobe - Tracker
 smetrics.costadelmar.com #Adobe - Tracker
 smetrics.costcobusinesscentre.ca #Adobe - Tracker
+smetrics.costcobusinessdelivery.com #Adobe - Tracker
 smetrics.cottages.com #Adobe - Tracker
 smetrics.couponcabin.com #Adobe - Tracker
 smetrics.cox.com #Adobe - Tracker
@@ -13957,7 +13960,6 @@ smetrics.pru.co.uk #Adobe - Tracker
 smetrics.pruadviser.co.uk #Adobe - Tracker
 smetrics.publicissapient.com #Adobe - Tracker
 smetrics.qatarairways.com #Adobe - Tracker
-smetrics.qatarairways.com.br #Adobe - Tracker
 smetrics.quickenloans.org #Adobe - Tracker
 smetrics.quill.com #Adobe - Tracker
 smetrics.rac.co.uk #Adobe - Tracker
@@ -14557,6 +14559,7 @@ tracking.resortsandlodges.com #Resortsandlodges.Com - Tracker
 tracking.sezzle.com #Sezzle.Com - Tracker
 tracking.volo-mobile.com #Volo - Tracker
 tracking.websitealive.com #Websitealive.Com - Tracker
+tracking.wetter.at #wetter.at - Tracker
 trackjs.com #Unknown - Tracker
 trackonomics.net #Trackonomics - Tracker
 tracks.yclients.com #yclients.com - Tracker

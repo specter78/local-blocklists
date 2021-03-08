@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: r68y7nv98+MWTD1qECqD9Q
-! Version: 202103070510
+! Checksum: T5sTLbZpe3ld7tYSA/BzVQ
+! Version: 202103080510
 ! Title: RU AdList
-! Last modified: 07 Mar 2021 05:10 UTC
+! Last modified: 08 Mar 2021 05:10 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1285,6 +1285,7 @@ by,~mail.ru,ru,~sportmail.ru,ua##.banner_box
 ##.goha_ads_acceptable
 ~giraff.io##.grf-list__item:not([data-type="ae"])
 ~giraff.io##.grf-widget__logo
+##.h_banner
 ##.header-banner > #moneyback[target="_blank"]
 ##.itemLinkPET.plista_widget_belowArticle_item
 ##.j-li_sidebar-banner
@@ -10738,6 +10739,7 @@ _tizers.
 ||zaprosbaza.pw^$third-party
 ||zarabotki.ru^
 ||zarakat.site^$third-party
+||zargutivisor.info^$third-party
 ||zawuf.com^$third-party
 ||zaynay.com^$third-party
 ||zbiz-scr.com^$third-party
@@ -12221,7 +12223,6 @@ vashdom.ru###out_banner
 electricalschool.info###outer > #third
 woman.ru###outside-col
 outlook.live.com###owaadbar
-101kinopoisk.com,aghdrezka.com,ahdrezka.com,betahdrezka.com,clubhdrezka.com,cokinopoisk.com,drhdrezka.com,ehdrezka.com,ekinopoisk.com,ezhdrezka.com,gethdrezka.com,hdrezka-ag.com,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.gift,hdrezka.in,hdrezka.ink,hdrezka.link,hdrezka.loan,hdrezka.lol,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkablog.com,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,justhdrezka.com,livehdrezka.com,livekinopoisk.com,metahdrezka.com,mrhdrezka.com,myhdrezka.com,nexthdrezka.com,nuhdrezka.com,nukinopoisk.com,rehdrezka.com,rezka.ag,thehdrezka.com,tryhdrezka.com,tvhdrezka.com,uphdrezka.com,youhdrezka.com###ownplayer-link-show
 wikireality.ru###p-sidebar-extlinks
 kinosezon.net###page > #overlay
 kv.by###page > .region-secondary-content
@@ -12685,7 +12686,7 @@ smartphone.ua###videos-ads
 mnogotestov.com###viqeo
 drochunov.net###vista_toolbara > table:nth-of-type(2)
 video.sibnet.ru###vjs-overlayclip-container-box
-101kinopoisk.com,aghdrezka.com,ahdrezka.com,betahdrezka.com,clubhdrezka.com,cokinopoisk.com,drhdrezka.com,ehdrezka.com,ekinopoisk.com,ezhdrezka.com,gethdrezka.com,hdrezka-ag.com,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.gift,hdrezka.in,hdrezka.ink,hdrezka.link,hdrezka.loan,hdrezka.lol,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkablog.com,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,justhdrezka.com,livehdrezka.com,livekinopoisk.com,metahdrezka.com,mrhdrezka.com,myhdrezka.com,nexthdrezka.com,nuhdrezka.com,nukinopoisk.com,rehdrezka.com,rezka.ag,thehdrezka.com,tryhdrezka.com,tvhdrezka.com,uphdrezka.com,youhdrezka.com###vk_groups + div[style]
+101kinopoisk.com,aghdrezka.com,ahdrezka.com,betahdrezka.com,clubhdrezka.com,cokinopoisk.com,drhdrezka.com,ehdrezka.com,ekinopoisk.com,ezhdrezka.com,gethdrezka.com,hdrezka-ag.com,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.gift,hdrezka.in,hdrezka.ink,hdrezka.link,hdrezka.loan,hdrezka.lol,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkablog.com,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,justhdrezka.com,livehdrezka.com,livekinopoisk.com,metahdrezka.com,mrhdrezka.com,myhdrezka.com,nexthdrezka.com,nuhdrezka.com,nukinopoisk.com,rehdrezka.com,rezka.ag,thehdrezka.com,tryhdrezka.com,tvhdrezka.com,uphdrezka.com,xhdrezka.com,youhdrezka.com###vk_groups + div[style]
 nagon.net###vk_up_table
 galya.ru###vp_main_520
 stolica.ru###vst_mvideo
@@ -13083,7 +13084,7 @@ hata.by##.b-catalog-table__sale
 orakul.ua##.b-cont
 kolesa.kz##.b-container
 penzavzglyad.ru##.b-content
-101kinopoisk.com,aghdrezka.com,ahdrezka.com,betahdrezka.com,clubhdrezka.com,cokinopoisk.com,drhdrezka.com,ehdrezka.com,ekinopoisk.com,ezhdrezka.com,gethdrezka.com,hdrezka-ag.com,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.gift,hdrezka.in,hdrezka.ink,hdrezka.link,hdrezka.loan,hdrezka.lol,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkablog.com,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,justhdrezka.com,livehdrezka.com,livekinopoisk.com,metahdrezka.com,mrhdrezka.com,myhdrezka.com,nexthdrezka.com,nuhdrezka.com,nukinopoisk.com,rehdrezka.com,rezka.ag,thehdrezka.com,tryhdrezka.com,tvhdrezka.com,uphdrezka.com,youhdrezka.com##.b-content__main > div[style][id]:not([class]):empty
+101kinopoisk.com,aghdrezka.com,ahdrezka.com,betahdrezka.com,clubhdrezka.com,cokinopoisk.com,drhdrezka.com,ehdrezka.com,ekinopoisk.com,ezhdrezka.com,gethdrezka.com,hdrezka-ag.com,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.gift,hdrezka.in,hdrezka.ink,hdrezka.link,hdrezka.loan,hdrezka.lol,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkablog.com,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,justhdrezka.com,livehdrezka.com,livekinopoisk.com,metahdrezka.com,mrhdrezka.com,myhdrezka.com,nexthdrezka.com,nuhdrezka.com,nukinopoisk.com,rehdrezka.com,rezka.ag,thehdrezka.com,tryhdrezka.com,tvhdrezka.com,uphdrezka.com,xhdrezka.com,youhdrezka.com##.b-content__main > div[style][id]:not([class]):empty
 svpressa.ru##.b-content__section_partners
 svpressa.ru##.b-content__section_teasers
 svpressa.ru##.b-content__title[href^="http://mediametrics.ru"]
@@ -13117,11 +13118,11 @@ tvc.ru##.b-overlay__video > .b-overlay__aside
 unn.com.ua##.b-page-border > ul[style*="width: 600px"]
 rusplt.ru##.b-partners-integration
 primpress.ru##.b-partners-news
-101kinopoisk.com,aghdrezka.com,ahdrezka.com,betahdrezka.com,clubhdrezka.com,cokinopoisk.com,drhdrezka.com,ehdrezka.com,ekinopoisk.com,ezhdrezka.com,gethdrezka.com,hdrezka-ag.com,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.gift,hdrezka.in,hdrezka.ink,hdrezka.link,hdrezka.loan,hdrezka.lol,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkablog.com,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,justhdrezka.com,livehdrezka.com,livekinopoisk.com,metahdrezka.com,mrhdrezka.com,myhdrezka.com,nexthdrezka.com,nuhdrezka.com,nukinopoisk.com,rehdrezka.com,rezka.ag,thehdrezka.com,tryhdrezka.com,tvhdrezka.com,uphdrezka.com,youhdrezka.com##.b-player a[href*="aHR0c"]
+101kinopoisk.com,aghdrezka.com,ahdrezka.com,betahdrezka.com,clubhdrezka.com,cokinopoisk.com,drhdrezka.com,ehdrezka.com,ekinopoisk.com,ezhdrezka.com,gethdrezka.com,hdrezka-ag.com,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.gift,hdrezka.in,hdrezka.ink,hdrezka.link,hdrezka.loan,hdrezka.lol,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkablog.com,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,justhdrezka.com,livehdrezka.com,livekinopoisk.com,metahdrezka.com,mrhdrezka.com,myhdrezka.com,nexthdrezka.com,nuhdrezka.com,nukinopoisk.com,rehdrezka.com,rezka.ag,thehdrezka.com,tryhdrezka.com,tvhdrezka.com,uphdrezka.com,xhdrezka.com,youhdrezka.com##.b-player a[href*="aHR0c"]
 imgal.ru,nemo-crack.org##.b-popup
 sobaka.ru##.b-post-view__tgb
 hdrezka1.site##.b-post__description > noindex
-101kinopoisk.com,aghdrezka.com,ahdrezka.com,betahdrezka.com,clubhdrezka.com,cokinopoisk.com,drhdrezka.com,ehdrezka.com,ekinopoisk.com,ezhdrezka.com,gethdrezka.com,hdrezka-ag.com,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.gift,hdrezka.in,hdrezka.ink,hdrezka.link,hdrezka.loan,hdrezka.lol,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkablog.com,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,justhdrezka.com,livehdrezka.com,livekinopoisk.com,metahdrezka.com,mrhdrezka.com,myhdrezka.com,nexthdrezka.com,nuhdrezka.com,nukinopoisk.com,rehdrezka.com,rezka.ag,thehdrezka.com,tryhdrezka.com,tvhdrezka.com,uphdrezka.com,youhdrezka.com##.b-post__mixedtext + div[id]
+101kinopoisk.com,aghdrezka.com,ahdrezka.com,betahdrezka.com,clubhdrezka.com,cokinopoisk.com,drhdrezka.com,ehdrezka.com,ekinopoisk.com,ezhdrezka.com,gethdrezka.com,hdrezka-ag.com,hdrezka.buzz,hdrezka.city,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.gift,hdrezka.in,hdrezka.ink,hdrezka.link,hdrezka.loan,hdrezka.lol,hdrezka.name,hdrezka.rest,hdrezka.run,hdrezka.sh,hdrezka.today,hdrezka.tv,hdrezka.vip,hdrezka.website,hdrezka.win,hdrezkablog.com,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,justhdrezka.com,livehdrezka.com,livekinopoisk.com,metahdrezka.com,mrhdrezka.com,myhdrezka.com,nexthdrezka.com,nuhdrezka.com,nukinopoisk.com,rehdrezka.com,rezka.ag,thehdrezka.com,tryhdrezka.com,tvhdrezka.com,uphdrezka.com,xhdrezka.com,youhdrezka.com##.b-post__mixedtext + div[id]
 tut.by##.b-prmplace
 biwork.ru##.b-promo-slider
 mport.ua,techno.bigmir.net##.b-puzzle-banner
@@ -13890,6 +13891,7 @@ mega-torrents.com##.download_button_mg
 repackov.net#?#.download_file:-abp-has(> a[href*="/sb/clk/"])
 terabit.biz##.download_inner
 hostmp3.ru##.download_method > .method_box ~ *
+torrent-games.su##.downloadmed
 fishki.net#?#.drag_element:-abp-has(.content__text > b:-abp-contains(Реклама))
 fishki.net#?#.drag_element:-abp-has([href*="/profile/1499330"])
 fishki.net#?#.drag_element:-abp-has([href*="poleznaja-reklama.html"])
@@ -14264,6 +14266,7 @@ image2you.ru##.info > .t_tips2
 babla.ru##.info-wrapper
 upload.com.ua##.info_banner_block
 igromania.ru#?#.info_block_box:-abp-has(.info_block_botrt:-abp-contains(Особый проект))
+torrent-games.su##.info_d
 soft.oszone.net##.info_one
 pnp.ru##.infoblock > div[style="height: 900px;"]
 gorodkiev.com.ua##.infolinks
@@ -15209,6 +15212,7 @@ myshows.me#?#.row > .col3:-abp-has(> a[href*="://hd.kinopoisk.ru"])
 my-hit.org##.row > .hidden-sm.hidden-xs > :not([class])
 argumenti.ru#?#.row > article:-abp-has(> .slides)
 pingvin.pro#?#.row > div:-abp-has(> .card-blog script)
+tgstat.com,tgstat.ru##.row > noindex
 fontanka.ru##.row-adv-block
 censor.net,lookatme.ru##.row-banner
 the-village.com.ua,the-village.me,the-village.ru##.row-banner-top
@@ -15984,6 +15988,7 @@ tverisport.ru,tvtver.ru##.xasdfx
 24video.adult,24video.click,24video.net,24video.vip##.xb-wrapper
 namba.kg##.xbet
 telestrekoza.com##.xoxo.blogroll
+pornoham.net##.xpwt_video-spots-col
 tvernews.ru##.y_dzen
 macilove.com##.ya-candy
 infox.ru##.ya-invite-block
@@ -16375,7 +16380,7 @@ akipress.org##a[href*="/?from=portal&place=ver-slider"]
 sia.ru##a[href*="/?section=519"]
 glazey.info##a[href*="/Na-pravah-reklamy/"]
 pr-cy.ru##a[href*="/a/click/"]
-24warez.ru,2x2forum.ru,5terka.com,alive-ua.com,animedub.ru,aniplay.tv,ap22.ru,appsgames.ru,bakemono.ru,big-anime.ru,big-games.info,bik-info.ru,cheatground.ru,chelnyagro.ru,chemezova.ru,cknow.ru,dni24.com,ecofoodferma.ru,elektrosat.ru,etika-education.ru,filmitorrent.site,gamelendi.ru,gazetaby.com,gazetaby.info,gazetaby.media,geekmir.ru,gitjournal.tech,gooool.org,hdclub.ua,hype.tech,igra-wow.ru,igui.mobi,inform-ua.info,instrument16.ru,jut-su.net,kinogou.co,kinomaxfilm.ru,klub-masterov.ru,kp.by,kp.kg,kp.kz,kp.md,kp.ru,kritika24.ru,lelang.ru,libking.ru,lordfilm.net,lostfilm-2020.ru,mixbits.ru,mmorpg.su,moy-instrument.ru,mrtranslate.ru,multfilms.online,newsgsm.com,ognennoetv.ru,ok-tv.org,only-tv.org,osortah.ru,outsidethebox.ms,parazit24.me,peugeot-citroen.net,pluggedin.ru,pravdatut.ua,privatbankrf.ru,ravis-avto.ru,remont-avtovaz.ru,repack-fitgirl.com,revelationonlinedb.ru,root-nation.com,rpgdon.com,rusplt.ru,rutracker.ru,samelectric.ru,seasonvar.re,selomoe.ru,seloved.ru,shkolniku.com,siddgames.ru,simhost.org,small-games.info,smotret-fizruk-online.su,smotri.com,sonix.tk,stalkermod.ru,steampass.ru,stiralkainfo.ru,technical.city,tivix.co,tmbw.ru,topasnew.ru,topmmo-games.ru,torrent-games-2016.ru,torrentigri.xyz,totori.ru,trackitonline.ru,tuttop.com,tv-only.org,tvoilokony.ru,uanic.name,uaspectr.com,vizazh-2.ru,volga.news,vsetop.org,vsetut.su,yamdex.net,zhaparova.ru##a[href*="/ad.admitad.com/"]
+24warez.ru,2x2forum.ru,5terka.com,alive-ua.com,animedub.ru,aniplay.tv,ap22.ru,appsgames.ru,bakemono.ru,big-anime.ru,big-games.info,bik-info.ru,cheatground.ru,chelnyagro.ru,chemezova.ru,cknow.ru,dni24.com,ecofoodferma.ru,elektrosat.ru,etika-education.ru,filmitorrent.site,gamelendi.ru,gazetaby.com,gazetaby.info,gazetaby.media,geekmir.ru,gitjournal.tech,gooool.org,hdclub.ua,hype.tech,igra-wow.ru,igui.mobi,inform-ua.info,instrument16.ru,jut-su.net,kinogou.co,kinomaxfilm.ru,klub-masterov.ru,kp.by,kp.kg,kp.kz,kp.md,kp.ru,kritika24.ru,lelang.ru,libking.ru,lordfilm.net,lostfilm-2020.ru,mixbits.ru,mmorpg.su,moy-instrument.ru,mrtranslate.ru,multfilms.online,newsgsm.com,ognennoetv.ru,ok-tv.org,only-tv.org,osortah.ru,outsidethebox.ms,parazit24.me,peugeot-citroen.net,pluggedin.ru,pravdatut.ua,privatbankrf.ru,ravis-avto.ru,remont-avtovaz.ru,repack-fitgirl.com,revelationonlinedb.ru,root-nation.com,rpgdon.com,rusplt.ru,rutracker.ru,samelectric.ru,seasonvar.re,selomoe.ru,seloved.ru,shkolniku.com,siddgames.ru,simhost.org,small-games.info,smotret-fizruk-online.su,smotri.com,sonix.tk,stalkermod.ru,steampass.ru,stiralkainfo.ru,technical.city,tivix.co,tmbw.ru,topasnew.ru,topmmo-games.ru,torrent-games-2016.ru,torrent-games.rip,torrent-games.su,torrentigri.xyz,totori.ru,trackitonline.ru,tuttop.com,tv-only.org,tvoilokony.ru,uanic.name,uaspectr.com,vizazh-2.ru,volga.news,vsetop.org,vsetut.su,yamdex.net,zhaparova.ru##a[href*="/ad.admitad.com/"]
 1tulatv.ru,aif.ru,allbest.ru,alogvinov.com,censor.net,compulenta.ru,computerra.ru,cyberforum.ru,disgustingmen.com,filmpro.ru,fishki.net,forums.goha.ru,gamebomb.ru,gamemag.ru,gamer-info.com,gismeteo.ru,gotps3.ru,kudago.com,maximonline.ru,mmorpg.su,mobiltelefon.ru,move.ru,noob-club.ru,omskpress.ru,osp.ru,penzavzglyad.ru,pikabu.ru,ps3hits.ru,readovka.ru,shazoo.ru,sobaka.ru,soccer.ru,sportbox.ru,strana.ua,stratege.ru,tapochek.net,thg.ru,ua-football.com##a[href*="/ad.adriver."]
 forum.woodtools.ru##a[href*="/ad/www/delivery/ck.php"]
 alldz.net##a[href*="/addownload.html"]
@@ -17256,7 +17261,7 @@ avtonavideo.ru,chinimavto.ru,minecraftnavideo.ru,multivarki-redmond.ru,odezhda2.
 samlab.ws##center > .box-shadow + table:last-child
 lostfilm.hdkino.biz##center > .right-block-title
 maanimo.com##center > a[href*="goo.gl"] > img
-anypictures.ru,audioboo.ru,pixcloud.ru,torentor.co,torrent-games.pro,torrentik.co##center > a[href] > img[src]
+anypictures.ru,audioboo.ru,pixcloud.ru,torentor.co,torrentik.co##center > a[href] > img[src]
 tes-game.ru##center > a[href][rel="nofollow"] > img
 fullpcgame.ru,gidonline.fun,hentaiz.org,megosales.com,yaebus.net##center > a[href][target="_blank"] > img
 ostfilm.tv##center > a[href][target="_blank"] > img[src*="fastpic.ru"]
@@ -17637,7 +17642,6 @@ tvnet.lv##div[class^="right_custom_ad_"]
 ficbook.net##div[class^="rkl-"]
 move.ru##div[class^="rnb-"]
 animedub.ru##div[class^="rolic"]
-tgstat.com,tgstat.ru##div[class^="row "][class*="ao"]
 kirovnet.ru##div[class^="rsya_block"]
 sd.ua##div[class^="sed"] a[href^="/out"]
 kinovidos.com##div[class^="sidebar-"] > div[type="text/css"][rel="nofollow"]
@@ -19079,7 +19083,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|kinohom
 /manifest.json$domain=fairytail-online.ru|happy-biock.info|happy-block.info|howto-news.info
 /media/index$domain=gdz-putina.fun|gdz.ninja|gdz.ru|gdzguru.com|gdzotputina.club|gdzputina.net|gdzputina.ru|megaresheba.com|megaresheba.ru|resheba.me|reshebnik.com|spishi.fun|stavcur.ru|zoobrilka.net
 /misc/gacheck_loc$script,domain=champion.com.ua|eurointegration.com.ua|pravda.com.ua
-/modul*php?img$domain=game-torrent.net|rugames.net|topigr.com|torrent-besplatno.net|torrent-games.co|torrent9.org|utorrentgames.net|yangteacher.ru
+/modul*php?img$domain=game-torrent.net|rugames.net|topigr.com|torrent-besplatno.net|torrent9.org|utorrentgames.net|yangteacher.ru
 /multyadv.js$domain=ixbt.com
 /nadavi-api/*$domain=gamegpu.com|gsminfo.com.ua|ironfriends.ru|itechua.com|mobile-review.com|pingvin.pro|technoportal.com.ua|tehnobzor.ru
 /nb.by\/img\/ban\d\//$image,domain=nb.by
@@ -24500,7 +24504,7 @@ reshebnik.com#@##ad-lead
 pvpru.com#@##ad_global_above_footer
 manshet.org#@##adcontent
 track24.ru#@##ads-1
-24tude.com,720video.me,bessporno.me,beszporno.tv,ebalovo.porn,ebalovo.pro,ebalovo.sex,lenkino.net,lenkino.org,lenkino.porn,molll.mobi,pbembed.me,pornobit.mobi,pornobomba.live,pornoham.me,pornomoll.red,tolkorus.info#@##ads_iframe
+24tude.com,720video.me,bessporno.me,beszporno.tv,ebalovo.porn,ebalovo.pro,ebalovo.sex,lenkino.net,lenkino.org,lenkino.porn,molll.mobi,pbembed.me,pornham.me,pornobit.mobi,pornobomba.live,pornoham.me,pornomoll.red,ru-xvideos.me,tolkorus.info#@##ads_iframe
 era-igr.ru#@##adsense2
 101.ru,motogp-news.ru#@##advert-1
 liga.net#@##bottomAd
@@ -24523,7 +24527,7 @@ green-way.com.ua#@#.adWrapper
 mail.ru,quantrum.me,revelationonlinedb.ru,seetv.tv,track24.ru,vg672plpaer.ru#@#.ad_text
 savevideo.me#@#.ads
 track24.ru#@#.ads-1
-24tude.com,720video.me,bessporno.me,beszporno.tv,ebalovo.porn,ebalovo.pro,ebalovo.sex,lenkino.net,lenkino.org,lenkino.porn,molll.mobi,pbembed.me,pornobit.mobi,pornobomba.live,pornoham.me,pornomoll.red,tolkorus.info#@#.ads-iframe
+24tude.com,720video.me,bessporno.me,beszporno.tv,ebalovo.porn,ebalovo.pro,ebalovo.sex,lenkino.net,lenkino.org,lenkino.porn,molll.mobi,pbembed.me,pornham.me,pornobit.mobi,pornobomba.live,pornoham.me,pornomoll.red,ru-xvideos.me,tolkorus.info#@#.ads-iframe
 videoredaktor.ru#@#.adsBlock
 anitokyo.tv,kosmos-x.net.ru#@#.adsBox
 mks.space#@#.ads_banner
@@ -24566,7 +24570,7 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,kinogo2.b
 @@/js/advert.js$~third-party
 @@/pagead2.$domain=audiotag.info|axd.semestr.ru|d-mod.ru|elsyst.gnomio.com|freefotohelp.ru|htmlweb.ru|leninsw.info|math.semestr.ru|minimalsy.xyz|multoigri.ru|mysmsbox.ru|onlinemschool.com|pc-radio.ru|ph4.ru|profatom.ru|pvpru.com|sinref.ru|sitecoder.blogspot.ru|slushat-tekst-pesni.ru|sovremennoepravo.ru|spec-komp.com|survarium.pro|temp-mail.org|testkrok.org.ua|tests24.ru|trialkeys.ru|tvfeed.in|vimperor.ru|www.inoreader.com
 @@/pagead2.ads.js|$script,domain=remont-aud.net
-@@/player/player_ads.html$subdocument,domain=24tude.com|720video.me|bessporno.me|beszporno.tv|ebalovo.porn|ebalovo.pro|ebalovo.sex|lenkino.net|lenkino.org|lenkino.porn|molll.mobi|pbembed.me|pornobit.mobi|pornobomba.live|pornoham.me|pornomoll.red|tolkorus.info
+@@/player/player_ads.html$subdocument,domain=24tude.com|720video.me|bessporno.me|beszporno.tv|ebalovo.porn|ebalovo.pro|ebalovo.sex|lenkino.net|lenkino.org|lenkino.porn|molll.mobi|pbembed.me|pornham.me|pornobit.mobi|pornobomba.live|pornoham.me|pornomoll.red|ru-xvideos.me|tolkorus.info
 @@/popunder_$script,~third-party,domain=pic4you.ru|pic5you.ru
 @@|http://octomarket.com/j2/$script,domain=tapochek.net
 @@||1plus1.video/static/pubads.ad?_$xmlhttprequest,domain=1plus1.video
