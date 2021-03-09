@@ -1,8 +1,8 @@
-! Checksum: zWftCWFJzaJecqNsaaG40w
+! Checksum: 0xIsa5z4Xm0FzFlEW7p8xw
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.50.18
-! TimeUpdated: 2021-03-07T03:30:48+03:00
+! Version: 2.0.50.20
+! TimeUpdated: 2021-03-09T00:03:23+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -6802,7 +6802,7 @@ melodiimp3.ru#?#.block_sidebar:has(> div.bs_name:contains(Реклама))
 imag.one#?#.sidebar-block:has(> div[id^="yandex_rtb_"])
 imag.one#?#.sidebar-block:has(> script[src^="//s.clickiocdn.com/"])
 sb.by#?#.patron-list img[src^="https://banners.adfox.ru/"]:upward(2)
-rsload.net#?##dle-content > div.short:contains(/Godeal24|распродажа|Купите|экономь|Kупите/)
+rsload.net#?##dle-content > div.short:contains(/Godeal24|распродажа|Купите|экономь|Kупите|Ко Дню всех/)
 allbasketball.org#?#.col-lg-4 > aside.h-100 > div.block-sidebar-wrapper:has(div[data-adblock])
 datki.net#?#.sidebar > section.widget:has(> div.textwidget > ins.adsbygoogle)
 igrypk.net#?#.vladik > span.nimmmmmm:contains(От партнеров)
@@ -10877,6 +10877,7 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+starhit.ru##.spec-projects_wrap
 112ua.tv##.partner-news
 politeka.net##.ai-placement
 overclockers.ru##img[src$="/gta5rp.png"]
