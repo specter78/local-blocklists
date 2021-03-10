@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 07 Mar 2021
+# Updated: 09 Mar 2021
 # LatestVersion 20.12
-# Domain Count: 14834
+# Domain Count: 14815
 #===============================================================
 
 0gs5mb24su.ru #PushProfit - Advertising
@@ -527,7 +527,6 @@ apptracker.gamedock.io #Gamedock.io - Tracker
 appuniverseapplication.com #Unknown - Tracker
 apxlv.com #Unknown - Tracker
 aqcxa.com #Unknown - Tracker
-arc.msn.com #Microsoft - Tracker
 arcpublishing.com #Arcpublishing - Advertising
 astutemetrics.com #Astute - Tracker
 atdmt.com #Facebook - Advertising
@@ -725,7 +724,6 @@ cedexis.com #CedexisRadar - Tracker
 celtra.com #Celtra - Advertising
 central-core-7.com #Lead Forensics - Tracker
 centralcore7.com #Lead Forensics - Tracker
-ceros.com #Ceros - Tracker
 certona.net #Unknown - Tracker
 cetrk.com #Unknown - Tracker
 chaintraffic.com #Popunder - Advertising
@@ -964,6 +962,7 @@ digitaldoughnut.email #Digital Doughnut - Advertising
 digitalproserver.com #Digitalproserver - Advertising
 digitalreflectionpanel.com #Digital Reflection - Tracker
 digitalreflectionpanel.net #Digital Reflection - Tracker
+digitaltarget.ru #Digital Target - Advertising
 digitalwindow.com #Digital Window - Tracker
 digitru.st #DigiTrust - Tracker
 direct-aws-a1.com #Lead Forensics - Tracker
@@ -1094,6 +1093,7 @@ emltrk.com #Litmus - Tracker
 emxdgt.com #EMX - Tracker
 en25.com #Oracle - Tracker
 enecto.com #Enecto - Tracker
+engage.wixapps.net #Wix - Tracker
 engagesciences.com # - Tracker
 engageya.com #Engageya - Advertising
 ensighten.com #Ensighten - Tracker
@@ -12907,7 +12907,6 @@ preroller.com #BrightRoll - Advertising
 pricespider.com #Price Spider - Tracker
 prijspakkertje.nl #Unknown - Advertising
 prijspakkertjes.nl #Unknown - Advertising
-priority-static-api.nkstatic.com #NinjaKiwi - Tracker
 privacy.aol.com #AOL - Advertising
 privatestats.whatsapp.net #Whatsapp - Tracker
 prmutv.co #Permutive - Tracker
@@ -13181,7 +13180,6 @@ sg-living.co.jp #Unknown - Tracker
 shareaholic.com #Shareaholic - Tracker
 sharethis.com #Sharethis - Advertising
 sharethrough.com #Sharethrough - Advertising
-shifen.com #Baidushifen.com - Tracker
 shinystat.com #Unknown - Tracker
 shop2market.com #Unknown - Tracker
 shoppingshadow.com #ebay - Tracker
@@ -13251,7 +13249,6 @@ simpleanalytics.io #Simple Analytics - Tracker
 simpleanalyticscdn.com #Simple Analytics - Tracker
 simpleheatmaps.com #SimpleHeatmaps - Tracker
 simplereach.com #Unknown - Tracker
-sinaimg.cn #Unknown - Advertising
 site24x7rum.com #Unknown - Advertising
 siteheart.com #SiteHeart - Tracker
 siteimprove.com #Siteimprove - Tracker
@@ -13286,23 +13283,17 @@ smetrics.10play.com.au #Adobe - Tracker
 smetrics.1800contacts.com #Adobe - Tracker
 smetrics.24hourfitness.com #Adobe - Tracker
 smetrics.28degreescard.com.au #Adobe - Tracker
-smetrics.360dx.com #Adobe - Tracker
 smetrics.3m.com #Adobe - Tracker
 smetrics.3m.com.cn #Adobe - Tracker
-smetrics.3mdigital.cn #Adobe - Tracker
-smetrics.3monoamines.com #Adobe - Tracker
 smetrics.48.ie #Adobe - Tracker
 smetrics.7eleven.com.au #Adobe - Tracker
 smetrics.aa.com #Adobe - Tracker
-smetrics.aaamidatlantic.com #Adobe - Tracker
 smetrics.aainsurance.co.nz #Adobe - Tracker
 smetrics.aami.com.au #Adobe - Tracker
 smetrics.aarp.org #Adobe - Tracker
-smetrics.aavacations.com #Adobe - Tracker
 smetrics.abbott #Adobe - Tracker
 smetrics.abbvie.com #Adobe - Tracker
 smetrics.abercrombie.com #Adobe - Tracker
-smetrics.accredohealth.com #Adobe - Tracker
 smetrics.active.com #Adobe - Tracker
 smetrics.activecommunities.com #Adobe - Tracker
 smetrics.aem.playstation.com #Adobe - Tracker
@@ -13314,31 +13305,15 @@ smetrics.aircanada.com #Adobe - Tracker
 smetrics.aireserv.ca #Adobe - Tracker
 smetrics.aireserv.com #Adobe - Tracker
 smetrics.ajinomoto.co.jp #Adobe - Tracker
-smetrics.alainmikli.com #Adobe - Tracker
 smetrics.allegion.com #Adobe - Tracker
 smetrics.allianzlife.com #Adobe - Tracker
 smetrics.allstate.com #Adobe - Tracker
-smetrics.alltomfrontline.se #Adobe - Tracker
 smetrics.ally.com #Adobe - Tracker
-smetrics.altomfrontline.dk #Adobe - Tracker
-smetrics.american-airlines.nl #Adobe - Tracker
-smetrics.americanairlines.be #Adobe - Tracker
-smetrics.americanairlines.cl #Adobe - Tracker
-smetrics.americanairlines.com #Adobe - Tracker
-smetrics.americanairlines.com.au #Adobe - Tracker
-smetrics.americanairlines.de #Adobe - Tracker
-smetrics.americanairlines.hu #Adobe - Tracker
-smetrics.americanairlines.ie #Adobe - Tracker
-smetrics.americanairlines.in #Adobe - Tracker
-smetrics.americanairlines.it #Adobe - Tracker
-smetrics.americanairlines.jp #Adobe - Tracker
 smetrics.americancentury.com #Adobe - Tracker
 smetrics.amfam.com #Adobe - Tracker
 smetrics.amica.com #Adobe - Tracker
-smetrics.amitiza.com #Adobe - Tracker
 smetrics.ancestry.com #Adobe - Tracker
 smetrics.angara.com #Adobe - Tracker
-smetrics.animalhealthacademy.com.au #Adobe - Tracker
 smetrics.anixter.com #Adobe - Tracker
 smetrics.anntaylor.com #Adobe - Tracker
 smetrics.ansible.com #Adobe - Tracker
@@ -13357,7 +13332,6 @@ smetrics.atomic.com #Adobe - Tracker
 smetrics.att.com #Adobe - Tracker
 smetrics.au.com #Adobe - Tracker
 smetrics.audi.co.uk #Adobe - Tracker
-smetrics.audifinancialservices.nl #Adobe - Tracker
 smetrics.autodesk.com #Adobe - Tracker
 smetrics.automobilemag.com #Adobe - Tracker
 smetrics.autonews.com #Adobe - Tracker
@@ -13375,13 +13349,11 @@ smetrics.bankaustria.at #Adobe - Tracker
 smetrics.bankia.es #Adobe - Tracker
 smetrics.bankinter.com #Adobe - Tracker
 smetrics.bankofmelbourne.com.au #Adobe - Tracker
-smetrics.barandblock.co.uk #Adobe - Tracker
 smetrics.barcainnovationhub.com #Adobe - Tracker
 smetrics.barclays.co.uk #Barclays.Co.Uk - Tracker
 smetrics.bbva.com.ar #Adobe - Tracker
 smetrics.bbva.com.co #Adobe - Tracker
 smetrics.bbva.es #Adobe - Tracker
-smetrics.bbva.it #Adobe - Tracker
 smetrics.bbvanet.com.co #Adobe - Tracker
 smetrics.bbvausa.com #Adobe - Tracker
 smetrics.bcbsm.com #Adobe - Tracker
@@ -14316,6 +14288,8 @@ startup.mobile.yandex.net #Yandex - Tracker
 stat.alibaba.com #alibaba.com - Tracker
 stat.dealtime.com #Dealtime.Com - Tracker
 stat.domainrecover.com #Domainrecover.com - Tracker
+stat.media #Stat - Tracker
+stat.mixi.media #mixi.media - Tracker
 stat.swedbank.se #swedbank.se - Tracker
 statcounter.com #StatCounter - Tracker
 static.ads-twitter.com #Twitter - Tracker
@@ -14349,7 +14323,7 @@ stats.royalbank.com #royalbank.com - Tracker
 stats.rs-online.com #RS - Tracker
 stats.ryzeo.com #Ryzeo - Tracker
 stats.searchanise.com #Searchanise.Com - Tracker
-stats.stackexchange.com #stackexchange.com - Tracker
+stats.shell-tips.com #shell-tips.com - Tracker
 stats.unity3d.com #Unity3d.Com - Tracker
 stats.vashurok.ru #Vashurok.Ru - Tracker
 stats.videodelivery.net #Cloudflare - Tracker
@@ -14367,6 +14341,8 @@ statuscake.com #Traffic Cake - Tracker
 steelhousemedia.com #Unknown - Tracker
 steepto.com #Unknown - Tracker
 stickyadstv.com #StickyAdsTV - Advertising
+storemetrics.pixelbits.io #pixelbits.io - Tracker
+stores-counters.wix.com #Wix - Tracker
 stormiq.com #Unknown - Tracker
 storygize.net #Storygize - Tracker
 storymedia.se #Unknown - Tracker
@@ -14512,6 +14488,7 @@ track.libii.cn #Libii.cn - Tracker
 track.news.bg #News.bg - Tracker
 track.oasis.magictavern.com #Magictavern.com - Tracker
 track.pmosvc.io #Pmosvc.Io - Tracker
+track.searchiq.co #SearchIQ - Tracker
 track.sublytics-5bb3bd7244788.com #Sublytics - Tracker
 track.sublytics-5be5edecc10bf.com #Sublytics - Tracker
 track.sublytics-5c671946c725e.com #Sublytics - Tracker
@@ -14519,7 +14496,6 @@ track.sublytics-5caf966ded053.com #Sublytics - Tracker
 track.sublytics-5cffe909e69e6.com #Sublytics - Tracker
 track.sublytics-5d24d6515d46a.com #Sublytics - Tracker
 track.sublytics-5d6fc61ecbaab.com #Sublytics - Tracker
-track.sublytics-5d6fcf0a813fd.com #Sublytics - Tracker
 track.sublytics-5dae180ba29aa.com #Sublytics - Tracker
 track.sublytics-5db9e5dd1b2c2.com #Sublytics - Tracker
 track.sublytics-5db9fa0b5700f.com #Sublytics - Tracker
@@ -14544,6 +14520,7 @@ tracker.tutotoons.com #tutotoons.com - Tracker
 trackerb.tutotoons.com #tutotoons.com - Tracker
 trackerhqu.com #trackerhqu.com - Tracker
 trackerrysrv.com #Trackerry - Tracker
+tracking.atreemo.com #atreemo.com - Tracker
 tracking.aviasales.ru #Aviasales.Ru - Tracker
 tracking.cmjump.com.au #Unknown - Tracker
 tracking.epicgames.com #epicgames.com - Tracker
@@ -14664,6 +14641,7 @@ userreport.com #User Report - Tracker
 userzoom.com #Unknown - Tracker
 utarget.ru #Unknown - Tracker
 v6lvs.com #Unknown Chinese - Tracker
+va-endpoint.com #Visitor Analytics - Tracker
 vacaneedasap.com #Unknown - Tracker
 valassisdigital.io #Valassis Digital - Tracker
 vcmedia.vn #Unknown - Tracker
@@ -14700,6 +14678,7 @@ vidver.to #Vidverto - Advertising
 vidverto.io #Vidverto - Advertising
 vidyard.com #Unknown - Tracker
 viglink.com #VigLink - Tracker
+vihub.ru #Between Exchange - Advertising
 vilynx.com #Vilynx - Tracker
 vindicosuite.com #Unknown - Tracker
 viqeo.tv #Viqeo - Tracker
@@ -14722,6 +14701,7 @@ vortex.data.microsoft.com #Microsoft - Tracker
 vppgamingnetwork.com #Unknown - Tracker
 vserv.mobi #Vserv - Tracker
 vungle.com #Vungle - Tracker
+vuukle.com #Vuukle - Tracker
 vvbox.cz #Unknown - Tracker
 vwdservices.com #VWD Group - Tracker
 vyd5aaalwd.ru #PushProfit - Advertising
@@ -14772,6 +14752,7 @@ wisepops.com #WisePops - Tracker
 wistia.com #Unknown - Tracker
 wistia.net #Unknown - Tracker
 wmgroup.us #WMG - Advertising
+wogaa.sg #Singapore Government - Tracker
 woopic.com #Orange - Tracker
 woopra.com #Unknown - Tracker
 worldtable.co #Worldtable - Tracker
