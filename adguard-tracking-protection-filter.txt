@@ -1,8 +1,8 @@
-! Checksum: VY1dVQD7aKxgppjuNAMUWw
+! Checksum: s+KWi8XmTIKx88SExMcNyg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.21.57
-! TimeUpdated: 2021-03-10T00:31:23+03:00
+! Version: 2.0.21.66
+! TimeUpdated: 2021-03-11T01:31:27+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -219,6 +219,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||aff.trackinglibrary.prodperfect.com^
+||stat.ustore.bz^
+||logbor.com^$third-party
 ||click-plus.net^
 ||smart-bdash.com^$third-party
 ||analytics.contents.by-fw.jp^
@@ -3366,6 +3369,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||bawdybalance.com^$third-party
 ||unwieldyhealth.com^$third-party
 ||boilingcredit.com^$third-party
 ||wearbasin.com^$third-party
@@ -4552,6 +4556,10 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||uep.gaijin.net^
+||event.impression-neo.naver.com^
+||er.search.naver.com^
+||s.search.naver.com^
 ||log.tf.co.kr^
 ||log.zdnet.co.kr^
 ||weblog.zdnet.co.kr^
@@ -10341,8 +10349,7 @@ _analytics.js?
 /insights-emitter/*
 /log-nt/*
 -unbxdAnalytics.
-/ux_analytics/*
-/ux_analytics_
+||dropbox.com/log/
 /owa.tracker-combined-min.js
 /Web_JS_Stats.
 /mip-stats-cnzz/*
@@ -10619,6 +10626,8 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||rusvideos.tv/rusvideos-site/analytics.js
+||pla.naver.com/log/
 ||gold.contentsfeed.com/lb/sd/nw$domain=sportsseoul.com
 ||gtr1.yes24.com/wlo/Logging
 ||analytics.fsho.st/tracker.js
@@ -13136,6 +13145,9 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! code.tutsplus.com - long loading
+||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=code.tutsplus.com
+@@||google-analytics.com/analytics.js$domain=code.tutsplus.com
 ! Unblocking everything on check-in confirmation pages - blocking tracking breaks it
 @@||pobeda.aero/*/check-in/$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76810
