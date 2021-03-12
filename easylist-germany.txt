@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202103101456
+! Version: 202103112116
 ! Title: EasyList Germany
-! Last modified: 10 Mar 2021 14:56 UTC
+! Last modified: 11 Mar 2021 21:16 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1458,6 +1458,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||bankkaufmann.com/bilder/fsban1.jpg
 ||banner.click-tt.de^
 ||basicthinking.de/blog/wp-content/*/placetel.jpg
+||basicthinking.de/blog/wp-content/uploads/*/basic-thinking.gif
 ||basicthinking.de/blog/wp-content/uploads/*/mittwald-
 ||basicthinking.de/blog/wp-content/uploads/*/mittwald.jpg
 ||basicthinking.de/blog/wp-content/uploads/*/qonto-
@@ -1790,6 +1791,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||kriminalpolizei.de/fileadmin/user_upload/*_728x100.
 ||krzbb.de/revive/
 ||laborjournal.de/infos/m99/img/b_
+||laengengrad-breitengrad.de/public/img/externbanner/
 ||land-der-traeume.de/bilder/banner/
 ||latina-press.com/media/*/online-casino-bonus-min.gif
 ||latina-press.com/media/spanisch-lernen-160.png
@@ -2777,6 +2779,7 @@ vaterland.li##.adcontainer
 nachtkritik.de##.adcontent
 suedtiroltv.it##.add
 abg-net.de##.add_top
+laengengrad-breitengrad.de##.addtop
 gartenjournal.net##.adinj
 engadinerpost.ch##.aditem
 my105.ch##.adition
@@ -2875,6 +2878,8 @@ fnweb.de,laborjournal.de,mannheimer-morgen.de,tarnkappe.info,winfuture.de##.bill
 infranken.de##.billboard-wrapper
 djmag.de##.billboardbanner
 ak-kurier.de##.block-weather-link
+computerbase.de##.block1--banner
+computerbase.de##.block1--skyscraper
 blogprojekt.de##.blogp-startseite
 blogprojekt.de##.blogp-werbung-oben-in-artikeln
 borussia.de##.bmg-ad
@@ -3377,6 +3382,7 @@ teneriffa-aktuell.com##img[width="450"][height="300"]
 basicthinking.de##img[width="500"][height="500"]
 nh24.de##img[width="533"]
 silentworld.eu##img[width="600"]
+basicthinking.de##img[width="600"][height="500"]
 hallescherfc.de##img[width="605"][height="690"]
 4fuckr.com##img[width="728"]
 online-gebuehrenrechner.de##img[width="728"][height="90"]
