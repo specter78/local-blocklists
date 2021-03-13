@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4cxWT1Kj/F3wmv8TVQlSug
-! Version: 202103120521
+! Checksum: JIXRmcFZZ9gosb2UL/iyJA
+! Version: 202103130521
 ! Title: EasyList Italy
-! Last modified: 12 Mar 2021 05:21 UTC
+! Last modified: 13 Mar 2021 05:21 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -212,6 +212,7 @@ _sito/adv/
 ##.actio-adlabel
 ##.ad-fisso
 ##.ad-orizzontale
+##.ad-verticale
 ##.adSenseLaterale
 ##.ad_pedice
 ##.adagiowritebanner_dmtag
@@ -1368,6 +1369,8 @@ brocardi.it#@#.with-background-ads
 ||cb01.solutions/imgc/b_
 ||cb01.solutions/imgc/side/s_
 ||cb01.support/4k/
+||cb01.uno/imgc/b_
+||cb01.uno/imgc/side/s_
 ||cb01.vin/imgc/b_
 ||cb01.vin/imgc/side/s_
 ||cb01.wales/imgc/b_
@@ -1402,6 +1405,7 @@ brocardi.it#@#.with-background-ads
 ||cineblog01.bid/templates/CB01/img/immagine-4k.png
 ||cineblog01.bid/templates/CB01/img/vedimovie.png
 ||cineblog01.care/templates/CB01/img/btnReg.png
+||cineblog01.games/templates/CB01/img/btnReg.png
 ||cineblog01.green/HD/
 ||cineblog01.green/player/img/but
 ||cineblog01.green/templates/CB01/img/btnReg.png
@@ -1735,6 +1739,8 @@ brocardi.it#@#.with-background-ads
 ||galluratvlive.com^*/stel-srl-
 ||game-experience.it^*/BANNER-
 ||gamelegends.it^*/instant-gaming-
+||gamelegends.it^*_Masthead_780x260_
+||gamelegends.it^*_pop-up_550x480_
 ||gamesoul.it^*/skin-
 ||gamesvillage.it/ajax.php?do=gv_amazon_page&
 ||gamingtoday.it^*/Banner-
@@ -4001,6 +4007,7 @@ brocardi.it#@#.with-background-ads
 ! webrtc ads
 $webrtc,domain=hentaisaturn.com|leggenditalia.com|leggenditaloi.com
 ! *** easylistitaly:easylistitaly/easylistitaly_specific_block_popup.txt ***
+/vss/*$popup,domain=filmpertutti.li
 ||altadefinizione.coach/4k/$popup
 ||altadefinizione01.store/UHD/$popup
 ||altadefinizone.click/HD/$popup
@@ -4134,6 +4141,7 @@ hwupgrade.it###box-next-container
 diretta.it###box-over-content-a
 guidaviaggi.it###boxBannerSKIN
 ilpentasport.it###boxSponsor
+subito.it###box_agos
 lasicilia.it###box_banner
 libero.it###box_expedia_case
 affaritaliani.it###box_immo
@@ -4329,7 +4337,7 @@ skylinewebcams.com###rpc
 alwaysonboard.it###sab_content
 ilpost.it###scrolling-container
 nuovosud.it###sfondo
-calabria7.it###sgpb-popup-dialog-main-div
+calabria7.it,gamelegends.it###sgpb-popup-dialog-main-div
 eurogamer.it###sidebar_amazon
 vienormali.it###site-header-banner
 vienormali.it###site-header-leaderboard
@@ -4497,7 +4505,7 @@ unonotizie.it##.add
 informagiovani-italia.com##.add_left
 spagna.cc##.add_top
 offertevolantini.it##.add_w2_h1
-24emilia.com,antennafebea.it,autoscout24.ch,brocardi.it,cb01.online,filmpertutti.lol,filmpertutti.onl,filmpertutti.voto,gamemag.it,hdblog.it,hdmotori.it,hdtroll.it,ilgeniodellostreaming.dance,ilgeniodellostreaming.rest,ilikepuglia.it,live-sport-tv.it,mattinonline.ch,sitigiochi.it,teleborsa.it,viamichelin.ch,viamichelin.it##.ads
+24emilia.com,antennafebea.it,autoscout24.ch,brocardi.it,cb01.online,filmpertutti.li,filmpertutti.lol,filmpertutti.onl,filmpertutti.voto,gamemag.it,hdblog.it,hdmotori.it,hdtroll.it,ilgeniodellostreaming.dance,ilgeniodellostreaming.rest,ilikepuglia.it,live-sport-tv.it,mattinonline.ch,sitigiochi.it,teleborsa.it,viamichelin.ch,viamichelin.it##.ads
 ildolomiti.it##.adsB
 beatgogo.it,chistachiamando.it,pcprofessionale.it,trova-aperto.it##.adsense
 adessoin.tv,allaguida.it,alpha59.it,altreconomia.it,amica.it,ansa.it,buttalapasta.it,calciomercato.com,curioctopus.it,dissapore.com,forbes.it,gelocal.it,gianlucadimarzio.com,girovagandointrentino.it,gta-expert.it,guardachevideo.it,ilfattoquotidiano.it,ilpost.it,ilsole24ore.com,latina24ore.it,leonardo.it,libero.it,mediaset.it,movieplayer.it,multiplayer.it,nanopress.it,notiziemilan.it,oasport.it,pourfemme.it,prealpina.it,radioindiretta.fm,repubblica.it,salepepe.it,skuola.net,staffettaonline.com,stylosophy.it,supereva.it,virgilio.it,vocenuova.tv##.adv
@@ -4589,7 +4597,7 @@ notetralerighe.it##.banner-amazon-music
 parmareport.it##.banner-big
 universodelgioco.it##.banner-btf-side-rectangle
 mrw.it##.banner-center
-1001giochi.it,cuneocronaca.it,divinafm.it,giochixl.it,lacrocequotidiano.it,mtv.it,sposa.it##.banner-container
+1001giochi.it,cuneocronaca.it,divinafm.it,giochixl.it,lacrocequotidiano.it,livesicilia.it,mtv.it,sposa.it##.banner-container
 genova24.it##.banner-elezioni
 italiani.it##.banner-empty-italiani
 bluvolleyverona.it##.banner-fading
@@ -4717,6 +4725,7 @@ cosafarei.it##.boo-link
 diritto.it##.book-container
 minube.it##.booking_hotels_block
 livescore.it##.bookmaker
+livesicilia.it##.bottom-border-widget-promotion
 lasiritide.it##.box-1
 lasiritide.it##.box-2
 sslazio.it##.box-79
@@ -4908,6 +4917,8 @@ agendadigitale.eu##.gallery-container-home
 virtusfrancavilla.it##.gallery-icon
 giornalerossoblu.it,telepegaso.it##.gallery-item
 1001giochi.it##.game-leaderboard
+gamelegends.it##.gamel-after
+gamelegends.it##.gamel-masthead
 giardiniblog.it##.gbam
 zerocinquantuno.it##.gdlr-logo
 1001giochi.it##.general-leaderboard
@@ -5116,6 +5127,7 @@ comingsoon.it,pneusnews.it##.promo
 voglioporno.com##.promo-462x66
 eurogamer.it##.promo-banner
 ideegreen.it,motori.it##.promobox
+proiezionidiborsa.it##.promoboxblu
 proiezionidiborsa.it##.promoboxplus
 tgfuneral24.it##.psct-banners
 playstationzone.it##.psz_template_prices_comp
@@ -5180,7 +5192,7 @@ atalanta.it##.section_sponsor
 ad-italia.it##.sectionbox
 excite.it##.serp-item
 calabria7.it##.sg-popup-builder-content
-calabria7.it##.sgpb-popup-overlay
+calabria7.it,gamelegends.it##.sgpb-popup-overlay
 aphorism.it,bloopers.it##.shop
 ilgeniodellostreaming.tel##.show-download
 tiscali.it##.shp-prd-ed-day
@@ -5424,7 +5436,7 @@ altraeta.it,amalfinotizie.it,aziendabanca.it,birramoriamoci.it,canale3.tv,centot
 animeemanga.it,comprovendodischi.it,comprovendolibri.it,corrieredellacalabria.it,passionemaglie.it,stiletv.it##a[href*="//goo.gl/"]
 filmstreaming.page##a[href*="//streaming-ita.php"]
 cb01.live##a[href*="/4K/"]
-altadefinizione.coach,altadefinizione.legal,altadefinizione01.army,cb01.computer,cb01.directory,cb01.events,cb01.online,cb01.run,cb01.solutions,cb01.support,cb01.vin,cb01.wales,cineblog01.love,filmsenzalimiti.love,guardarefilm.vin,guardaserie.cam,speedvideo.net##a[href*="/4k/"]
+altadefinizione.coach,altadefinizione.legal,altadefinizione01.army,cb01.computer,cb01.directory,cb01.events,cb01.online,cb01.run,cb01.solutions,cb01.support,cb01.uno,cb01.vin,cb01.wales,cineblog01.love,filmsenzalimiti.love,guardarefilm.vin,guardaserie.cam,speedvideo.net##a[href*="/4k/"]
 cb01.dev,cineblog01.love##a[href*="/FULLHD/"]
 piratestreaming.movie##a[href*="/Guarda4K/"]
 altadefinizione01.green,altadefinizione01.store,cineblog01.love,guardaserie.cam##a[href*="/UHD/"]
@@ -5455,7 +5467,7 @@ abruzzoweb.it,ecwgcortina2016.it##a[href*="/go.php?"]
 cartedipagamento.com,connessionivpn.it,migliorisitistreaming-hd.blogspot.com,pronosticideiguerrieri.it,vivasicilia.com##a[href*="/go/"]
 cb01.band,ilgeniodellostreaming.gold##a[href*="/guarda-4k.php"]
 ilgeniodellostreaming.gold##a[href*="/guarda-hd.php"]
-cineblog01.bid##a[href*="/guarda4k.php"]
+cineblog01.bid,cineblog01.games##a[href*="/guarda4k.php"]
 cineblog01.bid##a[href*="/guardafilm/"]
 eurostreaming.ca,eurostreaming.cam,eurostreaming.land,filmsenzalimiti.bz,filmsenzalimiti.ink,guardaserie.eu,ilgeniodellostreaming.movie,ilgeniodellostreaming.xyz,piratestreaming.eu,tantifilm.link##a[href*="/hd/"]
 altomantovanonews.it,autobusweb.com,citynow.it,corriereromagna.it,firstonline.info,fortuneita.com,giornaledelcilento.it,ilcarmagnolese.it,infocilento.it,iocaccio.it,lagenziadiviaggi.it,latinacorriere.it,latinaquotidiano.it,leggilanotizia.it,mantovasport24.it,mantovauno.it,oltrepomantovanonews.it,pc-gaming.it,piuchepuoi.it,siracusaoggi.it,sprintesport.it,triesteallnews.it##a[href*="/linkout/"]
@@ -5483,7 +5495,7 @@ cartaricaricabile.net##a[href*="/vai/"]
 altadefinizione.legal,altadefinizione01.green,altadefinizione01.works,cb01.run,cineblog01.green,cineblog01.love,filmsenzalimiti.love,guardaserie.cam,ilgeniodellostreaming.cam,tantifilm.center##a[href*="/vedo4k.php"]
 altadefinizione.sh##a[href*="/view.php?"]
 altadefinizione01.software##a[href*="/vod2k.php"]
-altadefinizione.gg,altadefinizione.ph,filmpertutti.lol,filmpertutti.onl,ilgeniodellostreaming.dance##a[href*="/vss/"]
+altadefinizione.gg,altadefinizione.ph,filmpertutti.li,filmpertutti.lol,filmpertutti.onl,ilgeniodellostreaming.dance##a[href*="/vss/"]
 birramoriamoci.it##a[href*="?affiliates="]
 anteprima24.it,gnoccatravels.com,juzaphoto.com,lavorincasa.it,mangaforever.net,milanofinanza.it,phica.net,voglioporno.com##a[href*="?utm_"]
 corrierenazionale.it##a[href="http://www.herobet.it/"]
@@ -5507,7 +5519,7 @@ trattamentinaturalibio.it##a[href^="https://c.mtpc.se/"]
 golbym.com##a[href^="https://casinostudio3000.com/"]
 albengacorsara.it,campaniameteo.it,germania.info,tuttoamerica.it##a[href^="https://clk.tradedoubler.com/"]
 mymovies.it,teamworld.it,tvserial.it##a[href^="https://disneyplus.bn5x.net/"]
-libero.it##a[href^="https://httpslink.com/"]
+libero.it,virgilio.it##a[href^="https://httpslink.com/"]
 diventaretrader.com##a[href^="https://iqbroker.com/"]
 lavorincasa.it##a[href^="https://is.gd/"]
 gizchina.it##a[href^="https://it.banggood.com/marketing-"]
@@ -5737,7 +5749,7 @@ canonclubitalia.com##img[width="632"][height="123"]
 beverfood.com##img[width="650"][height="320"]
 minformo.com##img[width="720"][height="125"]
 tennispavese.it##img[width="728"]
-finanzareport.it,larampa.it##img[width="728"][height="90"]
+finanzareport.it,gamelegends.it,larampa.it##img[width="728"][height="90"]
 calabria7.it##img[width="750"][height="250"]
 calabria7.it##img[width="945"][height="150"]
 hotcorn.com##input[class="post-movie-button-chili"]

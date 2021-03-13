@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 10 Mar 2021
+# Updated: 12 Mar 2021
 # LatestVersion 20.12
-# Domain Count: 14817
+# Domain Count: 14821
 #===============================================================
 
 0gs5mb24su.ru #PushProfit - Advertising
@@ -94,6 +94,7 @@ ad.interfax.ru #interfax.ru - Advertising
 ad.weplayer.cc #Unknown - Advertising
 ad2upapp.com #Unknown - Advertising
 ad4game.com #Ad4Game - Advertising
+ad4m.at #AdScale - Tracker
 ad4mat.net #Ad4mat - Advertising
 ad688.com #Unknown - Advertising
 ad6media.fr #Ad6Media - Advertising
@@ -12760,6 +12761,7 @@ onstate.co.uk #Unknown - Tracker
 onthe.io #Unknown - Tracker
 ontoplist.com #Unknown - Tracker
 ooyala.com #Unknown - Tracker
+opecloud.com #1plusX - Tracker
 openair.pw #Unknown Chinese - Tracker
 opencandy.com #OpenCandy - Advertising
 opendsp.com #OpenDSP - Advertising
@@ -12937,6 +12939,7 @@ pstmrk.it #Postmark - Tracker
 pszyzxh.org #Unknown - Advertising
 ptengine.com #PTEngine - Tracker
 ptmind.com #PTEngine - Tracker
+pub.network #Unknown - Advertising
 pubexchange.com #Unknown - Tracker
 pubguru.com #Monetizemore - Tracker
 publitas.com #Publitas - Tracker
@@ -14787,6 +14790,7 @@ yarpp.org #Unknown - Tracker
 ybsitecenter.com #Unknown - Tracker
 ybx.io #Yield Bids - Advertising
 yellgroup.com #Unknown - Tracker
+yellowblue.io #Unknown - Advertising
 yemonisoni.com #Yemonisoni - Advertising
 yesware.com #Yesware - Tracker
 yext-pixel.com #Yext - Tracker
