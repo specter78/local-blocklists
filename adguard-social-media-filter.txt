@@ -1,8 +1,8 @@
-! Checksum: sq754PvQAHV5Kn5YbP2n7g
+! Checksum: xolTpiLv45OmgmeXk/Blew
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.37.29
-! TimeUpdated: 2021-03-12T22:31:30+03:00
+! Version: 2.0.37.30
+! TimeUpdated: 2021-03-14T22:31:28+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1126,6 +1126,7 @@ linustechtips.com##.lmgComment_shareLink
 myflixertv.to###site-notice
 navitime.com##.p-guide-detail-footer__sns
 lacuarta.com##.popup-share-rrss
+star.com.tr##a[href^="https://news.google.com/"][target="_blank"]
 remoo.ru##.fusion-social-networks
 remoo.ru##.text_post_repost
 kant.ru##.kant__article__share

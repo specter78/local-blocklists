@@ -1,8 +1,8 @@
-! Checksum: DdmxK43irlJRWFno3xbjdw
+! Checksum: NYSz94XFteQ0yng4IIzF5Q
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.21.78
-! TimeUpdated: 2021-03-13T12:03:59+03:00
+! Version: 2.0.21.81
+! TimeUpdated: 2021-03-14T22:31:23+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -219,6 +219,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||k-analytix.com^$third-party
+||i.btg360.com.br^$third-party
 ||tracdelight.io^$third-party
 ||goatcounter.com^$third-party
 ||gc.zgo.at^$third-party
@@ -10301,6 +10303,8 @@ charlestownwyllie.oaklawnnonantum.com^
 /rd-js-integration.min.js
 ! Plausible
 /plausible.js
+||plausible.io/js/p.js
+||plausible.io/api/event
 ! Umami
 /umami.js
 !
@@ -10747,6 +10751,7 @@ the-ans.jp##.side-reccomend
 ||zenback.jp^*/tracking.html
 ||cdn.retailrocket.ru/*/tracking.js
 ||ru-mi.com/*/ee_tracking.js
+||tozlu.com/Scripts/ticimax/analytics.js
 ||matchid.adfox.yandex.ru/getcookie$domain=vseinstrumenti.ru
 ||player.vzaar.com/libs/googleAnalytics/vzaarGoogleAnalytics.js
 ||r.yna.co.kr/global/lib/*/js/nlogger.js
