@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202103151943
+! Version: 202103161817
 ! Title: EasyList Germany
-! Last modified: 15 Mar 2021 19:43 UTC
+! Last modified: 16 Mar 2021 18:17 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -846,6 +846,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||belboon.de/tracking/*.img
 ||bergfreunde-partner.de/banner/
 ||bergzeit.de/out/pictures/partner/image/
+||bit.ly^$subdocument,domain=polizei.news
 ||blog-linktausch.de^*/iframe.php?layout=$subdocument,third-party
 ||bm.hbtronix.de^$third-party
 ||bn.gewinn24.de^
@@ -862,8 +863,13 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||china-gadgets.de^$subdocument,third-party
 ||crawler.pearl.de/pearl-crawler/banner?
 ||datingpartner.com/medien/$third-party
+||dealdog.net/dealdog.php
+||dealdoktor.de/m/$third-party
+||dealdoktor.de/misc/$third-party
 ||deinfickdate.com/banner/$third-party
 ||deinsexdate.com/banner/$third-party
+||dentaltrade-zahnersatz.de^*/banner/$third-party
+||deutschland-spielt.de/partners/$third-party
 ||dragonbox.de/img/banner/$third-party
 ||druckiad-che.newsmemory.com^$third-party
 ||erotik-dates.net/bilder/erotidates-banner.gif
@@ -882,6 +888,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||roemerforum.com/banner/
 ||seitensprungarea.com/medien/$third-party
 ||sexkontaktportal.com/banner/$third-party
+||slotkings.de/img/banner/$third-party
 ||smskontakt.ch/images/$third-party
 ||suedtirol.live/delivery.js
 ||tortuga.services^*/affiliate/$domain=~travelbook.de
@@ -895,17 +902,6 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||wazazu.com/pimage/visit-x/$third-party
 ||wien-girls.at/img/ba/$third-party
 ! 
-||customer-support24.com/affiliates/$third-party
-||d1kn3e15znl51s.cloudfront.net/js/tlib.min.js
-||daidalos.twyn.com^$third-party
-||databaseapplications.org/banner_manager/
-||dealdog.net/dealdog.php
-||dealdoktor.de/m/$third-party
-||dealdoktor.de/misc/$third-party
-||deinplan.de/pharus-shop.gif
-||dentaltrade-zahnersatz.de^*/banner/$third-party
-||deutschland-spielt.de/partners/$third-party
-||dhv.de/dbfiles/wbg/$image
 ||die-staemme.de/banner/$third-party
 ||digitec.ch/liveshopping.aspx$third-party
 ||distributionz.net/bstadt_banner1.gif
@@ -1061,7 +1057,6 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||mystylehit.de/images/banner/$third-party
 ||natursubstanzen.com/banner.gif
 ||nazometer.in^$subdocument,third-party
-||neolumic.de^*/banners/$third-party
 ||nestoria.de^*?partner=$script,third-party
 ||netatwork.de^$subdocument,third-party
 ||newsticker.save.tv^$third-party
@@ -1196,9 +1191,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||skyfillers.com^*/banner/$third-party
 ||slapped.de^*/banner/$third-party
 ||slimm.de^$subdocument
-||slotkings.de/img/banner/$third-party
 ||smoketown.de/banner/$third-party
-||sms4fans.de/img/banner$third-party
 ||smsdate.com/lovefinder.php$third-party
 ||sn-multimedia.de/weitereangebote-v2/$third-party
 ||sn-multimedia.de/weitereangebote/$third-party
@@ -1620,6 +1613,7 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||gamemovieportal.ch/_partner/
 ||gameothek.com/wp-content/uploads/buttons/
 ||gandersheimer-kreisblatt.de/files/gk/banner/
+||gazzettadellambri.ch/wp-content/uploads/*_Banner_
 ||gentleman-blog.de/wp-content/uploads/270x191.jpg
 ||gentleman-blog.de/wp-content/uploads/870x150.jpg
 ||gepostet.com/templates/desktop/images/banner/
@@ -1720,7 +1714,9 @@ kochbar.de#@#iframe[name^="google_ads_iframe"]
 ||images-amazon.com/images/*/marquee/
 ||images-amazon.com/images/*/marqueestatic/
 ||imgbox.de/img/blue_filsh_
+||imgur.com/cKTUKlX.gif$domain=mmnews.de
 ||imgur.com/v6BApcN.png$domain=4fuckr.com
+||imgur.com/zCsgpkZ.gif$domain=mmnews.de
 ||inside.bz.it/images/banners/
 ||interhyp.de/angular/lafpartner/$third-party,domain=t-online.de
 ||islam.de/images/other/banner/
@@ -2530,6 +2526,7 @@ abload.de###iphpbannerleft
 juraforum.de###jf-stroer-sky
 juraforum.de###jf-stroer-sky + div
 juraforum.de###jf-stroer-superbanner
+local.ch###js-banner
 ostfriesischer-kurier.de###jsn-pos-user-top
 laborjournal.de###kratzer
 abload.de###layerleft
@@ -2585,6 +2582,7 @@ ladies.de###page-top-sol
 nordbayern.de###page_billboard
 parcello.org###parcello-mo
 h-bw.de###partner
+cash.ch###partner-teaser-links
 fundresearch.de###partnerCentersLogoBar
 volleyball-bundesliga.de###partnerLinks
 tiervermittlung.de###petsexpert
@@ -2659,6 +2657,7 @@ fahrzeuglackiererforum.de###text-4
 geocaching-magazin.com,nh24.de###text-48
 nh24.de###text-54
 nh24.de###text-59
+gazzettadellambri.ch###text-9
 fremdwort.de###thgirrennab
 bluray-disc.de###top-angebote-box
 it-production.com###top-banner
@@ -2717,10 +2716,11 @@ gartenjournal.net##._bb_1
 appgefahren.de,automatentest.de,autorevue.at,justnetwork.eu,kabel-blog.de,medienkuh.de,stadt-bremerhaven.de##.aawp
 com-magazin.de##.abo
 salue.de##.action-item > * > .ad
-abendblatt.de,adz.ro,ak-kurier.de,azonline.de,bildderfrau.de,bos-fahrzeuge.info,dastelefonbuch.de,eatsmarter.de,echo-online.de,erf.de,gmx.net,gq-magazin.de,idowa.de,juedische-allgemeine.de,klassikradio.de,lahrer-zeitung.de,macwelt.de,mann.tv,metager.de,modhoster.de,pcwelt.de,pfaffenhofen-today.de,spektrum.de,stadtradio-goettingen.de,sueddeutsche.de,wallstreet-online.de,web.de,wissen.de,wn.de,zeit.de##.ad
+abendblatt.de,adz.ro,ak-kurier.de,azonline.de,bildderfrau.de,bos-fahrzeuge.info,dastelefonbuch.de,eatsmarter.de,echo-online.de,erf.de,gmx.net,gq-magazin.de,idowa.de,juedische-allgemeine.de,klassikradio.de,lahrer-zeitung.de,macwelt.de,mann.tv,metager.de,modhoster.de,nau.ch,pcwelt.de,pfaffenhofen-today.de,spektrum.de,stadtradio-goettingen.de,sueddeutsche.de,wallstreet-online.de,web.de,wissen.de,wn.de,zeit.de##.ad
 ak-kurier.de##.ad + #flashContent
 ak-kurier.de##.ad + .tdt
 ak-kurier.de##.ad + .uk-panel
+raetsel-hilfe.de##.ad-container
 diegrenzgaenger.lu##.ad-listing
 spiesser.de##.ad-mark
 vsport.at##.ad1
@@ -2739,6 +2739,7 @@ laengengrad-breitengrad.de##.addtop
 gartenjournal.net##.adinj
 engadinerpost.ch##.aditem
 my105.ch##.adition
+cash.ch##.adm-container
 kochbar.de##.admanager__ems__dmofooter-1
 kochbar.de##.admanager__ems__superbanner-1
 africa-positive.de,arbeitszeugnisgenerator.de,autoscout24.ch,fischkopf.de,nachtkritik.de,regenbogen.de,stol.it,viamichelin.at,viamichelin.ch,viamichelin.de,wetter.at##.ads
@@ -3156,8 +3157,10 @@ bitreporter.de##.td-a-rec-id-custom-spot
 elliniki-gnomi.eu,pfalz-echo.de,pi-news.net##.td-a-rec-id-header
 primavera24.de##.td-header-container
 bild.de##.tea-rectangle
+watson.ch##.teaser_type_paid_content
 analsexporno.net,pornomonster.com##.tf-de
 hifitest.de##.themenmonat
+duden.de##.tile__wrapper
 rro.ch##.tisement
 t-online.de##.toi-sh-breaker
 oberberg-aktuell.de##.top-leaderboard
@@ -3238,7 +3241,7 @@ spanienlive.com##a[href^="https://airbnb.com/rooms/"]
 blogprojekt.de##a[href^="https://all-inkl.com/?partner="]
 anderes-wort.de,bitreporter.de,fairytail-tube.org,onepiece-tube.com,picdumps.com##a[href^="https://amzn.to/"]
 googlewatchblog.de##a[href^="https://amzn.to/"] > img
-4fuckr.com,ofdb.de,picdumps.com,rechtsdepesche.de,via-ferrata.de##a[href^="https://bit.ly/"]
+4fuckr.com,ofdb.de,picdumps.com,polizei.news,rechtsdepesche.de,via-ferrata.de##a[href^="https://bit.ly/"]
 meintomtom.de##a[href^="https://clk.tradedoubler.com/"]
 msn.com,pcwelt.de##a[href^="https://clkde.tradedoubler.com/"]
 t-online.de##a[href^="https://count.shopping.t-online.de/RE?ID="]
@@ -3285,6 +3288,7 @@ ww3.cad.de##body > table[width="100%"][border="0"]:first-child
 abload.de##center > table > tbody > tr > td[valign="bottom"][align="center"][style="width: 100%;"]
 3dchip.de##div[align="center"][width="468px"] > table[height="60"][cellspacing="0"][cellpadding="0"][border="0"][align="center"]
 bitreporter.de##div[class$="-adlabel"]
+homegate.ch##div[class^="AdSlotContainer_"]
 t-online.de##div[class^="Tsshopst"]
 quoka.de##div[class^="div-gpt-"]
 mtb-news.de##div[class^="mtbnews-ad-container"]
@@ -3321,6 +3325,8 @@ quoka.de##div[style="overflow:hidden;text-align:center;position:relative;height:
 sprachnudel.de##div[style="padding:5px 0 5px 0;"][align="center"]
 weristdeinfreund.de##div[style="position:absolute; top:5px; left:0px; text-align:center; width:100%; max-width:1000px; height:90px; overflow:hidden;"]
 strafbuch.de##div[style="width: 468px;height: 60px;overflow: hidden;float: right"]
+immoscout24.ch##div[style="width: auto; height: auto; min-height: 250px; display: flex; justify-content: center; align-items: center;"]
+immoscout24.ch##div[style="width: auto; height: auto; min-height: 250px; justify-content: center; align-items: center;"]
 psychic.de##div[style="width:160px;height:600px;"]
 korrekturen.de##div[style="width:300px; height:250px;float:left; margin-right:15px; margin-bottom:15px; border:0; background-color:#c0c0c0; overflow:hidden;"]
 news.ch##div[style="width:300px;padding:12px;float:left;"]
@@ -3434,6 +3440,7 @@ gofeminin.de#?#.af-block-native:-abp-contains(Sponsored Post)
 guenstiger.de#?#.productCard:-abp-has(div.premiumProductCaption)
 jameda.de#?#li:-abp-has([data-testid="advertisementSign-flag"])
 linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(span:-abp-contains(Gesponsert))
+mmnews.de#?#.sp-module:-abp-has(span:-abp-contains(Kleinanzeigen))
 motorradonline.de#?#.v-A_-teaser__halfcol__listitem:-abp-has(.v-A_-teaser__tag--ad)
 motorradonline.de#?#.v-A_-topteaser__rotationbox__item:-abp-has(.v-A_-teaser__tag--ad)
 o-sport.de#?#.card-body:-abp-contains(Sponsoren)

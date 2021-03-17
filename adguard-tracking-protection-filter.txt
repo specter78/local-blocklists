@@ -1,8 +1,8 @@
-! Checksum: kgMkdXcWn/+h8fVNlGleZA
+! Checksum: sGBm2LpsDtBPeFEk9EYBUA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.21.88
-! TimeUpdated: 2021-03-15T21:31:30+03:00
+! Version: 2.0.21.90
+! TimeUpdated: 2021-03-16T23:31:27+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -219,6 +219,9 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||jg.wensixuetang.com^$third-party
+||tapjoy.com^$third-party
+||tapjoy.net^$third-party
 ||logger.eigene.io^
 ||receiver.eigene.io^
 ||c-rings.net^$third-party
@@ -10313,6 +10316,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/exactag_clientside.js
 /stats.php?*event=$image
 /hawkeye.js
 -track-inview.
@@ -10644,6 +10648,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||freexcafe.com/js/analytics.js
 ||api.eigene.io/rec/
 ||snva.jp/javascripts/reco/
 ||protagcdn.com^*/site.js$domain=lovehug.net
@@ -13080,8 +13085,6 @@ link.gmapp*.net$image
 ||statistics.videofarm.daum.net^
 ||stats.popcap.com^
 ||stats.unity3d.com^
-||tapjoy.com^
-||tapjoy.net^
 ||taurus.iad.appboy.com^
 ||tknet.rayjump.com^
 ||tns.simba.taobao.com^
