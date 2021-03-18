@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: shvpjMxJL5SXVotBV+wbdQ
-! Version: 202103170521
+! Checksum: 1UgnfhzCkcd2Kt7VukqQVw
+! Version: 202103180521
 ! Title: EasyList Italy
-! Last modified: 17 Mar 2021 05:21 UTC
+! Last modified: 18 Mar 2021 05:21 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -1896,6 +1896,7 @@ brocardi.it#@#.with-background-ads
 ||gruppotv7.com/img/banner
 ||gruppovideomedia.it/banners/
 ||gsanews.it^*/Banner-
+||guardare.stream/asset/bann.js
 ||guardarefilm.vin/templates/italiafilm/images/btn
 ||guardaserie.cam^*/bottone
 ||guardaserie.cam^*/btn_guarda

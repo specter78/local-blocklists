@@ -1,8 +1,8 @@
-! Checksum: HeilVU2NErFsjuz7urkNHw
+! Checksum: vFoReePQ9N/W7eYsFVLt8Q
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.18.26
-! TimeUpdated: 2021-03-16T17:30:19+03:00
+! Version: 2.0.18.28
+! TimeUpdated: 2021-03-17T17:30:16+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1312,7 +1312,7 @@ amazon.de#?##content > .a-spacing-top-large > .a-section:has(> .a-section > div[
 winfuture.mobi#?#body > div.text > .mb20:has(> div[id^="div-gpt-ad"])
 ! golem.de - amazon ad on main page
 golem.de#?#.media__teaser-list > li[class]:has(> div > a[href^="https://www.golem.de/news/anzeige-"])
-golem.de#$?#.media__teaser-list > li[class]:has(> div > a[href^="https://www.golem.de/news/anzeige-"]) + li { border-top: solid 1px #EEE; !important }
+golem.de#$?#.media__teaser-list > li[class]:has(> div > a[href^="https://www.golem.de/news/anzeige-"]) + li { border-top: solid 1px #EEE !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66328
 mail.ru#$?#.pulse-lenta div[id^="_pcard_"]:has(> a[href^="https://t.mail.ru/redir/"]) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66050
@@ -1740,7 +1740,7 @@ cnews.ru#$#.modal-backdrop { display: none !important; }
 cnews.ru#$#body { overflow: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62346
 scmp.com#$#.top-ad { display: none !important; }
-scmp.com#$#div[class*="page-outer--slide-up"] { -webkit-transform: none !important; -ms-transform: none !important; transform: none !important ; }
+scmp.com#$#div[class*="page-outer--slide-up"] { -webkit-transform: none !important; -ms-transform: none !important; transform: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60436
 m.gordonua.com#$#.card_sep { visibility: hidden !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63758
@@ -2264,6 +2264,7 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+migeek.ru##img[width="300"][height="250"]
 memurlar.net###sticky-container
 amp.reddit.com##div[class*="__Ad"]
 amp.focus.de##.textBlock > amp-embed[class*="notbuilt"]

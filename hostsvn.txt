@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 16 Mar 2021 15:03 UTC+7
-# Version: 2103161503
-# Blocked: 17,249 domains
+# Last modified: 18 Mar 2021 09:46 UTC+7
+# Version: 2103180946
+# Blocked: 17,265 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -231,6 +231,7 @@
 0.0.0.0 sts.si.advertising.microsoft.com
 #[microsoft]
 0.0.0.0 c.microsoft.com
+0.0.0.0 self.events.data.microsoft.com
 0.0.0.0 statsfe2.ws.microsoft.com
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 web.vortex.data.microsoft.com
@@ -470,7 +471,8 @@
 0.0.0.0 rcm-na.amazon-adsystems.com
 0.0.0.0 ws.amazon-adsystems.com
 0.0.0.0 z-na.amazon-adsystems.com
-#[amazonaws]
+#[amazonaws.com]
+0.0.0.0 adserver-2084671375.us-east-1.elb.amazonaws.com
 0.0.0.0 cloudfront-labs.amazonaws.com
 0.0.0.0 kinesis.us-east-1.amazonaws.com
 0.0.0.0 mobileanalytics.us-east-1.amazonaws.com
@@ -559,11 +561,8 @@
 0.0.0.0 m.yap.yahoo.com
 0.0.0.0 us.ads.yap.yahoo.com
 #[facebook]
-0.0.0.0 ads.ak.facebook.com
 0.0.0.0 an.facebook.com
-0.0.0.0 creative.ak.facebook.com
 0.0.0.0 pixel.facebook.com
-0.0.0.0 creative.ak.fbcdn.net
 0.0.0.0 sonar-iad.xx.fbcdn.net
 #[update.fbsbx.com]
 0.0.0.0 o.update.fbsbx.com
@@ -12178,6 +12177,16 @@
 0.0.0.0 publisher-assets.spot.im
 0.0.0.0 t.spot.im
 0.0.0.0 traffic.spot.im
+#[eoapxl.com]
+0.0.0.0 eoapxl.com
+0.0.0.0 eoapxl1.eoapxl.com
+0.0.0.0 eoapxl2.eoapxl.com
+0.0.0.0 eoapxl3.eoapxl.com
+0.0.0.0 eoapxl4.eoapxl.com
+#[asdfix.com]
+0.0.0.0 asdfix.com
+0.0.0.0 cdn.asdfix.com
+0.0.0.0 p.asdfix.com
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -13621,6 +13630,14 @@
 0.0.0.0 service-api.accesstrade.vn
 0.0.0.0 static.accesstrade.vn
 0.0.0.0 track.accesstrade.vn
+#[cdp.asia]
+0.0.0.0 a.cdp.asia
+0.0.0.0 app.cdp.asia
+0.0.0.0 cdp.asia
+0.0.0.0 delivery.cdp.asia
+0.0.0.0 st-a.cdp.asia
+0.0.0.0 st-e.cdp.asia
+0.0.0.0 www.cdp.asia
 # --- Block adsVN ---
 0.0.0.0 5734a40f2d.vws.vegacdn.vn
 0.0.0.0 703531862.vws.vegacdn.vn
@@ -17737,6 +17754,7 @@
 0.0.0.0 www.weborama.com
 0.0.0.0 www.webtrendslive.com
 0.0.0.0 www.zap.buzz
+0.0.0.0 www.zarpop.com
 0.0.0.0 www.zekiatagur.com
 0.0.0.0 www.zxc.world
 0.0.0.0 wyjimapsi.pro
@@ -17787,6 +17805,7 @@
 0.0.0.0 zanox.com
 0.0.0.0 zantracker.com
 0.0.0.0 zap.buzz
+0.0.0.0 zarpop.com
 0.0.0.0 zbwp6ghm.com
 0.0.0.0 zdbb.net
 0.0.0.0 zealousfield.com
