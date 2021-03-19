@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HaKFUGJeA2CVUUw7I9NlFA
-! Version: 202103180520
+! Checksum: uoqY+fEa9qcHrp7lq9p6Dg
+! Version: 202103190520
 ! Title: RU AdList
-! Last modified: 18 Mar 2021 05:20 UTC
+! Last modified: 19 Mar 2021 05:20 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -16770,7 +16770,7 @@ mschistota.ru##a[href][target="_blank"] img
 nb.by##a[href][target="_blank"]:not([href^="/"]):not([href^="https://nb.by/"]) > img[width="100%"]
 kmory.ru##a[href][target="_blank"][onclick]
 agroone.info##a[href][target="_blank"][rel*="noopener"] > img
-online-fix.me##a[href][target="_blank"][rel="noopener noreferrer"]
+dentalmagazine.ru,online-fix.me##a[href][target="_blank"][rel="noopener noreferrer"]
 agro-business.com.ua,galka.if.ua##a[href][target="_blank"][style*="block"]
 cybersport.ru##a[href][target="_blank"][style*="branding"]
 smapps.org##a[href][target="_blank"][style*="smapps.org/lead/banner/"]
@@ -17522,6 +17522,7 @@ drive2.ru#?#div[class]:-abp-has(> div > div > .drom-logo)
 2gis.ru#?#div[class]:-abp-has(> div[class] > [class]:-abp-contains(/^Организации рядом$|^Похожие организации$/))
 novayagazeta.ru#?#div[class]:-abp-has(> div[style^="display"] ~ div > div[id*="adfox_"])
 glavagronom.ru#?#div[class]:first-child :-abp-properties(height: 29rem;) + div[class]:last-child
+www.kinopoisk.ru##div[class]:first-child > div[class*=" "] > div[id]:first-child ~ div ~ div[class]:last-child
 www.kinopoisk.ru##div[class]:first-child > div[class*=" "] > div[id]:first-child ~ style[nonce] ~ div[class]:last-child
 echo.msk.ru##div[class]:first-child > div[class*=" "]:first-child > div + style + div[class*=" "]
 echo.msk.ru##div[class]:first-child > div[class*=" "]:first-child > style + div[class*=" "]
@@ -18315,6 +18316,7 @@ kinogid-online.net##img[src^="/templates/onlinegid/images/panel"]
 actualtraffic.ru##img[src^="/uploads/promo/"]
 cqham.ru##img[src^="ad/"]
 fairtop.in##img[src^="data:image"]
+rsload.net##img[src^="https://rsload.net/images5/2890374"]
 osobye.ru##img[style="height:90px; width:728px"]
 forum.china-iphone.ru##img[width="120"][height="40"]
 goldroyal.net##img[width="140"][height="30"]
@@ -19049,7 +19051,6 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|kinohom
 /^https?://kubik3.ru\/(?!js\/|.s\/)/$script,domain=kubik3.ru
 /^https?://l2top.ru\/+(?!ajax\/|js\/|widget\.php\?id=)/$script,xmlhttprequest,domain=l2top.ru
 /^https?://mmo13\.ru\/\w{3,}/$subdocument,domain=mmo13.ru
-/^https?://mmo13\.ru\/download\/content\/[^\s]+\/image_\d\.jpg/$image,domain=mmo13.ru
 /^https?://news\.ru\/(?!assets\/js-compress\/)/$script,domain=news.ru
 /^https?://parnuxi\.biz\/(?!engine\/|templates\/)/$script,domain=parnuxi.biz
 /^https?://picusha.net\/(?!templates|engine|js)/$script,domain=picusha.net
@@ -19760,7 +19761,6 @@ igdz1.ru^$script,domain=igdz.ru
 ||dc-marvel.org^*/images/bg.jpg
 ||dcdn.lt/adbam/
 ||debilizator.tv/static/ab.min.js
-||delfi.ee/misc/$subdocument
 ||delfi.lt/b?region=
 ||delfi.lv/misc/xml_infoblocks/
 ||delfi.lv/news_export/widget_creator.php$domain=reklama.vesti.lv
@@ -23644,7 +23644,6 @@ it-actual.ru##body > div:not(#page):not([class="highslide-container"])
 @@||hh.ru/account/$generichide
 @@||hlamer.ru/create-account|$generichide
 @@||html-template.ru^$generichide
-@@||iblitzmods.ru^$generichide
 @@||imgbum.ru^$generichide
 @@||in-trend.biz^$generichide
 @@||inforline.com.ua^$generichide
@@ -24852,6 +24851,7 @@ channels247.net,goool7.ws,sport7.biz,sportbar.biz,sporting77.com#?#[id^="oframe"
 2es.work,cdnneedtv.ru,cdnpotok.com,cdntelesee.com,chepok.xyz,domatv.net,hdone.net,hindcine.tv,kipolino.site,klplayer.website,liveball8.ml,luxurytv.online,oneliketv.com,phys-kids.com,pokaz.me,rxtv.github.io,sovetromantica.com,strah.video,t1pochek.site,tip0chek.site,tipochek.xyz,tivix.co,viks.tv,worldvideo.site#?#[id^="oframe"] > pjsdiv:-abp-has(> pjsdiv:-abp-contains(/adblock|adblok|блокировщик|блокировку/i))
 sntch.com#?#article > p:-abp-contains(/отключите блокировку рекламы!$/)
 doctorrouter.ru,ranobe-novels.ru,wuxiaworld.ru##body > :not([id]):not([class]):not(script)
+iblitzmods.ru##body > [class^="adbd-"]
 mods-club.ru##body > [id]:not([class]):not([iframe]):not(#main-bg)
 zmoe.ru##body > div:not([id]):not([class])
 chemrise.ru##body > div[class*="ui-widget"]
