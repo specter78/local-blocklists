@@ -1,8 +1,8 @@
-! Checksum: X823+J7iyW04s0n6xuK18w
+! Checksum: KszOWIMLpL0Ws8PdM+6kKw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.18.30
-! TimeUpdated: 2021-03-18T19:30:27+03:00
+! Version: 2.0.18.33
+! TimeUpdated: 2021-03-19T19:30:23+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2264,6 +2264,13 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+timesnownews.com##.atf_ad
+timesnownews.com##.fly_carpet_wrapper
+timesnownews.com##div[id^="taboola-mid-"]
+m.patronlardunyasi.com##div[style*="width:300px;"][style*="height:250px;"]
+xinyunj.cn##[class^="vod-"]
+xinyunj.cn##p[onclick="clgd(this);"]
+post-gazette.com##.pg-mobile-adhesionbanner
 manganelo.com##div[style*="width: 300px;"][style*="height: 250px;"]
 hd01.ru##.stadck
 migeek.ru##img[width="300"][height="250"]
@@ -3774,7 +3781,7 @@ stereogum.com##.ad-holder
 3g.163.com##.content-list > section.m_papa,papa-item
 fuw.ch###js-icon-list
 timesofindia.indiatimes.com###s_rhs
-independent.co.uk##.taboola
+timesnownews.com,independent.co.uk##.taboola
 skymetweather.com###outbrainmobile
 mobil.nwzonline.de##.article-list.compact > .ressort-divider
 ||gadgetsnow.com/ngwm/
