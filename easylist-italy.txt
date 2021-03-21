@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Qs3GN9mS5ylx1KUW4+dGqA
-! Version: 202103200521
+! Checksum: 868r8nu6Yfjh3FOd5TKrrw
+! Version: 202103210521
 ! Title: EasyList Italy
-! Last modified: 20 Mar 2021 05:21 UTC
+! Last modified: 21 Mar 2021 05:21 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -5622,6 +5622,7 @@ amazon.it##div[cel_widget_id*="_SponsoredProducts"]
 amazon.it##div[cel_widget_id*="_ad-placements-"]
 amazon.it##div[cel_widget_id="desktop-dp-sims_sb-dp-id"]
 homegate.ch##div[class^="AdSlotContainer_"]
+corrieredellosport.it,tuttosport.com##div[class^="AdUnit_"]
 acffiorentina.com,acmilan.com##div[class^="Partners_"]
 lavorincasa.it##div[class^="large-leaderboard"]
 lavorincasa.it##div[class^="medium-rectangle"]

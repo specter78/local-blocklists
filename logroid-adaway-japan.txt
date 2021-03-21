@@ -5,8 +5,8 @@
 #         http://logroid.blogspot.jp/
 #         https://twitter.com/logroid
 #
-# last updated: 2021/02/26
-# block hosts: 31218 entry
+# last updated: 2021/03/20
+# block hosts: 31230 entry
 
 # 000webhost.com
 127.0.0.1 err.000webhost.com
@@ -5403,6 +5403,9 @@
 # admanagement.ch
 127.0.0.1 admanagement.ch
 
+# admane.jp
+127.0.0.1 admane.jp
+
 # admarket.cz
 127.0.0.1 admarket.cz
 127.0.0.1 www.admarket.cz
@@ -8562,6 +8565,7 @@
 127.0.0.1 mobypicture.s3.amazonaws.com
 127.0.0.1 mondoads.s3.amazonaws.com
 127.0.0.1 ncads.s3.amazonaws.com
+127.0.0.1 seedapp-creative.s3.amazonaws.com
 127.0.0.1 slideshare-audio.s3.amazonaws.com
 127.0.0.1 sp.ltassrv.com.s3.amazonaws.com
 127.0.0.1 tracking.opencandy.com.s3.amazonaws.com
@@ -21468,6 +21472,9 @@
 127.0.0.1 secure.fhserve.com
 127.0.0.1 www.fhserve.com
 
+# fi-tsunagu.com
+127.0.0.1 cro.fi-tsunagu.com
+
 # fiafii.org
 127.0.0.1 fiafii.org
 
@@ -32110,6 +32117,9 @@
 127.0.0.1 a.lakequincy.com
 127.0.0.1 lakequincy.com
 
+# lamp-shade.net
+127.0.0.1 lamp-shade.net
+
 # lampsplus.com
 127.0.0.1 adv.lampsplus.com
 
@@ -32741,6 +32751,9 @@
 127.0.0.1 staging-hallmark.linkshare.com
 127.0.0.1 www.linkshare.com
 127.0.0.1 www1.linkshare.com
+
+# linkshare.jp
+127.0.0.1 r-ad.linkshare.jp
 
 # linkshare.ne.jp
 127.0.0.1 ad.linkshare.ne.jp
@@ -38022,6 +38035,9 @@
 # neoffic.com
 127.0.0.1 neoffic.com
 
+# neofield.click
+127.0.0.1 neofield.click
+
 # neogen.bg
 127.0.0.1 ads.neogen.bg
 127.0.0.1 monitor.neogen.bg
@@ -41743,6 +41759,9 @@
 127.0.0.1 assets.pinterest.com
 127.0.0.1 log.pinterest.com
 
+# pipaffiliates.com
+127.0.0.1 ads.pipaffiliates.com
+
 # piqnavi.com
 127.0.0.1 piqnavi.com
 
@@ -43378,6 +43397,7 @@
 
 # r-ad.ne.jp
 127.0.0.1 cs.r-ad.ne.jp
+127.0.0.1 r-ad.ne.jp
 127.0.0.1 tm.r-ad.ne.jp
 127.0.0.1 tm2.r-ad.ne.jp
 
@@ -47437,6 +47457,7 @@
 127.0.0.1 smaad.jp
 
 # smaad.net
+127.0.0.1 smaad.net
 127.0.0.1 tr.smaad.net
 
 # smaato.net
@@ -48267,6 +48288,9 @@
 # spray.se
 127.0.0.1 ads.tripod.spray.se
 127.0.0.1 fe.lea.spray.se
+
+# spreadlink.net
+127.0.0.1 spreadlink.net
 
 # spreadomat.net
 127.0.0.1 advertising.spreadomat.net
@@ -51669,6 +51693,9 @@
 
 # townhall.com
 127.0.0.1 ads.townhall.com
+
+# townlife-aff.com
+127.0.0.1 townlife-aff.com
 
 # townnews.com
 127.0.0.1 adsys.townnews.com
@@ -55881,6 +55908,9 @@
 # woolyboys.com
 127.0.0.1 woolyboys.com
 127.0.0.1 www.woolyboys.com
+
+# woomy.me
+127.0.0.1 woomy.me
 
 # woopra.com
 127.0.0.1 sec1.woopra.com

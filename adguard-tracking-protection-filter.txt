@@ -1,8 +1,8 @@
-! Checksum: 2Te08b2dQm/UJl/W2fa8Pg
+! Checksum: nPw2k6gyrLbGHcDwVwU2gA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.22.5
-! TimeUpdated: 2021-03-20T08:03:51+03:00
+! Version: 2.0.22.7
+! TimeUpdated: 2021-03-21T06:31:28+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -221,6 +221,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||a.o2u.jp^
 ||tm.msgs.jp^$third-party
 ||randiul.com^$third-party
 ||px.za.zaloapp.com^$third-party
@@ -13187,6 +13188,8 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! srek.net - adblock
+@@||googletagmanager.com/gtag/js$domain=srek.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77862
 @@||googletagmanager.com/gtm.js$domain=komputronik.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77565

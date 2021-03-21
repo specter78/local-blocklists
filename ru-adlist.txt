@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: I8NDUFmoA5MtpIerbpzipw
-! Version: 202103200520
+! Checksum: pwgGHUo3/AwpbUhFFsR7Dg
+! Version: 202103210520
 ! Title: RU AdList
-! Last modified: 20 Mar 2021 05:20 UTC
+! Last modified: 21 Mar 2021 05:20 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -45,6 +45,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ||goo.gl^$popup,domain=aces.gg|gamegpu.com|skachat-igri-besplatno.info|torrents-game.net|vsofte.biz
 ||loot.bet^$popup,domain=hs-manacost.ru
 ||mama.land^$popup,domain=comments.ua
+||mmo13.ru/away?$popup,domain=mmo13.ru
 ||motorpage.ru/click/$popup,domain=motorpage.ru
 ||mp3albomov.net^$popup,domain=lossless-galaxy.ru
 ||namba.kg^$popup,domain=namba.kg
@@ -5541,7 +5542,6 @@ _tizers.
 ||congregorysun.site^$third-party
 ||connection36.com^$third-party
 ||connees.com^
-||consensu.org^$third-party
 ||const.website^$third-party
 ||constrongyfe.site^$third-party
 ||contactsin.com^
@@ -11607,7 +11607,6 @@ vk.com###ads_left *
 shpargalkablog.ru###adsenseNiz
 4creates.com###adsh
 academ.info###adslinks
-newdeaf.vip###adv > #nado-mob
 z200.fm,zk.fm,zvukoff.ru###adv-list-top
 domkad.ru###adv-sidebar
 v102.ru###adv-tizer
@@ -12026,6 +12025,7 @@ world-mmo.com###header-wrapper
 nikvesti.com###header-wrapper noindex > a[href][target="_blank"]
 sysadminblog.ru###header2
 fisher.spb.ru###headerBanners
+pornhub.com###headerUpgradePremiumBtn
 arigato.tv###header[style] #header:not([style])
 zaxid.net###header_advt-wrapper
 od-news.com###header_banner
@@ -13747,7 +13747,7 @@ vsitv.org##.conrek
 docfilms.info##.cont > noindex
 djrogoff.ru##.cont_in_c > .item
 cxem.net##.cont_left > p > a[href^="http"]:not([href*="://cxem.net/"])
-comments.ua##.cont_station > .tags + .K_t_a
+comments.ua##.cont_station > .tags ~ .K_t_a ~ .K_t_a
 tuchkatvsport.com##.container > #slides
 efxi.ru#?#.container > .footer:-abp-contains(реклама)
 myshows.me#?#.container > .marginBottomBase:-abp-contains(/Смотри на КиноПоиск HD|Watch on KinoPoisk HD/)
@@ -14320,6 +14320,7 @@ newsru.com##.inner-wrap > .content > div[align="center"]
 24tv.ua##.inner-wrap > .nav-additional
 peopletalk.ru##.inner__share-ya-zen
 onfilmz.net##.inner_box3
+comments.ua##.inner_right > div[style*="display:"]
 solidarnost.org##.inside-smi
 amic.ru##.insider.wide.news
 amic.ru##.insider.wide.news ~ p
@@ -17906,7 +17907,6 @@ astrolibra.com,medickon.com,multrecept.com,tvoipitomec.com,tvoipitomec.info##div
 finam.ru##div[id^="cntnt_block_"]
 mmo13.ru##div[id^="container"]
 glavcom.ua,gordonua.com##div[id^="corebanner"]
-pornhub.com##div[id^="customSkin"]
 cyberforum.ru##div[id^="cyber_adsc"]
 7days.ru##div[id^="da_"][style^="min-height"]
 echo.msk.ru##div[id^="desktop_bottom_"]
@@ -19141,7 +19141,7 @@ $xmlhttprequest,domain=happy-biock.info|happy-block.info|howto-news.info|kinohom
 /js/*.js?$script,domain=all-sci.net|bib.social|economics.studio|economuch.com|finbook.news|lawbook.online|lawbooks.news|lib.ink|lib.sale|myzooplanet.ru|pravo.studio|provse.news|psihologia.biz|sci-lib.biz|sci.house|scicenter.online|textbook.news|textbooks.studio|texts.news|uchebnikfree.com|xn--80aaivjfyj3e.com|xn--80ahc0abogjs.com
 /js/buy_book.js$script,domain=klex.ru|koob.pro|koob.ru
 /js/game_$domain=otxataba.net|xatab-repack.com|xatab-repack.org
-/js/optscript/*$script,domain=domonosok.tk|hqq.to|porn-watch.ru
+/js/optscript/*$script,domain=domonosok.tk|haes.tech|hqq.to|porn-watch.ru
 /js/pop*.js$script,domain=superhumor.ru|voffka.com
 /js/v.js$script,domain=superhumor.ru|voffka.com
 /klama/$domain=superhumor.ru|voffka.com
@@ -23256,7 +23256,7 @@ cheb.ru##.ru56080
 ##body > div[class^="_"][class*=" _"][class$="_stBig"]
 ! -----------------------------------------------------------------------------
 ! *** advblock/specific_antisocial.txt ***
-! Социальные фичи на сайтах, блокирующие доступ к странице.
+! Социальные и анонсовые фичи на сайтах, блокирующие доступ к странице.
 ! Это просто запредельно неудобно, особенно если cookies периодически удаляются.
 popmech.ru###_sim_popup
 newrezume.org###all > #popup
@@ -23302,6 +23302,7 @@ delfi.lv###nagger-wrap
 tjournal.ru###notify > [class*="error"]
 hetaqrqire.ru###onload_popup
 dentaltechnic.info,itcrumbs.ru,life.ck.ua###openModal
+sverhestestvennoe.club###osiad
 blogspot.com###overlay
 mynizhyn.com###overlay-soc,#socials_popup
 dt.ua,zn.ua###overlay_fb_modal
