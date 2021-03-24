@@ -1,8 +1,8 @@
-! Checksum: 00iTEyc75EL/r3+oZECk1A
+! Checksum: nuQMH4fN0+9lqgAhsdNeZw
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.51.1
-! TimeUpdated: 2021-03-23T00:30:53+03:00
+! Version: 2.0.51.10
+! TimeUpdated: 2021-03-24T00:03:29+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4993,6 +4993,12 @@ electric-house.ru#%#//scriptlet("abort-on-property-read", "onload")
 ! sometimes second part of script is loaded in another JS
 ||electric-house.ru/forum/script_electric_min.js
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/45336
+@@||franecki.net/js/lib.js?$domain=all-episodes.org
+||all-episodes.org/allopenjs/downretl.js
+all-episodes.org#$##text3 { position: absolute!important; left: -3000px!important; }
+all-episodes.org#$#div[data-state="await"] { display: block !important; }
+all-episodes.org#$#.jwplayer { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77720
 ||iblitzmods.ru/templates/iblitzmods/adbd/adbd_styles.css
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76887
@@ -6287,14 +6293,14 @@ sdamgia.ru#%#AG_abortOnPropertyRead('Ya.Direct');
 ! START: Yandex
 !
 ! old cookies: Bismuth|computer|discussion|^specific\$|^engineer|instruction|telecommunications|pronunciation|involved|^adequate
-$cookie=/blcrm|bltsr|Bismuth|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+$cookie=/blcrm|bltsr|Silicon|computer/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 !
-auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|Bismuth|computer/');
+auto.ru,avito.ru,baby.ru,businessman.ru,dni.ru,e1.ru,echo.msk.ru,fb.ru,forexpf.ru,gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru,gorodrabot.ru,infoniac.ru,it-tehnik.ru,kakprosto.ru,kinopoisk.ru,liveinternet.ru,mathb-ege.sdamgia.ru,mk.ru,nkj.ru,ohotniki.ru,oko-planet.su,otzovik.com,razlozhi.ru,sdamgia.ru,syl.ru,vz.ru#%#AG_removeCookie('/blcrm|bltsr|Silicon|computer/');
 ! TODO: add domains auto.ru and kinopoisk.ru to the rule below after the next release of AG for macos (current 2.3.2)
-$cookie=/blcrm|bltsr|Bismuth|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
+$cookie=/blcrm|bltsr|Silicon|computer/,domain=baby.ru|businessman.ru|dni.ru|e1.ru|echo.msk.ru|fb.ru|forexpf.ru|gismeteo.by|gismeteo.kz|gismeteo.md|gismeteo.ru|gorodrabot.ru|infoniac.ru|it-tehnik.ru|kakprosto.ru|liveinternet.ru|mk.ru|nkj.ru|ohotniki.ru|oko-planet.su|otzovik.com|rambler.ru|razlozhi.ru|sdamgia.ru|syl.ru|vz.ru
 $cookie=/^los\$/,domain=auto.ru
 ! zen.yandex.ru - broken resources
-~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|Bismuth|computer/');
+~passport.yandex.ru,~zen.yandex.ru,yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua#%#AG_removeCookie('/blcrm|bltsr|Silicon|computer/');
 !
 ! makes kinopoisk.ru redirect to sso.kinopoisk.ru and back endlessly
 ! ||kinopoisk.ru^$cookie=/consultant|introductory|knowledge|transfer|technology|workplace/
@@ -6863,7 +6869,7 @@ konstruktortestov.ru#?#.left-content > div.block-test:has(> div[id^="yandex_rtb_
 rebenok.by#?#.main-index-right > div.sticky-wrapper:has(> div.bnr-mr-mf)
 tsn.ua#?#article > aside:has(> div.c-aside > div.c-aside__embed > div.js-dynamic-ad)
 kino-teatr.ru#$?#div[class^="relap-"] > div[style^="width: 25"]:has(a[href^="https://relap.io/r?r="]) { remove: true; }
-otzovik.com#?#.product-list > table > tbody > tr.item.sortable:has(> td:contains(/[pр][еe]к[\u200B]?л[аa]м[аa]/))
+otzovik.com#?#.product-list > table > tbody > tr.item.sortable:has(> td:contains(/[pр][еe]к[\u200B]?л[аa]м[\u200B]?[аa]/))
 opennet.ru#?#td[align="right"] > center:has(> ins.adsbygoogle)
 allcalc.ru#?#.content > div[style]:has(> div[id^="yandex_rtb"])
 azov-sea.info#?#tr > td[valign="top"]:has(> div[style] > h1:contains(Реклама))
@@ -8566,6 +8572,9 @@ api.kinomoov.org#%#AG_onLoad(function() { window.flashLayerAdSkipDelay = 1; });
 !------- CSS -----------
 !-----------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78290
+my.mosenergosbyt.ru#$#body > div[class="jss566 jss555 jss556"] { display: none!important; }
+my.mosenergosbyt.ru#$#body { overflow: visible!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77364
 online-fix.me#$#img[src*=";base64"] { visibility: hidden !important; height: 20px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76329
@@ -8814,11 +8823,6 @@ povarenok.ru#$#.sp-header-block { height: 50px!important; }
 simpsonsua.tv#$#.tabcontent > iframe { display: block!important; }
 ! gamemag.ru - удаление отступа сверху
 gamemag.ru#$#.top-branding { height: 50rem!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/45336
-all-episodes.org#$##advtss { position: absolute!important; left: -3000px!important; }
-all-episodes.org#$##text3 { position: absolute!important; left: -3000px!important; }
-all-episodes.org#$#div[data-state="await"] { display: block !important; }
-all-episodes.org#$#.jwplayer { display: block !important; }
 ! prostoprosport.ru - удаление отступа сверху
 prostoprosport.ru#$#.main-container { margin-top: 1vw !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/45253
@@ -10904,6 +10908,10 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+||nowa.cc/banner_
+||my.mosenergosbyt.ru/file/id_content:$image
+wifigid.ru##div[class="expert-review expert-review--color-green-2"]
+prostobank.ua##div[class="space-before-twice space-after-twice centered"]
 sb.by##.ads-after-article
 theoryandpractice.ru##.disclamer1
 sport-express.ru##a[href*="betcity.ru/"]
@@ -10969,14 +10977,13 @@ rtvi.com##div[data-banner-name]
 nnovosti.info##div[class="w-100 bg-white p-3 text-center mb-4 d-none d-lg-block"]
 virtualbrest.ru##a[href^="https://www.volkswagen-brest.by/"]
 virtmachine.ru##.ADSENSE_REKLAMA
-onliner.by##.news-text > h2 > a[href*="&utm_content="]
 ||static.channels247.net/static.js
 penzainform.ru###divNewsItem iframe[src^="https://www.youtube.com/embed/"]
 glav.su##div[class="bl-ml-bl c-m-t-1em"]
 wikipix.ru##div[class^="flat_pm_"]
 goha.ru###goharu > p > span[style^="display: block; position: absolute;"]
 videokontroldoma.ru###wpfront-notification-bar
-onliner.by##.news-text > h3 > a[href^="https://catalog.onliner.by/"]
+onliner.by##.news-text > h2 > a[href^="https://catalog.onliner.by/"]
 nur.kz##.adv-placeholder
 ||tolkorus.info/js/popupimage.js
 monsterkino.ru##div[style="text-align:center;"] > a > img
@@ -13941,7 +13948,7 @@ forfun.org.ua##.about
 helpsetup.ru##.abpp
 pg11.ru##.abs-container
 kidstaff.com.ua##.absk
-riavrn.ru,maanimo.com,begaem.com,passion.ru,gq.ru,agravery.com,appsgames.ru,buhgalteria.ru,dumskaya.net,hackersoft.ru,hotcharts.xyz,klops.ru,mmovote.ru,molnet.ru,news.pn,newsru.co.il,shazoo.ru##.ad
+cont.ws,riavrn.ru,maanimo.com,begaem.com,passion.ru,gq.ru,agravery.com,appsgames.ru,buhgalteria.ru,dumskaya.net,hackersoft.ru,hotcharts.xyz,klops.ru,mmovote.ru,molnet.ru,news.pn,newsru.co.il,shazoo.ru##.ad
 pmg.ua##.ad-banner-gazette
 psychologos.ru##.ad-banners
 banki.ru##.ad-block-teaser
@@ -20892,13 +20899,13 @@ youla.ru##.product_item--ad
 ! END: mail.ru
 !
 ! otzovik.com
-otzovik.com##.produkt-covtent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
-otzovik.com##.produkt-covtent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
-otzovik.com##.produkt-covtent div.product-header > h1.product-name + div + div[class]
-otzovik.com##.produkt-covtent div.product-header > span.identifier + div + div[class]
-otzovik.com##.produkt-covtent div.review-contents + [class]
-otzovik.com##.produkt-covtent div.review-contents > div.review-panel + div[class]
-otzovik.com##.produkt-covtent div.review-contents > div.review-body > div[id]
+otzovik.com##.produkt-coptent div.product-nav-wrap + div[class] ~ div[class]:not([style]):not([class="bottom-row"])
+otzovik.com##.produkt-coptent div.product-nav-wrap + div[class] > noindex + div[class] > div[class]:not([itemprop])
+otzovik.com##.produkt-coptent div.product-header > h1.product-name + div + div[class]
+otzovik.com##.produkt-coptent div.product-header > span.identifier + div + div[class]
+otzovik.com##.produkt-coptent div.review-contents + [class]
+otzovik.com##.produkt-coptent div.review-contents > div.review-panel + div[class]
+otzovik.com##.produkt-coptent div.review-contents > div.review-body > div[id]
 ! Ukr
 otzovik.com##.adbroun_block
 otzovik.com##div[class^="pr3_"]
@@ -21066,10 +21073,9 @@ yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yande
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##div[class*="sport-advert_"]
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.turbo-advert_type_native
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##body[data-bem*="-sport-"] div.sport-advert
-! Yandex.Turbo
-yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##body[data-bem*="turbo"] div[class*="__item_type_partner "]
-yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.advert.unit
-yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##.page__content [id^="R-A-"]
+! Yandex.Turbo (https://yandex.ru/turbo/***)
+yandex.*##body[data-bem*="turbo"] div[class*="_type_"][class*="aside-"][data-name][data-log-node]
+yandex.*##body[data-bem*="turbo"] div[class*="auto"][data-name][data-log-node]
 ! Yandex.Turbo sites
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44110
 yandex.*##body[data-bem*="turbo?text="] div.advert-sticks
@@ -21094,6 +21100,9 @@ yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yande
 !
 ! yandex.*/internet/ -- ad banner
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru,yandex.ua##div[id^="R-I-"] > yatag[class] > yatag[class]
+!
+! Yandex Browser start page
+||yandex.ru/portal/ntp/banner$redirect=nooptext
 !
 ! END: Yandex
 !
@@ -21466,7 +21475,7 @@ ut-1.alexbranding.com,unitheme.net#@#[class^="adv-"]
 !#################
 !
 !
-!
+! Userscripts may be breaking Yandex Browser "new page", disable them there (temp)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77701
 @@||101.ru/api/outreach/vast/$domain=101.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76121

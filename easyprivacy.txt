@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202103230453
+! Version: 202103240501
 ! Title: EasyPrivacy
-! Last modified: 23 Mar 2021 04:53 UTC
+! Last modified: 24 Mar 2021 05:01 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6226,6 +6226,7 @@ _mongo_stats/
 ||bugsnag.com^$third-party
 ||buildkiteanalytics.com^$third-party
 ||bunchbox.co^$third-party
+||burpee.xyz^$third-party
 ||burstbeacon.com^$third-party
 ||burt.io^$third-party
 ||buzzdeck.com^$third-party
@@ -9009,6 +9010,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bandborder.com^$third-party
 ||basketballbelieve.com^$third-party
 ||baskettexture.com^$third-party
+||bawdybalance.com^$third-party
 ||boilingbeetle.com^$third-party
 ||borderbrush.com^$third-party
 ||breakfastboat.com^$third-party
@@ -12635,6 +12637,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||export.newscube.de^$~subdocument
 ||fc.webmasterpro.de^$third-party
 ||filmaster.tv^*/flm.tracker.min.js
+||freshclip.tv/tracking/
 ||frontlineshop.com/ev/co/frontline?*&uid=
 ||gameforge.de/init.gif?
 ||geo.mtvnn.com^
@@ -20600,7 +20603,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||dastelefonbuch.de^*/wws.js
 ||dat.de/inc/count.js
 ||dejure.org/cgi-bin/zux2?
-||derstandard.at/s/
 ||derwesten.de/stats/
 ||derwesten.de^*/click.js
 ||derwesten.de^*/omsv.js
@@ -20723,6 +20725,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||preisvergleich.de/setcookie/
 ||proactive.base.de^
 ||putpat.tv/tracking?
+||px.derstandard.at^
 ||pxc.otto.de^
 ||quoka.de^*/wtlog_02.js
 ||rem-track.bild.de^
@@ -21709,6 +21712,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||att.com/scripts/adobe/prod/$script,~third-party
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
+@@||autoaudience.com/tag/$script,domain=mazda.ca
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||bam.nr-data.net^$script,domain=kapwing.com
 @@||banned.video/videojs-event-tracking/dist/videojs-event-tracking.js$script,domain=banned.video|infowars.com
@@ -21778,6 +21782,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ensighten.com^*/serverComponent.php?$script
 @@||epicgames.com/id/api/analytics$~third-party,xmlhttprequest
 @@||events-collector.spot.im/api/$xmlhttprequest
+@@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
 @@||files.mycloud.com/js/analytics/google_analytics.js
