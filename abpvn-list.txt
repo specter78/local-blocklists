@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 25 Mar 2021 11:41 UTC+7
+# Updated: 26 Mar 2021 11:38 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -14162,6 +14162,13 @@
 0.0.0.0 adcome.cn
 0.0.0.0 api.adcome.cn
 0.0.0.0 www.adcome.cn
+#[king.com]
+0.0.0.0 adtrack.king.com
+0.0.0.0 servicelayer.king.com
+#[midasplayer.com]
+0.0.0.0 adtrack1.midasplayer.com
+0.0.0.0 bling2.midasplayer.com
+0.0.0.0 p.midasplayer.com
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -15619,6 +15626,13 @@
 0.0.0.0 loind.mobio.vn
 0.0.0.0 mobio.vn
 0.0.0.0 www.mobio.vn
+#[stats.vng.com.vn]
+0.0.0.0 bm.stats.vng.com.vn
+0.0.0.0 kpi.stats.vng.com.vn
+0.0.0.0 notebook.stats.vng.com.vn
+0.0.0.0 oss.stats.vng.com.vn
+0.0.0.0 sso.stats.vng.com.vn
+0.0.0.0 stats.vng.com.vn
 # --- Block adsVN ---
 0.0.0.0 5734a40f2d.vws.vegacdn.vn
 0.0.0.0 703531862.vws.vegacdn.vn
@@ -17114,6 +17128,7 @@
 0.0.0.0 awzbijw.com
 0.0.0.0 axdsz.pro
 0.0.0.0 axiomaticalley.com
+0.0.0.0 ay.delivery
 0.0.0.0 aylarl.com
 0.0.0.0 azoaltou.com
 0.0.0.0 b-1st.com
@@ -19048,7 +19063,6 @@
 0.0.0.0 server.iad.liveperson.net
 0.0.0.0 servethis.com
 0.0.0.0 service.cmp.oath.com
-0.0.0.0 servicelayer.king.com
 0.0.0.0 services.hearstmags.com
 0.0.0.0 servsave.com
 0.0.0.0 sessioncam.com
@@ -19824,7 +19838,6 @@
 0.0.0.0 acint.net
 0.0.0.0 adentify.com
 0.0.0.0 adj.st
-0.0.0.0 adtrack.king.com
 0.0.0.0 akuaba.chez.com
 0.0.0.0 analysis.polarisoffice.com
 0.0.0.0 analytics-au.clickdimensions.com
@@ -19863,9 +19876,11 @@
 0.0.0.0 analytics.posttv.com
 0.0.0.0 analytics.publitas.com
 0.0.0.0 analytics.samdd.me
+0.0.0.0 analytics.shift.agency
 0.0.0.0 analytics.siliconexpert.com
 0.0.0.0 analytics.similarweb.com
 0.0.0.0 analytics.swiggy.com
+0.0.0.0 analytics.youronlinechoices.com
 0.0.0.0 analytics.ziftsolutions.com
 0.0.0.0 analyticsapi.bsbportal.com
 0.0.0.0 android-stat.acestream.net
@@ -19967,10 +19982,8 @@
 0.0.0.0 ga.getresponse.com
 0.0.0.0 ga.kvideo.io
 0.0.0.0 geo.adobe.com
-0.0.0.0 geo2.adobe.com
 0.0.0.0 geoip.nekudo.com
 0.0.0.0 geoip.tnt-ea.com
-0.0.0.0 geolocation.onetrust.com
 0.0.0.0 getexceptional.com
 0.0.0.0 getsitecontrol.com
 0.0.0.0 glanceguide.com
@@ -20002,6 +20015,7 @@
 0.0.0.0 img.leadzutw.com
 0.0.0.0 imp.pvnsolutions.com
 0.0.0.0 inside-graph.com
+0.0.0.0 intake-analytics.wikimedia.org
 0.0.0.0 intent.cbsi.com
 0.0.0.0 invitejs.trustpilot.com
 0.0.0.0 invoca.net
@@ -20063,6 +20077,7 @@
 0.0.0.0 mobiletelemetry.ebay.com
 0.0.0.0 mon.toutiaocloud.com
 0.0.0.0 mon.toutiaocloud.net
+0.0.0.0 monitoring.youronlinechoices.com
 0.0.0.0 montacarichi.it
 0.0.0.0 mousestats.com
 0.0.0.0 movestone.net
@@ -20203,6 +20218,7 @@
 0.0.0.0 track.56txs4.com
 0.0.0.0 track.analytics-data.io
 0.0.0.0 track.datetrck.com
+0.0.0.0 track.easeus.com
 0.0.0.0 track.hubspot.com
 0.0.0.0 track.mobgc.com
 0.0.0.0 track.omg543.com
@@ -20217,6 +20233,7 @@
 0.0.0.0 tracker.vgame.us
 0.0.0.0 trackersimulator.org
 0.0.0.0 tracking-server-prod-1.zenmxapps.com
+0.0.0.0 tracking-user-behavior.meeyland.com
 0.0.0.0 tracking.adsrv.io
 0.0.0.0 tracking.bodis.com
 0.0.0.0 tracking.hubspot.com
