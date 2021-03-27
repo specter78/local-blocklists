@@ -1,8 +1,8 @@
-! Checksum: L+v9R7fskwNSobC5MwlG7w
+! Checksum: i4Lk7Zhcds1Xepr/ch+FRA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.18.52
-! TimeUpdated: 2021-03-26T00:03:08+03:00
+! Version: 2.0.18.56
+! TimeUpdated: 2021-03-26T21:30:21+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -208,6 +208,7 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||iad-*.braze.com^
 ||adpopcorn.com^
 ||pangle.io^
 ||pubnative.info^
@@ -2232,6 +2233,8 @@ deviantart.com#@#.mobile-ad
 ! https://forum.adguard.com/index.php?threads/10464/
 ||images-*.ssl-images-amazon.com/images/*/ape/sf/MAsf-*_.js
 !
+!+ NOT_OPTIMIZED
+pravda.com.ua##amp-iframe[src^="https://orbit4.lun.ua/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78374
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69965
 !+ NOT_OPTIMIZED
@@ -2276,6 +2279,9 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+goodhouse.ru##.a_-d-banner--mobile
+gamemag.ru##.top-branding
+ghacks.net##.box-banner
 indy100.com###sticky-footer-root
 m.sobaka.ru##.b-brand-banner
 m.sobaka.ru##.b-post-view__banner
@@ -2346,7 +2352,6 @@ ixbt.com##.br-mobile-pic
 anime.anidub.life##div[style*="width: 300px;  height: 300px;"]
 kanasoku.info##body > div[style^="width:320px; height:100px"]
 standard.co.uk###stickyFooterRoot
-pravda.com.ua##amp-iframe[src^="https://orbit4.lun.ua/"]
 pravda.com.ua##amp-embed[type="recreativ"]
 kutchkhabar.com##.advertise-horizontal-mobile
 ||smaero.jp/advimg/

@@ -1,8 +1,8 @@
-! Checksum: DdLZlw95eR210KgLxbDtqQ
+! Checksum: PwJ3GU20uS4KOGanSBCwWg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.22.27
-! TimeUpdated: 2021-03-26T01:31:33+03:00
+! Version: 2.0.22.32
+! TimeUpdated: 2021-03-27T00:31:28+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -221,6 +221,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||heymatic.com^$third-party
+||ad-log.dable.io^
 ||pensebig.com.br^$third-party
 ||suite*.linximpulse.net^$third-party
 ||retargeter.com.br^$third-party
@@ -10235,6 +10237,8 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/PhoenixGoogleAnalytics.min.js
+/.bootscripts/analytics.min.js
 /exactag_clientside.js
 /stats.php?*event=$image
 /hawkeye.js
@@ -10567,6 +10571,9 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
+||sailthru.com/horizon/track?*http$image,domain=bookriot.com
+||hubpages.com/ctracker/
+||owlcation.com/.bootscripts/hubPages*Tracker.min.js
 ||api.nvidia.partners/telemetry/
 ||static.hankyung.com/js/ga/googleTagManager.js
 ||hankyung.com/resource/js/w/view.gtmet.js
@@ -13104,6 +13111,12 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78548
+@@||a.klaviyo.com/media/js/onsite/onsite.js$domain=kravebeauty.com
+! owlcation.com - fixing video player
+@@||uid.mavencoalition.io/v$domain=owlcation.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/78169
+@@||calendar.naver.com/js/dist/lib/clickcr.js$domain=calendar.naver.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78301
 ||googletagmanager.com/gtm.js$script,xmlhttprequest,important,redirect=googletagmanager-gtm,domain=gazin.com.br
 @@||googletagmanager.com/gtm.js$domain=gazin.com.br
