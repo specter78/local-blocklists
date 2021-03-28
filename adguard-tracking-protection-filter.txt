@@ -1,8 +1,8 @@
-! Checksum: PwJ3GU20uS4KOGanSBCwWg
+! Checksum: JB/gBxfiqXtKwY0Zq6sW+w
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.22.32
-! TimeUpdated: 2021-03-27T00:31:28+03:00
+! Version: 2.0.22.33
+! TimeUpdated: 2021-03-27T14:31:32+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13111,6 +13111,8 @@ link.gmapp*.net$image
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/easylist/easylist/pull/7519
+@@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78548
 @@||a.klaviyo.com/media/js/onsite/onsite.js$domain=kravebeauty.com
 ! owlcation.com - fixing video player

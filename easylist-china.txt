@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: WWuAVfx/LnZPM2K8/qou0w
-! Version: 202103270452
+! Checksum: 8FeGWEuviR4hI8rSKCXFTg
+! Version: 202103280452
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 27 Mar 2021 04:52 UTC
+! Last Modified: 28 Mar 2021 04:52 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -7628,6 +7628,7 @@ _yad_jsonp_
 ||sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
 ||shandian.biz/wp-content/themes/inove/js/comment.js
 ||shang.hlgnet.com/code/
+||shangc.net/ipquery.ashx
 ||shangc.net/static/js/relate_news.js
 ||shangqun.com/webforms/embed/
 ||shangxueba.com/ask/images/woxiaoyun.jpg
@@ -8092,6 +8093,7 @@ _yad_jsonp_
 ||v4dwkcv.com/html/click/
 ||v5pc.com/static/images/dn
 ||vansky.com/agdg/homegg/
+||vansky.com/agdg/Individual/
 ||vansky.com/agdg/infoRight/
 ||vansky.com/agdg/middle/
 ||vansky.com/agdg/vans/*_top
@@ -8738,8 +8740,6 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||shangc.net/ipquery.ashx
-||vansky.com/agdg/Individual/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -16286,6 +16286,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||199zw.com^
 ||1pzskg.cn^
 ||1x26q3.cn^
+||20dcr.com/static/js/base.js
 ||215to.cn^
 ||2227q.com^
 ||23txt.com^$third-party
@@ -17767,6 +17768,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||u0r9.cn^
 ||u2c8.cn^
 ||u98ql6o.top^
+||uaevivi.top^
 ||ubt573.org^
 ||ububyiw6655.xyz^
 ||uc4a.cn^
