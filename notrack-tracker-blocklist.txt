@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 28 Mar 2021
-# LatestVersion 20.12
-# Domain Count: 15198
+# Updated: 30 Mar 2021
+#LatestVersion 21.03
+# Domain Count: 15184
 #===============================================================
 
 1-cl0ud.com #Lead Forensics - Tracker
@@ -353,6 +353,7 @@ affise.com #Affise - Tracker
 afftrack.com #AffTrack - Tracker
 afftrack.pro #AffTrack - Tracker
 aftv-serving.bid #Bebi - Advertising
+agafurretor.com #Unknown - Advertising
 agentanalytics.com #agentanalytics.com - Tracker
 agkn.com #Neustar - Tracker
 agreciet.eu #wrldtrck.com spam - Advertising
@@ -506,6 +507,7 @@ andmlb.kshwtj.com #Unknown - Advertising
 android-stat.acestream.net #Acestream.net - Tracker
 androidlog.ws.pho.to #pho.to - Tracker
 angorch-cdr7.com #Lead Forensics - Tracker
+aniview.com #Aniview - Advertising
 anm.co.uk #Associated Newspapers - Advertising
 anrdoezrs.net #Anrdoezrs - Tracker
 answerscloud.com #ForeSee - Tracker
@@ -959,12 +961,10 @@ crosspixel.net #Cross Pixel - Tracker
 crowdignite.com #Crowdignite - Tracker
 crsspxl.com #Cross Pixel - Tracker
 crtracklink.com #Unknown - Tracker
-crushads.com #bluTonic - Advertising
 crwdcntrl.net #Lotame - Advertising
 cspbuilder.info #Unknown - Tracker
 ctasnet.com #Unknown - Tracker
 ctd004.net #Experian - Advertising
-ctd005.net #Experian - Advertising
 cten10010.com #Lead Forensics - Tracker
 ctnsnet.com #Crimtan - Advertising
 ctscdn.com #Unknown - Tracker
@@ -1497,7 +1497,6 @@ hubtraffic.com #Hubspot - Tracker
 humarm.eu #wrldtrck.com spam - Advertising
 husearin.eu #wrldtrck.com spam - Advertising
 hxtrack.com #Unknown - Tracker
-i-transactads.com #Unknown - Advertising
 i10c.net #instartlogic - Advertising
 iadvize.com #iAdvize - Tracker
 iamtelemetrycollector.microsoft.com #Microsoft - Tracker
@@ -1650,7 +1649,6 @@ kiesdeals.eu #wrldtrck.com spam - Advertising
 kieseenvoordeeltje.eu #wrldtrck.com spam - Advertising
 kiessuperkorting.eu #wrldtrck.com spam - Advertising
 kiestopkorting.eu #wrldtrck.com spam - Advertising
-kimcurlrvsms.com #msales - Advertising
 kinaninglerophe.info #Unknown - Tracker
 kiosked.com #Unknown - Tracker
 kissmetrics.com #Unknown - Tracker
@@ -13666,7 +13664,6 @@ smetrics.ansible.com #Adobe - Tracker
 smetrics.antena3.com #Adobe - Tracker
 smetrics.anthem.com #Adobe - Tracker
 smetrics.apia.com.au #Adobe - Tracker
-smetrics.apolloplatform.com #Adobe - Tracker
 smetrics.apps.ge.com #Adobe - Tracker
 smetrics.argos.co.uk #Adobe - Tracker
 smetrics.argos.ie #Adobe - Tracker
@@ -13726,7 +13723,6 @@ smetrics.boehringer-ingelheim.com #Adobe - Tracker
 smetrics.boehringer-ingelheim.de #Adobe - Tracker
 smetrics.boehringer-ingelheim.it #Adobe - Tracker
 smetrics.boehringer-interaktiv.de #Adobe - Tracker
-smetrics.bondvigilantes.com #Adobe - Tracker
 smetrics.boozallen.com #Adobe - Tracker
 smetrics.boston.com #Adobe - Tracker
 smetrics.bostonglobe.com #Adobe - Tracker
@@ -13747,7 +13743,6 @@ smetrics.carphonewarehouse.com #Adobe - Tracker
 smetrics.cars.com #Adobe - Tracker
 smetrics.carters.com #Adobe - Tracker
 smetrics.cartersoshkosh.ca #Adobe - Tracker
-smetrics.caserexpatinsurance.com #Adobe - Tracker
 smetrics.casio-intl.com #Adobe - Tracker
 smetrics.casio.com #Adobe - Tracker
 smetrics.casio.jp #Adobe - Tracker
@@ -13831,7 +13826,6 @@ smetrics.doingbusiness.org #Adobe - Tracker
 smetrics.dominos.com #Adobe - Tracker
 smetrics.dryerventwizard.com #Adobe - Tracker
 smetrics.eastdane.com #Adobe - Tracker
-smetrics.ecmweb.com #Adobe - Tracker
 smetrics.edc.ca #Adobe - Tracker
 smetrics.eddiebauer.com #Adobe - Tracker
 smetrics.edge.ca #Adobe - Tracker
@@ -13890,8 +13884,6 @@ smetrics.foxnews.com #Foxnews.com - Tracker
 smetrics.fpl.com #Adobe - Tracker
 smetrics.frontier.com #Adobe - Tracker
 smetrics.frontline.com #Adobe - Tracker
-smetrics.frontline.fr #Adobe - Tracker
-smetrics.frontlinecanegatto.it #Adobe - Tracker
 smetrics.ftd.com #Adobe - Tracker
 smetrics.g-shock.com #Adobe - Tracker
 smetrics.gatesnotes.com #Adobe - Tracker
@@ -13932,7 +13924,6 @@ smetrics.herbalife.com #Adobe - Tracker
 smetrics.hillrom.com #Adobe - Tracker
 smetrics.hmhco.com #Adobe - Tracker
 smetrics.hollandamerica.com #Adobe - Tracker
-smetrics.hollisterco.cn #Adobe - Tracker
 smetrics.hollisterco.com #Adobe - Tracker
 smetrics.home.kpmg #Adobe - Tracker
 smetrics.homeadvisor.com #Adobe - Tracker
@@ -13981,12 +13972,10 @@ smetrics.jynarque.com #Adobe - Tracker
 smetrics.jynarquehcp.com #Adobe - Tracker
 smetrics.kaercher.com #Adobe - Tracker
 smetrics.kaiserpermanente.org #Adobe - Tracker
-smetrics.kanebo-cosmetics.co.jp #Adobe - Tracker
 smetrics.kanebo-cosmetics.jp #Adobe - Tracker
 smetrics.kanebo.com #Adobe - Tracker
 smetrics.kao.co.jp #Adobe - Tracker
 smetrics.kao.com #Adobe - Tracker
-smetrics.kaobeautybrands.com #Adobe - Tracker
 smetrics.kawai-juku.ac.jp #Adobe - Tracker
 smetrics.kay.com #Adobe - Tracker
 smetrics.kayosports.com.au #Adobe - Tracker
@@ -14000,7 +13989,6 @@ smetrics.kone.in #Adobe - Tracker
 smetrics.kone.it #Adobe - Tracker
 smetrics.kone.us #Adobe - Tracker
 smetrics.kpmg.us #Adobe - Tracker
-smetrics.krugerseed.com #Adobe - Tracker
 smetrics.labaie.com #Adobe - Tracker
 smetrics.lakeshorelearning.com #Adobe - Tracker
 smetrics.lakeside.com #Adobe - Tracker
@@ -14793,7 +14781,6 @@ track.sublytics-5be5edecc10bf.com #Sublytics - Tracker
 track.sublytics-5c671946c725e.com #Sublytics - Tracker
 track.sublytics-5caf966ded053.com #Sublytics - Tracker
 track.sublytics-5cffe909e69e6.com #Sublytics - Tracker
-track.sublytics-5d24d6515d46a.com #Sublytics - Tracker
 track.sublytics-5d6fc61ecbaab.com #Sublytics - Tracker
 track.sublytics-5dae180ba29aa.com #Sublytics - Tracker
 track.sublytics-5db9e5dd1b2c2.com #Sublytics - Tracker
@@ -14801,7 +14788,6 @@ track.sublytics-5db9fa0b5700f.com #Sublytics - Tracker
 track.sublytics-5df8eec4bca66.com #Sublytics - Tracker
 track.sublytics-5f04ec02ca223.com #Sublytics - Tracker
 track.sublytics-5faedd0b88cec.com #Sublytics - Tracker
-track.sublytics-5fbd3e32d31c2.com #Sublytics - Tracker
 track.sublytics-600afc6bd3e89.com #Sublytics - Tracker
 track.sublytics-602424689e430.com #Sublytics - Tracker
 track.sublytics-6047af68d60b9.com #Sublytics - Tracker
