@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 838VNGrKQHvJM8L7tKWj2w
-! Version: 202104010500
+! Checksum: wcTmVLKi2igFaWFdHQOXZw
+! Version: 202104020500
 ! Title: RU AdList
-! Last modified: 01 Apr 2021 05:00 UTC
+! Last modified: 02 Apr 2021 05:00 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -13908,6 +13908,7 @@ proglazki.com##.entry-content > table[border]
 zhzh.com.ua,zhzh.info#?#.entry-galery:-abp-has(> .entry-galery-title:-abp-contains(/полезное объявление|горячие новости/i))
 livejournal.com##.entry-wrap-promo
 irc.lv##.entry.b-form + .entry
+shazoo.ru##.entryContextHeader a[class][href][target="_blank"] > img[width="100%"]
 cpa.rip##.eriuue-content
 rating-avto.ru##.erm-sidebar-part.hs-shadow[id] > .textwidget
 reshebnik.com##.error-text
@@ -15780,6 +15781,7 @@ otvetkak.ru##.uk-panel-box.widget_text
 aflenses.net##.uk-width-8-10 > div[align][style*="width:"][style*="height:"]
 filmix.ac,filmix.buzz,filmix.cc,filmix.click,filmix.co,filmix.email,filmix.ink,filmix.ltd,filmix.online,filmix.site,filmix.today,filmix.wiki,filmix.zone##.ukr-sda
 gamer.ru##.under-back
+49000.com.ua##.under-menu-area
 kinoprofi.vip##.under-player
 66.ru##.underNewsAdb
 weacom.ru##.unicorn
@@ -17366,7 +17368,7 @@ kramola.info##div[class$="_size_240x400"]
 apple-russia.ru##div[class$="adv"]
 hdkinoteatr.com,hdkinoteatr3.net##div[class$="col"] > .side ~ .side + .sidebtm ~ *
 www.kinopoisk.ru##div[class$="g-kinopoisk-media"]
-tgstat.com,tgstat.ru##div[class$="scl"]
+tgstat.com,tgstat.ru##div[class$="stl"]
 cosmo.ru##div[class*="-banner-"]
 moskva.fm,piter.fm##div[class*="-branding-"] > a[target="_blank"]
 cq.ru##div[class*="-content"][class*="only"]
@@ -18129,7 +18131,6 @@ tglink.ru##header ~ section:last-child
 myzcloud.me,sims3pack.ru##header.st-flex
 myzcloud.me,sims3pack.ru##header.st-flex ~ *
 drlink.online##html > iframe[src="about:blank"]
-warthunder.ru##html[class*="landing"]
 4pda.ru##html[style] > body[style=";background-color:#E6E7E9!important"] [id][class] > .slider-list:nth-child(-n+5) + div[class]
 4pda.ru##html[style] > body[style=";background-color:#E6E7E9!important"] [id][class][style^="overflow: hidden; height:"] > div[class]:first-child
 4pda.ru##html[style] > body[style=";background-color:#E6E7E9!important"] [id][class][style^="overflow: hidden; height:"] > div[style*="display: block;"]
@@ -18699,7 +18700,6 @@ echo.msk.ru##div[id^="div-gpt-ad-"]
 ||vazhno.info^$csp=script-src 'self'
 ||vazhno.ru^$csp=script-src 'self'
 ||vseokrohe.ru^$csp=script-src 'self' * 'unsafe-inline' data:
-||warthunder.*free?*&r=$csp=sandbox allow-same-origin;
 ||windows-portal.pw/|$csp=script-src 'self' * blob: data:
 ||x-true.info^$csp=script-src 'self' * blob: data:
 ||yandex.ru^*blamper$csp=script-src 'self'
@@ -21852,7 +21852,7 @@ lada.kz/uploads/banners/
 ||webmasters.ru/forum/ltbanners/
 ||webpark.ru/*/mhealth
 ||webplus.info/getres.php?getadv=
-||websdr.space/yndnws
+||websdr.space/*n*w*s$subdocument
 ||webstat.torrent-rutor.org/
 ||webtun.com/uploads/files/
 ||wedlife.ru/b/
@@ -22765,7 +22765,8 @@ www.rambler.ru##a[href*="okko."]
 www.rambler.ru##div[id^="adfox"]
 www.rambler.ru##svg > defs + g
 www.rambler.ru##svg ~ img[src]
-www.rambler.ru#?##main div:-abp-has(> div[class]:not([id^="player-"]) > [style^="height:"] > div:first-child:last-child)
+www.rambler.ru#?#[data-focus-source] #main div:-abp-has(> div[class]:not([id^="player-"]) > [style^="height:"] > div:first-child:last-child)
+www.rambler.ru#?#html:not([data-focus-source]) div[class]:-abp-has(> div[style^="height:"] > div > div[style="display: block;"])
 ||audiosalute.lenta.ru/
 ||plista.com^$domain=wmj.ru
 ||ssp.rambler.ru^$domain=~ssp.rambler.ru

@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 01 Apr 2021 10:58 UTC+7
-# Version: 2104011058
-# Blocked: 17,476 domains
+# Last modified: 02 Apr 2021 11:27 UTC+7
+# Version: 2104021127
+# Blocked: 17,481 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -233,6 +233,7 @@
 0.0.0.0 c.microsoft.com
 0.0.0.0 self.events.data.microsoft.com
 0.0.0.0 statsfe2.ws.microsoft.com
+#[vortex.data.microsoft.com]
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 web.vortex.data.microsoft.com
 #[live.com]
@@ -283,38 +284,39 @@
 0.0.0.0 view.atdmt.com
 0.0.0.0 www.atdmt.com
 #[msn.com]
-0.0.0.0 a.ads1.msn.com
-0.0.0.0 a.ads2.msn.com
-0.0.0.0 a.rad.msn.com
 0.0.0.0 adevents.msn.com
-0.0.0.0 ads.eu.msn.com
 0.0.0.0 ads.msn.com
-0.0.0.0 ads1.jp.msn.com
-0.0.0.0 ads1.msn.com
-0.0.0.0 ads2.msn.com
-0.0.0.0 adsyndication.msn.com
-0.0.0.0 advertising.jp.msn.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 analytics.msnbc.msn.com
-0.0.0.0 analytics.r.msn.com
-0.0.0.0 b.ads1.msn.com
-0.0.0.0 b.ads2.msn.com
-0.0.0.0 blu.mobileads.msn.com
 0.0.0.0 browser.events.data.msn.com
 0.0.0.0 c.msn.com
+0.0.0.0 popup.msn.com
+0.0.0.0 rads.msn.com
+0.0.0.0 rmads.msn.com
+0.0.0.0 sam.msn.com
+0.0.0.0 srtb.msn.com
+0.0.0.0 udc.msn.com
+#[ads1.msn.com]
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 ads1.msn.com
+0.0.0.0 b.ads1.msn.com
+#[ads2.msn.com]
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 ads2.msn.com
+0.0.0.0 b.ads2.msn.com
+#[adsyndication.msn.com]
+0.0.0.0 adsyndication.msn.com
+0.0.0.0 images-ppe.adsyndication.msn.com
+0.0.0.0 images.adsyndication.msn.com
+#[mobileads.msn.com]
+0.0.0.0 blu.mobileads.msn.com
 0.0.0.0 col.mobileads.msn.com
 0.0.0.0 dub.mobileads.msn.com
-0.0.0.0 images.adsyndication.msn.com
 0.0.0.0 mobileads.msn.com
-0.0.0.0 msnbcmedia.msn.com
-0.0.0.0 partner.video.syndication.msn.com
-0.0.0.0 popup.msn.com
-0.0.0.0 rad.msn.com
-0.0.0.0 rads.msn.com
-0.0.0.0 redirection.prod.cms.msn.com
-0.0.0.0 rmads.eu.msn.com
-0.0.0.0 rmads.msn.com
-0.0.0.0 tracking.msadcenter.msn.com
+#[r.msn.com]
+0.0.0.0 analytics.r.msn.com
+0.0.0.0 bat.r.msn.com
+0.0.0.0 r.msn.com
 #[bing.com]
 0.0.0.0 ads.bing.com
 0.0.0.0 adserver.bing.com
@@ -11449,6 +11451,7 @@
 0.0.0.0 mon-hl.snssdk.com
 0.0.0.0 mon.snssdk.com
 0.0.0.0 rtlog.snssdk.com
+0.0.0.0 smr.snssdk.com
 0.0.0.0 xlog.snssdk.com
 #[amemv.com]
 0.0.0.0 log3-misc-hl.amemv.com
@@ -11518,6 +11521,7 @@
 0.0.0.0 als.baidu.com
 0.0.0.0 bzclk.baidu.com
 0.0.0.0 caclick.baidu.com
+0.0.0.0 dxp.baidu.com
 0.0.0.0 eclick.baidu.com
 0.0.0.0 fclog.baidu.com
 0.0.0.0 fxgate.baidu.com
@@ -11527,6 +11531,7 @@
 0.0.0.0 mobads-logs.baidu.com
 0.0.0.0 nsclick.baidu.com
 0.0.0.0 plugin.mobopay.baidu.com
+0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 sclick.baidu.com
 0.0.0.0 usp1.baidu.com
 0.0.0.0 wkclick.baidu.com
@@ -12367,6 +12372,11 @@
 0.0.0.0 ctv.adelement.com
 0.0.0.0 sc.adelement.com
 0.0.0.0 st.adelement.com
+#[ironsrc.com]
+0.0.0.0 api.ironsrc.com
+0.0.0.0 ironsrc.com
+0.0.0.0 platform.ironsrc.com
+0.0.0.0 www.ironsrc.com
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -14304,6 +14314,7 @@
 0.0.0.0 999.money
 0.0.0.0 a.consumer.net
 0.0.0.0 a.mktw.net
+0.0.0.0 a.photowonder.net
 0.0.0.0 a.rigelink.com
 0.0.0.0 a.sakh.com
 0.0.0.0 a.xanga.com
@@ -15281,7 +15292,6 @@
 0.0.0.0 apture.com
 0.0.0.0 apusx.com
 0.0.0.0 aquaticowl.com
-0.0.0.0 arc1.msn.com
 0.0.0.0 arcadebanners.com
 0.0.0.0 architectzerosum.com
 0.0.0.0 archswimming.com
@@ -17287,6 +17297,7 @@
 0.0.0.0 sextracker.com
 0.0.0.0 sexystat.com
 0.0.0.0 sezwho.com
+0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com
 0.0.0.0 shakesea.com
 0.0.0.0 shakesuggestion.com
 0.0.0.0 shakytaste.com
@@ -18166,6 +18177,7 @@
 0.0.0.0 databerries.com
 0.0.0.0 distillery.wistia.com
 0.0.0.0 dlog.hiido.com
+0.0.0.0 dm.bytedance.com
 0.0.0.0 dm.gg
 0.0.0.0 dm599.com
 0.0.0.0 dmxleo.com
@@ -18347,7 +18359,6 @@
 0.0.0.0 prooffactor.com
 0.0.0.0 propeller-tracking.com
 0.0.0.0 protostats.bigo.sg
-0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 pv.pjtsu.com
 0.0.0.0 pv.sohu.com
 0.0.0.0 px.redgifs.com
@@ -18412,6 +18423,7 @@
 0.0.0.0 static.leaddyno.com
 0.0.0.0 stats.apester.com
 0.0.0.0 stats.betradar.com
+0.0.0.0 stats.popcap.com
 0.0.0.0 stats.pusher.com
 0.0.0.0 stats.searchftps.net
 0.0.0.0 stats.unlimapps.com
