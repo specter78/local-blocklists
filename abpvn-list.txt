@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 02 Apr 2021 11:27 UTC+7
+# Updated: 02 Apr 2021 13:38 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -13300,6 +13300,7 @@
 0.0.0.0 monitor.isnssdk.com
 0.0.0.0 rtlog.isnssdk.com
 #[snssdk.com]
+0.0.0.0 bds.snssdk.com
 0.0.0.0 ichannel.snssdk.com
 0.0.0.0 log-hl.snssdk.com
 0.0.0.0 log-lq.snssdk.com
@@ -19154,6 +19155,7 @@
 0.0.0.0 sexystat.com
 0.0.0.0 sezwho.com
 0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com
+0.0.0.0 sf3-ttcdn-tos.pstatp.com
 0.0.0.0 shakesea.com
 0.0.0.0 shakesuggestion.com
 0.0.0.0 shakytaste.com

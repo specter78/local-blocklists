@@ -1,8 +1,8 @@
-! Checksum: TN3TGzePu7Z3LtF89Odhog
+! Checksum: y66zaOjcLyvkCD/YIXmvXw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.18.67
-! TimeUpdated: 2021-04-01T19:30:32+03:00
+! Version: 2.0.18.73
+! TimeUpdated: 2021-04-02T22:30:18+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1733,6 +1733,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/78062
+teleprogramma.pro#$#div[class^="yt-w amp-wp-inline-"] { padding-top: inherit !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78598
 m.economictimes.com#$##btmNav { min-height: unset !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70505
@@ -2282,8 +2284,12 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+sportmail.ru##.wrapper_banner
+glavred.info##amp-iframe[src^="https://html.redtram.com/"]
+m.habr.com##.tm-projects-blocks_courses
 gizbot.com##.ads-mobi-block
 m.nate.com###ad_mid
+||m.soxscc.net/wsc/los.*.js
 amp.theguardian.com##div[id^="ad-"]
 m.economictimes.com##.mrecSlot
 m.economictimes.com###error_msg + div[class] > div[class]:empty
