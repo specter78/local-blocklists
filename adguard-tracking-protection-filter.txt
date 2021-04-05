@@ -1,8 +1,8 @@
-! Checksum: tyo0nX0WJdKeKQumOF9APg
+! Checksum: yR+J4t97cUoiSLpYpUVTcw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.22.63
-! TimeUpdated: 2021-04-03T02:31:26+03:00
+! Version: 2.0.22.65
+! TimeUpdated: 2021-04-04T14:31:25+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -13627,6 +13627,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||st-hatena.com/valve/
 ||app.carnow.com/dealers/track_visitor
 ||app.carnow.com/dealers/visitor_info?
 ||hondacarsrockhill.com/pixall/pix-ddc-fp.min.js
@@ -16466,8 +16467,9 @@ nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm
 @@||mc.yandex.ru/metrika/tag.js$domain=lk.gosuslugi.ru
 ! https://forum.adguard.com/index.php?threads/piano-io-tinypass-com.39875/
 @@||googletagmanager.com/gtm.js$domain=thecompanion.app
+! https://github.com/AdguardTeam/AdguardFilters/issues/79410
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63801
-@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|lexus.jp|peachjohn.co.jp|rtoaster.com|rurubu.jp|shop.hikaritv.net
+@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|lexus.jp|peachjohn.co.jp|rtoaster.com|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63828#issuecomment-693360254
 @@||googletagmanager.com/gtm.js$domain=sport1.de
 ! https://github.com/uBlockOrigin/uAssets/issues/7899
