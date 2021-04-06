@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202104050422
+! Version: 202104060418
 ! Title: EasyPrivacy
-! Last modified: 05 Apr 2021 04:22 UTC
+! Last modified: 06 Apr 2021 04:18 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2907,6 +2907,7 @@
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
+/MetricsAjax^
 /metricsISCS.
 /metrika/*&ident=
 /metrika/*?ident=
@@ -14221,6 +14222,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gak.webtoons.com^
 ||galleries.bz/track/
 ||gallup.wn.com/1x1.gif
+||gamedistribution.com/collect?
 ||gamefront.com/wp-content/plugins/tracker/
 ||gamerdeals.net/aggbug.aspx
 ||gamesgames.com/WebAnalysis/

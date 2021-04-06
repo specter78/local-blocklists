@@ -1,6 +1,6 @@
 # Title: Lightswitch05's tracking-aggressive-extended.txt
-# Released: 2021-04-05T01:05:20+00:00
-# Count: 42297 domains
+# Released: 2021-04-06T01:05:19+00:00
+# Count: 42305 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
@@ -25,10 +25,7 @@
 0.0.0.0 querysuggestions-int.api.cortana.ai
 0.0.0.0 certdojoameonmstenant.cortana.ai
 0.0.0.0 dev.cortana.ai
-0.0.0.0 localdebug.uxo.dev.cortana.ai
 0.0.0.0 westus1.dev.cortana.ai
-0.0.0.0 hybridsearchskill.cortana.ai
-0.0.0.0 tokenencrypt.hybridsearchskill.cortana.ai
 0.0.0.0 internal.cortana.ai
 0.0.0.0 dev.internal.cortana.ai
 0.0.0.0 msit.cortana.ai
@@ -3511,7 +3508,6 @@
 0.0.0.0 docs.code.exacttarget.com
 0.0.0.0 content.exacttarget.com
 0.0.0.0 cotweet.exacttarget.com
-0.0.0.0 api.dc1.exacttarget.com
 0.0.0.0 temp-api.dc1.exacttarget.com
 0.0.0.0 api.dc2.exacttarget.com
 0.0.0.0 dev.exacttarget.com
@@ -5013,17 +5009,28 @@
 0.0.0.0 cloud01-hetzner.icanhazip.com
 0.0.0.0 dedi3.de.icanhazip.com
 0.0.0.0 dedi4.de.icanhazip.com
+0.0.0.0 dfw.icanhazip.com
 0.0.0.0 forum.icanhazip.com
+0.0.0.0 hetzner-1.icanhazip.com
 0.0.0.0 hetzner-2.icanhazip.com
+0.0.0.0 iad.icanhazip.com
 0.0.0.0 icanhazip-dfw-1.icanhazip.com
 0.0.0.0 icanhazip-iad-1.icanhazip.com
+0.0.0.0 ip.icanhazip.com
 0.0.0.0 ip4.icanhazip.com
 0.0.0.0 ip6.icanhazip.com
 0.0.0.0 ipv.icanhazip.com
 0.0.0.0 ipv4.icanhazip.com
 0.0.0.0 ipv6.icanhazip.com
 0.0.0.0 ipva.icanhazip.com
+0.0.0.0 ipva4.icanhazip.com
+0.0.0.0 ipvr.icanhazip.com
+0.0.0.0 lax.icanhazip.com
+0.0.0.0 mia.icanhazip.com
 0.0.0.0 ord.icanhazip.com
+0.0.0.0 packet-ewr.icanhazip.com
+0.0.0.0 packet-sjc.icanhazip.com
+0.0.0.0 packet-sjc2.icanhazip.com
 0.0.0.0 pv4.icanhazip.com
 0.0.0.0 shared.icanhazip.com
 0.0.0.0 status.icanhazip.com
@@ -5031,8 +5038,11 @@
 0.0.0.0 v4.icanhazip.com
 0.0.0.0 v6.icanhazip.com
 0.0.0.0 ww.w.icanhazip.com
+0.0.0.0 ww.icanhazip.com
 0.0.0.0 www.icanhazip.com
 0.0.0.0 www6.icanhazip.com
+0.0.0.0 wwww.icanhazip.com
+0.0.0.0 y.icanhazip.com
 0.0.0.0 gameplayapi.intel.com
 0.0.0.0 intercomcdn.com
 0.0.0.0 billing-internal.intercomcdn.com
@@ -36511,7 +36521,6 @@
 0.0.0.0 siabc.duckdns.org
 0.0.0.0 siargey.duckdns.org
 0.0.0.0 sibfam.duckdns.org
-0.0.0.0 sibiryby.duckdns.org
 0.0.0.0 pass.sibuser.duckdns.org
 0.0.0.0 sicarioserver.duckdns.org
 0.0.0.0 sickbuttons.duckdns.org
@@ -36684,7 +36693,6 @@
 0.0.0.0 sjoerd.duckdns.org
 0.0.0.0 sjolander.duckdns.org
 0.0.0.0 sjoon.duckdns.org
-0.0.0.0 sjrd.duckdns.org
 0.0.0.0 sjt.duckdns.org
 0.0.0.0 sjusjoenhytta.duckdns.org
 0.0.0.0 sjva-ryanjin.duckdns.org
