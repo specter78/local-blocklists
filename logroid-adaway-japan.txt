@@ -5,8 +5,8 @@
 #         http://logroid.blogspot.jp/
 #         https://twitter.com/logroid
 #
-# last updated: 2021/03/20
-# block hosts: 31230 entry
+# last updated: 2021/04/07
+# block hosts: 31234 entry
 
 # 000webhost.com
 127.0.0.1 err.000webhost.com
@@ -4011,6 +4011,9 @@
 # ad-cross.co.kr
 127.0.0.1 web.ad-cross.co.kr
 
+# ad-fam.com
+127.0.0.1 ad-fam.com
+
 # ad-feed.com
 127.0.0.1 ad-feed.com
 127.0.0.1 ap.ad-feed.com
@@ -4034,6 +4037,9 @@
 # ad-groups.com
 127.0.0.1 ad-groups.com
 127.0.0.1 www.ad-groups.com
+
+# ad-hatena.com
+127.0.0.1 ad-hatena.com
 
 # ad-hatena.jp
 127.0.0.1 ad-hatena.jp
@@ -5999,6 +6005,9 @@
 
 # ads-links.com
 127.0.0.1 ads-links.com
+
+# ads-lite.net
+127.0.0.1 ads-lite.net
 
 # ads-redirect.com
 127.0.0.1 ads-redirect.com
@@ -11749,7 +11758,6 @@
 
 # blogspot.com
 127.0.0.1 pcbutts1-therealtruth.blogspot.com
-127.0.0.1 sundayomg.blogspot.com
 
 # blogsys.jp
 127.0.0.1 richlink.blogsys.jp
@@ -15541,6 +15549,9 @@
 # conficker.name
 127.0.0.1 www.conficker.name
 
+# congrab.com
+127.0.0.1 congrab.com
+
 # conmio.com
 127.0.0.1 analytics.conmio.com
 
@@ -17213,6 +17224,9 @@
 
 # denverpost.com
 127.0.0.1 ad1.denverpost.com
+
+# dep.tc
+127.0.0.1 dep.tc
 
 # depilflash.tv
 127.0.0.1 depilflash.tv
@@ -19487,6 +19501,9 @@
 # eisenstein.dk
 127.0.0.1 eisenstein.dk
 
+# eisys-bcs.jp
+127.0.0.1 eisys-bcs.jp
+
 # ejmx.com
 127.0.0.1 www.ejmx.com
 
@@ -20890,6 +20907,9 @@
 
 # expatinbulgaria.com
 127.0.0.1 ads.expatinbulgaria.com
+
+# expaus.in
+127.0.0.1 affiliates.expaus.in
 
 # expedia.com
 127.0.0.1 admedia.expedia.com
@@ -23511,6 +23531,9 @@
 
 # gcnpublishing.com
 127.0.0.1 haymarket-adserver.gcnpublishing.com
+
+# gcolle.net
+127.0.0.1 blogparts.gcolle.net
 
 # gcounter.cn
 127.0.0.1 gcounter.cn
@@ -31951,6 +31974,9 @@
 127.0.0.1 cps.kongzhong.com
 127.0.0.1 em.kongzhong.com
 
+# konibet.com
+127.0.0.1 affiliate.konibet.com
+
 # kontaktanzeigen-fotos.de
 127.0.0.1 kontaktanzeigen-fotos.de
 
@@ -35796,7 +35822,6 @@
 127.0.0.1 www.mm26.com
 
 # mmaaxx.com
-127.0.0.1 mmaaxx.com
 127.0.0.1 www.mmaaxx.com
 
 # mmania.com
@@ -41961,9 +41986,6 @@
 127.0.0.1 plugrush.com
 127.0.0.1 pu.plugrush.com
 127.0.0.1 widget.plugrush.com
-
-# plus-a.net
-127.0.0.1 ad.plus-a.net
 
 # plus.net
 127.0.0.1 webstats.plus.net
@@ -51617,6 +51639,9 @@
 # torbit.com
 127.0.0.1 insight.torbit.com
 
+# torimochi-ad.net
+127.0.0.1 torimochi-ad.net
+
 # toronto.com
 127.0.0.1 ads.toronto.com
 127.0.0.1 oas.toronto.com
@@ -52365,9 +52390,6 @@
 127.0.0.1 media.travelzoo.com
 127.0.0.1 media2.travelzoo.com
 127.0.0.1 oascentral.travelzoo.com
-
-# travian.jp
-127.0.0.1 travian.jp
 
 # traviangames.com
 127.0.0.1 tracking.traviangames.com
@@ -56256,7 +56278,6 @@
 127.0.0.1 www.x-counter.org
 
 # x-lift.jp
-127.0.0.1 cdn.x-lift.jp
 127.0.0.1 x-lift.jp
 
 # x-park.net
@@ -56971,7 +56992,6 @@
 
 # yahooapis.jp
 127.0.0.1 aag.yahooapis.jp
-127.0.0.1 entrypoint.search.yahooapis.jp
 
 # yakbucks.com
 127.0.0.1 counter.yakbucks.com
