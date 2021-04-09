@@ -1,8 +1,8 @@
-! Checksum: 1iFHX8NTCl2T97z2eyVqBQ
+! Checksum: eLaAzhvUlYsLZP+gZyrMwA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.22.87
-! TimeUpdated: 2021-04-07T21:31:39+03:00
+! Version: 2.0.22.92
+! TimeUpdated: 2021-04-08T17:31:36+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -221,6 +221,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||pointmediatracker.com^$third-party
 ||c-api-bit.shopeemobile.com^$third-party
 ||sp.dpgmedia.net^$third-party
 ||beak.bigdata.dpgmmservices.nl^$third-party
@@ -2956,6 +2957,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||sysomos.com^$third-party
 ||t-analytics.com^$third-party
 ||t4ft.de^$third-party
+||taboola.com.cn^$third-party
 ||taboola.com^$third-party
 ||tag4arm.com^$third-party
 ||tagsrvcs.com^$third-party
@@ -13646,6 +13648,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||analytics.google.com/g/collect?v=
+||google.*/ads/ga-audiences$image
 ||mcrypto.club/track
 ||stats.autoscout24.ch/tp.gif
 ||codeproject.com/a.min.js
@@ -13661,6 +13665,7 @@ _tracking.php?b=
 ||hondacarsrockhill.com/pixall/pix-ddc-fp.min.js
 ||servebom.com/event.js
 ||content.viralize.tv/track/
+/track-internal-links.js$domain=balkangunlugu.com.tr
 ||tv-tokyo.co.jp/index/scatalyst/
 ||reach-id.orbit.tm-awx.com/analytics.js.gz
 ||kmib.co.kr/NetInsight/trace/track
@@ -15700,6 +15705,9 @@ link.gmapp*.net$image
 !---- Generic rules -----------
 !------------------------------
 !
+! https://www.parse.ly/
+$cookie=_parsely_visitor
+$cookie=_parsely_session
 ! Tealium Universal tag
 $cookie=utag_main
 !-------------------------------------------------------------------------------!
@@ -16242,6 +16250,9 @@ $cookie=utag_main
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/79392
+@@||mcs.snssdk.com/*/user/webid$domain=lv.ulikecam.com
+@@||i.snssdk.com/log/sentry/$domain=lv.ulikecam.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78785
 @@||googletagmanager.com/gtm.js$domain=gratis.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79082
