@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4QYD4gpiyUtG0Fbt2OtRNg
-! Version: 202104100500
+! Checksum: DVmX2KDSHVe9chdVyNl6AQ
+! Version: 202104110500
 ! Title: RU AdList
-! Last modified: 10 Apr 2021 05:00 UTC
+! Last modified: 11 Apr 2021 05:00 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -3616,6 +3616,7 @@ _tizers.
 ||teaser2go.com^
 ||teasercode.net^
 ||teasergate.com^
+||techdigest.ru/?ad&$third-party
 ||teeser.ru^
 ||tehnoklad.ru^$third-party
 ||telderi.ru/img/banners/
@@ -11784,6 +11785,7 @@ sql-tutorial.ru###container > div[style] > script + style ~ ul
 tophotels.ru###container > span[id^="advbroker_place_"]
 agilerussia.ru###container > style + ul[class]
 kosmetista.ru###content > .b-under-menu
+sport-tv.by#?##content > .block:-abp-has(a[href][target="_blank"] > img)
 superhumor.ru,voffka.com###content > .blog
 kak-prosto.net###content > .container
 rz.com.ua###content > .container > #page-header
@@ -12457,7 +12459,7 @@ happy-hack.ru#?##side_right > .block_r > .block_r_h:-abp-contains(Реклама
 finobzor.ru,politobzor.net,vsluh.net,warfiles.ru###sidebar
 wikianime.tv###sidebar .section[style="padding-top: 20px;"]
 servers-rust.ru#?##sidebar .toggled:-abp-has(> .mob_quad_banner)
-kakbog.com,kulinarnayamozaika.ru###sidebar .widget_text
+kakbog.com,kulinarnayamozaika.ru,z-city.com.ua###sidebar .widget_text
 remontcompa.ru###sidebar .yashare-auto-init ~ :not(em)
 dokonline.com###sidebar > #Counters ~ .block:not([id])
 oddstyle.ru###sidebar > #boxes
@@ -12939,7 +12941,7 @@ apostrophe.ua##.advertinline
 np.pl.ua,soft-i-kino.ru##.advertise
 almodi.org,fightnews.info,kun.uz,liveinternet.ru##.advertisement
 agroportal.ua##.advertisement_side
-diary.ru,fireman.club,kanalukraina.tv,pershij.com.ua,prostoprosport.ru,qrz.ru,ufanet.ru,vsenovostroyki.com.ua##.advertising
+diary.ru,fireman.club,kanalukraina.tv,pershij.com.ua,prostoprosport.ru,qrz.ru,stroyobzor.ua,ufanet.ru,vsenovostroyki.com.ua##.advertising
 podolsk.ru##.advertising > span.title
 minfin.com.ua##.advertising-caption
 infotime.co##.advertising-heading
@@ -12972,7 +12974,6 @@ gamer.ru##.alarmalarm-backtop
 promtu.ru,x-raydoctor.ru##.alert
 rt02.ru##.alibut
 the-clu.com##.alignnone[width="300"][height="300"]
-stroyobzor.ua##.alignright
 inopressa.ru##.alignright div[style^="height"]
 minfin.com.ua#?#.all-news > .items > .item:-abp-has(> div > [data-bn-slot])
 vringe.com##.all_news_partners
@@ -12997,6 +12998,7 @@ luxurynet.ru##.artbannersplus
 newsoboz.org##.articl_center > noindex
 golovna.com.ua##.article > .article__sidebar ~ .article__sidebar
 penzadoctor.ru##.article-banner
+techdigest.ru##.article-banner-side
 playua.net##.article-comments > .row > div[class] + div[class]
 mk.ru#?#.article-footer > div:-abp-has(> script:-abp-contains(blockId))
 mmorpg.su##.article-free
@@ -13234,7 +13236,7 @@ hh.ru,nevasport.ru,tut.by,vesti.kz##.banner-place
 sdelanounas.ru##.banner-post
 agroter.com.ua##.banner-promotions-wrapper
 profi-forex.org,vl.ru##.banner-right
-dfm.ru##.banner-section
+dfm.ru,stroyobzor.ua##.banner-section
 aum.news,kinoprofi.vip##.banner-sidebar
 trud.com##.banner-systems-container
 kievvlast.com.ua##.banner-target
@@ -13373,6 +13375,7 @@ kmory.ru##.bgcolortr > td[style*="padding-right"] *
 gre4ka.info##.bgroup
 sheensay.ru##.bgt_top
 ntr-24.ru,servers-rust.ru##.big_banner
+techdigest.ru##.billboard-banner
 post-tracker.ru##.bimage
 glav.su##.bl-ad-m
 sergeistrelec.ru#?#.bl0:-abp-has(div:-abp-contains(/блок|израил|предложение|реклама|bitcoin/i))
@@ -13408,6 +13411,7 @@ mover.uz##.block-info-vertical
 readovka.ru##.block-mediametrics
 lovitut.ru##.block-reklamo_rotator
 sntch.com##.block-relap
+stroyobzor.ua##.block-so-banners
 sntch.com##.block-superwidget
 konstruktortestov.ru#?#.block-test:-abp-has(#marketAttractive)
 konstruktortestov.ru#?#.block-test:-abp-has(#vid_vpaut_div)
@@ -13418,6 +13422,7 @@ bogmedia.org,rusporno.vip##.block-video > .table
 processer.media##.block-wrap-da
 zh24.com##.block.elite
 sotniktv.org##.block12 > a[target="_blank"]
+sport-tv.by#?#.block:-abp-has(.adsbygoogle)
 uniongang.net,uniongang.org#?#.block:-abp-has(> .block-title:-abp-contains(/Интересное|Наши друзья|Реклама|Сидбокс|MARKETGID/))
 euro-football.ru#?#.block:-abp-has(> .block__title ~ .block__content [data-relap-id])
 sunsurv.ru##.blockBottom
@@ -15362,6 +15367,7 @@ headphone-review.ru##.sidebar .widget_text
 pc-aio.ru##.sidebar > #HTML2
 yummyanime.club##.sidebar > #filter-block + .sidebar-block + .sidebar-block
 vesti.uz##.sidebar > .adv ~ *
+sport-tv.by#?#.sidebar > .block:-abp-has(a[href][target="_blank"] > img)
 webtun.com##.sidebar > .dcont
 wikiwolrd.com##.sidebar > .flying
 freehd.com.ua,hdreactor.club,hdreactor.su#?#.sidebar > .menu-head:-abp-contains(Реклама)
@@ -17874,7 +17880,6 @@ myjane.ru,stranamam.ru##div[id^="beta_place_"]
 list-org.com##div[id^="bl1"]
 donpress.com##div[id^="block-advertblock"]
 ko.com.ua##div[id^="block-banner"]
-sport-tv.by##div[id^="block-block"] #swiffycontainer
 newsroom.kh.ua##div[id^="block-nodeblock"]
 dpchas.com.ua##div[id^="block-reklama"]
 kharkov.info##div[id^="block-views-banner"]
@@ -20885,6 +20890,7 @@ lada.kz/uploads/banners/
 ||ogemorroe.com/wp-content/plugins/boxzilla/
 ||ogolosha.ua^*/bs/banner/
 ||oilpoint.com.ua/wp-content/banner/
+||ok-magazine.ru/*/partner-news-json.js
 ||oka.fm/284
 ||old-games.ru/img/b/
 ||old.businessmens.ru/bnr/
@@ -21540,7 +21546,7 @@ lada.kz/uploads/banners/
 ||strm.yandex.ru^$domain=1tv.ru|karaoke.ru|mediavitrina.ru
 ||stroitel-lab.ru/js_content/
 ||stroy-podskazka.ru/adfallback/
-||stroyobzor.ua/assets/files/bins/*.gif$image
+||stroyobzor.ua/sites/default/files/styles/banner_$image
 ||stroyvitrina.ru/_a_images/
 ||studepedia.org/img/enduro.
 ||studmed.ru/static/js/chat.js
@@ -24059,6 +24065,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||amgload.net/|$third-party,xmlhttprequest
 @@||an.yandex.ru/adfox/$xmlhttprequest,domain=shop.kp.ru
 @@||an.yandex.ru/crossdomain.xml
+@@||an.yandex.ru/system/adfox.js|$script,domain=www.ok-magazine.ru
 @@||an.yandex.ru/system/video-ads-sdk/adsdk.js|$script,domain=5-tv.ru|armdb.org|gisher.org|peers.tv
 @@||an.yandex.ru/vcset/139995?*&client_type=flash
 @@||andpro.ru^*/display_adapter.$image,domain=andpro.ru

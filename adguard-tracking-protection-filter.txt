@@ -1,8 +1,8 @@
-! Checksum: BFhzNzbcX3YzrkwVn4n5xg
+! Checksum: MMbreZ+v7g6vhsExYRWPLw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.22.95
-! TimeUpdated: 2021-04-10T00:03:56+03:00
+! Version: 2.0.22.98
+! TimeUpdated: 2021-04-10T22:31:20+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -221,6 +221,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||t.rainide.com^
 ||durationmedia.net^$third-party
 ||stats.myangular.life^
 ||pointmediatracker.com^$third-party
@@ -13650,6 +13651,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||s.cdin.me/i.php
+||ui-portal.de/pos-cdn/tracklib/
+||ui-portal.de/prompt/permission/latest/tracking.min.js
 ||analytics.google.com/g/collect?v=
 ||google.*/ads/ga-audiences?v=
 ||mcrypto.club/track
@@ -13711,6 +13715,7 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||ads-partners.coupang.com/log/
 ||lazimbana.com/product/hit-increment/
 ||pla.naver.com/log/
+/universal_analytics.$domain=foerde-sparkasse.de
 /AppMeasurement.js$domain=channel4.com
 /AppMeasurement_Module_ActivityMap.js$domain=channel4.com
 ||gold.contentsfeed.com/lb/sd/nw$domain=sportsseoul.com
@@ -16252,6 +16257,9 @@ $cookie=utag_main
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/80076
+! https://github.com/AdguardTeam/AdguardFilters/issues/80074
+@@||cdn.pool.st-hatena.com/valve/valve.js$domain=shonenmagazine.com|shonenjumpplus.com
 ! nnn.de - broken registration
 @@||track.nnn.de/cre-*/tracking/tracking.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79392
