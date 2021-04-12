@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 01 Apr 2021
+# Updated: 11 Apr 2021
 #LatestVersion 21.03
-# Domain Count: 15184
+# Domain Count: 15203
 #===============================================================
 
 1-cl0ud.com #Lead Forensics - Tracker
@@ -254,6 +254,7 @@ ads.nordcurrent.com #nordcurrent.com - Advertising
 ads.samba.tv #Samba - Advertising
 ads.sedemosmi.tv #sedemosmi.tv - Advertising
 ads.superawesome.tv #SuperAwesome Kids - Advertising
+ads.thesun.co.uk #thesun.co.uk - Advertising
 ads.thetimes.co.uk #thetimes.co.uk - Advertising
 ads.tutotoons.com #tutotoons.com - Advertising
 ads.twitter.com #Twitter - Advertising
@@ -811,6 +812,7 @@ clear-reports.com #ClearReports - Tracker
 clearcode.cc #Custom AdTech - Advertising
 clevernt.com #HSTPNetwork - Advertising
 clic2buy.com #Click2Buy - Tracker
+click.email.microsoftonline.com #Microsoft - Tracker
 click.emails-comparethemarket.com #Compare The Market - Tracker
 click.justwatch.com #Justwatch.Com - Tracker
 click.mail.is24.at #Is24.At - Tracker
@@ -1029,6 +1031,7 @@ deployads.com #Unknown - Advertising
 deradigh.eu #wrldtrck.com spam - Advertising
 detectorvenomouscutlery.com #Unknown - Advertising
 detmir-stats.ru #Grafana - Tracker
+devaccess.easy4ipcloud.com #easy4ipcloud.com - Advertising
 device-metrics-us.amazon.com #Amazon - Tracker
 deviceidshare.twitch.tv #Twitch - Tracker
 devnxs.net #AppNexus Inc - Tracker
@@ -1626,6 +1629,7 @@ jumptime.com #OpenX - Tracker
 junctiontv.net #JunctionTV - Tracker
 justinejones.com #Ad Web - Advertising
 justpremium.com #JustPremium - Advertising
+justtrack.io #Justtrack - Tracker
 justuno.com #Justuno - Tracker
 jwpltx.com #JW Player - Tracker
 jza67479be.ru #PushProfit - Advertising
@@ -13083,6 +13087,7 @@ owneriq.net #Unknown - Tracker
 p-td.com #Unknown - Tracker
 p.yotpo.com #Yotpo - Tracker
 p161.net #161 Media - Advertising
+paas-vpc01-dms-edge-fk.easy4ipcloud.com #easy4ipcloud.com - Advertising
 pagefair.com #Pagefair - Advertising
 pagefair.net #Pagefair - Advertising
 pages01.net #IBM Silverpop - Advertising
@@ -13489,6 +13494,7 @@ seat.it #Seat PG - Tracker
 secretmedia.com #Unknown - Tracker
 securedvisit.com #4cite - Tracker
 securemetrics.apple.com #Adobe - Tracker
+securemetrics.r2d2netflix.com #Adobe - Tracker
 securepaths.com #Forensiq - Tracker
 securestudies.net #TMRG - Advertising
 segment.com #Unknown - Tracker
@@ -13655,6 +13661,7 @@ smetrics.amfam.com #Adobe - Tracker
 smetrics.amica.com #Adobe - Tracker
 smetrics.ancestry.com #Adobe - Tracker
 smetrics.angara.com #Adobe - Tracker
+smetrics.angi.com #Adobe - Tracker
 smetrics.anixter.com #Adobe - Tracker
 smetrics.anntaylor.com #Adobe - Tracker
 smetrics.ansible.com #Adobe - Tracker
@@ -13711,6 +13718,7 @@ smetrics.bestegg.com #Adobe - Tracker
 smetrics.bestinver.es #Adobe - Tracker
 smetrics.bet.com #Adobe - Tracker
 smetrics.bi-druginforequest.com #Adobe - Tracker
+smetrics.binge.com.au #Adobe - Tracker
 smetrics.bingle.com.au #Adobe - Tracker
 smetrics.bipimedicine.com #Adobe - Tracker
 smetrics.bkstr.com #Adobe - Tracker
@@ -13807,6 +13815,7 @@ smetrics.currys.co.uk #Adobe - Tracker
 smetrics.cytivalifesciences.com #Adobe - Tracker
 smetrics.darty.com #Adobe - Tracker
 smetrics.deakin.edu.au #Adobe - Tracker
+smetrics.dekalbasgrowdeltapine.com #Adobe - Tracker
 smetrics.delta.com #Adobe - Tracker
 smetrics.deltacargo.com #Adobe - Tracker
 smetrics.dhc.co.jp #Adobe - Tracker
@@ -14094,6 +14103,8 @@ smetrics.napaprolink.ca #Adobe - Tracker
 smetrics.napaprolink.com #Adobe - Tracker
 smetrics.nascar.com #Adobe - Tracker
 smetrics.nationalbusinessfurniture.com #Adobe - Tracker
+smetrics.nationalgrid.com #Adobe - Tracker
+smetrics.nationalgrideso.com #Adobe - Tracker
 smetrics.nationaltrust.org.uk #Adobe - Tracker
 smetrics.nationwide.co.uk #Adobe - Tracker
 smetrics.nba.com #Adobe - Tracker
@@ -14122,6 +14133,7 @@ smetrics.nowtv.it #Adobe - Tracker
 smetrics.nvidia.com #Adobe - Tracker
 smetrics.nyandcompany.com #Adobe - Tracker
 smetrics.nycgo.com #Adobe - Tracker
+smetrics.nykaafashion.com #Adobe - Tracker
 smetrics.nyulangone.org #Adobe - Tracker
 smetrics.oakley.com #Adobe - Tracker
 smetrics.officechairs.com #Adobe - Tracker
@@ -14170,6 +14182,7 @@ smetrics.portlandglass.com #Adobe - Tracker
 smetrics.potterybarn.com #Adobe - Tracker
 smetrics.potterybarnkids.com #Adobe - Tracker
 smetrics.premierinn.com #Adobe - Tracker
+smetrics.previcox.com #Adobe - Tracker
 smetrics.princess.com #Adobe - Tracker
 smetrics.prinovaglobal.com #Adobe - Tracker
 smetrics.privilege.com #Adobe - Tracker
@@ -14245,6 +14258,7 @@ smetrics.seguro.mediaset.es #Adobe - Tracker
 smetrics.seloger.com #Adobe - Tracker
 smetrics.sen.com.au #Adobe - Tracker
 smetrics.sephora.com #Adobe - Tracker
+smetrics.service-plans.io #Adobe - Tracker
 smetrics.sfr.fr #Adobe - Tracker
 smetrics.shangri-la.com #Adobe - Tracker
 smetrics.shannons.com.au #Adobe - Tracker
@@ -14400,6 +14414,7 @@ smetrics.vueling.com #Adobe - Tracker
 smetrics.vw.com #Adobe - Tracker
 smetrics.vwfs-service-plans.io #Adobe - Tracker
 smetrics.vwfs.de #Adobe - Tracker
+smetrics.vwfs.mx #Adobe - Tracker
 smetrics.walgreens.com #Adobe - Tracker
 smetrics.waseda-ac.co.jp #Adobe - Tracker
 smetrics.waters.com #Adobe - Tracker
@@ -14524,6 +14539,7 @@ stats.ebay.com #eBay - Tracker
 stats.elementary.io #Elementary.io - Tracker
 stats.ft.com #FinancialTimes - Tracker
 stats.glb.paypal.com #Paypal.Com - Tracker
+stats.grml.org #grml.org - Tracker
 stats.iobit.com #Iobit - Tracker
 stats.jobs.bg #Jobs.bg - Tracker
 stats.kaltura.com #Kaltura - Tracker
@@ -14668,7 +14684,9 @@ telemetry.api.swiftkey.com #Swiftkey - Tracker
 telemetry.api.wmcdp.io #Warner Media - Tracker
 telemetry.art19.com #Art19.Com - Tracker
 telemetry.battle.net #Blizzard - Tracker
+telemetry.dailymotion.com #dailymotion.com - Tracker
 telemetry.dropbox.com #Dropbox - Tracker
+telemetry.geo.dmcdn.net #dmcdn.net - Tracker
 telemetry.gfe.nvidia.com #Nvidia - Tracker
 telemetry.malwarebytes.com #Malwarebytes - Tracker
 telemetry.microsoft.com #Microsoft - Tracker
@@ -14820,6 +14838,7 @@ tracking.netdoktor.at #netdoktor.at - Tracker
 tracking.ott.yandex.net #Yandex.Net - Tracker
 tracking.overwolf.com #Overwolf.Com - Tracker
 tracking.paypal.com #Paypal.Com - Tracker
+tracking.prd.mz.internal.unity3d.com #unity3d.com - Tracker
 tracking.resortsandlodges.com #Resortsandlodges.Com - Tracker
 tracking.sezzle.com #Sezzle.Com - Tracker
 tracking.volo-mobile.com #Volo - Tracker
