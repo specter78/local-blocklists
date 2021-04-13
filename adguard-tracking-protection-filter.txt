@@ -1,8 +1,8 @@
-! Checksum: NpEOJgSm/BkP6+wy3/7dZQ
+! Checksum: s5LGTSTtr/DMJIfhRZlaWA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.23.2
-! TimeUpdated: 2021-04-11T23:31:18+03:00
+! Version: 2.0.23.8
+! TimeUpdated: 2021-04-12T21:31:29+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -224,6 +224,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||instapagemetrics.com^$third-party
+||mas.protecmedia.com^$third-party
 ||t.rainide.com^
 ||durationmedia.net^$third-party
 ||stats.myangular.life^
@@ -3381,6 +3383,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||ticketaunt.com^$third-party
 ||warmafterthought.com^$third-party
 ||fumblingform.com^$third-party
 ||aloofvest.com^$third-party
@@ -4530,6 +4533,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||dmp.citiservi.es^
 ||crta.metro.co.uk^
 ||dtrace.nvidia.com^
 ||temptation.ad.nl^
@@ -13654,6 +13658,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||fastcdn.co/js/sptw.js
+||cloud.weborama.design/nonio.js
+||comunidade.globalmediagroup.pt//tracker/tracker.ashx
 ||estore.jp/beacon/
 ||caliente.mx/integration-scripts/tracking.min.js
 ||s.cdin.me/i.php
@@ -13699,12 +13706,13 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||cdn.thunderhead.com/one/rt/js/one-tag.js
 ||discord.com/api/v*/science
 ||fensi.plus/*/tracking/
+||tvid.in/log/logs
 ||collector.wawlabs.com/epttavm.js
 ||intersc.igaming-service.io/hltv.org.js
 ||hltv.org/scripts/hltv-tracking.js
 ||za.zalo.me/v*/brp?fts=
 ||za.zalo.me/v*/w/_zaf.gif
-/duracelltomi-google-tag-manager/*$script,domain=adexchanger.com
+/duracelltomi-google-tag-manager/*$script,domain=adexchanger.com|digiato.com
 ||api.eigene.io/rec/
 ||guj.de/js/gujTracker.js
 /tracking.js$domain=schoener-wohnen.de
@@ -16016,7 +16024,6 @@ $cookie=utag_main
 ||a.bitmango.com^
 ||bitmango.com/log
 ||tracking.directservices.it^
-||vortex.data.microsoft.com^
 ||onedrive-collection.device.mobileengagement.windows.net^
 ||metrics.timewarnercable.com^
 ||flurry.agentportal-*.yahoodns.net^
