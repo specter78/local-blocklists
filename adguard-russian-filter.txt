@@ -1,8 +1,8 @@
-! Checksum: 1lF4yfuC2F1pgaInQsAENw
+! Checksum: +GbHT/NIuIQV6IhmFE2xfw
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.52.4
-! TimeUpdated: 2021-04-12T22:30:48+03:00
+! Version: 2.0.52.8
+! TimeUpdated: 2021-04-13T18:30:53+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,7 @@
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||the4.fun^$third-party
 ||newrrb.bid^$third-party
 ||tgdmpf.com^$third-party
 ||ece8c2alhz.ru^$third-party
@@ -6425,8 +6426,6 @@ l2top.ru#?#div[class="container"][style="max-width: 100%;"] header ~ div > div.c
 015.by#?#.news-grid > div.news-grid__col:not([id]) > div.thumbnails[data-bg]:upward(1)
 ! gamebomb.ru - ad background
 gamebomb.ru#$?#body > noscript ~ div[id] > div[id]:has(> div[id="content"]) { background: none !important; }
-! sports.ru,tribuna.com - clickable background
-sports.ru,tribuna.com#$?#.page-layout:not(:has(> div)) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67424
 kino-teatr.ru#?##root div[class^="relap-"]:contains(РЕКОМЕНДУЕТ) div[class^="relap-"] > div[style]:has(div[class^="relap-"] > div:contains(Реклама))
 kino-teatr.ru#?##root div[class^="relap-"]:contains(РЕКОМЕНДУЕТ) div[class^="relap-"]:has(> div[class^="relap-"] > span:contains(Relap))
@@ -10941,6 +10940,11 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+brestcity.com##a[rel="external nofollow"] > img
+||scripts.alloha.tv/js/default.js$domain=kinogo.cx
+||special.matchtv.ru/feeds/fonbet/
+||special.matchtv.ru/feeds/winline/
+||special.matchtv.ru/feeds/betboom/
 popmech.ru##.a_-d-wrapper
 sptovarov.ru##.brands-button
 sptovarov.ru###moneywall
