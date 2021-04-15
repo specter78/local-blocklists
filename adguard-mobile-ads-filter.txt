@@ -1,8 +1,8 @@
-! Checksum: Yr3G5pagmvU4YDTKUh3vLA
+! Checksum: oBNjROM7r1SIS1I8gPoVkQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.18.99
-! TimeUpdated: 2021-04-13T17:30:16+03:00
+! Version: 2.0.19.1
+! TimeUpdated: 2021-04-14T18:30:23+03:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2291,12 +2291,13 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+mobile.twitter.com##div[data-testid="primaryColumn"] div[data-testid="placementTracking"]
 tvspielfilm.de##.livetv-ad-bottom
 this.kiji.is##.main__adWrapper
 this.kiji.is##.page__ad
 m.youtube.com##.ytp-ad-action-interstitial
 n-tv.de##.topbanner-mobile
-syosetu.org##.ad
+hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 m.bloomberght.com##.zone-area
 ezgif.com###hdr
 gulte.com##.awt_ads

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: c7mEAf5yyA9ORHEYAVTSCA
-! Version: 202104140500
+! Checksum: w2pk2Qe2750/2jC8n2e0sQ
+! Version: 202104150500
 ! Title: RU AdList
-! Last modified: 14 Apr 2021 05:00 UTC
+! Last modified: 15 Apr 2021 05:00 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2393,7 +2393,7 @@ _tizers.
 ||zavetiss.ru^$third-party
 !
 ||asia^$third-party,script,subdocument,xmlhttprequest,domain=~gallerix.org
-||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~philips.ru|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~tefal.ru|~videosofsport1.pw|~xn--drakulastrem-b7e.com
+||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~panomama.ru|~philips.ru|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~tefal.ru|~videosofsport1.pw|~xn--drakulastrem-b7e.com
 ||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~app.element.io|~assistir-filme.biz|~avtomaty-i-bonusy.com|~chelentano.top|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~live-golf.stream|~live-nhl.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk.com|~vmeste.tv|~web.app
 !
 ! Исключения
@@ -12921,6 +12921,7 @@ education.ua##.advOnTop
 splkirov.ru##.adv_240x400
 vestivrn.ru##.adv__horizontal
 games-reviews.net##.adv_algn
+me.fo##.adv_big
 inoprosport.ru##.adv_code_wrapper
 gurutestov.ru##.adv_collumn > h3
 gurutestov.ru##.adv_collumn > p:not([style])
@@ -20602,6 +20603,7 @@ lada.kz/uploads/banners/
 ||mctop.su/media/img/b/
 ||mcuns.ru/*.php$script,domain=mcuns.ru
 ||mds.yandex.net/get-bstor/
+||me.fo/*/images/banner
 ||meat-expert.ru^*banner$image
 ||mebelminsk.by/assets/images/adw/
 ||mebelminsk.by/assets/images/swf/
