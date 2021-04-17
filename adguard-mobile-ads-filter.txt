@@ -1,8 +1,8 @@
-! Checksum: G57RvHVXKZ0rkmMc+XPKog
+! Checksum: gSBbE34Zx0VLUeU0PfPxPQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.3
-! TimeUpdated: 2021-04-15T20:30:17+03:00
+! Version: 2.0.19.4
+! TimeUpdated: 2021-04-16T08:30:29+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -82,7 +82,16 @@
 !
 ! ||mobileapptracking.com^ - don't block this domain with all subdomains. https://forum.adguard.com/index.php?threads/23917/
 !
-!
+! FluBot / Cabassous malware
+! https://github.com/prodaft/malware-ioc/tree/master/FluBot
+||xjnwqdospderqtk.ru^
+||nfiuerwtftasnuk.com^
+||qoisocrldvnesni.ru^
+||xawsnngjljanxof.su^
+||bdvwidxfiextwof.ru^
+||krvpsegjeukhoqk.su^
+||auqcmkubxjmeeyf.ru^
+||vloxaloyfmdqxti.ru^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74651
 ! com.opera.app.newslite
 ||s-adx.op-mobile.opera.com^
@@ -208,12 +217,6 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
-||qoisocrldvnesni.ru^
-||xawsnngjljanxof.su^
-||bdvwidxfiextwof.ru^
-||krvpsegjeukhoqk.su^
-||auqcmkubxjmeeyf.ru^
-||vloxaloyfmdqxti.ru^
 ||iad-*.braze.com^
 ||adpopcorn.com^
 ||pangle.io^

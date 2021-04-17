@@ -1,8 +1,8 @@
-! Checksum: 4MX4dhbKvWPVFaNSwgLXVQ
+! Checksum: KJZUXkyYHPDPRySKgrHugQ
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.52.13
-! TimeUpdated: 2021-04-15T18:31:01+03:00
+! Version: 2.0.52.17
+! TimeUpdated: 2021-04-16T18:30:55+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,7 @@
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||akolafovar.com^$third-party
 ||rbdiqz.com^$third-party
 ||the4.fun^$third-party
 ||newrrb.bid^$third-party
@@ -6827,6 +6828,7 @@ argumenti.ru#?#.online_top > ul > li:has(> p > a[href^="https://news.mirtesen.ru
 coronavirus-monitor.ru#?#.entry-content > div[style]:has(> ins.adsbygoogle)
 coronavirus-monitor.ru#?#.entry-content > center:has(> div[style] > div.mk-ad-container)
 !
+korsars.pro#?#td[id^="sidebar"] > div:has(img[src="styles/images/stat.png"])
 ria.ru#?#.the-in-carousel__pack > div.the-in-carousel__item:has(> div[data-has-banner="true"])
 miasskiy.ru#?#noindex > h5 > b:contains(Новости на других сайтах)
 sravnismart.ru#?#h3.widget-title:contains(Партнеры:)
@@ -7334,7 +7336,7 @@ hd1080.info#?#.side-box:has(> .side-bc > script[src^="//recreativ.ru/"])
 welovebundles.ru#?#.sidebar > div.content > ul.sidebar_widget > li.widget:has(> h2:contains(/Поддержка|ПОДДЕРЖКА/))
 kushvsporte.ru#?#.sidebar-block > div.moduletable:has(> div.sideBlock > div.panel > h4:contains(Рекомендуемые БК))
 fainaidea.com#?#.td-main-sidebar div.td-ss-main-sidebar > aside.widget.widget_text[-ext-has="> div.block-title > span:contains(Новости партнера)"]
-fainaidea.com#?#.td-ss-main-sidebar > aside.widget:contains(/загрузка...|Новости партнера/)
+pb-news.info,fainaidea.com#?#.td-ss-main-sidebar > aside.widget:contains(/загрузка...|Новости партнера/)
 galka.if.ua#?#.textwidget:has(> script)
 pornov.online#?#.thumbnails > li:has(.thumbnail > a[href^="/asd/"])
 igromania.ru#?#.wrapper_outer > div.wide_brand ~ div[class]:matches-css(height: 200px)
@@ -10941,6 +10943,8 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+radikal.ru##a[href="https://leto-climat.ru/"]
+korsars.pro##div[style="width: 160px; height: 600px;"]
 forklog.com##.single_brba
 forklog.com##.has_brba
 brestcity.com##a[rel="external nofollow"] > img
@@ -10963,6 +10967,8 @@ vsetors.org##a[data-ofga-link]
 vsetors.org##body > a[id^="linkFon"]
 rutororg-mirror.ru##a[rel="nofollow"][target="_blank"]
 gamesrepack.com##center > a[target="_blank"] > img
+||ternopillive.com.ua/wp-content/uploads/2020/04/brend_reclama.jpg
+||pb-news.info/wp-content/uploads/2020/05/rainchuk.jpg
 ||rgmechanics.info/uploads/728х90_
 ||rgmechanics.info/uploads/660x90_
 ||prodota.ru/templates/*/index.php
@@ -19670,7 +19676,7 @@ www.ex.ua/*/index.css
 ||reklama.ngs.ru/adplace-raw/?pid=$redirect=nooptext,important
 ||reklama.ngs.ru/ap-js/?pid=$redirect=nooptext,important
 ||relap.io/css/api*/custom_rec_item/
-||relap.io^$domain=echo.msk.ru|ilenta.com|life.ru|lifenews78.ru|mk.ru|narod-novosti.com|nv.ua|yablyk.com|kulturologia.ru|fb2-epub.ru|gilc.ru|prophotos.ru
+||relap.io^$domain=echo.msk.ru|ilenta.com|life.ru|lifenews78.ru|mk.ru|narod-novosti.com|nv.ua|yablyk.com|kulturologia.ru|fb2-epub.ru|gilc.ru|prophotos.ru|avtovzglyad.ru
 ||relizer.net/*_*.php?q=
 ||relizer.net^$image,third-party
 ||relizua.com/img/antivirus.gif
