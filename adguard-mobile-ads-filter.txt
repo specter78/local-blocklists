@@ -1,8 +1,8 @@
-! Checksum: gSBbE34Zx0VLUeU0PfPxPQ
+! Checksum: 49pfZYRa7dMetcIR1a/tug
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.4
-! TimeUpdated: 2021-04-16T08:30:29+00:00
+! Version: 2.0.19.5
+! TimeUpdated: 2021-04-17T06:30:25+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2300,7 +2300,6 @@ ameblo.jp##aside[class^="_"] > div[class^="_"] > div[class^="_"] > ul:last-child
 ameblo.jp##aside[class^="_"]:only-child > aside[class^="_"] > div[class^="_"]:only-child > div[class^="_"]:only-child
 ameblo.jp##div:not([class]) > div[class^="_"]:first-child > aside[class^="_"]:only-child > div[class^="_"]:last-child
 ameblo.jp##div[style="overflow:hidden"] > div[class=""] + div[class^="_"]:empty
-mobile.twitter.com##div[data-testid="primaryColumn"] div[data-testid="placementTracking"]
 tvspielfilm.de##.livetv-ad-bottom
 this.kiji.is##.main__adWrapper
 this.kiji.is##.page__ad
