@@ -1,8 +1,8 @@
-! Checksum: Q5rF5pLqgWO19o1RJYtBqg
+! Checksum: Gqz+s9g11gNrrdDl6NSCEQ
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.39.8
-! TimeUpdated: 2021-04-16T18:31:29+00:00
+! Version: 2.0.39.9
+! TimeUpdated: 2021-04-18T21:03:21+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1914,7 +1914,8 @@ kresy24.pl###wkomimg
 animekayo.com##.widget_bs-likebox
 5-tv.ru##.twitterTimelineInSidebar
 5-tv.ru##div[class="floatRight marginTopQuartBase"]
-kp.ru,kp.by,kp.kg,kp.kz,kp.md##div[class^="styled__ShareBlock"]
+kp.ru,kp.by,kp.kg,kp.kz,kp.md##div[class^="styled__ThumbsUpWrap-"]
+kp.ru,kp.by,kp.kg,kp.kz,kp.md##div[class^="styled__ShareBar"]
 kp.ru,kp.by,kp.kg,kp.kz,kp.md##button[class*="styled__ShareButton-"]
 ouest-france.fr##.partage
 ouest-france.fr##.pastilles

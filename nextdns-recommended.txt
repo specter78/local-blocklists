@@ -85043,10 +85043,9 @@ ff02::3 ip6-allhosts
 127.0.0.1 hzs9.cnzz.com
 127.0.0.1 hzvs1.cnzz.com
 127.0.0.1 pcookie.cnzz.com
-#version=202102272009
+#version: 202104181130
 #url=https://github.com/VeleSila/yhosts/blob/master/hosts
 #-----Test
-127.0.0.1 at.umeng.com
 127.0.0.1 adfurikun.jp
 127.0.0.1 aag.yahooapis.jp
 127.0.0.1 optimus-ads.amap.com
@@ -85759,7 +85758,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 xd.mediav.com
 127.0.0.1 xdssp.mediav.com
 127.0.0.1 acdn.adnxs.com
-127.0.0.1 ib.adnxs.com
 127.0.0.1 nym2-tr.adnxs.com
 127.0.0.1 sin1-ib.adnxs.com
 127.0.0.1 vcdn.adnxs.com
@@ -86456,6 +86454,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 mixer.cupid.ptqy.gitv.tv
 127.0.0.1 msg.ptqy.gitv.tv
 127.0.0.1 msga.ptqy.gitv.tv
+127.0.0.1 show.ssports.com
 127.0.0.1 store.ptqy.gitv.tv
 127.0.0.1 t7z.cupid.ptqy.gitv.tv
 127.0.0.1 de.as.cp61.ott.cibntv.net
@@ -86748,8 +86747,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 adv2.downsave.com
 127.0.0.1 mini.jijiplayer.com
 127.0.0.1 txtad.jijiplayer.com
-127.0.0.1 ee.grtnahd.cn
-127.0.0.1 m.grtnahd.cn
 127.0.0.1 www.xn--i6qs37am6iwyqffc.com
 127.0.0.1 xdm.ahqlx.top
 127.0.0.1 ycjisa.cn
@@ -86762,11 +86759,9 @@ ff02::3 ip6-allhosts
 127.0.0.1 c.lelangegg.cn
 127.0.0.1 bnetds.cn
 127.0.0.1 ee.mtmfjdo.cn
-127.0.0.1 ee.xfya3.cn
 127.0.0.1 eo.4s5n.cn
 127.0.0.1 hm.baidu.com.caiziwuyou.com
 127.0.0.1 m.mtmfjdo.cn
-127.0.0.1 m.xfya3.cn
 127.0.0.1 mo.4s5n.cn
 127.0.0.1 mo.mktrkn.cn
 127.0.0.1 s.yhgongsi.com
@@ -86795,9 +86790,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 v.mininini.cn
 127.0.0.1 c.mininini.cn
 127.0.0.1 api.vasb.cn
-127.0.0.1 ee.45xa.cn
 127.0.0.1 img.hywly.com
-127.0.0.1 m.45xa.cn
 127.0.0.1 m.qmlcdlo.cn
 127.0.0.1 mo.4k9b.cn
 127.0.0.1 qd.easylive.net
@@ -86963,7 +86956,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 8131.qizhihaotian.cn
 127.0.0.1 8132.qizhihaotian.cn
 127.0.0.1 jsjs.jbzj.com
-127.0.0.1 jscode.jbzj.com
 127.0.0.1 icws.jb51.net
 127.0.0.1 wm.kolinay.com
 127.0.0.1 ad.egou.com
@@ -87937,6 +87929,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 a.xmdly.com
 127.0.0.1 a.yiyuancq.com
 127.0.0.1 a-cn.duoyi.com
+127.0.0.1 a0c.cn
 127.0.0.1 a1.huiqituan.com
 127.0.0.1 a1.lmaq.cn
 127.0.0.1 a1.openxt.cn
@@ -88103,6 +88096,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 b3.jandan.net
 127.0.0.1 b3.jiasudu666.com
 127.0.0.1 b4xuj.zzhhts.com
+127.0.0.1 b9g4.nxwfhjvi.cn
 127.0.0.1 ba.fqzds.com
 127.0.0.1 ba.n3wz6.cn
 127.0.0.1 baby.yf898.com
@@ -88197,6 +88191,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 c.idasui.cn
 127.0.0.1 c.j782e.cn
 127.0.0.1 c.jntxst.cn
+127.0.0.1 c.jumorecn.com.cn
 127.0.0.1 c.k429fma.com
 127.0.0.1 c.kangai100.cn
 127.0.0.1 c.kbf365.cn
@@ -88207,6 +88202,8 @@ ff02::3 ip6-allhosts
 127.0.0.1 c.lalaxqt.cn
 127.0.0.1 c.lbsbbw.cn
 127.0.0.1 c.lianwangtech.com
+127.0.0.1 c.linkjingkeji.com
+127.0.0.1 c.lovame.com.cn
 127.0.0.1 c.lovepets70.com
 127.0.0.1 c.lrzazjl.cn
 127.0.0.1 c.lucktui.com
@@ -88226,6 +88223,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 c.panqishu.com
 127.0.0.1 c.piliangzhuce.cn
 127.0.0.1 c.ptffw.net
+127.0.0.1 v.qhruisen.cn
 127.0.0.1 c.qhruixin.cn
 127.0.0.1 c.queene.cn
 127.0.0.1 c.r9uqp.cn
@@ -88246,6 +88244,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 c.v-meng.org
 127.0.0.1 c.v4dwkcv.com
 127.0.0.1 c.vip97.net
+127.0.0.1 c.wangdaguanli.com
 127.0.0.1 c.wantxt.cc
 127.0.0.1 c.wechat.jx.cn
 127.0.0.1 c.wofbw.top
@@ -88297,6 +88296,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 cdn.0i-i0.com
 127.0.0.1 cdn.5bong.com
 127.0.0.1 cdn.810236.com
+127.0.0.1 cdn.9823df.com
 127.0.0.1 cdn.adsk2.co
 127.0.0.1 cdn.adstract.com
 127.0.0.1 cdn.aegins.com
@@ -88327,12 +88327,14 @@ ff02::3 ip6-allhosts
 127.0.0.1 cilidaquan.pw
 127.0.0.1 cip6.czpush.com
 127.0.0.1 cjiv.chengjie168.com.cn
+127.0.0.1 ck.jssdk.top
 127.0.0.1 ckjyck.qxs.la
 127.0.0.1 clc.wanmancn.com
 127.0.0.1 clickadu.com
 127.0.0.1 clk.uunt.com
 127.0.0.1 cloud.zyiis.net
 127.0.0.1 cm.he2d.com
+127.0.0.1 cmz2.stm65i8.com
 127.0.0.1 cndjs-1251973891.coshk.myqcloud.com
 127.0.0.1 cnm.xlcktv.com
 127.0.0.1 cnyibs.com
@@ -88472,6 +88474,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 down.xiazaiyuan.net
 127.0.0.1 download.350.com
 127.0.0.1 dq.baomihua.com
+127.0.0.1 dqapp.cdn.bcebos.com
 127.0.0.1 drdj.m.gxwztv.com
 127.0.0.1 drsw.m.yuyouge.com
 127.0.0.1 druic.mytxt.cc
@@ -88569,7 +88572,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 e.adsdsu.cn
 127.0.0.1 e.aduiz.com
 127.0.0.1 e.aetetv.cn
-127.0.0.1 e.ac56.xyz
 127.0.0.1 e.aganj.com
 127.0.0.1 e.ailix.cn
 127.0.0.1 e.aiyyu.com
@@ -89063,6 +89065,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 ehdj.njguluyu.cn
 127.0.0.1 ekfe.idanmei.cn
 127.0.0.1 ekfe.tmmjgcp.cn
+127.0.0.1 eladies.zhmyq.cn
 127.0.0.1 emss.zjhim.com
 127.0.0.1 engine.tuicoco.com
 127.0.0.1 eo.6sq7c.xyz
@@ -89296,6 +89299,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 hzyuw.com
 127.0.0.1 i.hao61.net
 127.0.0.1 i.hzblic.com
+127.0.0.1 i.jads.co
 127.0.0.1 i.jyhwt.cn
 127.0.0.1 i.niupic.com
 127.0.0.1 i.xdywlw.cn
@@ -89637,6 +89641,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 kwflvcdn.000dn.com
 127.0.0.1 kzni.jwhfn.cn
 127.0.0.1 l.adiers.com
+127.0.0.1 l.dalemax.cn
 127.0.0.1 l.ksxcxb.cn
 127.0.0.1 l.mnjkw.cn
 127.0.0.1 l.xfmfqdt.cn
@@ -89674,6 +89679,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 log.orchidscape.net
 127.0.0.1 lol.pnhfc.com
 127.0.0.1 loldy.jiangmg.com
+ 127.0.0.1 lp7n.cy6px.com
 127.0.0.1 lq0s3c.cn
 127.0.0.1 lskwsx.m.zwdu.com
 127.0.0.1 lu.w3vj.cn
@@ -90367,6 +90373,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 m.qlr0d.cn
 127.0.0.1 m.qneit.com
 127.0.0.1 m.qu79j.cn
+127.0.0.1 m.quanxs.net
 127.0.0.1 m.qusub.com
 127.0.0.1 m.r507p.cn
 127.0.0.1 m.r528e.cn
@@ -90763,6 +90770,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 ms.qaqact.cn
 127.0.0.1 msg.eclicks.cn
 127.0.0.1 msttz.tst98.com
+127.0.0.1 mt.4go.cc
 127.0.0.1 mtl.gzhuibei.com
 127.0.0.1 mtl.ttsqgs.com
 127.0.0.1 mtl.xtpxw.com
@@ -90868,20 +90876,23 @@ ff02::3 ip6-allhosts
 127.0.0.1 p.99mssj.com
 127.0.0.1 p.9wotuan.com
 127.0.0.1 p.ahzsjzgc.com
+127.0.0.1 p.bangdu2.com
 127.0.0.1 p.bjdianyue.com
 127.0.0.1 p.bnuni.com
 127.0.0.1 p.eaglesh.cn
 127.0.0.1 p.jclz622983.com
 127.0.0.1 p.kf3msfm.com
+127.0.0.1 p.lexph.com
 127.0.0.1 p.m5bn.com
 127.0.0.1 p.mendoc.cn
 127.0.0.1 p.niudashu.com
-#127.0.0.1 p.pstatp.com
 127.0.0.1 p.qiailm.com
 127.0.0.1 p.qijijs.top
 127.0.0.1 p.qfmzys.com
 127.0.0.1 p.saozhu1.top
+127.0.0.1 p.shengcaidata.com
 127.0.0.1 p.skimresources.com
+127.0.0.1 p.sswyyl.com
 127.0.0.1 p.tamenshuo.com
 127.0.0.1 p.vtdtfl.cn
 127.0.0.1 p.ynjczy.net
@@ -90906,6 +90917,7 @@ ff02::3 ip6-allhosts
 #127.0.0.1 pb2.pstatp.com
 #127.0.0.1 pb3.pstatp.com
 127.0.0.1 package.minghui.org
+127.0.0.1 paflibnq.mamiyue.com.cn
 127.0.0.1 pad.zhywyl.cn
 127.0.0.1 page.santc.cn
 127.0.0.1 parallelsdesktop.cn
@@ -91009,6 +91021,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 pork.2tumeng.com
 127.0.0.1 postut.cn
 127.0.0.1 povbdf.cn
+127.0.0.1 poweredby.jads.co
 127.0.0.1 pp.lbsjrw.cn
 127.0.0.1 pp.sxjkc.cn
 127.0.0.1 pp.xjuygf.xyz
@@ -91520,6 +91533,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 utp.ucweb.com
 127.0.0.1 uu.85655095.com
 127.0.0.1 uu.zeverdg.com
+127.0.0.1 uuboos.com
 127.0.0.1 uun.1uandun.com
 127.0.0.1 uv.qnmuayx.cn
 127.0.0.1 uwcu.0b6h.cn
@@ -91539,6 +91553,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 v.bayongzx.cn
 127.0.0.1 v.bingxueshenjie.cn
 127.0.0.1 v.com.5p67n.cn
+127.0.0.1 v.dalemax.cn
 127.0.0.1 v.dcgwnhk.cn
 127.0.0.1 v.dengbaozx.cn
 127.0.0.1 v.dfseafood.com
@@ -91550,11 +91565,14 @@ ff02::3 ip6-allhosts
 127.0.0.1 v.heygugu.com
 127.0.0.1 v.iche88.cn
 127.0.0.1 v.jntxst.cn
+127.0.0.1 v.jumorecn.com.cn
 127.0.0.1 v.kangai100.cn
 127.0.0.1 v.koqz36.com
 127.0.0.1 v.l0yjow.cn
 127.0.0.1 v.lalaxit.cn
 127.0.0.1 v.lalaxqt.cn
+127.0.0.1 v.linkjingkeji.com
+127.0.0.1 v.lovame.com.cn
 127.0.0.1 v.lovepets70.com
 127.0.0.1 v.lrzazjl.cn
 127.0.0.1 v.lystrw.cn
@@ -91563,6 +91581,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 v.nkzker.cn
 127.0.0.1 v.oq68.com
 127.0.0.1 v.originz.cn
+127.0.0.1 v.qhruisen.cn
 127.0.0.1 v.qhruixin.cn
 127.0.0.1 v.ql01t4.com
 127.0.0.1 v.qudwrj.cn
@@ -91571,6 +91590,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 v.szpaopao.com
 127.0.0.1 v.tgslww.cn
 127.0.0.1 v.tr31t.cn
+127.0.0.1 v.wangdaguanli.com
 127.0.0.1 v.xadingli.cn
 127.0.0.1 v.xbjcgs.cn
 127.0.0.1 v.xinshide.cn
@@ -91578,7 +91598,6 @@ ff02::3 ip6-allhosts
 127.0.0.1 v.xrooxeo.cn
 127.0.0.1 v.yahgxog.cn
 127.0.0.1 v.zoepb.cn
-127.0.0.1 voq3450129.y4j32.cn
 127.0.0.1 v1.0594529.com
 127.0.0.1 v4g.cn
 127.0.0.1 v7.kawinhome.com
@@ -91609,6 +91628,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 vip.zhuba8.com
 127.0.0.1 vipchaoshi.cn
 127.0.0.1 vipwx.zhong-zhu.com
+127.0.0.1 viq3.fb360xp.com
 127.0.0.1 vj.tianji520.cn
 127.0.0.1 vj.x-ssp.com
 127.0.0.1 vm.makeding.com
@@ -91667,6 +91687,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 wap.txwdn.com
 127.0.0.1 wap.utmei.cn
 127.0.0.1 wapssl.ff113300.com
+127.0.0.1 wdfhbx.zdpeanut.com
 127.0.0.1 webservice.fusionsight.cn
 127.0.0.1 weizjzg.com
 127.0.0.1 weld.iefsf.com
@@ -91753,6 +91774,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.abie18.top
 127.0.0.1 www.abie19.top
 127.0.0.1 www.abie26.top
+127.0.0.1 www.abovede6.com
 127.0.0.1 www.ad5lm.net
 127.0.0.1 www.ads80.com
 127.0.0.1 www.afj0.com
@@ -91793,9 +91815,11 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.danweijungu5812.top
 127.0.0.1 www.day66.com
 127.0.0.1 www.dgfggy.com
+127.0.0.1 www.dianomi.com
 127.0.0.1 www.diediao.com
 127.0.0.1 www.doulaikanapp.com
 127.0.0.1 www.dqsft.com
+127.0.0.1 www.dulaiduapp.com
 127.0.0.1 www.duobaoqj.com
 127.0.0.1 www.eddong.com
 127.0.0.1 www.ere3j2e001.com
@@ -91902,6 +91926,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 www.mgldzcls.com
 127.0.0.1 www.mie99.net
 127.0.0.1 www.minghui.org
+127.0.0.1 www.mkjshusgus5481.top
 127.0.0.1 www.mohecm.com
 127.0.0.1 www.mpzw.com
 127.0.0.1 www.nangong2.com
@@ -92217,6 +92242,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 zjj.xhdccz.com
 127.0.0.1 zjjgtz.com
 127.0.0.1 zjm.zzmmkj.com
+127.0.0.1 zjyl365.cn
 127.0.0.1 zlsw.nnjxqd.com
 127.0.0.1 zly.dlhxgg.com
 127.0.0.1 zmj.guanqinjie.cn
@@ -94472,10 +94498,7 @@ ff02::3 ip6-allhosts
 127.0.0.1 y.one.impact-ad.net
 127.0.0.1 adsmind.gdtimg.com
 127.0.0.1 smartnews-ads.com
-127.0.0.1 pc.weizhenwx.com
-127.0.0.1 t.quandangdang.net
 127.0.0.1 jg.wensixuetang.com
-127.0.0.1 v.heygugu.com
 127.0.0.1 www.toujing9.top
 127.0.0.1 www.toujing8.top
 127.0.0.1 www.toujing11.top
@@ -94503,6 +94526,9 @@ ff02::3 ip6-allhosts
 127.0.0.1 tac.aiclk.com
 127.0.0.1 tracelog-debug.aiclk.com
 127.0.0.1 upload.aiclk.com
+127.0.0.1 vip.70qn.com
+127.0.0.1 show.suning.beer
+127.0.0.1 www.kldsam.com
 0.0.0.0 100234.advision-adnw.jp
 0.0.0.0 100291.adnico.jp
 0.0.0.0 100602.advision-adnw.jp

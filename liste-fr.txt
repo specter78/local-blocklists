@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: 4uiW87zhM4Xfh3IJAAJtCQ
-! Version: 202104180502
+! Checksum: xNqhGk9/gOPomDPt1wqy1g
+! Version: 202104190452
 ! Title: Liste FR
 ! Expires: 1 days
 ! Description: Filtres publicitaires francophones complémentaires à EasyList
@@ -1496,6 +1496,7 @@
 /doubleclick_dmm/*
 /drawpub2.
 /dreamads/*
+/dtc-adserver-
 /dub-dub-iad/*
 /dynamicAds?
 /e/cm?t=*&lt1=$subdocument
@@ -3951,6 +3952,7 @@ debugger:$popup
 ||appsha2.space^$third-party
 ||appupdate.center^$third-party
 ||apypxl.com^$third-party
+||aqua-adserver.com^$third-party
 ||aquaplatform.com^$third-party
 ||aquipelis.tv^$third-party
 ||ar-ads.net^$third-party
@@ -10954,6 +10956,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||algerie-eco.com/wp-content/uploads/*/alg-eco.
 ||algerie-eco.com/wp-content/uploads/*/alliance.
 ||algerie-eco.com/wp-content/uploads/*/kia-sportage.
+||algerie-eco.com/wp-content/uploads/2018/02/mdi-
 ||algerie-focus.com/wp-content/uploads/$subdocument
 ||algerie-focus.com/wp-content/uploads/2017/05/Sans-titre-12.jpg
 ||algerie-focus.com^*/banner-
@@ -14460,6 +14463,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.adHeading
 ##.adHeadingV2
 ##.adLinkText
+##.adMobile
 ##.adSecw
 ##.adSide1
 ##.adSpace1
@@ -14750,6 +14754,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ##.adv_block
 ##.adv_clickable
 ##.adv_cont
+##.adv_placeholder_468_60
 ##.adv_placeholder_728_90
 ##.adv_pop
 ##.adv_text
@@ -17822,7 +17827,6 @@ voyageforum.com##[id*="billboardArround"]
 bestream.tv##[id^="aff_spion-"]
 comarketing-news.fr##[id^="comar-"]
 3dnatives.com##[id^="dnati-"]
-vfstreaminggratuit.com##[id^="floatlayer"]
 commentcamarche.com,commentcamarche.net,cuisineactuelle.fr,free.fr,journaldesfemmes.com,orange.fr,turf-fr.com##[id^="lig_"]
 leparticulier.fr##[id^="loca_service_simulateur_"]
 agate-france.com##[id^="pbad_"]

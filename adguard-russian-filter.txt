@@ -1,8 +1,8 @@
-! Checksum: KJZUXkyYHPDPRySKgrHugQ
+! Checksum: b6beT38aewjZNAYArl1MPQ
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.52.17
-! TimeUpdated: 2021-04-16T18:30:55+00:00
+! Version: 2.0.52.18
+! TimeUpdated: 2021-04-18T22:30:51+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11220,9 +11220,9 @@ sb.by##.patron-list.justify-content-center
 onyxgame.com###br_a
 ||onyxgame.com/img/brand/
 freesoft.ru##a[style^="width: 100%; display: flex; justify-content: space-between;"]
-allbasketball.org##.block-catfish
-||allbasketball.org/*/parimatch-
-||allbasketball.org/templates/AB2014/front/js/block-catfish.js
+allbasketball.org##div[class^="block-catfish"]
+||allbasketball.org/templates/AB2014/images/catfish/
+||allbasketball.org/templates/AB2014/front/js/block-catfish*.js
 allmmorpg.ru##a[href^="https://allmmorpg.ru/index"][target="_blank"]
 tgstat.com,tgstat.ru##.mg-aors
 avito.ru##.avito-ads-placeholder

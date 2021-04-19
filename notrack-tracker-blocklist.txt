@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 11 Apr 2021
+# Updated: 18 Apr 2021
 #LatestVersion 21.03
-# Domain Count: 15203
+# Domain Count: 15199
 #===============================================================
 
 1-cl0ud.com #Lead Forensics - Tracker
@@ -310,7 +310,6 @@ adtopia.club #Adtopia - Advertising
 adtracker.network #Unknown - Advertising
 adtrackir1.co.uk #Adenzo - Advertising
 adtrue.com #AdTrue - Advertising
-adtruth.com #Experian - Advertising
 adunity.com #AdUnity - Advertising
 adv.ettoday.net #ETtoday - Advertising
 advanced-web-analytics.com #Unknown - Tracker
@@ -318,7 +317,6 @@ advcake.com #Adv.Cake - Advertising
 adventive.com #Adventive - Advertising
 adventori.com #ADventori - Advertising
 adversal.com #Native Advertising Platform - Advertising
-advertiseru.net #Advertiseru - Advertising
 advertiserurl.com #Unknown - Advertising
 advertising.amazon.co.uk #Amazon - Advertising
 advertising.aol.com #AOL - Advertising
@@ -332,7 +330,6 @@ adviva.net #Specific Media - Tracker
 advolution.de #Advolutio - Advertising
 adwise.agency #AdWise - Advertising
 adwise.co.uk #AdWise - Advertising
-adwise.com #AdWise - Advertising
 adwise.ru #AdWise - Advertising
 adwonder.cn #Adwonder - Advertising
 adworldmedia.com #AdWorldMedia - Advertising
@@ -1152,9 +1149,7 @@ elabs10.com #Aurea - Advertising
 elabs11.com #Aurea - Advertising
 elabs12.com #Aurea - Advertising
 elabs13.com #Aurea - Advertising
-elabs15.com #Aurea - Advertising
 elabs16.com #Aurea - Advertising
-elabs2.com #Aurea - Advertising
 elabs3.com #Aurea - Advertising
 elabs5.com #Aurea - Advertising
 elabs6.com #Aurea - Advertising
@@ -1417,7 +1412,6 @@ grapeshot-emea.com #Oracle - Advertising
 grapeshot-uk.com #Oracle - Advertising
 grapeshot.co.uk #Oracle - Advertising
 grapeshot.com #Oracle - Advertising
-grapeshotinc.com #Oracle - Advertising
 graphiq.com #Graphiq - Advertising
 gravity.com #Gravity - Tracker
 greengrowth.space #Unknown Chinese - Tracker
@@ -1881,8 +1875,6 @@ merchenta.com #Unknown - Tracker
 messages1.com #IBM Silverpop - Advertising
 messages10.com #IBM Silverpop - Advertising
 messages11.com #IBM Silverpop - Advertising
-messages12.com #IBM Silverpop - Advertising
-messages13.com #IBM Silverpop - Advertising
 messages14.com #IBM Silverpop - Advertising
 messages15.com #IBM Silverpop - Advertising
 messages2.com #IBM Silverpop - Advertising
@@ -12964,7 +12956,6 @@ nr-data.net #New Relic - Tracker
 ns1p.net #NS1 - Tracker
 nster.net #Unknown - Tracker
 nt.vc #House of Next Tuesday - Advertising
-ntpcpc58w1.ru #PushProfit - Advertising
 ntv.io #Unknown - Advertising
 nudiscount.eu #wrldtrck.com spam - Advertising
 nuffnang.com.sg #Nuffnang - Advertising
@@ -13464,7 +13455,6 @@ sayu.co.uk #Sayu - Advertising
 sayutracking.co.uk #Unknown - Tracker
 sc.smardroid.com #Unknown - Advertising
 scarabresearch.com #Unknown - Tracker
-scarewalrusregulate.com #Unknown - Advertising
 scenepass.com #ItsUp - Advertising
 schibsted.io #Schibsted - Advertising
 schibsted.media #Schibsted - Advertising
@@ -13494,6 +13484,7 @@ seat.it #Seat PG - Tracker
 secretmedia.com #Unknown - Tracker
 securedvisit.com #4cite - Tracker
 securemetrics.apple.com #Adobe - Tracker
+securemetrics.net.ws #Adobe - Tracker
 securemetrics.r2d2netflix.com #Adobe - Tracker
 securepaths.com #Forensiq - Tracker
 securestudies.net #TMRG - Advertising
@@ -13640,6 +13631,7 @@ smetrics.aarp.org #Adobe - Tracker
 smetrics.abbott #Adobe - Tracker
 smetrics.abbvie.com #Adobe - Tracker
 smetrics.abercrombie.com #Adobe - Tracker
+smetrics.act4yourheart.com #Adobe - Tracker
 smetrics.active.com #Adobe - Tracker
 smetrics.activecommunities.com #Adobe - Tracker
 smetrics.aem.playstation.com #Adobe - Tracker
@@ -13649,7 +13641,6 @@ smetrics.aia.co.kr #Adobe - Tracker
 smetrics.aia.com #Adobe - Tracker
 smetrics.airbank.cz #Adobe - Tracker
 smetrics.aircanada.com #Adobe - Tracker
-smetrics.aireserv.ca #Adobe - Tracker
 smetrics.aireserv.com #Adobe - Tracker
 smetrics.ajinomoto.co.jp #Adobe - Tracker
 smetrics.allegion.com #Adobe - Tracker
@@ -13726,9 +13717,14 @@ smetrics.bloombergtax.com #Adobe - Tracker
 smetrics.bmc.com #Adobe - Tracker
 smetrics.bmo.com #Adobe - Tracker
 smetrics.bnymellon.com #Adobe - Tracker
+smetrics.boehringer-ingelheim.be #Adobe - Tracker
+smetrics.boehringer-ingelheim.ch #Adobe - Tracker
 smetrics.boehringer-ingelheim.com #Adobe - Tracker
 smetrics.boehringer-ingelheim.de #Adobe - Tracker
-smetrics.boehringer-ingelheim.it #Adobe - Tracker
+smetrics.boehringer-ingelheim.fi #Adobe - Tracker
+smetrics.boehringer-ingelheim.hu #Adobe - Tracker
+smetrics.boehringer-ingelheim.nl #Adobe - Tracker
+smetrics.boehringer-ingelheim.pl #Adobe - Tracker
 smetrics.boehringer-interaktiv.de #Adobe - Tracker
 smetrics.boozallen.com #Adobe - Tracker
 smetrics.boston.com #Adobe - Tracker
@@ -13898,6 +13894,7 @@ smetrics.gatesnotes.com #Adobe - Tracker
 smetrics.gcimetrics.com #Adobe - Tracker
 smetrics.gehealthcare.com #Adobe - Tracker
 smetrics.gemvisa.com.au #Adobe - Tracker
+smetrics.gilotrifhcp.com #Adobe - Tracker
 smetrics.gio.com.au #Adobe - Tracker
 smetrics.glassdoctor.com #Adobe - Tracker
 smetrics.global.mandg.com #Adobe - Tracker
@@ -13951,7 +13948,6 @@ smetrics.illumina.com #Adobe - Tracker
 smetrics.ilovematlab.cn #Adobe - Tracker
 smetrics.ilsole24ore.com #Adobe - Tracker
 smetrics.independentcitymarket.ca #Adobe - Tracker
-smetrics.infracapital.co.uk #Adobe - Tracker
 smetrics.insight.com #Adobe - Tracker
 smetrics.intact.ca #Adobe - Tracker
 smetrics.intactinsurance.com #Adobe - Tracker
@@ -13994,7 +13990,6 @@ smetrics.kone.co.uk #Adobe - Tracker
 smetrics.kone.com #Adobe - Tracker
 smetrics.kone.de #Adobe - Tracker
 smetrics.kone.in #Adobe - Tracker
-smetrics.kone.it #Adobe - Tracker
 smetrics.kone.us #Adobe - Tracker
 smetrics.kpmg.us #Adobe - Tracker
 smetrics.labaie.com #Adobe - Tracker
@@ -14073,6 +14068,7 @@ smetrics.mitsubishi-motors.com.au #Adobe - Tracker
 smetrics.mizuno.jp #Adobe - Tracker
 smetrics.modernhealthcare.com #Adobe - Tracker
 smetrics.mollymaid.com #Adobe - Tracker
+smetrics.moncoeurmavie.ca #Adobe - Tracker
 smetrics.moneymarketing.co.uk #Adobe - Tracker
 smetrics.monsanto.com #Adobe - Tracker
 smetrics.moodys.com #Adobe - Tracker
@@ -14118,6 +14114,7 @@ smetrics.newfoundlandgrocerystores.ca #Adobe - Tracker
 smetrics.newport.com #Adobe - Tracker
 smetrics.nexgard.com.ar #Adobe - Tracker
 smetrics.nexgard.com.au #Adobe - Tracker
+smetrics.nexgardbrasil.com.br #Adobe - Tracker
 smetrics.nexgardfordogs.com #Adobe - Tracker
 smetrics.nexmo.com #Adobe - Tracker
 smetrics.nfl.com #Adobe - Tracker
@@ -15046,7 +15043,6 @@ vungle.com #Vungle - Tracker
 vuukle.com #Vuukle - Tracker
 vvbox.cz #Unknown - Tracker
 vwdservices.com #VWD Group - Tracker
-vyd5aaalwd.ru #PushProfit - Advertising
 w55c.net #Dataxu - Tracker
 walkme.com #Unknown - Tracker
 warlinvand.eu #wrldtrck.com spam - Advertising
