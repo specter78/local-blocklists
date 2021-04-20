@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 18 Apr 2021
+# Updated: 19 Apr 2021
 #LatestVersion 21.03
-# Domain Count: 15199
+# Domain Count: 15207
 #===============================================================
 
 1-cl0ud.com #Lead Forensics - Tracker
@@ -279,6 +279,7 @@ adserver.doccheck.com #doccheck.com - Advertising
 adserver.pandora.com #pandora.com - Advertising
 adserver.pressboard.ca #Pressboard.ca - Advertising
 adsfac.eu #Unknown - Advertising
+adsgaga.com #AdsGaga - Advertising
 adsgainer.com #Unknown - Advertising
 adsnative.com #AdsNative - Advertising
 adsonar.com #Unknown - Advertising
@@ -466,6 +467,7 @@ analytics.ninjakiwi.com #ninjakiwi.com - Tracker
 analytics.openelec.tv #Openelec - Tracker
 analytics.ovh.com #Ovh.Com - Tracker
 analytics.pinterest.com #pinterest.com - Tracker
+analytics.playinfinity.cn #playinfinity.cn - Tracker
 analytics.plex.tv #plex.tv - Tracker
 analytics.prod.mybuddy.ai #Mybuddy.Ai - Tracker
 analytics.qiqiuyun.net #qiqiuyun.net - Tracker
@@ -765,6 +767,7 @@ cashlantis.com #Unknown - Advertising
 cataloguskorting.eu #wrldtrck.com spam - Advertising
 catinic.eu #wrldtrck.com spam - Advertising
 caugets.eu #wrldtrck.com spam - Advertising
+cbdatatracker.com #Clickback - Tracker
 cccampaigns.com #Email Vision - Advertising
 ccemails.com #Email Vision - Advertising
 ccmd1.com #Caldwell Creative - Advertising
@@ -818,6 +821,7 @@ click.udimg.com #Urban Dictionary - Tracker
 click.vacasa.com #Vacasa.Com - Tracker
 clickadu.com #Clickadu - Tracker
 clickagy.com #Clickagy - Tracker
+clickback.com #Clickback - Tracker
 clickbank.net #ClickBank - Tracker
 clickcertain.com #ClickCertain - Tracker
 clickdensity.com #Clickdensity - Tracker
@@ -929,6 +933,7 @@ countly.ooni.io #Ooni.io - Tracker
 countly.server2devgame.com #Server2devgame.com - Tracker
 coveritlive.com #CoveritLive - Tracker
 cpex.cz #Czech Publisher Exchange - Advertising
+cpiytrk2.com #insanely.org - Tracker
 cpmstars.com #CPMStars - Advertising
 cpx.to #Unknown - Tracker
 cqcounter.com #Unknown - Tracker
@@ -1050,6 +1055,7 @@ digitru.st #DigiTrust - Tracker
 direct-aws-a1.com #Lead Forensics - Tracker
 direct-azr-78.com #Lead Forensics - Tracker
 directrev.com #Unknown - Tracker
+directservices.it #Unknown - Tracker
 discountertotaal.eu #wrldtrck.com spam - Advertising
 discountervoordelig.eu #wrldtrck.com spam - Advertising
 discountextra.eu #wrldtrck.com spam - Advertising
@@ -1755,6 +1761,7 @@ lkqd.com #LKQD - Tracker
 lkqd.net #LKQD - Tracker
 locallogic.co #Local Logic - Tracker
 localytics.com #Localytics - Tracker
+log.core.cloud.vewd.com #vewd.com - Tracker
 log.kmplayer.com #kmplayer.com - Tracker
 log.olark.com #Olark - Tracker
 log.pinterest.com #Pinterest - Tracker
@@ -1841,6 +1848,7 @@ mdotlabs.com #Viewability - Tracker
 mdotm.com #MdotM - Tracker
 measuread.com #MeasureAd - Tracker
 measurelib.com #Unknown - Tracker
+measurement-lab.org #Measurement Lab - Tracker
 medals.bizrate.com #TBC - Tracker
 medi-8.net #Medi8 - Tracker
 media.complex.com #Complex - Tracker
@@ -13333,7 +13341,6 @@ realsrv.com #Unknown - Advertising
 realtime-bid.com #RealtimeBid - Advertising
 realtime.email #Unknown - Advertising
 realytics.io #Realytics - Tracker
-rebelmouse.com #Rebelmouse - Tracker
 rebelmouse.io #Rebelmouse - Tracker
 rebornads.com #Rebornads - Advertising
 rebrand.today #ClickMeter - Tracker
@@ -13370,6 +13377,7 @@ resorsedroblet.pro #Unknown - Advertising
 responsetap.com #Unknown - Tracker
 ressupgame.eu #wrldtrck.com spam - Advertising
 retargeting.biz #Retargeting - Tracker
+retentioneering.com #Retentioneering - Tracker
 returnpath.net #Return Path - Tracker
 revcontent.com #Unknown - Tracker
 revdepo.com #RevenueHits - Tracker

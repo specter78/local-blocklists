@@ -1,8 +1,8 @@
-! Checksum: ZzOo6J3Y1V7uKU+IAIX/XA
+! Checksum: QeAELRr8ntm/v+CFGO5KkQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.6
-! TimeUpdated: 2021-04-18T12:30:23+00:00
+! Version: 2.0.19.9
+! TimeUpdated: 2021-04-19T15:30:36+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2252,7 +2252,6 @@ deviantart.com#@#.mobile-ad
 !
 !+ NOT_OPTIMIZED
 pravda.com.ua##amp-iframe[src^="https://orbit4.lun.ua/"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/78374
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69965
 !+ NOT_OPTIMIZED
 24tv.ua##.within-ads
@@ -2296,6 +2295,7 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+mobile.twitter.com##div[data-testid="primaryColumn"] div[data-testid="placementTracking"] > div:not([data-testid="videoPlayer"])
 ameblo.jp##article > div[class^="_"] > div:not([class]) > div[class^="_"]:first-child > div[class^="_"]:only-child
 ameblo.jp##main > div > div.LazyLoad[style="height:80vw"]
 ameblo.jp##aside[class^="_"] > div[class^="_"] > div[class^="_"] > ul:last-child > div:empty

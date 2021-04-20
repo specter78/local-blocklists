@@ -1,8 +1,8 @@
-! Checksum: b6beT38aewjZNAYArl1MPQ
+! Checksum: 8T6g4x9jw0zVcnTLAVEnMA
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.52.18
-! TimeUpdated: 2021-04-18T22:30:51+00:00
+! Version: 2.0.52.23
+! TimeUpdated: 2021-04-19T20:30:57+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,9 @@
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||istori.site^$third-party
+||mikla.site^$third-party
+||goryachie-foto.net^$third-party
 ||akolafovar.com^$third-party
 ||rbdiqz.com^$third-party
 ||the4.fun^$third-party
@@ -8174,6 +8177,8 @@ rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top#%#//scriptlet("
 rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top#%#//scriptlet('prevent-setTimeout', 'wait_start', '1000')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61143
 naylo.top,rustorka.com,rustorka.net,rustorkacom.lib,tapochek.net#%#document.cookie = "opt_js=opt_js; path=/;";
+! https://github.com/AdguardTeam/AdguardFilters/issues/79063
+naylo.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.com,rustorka.net#%#document.cookie = "opt_js2=opt_js2; path=/;";
 ! sc2tv.ru - branding
 sc2tv.ru#%#//scriptlet('remove-class', 'body--brranding', 'peka-app > div.body--brranding')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61999
@@ -8603,6 +8608,8 @@ api.kinomoov.org#%#AG_onLoad(function() { window.flashLayerAdSkipDelay = 1; });
 !------- CSS -----------
 !-----------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/80309
+lordfilm-lord.club#$#.wrap { padding-top: 0 !important; }
 ! sports.ru - for apps. Sometimes banner is not hidden on the main page
 sports.ru#$#.nav-top-line__content-wrapper > div:not([class*="-"]) { visibility: hidden!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78290
@@ -10943,6 +10950,11 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+rutab.net##div[class^="marketWidgetouter"]
+rutab.net###YMW300x600LClose
+otxataba.net##div[class^="wogame"]
+.site^$domain=zetflix.so
+gorsovet.com.ua##.widget-type-banners
 radikal.ru##a[href="https://leto-climat.ru/"]
 korsars.pro##div[style="width: 160px; height: 600px;"]
 forklog.com##.single_brba
