@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202104200506
+! Version: 202104202204
 ! Title: Fanboy's Annoyance List
-! Last modified: 20 Apr 2021 05:06 UTC
+! Last modified: 20 Apr 2021 22:04 UTC
 ! Expires: 4 days (update frequency)
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Please report any unblocked content or problems by email or in our forums
@@ -33590,6 +33590,7 @@ _vpcookieconsent/
 ##.taxcodeandprivacy-cookienotice-bar
 ##.tbcookie
 ##.tc-cookie-banner
+##.tc-cookie-compliance
 ##.tc-cookies-alerta
 ##.tc-privacy-banner
 ##.tc-privacy-overlay
@@ -44446,6 +44447,7 @@ gds.it###data[style="overflow:hidden; height: 246px; margin:10px 0px;"]
 bastabugie.it,tuttocampo.it###facebook
 gallorosso.it###flyingMenu
 valgardena.it###footerbottomlinks
+notebookitalia.it###gn_cta
 altamuralife.it,andriaviva.it,bariviva.it,barlettaviva.it,bisceglieviva.it,bitontoviva.it,canosaviva.it,cerignolaviva.it,coratoviva.it,giovinazzoviva.it,gravinalife.it,margheritaviva.it,materalife.it,minervinoviva.it,modugnoviva.it,molfettaviva.it,ruvoviva.it,sanferdinandoviva.it,spinazzolaviva.it,terlizziviva.it,traniviva.it,trinitapoliviva.it###header-fanpage
 ecodibergamo.it###iconz
 assopoker.com###more-less-btn
@@ -45679,7 +45681,7 @@ voloweb.it###popupDivC
 alceosalentino.it,chemistresearch.it,cinquantamila.it,compitoinclasse.org,metroservices.it,tastoeffeuno.it###privacy
 testisemplificati.com###privacy-modal
 jusan.it###privacy-popup
-coni.it,federnuoto.it###privacy-wrapper
+comitatoparalimpico.it,coni.it,federnuoto.it###privacy-wrapper
 pagomeno.it###privacyBanner
 cinquantamila.corriere.it,cinquantamila.it###privacy_advisor
 samaritansonlus.org###sB_injected
@@ -47524,7 +47526,7 @@ yoigo.com#@#thor-cookies
 @@||businessinsider.in/gdpr_js/version-12,minify-1.cms$script,~third-party
 @@||c.evidon.com/sitenotice/evidon-sitenotice-tag.js$script,domain=southpark.de|southparkstudios.nu
 @@||carport-diagnose.de/script/cookieconsent.min.js$script,~third-party
-@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|crfashionbook.com|doctoroz.com|eurogamer.net|gmx.com|gq-magazine.co.uk|mail.com|popculture.com|reuters.com|rockpapershotgun.com|rte.ie|trustpilot.com|tvn24.pl|vimeo.com|wargaming.net|worldsurfleague.com
+@@||cdn.cookielaw.org^$script,stylesheet,xmlhttprequest,domain=cnn.com|crfashionbook.com|crunchyroll.com|doctoroz.com|eurogamer.net|gmx.com|gq-magazine.co.uk|mail.com|popculture.com|reuters.com|rockpapershotgun.com|rte.ie|trustpilot.com|tvn24.pl|vimeo.com|wargaming.net|worldsurfleague.com
 @@||chasecdn.com^*/cookie.js$script,domain=chase.com
 @@||civiccomputing.com^*/cookieControl-$script,domain=amplitude.com|msi.com
 @@||cloudflare.com^*/cookieconsent.min.js$domain=ehftv.com|pixieset.com|sammobile.com|xnview.com
@@ -47539,7 +47541,7 @@ yoigo.com#@#thor-cookies
 @@||cookie-cdn.cookiepro.com^$script,stylesheet,xmlhttprequest,domain=api.newsguardtech.com|giochi.it
 @@||cookielaw.org/consent/$other,xmlhttprequest
 @@||cookielaw.org/consent/cmp.stub.js$domain=reuters.com
-@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cbsnews.com|cnet.com|epicgames.com|eurogamer.net|gmx.com|gq-magazine.co.uk|popculture.com|reuters.com|rte.ie|trustpilot.com|tvn24.pl|wargaming.net|worldsurfleague.com|zdnet.com
+@@||cookielaw.org/scripttemplates/$script,xmlhttprequest,domain=cbslocal.com|cbsnews.com|cnet.com|crunchyroll.com|epicgames.com|eurogamer.net|gmx.com|gq-magazine.co.uk|popculture.com|reuters.com|rte.ie|trustpilot.com|tvn24.pl|wargaming.net|worldsurfleague.com|zdnet.com
 @@||cookielawinfo.com^$~third-party
 @@||cookiepro.com/consent/$xmlhttprequest,domain=softgames.com
 @@||cookiepro.com/scripttemplates/$script,xmlhttprequest,domain=softgames.com
