@@ -1,8 +1,8 @@
-! Checksum: eQ7Izph/mLW5NfnyknQ4Rg
+! Checksum: 54Pj+ZAomteu98zh6sIQ2Q
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.52.26
-! TimeUpdated: 2021-04-20T21:30:52+00:00
+! Version: 2.0.52.28
+! TimeUpdated: 2021-04-21T22:30:53+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -5433,9 +5433,9 @@ qaru.site#%#AG_abortInlineScript(/script.onerror/, 'document.addEventListener');
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19531
 @@||winksweb.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68602
-/script.js$domain=studopedia.su|studopedia.org|studopedia.ru|studopedia.com.ua|lektsii.org
-studopedia.su,studopedia.org,studopedia.ru,studopedia.com.ua,lektsii.org#@#.adBanner
-studopedia.su,studopedia.org,studopedia.ru,studopedia.com.ua,lektsii.org#@#.adbanner
+/script.js$domain=studopedia.net|studopedia.su|studopedia.org|studopedia.ru|studopedia.com.ua|lektsii.org
+studopedia.net,studopedia.su,studopedia.org,studopedia.ru,studopedia.com.ua,lektsii.org#@#.adBanner
+studopedia.net,studopedia.su,studopedia.org,studopedia.ru,studopedia.com.ua,lektsii.org#@#.adbanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18956
 @@||rem-tech.at.ua/pagead2.ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18564
@@ -6474,6 +6474,7 @@ mp3tron.com#?#.side-right > div.side-box:not(:has(*))
 razlozhi.ru#$?#div:matches-css(right:235px) { remove: true; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60777
 2gis.*#?#header > a[href^="http://redirect.2gis.com/adv/"]:upward(2)
+2gis.ru#?#div[style="position:relative;overflow:hidden;width:100%;height:100%"] div:has(> header:contains(Похожие организации))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71482
 astrosfera.ru#?#.grid-box > div.module:has(> div[id^="yandex_rtb_"])
 astrosfera.ru#?#.grid-box > div.module:has(> p > script[src^="//bhghfsa.info"])
@@ -6674,6 +6675,7 @@ spcs.me#?#.wrapper > div[class]:has(> div > b.darkblue)
 spcs.me#?#div:has(> a[title="Отключить рекламу"])
 spcs.me#?#div:matches-css(border-bottom-color: rgb(204, 202, 202))
 !
+pikabu.ru#?#.stories-feed__message:has(> div[data-sid="partners_widget_horizontal_pikabu_ru"])
 pikabu.ru#?#.stories-feed > div.stories-feed__container > .story:has(a.story__sponsor)
 pikabu.ru#?#.stories-feed > div.stories-feed__container > .story:has(> div > div.story__pin)
 pikabu.ru#?#.stories-feed > div.stories-feed__container > .story:has(a[href$="?from=ad_unit"])
@@ -10952,6 +10954,10 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+bazaar.ru##div[class*="a_-d-banner"]
+marieclaire.ru##.creative-wrapper-v2
+2gis.ru##div[id^="doubleclick-banner-"]
+2gis.ru##div[style="position:relative;overflow:hidden;width:100%;height:100%"] div[style*=" cubic-bezier"] > div[style*="min-width:276px;max-width:276px"]
 viva.ua##.sb-partners
 viva.ua##.article-partners
 rutab.net##div[class^="marketWidgetouter"]
