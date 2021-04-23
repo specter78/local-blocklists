@@ -1,8 +1,8 @@
-! Checksum: 54Pj+ZAomteu98zh6sIQ2Q
+! Checksum: rq82exO6zazm7+7ezs9LsQ
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.52.28
-! TimeUpdated: 2021-04-21T22:30:53+00:00
+! Version: 2.0.52.30
+! TimeUpdated: 2021-04-22T22:30:53+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -11103,6 +11103,8 @@ onliner.by##.news-text > h3 > a[href^="https://catalog.onliner.by/"]
 onliner.by##.news-text > h2 > a[href^="https://catalog.onliner.by/"]
 nur.kz##.adv-placeholder
 sn-plus.com##.ads-placement
+dnpr.com.ua##.area-after-nav
+dnpr.com.ua##.widget-type-banners
 ||tolkorus.info/js/popupimage.js
 monsterkino.ru##div[style="text-align:center;"] > a > img
 kinotalk.me##a[href^="/engine/go.php?url="]
@@ -20909,6 +20911,10 @@ pb.wtf,piratbit.org,piratbit.pw,piratbit.top###main_content > noindex
 !
 !
 ! START: mail.ru
+!
+mail.ru##.skeleton + a[href^="https://r.mail.ru/redir/"]
+mail.ru##.skeleton
+mail.ru##.skeleton-tgb
 ||ad.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru
 ! Domains: mail.ru,auto.mail.ru,cloud.mail.ru,e.mail.ru,octavius.mail.ru,esports.mail.ru,games.mail.ru,go.mail.ru,health.mail.ru,hi-tech.mail.ru,horo.mail.ru,kino.mail.ru,lady.mail.ru,love.mail.ru,mailblog.mail.ru,minigames.mail.ru,my.mail.ru,news.mail.ru,otvet.mail.ru,pogoda.mail.ru,realty.mail.ru,touch.mail.ru,tv.mail.ru,ok.ru
 ! поддомены
