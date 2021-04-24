@@ -1,8 +1,8 @@
-! Checksum: B4U3XfRHfwPNP1Q7TZ6tzQ
+! Checksum: 4PiYyGM8TknADsRnkUeNXg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.23.70
-! TimeUpdated: 2021-04-23T00:31:22+00:00
+! Version: 2.0.23.77
+! TimeUpdated: 2021-04-23T20:31:31+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4556,6 +4556,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||log.g-enews.com^
 ||pla-tk.flipkart.net^
 ||stat.myshows.me^
 ||d2ieqaiwehnqqp.cloudfront.net^
@@ -5085,7 +5086,6 @@ nethunt.com/api/v1/track/email/$image
 ||log.deutschegrammophon.com^
 ||log.mappy.net^
 ||log.newsvine.com^
-||log.optimizely.com^
 ||log.player.cntv.cn/stat.html?
 ||log.snapdeal.com^
 ||log.thevideo.me^
@@ -6106,7 +6106,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d5i9o0tpq9sa1.cloudfront.net^
 ||d6jkenny8w8yo.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
-||d8rk54i4mohrb.cloudfront.net^
 ||d9lq0o81skkdj.cloudfront.net^
 ||daq0d0aotgq0f.cloudfront.net^
 ||d3alqb8vzo7fun.cloudfront.net^
@@ -16668,6 +16667,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/wp-content/plugins/google-analytics-premium/*
 /js/ad_insight/*
 .com/s.gif?
 /facebookPixel.
@@ -19087,7 +19087,7 @@ link.gmapp*.net$image
 ||indiatimes.com^$cookie=deviceid
 ||coinbase.com^$cookie=coinbase_device_id
 ||rshrt.com^$cookie=app_visitor
-||indiatimes.com^$cookie=/deviceid|lgc_deviceid|_pubcid|ak_bmsc/
+||indiatimes.com^$cookie=/deviceid|lgc_deviceid|ak_bmsc/
 ||producthunt.com^$cookie=/visitor_id|track_code|first_visit/
 ||iltalehti.fi^$cookie=sammio-bsid
 ||smartworld.it^$cookie=__mx_log
@@ -19150,6 +19150,10 @@ $cookie=kampyle_userid
 ! Collects anonymous data related to the user’s visits to the website(number of visits, average time spent on the website and which pages have been loaded)
 $cookie=external_referer
 $cookie=guest_id
+! Carries out information about how the end user uses the website and any advertising that the end user may have seen before visiting the said website.
+$cookie=personalization_id
+! Twitter is broken when this cookie is blocked - https://github.com/AdguardTeam/AdguardFilters/issues/80677#issuecomment-825625172
+!$cookie=ct0
 !
 ! yahoo.com
 ! Used in the targeting of relevant adverts and content on the Yahoo! platform
@@ -19352,6 +19356,9 @@ $cookie=adcloud
 $cookie=everest_g_v2
 ! This cookie is used to identify a unique visitor.
 $cookie=/^AMCVS?_.*AdobeOrg/
+! Used to identify return visitors to the same website.
+$cookie=clVisitorId
+$cookie=clRequestId
 !
 ! nbcuniversal.com
 $cookie=adEdition
@@ -19478,7 +19485,8 @@ $cookie=IDE
 !
 ! Reblaze
 ! This cookie is used to maintain an anonymised unique identifier for session.
-$cookie=rbzid
+! It causes that some websites don't load -  https://github.com/AdguardTeam/AdguardFilters/issues/81164 and https://github.com/AdguardTeam/AdguardFilters/issues/81232
+!$cookie=rbzid
 ! This cookie is used to attribute an unique identifier for session.
 $cookie=rbzsessionid
 !
@@ -19520,14 +19528,27 @@ $cookie=ss_cvt
 $cookie=ss_cvr
 $cookie=ss_cid
 !
+! Criteo
+! Ads targeting
+$cookie=cto_bundle
+$cookie=cto_bidid
+!
+! Prebid PubCid
+! Analytics, targeting
+$cookie=_pubcid
+$cookie=pbjs-unifiedid
+!
+! BrightFunnel
+! Used to identify unique users and for analytics.
+$cookie=bf_lead
+$cookie=bf_visit
+!
 !
 !
 !------------------------------
 !---- Fixing filtering errors -
 !------------------------------
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/81164
-@@||ebay-kleinanzeigen.de^$cookie=rbzid
 !-------------------------------------------------------------------------------!
 !-------------- Mobile analytics  ----------------------------------------------!
 !-------------------------------------------------------------------------------!
@@ -20068,6 +20089,11 @@ $cookie=ss_cid
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/80879
+@@||googletagmanager.com/gtm.js$domain=sk.club.iqos.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/80820
+! https://github.com/AdguardTeam/AdguardFilters/issues/80838
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=asicstr.com
 ! https://github.com/easylist/easylist/pull/7713
 @@||line-scdn.net/*/torimochi.js/$script,domain=demae-can.com
 ! https://github.com/easylist/easylist/pull/7600
@@ -20354,7 +20380,7 @@ nnmclub.ro,nnm-club.t0r.xyz,nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm
 @@||googletagmanager.com/gtm.js$domain=thecompanion.app
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79410
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63801
-@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|lexus.jp|peachjohn.co.jp|rtoaster.com|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|lexus.jp|peachjohn.co.jp|rurubu.jp|shop.hikaritv.net|melonbooks.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63828#issuecomment-693360254
 @@||googletagmanager.com/gtm.js$domain=sport1.de
 ! https://github.com/uBlockOrigin/uAssets/issues/7899
