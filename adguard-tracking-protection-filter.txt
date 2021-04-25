@@ -1,8 +1,8 @@
-! Checksum: 4PiYyGM8TknADsRnkUeNXg
+! Checksum: d/6Jx1Av0B14Edn84ZouEw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.23.77
-! TimeUpdated: 2021-04-23T20:31:31+00:00
+! Version: 2.0.23.78
+! TimeUpdated: 2021-04-24T11:31:24+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19154,6 +19154,8 @@ $cookie=guest_id
 $cookie=personalization_id
 ! Twitter is broken when this cookie is blocked - https://github.com/AdguardTeam/AdguardFilters/issues/80677#issuecomment-825625172
 !$cookie=ct0
+! for apps(the rule is not removed from filter)
+@@$cookie=ct0
 !
 ! yahoo.com
 ! Used in the targeting of relevant adverts and content on the Yahoo! platform

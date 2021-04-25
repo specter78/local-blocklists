@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ZbQym3U/YiCsdS9TpU35Mw
-! Version: 202104240501
+! Checksum: dkaHUfQGJ0zU7R76Uu2MoA
+! Version: 202104250501
 ! Title: EasyList Italy
-! Last modified: 24 Apr 2021 05:01 UTC
+! Last modified: 25 Apr 2021 05:01 UTC
 ! Expires: 1 days (frequenza di aggiornamento)
 ! Homepage: https://easylist.to/
 ! Licenza: https://easylist.to/pages/licence.html
@@ -252,6 +252,7 @@ _sito/adv/
 ##.adv300eni
 ##.adv300x100vd
 ##.advBot
+##.advHm-cont-Ape
 ##.advPostLibri
 ##.adv_articolo
 ##.adv_banner_ps_13
@@ -767,6 +768,7 @@ brocardi.it#@#.with-background-ads
 ||upcom.it^*/banner/
 ||uplink.aruba.it^$third-party
 ||venerota.it/lcn_jpg.php$third-party
+||viaggiare.columbusassicurazioni.it^$third-party
 ||viagogo.it/feeds/widget.ashx?*&affiliateid=$subdocument
 ||visitbritainshop.com^$image,third-party
 ||vistosulweb.com/almanacco/
@@ -1628,6 +1630,8 @@ brocardi.it#@#.with-background-ads
 ||corriereobjects.it^*/sponsor/
 ||corrierepievese.it^*_275x115.
 ||corriereromagna.it^*-300x600-
+||corriereromagna.it^*-webbanner300x600px-
+||corriereromagna.it^*/300x600pixel-
 ||corriereromagna.it^*/banner-
 ||corriereromagna.it^*/noci300x250.jpg
 ||corriereromagna.it^*/uniport.jpg
@@ -1644,6 +1648,7 @@ brocardi.it#@#.with-background-ads
 ||cremonaoggi.it^*/BANNERINO-
 ||cronacaqui.it^*/banner-
 ||cronacaqui.it^*/mmotors.jpg
+||cronachedellacampania.it^*/longobardi.jpg
 ||cronachedibirra.it^*/banner_
 ||cronachedibirra.it^*/LOGO-EUROSTAR-
 ||cronachetarantine.it/images/banners/
@@ -1691,8 +1696,13 @@ brocardi.it#@#.with-background-ads
 ||datameteo.com^*/clickday.jpg
 ||datameteo.com^*/logo-scamuzzi.png
 ||datameteo.com^*/una-mano-per-i-bambini-onlus.png
+||dayitalianews.com^*/campagna_unipol.mp4
 ||dazebaonews.it/images/ITC.jpg
 ||dazebaonews.it/images/LAB.jpg
+||dentrolanotizia.tv^*/banner_
+||dentrolanotizia.tv^*/falegnameriapinoccio.jpg
+||dentrolanotizia.tv^*/franca-esposito-psicoterapeuta.jpg
+||dentrolanotizia.tv^*/mgm-ferramente-
 ||dentrosalerno.it^*/banner/
 ||dentrosalerno.it^*/sidelmed.png
 ||dentrosalerno.it^*/Verrengia.png
@@ -1711,6 +1721,8 @@ brocardi.it#@#.with-background-ads
 ||diritto.it^*/download-1-2.jpg
 ||diritto.it^*/untitled-3.png
 ||dirittoegiustizia.it^*/downloadFileBanner.
+||divisionecalcioa5.it^*/74896C0E-F096-4034-B647-BA549495F905.jpeg
+||divisionecalcioa5.it^*/banner-
 ||djmagitalia.com^*-banner-
 ||djmagitalia.com^*/BANNER_
 ||djmagitalia.com^*_skin_
@@ -1768,6 +1780,7 @@ brocardi.it#@#.with-background-ads
 ||emiliaeunanotte.it^*/Banner-
 ||emiliagol.it/js/allinone_bannerRotator.js
 ||emiliagol.it^*/File_banner/
+||emiliaromagnanews24.it^*/clai-
 ||emiliotomasini.it/images/banner/
 ||emotionrit.it^*/banner1_
 ||emotionrit.it^*/tep-wireless.jpg
@@ -1887,6 +1900,8 @@ brocardi.it#@#.with-background-ads
 ||frasicelebri.it^*/amazonbuy.
 ||freeonline.it/img/newskin-
 ||freeonline.org/img/banner/
+||fremondoweb.com^*/banner_
+||fremondoweb.com^*_laterale.
 ||freshplaza.it/b/
 ||fumettologica.it^*/107410583.png
 ||fumettologica.it^*/413907652.jpeg
@@ -1911,18 +1926,24 @@ brocardi.it#@#.with-background-ads
 ||gazzettabenevento.it/Sito2009/image/banner/
 ||gazzettadellaspezia.it^*/banners/
 ||gazzettadiavellino.it^*-banner.
+||gazzettadiavellino.it^*/MeravigliosaCampania-
+||gazzettadiavellino.it^*/nuova-elite-corso-estetista.png
 ||gazzettadilivorno.it^*/skin/
 ||gazzettadimilano.it^*-banner-
+||gazzettadimilano.it^*/airpure-sanificatore-ozono.jpg
 ||gazzettadimilano.it^*/art-space.jpg
 ||gazzettadimilano.it^*/cartolibreriashop.it_
 ||gazzettadimilano.it^*/CH-
 ||gazzettadimilano.it^*/CHARME-
 ||gazzettadimilano.it^*/ecommerce-kynetic-
+||gazzettadimilano.it^*/funshopping.it_
 ||gazzettadimilano.it^*/KYNETICSOCIAL-
 ||gazzettadimilano.it^*/lesalonedelamode.jpeg
 ||gazzettadimilano.it^*/mi3-
+||gazzettadimilano.it^*/space-
 ||gazzettadimilano.it^*/WhatsApp-Image-2020-02-13-at-16.02.56.jpeg
 ||gazzettadinapoli.it^*/circuitofelix-
+||gazzettadinapoli.it^*/KYNETICSOCIAL-
 ||gazzettadinapoli.it^*/mazzbar.jpg
 ||gazzettadinapoli.it^*/pizzeria-piscopo.jpg
 ||gazzettadinapoli.it^*/sapori-pasticceria-
@@ -1988,6 +2009,7 @@ brocardi.it#@#.with-background-ads
 ||giornaledibarga.it^*/pensarecasa.
 ||giornaledibarga.it^*/PP-
 ||giornaledimontesilvano.com/images/banners/
+||giornaledirimini.com^*/banner-
 ||giornalelavoce.it^*-300x250px.
 ||giornalelavoce.it^*/alimentari-stefano.jpg
 ||giornalelavoce.it^*/banner.
@@ -2170,6 +2192,7 @@ brocardi.it#@#.with-background-ads
 ||ilcarmagnolese.it^*/banner-
 ||ilcaso.it/immagini/gioiavivereanimato2.gif
 ||ilcentroabruzzo.it/immagine-profilo-.jpg
+||ilciriaco.it^*/CEDIM-
 ||ilclandestinogiornale.italiasera.it^*/Oktoberfest-nettuno-
 ||ilcorriere.net^*-banner.
 ||ilcorrieredelgiorno.it^*/720x300_
@@ -2320,6 +2343,7 @@ brocardi.it#@#.with-background-ads
 ||ilpuntonotizie.it^*-Leaderboard.
 ||ilpuntonotizie.it^*/IRANA-TAPPETI.
 ||ilquotidiano.it/userdata/banner/
+||ilquotidianoditalia.it/uploads/blocks/block_5f9e40ba3bc03.jpg
 ||ilroma.net^*-banner_
 ||ilroma.net^*/Dial_WEB.png
 ||ilroma.net^*/rotating_banner/
@@ -2366,6 +2390,7 @@ brocardi.it#@#.with-background-ads
 ||infoagrigento.it^*/viaggi-di-cicerone.jpg
 ||infodrones.it^*-banner.
 ||infonewsvietri.it/*/Zainetto-
+||infonewsvietri.it^*-banner-
 ||infonewsvietri.it^*/MAIORI2020.jpeg
 ||infooggi.it/static/roby_car.jpg
 ||infooggi.it/static/universal.jpg
@@ -2444,6 +2469,7 @@ brocardi.it#@#.with-background-ads
 ||itvonline.news^*-300x250px-
 ||itvonline.news^*/4698d099-
 ||itvonline.news^*/9a6de89a-
+||itvonline.news^*/Agos-
 ||itvonline.news^*/compri-vendi-
 ||itvonline.news^*/Schermata-2020-07-07-alle-12.27.14.png
 ||itvonline.news^*/skin-
@@ -2754,6 +2780,7 @@ brocardi.it#@#.with-background-ads
 ||mam-e.it^*/mame-gallerie-italia-intesa-san-paolo.jpg
 ||mammaimperfetta.it^*_banner.
 ||mammedomani.it/images/banners/
+||mandamentonotizie.it/animazione/
 ||manduriaoggi.it/html/banner/
 ||manduriaoggi.it/img_new/848x280_
 ||mangaforever.net^*/fumetti-am.
@@ -3641,6 +3668,8 @@ brocardi.it#@#.with-background-ads
 ||segretodonna.com^*/720x90-
 ||seguonews.it^*/banner/
 ||seguonews.it^*/banner_
+||seitv.it^*/PicsArt_03-09-12.17.01-e1546532655750.png
+||seitv.it^*/WhatsApp-Image-2020-10-05-at-16.03.53.jpeg
 ||senigallianotizie.it/banner/
 ||sentireascoltare.com^*/auto-doc.it-
 ||sentireascoltare.com^*/motordoctor.gif
@@ -3750,6 +3779,7 @@ brocardi.it#@#.with-background-ads
 ||sprintesport.it^*/PRENOTAMI24-
 ||sprintesport.it^*/xGARANZIA-GIOVANI-
 ||sprintesport.it^*_970x250-
+||squarespace-cdn.com^*+468x60.GIF$domain=roadnroll.it
 ||ssarezzo.it^*-sponsor-
 ||ssarezzo.it^*/Partner-
 ||ssarezzo.it^*/Premium-per-
@@ -3964,10 +3994,12 @@ brocardi.it#@#.with-background-ads
 ||tipster.space/FOTO/ADV/
 ||tiscali.it/12c416f4ae48ee5ee916422dc8157f76.jpeg
 ||tiscali.it/18da78a0a0293ff280d4a9ee581b0b86.jpeg
+||tiscali.it/aeb2e59e0a9121c59870f5874f6bfa0c.jpeg
 ||tiscali.it/amazon/
 ||tiscali.it/planner/
 ||tiscali.it/sampr/amz.js
 ||tiscali.it^*/comparasemplice.
+||tiscali.it^*/eby3x4.jpg
 ||tmnotizie.com^*/ballone-andrea-impermeabilizzazione-casa.jpg
 ||tmnotizie.com^*/banner-
 ||tmnotizie.com^*/country-hotel-offida.jpg
@@ -4421,6 +4453,8 @@ brocardi.it#@#.with-background-ads
 ||wp.com/www.calciogoal.it/*/119054606_350406236368302_7591478443508881500_n.png
 ||wp.com/www.calciogoal.it/*/12597e17-489e-4e5f-aed5-57e4c9562708.jpg
 ||wp.com/www.cataniaunafede.it/*/schillaci_bianco.jpg
+||wp.com/www.dentrolanotizia.tv/*/bannerete.jpg
+||wp.com/www.dentrolanotizia.tv/*/dottoressa-franca-esposito-psicologa-
 ||wp.com/www.gazzettadiavellino.it/*/MeravigliosaCampania-
 ||wp.com/www.gazzettadiavellino.it/*/nuova-elite-
 ||wp.com/www.gazzettadimilano.it/*/airpure-
@@ -4490,6 +4524,13 @@ brocardi.it#@#.with-background-ads
 ||wp.com/www.oggicronaca.it/*/divisionismolarge.gif
 ||wp.com/www.ostuninotizie.it/*/colazione-con-flavio.jpg
 ||wp.com/www.partiture.it/*/logo-amazon_
+||wp.com/www.pisainvideo.it/*/aforisma_
+||wp.com/www.pisainvideo.it/*/Easy-Rider_
+||wp.com/www.pisainvideo.it/*/ff.jpg
+||wp.com/www.pisainvideo.it/*/La-Faeta_
+||wp.com/www.pisainvideo.it/*/Mangini-logo-
+||wp.com/www.pisainvideo.it/*/New-Data-Center.jpg
+||wp.com/www.pisainvideo.it/*/Pisa_carburanti-
 ||wp.com/www.playersmagazine.it/*/amazon_logo.jpg
 ||wp.com/www.proiezionidiborsa.it/*/bnp-
 ||wp.com/www.proiezionidiborsa.it/*/ig-
@@ -4499,6 +4540,9 @@ brocardi.it#@#.with-background-ads
 ||wp.com/www.statoquotidiano.it/*/727x247-
 ||wp.com/www.tabsernews.it/*/THE-SOUND.png
 ||wp.com/www.teleradio-news.it/*-490x147-
+||wp.com/www.tgnewstv.it/*/CARIFANO4.jpg
+||wp.com/www.tgnewstv.it/*/Helios-
+||wp.com/www.tgnewstv.it/*/Tessera-farmacia-del-leopardo-
 ||wp.com/www.thewalkoffame.it/*/myzona.gif
 ||wp.com/www.tsdtv.it/*/300x300-
 ||wp.com/www.tuttoboxe.it/*/amazon-
@@ -4523,6 +4567,7 @@ brocardi.it#@#.with-background-ads
 ||wp.com^*/skin-$domain=infocilento.it
 ||wp.com^*_ads.gif$domain=lameziaterme.it
 ||wp.com^*_Banner_$domain=gliacchiappafilm.it
+||wp.com^*_sponsor-$domain=tgnewstv.it
 ||wp.com^*Banner300x600.$domain=milanodabere.it
 ||yescalabria.com^*/CaffeMauro300X600-
 ||yescalabria.com^*/caffemauro728x90-
@@ -4627,6 +4672,7 @@ ilgiornaleditrani.net,unadonnasana.it###ai_widget-3
 latinapress.it###ai_widget-4
 casasuper.it###ai_widget-5
 casasuper.it###ai_widget-7
+lospicchiodaglio.it###amazon_apa
 notebookitalia.it###amznbi
 amazon.it###ape_Detail_ad-endcap-1_Glance_placement
 amazon.it###ape_detail_btf_detail-mWeb_wrapper
@@ -4762,6 +4808,7 @@ affaritaliani.it###consigliati-giochi2
 virgilio.it###cont-leaderboard
 virgilio.it###cont-manchette
 dilei.it,quifinanza.it,siviaggia.it,supereva.it,virgilio.it###cont-wallpaper
+latinaoggi.eu###container-skin-top
 news.cinecitta.com###content-banner1
 news.cinecitta.com###content-banner2
 tltonline.it###content-footer-section
@@ -4785,7 +4832,7 @@ fiorditerra.eu###custom_html-23
 dimagrireduepuntozero.com,strill.it###custom_html-25
 dimagrireduepuntozero.com###custom_html-27
 alground.com,androidblog.it,birramoriamoci.it,calcioatalanta.it,calciofere.it,calciogrifo.it,calciolecce.it,forzaparma.it,labaricalcio.it,quizlab.it,siamolaroma.it,sololalazio.it,tifocosenza.it,trapanigranata.it###custom_html-3
-calciocasteddu.it,carteprepagate.org,guidaconsumatore.com,topragazze.it###custom_html-4
+calciocasteddu.it,carteprepagate.org,destinazioneusa.com,guidaconsumatore.com,pianetablunews.it,topragazze.it###custom_html-4
 mondomobileweb.it###custom_html-42
 calcioitalia24.it,italiaonline.news,mam-e.it,melarossa.it###custom_html-5
 1x2-calcio.com,calcioitalia24.it,cucinamamma.it,hynerd.it,it-casinoonline.com,nonsprecare.it,pentanewslivorno.it###custom_html-6
@@ -4794,6 +4841,7 @@ calcioitalia24.it,melarossa.it,pistoiasport.com,topragazze.it###custom_html-7
 calcioitalia24.it,corrierequotidiano.it,vitaminanews.it###custom_html-8
 scrivolibero.it,viaggiallafinedelmondo.it###custom_html-9
 amazon.it###detailILM_feature_div
+dayitalianews.com###diretta_video_unipol
 calendario-365.it###dish-top-desktop
 trueriders.it###div-TRD_MPU_CONT
 nextpit.it###div-header
@@ -4820,6 +4868,8 @@ ilcap.it###gadsense
 giornalesm.com###gallery-254068-1-slideshow
 mondoplay.it,mondoxbox.com###gameBlock_amazon
 mondoplay.it,mondoxbox.com###gameBlock_amazon_noboxart
+mandamentonotizie.it###gk-banner-top
+mandamentonotizie.it###gk-banners
 videogiocare.it###gp-affiliate-button
 cookaround.com###gpt-300250-container
 mercatinomusicale.com###hdr_leaderboard
@@ -4851,7 +4901,7 @@ affaritaliani.it###immo-300x250
 ilfattoquotidiano.it###immo-300x350
 ilfattoquotidiano.it###immo-form-container-300x350
 adirai.it###index_blog2
-cronacheancona.it,cronachefermane.it,cronachemaceratesi.it,trivenetogoal.it###infooter
+cronacheancona.it,cronachefermane.it,cronachemaceratesi.it,cronachepicene.it,trivenetogoal.it###infooter
 sienafree.it###ja-banner300x250
 sienafree.it###ja-bannertop300x250
 sienafree.it###ja-leaderboard
@@ -4889,17 +4939,19 @@ stadionews.it###manchette_sx_container
 acspezianews.it,campaniasoccer.com,dailybest.it,f1-news.eu,forum.tomshw.it,investireoggi.it,leonardo.it,messinanelpallone.it,politicanews.it,ricettedalmondo.it,tuttoavellino.it,tuttobari.com,tuttomonza.it,tuttorunning.net,tuttosalernitana.com,tuttoudinese.it###masthead
 matematicamente.it###masthead-desktop-wrapper
 ondarock.it###masthead_or
-ufficistampanazionali.it###media_image-10
+pisainvideo.it,ufficistampanazionali.it###media_image-10
 ufficistampanazionali.it###media_image-11
-allasianfootball.com,buonenotizie.it,chepreparo.it,ilgazzettinodisicilia.it,it-casinoonline.com###media_image-2
-benessere-sport.it,corriereelorino.it,tecnofacile.com,ufficistampanazionali.it###media_image-3
+pisainvideo.it###media_image-12
+pisainvideo.it###media_image-14
+allasianfootball.com,buonenotizie.it,chepreparo.it,ilgazzettinodisicilia.it,it-casinoonline.com,pisainvideo.it###media_image-2
+benessere-sport.it,corriereelorino.it,pisainvideo.it,tecnofacile.com,ufficistampanazionali.it###media_image-3
 altropensiero.net,corriereelorino.it,it-casinoonline.com,italiaonline.news,roadtvitalia.it,ufficistampanazionali.it###media_image-4
 staynerd.com###media_image-40
 advister.it###media_image-44
 giornalistitalia.it,inviaggiodasola.com,it-casinoonline.com,mondo3.com,ufficistampanazionali.it###media_image-5
-altropensiero.net,giornalistitalia.it,ufficistampanazionali.it###media_image-6
-cataniaunafede.it,ufficistampanazionali.it,vivoconbenessere.it###media_image-7
-giornalistitalia.it,italiaonline.news,mam-e.it,ufficistampanazionali.it###media_image-8
+altropensiero.net,giornalistitalia.it,pisainvideo.it,ufficistampanazionali.it###media_image-6
+cataniaunafede.it,dentrolanotizia.tv,ufficistampanazionali.it,vivoconbenessere.it###media_image-7
+dentrolanotizia.tv,giornalistitalia.it,italiaonline.news,mam-e.it,pisainvideo.it,ufficistampanazionali.it###media_image-8
 ufficistampanazionali.it###media_image-9
 laquilablog.it###media_video-10
 laquilablog.it###media_video-12
@@ -5031,14 +5083,14 @@ best5.it###text-26
 nerdevil.it###text-27
 giornalistitalia.it###text-28
 ricettealvolo.it###text-29
-clientiesperti.it,tecnofacile.com,top10scommesse.it###text-3
+clientiesperti.it,libripiuvenduti.it,tecnofacile.com,top10scommesse.it###text-3
 giornalistitalia.it###text-30
 alground.com###text-33
 contrastotv.it,giornalistitalia.it,viterbopost.it###text-34
 viterbopost.it###text-35
 giornalistitalia.it###text-36
 giornalistitalia.it,ilgiornaledeiveronesi.it###text-38
-birramoriamoci.it,faidatecreativo.com,finaria.it,tecnofacile.com,vigamusmagazine.com###text-4
+birramoriamoci.it,faidatecreativo.com,finaria.it,pianetablunews.it,tecnofacile.com,vigamusmagazine.com###text-4
 giornalistitalia.it###text-40
 giornalistitalia.it###text-41
 grossetosport.com###text-44
@@ -5117,7 +5169,7 @@ gnius.it##.aalb-product-carousel-unit
 facileporno.com##.aan_fake
 facileporno.com##.aan_fake__video-units
 repubblica.it##.aas_whole_wrapper
-androidplanet.it,casa-domotica24.it,ciaogreen.it,cityrumors.it,comelofaccio.it,depurarsi.com,fut18italia.it,gamerbrain.net,gufo.it,ideeregalonatale.biz,imiglioridififa.com,infotelematico.com,londranews.com,meditazionezen.it,melarossa.it,menteinformatica.it,migliorigiochi.eu,nerdmovieproductions.it,notiziarte.com,orgoglionerd.it,orologidapolso.org,outofbit.it,phonetoday.it,recensioniorologi.it,simonemaestri.com,solorecensioni.com,soluzionecomputer.it,stadiosport.it,stampante-3d.net,teamworld.it,tech4d.it,techbusiness.it,techprincess.it,tecnofacile.com,wordsmart.it##.aawp
+androidplanet.it,casa-domotica24.it,ciaogreen.it,cityrumors.it,comelofaccio.it,depurarsi.com,fut18italia.it,gamerbrain.net,gufo.it,ideeregalonatale.biz,imiglioridififa.com,infotelematico.com,libripiuvenduti.it,londranews.com,meditazionezen.it,melarossa.it,menteinformatica.it,migliorigiochi.eu,nerdmovieproductions.it,notiziarte.com,orgoglionerd.it,orologidapolso.org,outofbit.it,phonetoday.it,recensioniorologi.it,simonemaestri.com,solorecensioni.com,soluzionecomputer.it,stadiosport.it,stampante-3d.net,teamworld.it,tech4d.it,techbusiness.it,techprincess.it,tecnofacile.com,wordsmart.it##.aawp
 tecnofacile.com##.aawp-button
 topdigamma.it,tuttotek.it##.aawp-product
 ilportaledelcavallo.it##.ab_top_banner
@@ -5148,7 +5200,7 @@ beatgogo.it,chistachiamando.it,pcprofessionale.it,trova-aperto.it##.adsense
 adessoin.tv,allaguida.it,alpha59.it,altreconomia.it,amica.it,ansa.it,buttalapasta.it,calciomercato.com,cittaceleste.it,curioctopus.it,dissapore.com,fcinter1908.it,forbes.it,gelocal.it,gianlucadimarzio.com,girovagandointrentino.it,gta-expert.it,guardachevideo.it,ilfattoquotidiano.it,ilpost.it,ilsole24ore.com,latina24ore.it,leonardo.it,libero.it,mediaset.it,movieplayer.it,multiplayer.it,nanopress.it,notiziemilan.it,oasport.it,passioneinter.com,pianetamilan.it,pourfemme.it,prealpina.it,radioindiretta.fm,repubblica.it,salepepe.it,skuola.net,staffettaonline.com,stylosophy.it,supereva.it,toronews.net,virgilio.it,vocenuova.tv##.adv
 teleunica.com##.adv-body
 centrometeoitaliano.it##.adv-cmi
-animatamente.net##.adv-link
+animatamente.net,corriereromagna.it##.adv-link
 rbe.it##.adv-section
 radiocittadelcapo.it##.adv-space
 diredonna.it,gravidanzaonline.it,robadadonne.it##.adv-style
@@ -5231,7 +5283,7 @@ lacnews24.it##.ban_300x250
 ascolinotizie.it,fermonotizie.info,maceratanotizie.it,marchenotizie.info,pesarourbinonotizie.it,senigallianotizie.it,valmisa.com##.ban_box
 cottoepostato.it##.bann-300-250
 olbianotizie.it##.bann_square
-0766news.it,acquariofiliaconsapevole.info,agi.it,america24.com,asteannunci.it,atnews.it,basilicata24.it,bergamonews.it,calabriainforma.it,casateonline.it,centroimpiego.it,cesenanotizie.net,ciaocomo.it,cosenzainforma.it,cremaoggi.it,cremona1.it,cremonaoggi.it,cremonasport.it,cronacheancona.it,cronachefermane.it,cronachemaceratesi.it,cuneo24.it,cuneocronaca.it,dagospia.com,designmag.it,difesaonline.it,diretta.it,ejatv.com,euroregionalpmed.eu,fantacalcio.it,foodweb.it,forlinotizie.net,frasix.it,globalist.it,gossip.it,gsanews.it,guidaviaggi.it,hcb.net,hdblog.it,hdmotori.it,hellotaste.it,html.it,ilcapoluogo.it,ilcuoioindiretta.it,ilfriuli.it,ilgiornaledellabellezza.it,ilgoriziano.it,ilturista.info,informacalcio.quotidiano.net,insidemarketing.it,insurancetrade.it,irpinianews.it,key4biz.it,larionews.com,lavoripubblici.it,legnanonews.com,leovegas.news,lipari.biz,luccaindiretta.it,mauxa.com,merateonline.it,meteoweb.eu,metropolitano.it,modellismopiu.it,oggitreviso.it,oglioponews.it,piacenzasera.it,primonumero.it,quibrescia.it,radionorba.it,ravennanotizie.it,reggiosera.it,riassuntini.com,rimininotizie.net,rockit.it,romadailynews.it,romagnanotizie.net,sassarinotizie.com,scuolazoo.com,secoloditalia.it,serchioindiretta.it,siciliarurale.eu,sostariffe.it,sportando.basketball,sportasti.it,sportevai.it,sportlegnano.it,strettoweb.com,teatronaturale.it,technologyreview.it,telejato.it,tenews.it,tg24.info,tgfuneral24.it,traniviva.it,udineseblog.it,varesenews.it,vconews.it,verbanonews.it,voceapuana.com,vocenuova.tv,vocetigullio.com##.banner
+0766news.it,acquariofiliaconsapevole.info,agi.it,america24.com,asteannunci.it,atnews.it,basilicata24.it,bergamonews.it,calabriainforma.it,casateonline.it,centroimpiego.it,cesenanotizie.net,ciaocomo.it,cosenzainforma.it,cremaoggi.it,cremona1.it,cremonaoggi.it,cremonasport.it,cronacheancona.it,cronachefermane.it,cronachemaceratesi.it,cuneo24.it,cuneocronaca.it,dagospia.com,designmag.it,difesaonline.it,diretta.it,ejatv.com,euroregionalpmed.eu,fantacalcio.it,foodweb.it,forlinotizie.net,frasix.it,giornaledirimini.com,globalist.it,gossip.it,gsanews.it,guidaviaggi.it,hcb.net,hdblog.it,hdmotori.it,hellotaste.it,html.it,ilcapoluogo.it,ilcuoioindiretta.it,ilfriuli.it,ilgiornaledellabellezza.it,ilgoriziano.it,ilturista.info,informacalcio.quotidiano.net,insidemarketing.it,insurancetrade.it,irpinianews.it,key4biz.it,larionews.com,lavoripubblici.it,legnanonews.com,leovegas.news,lipari.biz,luccaindiretta.it,mauxa.com,merateonline.it,meteoweb.eu,metropolitano.it,modellismopiu.it,oggitreviso.it,oglioponews.it,piacenzasera.it,primonumero.it,quibrescia.it,radionorba.it,ravennanotizie.it,reggiosera.it,riassuntini.com,rimininotizie.net,rockit.it,romadailynews.it,romagnanotizie.net,sassarinotizie.com,scuolazoo.com,secoloditalia.it,serchioindiretta.it,siciliarurale.eu,sostariffe.it,sportando.basketball,sportasti.it,sportevai.it,sportlegnano.it,strettoweb.com,teatronaturale.it,technologyreview.it,telejato.it,tenews.it,tg24.info,tgfuneral24.it,traniviva.it,udineseblog.it,varesenews.it,vconews.it,verbanonews.it,voceapuana.com,vocenuova.tv,vocetigullio.com##.banner
 m100.it##.banner-1
 macplas.it##.banner-2-img
 welfarenetwork.it##.banner-468-hp
@@ -5372,6 +5424,9 @@ ilroma.net##.block-rotating-banner
 legapallacanestro.com##.block-sponsor-e-partners
 lantidiplomatico.it##.block-wrapper-banner
 dissapore.com,pourfemme.it,punto-informatico.it,sportal.it,telefonino.net##.blz-url
+ilquotidianoditalia.it##.bn-lg
+ilquotidianoditalia.it##.bn-md
+ilquotidianoditalia.it##.bn-sm
 stateofmind.it##.bnn-fullwidth
 abcsalute.it##.bnner_container
 ilgeniodellostreaming.bond,ilgeniodellostreaming.gold,ilgeniodellostreaming.photo,ilgeniodellostreaming.tel##.bnnr1
@@ -5600,7 +5655,7 @@ quattroruote.it##.fullBanner
 pressgiochi.it##.full_width_banner
 agro24.it##.fullwidthbanner-container
 legnagocalcio.it##.fusion-carousel-holder
-amicodelpopolo.it,anteprima24.it,atripaldanews.it,bitquotidiano.it,bolognaindiretta.it,buttanissima.it,castellinotizie.it,castelvetranoselinunte.it,centropagina.it,corriereelorino.it,corrieresalentino.it,gazzettadasti.it,gdonews.it,giornaledellabirra.it,giornaledellavela.com,ilfattonisseno.it,ilgiornaledellabellezza.it,ilsicilia.it,informazioneonline.it,itacanotizie.it,junglam.com,labtv.net,lagazzettamarittima.it,lagendanews.com,lanuovaecologia.it,laquilablog.it,latina24ore.it,lavalsusa.it,lavocedeltrentino.it,lavocedibolzano.it,lineauno.it,milanosud.it,modenaindiretta.it,montagneepaesi.com,nonsolobenessere.it,notizieinunclick.com,oltrefano.it,padovacalcio.it,primapaginaonline.it,qds.it,quicosenza.it,radioibiza.it,radioluna.it,radiotime.it,reggionline.com,reportmotori.it,reteabruzzo.com,rietinvetrina.it,rivistastudio.com,sanitainsicilia.it,siciliammare.it,siciliarurale.eu,sport-press.it,sportmagazinetrentino.it,statoquotidiano.it,superj.it,tarantobuonasera.it,telebari.it,terranostranews.it,ticinonotizie.it,trapanisi.it,travelnostop.com,unicoebello.it##.g
+amicodelpopolo.it,anteprima24.it,atripaldanews.it,bitquotidiano.it,bolognaindiretta.it,buttanissima.it,castellinotizie.it,castelvetranoselinunte.it,centropagina.it,corriereelorino.it,corrieresalentino.it,gazzettadasti.it,gdonews.it,giornaledellabirra.it,giornaledellavela.com,ilciriaco.it,ilfattonisseno.it,ilgiornaledellabellezza.it,ilsicilia.it,informazioneonline.it,itacanotizie.it,junglam.com,labtv.net,lagazzettamarittima.it,lagendanews.com,lanuovaecologia.it,laquilablog.it,latina24ore.it,lavalsusa.it,lavocedeltrentino.it,lavocedibolzano.it,lineauno.it,milanosud.it,modenaindiretta.it,montagneepaesi.com,nonsolobenessere.it,notizieinunclick.com,oltrefano.it,padovacalcio.it,primapaginaonline.it,qds.it,quicosenza.it,radioibiza.it,radioluna.it,radiotime.it,reggionline.com,reportmotori.it,reteabruzzo.com,rietinvetrina.it,rivistastudio.com,sanitainsicilia.it,siciliammare.it,siciliarurale.eu,sport-press.it,sportmagazinetrentino.it,statoquotidiano.it,superj.it,tarantobuonasera.it,telebari.it,terranostranews.it,ticinonotizie.it,trapanisi.it,travelnostop.com,unicoebello.it##.g
 4yougratis.it##.g-top-text
 agendadigitale.eu##.gallery-container-home
 virtusfrancavilla.it##.gallery-icon
@@ -5798,6 +5853,7 @@ ilpiccolo.net##.nocornice_banner
 prospettivegeometri.it##.node-banner-simple
 everyeye.it##.nome_gioco_amazon_destra
 ilsalottodelcalcio.it##.nostro-banner
+viaggi-usa.it##.notabene
 tuttotrasporti.it##.notizieSponsorizzate
 dailybest.it##.nuovobanner
 empolifc.com##.o-section--promo
@@ -5949,6 +6005,7 @@ fermanafc.com,netflixlovers.it,settesere.it,uslecce.it,ustriestinacalcio1918.it#
 radioradio.it##.slide
 livornolive.it,toscana.live##.slidelink
 oipamagazine.it##.slider
+fremondoweb.com##.sliderclass
 radiobudrio.it##.sliderloghi
 alpauno.com,asbiscegliecalcio.it,asgiana.com,business24tv.it,legavolleyfemminile.it,teleoccidente.it,venividivici.us##.slides
 agrifoodtoday.it,agrigentonotizie.it,anconatoday.it,arezzonotizie.it,avellinotoday.it,baritoday.it,bolognatoday.it,bresciatoday.it,brindisireport.it,casertanews.it,cataniatoday.it,cesenatoday.it,chietitoday.it,firenzetoday.it,foggiatoday.it,forlitoday.it,genovatoday.it,ilpescara.it,ilpiacenza.it,latinatoday.it,lecceprima.it,leccotoday.it,livornotoday.it,milanotoday.it,modenatoday.it,monzatoday.it,napolitoday.it,novaratoday.it,padovaoggi.it,palermotoday.it,parmatoday.it,perugiatoday.it,pisatoday.it,quicomo.it,ravennatoday.it,riminitoday.it,romagnaoggi.it,romatoday.it,salernotoday.it,sondriotoday.it,sportpiacenza.it,today.it,torinotoday.it,trentotoday.it,trevisotoday.it,triesteprima.it,udinetoday.it,veneziatoday.it,veronasera.it,vicenzatoday.it##.slot
@@ -6073,6 +6130,7 @@ caleno24ore.it##.themequote
 amazon.it##.threepsl-creatives
 tiscali.it##.tiscali-shp-dayblk
 milleunadonna.it,tiscali.it##.tiscali-shp-dayblk-v1
+milleunadonna.it,tiscali.it##.tiscali-shp-dayblk-v2
 tiscali.it##.tiscali-shp-dayoff
 tmnotizie.com##.tmnot-dopo-il-contenuto
 tmnotizie.com##.tmnot-inserito-nel-contenuto
@@ -6149,6 +6207,7 @@ calabriareportage.it##.widget_smartslider3
 radiodigione.net##.widget_ubm-banners-rotation
 vicenzanews.it##.wifiplaza
 tuttitalia.it##.wk
+itvonline.news##.wpb_gallery
 tuttotek.it##.wpb_wrapper > a[href^="https://www.amazon.it/"]
 umbriasud.com##.wpcnt
 palermolive.it##.wpls-logo-showcase
@@ -6281,7 +6340,7 @@ golbym.com##a[href^="https://casinostudio3000.com/"]
 albengacorsara.it,campaniameteo.it,germania.info,partiteoggi.net,tuttoamerica.it##a[href^="https://clk.tradedoubler.com/"]
 mymovies.it,teamworld.it,tvserial.it##a[href^="https://disneyplus.bn5x.net/"]
 msn.com##a[href^="https://ebay.it/?mkcid="]
-sport.tiscali.it##a[href^="https://ebay.us/"]
+milleunadonna.it,tiscali.it##a[href^="https://ebay.us/"]
 libero.it,virgilio.it##a[href^="https://httpslink.com/"]
 diventaretrader.com##a[href^="https://iqbroker.com/"]
 lavorincasa.it##a[href^="https://is.gd/"]
@@ -6322,6 +6381,7 @@ amazon.it##div[cel_widget_id="desktop-dp-sims_sb-dp-id"]
 homegate.ch##div[class^="AdSlotContainer_"]
 corrieredellosport.it,tuttosport.com##div[class^="AdUnit_"]
 acffiorentina.com,acmilan.com##div[class^="Partners_"]
+latinaoggi.eu##div[class^="a-p1-banner-"]
 aprilianews.it##div[class^="april-home-adv10-"]
 fiorentinanews.com##div[class^="extendedwopts-"]
 lavorincasa.it##div[class^="large-leaderboard"]
@@ -6342,6 +6402,7 @@ stilenaturale.com##div[id="Banner_BIOOFFERTA"]
 maidirelink.it##div[id="maidi-"]
 inconcreto.net,ingenio-web.it,pavimenti-web.it##div[id^="Banner"]
 lubevolley.it##div[id^="blocco-sponsors-"]
+corriereromagna.it##div[id^="corri-"]
 alvolante.it##div[id^="dfp-alv-slot"]
 nationalgeographic.it##div[id^="gpt-"]
 ilparmense.net##div[id^="ilpar-"]
@@ -6544,6 +6605,7 @@ umbriaoggi.news##img[width="315"][height="150"]
 calabria7.it##img[width="320"][height="250"]
 lemillebolleblog.it,vinoalvino.org##img[width="320"][height="320"]
 2duerighe.com##img[width="336"][height="280"]
+roadnroll.it##img[width="468"][height="60"]
 portolivorno.it##img[width="630"]
 canonclubitalia.com##img[width="632"][height="123"]
 beverfood.com##img[width="650"][height="320"]
