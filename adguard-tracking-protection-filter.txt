@@ -1,8 +1,8 @@
-! Checksum: SI1k70/7Os33tUM2B+39Cw
+! Checksum: pwWFAPDLIqFi4RKFyDxglA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.23.84
-! TimeUpdated: 2021-04-26T18:31:32+00:00
+! Version: 2.0.23.90
+! TimeUpdated: 2021-04-27T22:31:27+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -227,6 +227,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||backend.turtlemobile.com.tw^$third-party
+||batmobile.com.tw^$third-party
 ||analytik.xyz^$third-party
 ||df.pmweb.com.br^$third-party
 ||usesfathom.com^$third-party
@@ -15981,6 +15983,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/gaaddons.js
 /wp-content/plugins/google-analytics-premium/*
 /js/ad_insight/*
 .com/s.gif?
@@ -16067,7 +16070,6 @@ _analytics.js?
 /counter?id=
 /autotrack.js
 /playertracking/*
-/analyticsmediator.js
 /pixel.*/track/*
 /mendelstats.
 /clarity-*.js
@@ -16324,6 +16326,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||msgsndr.com/funnel/event
+||con.arbeitsagentur.de/prod/matomo/
 ||appmifile.com^*/stat/
 ||facebook.com/ajax/bz?*__comet_req=
 ||inthenews.co.kr/weblog/gtracker.
@@ -19408,6 +19412,8 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81255
+@@||store.drweb.ru^$cookie=guest_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81504
 @@||google-analytics.com/analytics.js$domain=dashboard.kitcast.tv
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=dashboard.kitcast.tv,important
@@ -19754,8 +19760,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=avast.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61844
 @@||github.com/carlomorgenstern/piwik-angular/$domain=github.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/61868
-@@||officedepot.co.cr/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61875
 @@||cdn.segment.com/analytics.js$domain=buffer.com
 @@||cdn.mxpnl.com/libs/mixpanel-*-latest.min.js$domain=buffer.com
@@ -20017,8 +20021,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||google-analytics.com/gtm/js?id=$domain=incehesap.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49849
 @@||googletagmanager.com/gtm.js$domain=ucicinemas.pt
-! https://github.com/AdguardTeam/AdguardFilters/issues/49055
-@@||mopas.com.tr/_ui/shared/js/analyticsmediator.js$domain=mopas.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49550
 @@||googletagmanager.com/gtm.js$domain=teddyfood.com
 @@||google-analytics.com/analytics.js$domain=teddyfood.com
@@ -20154,8 +20156,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 ! breaks signing for a barber session
 @@||cloud.roistat.com/dist/module.*$script,stylesheet,domain=britvabarber.ru
 @@||cloud.roistat.com/api/site/$script,domain=britvabarber.ru
-! https://github.com/AdguardTeam/AdguardFilters/issues/45056
-@@||luluhypermarket.com/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44948
 @@||embeddedanalytics.com/updateeakpi.html$domain=brocardi.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44701
@@ -20187,8 +20187,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=bodyandsoul.com.au|whimn.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43411
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=taste.com.au
-! https://github.com/AdguardTeam/AdguardFilters/issues/42981
-@@||repco.com.au/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43037
 @@||googletagmanager.com/gtm.js$domain=shop.mango.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/42667
@@ -20379,8 +20377,6 @@ ciokorea.com,adpiamall.com,live.joins.com,naver.com,jbe.go.kr#%#//scriptlet('set
 @@||jfe-cdn.qualtrics.com^$domain=virginiatech.qualtrics.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30065
 @@||tags.tiqcdn.com/utag/tegna^$domain=kvue.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/30497
-@@||wilko.com/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56248
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54638
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53780
@@ -20623,8 +20619,6 @@ kizi.com#%#window.google_trackConversion = function() {};
 @@||google-analytics.com/gtm/js?id=GTM^$domain=morhipo.com
 ! https://github.com/AdguardTeam/AdguardDNS/issues/300
 @@||tag.aticdn.net/*/smarttag.js$domain=compteczam.fr
-! https://github.com/AdguardTeam/AdguardFilters/issues/18980
-@@||matchesfashion.com/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19024
 @@||googletagmanager.com/gtm.js^$domain=profootballfocus.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55931
@@ -20724,8 +20718,6 @@ kizi.com#%#window.google_trackConversion = function() {};
 @@||google-analytics.com/analytics.js$domain=photoshoptutorials.ws
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14123
 @@||google-analytics.com/analytics.js$domain=gunes.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/14030
-@@||costco.com.tw/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14307
 @@||dtdc.in/tracking^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14245
@@ -20745,8 +20737,6 @@ kizi.com#%#window.google_trackConversion = function() {};
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13428
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13436
 @@||google-analytics.com/analytics.js$domain=wakanim.tv
-! https://github.com/AdguardTeam/AdguardFilters/issues/13262
-@@||costco.co.uk/_ui/shared/js/analyticsmediator.js$domain=costco.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13197
 @@||amc-widgets.crowdtwist.com/widgets/t/account-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13200
@@ -20838,8 +20828,6 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||tags.tiqcdn.com/utag/telenor/telenor.no/prod/utag.*js$script,redirect=noopjs,domain=kabel.canaldigital.no,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9283
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
-! https://github.com/AdguardTeam/AdguardFilters/issues/9192
-@@||costco.co.kr/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9149
 @@||googletagmanager.com/gtm.js$domain=argeweb.nl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8563
