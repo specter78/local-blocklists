@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: gMRzOkj/nbW3xdnpbrcbPQ
-! Version: 202104280501
+! Checksum: PMaElpMMuv+ow/Sv25ffng
+! Version: 202104290501
 ! Title: EasyList Dutch
 ! Description: Dutch supplement for the Easylist filters
-! Last modified: 28 Apr 2021 05:01 UTC
+! Last modified: 29 Apr 2021 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -403,10 +403,6 @@ classic.nl##div.brievenbus
 turksemedia.nl##div[class="sidebar_item"][style="padding-bottom: 16px;"] > a > img[width="276"]
 refoweb.nl##div[id^="div-gpt-ad"]
 tweakers.net##img[referrerpolicy="unsafe-url"][src^="/i/"]
-marktplaats.nl#?#.mp-Page-element > .mp-Listings + div:not([class]):not([id]):has( > .mp-Listings__admarktTitle)
-marktplaats.nl#?#ul.mp-Listings > li.mp-Listing:has( > .mp-Listing-coverLink > .mp-Listing-group > .mp-Listing-group--price-date-feature > span.mp-Listing-priority > span:contains(/^Topadvertentie$/))
-omroepwest.nl#$#.adcontainer-Rectangle { position: absolute!important; left: -4000px!important; }
-pcmweb.nl#?#.site__sidebar > .block[-ext-has='div.banner']
 weeronline.nl##section[class*="wol-banner-module__banner"]
 !--------Uitzonderingen (verbergregels)--------!
 ! *** easylistdutch/hide_whitelist.txt ***

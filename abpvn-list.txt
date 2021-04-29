@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 22 Apr 2021 15:44 UTC+7
+# Updated: 28 Apr 2021 21:23 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -15811,6 +15811,11 @@
 0.0.0.0 oss.stats.vng.com.vn
 0.0.0.0 sso.stats.vng.com.vn
 0.0.0.0 stats.vng.com.vn
+#[tpmedia.online]
+0.0.0.0 cdn.tpmedia.online
+0.0.0.0 mvideo.tpmedia.online
+0.0.0.0 tpmedia.online
+0.0.0.0 www.tpmedia.online
 # --- Block adsVN ---
 0.0.0.0 5734a40f2d.vws.vegacdn.vn
 0.0.0.0 703531862.vws.vegacdn.vn
@@ -16176,6 +16181,7 @@
 0.0.0.0 mysapo.net
 0.0.0.0 newlog.daidoanket.vn
 0.0.0.0 nstat.headlines.pw
+0.0.0.0 production-tracking.riviu.co
 0.0.0.0 report.vnay.vn
 0.0.0.0 rsyslog.24h.com.vn
 0.0.0.0 s.baomoi.xdn.vn
@@ -16214,6 +16220,7 @@
 0.0.0.0 track.icheck.com.vn
 0.0.0.0 track.kyna.vn
 0.0.0.0 track.lapa.pub
+0.0.0.0 track.pnj.com.vn
 0.0.0.0 track.pregmomvietnam.com
 0.0.0.0 track.sendo.vn
 0.0.0.0 track.vio.edu.vn
@@ -16253,9 +16260,11 @@
 0.0.0.0 widget.kyna.vn
 0.0.0.0 zlog.zingmp3.vn
 # --- Block scamVN ---
+0.0.0.0 atspace.tv
 0.0.0.0 bloodleian.club
 0.0.0.0 bluvenie.com
 0.0.0.0 byonlym.com
+0.0.0.0 campxanh.info
 0.0.0.0 celerantatters.com
 0.0.0.0 cettiarl.com
 0.0.0.0 drakeesh.com
@@ -17555,6 +17564,7 @@
 0.0.0.0 carambo.la
 0.0.0.0 carbonads.com
 0.0.0.0 carbonads.net
+0.0.0.0 cardiwersg.com
 0.0.0.0 casalmedia.com
 0.0.0.0 casesweetcube.com
 0.0.0.0 cash4members.com
@@ -18020,6 +18030,7 @@
 0.0.0.0 exogripper.com
 0.0.0.0 exomonyf.com
 0.0.0.0 experteerads.com
+0.0.0.0 expertnifg.com
 0.0.0.0 exponea.com
 0.0.0.0 express-submit.de
 0.0.0.0 ext.privacyassistant.net
@@ -19643,6 +19654,7 @@
 0.0.0.0 trafficgate.net
 0.0.0.0 trafficholder.com
 0.0.0.0 traffichunt.com
+0.0.0.0 trafficjunky.com
 0.0.0.0 trafficleader.com
 0.0.0.0 trafficsecrets.com
 0.0.0.0 trafficspaces.net
@@ -20150,12 +20162,16 @@
 0.0.0.0 cleverpush.com
 0.0.0.0 client-analytics.braintreegateway.com
 0.0.0.0 cmp.dmgmediaprivacy.co.uk
+0.0.0.0 cnt.xhamster.com
+0.0.0.0 cnt.xhamster.one
 0.0.0.0 cnzz.com
 0.0.0.0 cognitivlabs.com
 0.0.0.0 collect.igodigital.com
 0.0.0.0 collector.apester.com
 0.0.0.0 collector.leaddyno.com
 0.0.0.0 collector.unsplash.com
+0.0.0.0 collector.xhamster.com
+0.0.0.0 collector.xhamster.one
 0.0.0.0 comscoreresearch.com
 0.0.0.0 cookieinfoscript.com
 0.0.0.0 coralogix.com
