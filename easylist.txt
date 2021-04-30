@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202104290231
+! Version: 202104300404
 ! Title: EasyList
-! Last modified: 29 Apr 2021 02:31 UTC
+! Last modified: 30 Apr 2021 04:04 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30789,6 +30789,7 @@ _popunder+$popup
 ##a[href^="https://m.do.co/c/"] > img
 ##a[href^="https://mcdlks.com/"]
 ##a[href^="https://medleyads.com/"]
+##a[href^="https://meet-sexhere.com/"]
 ##a[href^="https://meet-to-fuck.com/tds"]
 ##a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="]
 ##a[href^="https://misspkl.com/"]
@@ -30924,6 +30925,7 @@ _popunder+$popup
 ##bottomadblock
 ##div[aria-label="Ads"]
 ##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
+##div[class$="_b-ad-main"]
 ##div[class*="-storyBodyAd-"]
 ##div[class*="_AdInArticle_"]
 ##div[class*="_browserAdOuterContainer_"]
@@ -31764,7 +31766,7 @@ fastseeksite.com,njuskalo.hr#@#.ad_title
 kpanews.co.kr#@#.ad_top
 oxforddictionaries.com#@#.ad_trick_header
 oxforddictionaries.com#@#.ad_trick_left
-wg-gesucht.de#@#.ad_wrap
+flexjapan.co.jp,wg-gesucht.de#@#.ad_wrap
 athensmagazine.gr#@#.ad_wrapper
 choone.com#@#.adarea
 espni.go.com,hdfcbank.com,m.espn.com,nownews.com,nva.gov.lv#@#.adbanner
@@ -34960,6 +34962,7 @@ menstennisforums.com#@#.top_ads
 ||demannewcure.site^
 ||demoney.club^
 ||demotesusceptible.com^
+||demurcobsoho.com^
 ||denaviatived.space^
 ||denetsuk.com^
 ||denis-pj0823031-491201b.com^
@@ -50133,6 +50136,7 @@ menstennisforums.com#@#.top_ads
 ! *** easylist:easylist/easylist_thirdparty_popup.txt ***
 ||6angebot.ch/?ref=$popup,third-party
 ||adfoc.us/serve/$popup,third-party
+||adfreevision.com^$popup,third-party
 ||admngronline.com^$popup,third-party
 ||adpopblocker.com^$popup,third-party
 ||adrotator.se^$popup
@@ -50181,6 +50185,7 @@ menstennisforums.com#@#.top_ads
 ||generic4all.com^*.dhtml?refid=$popup,third-party
 ||get-express-vpn.online^$popup,third-party
 ||getsecuredfiles.com^$popup,third-party
+||go.etoro.com^*?utm_$popup,third-party
 ||go.streamcomplet.$popup
 ||greevid.com/exit_p/$popup
 ||healthyproshop.com^*/prelanding/*?utm_$popup,third-party
@@ -54490,6 +54495,7 @@ facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[data-hovercard^="/ajax/hovercard/page.php?id=931112240236154&"])
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href*="is_sponsored"])
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(input[data-next-question-id])
+google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#.mapsConsumerUiSubviewSectionGm2Placeresultcontainer__result-container:-abp-has(span.mapsConsumerUiSubviewSectionGm2SharedAdbadge__ad-badge)
 guru99.com#?#.content2:-abp-has(div[id^="div-gpt-ad"])
 guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
 ksl.com#?#.queue:-abp-has(.sponsored)

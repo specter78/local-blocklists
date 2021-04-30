@@ -1,8 +1,8 @@
-! Checksum: sp0jERvOAjM+PX4iQfzFeg
+! Checksum: Nd9W+Qqy05YanzMqHSlI0A
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.27
-! TimeUpdated: 2021-04-28T15:30:40+00:00
+! Version: 2.0.19.30
+! TimeUpdated: 2021-04-29T18:30:22+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2225,6 +2225,8 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+hdblog.it##.news-blocks > div[style^="margin: 16px;height: 90px;background: #000;"]
+hdblog.it##.related-news > .notizie_list > div[style="padding: 0px 16px;height: 250px;"]
 m.sabah.com.tr##.advers-box
 m.sabah.com.tr##iframe[src^="https://ad01.tmgrup.com.tr/"]
 thumpertalk.com##a[href^="https://thumpertalk.com/link/click/"][target="_blank"]::after
@@ -2324,7 +2326,7 @@ ameblo.jp##.skinBody2 > div[class=""] + div[class^="_"]
 fzdm.com##[style*="position: fixed;"][style*="bottom: 0px;"]:not(div)
 fzdm.com##[style*="min-height:120px;"][style*="position:relative;"]:not(div)
 malaysiastock.biz##.mobileAds
-znaj.ua##.amp-ad--wrapper
+politeka.net,znaj.ua##.amp-ad--wrapper
 ||smart-flash.jp/FoneH$subdocument
 ||smart-flash.jp/yahoo_ad.html
 m.haberturk.com###s300x200Sticky
@@ -2417,7 +2419,7 @@ youmath.it###contenuto > #T[style="text-align: center;"]:empty
 hd21.com##.mercantile_title
 ruliweb.com##.mo_ad_main_ti_wrapper
 ||ruliweb.com/js/criteo.publishertag.js
-afisha.ru,daily.co.jp,m.pornerbros.com,m.mynet.com,m.porntube.com##.adv
+pulsgdanska.pl,afisha.ru,daily.co.jp,m.pornerbros.com,m.mynet.com,m.porntube.com##.adv
 www-musixmatch-com.cdn.ampproject.org##.topBanner
 www-musixmatch-com.cdn.ampproject.org##.bottomBanner
 pinkvilla.com##body #gptTagBottom

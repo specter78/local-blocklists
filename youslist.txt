@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210428
+! Version: 20210429
 
 ! General element hiding rules
 ##amp-ad
@@ -3781,6 +3781,8 @@ imnews.busan.com,implay.busan.com##table.view_list+table.ad+table.ad
 imnews.busan.com,implay.busan.com##table.view_list+table.ad+table.ad+table.ad
 imnews.busan.com,implay.busan.com##table.view_list~table[style="padding:10px 0px 20px 0px;text-align:center;"][width="100%"]
 imnews.imbc.com##div.ad_banner
+imnews.imbc.com##div.ad_dableintxt
+imnews.imbc.com##div[data-widget_id="6oMJOZ7b"]
 imore.com##div.adunit-wrap
 imore.com##div.netshelter-ad
 independent.co.uk##div.onscroll-injected-ad
@@ -6628,7 +6630,10 @@ url.kr##article#bo_v+center
 url.kr##div.container>form>div[style="text-align: center;"]
 url.kr##div.jbMenu
 url.kr##section#bo_v_atc>div[style="text-align: center;"]
+usatoday.com##aside[aria-label="advertisement"]
+usatoday.com##div.ad-container
 usatoday.com##div[id^="ad-position-"]
+usatoday.com##div[id^="ad-slot-"]
 usatoday.com##partner-banner
 ustream.tv##div#LeaderboardWrapper
 v.24liveblog.com##div.lb24-component-ad
@@ -6710,8 +6715,12 @@ wago.io##div.wago-ad-container
 warcraftlogs.com##div#anyclip-container-box
 warcraftlogs.com##div#bottom-banner
 warcraftlogs.com##div#top-banner
+washingtonpost.com##div#leaderboard-wrapper
 washingtonpost.com##div.has-subscribe-promo
 washingtonpost.com##div[class*="-ad-"]
+washingtonpost.com##div[data-qa="article-body-ad"]
+washingtonpost.com##div[data-qa="right-rail-ad"]
+washingtonpost.com##div[data-sc-c="adslot"]
 watch.impress.co.jp##aside.ad.billboard
 watch.impress.co.jp##aside.ad.bottom
 watch.impress.co.jp##aside.ad.haikei
