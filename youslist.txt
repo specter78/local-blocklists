@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210429
+! Version: 20210430
 
 ! General element hiding rules
 ##amp-ad
@@ -1458,6 +1458,8 @@
 ||implay.busan.com/media/busan/article/img/banner_top_ad.jpg^$domain=implay.busan.com
 ||implay.busan.com/media/busan/article/img/right_ad*.jpg^$domain=implay.busan.com
 ||impr.taboola.com/CreativeDisplayer?adId=
+||in-page-push.com/400/
+||in-page-push.com/500/
 ||insight.adsrvr.org/enduser/vast/
 ||instiz.net/_instiz.htm^$domain=instiz.net
 ||interface.interworksmedia.co.kr/js/iwmads.min.js^
@@ -1870,6 +1872,7 @@
 ||ph.mediatoday.co.kr/adcontent/script/*.js^$domain=mediatoday.co.kr
 ||ph.sisain.co.kr/adcontent/script/*.js^$domain=sisain.co.kr
 ||ph.spotvnews.co.kr/adcontent/script/*.js^$domain=m.spotvnews.co.kr|spotvnews.co.kr
+||photo.coolenjoy.net/banner/$domain=coolenjoy.net|cooln.kr|on.coolenjoy.net
 ||physicsworld.com/wp-content/themes/iopp/assets/js/realmedia.js^$domain=physicsworld.com
 ||picuki.com/300x250.html^$domain=picuki.com
 ||pimg2.daara.co.kr/mc/ad_img/
@@ -2107,6 +2110,7 @@
 ||static.vidzi.tv/static/ads.js^$domain=vidzi.tv
 ||static2.vidto.me/b8/b4/50/*.js$domain=vidto.me
 ||static9.vidzi.tv/*.php^$domain=vidzi.tv
+||stawhoph.com/apu.php^
 ||sticker.yadro.ru/ad/slider.js^
 ||stoo.asiae.co.kr/ad/$domain=stoo.asiae.co.kr
 ||stoo.asiae.co.kr/banner/$domain=stoo.asiae.co.kr
@@ -2841,8 +2845,10 @@ computerbild.de##div#superbannercontainer
 computerbild.de##div.adsensebox
 consumernews.co.kr##span.brn
 coolenjoy.net,cooln.kr,on.coolenjoy.net##div#logo_top3
+coolenjoy.net,cooln.kr,on.coolenjoy.net##div#srolling
 coolenjoy.net,cooln.kr,on.coolenjoy.net##div.simple_banner_wrap
 coolenjoy.net,cooln.kr,on.coolenjoy.net##div.tab
+coolenjoy.net,cooln.kr,on.coolenjoy.net##div.tae
 coolenjoy.net,cooln.kr,on.coolenjoy.net##div.taf
 coolsoft.altervista.org##div._pb
 cosmorning.com##div#divAdLeft
@@ -6652,6 +6658,7 @@ veritas-a.com##div.top-left-banner
 veritas-a.com##div.top-right-banner
 veritas-a.com##iframe[src^="/banner/"]
 vice.com##div.ad-unit__container__container
+vidcloud.msk.ru##div#overlay-center
 video.animoe.us##div#fbanner
 video.animoe.us##div.ad
 video.fenglin.to##div#ad_bar1

@@ -1,8 +1,8 @@
-! Checksum: UZ7wxWh5usUrfHFimAkBiQ
+! Checksum: XdvMS/8qfwbE1N/YyhbSUg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.23.98
-! TimeUpdated: 2021-04-29T15:31:30+00:00
+! Version: 2.0.24.3
+! TimeUpdated: 2021-04-30T19:31:27+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,7 @@
 #%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80625
+tweakers.net#%#//scriptlet('abort-current-inline-script', '_wtq', 'trackId')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'WebTrekkClickMap')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24789
@@ -227,6 +228,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||analytics.omniscientai.com^$third-party
+||omnitag.omniscientai.com^$third-party
 ||backend.turtlemobile.com.tw^$third-party
 ||batmobile.com.tw^$third-party
 ||analytik.xyz^$third-party
@@ -16328,6 +16331,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||cdn.gamedock.io/gamedock-web-tracker/
 ||walmart.com/px/
 ||cyberpedia.su/count.php
 ||msgsndr.com/funnel/event
@@ -19416,6 +19420,9 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81071
+@@||google-analytics.com/analytics.js$domain=dirkzwager.nl
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=dirkzwager.nl,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81487
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=suwen.com.tr
 ! https://github.com/hirorpt/filters/commit/5b41ca5e9a58de697459ef5c98132f131e887c15#commitcomment-50154726

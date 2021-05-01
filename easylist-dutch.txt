@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: rBP3KDPPAOglbEI29x7wyg
-! Version: 202104300522
+! Checksum: KAzLZVFltB4l16suKa0lzQ
+! Version: 202105010521
 ! Title: EasyList Dutch
 ! Description: Dutch supplement for the Easylist filters
-! Last modified: 30 Apr 2021 05:22 UTC
+! Last modified: 01 May 2021 05:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -146,7 +146,7 @@ _advertentieleaderboardhome.
 ||search-result.com^*/klokad2.js
 ||sexamateurtjes.nl/banners/
 ||sexverhalen.com/vriendschap/
-||sp.dpgmedia.net^$3p
+||sp.dpgmedia.net^$third-party
 ||startpagina.nl^*/dochters/*/banners/
 ||static-dscn.net/13146/1686020/$domain=almere-nieuws.nl
 ||thisislive.com/promo/
@@ -222,7 +222,6 @@ _advertentieleaderboardhome.
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=nos.nl|vtm.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=hbvl.be|vtm.be
 @@||js.spotx.tv/ados/v1/106185.js$script,domain=radioluisteren.fm
-@@||openad.tf1.fr/RealMedia/ads/adstream_mjx.ads/www.eurosportplayer.nl/home/$script,domain=eurosportplayer.nl
 @@||search.spotxchange.com/js/spotx.js$script,domain=radioluisteren.fm
 @@||sync.search.spotxchange.com/partner?source=easi$image,domain=radioluisteren.fm
 @@||tools.islive.nl/cam_ms/2803/_default/index.html$domain=xmissy.nl
