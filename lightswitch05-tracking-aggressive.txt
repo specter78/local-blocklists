@@ -1,6 +1,6 @@
 # Title: Lightswitch05's tracking-aggressive-extended.txt
-# Released: 2021-05-01T01:05:19+00:00
-# Count: 46099 domains
+# Released: 2021-05-02T01:05:19+00:00
+# Count: 46107 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
@@ -12376,6 +12376,8 @@
 0.0.0.0 cs636421.vk.com
 0.0.0.0 cs636430.vk.com
 0.0.0.0 cs636521.vk.com
+0.0.0.0 billing1.cs636521.vk.com
+0.0.0.0 ccns.cs636521.vk.com
 0.0.0.0 cs637920.vk.com
 0.0.0.0 cs7014.vk.com
 0.0.0.0 cs7777.vk.com
@@ -14191,7 +14193,6 @@
 0.0.0.0 40rs.duckdns.org
 0.0.0.0 410e50van.duckdns.org
 0.0.0.0 420gaskill.duckdns.org
-0.0.0.0 42126c46-bb9d-400f-8ff6-60cfaeafb6e7.duckdns.org
 0.0.0.0 42307.duckdns.org
 0.0.0.0 42harrison.duckdns.org
 0.0.0.0 42o4home.duckdns.org
@@ -18241,7 +18242,6 @@
 0.0.0.0 casacalienes.duckdns.org
 0.0.0.0 casacampigli.duckdns.org
 0.0.0.0 casacandida.duckdns.org
-0.0.0.0 casacapelli.duckdns.org
 0.0.0.0 casacarmenypepe.duckdns.org
 0.0.0.0 casacarminello.duckdns.org
 0.0.0.0 casacasoni.duckdns.org
@@ -18820,10 +18820,12 @@
 0.0.0.0 mv.charlesnas.duckdns.org
 0.0.0.0 note.charlesnas.duckdns.org
 0.0.0.0 photo.charlesnas.duckdns.org
+0.0.0.0 plex.charlesnas.duckdns.org
 0.0.0.0 proxy.charlesnas.duckdns.org
 0.0.0.0 sjva.charlesnas.duckdns.org
 0.0.0.0 t.charlesnas.duckdns.org
 0.0.0.0 toon.charlesnas.duckdns.org
+0.0.0.0 view.charlesnas.duckdns.org
 0.0.0.0 web.charlesnas.duckdns.org
 0.0.0.0 charlesremcos.duckdns.org
 0.0.0.0 charlie.duckdns.org
@@ -23397,6 +23399,7 @@
 0.0.0.0 formicro.duckdns.org
 0.0.0.0 forthplanet.duckdns.org
 0.0.0.0 fortknopps.duckdns.org
+0.0.0.0 baby.fortknopps.duckdns.org
 0.0.0.0 fortknoxlyn.duckdns.org
 0.0.0.0 fortungerber.duckdns.org
 0.0.0.0 jackett.fortungerber.duckdns.org
@@ -23443,7 +23446,6 @@
 0.0.0.0 fragahome.duckdns.org
 0.0.0.0 frages-badnerland.duckdns.org
 0.0.0.0 frages-cloud.duckdns.org
-0.0.0.0 fragezeichenemden92.duckdns.org
 0.0.0.0 fragola.duckdns.org
 0.0.0.0 framanson.duckdns.org
 0.0.0.0 francescobv.duckdns.org
@@ -28645,7 +28647,6 @@
 0.0.0.0 josefilloy.duckdns.org
 0.0.0.0 josegcheca.duckdns.org
 0.0.0.0 josejavier.duckdns.org
-0.0.0.0 josemanuelortiz.duckdns.org
 0.0.0.0 josemonzonadal67.duckdns.org
 0.0.0.0 josemsubcnas.duckdns.org
 0.0.0.0 josenvera.duckdns.org
@@ -31787,6 +31788,8 @@
 0.0.0.0 dev.mangrovia-iot.duckdns.org
 0.0.0.0 grafana.mangrovia-iot.duckdns.org
 0.0.0.0 show.mangrovia-iot.duckdns.org
+0.0.0.0 tenant1.mangrovia-iot.duckdns.org
+0.0.0.0 tenant2.mangrovia-iot.duckdns.org
 0.0.0.0 test.mangrovia-iot.duckdns.org
 0.0.0.0 traefik.mangrovia-iot.duckdns.org
 0.0.0.0 mangrovia-license.duckdns.org
@@ -37363,6 +37366,7 @@
 0.0.0.0 raketgatan.duckdns.org
 0.0.0.0 raketka.duckdns.org
 0.0.0.0 rakino.duckdns.org
+0.0.0.0 cctv.rakino.duckdns.org
 0.0.0.0 rakuhome.duckdns.org
 0.0.0.0 rala.duckdns.org
 0.0.0.0 ralvaro.duckdns.org
@@ -39117,6 +39121,7 @@
 0.0.0.0 tautulli.sdrm.duckdns.org
 0.0.0.0 transmission.sdrm.duckdns.org
 0.0.0.0 trns.sdrm.duckdns.org
+0.0.0.0 sdrm-home.duckdns.org
 0.0.0.0 plex.sdrmm.duckdns.org
 0.0.0.0 sdstoyanov.duckdns.org
 0.0.0.0 bgardennl.sdstoyanov.duckdns.org
@@ -42071,6 +42076,7 @@
 0.0.0.0 tomjhou.duckdns.org
 0.0.0.0 tomkinson.duckdns.org
 0.0.0.0 tomlikesgaming.duckdns.org
+0.0.0.0 rdp.tomlikesgaming.duckdns.org
 0.0.0.0 www.tomlikesgaming.duckdns.org
 0.0.0.0 tomlynn.duckdns.org
 0.0.0.0 tommes01.duckdns.org
@@ -45641,6 +45647,7 @@
 0.0.0.0 m1finance.ada.support
 0.0.0.0 mailchimp.ada.support
 0.0.0.0 maple.ada.support
+0.0.0.0 oncall-health.maple.ada.support
 0.0.0.0 airflow.ops.maple.ada.support
 0.0.0.0 alertmanager.ops.maple.ada.support
 0.0.0.0 grafana.ops.maple.ada.support
@@ -45754,6 +45761,7 @@
 0.0.0.0 messaging-api.svc.ada.support
 0.0.0.0 metabase.svc.ada.support
 0.0.0.0 sdf-proxy.svc.ada.support
+0.0.0.0 sparta.svc.ada.support
 0.0.0.0 ultra-proxy.svc.ada.support
 0.0.0.0 tapeacall.ada.support
 0.0.0.0 teacherspayteachers.ada.support
