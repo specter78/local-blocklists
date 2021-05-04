@@ -1,8 +1,8 @@
-! Checksum: 0MxHCYV6oJVXw8PjBylhgQ
+! Checksum: VKOd1/99YRKvvlnPFCJ/TA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.33
-! TimeUpdated: 2021-05-02T17:02:14+00:00
+! Version: 2.0.19.34
+! TimeUpdated: 2021-05-03T19:30:22+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1585,6 +1585,8 @@ rambler.ru#?#main > div[class] ~ div[class] > div[class] div[class] > a[href^="h
 pornhub.com,pornhubthbh7ap3u.onion#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
 !#################
 !
+! mediafire.com - popunder
+mediafire.com#%#//scriptlet("set-constant", "InfCustomSTAMobileFunc", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77016
 hindustantimes.com#%#//scriptlet('hide-in-shadow-dom', '.storyAd, .storyAd + .slideSection')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71604
