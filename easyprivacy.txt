@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202105040519
+! Version: 202105050248
 ! Title: EasyPrivacy
-! Last modified: 04 May 2021 05:19 UTC
+! Last modified: 05 May 2021 02:48 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2705,7 +2705,7 @@
 /log.cfm?
 /log.collect.
 /log.gif?
-/log.htm?
+/log.htm?$domain=~192.168.0.1|~192.168.1.1
 /log.jphp?
 /log.jsp?
 /log.php?*http
@@ -4016,7 +4016,7 @@
 /stat.aspx?
 /stat.cgi?
 /stat.gif?
-/stat.htm?
+/stat.htm?$domain=~192.168.0.1|~192.168.1.1
 /stat.js?
 /stat.php?
 /stat.png?
@@ -7385,6 +7385,7 @@ _mongo_stats/
 ||movable-ink-6710.com^$third-party
 ||mparticle.com^$third-party
 ||mpianalytics.com^$third-party
+||mpio.io^$third-party
 ||mplxtms.com^$third-party
 ||mppapi.io^$third-party
 ||mpstat.us^$third-party
@@ -11029,6 +11030,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||diagnose.igstatic.com^
 ||digimedia.com/pageviews.php?
 ||digitalgov.gov/Universal-Federated-Analytics-Min.js
+||digitaloceanspaces.com/pixel/
 ||directnews.co.uk/feedtrack/
 ||dirt.dennis.co.uk^
 ||discovery.com^*/events
@@ -13645,6 +13647,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.slashdotmedia.com^
 ||analytics.smallpdf.com^
 ||analytics.sportybet.com^
+||analytics.synedat.com^
 ||analytics.teespring.com^
 ||analytics.thegedsection.com^
 ||analytics.thenest.com^
@@ -14095,7 +14098,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drudgereport.com/js/responsive-
 ||drugs.com/api/logger/
 ||dsm.com^*/searchenginetracking.js
-||duckduckgo.com/t.js
 ||duckduckgo.com/t/
 ||dumpster.cam4.com^
 ||dvdempire.com/images/empty2.asp
@@ -14830,6 +14832,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||msecnd.net^*/wt.js?
 ||mshcdn.com/assets/lib/aab-$script,domain=mashable.com
 ||msn.com/collect/
+||msn.com/OneCollector/
 ||msn.com/ro.aspx?
 ||msn.com/script/tracking*.js
 ||msn.com/tracker/
@@ -23158,6 +23161,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||mp.weixin.qq.com/mp/jsmonitor?
 ||mp.weixin.qq.com/mp/report?
 ||mp.weixin.qq.com/mp/webcommreport?
+||msgsndr.com/funnel/event
 ||music.163.com/weapi/feedback/weblog
 ||music.163.com/weapi/pl/count
 ||narutom.com/stat.js
@@ -24389,6 +24393,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||analytics.edgekey.net/config/$xmlhttprequest,domain=nhk.or.jp
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
+@@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
+@@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: L+DGUDBfz1mswhHDkpgThw
-! Version: 202105040522
+! Checksum: 4NeHrep9ic4Z6EPQDUQ00A
+! Version: 202105050521
 ! Title: EasyList Dutch
 ! Description: Dutch supplement for the Easylist filters
-! Last modified: 04 May 2021 05:22 UTC
+! Last modified: 05 May 2021 05:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -118,7 +118,7 @@ _advertentieleaderboardhome.
 ||mooieplaatjes.bierdopje.com^
 !--------Specifieke blokkeerregels (derden)--------!
 ! *** easylistdutch/block_third_party_resource.txt ***
-.nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
+-Ad-360..nl/adurl/$xmlhttprequest,domain=start-player.npo.nl
 ||adslwinkel.nl/templates/adslwinkel/images/adslnl.gif$domain=htforum.nl
 ||amz01.plzcdn.com/a/
 ||api.skyscanner.net/api.ashx?$domain=viva.nl
@@ -331,6 +331,7 @@ tripadvisor.nl##.ad
 filmtotaal.nl##.ad-centering
 openingstijden.com##.adsense
 dekrantvanmiddendrenthe.nl,meppelercourant.nl##.advertorial-item
+notebookcheck.nl##.am_el
 afkortingen.nu,dutchitchannel.nl,startbewijs.nl##.banner
 ewmagazine.nl##.banner-leaderboard
 nnieuws.be##.banner-silver
@@ -387,6 +388,7 @@ nnieuws.be##.view-vw-banners.view
 rubenweytjens.be##.view-weather-ads-view
 2dehands.be,marktplaats.nl##.vip-banner-top-sticky-container
 nl.shein.com##.welocme-modal
+riskcompliance.nl##.widget_itarget_banners
 gfcnieuws.com##.widget_media_image.widget.extendedwopts-mobile.extendedwopts-tablet.extendedwopts-hide
 telegraaf.nl##.withBanners
 meteovista.be,weeronline.nl##.wol-banner-module__bannerContainer___QMBCE.wol-banner-module__bannerHeader___sjbIC

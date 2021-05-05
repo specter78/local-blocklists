@@ -1,8 +1,8 @@
-! Checksum: 90G2F5iAwuSfT/w56cnyzw
+! Checksum: 0U7us5KmWLVkwDMwniO+yg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.24.7
-! TimeUpdated: 2021-05-03T19:31:21+00:00
+! Version: 2.0.24.15
+! TimeUpdated: 2021-05-05T04:31:28+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -228,6 +228,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||socketviking.net^$third-party
 ||analytics.omniscientai.com^$third-party
 ||omnitag.omniscientai.com^$third-party
 ||backend.turtlemobile.com.tw^$third-party
@@ -555,6 +556,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||omappapi.com^$third-party
 ||pulsar.xlisting.jp^$third-party
 ||stats-stats.in.net^$third-party
+||lt.logly.co.jp^$image,third-party
 ||l.logly.co.jp^$third-party
 ||tagmanager.alright.network^$third-party
 ||statad.ru^$third-party
@@ -4564,6 +4566,8 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||log.ajunews.com^
+||dsb.yahoo.co.jp^
 ||pac.thetimes.co.uk^
 ||a-stat.appmifile.com^
 ||log.g-enews.com^
@@ -15324,6 +15328,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/wordpress/wp-json/pum/*/analytics/*
 /gaaddons.js
 /wp-content/plugins/google-analytics-premium/*
 /js/ad_insight/*
@@ -15668,6 +15673,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||toolss.net/rainbow/track
 ||smg.com/Etrack/
 ||cdn.gamedock.io/gamedock-web-tracker/
 ||walmart.com/px/
@@ -18707,6 +18713,10 @@ $cookie=bf_visit
 ! Exception rules that fix broken mobile apps and mobile websites
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81513
+@@||google-analytics.com/analytics.js$script,domain=m.dcinside.com|mupload.dcinside.com
+@@||ssl.google-analytics.com/ga.js$script,domain=m.dcinside.com|mupload.dcinside.com
+@@||dcinside.com$cookie=_ga
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43809
 @@||google-analytics.com/analytics.js$domain=uniqlo.com
 @@||google-analytics.com/gtm/js^$domain=uniqlo.com
@@ -18758,6 +18768,8 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/81506
+@@||google-analytics.com/analytics.js$domain=flazio.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82151
 @@||google-analytics.com/analytics.js$domain=tv-media.at
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=tv-media.at,important
@@ -18888,8 +18900,6 @@ $cookie=bf_visit
 @@||trc.taboola.com/ilmeteo-*/trc/$domain=ilmeteo.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73794
 @@||gapt.hit.gemius.pl/gplayer.js$domain=radiocomercial.iol.pt
-! https://github.com/AdguardTeam/AdguardFilters/issues/73701
-@@||track.mz-web.de/*/tracking/tracking.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73395
 @@||googletagmanager.com/gtm.js$domain=kruidvat.nl
 ! fix wechat
