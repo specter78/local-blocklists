@@ -1,7 +1,7 @@
 #Android host file - Adaway
 #
 # Title: ABPVN List
-# Updated: 03 May 2021 21:42 UTC+7
+# Updated: 06 May 2021 09:11 UTC+7
 # License: ABPVN
 # Please report any unblocked ads or problems by email or in our forums
 # Email: support@abpvn.com
@@ -14874,9 +14874,7 @@
 #[zalo.me]
 0.0.0.0 ads.platform.zalo.me
 0.0.0.0 ads.zalo.me
-#[za.zalo.me]
 0.0.0.0 px.za.zalo.me
-0.0.0.0 za.zalo.me
 #[zaloapp.com]
 0.0.0.0 ads.zaloapp.com
 0.0.0.0 log.api.zaloapp.com

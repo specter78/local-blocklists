@@ -1,8 +1,8 @@
-! Checksum: 0U7us5KmWLVkwDMwniO+yg
+! Checksum: PNKvc2aU79jniN4sVvLqmw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.24.15
-! TimeUpdated: 2021-05-05T04:31:28+00:00
+! Version: 2.0.24.19
+! TimeUpdated: 2021-05-05T19:31:44+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -95,6 +95,8 @@ store.line.me#%#//scriptlet('remove-class', 'async-hide', 'html')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70941
 pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackOutboundLink"]')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64616
+! Remove tracking attributes from the search results
+www.google.*#%#//scriptlet('remove-attr', 'ping|data-ved', 'div[id="search"] a[data-ved][ping]')
 !
 !! facebook.com - removing tracking parameter
 !! external links
@@ -228,6 +230,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||plavxml.com^$third-party
 ||socketviking.net^$third-party
 ||analytics.omniscientai.com^$third-party
 ||omnitag.omniscientai.com^$third-party
@@ -287,6 +290,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||shopback.net^$third-party
 ||shopconvert.com.br^$third-party
 ||neemu.com^$third-party
+||ping.staticmoly.me^
 ||prod-sb-appanalytics-us1.servicebus.windows.net^$third-party
 ||mci1.co.kr^$third-party
 ||analytics.sitewit.com^$third-party
@@ -15673,6 +15677,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||parte.tv/static/assets/js/pa/lp.js
+||k-crm.jp/tracking.js
+||k-crm.jp/web.tracking.js
 ||toolss.net/rainbow/track
 ||smg.com/Etrack/
 ||cdn.gamedock.io/gamedock-web-tracker/
@@ -18768,6 +18775,10 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82445
+@@||allsoft.kaspersky.ru^$cookie=guest_id
+! kenkoukazoku.co.jp unbreak order button
+@@||omtrdc.net^*/mbox/standard?$script,domain=kenkoukazoku.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81506
 @@||google-analytics.com/analytics.js$domain=flazio.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82151
