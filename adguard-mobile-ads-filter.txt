@@ -1,8 +1,8 @@
-! Checksum: E2S/jskkC2LlZfe3AigeGA
+! Checksum: tyqYSR0qs4niLo1e3BTKiw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.43
-! TimeUpdated: 2021-05-05T18:30:22+00:00
+! Version: 2.0.19.46
+! TimeUpdated: 2021-05-06T18:30:28+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2230,6 +2230,10 @@ fplgameweek.com##mobile-sticky-ads
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+sdamgia.ru##div:not([id]):not([class]):not([style]) > div[id*="_"] > div[style="width: 100%;"]
+sdamgia.ru##center > div[id*="_"] > div[style*="height: 100%;"]
+sdamgia.ru##center > div[id*="_"] > div[style*="width: 100%;"]
+!
 !
 ! Common names
 ! ##amp-embed[type="taboola"]
@@ -2239,6 +2243,9 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+glavred.info##div[style*="display: flex; height:250px;"]
+kobe-np.co.jp##div[id^="knsp-"]
+m.forum.ngs.ru##.bottom_fixed_b
 news.livedoor.com##.ads-google300
 finanzen.net###mrec
 finanzen.net##div[id^="mrec_btf_"]

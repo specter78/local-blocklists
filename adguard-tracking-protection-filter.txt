@@ -1,8 +1,8 @@
-! Checksum: PNKvc2aU79jniN4sVvLqmw
+! Checksum: JQxAqF+nHP89E0pMGc0++A
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.24.19
-! TimeUpdated: 2021-05-05T19:31:44+00:00
+! Version: 2.0.24.26
+! TimeUpdated: 2021-05-06T17:31:45+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,7 +83,8 @@
 #%#//scriptlet('set-constant', 'Document.prototype.interestCohort', 'undefined')
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80625
-tweakers.net#%#//scriptlet('abort-current-inline-script', '_wtq', 'trackId')
+tweakers.net#%#//scriptlet('abort-current-inline-script', 'AbStats', 'trackId')
+tweakers.net#%#//scriptlet('abort-on-property-read', 'GlobalSnowplowNamespace')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'WebTrekkClickMap')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24789
@@ -230,6 +231,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||t.afi-b.com^$third-party
+||newrrb.bid^$third-party
 ||plavxml.com^$third-party
 ||socketviking.net^$third-party
 ||analytics.omniscientai.com^$third-party
@@ -4701,7 +4704,6 @@ nethunt.com/api/v1/track/email/$image
 ||counter.web.money^
 ||stat.videonow.ru^$third-party
 ||insight.bellmetric.net^
-||t.afi-b.com^
 ||tag.cribnotes.jp^
 ||metrics.news.com.au^
 ||clientlog.midomi.com^
@@ -15370,6 +15372,7 @@ directtrack.*.js
 /watch.*.js?key=*&kw=*&refer=
 /pv_count.
 _analytics.js?
+/static/js/analytics-helper.js
 /entry.count?
 /js/counter.js
 /cls_report?
@@ -15675,7 +15678,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 !
-/analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
+/analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net
 !
 ||parte.tv/static/assets/js/pa/lp.js
 ||k-crm.jp/tracking.js
@@ -15992,7 +15995,7 @@ koneta.nifty.com###custom_html-2
 ||ty90nwjc8wjt-a.akamaihd.net^$domain=nypost.com
 ||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
-/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|kediportal.com|koinbulteni.com
+/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|kediportal.com|koinbulteni.com|teknop.net
 ||newstm.in/stats?
 ||newstm.in/static/ase/at/at.js
 ||cnews.ru/inc/js/show_stat.js
@@ -17869,6 +17872,10 @@ $cookie=/^ezux_et_/
 ! Used to store the pixel size of your browser to help personalize your experience and ensure content fits
 $cookie=ezohw
 $cookie=ezds
+! Used by the analytics and personalization company, Ezoic, to store the number of pages that you have viewed on this site in this session
+$cookie=/^ezopvc_/
+! Records an id that to your age and gender category. For example, id 923 might be for males between 20 and 30 years old
+$cookie=/^ezoadgid_/
 !
 ! vtex.io
 ! Tracking
@@ -18775,6 +18782,9 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82485
+@@||walmart.com/px/*/captcha/captcha.js
+@@||collector-*.px-client.net/res/uc$domain=walmart.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82445
 @@||allsoft.kaspersky.ru^$cookie=guest_id
 ! kenkoukazoku.co.jp unbreak order button

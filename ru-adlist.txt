@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OxDgs+AGppNCSeh8tg/oMg
-! Version: 202105060520
+! Checksum: k/XFllsZomdbd2mTTcKpqg
+! Version: 202105070520
 ! Title: RU AdList
-! Last modified: 06 May 2021 05:20 UTC
+! Last modified: 07 May 2021 05:20 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1224,6 +1224,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ###fp_adv
 ###fp_banner
 ###fresh_flyroll_div
+###fullBannerContent
 ###gaminator
 ###girlsBar
 ###h_24x4
@@ -4959,7 +4960,6 @@ _tizers.
 ||bajvt.com^$third-party
 ||bakibarus.com^$third-party
 ||baks-easy.com^$third-party
-||bakteso.ru^$third-party
 ||bambun.ru^$third-party
 ||banalyze.net^$third-party
 ||banamau.com^$third-party
@@ -5427,7 +5427,6 @@ _tizers.
 ||checkleads.ru^$third-party
 ||cheff77.info^$third-party
 ||cherryplane.com^$third-party
-||chfpgcbe.com^$third-party
 ||chickenfrutty.com^$third-party
 ||chik.ru^$third-party
 ||chikhanos.info^$third-party
@@ -6095,6 +6094,7 @@ _tizers.
 ||er2fl22b1w.site^
 ||erate.co.il^$third-party
 ||erbwebs.com^$third-party
+||erileni.ru^$third-party
 ||ernozi.ru^$third-party
 ||ernser.org^$third-party
 ||ero.ru^$third-party,domain=~vpets.ru
@@ -7479,7 +7479,6 @@ _tizers.
 ||linkodir.ru^
 ||linkpeoples.com^
 ||links-wm.ru^$third-party
-||linkslot.ru^$third-party
 ||linksviewer2013.com^
 ||linkunder.ru^$third-party
 ||linkupper.ru^
@@ -9592,7 +9591,6 @@ _tizers.
 ||ta9xknwqzfz.space^$third-party
 ||tadic.tk^
 ||tafimedia.com^$third-party
-||tagbom.com^$third-party
 ||tagol2.ru^
 ||tagslimit.com^$third-party
 ||tahedtheg.com^$third-party
@@ -14161,6 +14159,7 @@ glavpost.com##.gallery-center-ad-block
 splkirov.ru##.gallery-gusar
 radikal.ru##.gallery2_left-col_wrapper > div[style^="width"]
 shaiba.kz##.game-info__bottom
+gamasexual.com,gamasexual.ru##.game-preview-wrap a
 myplaycity.ru##.gamepage_download_left
 myplaycity.ru##.gamepage_download_right
 flashplayer.ru##.gametiles > div[id][style]
@@ -14172,6 +14171,7 @@ softobase.com##.gc-question-ads-2
 plohihmacov.net##.gdeslon-widget
 legkopolezno.ru##.gen-banner
 semerkainfo.ru##.gensmall > .block_links
+bobsoccer.ru##.gift-banner
 liveinternet.ru##.gifts
 zikua.tv##.global-wrapper > [class^="content-promotion-"]
 video.oboz.ua##.global_overheader
@@ -15104,6 +15104,7 @@ znak.com##.pub-box
 gdetoedet.ru##.pull-right > [class] ~ [class]
 eadaily.com##.pulse-widget
 ru-torrent.org##.pupolar_month
+parnuxi.biz##.pw-rkl-section
 qip.ru##.q_banner
 qip.ru##.q_teaser
 pure-t.ru##.quads-location > :not(#hypercomments_widget)
@@ -15414,6 +15415,7 @@ chasdiy.org##.side-content-wrapper > picture
 agro-biz.ru##.side-cpa
 drive.ru##.side-link
 1tv.ru##.side-promo-place-right
+parnuxi.biz##.side-rkl-section
 transkarpatia.net#?#.side-widget:-abp-has([id*="ScriptRoot"])
 siteua.org#?#.sideBlock:-abp-has(> .adsbygoogle)
 siteua.org#?#.sideBlock:-abp-has(> [id^="CNM"])
@@ -16167,6 +16169,7 @@ tvc.ru##:not(.yandex_zen_link) + .yandex_zen_link
 ogorod.ru##:not([class^="banner_top_"]) > div[id^="adfox_"]
 patrioty.org.ua##:not(html) > iframe[style*="important"]:not([src^="https://disqus.com/embed/comments/"])
 123torrent.ru,37.1.203.156,37.1.204.76,37.1.205.47,37.1.207.65,5.45.65.153,5.45.70.162,berutor.site,blackrutor.site,extrutor.org,extrutor.site,fastrutor.site,herutor.org,listrutor.org,new-rutor.org,pipitor.org,prutor.site,r-tor.ru,rutor-live.tk,rutor1.site,tracker-rutor.tk,xrutor.org##:not(obhod-adblocka)
+opensharing.org##:not(td) > a[href*="//parnuxi.biz"]:not([href$=".html"])
 csmania.ru##A[onclick^="countAdClick"]
 mediametrics.ru##[_onclick*="advert"]
 coub.com##[adfox-featured-banner]
@@ -16495,7 +16498,6 @@ agrarii-razom.com.ua,dks.com.ua,enovosty.com,expert.in.ua,galas.te.ua,galinfo.co
 beatmake.ru##a[href*="//go.acstat.com/"]
 izhevsk.ru##a[href*="//mark.ru/"][target="_blank"]
 adult-images.ru,imgbum.ru,screenpost.ru,xpicture.ru##a[href*="//parnuxi.biz"]
-opensharing.org##a[href*="//parnuxi.biz"]:not([href$=".html"])
 serializm.com##a[href*="//votono.click/"]
 kritka.su,zserials.cc##a[href*="/1b.yt"]
 zserials.cc##a[href*="/1w.tf"]
@@ -16578,7 +16580,6 @@ torrentinka.me##a[href*="://torrentinka.me/gom"]
 volnorez.com.ua##a[href*="://turagent.od.ua"]
 kritka.su,rsload.net##a[href*="://u.to/"]
 dnevnienovosti.ru##a[href*="://urldirect.ru/"]
-gamasexual.com,gamasexual.ru##a[href*="=adb"]
 3ys.ru,libsib.ru,mydocx.ru,studopedia.su##a[href*="a24help.ru"]
 animeonline.cc,animesure.org,games.portal.md,kino4k.in,kinofanonline.net,kinoframe.net,music-torrent.com,musictor.org,newsgsm.com,rg-mechanics.site,softbesplatno.net,texdizain.net,torrentigri.xyz,torrentza.co,windowspro.ru##a[href*="aHR0c"]
 trishurupa.ru##a[href*="abc-home.ru"]
@@ -17468,8 +17469,8 @@ darkmoney.at##div[align="center"] > a[href] > img[src*=".gif"]
 igru-xbox.net,small-games.info##div[align="center"] > a[href][target="_blank"]
 kinofrog.ru##div[align="center"] > noindex
 adult-images.ru,xpicture.ru##div[align="center"] > table[width="160"]
-imgbum.ru##div[align="center"] > table[width="205"]
 adult-images.ru,imgbum.ru,xpicture.ru##div[align="center"] > table[width="962"]
+imgbum.ru##div[align="center"] > table[width^="20"]
 dlltop.ru##div[align="center"] a[target="_blank"] > img
 ru-minecraft.ru##div[align="center"][style=" background-color: #ececec;"] > div[style*="font-size:"]
 pcnews.ru##div[align="center"][style="display: block;"]
@@ -24182,7 +24183,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||amgload.net/|$third-party,xmlhttprequest
 @@||an.yandex.ru/adfox/$xmlhttprequest,domain=shop.kp.ru
 @@||an.yandex.ru/crossdomain.xml
-@@||an.yandex.ru/system/adfox.js|$script,domain=1prime.ru|www.ok-magazine.ru
+@@||an.yandex.ru/system/adfox.js|$script,domain=1prime.ru|crowdrepublic.ru|www.ok-magazine.ru
 @@||an.yandex.ru/system/video-ads-sdk/adsdk.js|$script,domain=5-tv.ru|armdb.org|gisher.org|peers.tv|tele-sport.ru
 @@||an.yandex.ru/vcset/139995?*&client_type=flash
 @@||andpro.ru^*/display_adapter.$image,domain=andpro.ru
