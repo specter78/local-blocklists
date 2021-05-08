@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: k/XFllsZomdbd2mTTcKpqg
-! Version: 202105070520
+! Checksum: KjSgmH0A4TN+r4TXlw82Uw
+! Version: 202105080520
 ! Title: RU AdList
-! Last modified: 07 May 2021 05:20 UTC
+! Last modified: 08 May 2021 05:20 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1242,6 +1242,7 @@ $popup,domain=176.114.0.126|176.114.0.132|37.220.36.15|assiatv.com|cdnneedtv.ru|
 ~vk.com###vkMsg
 ###winvideoPlayer
 ###zhlobam_net_informer_console
+##.AdWheelClick
 ##.MIXADVERT_NET
 ##.SC_TBlock
 ##.ad-240x400
@@ -6372,6 +6373,7 @@ _tizers.
 ||fullcupful.com^$third-party
 ||fulldl.net^
 ||funn.date^$third-party
+||funpick.site^$third-party
 ||funsmi.ru^$third-party
 ||funtrop.com^$third-party
 ||fuzari.ru^$third-party
@@ -12798,7 +12800,6 @@ mk.ru#?#*:-abp-has(> .mkblock:-abp-contains(Популярно в соцсетя
 bookskeeper.ru#?#*:-abp-has(> [id^="BlockId"])
 ruero.com#?#*:-abp-has(> a[href*="prostitutkixxx"])
 onedivision.ru##.-hidden-adv
-animebest.club##.AdWheelClick
 ua-ix.biz##.Advertising
 meduza.io##.App-bannerBottom
 meduza.io##.App-bannerTop
@@ -13046,7 +13047,7 @@ cmlt.ru##.an-pic-top-box
 anime.anidub.life,myanime.online,online.anidub.com##.anidub-ad
 pogodnik.com##.animate > .day-expectations
 creativportal.ru##.anime > script + div[id]
-anilibria.life##.animetarg
+anilibria.life,animebest.tv,animevost.tv##.animetarg
 youtube.com##.annotation.iv-promo
 kriminal.net.ua##.append_html
 megamult.net##.apygame
@@ -14446,9 +14447,9 @@ kg-portal.ru##.kg_promo
 kubik-v-kube.com##.kino-text > div[style^="clear:both;"]
 gaming-torrent.org##.kino-text a[target] > img
 myshows.me##.kinopoiskBanner
-animebest.club##.kinotarg
 kivvi.kz##.kivvi_social
 kloomba.com##.kl-ad-item
+kanobu.ru#?#.knb-grid-layout > .knb-grid-cell:-abp-has(> [class*="banner"])
 topfile.tj##.knopka
 osvita.ua##.kom
 aqua-therm.ru##.kp-top-banner
@@ -16330,7 +16331,7 @@ football.kulichki.net##[href*="/pari"]
 flirchi.com.ua##[href*="://orgidea.ru"]
 ogemorroe.com##[href*="=ogemorroe.com"]
 list-org.com##[href*="abp:subscribe"]
-agorov.org,amedia.online,anime-bit.ru,animebest.club,animedub.ru,animeonline.cc,animevost.am,animevost.club,animevost.org,animevost.site,blokino.org,pacogames.com,risens.team,rufilmtv.pro,smotret-anime-365.ru,torrent-igruha.co,trymobile.ru,you-anime.ru,yummyanime.club##[href*="advg.agency"]
+agorov.org,amedia.online,anime-bit.ru,animebest.tv,animedub.ru,animeonline.cc,animevost.am,animevost.org,animevost.site,animevost.tv,blokino.org,pacogames.com,risens.team,rufilmtv.pro,smotret-anime-365.ru,torrent-igruha.co,trymobile.ru,you-anime.ru,yummyanime.club##[href*="advg.agency"]
 mmorpg.su##[href*="apygame.com/click"]
 local.com.ua##[href*="local.com.ua/banner"]
 tnt-premier.life##[href*="mclk.ru"]
@@ -16745,7 +16746,7 @@ thequestion.ru##a[href*="t.mail.ru/redir/"]
 kttc.ru##a[href*="tanki"][target="_blank"]
 teploguru.ru##a[href*="teplocom-m.ru"]
 linuxthebest.net##a[href*="thehost.ua"] > img
-anilibria.life,for-ua.info,rapidzona.tv##a[href*="tinyurl.com"]
+anilibria.life,animevost.tv,for-ua.info,rapidzona.tv##a[href*="tinyurl.com"]
 i-pic.ru##a[href*="torrent3d.net"]
 megosales.com,otcrytki.com##a[href*="twnt.ru"]
 ucoz.ru##a[href*="ukit-freelance.com"][target="_blank"] > img
@@ -16896,7 +16897,7 @@ cyclone-soft.com,gameshake.ru,hide-info.pro##a[href^="/engine/dude/index/leech_o
 maw.ru##a[href^="/ent.php"]
 stena.ee##a[href^="/external"] > img
 gdetoedet.ru,loadtorrentfilm.com,torrentikofilm.com,uzum.tv##a[href^="/go"]
-cyberpedia.su,lektsii.org,megaobuchalka.ru,studopedia.info,studopedia.net,studopedia.org,studopedia.ru,studopedia.su##a[href^="/go"][href*=".php"][target="_blank"]
+cyberpedia.su,infopedia.su,lektsii.org,megaobuchalka.ru,studopedia.info,studopedia.net,studopedia.org,studopedia.ru,studopedia.su##a[href^="/go"][href*=".php"][target="_blank"]
 bdsmplaneta.com,vozbuzhdaet.com##a[href^="/go.php"]
 kg-portal.ru##a[href^="/go.php"][target="_blank"]
 pornoboss.tv##a[href^="/go.php?id="]
@@ -17244,6 +17245,7 @@ postal.ninja##aside.tm-sidebar-a [class*="block"]
 dnews.dn.ua#?#aside:-abp-has(> .aside-partners)
 kanobu.ru#?#aside:-abp-has(> button + div > iframe[title="igromania"])
 vk.com##aside[aria-label="Актуальные новости"]
+kanobu.ru##aside[class^="style_player__"] > a[href*="utm_"]
 novozybkov.su##aside[data-alias="Заголовок"] .widget-area > .widget_text
 bryansknovosti.ru,novozybkov.su##aside[data-alias="Над новостями"]
 bryansknovosti.ru,novozybkov.su##aside[data-alias="Под меню"]
@@ -17302,7 +17304,7 @@ riotpixels.com##body > [class^="side-url-"]
 edufuture.biz,filmax.com.ua,popgun.ru,trupornolabs.org,xvatit.com,xxxadulttorrent.org##body > [onclick]
 budport.com.ua,lostfilm.run,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,versii.if.ua,xakep.ru##body > a
 112ua.tv,crazyatomicgames.com,kinocok.org,lostfilmonline.ru,root-nation.com,svetmonet.ru,topvideo.tj,torrentinka.me,trupornolabs.org,udaff.com,xxx-igra.com,xxxadulttorrent.org,yaldagames.com##body > a[href]
-1in.am,agrarii-razom.com.ua,agro-business.com.ua,alau.kz,animeonline.cc,animevost.club,asienda.ru,besstidniki.com,bit.ua,bugaga.ru,c-inform.info,comments.ua,ctv7.ru,dead-serial.com,e-libra.ru,fashiony.ru,fclmnews.ru,forpost.lviv.ua,freehat.cc,game2day.ru,ggscore.com,gooool.org,gordonua.com,gorod.dp.ua,grimm-online.org,gta.com.ua,horrorzone.ru,izbezhat-nakazania.com,jetsetter.ua,jut.su,kievvlast.com.ua,kinoafisha.ua,kinogo-tut.net,kinorom.com,ko.com.ua,kosti-tv.com,kushvsporte.ru,mac-torrent-download.net,madjong-besplatno.ru,mirf.ru,mybrazz.club,mycharm.ru,myfin.by,myjane.ru,nashkiev.ua,ne-kurim.ru,newsoneua.tv,pesikot.org,pimpletv.ru,playua.net,post-tracker.ru,povarenok.ru,prodota.ru,relook.ru,rubryka.com,saratovnews.ru,segodnya.ua,sopsport.org,spletnica-tv.com,sportarena.com,stranamam.ru,strela-online.com,teenwolf-tv.com,tg.telepult.pro,theflash-tv.com,topfile.tj,torentor.co,traktorist.ua,udargol.com,vsetor.org,vskazke-tv.com,zorgee.ru##body > a[href][target="_blank"]
+1in.am,agrarii-razom.com.ua,agro-business.com.ua,alau.kz,animeonline.cc,asienda.ru,besstidniki.com,bit.ua,bugaga.ru,c-inform.info,comments.ua,ctv7.ru,dead-serial.com,e-libra.ru,fashiony.ru,fclmnews.ru,forpost.lviv.ua,freehat.cc,game2day.ru,ggscore.com,gooool.org,gordonua.com,gorod.dp.ua,grimm-online.org,gta.com.ua,horrorzone.ru,izbezhat-nakazania.com,jetsetter.ua,jut.su,kievvlast.com.ua,kinoafisha.ua,kinogo-tut.net,kinorom.com,ko.com.ua,kosti-tv.com,kushvsporte.ru,mac-torrent-download.net,madjong-besplatno.ru,mirf.ru,mybrazz.club,mycharm.ru,myfin.by,myjane.ru,nashkiev.ua,ne-kurim.ru,newsoneua.tv,pesikot.org,pimpletv.ru,playua.net,post-tracker.ru,povarenok.ru,prodota.ru,relook.ru,rubryka.com,saratovnews.ru,segodnya.ua,sopsport.org,spletnica-tv.com,sportarena.com,stranamam.ru,strela-online.com,teenwolf-tv.com,tg.telepult.pro,theflash-tv.com,topfile.tj,torentor.co,traktorist.ua,udargol.com,vsetor.org,vskazke-tv.com,zorgee.ru##body > a[href][target="_blank"]
 yap.ru,yaplakal.com##body > a[id^="clk-"]
 gotps3.ru##body > a[target="_blank"]
 hmn.ru##body > center > .px_blue_fon
@@ -20988,6 +20990,7 @@ lada.kz/uploads/banners/
 ||oilpoint.com.ua/wp-content/banner/
 ||ok-magazine.ru/*/partner-news-json.js
 ||oka.fm/284
+||okay.uz/api/default/vast?$xmlhttprequest
 ||old-games.ru/img/b/
 ||old.businessmens.ru/bnr/
 ||oldgames.ru/netcat_files/Image/$object
@@ -24184,7 +24187,7 @@ xn--112-5cd3baof9c5c.xn--p1ai#@#.wrapad
 @@||an.yandex.ru/adfox/$xmlhttprequest,domain=shop.kp.ru
 @@||an.yandex.ru/crossdomain.xml
 @@||an.yandex.ru/system/adfox.js|$script,domain=1prime.ru|crowdrepublic.ru|www.ok-magazine.ru
-@@||an.yandex.ru/system/video-ads-sdk/adsdk.js|$script,domain=5-tv.ru|armdb.org|gisher.org|peers.tv|tele-sport.ru
+@@||an.yandex.ru/system/video-ads-sdk/adsdk.js|$script,domain=5-tv.ru|armdb.org|gisher.org|peers.tv|rutube.ru|tele-sport.ru
 @@||an.yandex.ru/vcset/139995?*&client_type=flash
 @@||andpro.ru^*/display_adapter.$image,domain=andpro.ru
 @@||androidmag.com.ua/img/banner$image,domain=androidmag.com.ua

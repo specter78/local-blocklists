@@ -1,8 +1,8 @@
-! Checksum: N5vbCr+EbnFvlRtuLg9LJA
+! Checksum: hE6lBiX6TtVhzC0b90MorQ
 ! Title: AdGuard Russian filter
 ! Description: Filter that enables ad blocking on websites in Russian language.
-! Version: 2.0.52.87
-! TimeUpdated: 2021-05-06T21:03:37+00:00
+! Version: 2.0.52.93
+! TimeUpdated: 2021-05-07T19:31:01+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -83,6 +83,7 @@
 ! `window.adswellBaseDomain`
 ! https://damskiy.xyz/vendor/lib/oY.js
 !
+||rhhmaq.com^$third-party
 ||ybej5ohp0x.ru^$third-party
 ||gritspera.mobi^$third-party
 ||78yvreh.site^$third-party
@@ -5448,9 +5449,9 @@ qaru.site#%#AG_abortInlineScript(/script.onerror/, 'document.addEventListener');
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19531
 @@||winksweb.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68602
-/script.js$domain=studopedia.net|studopedia.su|studopedia.org|studopedia.ru|studopedia.com.ua|lektsii.org
-studopedia.net,studopedia.su,studopedia.org,studopedia.ru,studopedia.com.ua,lektsii.org#@#.adBanner
-studopedia.net,studopedia.su,studopedia.org,studopedia.ru,studopedia.com.ua,lektsii.org#@#.adbanner
+/script.js$domain=infopedia.su|studopedia.net|studopedia.su|studopedia.org|studopedia.ru|studopedia.com.ua|lektsii.org
+infopedia.su,studopedia.net,studopedia.su,studopedia.org,studopedia.ru,studopedia.com.ua,lektsii.org#@#.adBanner
+infopedia.su,studopedia.net,studopedia.su,studopedia.org,studopedia.ru,studopedia.com.ua,lektsii.org#@#.adbanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18956
 @@||rem-tech.at.ua/pagead2.ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18564
@@ -7932,7 +7933,6 @@ zen.yandex.by,zen.yandex.com,zen.yandex.kz,zen.yandex.ru,zen.yandex.ua#?#.zen-pa
 ##.banner-mid
 ##.banner-place
 ##.banner-r
-~minutouno.com,~keyforsteam.de,~autoextrem.de,~rusradio.ru,~screencam.ru,~thuglifemaker.net,~ved.gov.ru,~vshp2016.ru,~winboard.org,~xbox-passion.de##.banner-right
 ##.banner-search
 ##.banner-side
 ##.banner-square
@@ -8254,8 +8254,6 @@ hdrabbit.ru#%#//scriptlet("set-constant", "Object.prototype.timeToHoldAds", "0")
 oxax.tv#%#//scriptlet('prevent-window-open')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55271
 4kfilm.online#%#//scriptlet("remove-class", "have-brand", "div.have-brand")
-! https://github.com/AdguardTeam/AdguardFilters/issues/55453
-rutube.ru#%#//scriptlet("json-prune", "creative", "creative.src")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53045
 it-like.ru#%#//scriptlet('remove-attr', 'href', '.post-content > article > div > ul > li > a[href^="https://it-like.ru/link/"][data-wpel-link="external"]')
 ! assiatv.com - popups
@@ -10985,6 +10983,7 @@ crazymailing.com,lotzon.pro,novosti-n.org,prokazan.ru,20minut.ua,alnews.com.ua,g
 ! vast ads on anime sites - for example: animego.org, yummyanime.club, etc
 /:\/\/[0-9]?[a-z0-9]{11,}(\.com|\.in\.net)/$xmlhttprequest,domain=aniqit.com|kodik.info|start.u-cdn.top|ustore.bz|u-stream.in
 !
+torrents-igruha.org##.rel-item22
 new-retail.ru##.banner_bottom
 retrogid.ru##.sidebar-news
 cosmo.ru##div[class^="a_-d-banner--"]
@@ -17405,7 +17404,7 @@ gorod.dp.ua##div[id^="WMG-"]
 zagonka.ru##div[id^="_"][style*="z-index:"]
 driver.ru##div[id^="a"] > a[rel="nofollow"] > img
 hronika.info##div[id^="ab-banner-wrapper-"]
-alltorrents.net,pirat.ca##div[id^="ad-"]
+myshows.me,alltorrents.net,pirat.ca##div[id^="ad-"]
 content.directadvert.ru##div[id^="adPlace"]
 doklad.ru,yadoma.tv##div[id^="ad_"]
 gisclub.tv##div[id^="ad_below_menu_"]
@@ -20486,6 +20485,7 @@ censor.net##.partners
 !
 ! Hdrezka
 ||static.hdrezka.ac/i/def_pointloto_0_top.jpeg
+rezkily.com,ezhdrezka.com,akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##.b-player > div[style^="height: 160px;"]
 rezkily.com,ezhdrezka.com,akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##div[style="height: 250px; overflow: hidden;"]
 rezkily.com,ezhdrezka.com,akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##a[style*="data:image"]
 rezkily.com,ezhdrezka.com,akinopoisk.com,hdrezkaonline.com,drhdrezka.com,mrhdrezka.com,hdrezka.sh,ehdrezka.com,nukinopoisk.com,livekinopoisk.com,betahdrezka.com,cokinopoisk.com,hdrezka-ag.com,hdrezka.club,hdrezka.cm,hdrezka.co,hdrezka.com.ua,hdrezka.host,hdrezka.lol,hdrezka.name,hdrezka.site,hdrezka.today,hdrezka.tv,hdrezka.website,hdrezkaag.net,hdrezkaweb.com,hdrezkayou.com,instahdrezka.com,myhdrezka.com,rezka.ag,tryhdrezka.com##[style="height: 250px; overflow: hidden; width: 680px;"]
@@ -21678,6 +21678,8 @@ ut-1.alexbranding.com,unitheme.net#@#[class^="adv-"]
 ! Userscripts may be breaking Yandex Browser "new page", disable them there (temp)
 ! Check after 7.6, 2.6 mac, 3.6.2 Android releases
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82458
+@@||an.yandex.ru/system/video-ads-sdk/adsdk.js$domain=rutube.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82181
 multcloud.com#@#.left-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82218

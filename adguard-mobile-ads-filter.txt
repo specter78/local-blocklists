@@ -1,8 +1,8 @@
-! Checksum: tyqYSR0qs4niLo1e3BTKiw
+! Checksum: bdgxSc9YovH5ejBdDFLHFw
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.46
-! TimeUpdated: 2021-05-06T18:30:28+00:00
+! Version: 2.0.19.48
+! TimeUpdated: 2021-05-07T12:30:27+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1223,6 +1223,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! pcgames.de - ad
+pcgames.de#?#.disrupter-Color-OrangeReview > a:has(> .textFrame > .articleInfo > .autorName:contains(Anzeige))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81933
 grapee.jp#?#aside > div[class^="mod-ads-area"]:upward(1)
 ! placeholder
@@ -1689,6 +1691,9 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82036
+leo.org#$#.l-dict-searchbar { top: 0 !important; }
+leo.org#$#.wgt > .wgt-header { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78062
 teleprogramma.pro#$#div[class^="yt-w amp-wp-inline-"] { padding-top: inherit !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78598
@@ -2243,6 +2248,8 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+sondakika.com##.add_masthead
+pcgames.de##.sponsored
 glavred.info##div[style*="display: flex; height:250px;"]
 kobe-np.co.jp##div[id^="knsp-"]
 m.forum.ngs.ru##.bottom_fixed_b
