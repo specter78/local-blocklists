@@ -1,8 +1,8 @@
-! Checksum: 8eSfZ+XLl4IF50EGaTwPng
+! Checksum: gYRVplsaGAu1sOQrZ5gqKQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.24.31
-! TimeUpdated: 2021-05-07T14:31:44+00:00
+! Version: 2.0.24.34
+! TimeUpdated: 2021-05-08T20:31:39+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4573,6 +4573,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||log.shufoo.net^
 ||logcollect.totalcms.ncloud.or.kr^
 ||discovery.newspic.kr^
 ||discovery-script.newspic.kr^
@@ -15377,7 +15378,6 @@ directtrack.*.js
 /pv_count.
 _analytics.js?
 /static/js/analytics-helper.js
-/entry.count?
 /js/counter.js
 /cls_report?
 /akam/11/*
@@ -15684,6 +15684,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||shufoo.net/log/
 ||deszczowce.pl/licznik/licznik.php
 techmaniachd.pl###sidebar-right-1 > #HTML6
 ||parte.tv/static/assets/js/pa/lp.js
@@ -18789,6 +18790,8 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! jolie.de - picture gallery broken
+jolie.de/sites/default/files/google_tag/google_tag_manager/google_tag.script.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82566
 @@||tm.jsuol.com.br/uoltm.js$domain=noticias.uol.com.br
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82485

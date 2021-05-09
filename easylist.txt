@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202105080518
+! Version: 202105090322
 ! Title: EasyList
-! Last modified: 08 May 2021 05:18 UTC
+! Last modified: 09 May 2021 03:22 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25007,6 +25007,7 @@ _popunder+$popup
 ##.flashad
 ##.flashadd
 ##.flex-ad
+##.flex-ad-wrapper
 ##.flexAd
 ##.flexContentAd
 ##.flexad
@@ -27077,6 +27078,8 @@ _popunder+$popup
 ##.mvp_ad_widget
 ##.mvp_block_type_ad_module
 ##.mvw_onPageAd1
+##.mw-ad.row
+##.mw-right-ad-slot
 ##.mwaads
 ##.mx-box-ad
 ##.mxl_ad_inText_250
@@ -31362,6 +31365,7 @@ _popunder+$popup
 ###taboola-top-banner-abp
 ###taboola_related
 ###taboola_responsive_wrapper
+##.ab_taboola
 ##.ad-container--taboola
 ##.box-taboola-content
 ##.dart-ad-taboola
@@ -45745,6 +45749,7 @@ menstennisforums.com#@#.top_ads
 ||supersonicads.com^$third-party
 ||superwebs.pro^$third-party
 ||supletcedintand.pro^$third-party
+||supplyframe.com^$third-party
 ||supuv2.com^$third-party
 ||surf-bar-traffic.com^$third-party
 ||surfe.pro^$third-party
@@ -51233,7 +51238,6 @@ $csp=worker-src 'none',domain=torlock.com|123movie.cc|1movies.best|alltube.pl|al
 ||gelbooru.com^$csp=script-src 'self' '*' 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.bootstrapcdn.com
 ||grammarist.com^$csp=script-src 'self' '*' 'unsafe-inline'
 ||limetorrents.info^$csp=script-src 'self' 'unsafe-inline'
-||merriam-webster.com^$csp=script-src 'self' '*' 'unsafe-inline'
 ||moviewatcher.is^$csp=script-src 'self' '*' 'unsafe-inline'
 ||pirateiro.com^$csp=script-src 'self' 'unsafe-inline' https://hcaptcha.com *.hcaptcha.com
 ! CSP Yavli
@@ -51246,23 +51250,16 @@ $csp=worker-src 'none',domain=torlock.com|123movie.cc|1movies.best|alltube.pl|al
 ! Mobile
 ! Specific filters necessary for sites allowlisted with $genericblock filter option
 ! Spiegel.de
-@@||ad.yieldlab.net^$script,domain=spiegel.de
-@@||cdn.teads.tv/media/format.js$domain=spiegel.de
-@@||conative.de/serve/domain/158/config.js$domain=spiegel.de
-@@||conative.de^*/adscript.min.js$domain=spiegel.de
-@@||damoh.spiegel.de^$script,domain=spiegel.de
 @@||doubleclick.net/gampad/*adPositionName%3Dsuperbanner_$xmlhttprequest,domain=spiegel.de
 @@||doubleclick.net/getconfig$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*superbanner_3$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*wallpaper_1$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=spiegel.de
 @@||g.doubleclick.net/tag/js/gpt.js$domain=spiegel.de
-@@||imagesrv.adition.com/banners/1337/files/*.jpg?*.png$image,domain=spiegel.de
-@@||imagesrv.adition.com/js/adition.js$domain=spiegel.de
-@@||imagesrv.adition.com/js/srp.js$domain=spiegel.de
 @@||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=spiegel.de
 @@||spiegel.de^$genericblock,generichide
-@@||static.adfarm1.adition.com/ci.html$subdocument,domain=spiegel.de
+spiegel.de###vi-stories-main-container
+spiegel.de##.emsAnzeige
 spiegel.de##a[data-nvp*="'trafficUrl':'https://paid.outbrain.com/network/redir?"]
 spiegel.de##a[href^="http://paid.outbrain.com/network/redir?"]
 spiegel.de##a[href^="https://paid.outbrain.com/network/redir?"]
@@ -51270,55 +51267,48 @@ spiegel.de##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"]
 spiegel.de##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"]
 spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepage_5__container__)
 ||2mdn.net^$domain=spiegel.de
-||a-ssl.ligatus.com^$domain=spiegel.de
-||ad.atdmt.com/i/a.html$domain=spiegel.de
-||ad.atdmt.com/i/a.js$domain=spiegel.de
-||ad.doubleclick.net^$domain=spiegel.de
+||360yield.com^$domain=spiegel.de
 ||adalliance.io^$domain=spiegel.de
 ||adform.net^$domain=spiegel.de
-||adition.com/banner?$domain=spiegel.de
 ||adition.com^$domain=spiegel.de
-||adition.com^$popup,domain=spiegel.de
 ||adnxs.com^$domain=spiegel.de
+||ads.viralize.tv^$domain=spiegel.de
 ||adsafeprotected.com^$domain=spiegel.de
-||adverserve.net^$domain=spiegel.de
-||advertising.com^$domain=spiegel.de
-||advolution.de^$domain=spiegel.de
 ||amazon-adsystem.com^$domain=spiegel.de
-||ampproject.org^*/amp-ad-$domain=spiegel.de
 ||bidder.criteo.com^$domain=spiegel.de
 ||cas.*.criteo.com^$domain=spiegel.de
 ||cas.criteo.com^$domain=spiegel.de
 ||caw.*.criteo.com^$domain=spiegel.de
+||ced.sascdn.com^$domain=spiegel.de
 ||conative.de^$domain=spiegel.de
 ||criteo.com/delivery/$domain=spiegel.de
 ||emsservice.de^$domain=spiegel.de
 ||g.doubleclick.net^$domain=spiegel.de
+||googlesyndication.com/pagead/$domain=spiegel.de
 ||googlesyndication.com/safeframe/$domain=spiegel.de
+||googlesyndication.com/simgad/$domain=spiegel.de
 ||googlesyndication.com/sodar/$domain=spiegel.de
 ||images.*.criteo.net^$domain=spiegel.de
-||libs.sphere.com/video/outbrain-player/$domain=spiegel.de
-||mediaplex.com^$domain=spiegel.de
+||imasdk.googleapis.com^$domain=spiegel.de
+||inforsea.com^$domain=spiegel.de
 ||mookie1.com^$domain=spiegel.de
-||movad.net^$domain=spiegel.de
-||openx.net^$domain=spiegel.de
+||netpoint-media.de^$domain=spiegel.de
+||omnitagjs.com^$domain=spiegel.de
 ||pagead2.googlesyndication.com^$domain=spiegel.de
-||qservz.com^$domain=spiegel.de
+||partner.googleadservices.com^$domain=spiegel.de
+||pubmatic.com^$domain=spiegel.de
 ||rdi.*.criteo.com^$domain=spiegel.de
 ||rdi.criteo.com^$domain=spiegel.de
 ||rtax.criteo.com^$domain=spiegel.de
-||servedby.flashtalking.com/imp/$script,domain=spiegel.de
 ||serving-sys.com^$domain=spiegel.de
 ||smartadserver.com^$domain=spiegel.de
-||smartclip.net/ads?$domain=spiegel.de
-||t4ft.de^$domain=spiegel.de
+||smartstream.tv^$domain=spiegel.de
+||spotxchange.com^$domain=spiegel.de
+||stickyadstv.com^$domain=spiegel.de
 ||teads.tv^$domain=spiegel.de
-||theadex.com^$domain=spiegel.de
-||view.atdmt.com/partner/$domain=spiegel.de
-||view.atdmt.com^*/iview/$domain=spiegel.de
-||view.atdmt.com^*/view/$domain=spiegel.de
+||twiago.com^$domain=spiegel.de
+||vi-serve.com^$domain=spiegel.de
 ||vix.*.criteo.net^$domain=spiegel.de
-||widgets.outbrain.com/nativeVideoPlayer/NVPInjector.min.js$domain=spiegel.de
 ||yieldlab.net^$domain=spiegel.de
 ! jetzt.de
 @@||jetzt.de^$generichide
@@ -51779,6 +51769,7 @@ myabandonware.com###artCLX
 myabandonware.com###artST
 riverbender.com###article-banner
 pcworld.com###articleLeaderboardWrapper
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
 findmysoft.com###as_336
 flyordie.com###asf
 1movies.is###askfdgyhsd_
@@ -55360,6 +55351,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||lastpass.com/ads.php$subdocument,~third-party
 @@||lastpass.com/images/ads/$image,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
+@@||live.sekindo.com^$domain=appleinsider.com
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||looker.com/api/internal/$~third-party
 @@||manageengine.com/images/logo/$image,~third-party
@@ -55402,6 +55394,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pntrs.com/b/$image,domain=extrarebates.com
 @@||portal.autotrader.co.uk/advert/$~third-party
 @@||prebid.adnxs.com^$xmlhttprequest,domain=go.cnn.com
+@@||preromanbritain.com/maxymiser/$~third-party
 @@||productioncars.com/pics/menu/
 @@||promo.com/embed/$subdocument,third-party
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
