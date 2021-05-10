@@ -1,8 +1,8 @@
-! Checksum: LE9lkUW8mcZD4EPGyUQdFA
+! Checksum: 3/OQqGXZ9FK9BiNZEQ5sgw
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.40.7
-! TimeUpdated: 2021-05-08T17:04:46+00:00
+! Version: 2.0.40.8
+! TimeUpdated: 2021-05-09T14:31:30+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -3941,7 +3941,7 @@ polityka.pl##.md-sharethis-toolbox_floatingbuttons > .md-sharethis-toolbox-float
 zapytaj.onet.pl###fbFixed
 mjakmama24.pl##body > #panel[style="left:0; position:fixed; top:30%; z-index:6000;"]
 app-time.ru##.wrap-social
-dongascience.com,angfa-store.jp,news.paravi.jp,xn--eckhu0c0d1b5kcu5305ksfpb.com,focus.kr,otona-life.com,mac-torrent-download.net,f1-gate.com##.sns
+win10labo.info,dongascience.com,angfa-store.jp,news.paravi.jp,xn--eckhu0c0d1b5kcu5305ksfpb.com,focus.kr,otona-life.com,mac-torrent-download.net,f1-gate.com##.sns
 telegraf.com.ua##.soc_title
 telegraf.com.ua##.socials_tab
 telegraf.com.ua##.wrapper-single-social_block_content_height
