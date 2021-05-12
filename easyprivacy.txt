@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202105110439
+! Version: 202105120442
 ! Title: EasyPrivacy
-! Last modified: 11 May 2021 04:39 UTC
+! Last modified: 12 May 2021 04:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -749,6 +749,7 @@
 /analytics/posts
 /analytics/pv.gif?
 /analytics/report/*
+/analytics/rt?
 /analytics/script/*
 /analytics/smarttag-
 /analytics/sockjs.
@@ -6011,6 +6012,7 @@ _mongo_stats/
 ||adsrvr.org^$third-party
 ||adsymptotic.com^$third-party
 ||adtarget.me^$third-party
+||adtector.com^$third-party
 ||adtelligence.de^$third-party
 ||adtrackers.net^$third-party
 ||adultblogtoplist.com^$third-party
@@ -10437,6 +10439,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.dvidshub.net^
 ||analytics.edgekey.net^
 ||analytics.edgesuite.net^
+||analytics.eggoffer.com^
 ||analytics.erepublic.com^
 ||analytics.facebook.com^$third-party
 ||analytics.favcy.com^
@@ -10464,6 +10467,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.orenshmu.com^
 ||analytics.ostr.io^
 ||analytics.paddle.com^
+||analytics.pagefly.io^
 ||analytics.performable.com^
 ||analytics.photorank.me^
 ||analytics.piksel.com^
