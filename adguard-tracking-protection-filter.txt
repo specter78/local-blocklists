@@ -1,8 +1,8 @@
-! Checksum: KTD+ewKsRNmL9Ol2wyv0gw
+! Checksum: Akyu9p8BmNF3ORKSFaniBA
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.24.39
-! TimeUpdated: 2021-05-11T17:31:24+00:00
+! Version: 2.0.24.42
+! TimeUpdated: 2021-05-12T16:31:32+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -233,6 +233,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||cli2020.com^$third-party
 ||logger.co.kr^$third-party
 ||t.afi-b.com^$third-party
 ||newrrb.bid^$third-party
@@ -16175,6 +16176,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||dop3jnx8my3ym.cloudfront.net/sg-track-sdk.js
+||kgnews.co.kr/weblog/gtracker.
 ||l2.revotas.com/trc/api/rvts*_tracker.js
 ||shufoo.net/log/
 ||deszczowce.pl/licznik/licznik.php
