@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202105130523
+! Version: 202105140523
 ! Title: EasyPrivacy
-! Last modified: 13 May 2021 05:23 UTC
+! Last modified: 14 May 2021 05:23 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1823,6 +1823,7 @@
 /event/?ra=
 /event/beacon|
 /event/fingerprint
+/event/img?type=
 /event/impression/*
 /event/pageview/*
 /event/pageview?
@@ -5009,6 +5010,7 @@
 /vmtracking.
 /vpstats.
 /vptrack_
+/vrbo-analytics.
 /vs-track.js
 /vs.gif?
 /vs/track.
@@ -5520,6 +5522,7 @@ _zag_cookie.
 cgi-bin/counter
 ||meetrics.netbb-
 ! Email tracking pixels
+&mi_ecmp=
 -track-email-open?
 .acemlna.com/Prod/link-tracker?
 .alcmpn.com/
@@ -5546,6 +5549,7 @@ cgi-bin/counter
 .kijiji.ca/r/
 .klclick.com/$image
 .list-manage.com/track/
+.mailbutler.io/tracking/
 .maillist-manage.com/clicks/$image
 .members.babbel.com/mo/
 .mjt.lu/oo/$image
@@ -5595,6 +5599,7 @@ cgi-bin/counter
 /pqt.email/o/*$image
 /rdir.inxmail.com^*/d.gif?
 /sendmail.backerupdate.com/t/*
+/shoutout.wix.com/*$image
 /sptracking.
 /ss/o/*.gif
 /track/open.php?
