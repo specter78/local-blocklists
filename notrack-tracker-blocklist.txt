@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 11 May 2021
+# Updated: 14 May 2021
 #LatestVersion 21.03
-# Domain Count: 15230
+# Domain Count: 15237
 #===============================================================
 
 1-cl0ud.com #Lead Forensics - Tracker
@@ -322,6 +322,8 @@ advcake.com #Adv.Cake - Advertising
 adventive.com #Adventive - Advertising
 adventori.com #ADventori - Advertising
 adversal.com #Native Advertising Platform - Advertising
+advertise.pro #Advertise.ru - Advertising
+advertise.ru #Advertise.ru - Advertising
 advertiserurl.com #Unknown - Advertising
 advertising.amazon.co.uk #Amazon - Advertising
 advertising.aol.com #AOL - Advertising
@@ -399,6 +401,7 @@ analytics.archive.org #Archive.Org - Tracker
 analytics.arecontvision.com #arecontvision.com - Tracker
 analytics.autodesk.com #Autodesk.Com - Tracker
 analytics.barnebys.sh #barnebys.sh - Tracker
+analytics.bluemosh.com #bluemosh.com - Tracker
 analytics.brave.com #Brave Browser - Tracker
 analytics.businessinsider.com #businessinsider.com - Tracker
 analytics.cappasity.com #cappasity.com - Tracker
@@ -517,6 +520,7 @@ anm.co.uk #Associated Newspapers - Advertising
 anrdoezrs.net #Anrdoezrs - Tracker
 answerscloud.com #ForeSee - Tracker
 anyclip.com #AnyClip - Tracker
+anythinktech.com #Unknown - Advertising
 apester.com #Apester - Tracker
 api-analytics-cn.huami.com #Huami.com - Tracker
 api-analytics-de.huami.com #Huami.com - Tracker
@@ -999,6 +1003,7 @@ datacentric.ru #Exebid DCA - Tracker
 datadoghq-browser-agent.com #DataDog - Tracker
 datadoghq.com #DataDog - Tracker
 datadrivensolution.com #Unknown - Tracker
+datatracking.ru #Advertise.ru - Tracker
 datawrapper.de #Datawrapper - Tracker
 daxapi.com #comScore - Tracker
 daydot.agency #Digital Marketing Agency - Tracker
@@ -13444,8 +13449,9 @@ sabavision.com #Unknown - Tracker
 sadsoks.com #cloud-dns-tech - Advertising
 safe-swaps.com #Unknown - Tracker
 sagent.io #Sagent BV - Tracker
-sail-horizon.com #Unknown - Tracker
-sailthru.com #Unknown - Tracker
+sail-horizon.com #Sailthru - Tracker
+sail-track.com #Sailthru - Tracker
+sailthru.com #Sailthru - Tracker
 salecycle.com #SafeCycle - Tracker
 salesforce.com #Salesforce - Advertising
 salesmanago.pl #SalesManago - Advertising
@@ -14812,6 +14818,7 @@ track.juno.com #Juno.com - Tracker
 track.ktplay.com #KTplay.com - Tracker
 track.lexico.com #Lexico - Tracker
 track.libii.cn #Libii.cn - Tracker
+track.magictavern.com #magictavern.com - Tracker
 track.news.bg #News.bg - Tracker
 track.oasis.magictavern.com #Magictavern.com - Tracker
 track.pcgh.io #pcgh.io - Tracker
