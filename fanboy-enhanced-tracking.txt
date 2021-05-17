@@ -6,7 +6,7 @@
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
 ! Reporting Issues: https://github.com/ryanbr/fanboy-adblock/issues
-! !
+! 
 ! Legal stuff (T&C's).
 ! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
 ! By downloading or viewing, or using this list, you are accepting these terms and the license.
@@ -334,11 +334,9 @@ _webtrends_
 _wtBase.js
 _wtbaseV2.
 _wtInit.js
-! Remove Floc checks by websites when using Chrome
-!#if env_chromium
-*##+js(set, document.interestCohort, undefined)
-*##+js(set, Document.prototype.interestCohort, undefined)
-!#endif
+! Test to fix youtube ads
+||music.youtube.com^$csp=worker-src 'none'
+||www.youtube.com^$csp=worker-src 'none'
 !
 ! Fingerprinting
 ||academy.com/webcontent/
