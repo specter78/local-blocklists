@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.05.137
-# Release: 137
-# Entries: 42,272
+# Version: 21.05.138
+# Release: 138
+# Entries: 42,269
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Mon, 17 May 21 05:59:41
+# Updated: Tue, 18 May 21 05:59:57
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -4845,6 +4845,7 @@ akamai.invitemedia.com
 akamai.mathtag.com
 akamai.smartadserver.com
 akamai.taboola.com
+aka.ms-ads.co
 akar.iad.appboy.com
 aka-root.com
 akashdayalgroups.com
@@ -11285,7 +11286,6 @@ collector.newrelic.com
 collector.placelocal.com
 collector-pool.newrelic.com
 collector-px09a9fhxa.perimeterx.net
-collector-px0etyn5vq.perimeterx.net
 collector-px0sxgcyfr.perimeterx.net
 collector-px12xk43jk.perimeterx.net
 collector-px1sfv6q6z.perimeterx.net
@@ -11295,7 +11295,6 @@ collector-px5cg3t23p.perimeterx.net
 collector-px6e3nghct.perimeterx.net
 collector-px72mv17er.perimeterx.net
 collector-px7ganow2g.perimeterx.net
-collector-px87q7kx6y.perimeterx.net
 collector-px8fcgygk4.px-cloud.net
 collector-px963uiwkr.perimeterx.net
 collector-pxa1ydobo1.perimeterx.net
@@ -11307,16 +11306,12 @@ collector-pxitevy85i.px-cloud.net
 collector-pxj8il5nks.px-cloud.net
 collector-pxjqmocpg1.perimeterx.net
 collector-pxkz1aizup.perimeterx.net
-collector-pxkz8zzqmw.perimeterx.net
-collector-pxljub4etb.cl6.perimeterx.net
 collector-pxmfvvqej3.perimeterx.net
 collector-pxn56pxeeb.perimeterx.net
 collector-pxnjo03l5c.perimeterx.net
 collector-pxsew6hkxg.perimeterx.net
 collector-pxtjkal4b3.perimeterx.net
-collector-pxuarm9b04.perimeterx.net
 collector-pxv4z2u0t5.perimeterx.net
-collector-pxvi2rjzgl.perimeterx.net
 collector-pxxcro4kbp.perimeterx.net
 collector.scopely.io
 collector-soompi.viki.io
@@ -21284,6 +21279,7 @@ level3.cedexis.com
 levelrate.de
 level.turboads.de
 leveragemarketing.112.2o7.net
+lever-analytics.com
 levexis.com
 l.evidon.com
 levousok.com
@@ -35208,6 +35204,7 @@ tp-rtb-adserver-eu.eu-west-1.elasticbeanstalk.com
 tps10216.doubleverify.com
 tps11005.doubleverify.com
 tps11031.doubleverify.com
+tps20519.doubleverify.com
 tps30.doubleverify.com
 tps711.doubleverify.com
 tps.doubleverify.com

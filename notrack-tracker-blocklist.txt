@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 14 May 2021
+# Updated: 17 May 2021
 #LatestVersion 21.03
-# Domain Count: 15237
+# Domain Count: 15112
 #===============================================================
 
 1-cl0ud.com #Lead Forensics - Tracker
@@ -64,20 +64,11 @@ aa-metrics.hpbcosme.com #hpbcosme.com - Tracker
 aa-metrics.jalan.net #jalan.net - Tracker
 aamapi.com #Unknown - Tracker
 aamsitecertifier.com #Unknown - Tracker
-aanbiedingcenter.eu #wrldtrck.com spam - Advertising
-aanbiedingcorner.eu #wrldtrck.com spam - Advertising
 aanbiedingfan.eu #wrldtrck.com spam - Advertising
-aanbiedinglijst.eu #wrldtrck.com spam - Advertising
 aanbiedingloket.eu #wrldtrck.com spam - Advertising
 aanbiedingnu.eu #wrldtrck.com spam - Advertising
-aanbiedingtempel.eu #wrldtrck.com spam - Advertising
 aanbiedingtop.eu #wrldtrck.com spam - Advertising
-aanbiedingwens.eu #wrldtrck.com spam - Advertising
-aanbiedingwereld.eu #wrldtrck.com spam - Advertising
 aanbiedingzon.eu #wrldtrck.com spam - Advertising
-aanbodhal.eu #wrldtrck.com spam - Advertising
-aanbodkraam.eu #wrldtrck.com spam - Advertising
-aanbodmoment.eu #wrldtrck.com spam - Advertising
 aanqylta.com #Wildbear - Advertising
 ablebodiedcool.com #cloud-dns-tech - Advertising
 abmr.net #Akami - Advertising
@@ -90,7 +81,6 @@ abtest.mistat.intl.xiaomi.com #Xiaomi.com - Tracker
 abtest.mistat.xiaomi.com #Xiaomi.com - Tracker
 acexedge.com #WhiteOps - Advertising
 actiedag.eu #wrldtrck.com spam - Advertising
-actiediscount.eu #wrldtrck.com spam - Advertising
 actiesopleukedingen.eu #wrldtrck.com spam - Advertising
 active-agent.com #Active Agent - Tracker
 active-trk7.com #Lead Forensics - Tracker
@@ -176,6 +166,7 @@ adkernel.com #AdKernel - Advertising
 adkmob.com #Unknown - Advertising
 adkontekst.pl #Adkontekst - Advertising
 adlabsnetworks.com #AdLabs - Advertising
+adledge.com #Adledge - Advertising
 adlegend.com #Adlegend - Advertising
 adlightning.com #Ad Lightning - Advertising
 adlnk.net #AdLink - Advertising
@@ -376,7 +367,6 @@ alcmpn.com #American List Counsel - Tracker
 alephd.com #AOL - Advertising
 alexametrics.com #Alexa - Tracker
 algolia.com #Algolia - Tracker
-allerleinieuws.eu #wrldtrck.com spam - Advertising
 alooma.com #Google - Tracker
 altabold1.com #Lead Forensics - Tracker
 altitude-arena.com #Altitude ARENA - Tracker
@@ -668,7 +658,6 @@ bidtrk.com #Unknown - Tracker
 bigdata.adups.com #Unknown - Tracker
 bigspeedpro.com #Unknown - Tracker
 billmscurlrev.com #msales - Tracker
-billyrtb.com #Unknown - Tracker
 bilsyndication.com #Unknown - Tracker
 bingads.com #Microsoft - Advertising
 bingads.microsoft.com #Microsoft - Advertising
@@ -732,7 +721,6 @@ btserve.com #Blockthrough - Advertising
 btstatic.com #Btstatic - Tracker
 bttrack.com #Bidtellect - Tracker
 btttag.com #Blue Triangle Tech - Tracker
-budgetaanbod.eu #wrldtrck.com spam - Advertising
 budgetedbauer.com #Unknown - Tracker
 bugherd.com #BugHerd - Tracker
 bugsnag.com #Bugsnag - Tracker
@@ -767,7 +755,6 @@ carrotquest.io #Carrot - Tracker
 carrottrack.io #Carrot - Tracker
 casalemedia.com #Casale Media - Tracker
 cashlantis.com #Unknown - Advertising
-cataloguskorting.eu #wrldtrck.com spam - Advertising
 cbdatatracker.com #Clickback - Tracker
 cccampaigns.com #Email Vision - Advertising
 ccemails.com #Email Vision - Advertising
@@ -784,8 +771,6 @@ celtra.com #Celtra - Advertising
 centertrack.com #Unknown - Tracker
 central-core-7.com #Lead Forensics - Tracker
 centralcore7.com #Lead Forensics - Tracker
-cepriang.eu #wrldtrck.com spam - Advertising
-cepuld.eu #wrldtrck.com spam - Advertising
 certona.net #Unknown - Tracker
 cetrk.com #Unknown - Tracker
 chaintraffic.com #Popunder - Advertising
@@ -796,7 +781,6 @@ channelintelligence.com #Channel Intelligence - Tracker
 chargeboundaryearlap.com #cloud-dns-tech - Advertising
 chartbeat.com #Chartbeat - Tracker
 chartbeat.net #Chartbeat - Tracker
-checkkortinglijst.eu #wrldtrck.com spam - Advertising
 checksuperkorting.eu #wrldtrck.com spam - Advertising
 cheerysequelhoax.com #cloud-dns-tech - Advertising
 cheetahmail.com #Experian - Advertising
@@ -1011,7 +995,6 @@ dbrtkwaa81.com #Unknown - Tracker
 dc-storm.com #Rakuten - Advertising
 de.coremetrics.com #Coremetrics - Tracker
 de17a.com #Delta Projects - Tracker
-dealieskado.eu #wrldtrck.com spam - Advertising
 deallsvinder.eu #wrldtrck.com spam - Advertising
 dealtjesonlines.eu #wrldtrck.com spam - Advertising
 dealvandeweek.eu #wrldtrck.com spam - Advertising
@@ -1056,7 +1039,6 @@ direct-aws-a1.com #Lead Forensics - Tracker
 direct-azr-78.com #Lead Forensics - Tracker
 directrev.com #Unknown - Tracker
 directservices.it #Unknown - Tracker
-discounttijd.eu #wrldtrck.com spam - Advertising
 discovery.rudo.video #Rudo.video - Tracker
 disgustingvoluntarilykiss.com #cloud-dns-tech - Advertising
 dislanelibrar.top #Unknown - Advertising
@@ -1109,7 +1091,6 @@ dynsrvtbg.com #Unknown - Advertising
 dyntrk.com #DynAdmic - Tracker
 e-mark.nl #Emark - Tracker
 e-webtrack.net #WebTrack - Tracker
-easyactie.eu #wrldtrck.com spam - Advertising
 easybesparen.eu #wrldtrck.com spam - Advertising
 easybrochurecinnamon.com #Unknown - Advertising
 easygoingtouchybribe.com #cloud-dns-tech - Advertising
@@ -1136,7 +1117,6 @@ ed-clr-01.com #Lead Forensics - Tracker
 edigitalresearch.com #eDigitalResearch - Tracker
 edigitalsurvey.com #eDigitalResearch - Tracker
 edmanalytics.pandahall.com #Pandahall.com - Tracker
-eenkadootjedag.eu #wrldtrck.com spam - Advertising
 eepurl.com #mailchimp - Tracker
 efeedbacktrk.com #eFeedbackTrk - Tracker
 effectivemeasure.com #Effective Measure - Tracker
@@ -1248,15 +1228,10 @@ exoclick.com #ExoClick - Advertising
 exosrv.com #Exosrv - Advertising
 exoticads.com #ExoticAds - Advertising
 expendituredefeated.com #cloud-dns-tech - Advertising
-expertacties.eu #wrldtrck.com spam - Advertising
 exponential.com #Exponential - Tracker
 extole.com #Extole - Tracker
 extole.io #Extole - Tracker
 extraactiesnel.eu #wrldtrck.com spam - Advertising
-extraactiestart.eu #wrldtrck.com spam - Advertising
-extradiscountnet.eu #wrldtrck.com spam - Advertising
-extrakortingcheck.eu #wrldtrck.com spam - Advertising
-extrasuperkorting.eu #wrldtrck.com spam - Advertising
 extreemleukedeal.eu #wrldtrck.com spam - Advertising
 extreemleukesteals.eu #wrldtrck.com spam - Advertising
 extreme-dm.com #eXTReMe - Tracker
@@ -1374,8 +1349,6 @@ goadservices.com #Unknown - Advertising
 goatcounter.com #GoatCounter - Tracker
 godatafeed.com #Unknown - Tracker
 goedeaanbieding.eu #wrldtrck.com spam - Advertising
-goedkoopcatalogus.eu #wrldtrck.com spam - Advertising
-goedkoopdoen.eu #wrldtrck.com spam - Advertising
 gogoedkoop.eu #wrldtrck.com spam - Advertising
 golittretre.info #Unknown - Tracker
 gooanalytics.com #Buta Trading - Tracker
@@ -1422,7 +1395,6 @@ gw100-10.com #Lead Forensics - Tracker
 gwallet.com #RadiumOne - Advertising
 h3lw971ym6.com #cloud-dns-tech - Advertising
 hackers.lv #Unknown - Tracker
-halloakties.eu #wrldtrck.com spam - Advertising
 hanapinmarketing.com #Unknown - Advertising
 hand.bid #Handbid - Advertising
 handbid.com #Handbid - Advertising
@@ -1495,7 +1467,6 @@ iframes.us #Unknown - Advertising
 ig0nr8hhhb.com #cloud-dns-tech - Advertising
 igodigital.com #Salesforce - Advertising
 iiad.com #iiad - Advertising
-ikwilaanbod.eu #wrldtrck.com spam - Advertising
 imedia.cz #Unknown - Advertising
 img-taboola.com #Taboola - Advertising
 imiclk.com #Media Math - Tracker
@@ -1576,7 +1547,6 @@ ist-track.com #Unknown - Tracker
 iterable.com #Iterable - Tracker
 iwanttodeliver.com #Unknown - Tracker
 jecadeaudagen.eu #wrldtrck.com spam - Advertising
-jedealtjeswelkom.eu #wrldtrck.com spam - Advertising
 jetlore.com #Jetlore - Tracker
 jiashule.com #Adverts - Tracker
 jisuoping.com #Unknown - Advertising
@@ -1585,7 +1555,6 @@ jivosite.com #Jivosite - Tracker
 jivox.com #Jivox - Tracker
 jouwspeciadeals.eu #wrldtrck.com spam - Advertising
 jouwvoordeelshop.eu #wrldtrck.com spam - Advertising
-jouwwebkado.eu #wrldtrck.com spam - Advertising
 jpgtrk.com #Spiroox - Tracker
 jpush.cn #Unknown - Tracker
 jpush.io #Unknown - Tracker
@@ -1619,7 +1588,6 @@ kickdyn.com #Kickdynamic - Tracker
 kidoz.net #Kid-Safe Ad Network - Advertising
 kiesdeal.eu #wrldtrck.com spam - Advertising
 kiesdeals.eu #wrldtrck.com spam - Advertising
-kiestopkorting.eu #wrldtrck.com spam - Advertising
 kinaninglerophe.info #Unknown - Tracker
 kiosked.com #Unknown - Tracker
 kissmetrics.com #Unknown - Tracker
@@ -1628,18 +1596,11 @@ klclick1.com #Klaviyo - Tracker
 klevu.com #Klevu - Tracker
 klick2contact.com #Eckoh - Tracker
 knalleraanbieding.eu #wrldtrck.com spam - Advertising
-knallerprijs.eu #wrldtrck.com spam - Advertising
 kochava.com #Kochava - Tracker
 komoona.com #Unknown - Tracker
 kontera.com #Amobee - Tracker
 kooappslogs.com #Kooapps - Tracker
 korrelate.net #Unknown - Tracker
-kortingcatalogus.eu #wrldtrck.com spam - Advertising
-kortingdealer.eu #wrldtrck.com spam - Advertising
-kortingencatalogus.eu #wrldtrck.com spam - Advertising
-kortingenplek.eu #wrldtrck.com spam - Advertising
-kortingenwijzer.eu #wrldtrck.com spam - Advertising
-kortingklapper.eu #wrldtrck.com spam - Advertising
 krijgelkedageendeal.eu #wrldtrck.com spam - Advertising
 krxd.net #Krux - Tracker
 ksmobile.com #Unknown - Tracker
@@ -1738,7 +1699,6 @@ logsss.com #Unknown - Tracker
 logtransform.hicloud.com #hicloud.com - Tracker
 longabeach.com #Unknown Chinese - Tracker
 loopme.me #Loopme - Advertising
-lowbudgetacties.eu #wrldtrck.com spam - Advertising
 lowbudgetprijs.eu #wrldtrck.com spam - Advertising
 lp4.io #Linkpulse - Tracker
 lpsnmedia.net #Unknown - Tracker
@@ -1759,7 +1719,6 @@ m2.ai #Monetizemore - Tracker
 m6r.eu #MBR Targeting - Tracker
 madisonlogic.com #Unknown - Tracker
 madslimz.com #cloud-dns-tech - Advertising
-magentre.eu #wrldtrck.com spam - Advertising
 magic1.info #Unknown Chinese - Tracker
 magnetmail.net #Real Magnet Media - Tracker
 magreprints.com #Unknown - Tracker
@@ -1825,10 +1784,7 @@ meerprofiteren.eu #wrldtrck.com spam - Advertising
 meetrics.com #Meetrics - Tracker
 meetrics.net #Meetrics - Tracker
 megavoordeelshopper.eu #wrldtrck.com spam - Advertising
-megavoordeeltips.eu #wrldtrck.com spam - Advertising
 mellowads.com #Mellow Ads - Advertising
-mencemes.eu #wrldtrck.com spam - Advertising
-mentagnes.eu #wrldtrck.com spam - Advertising
 mention-me.email #Liveclicker - Tracker
 merchenta.com #Unknown - Tracker
 messages1.com #IBM Silverpop - Advertising
@@ -1841,11 +1797,8 @@ messages4.com #IBM Silverpop - Advertising
 messages5.com #IBM Silverpop - Advertising
 metadsp.co.uk #Avid - Advertising
 metalyzer.com #Unknown - Tracker
-meteenkadodag.eu #wrldtrck.com spam - Advertising
-meteenvoordeel.eu #wrldtrck.com spam - Advertising
 meteora.co #Unknown - Tracker
 meteora.us #Unknown - Tracker
-metnieuwtjes.eu #wrldtrck.com spam - Advertising
 metric.asos.com #asos.com - Tracker
 metric.gstatic.com #Google - Tracker
 metric.ipv6test.com #Unknown - Tracker
@@ -1874,8 +1827,6 @@ metrics.ubuntu.com #ubuntu.com - Tracker
 metrigo.com #Unknown - Tracker
 metrika.mos.ru #Mos.Ru - Tracker
 metrika.myseldon.com #myseldon.com - Tracker
-metveelvoorkados.eu #wrldtrck.com spam - Advertising
-metvoordeelkado.eu #wrldtrck.com spam - Advertising
 mfadsrvr.com #BidSwitch - Advertising
 mfms.ru #edna - Tracker
 mgid.com #mgid - Advertising
@@ -2943,6 +2894,7 @@ mkt10852.com #IBM Silverpop - Advertising
 mkt10853.com #IBM Silverpop - Advertising
 mkt10854.com #IBM Silverpop - Advertising
 mkt10857.com #IBM Silverpop - Advertising
+mkt10858.com #IBM Silverpop - Advertising
 mkt10859.com #IBM Silverpop - Advertising
 mkt1086.com #IBM Silverpop - Advertising
 mkt10860.com #IBM Silverpop - Advertising
@@ -2965,6 +2917,7 @@ mkt10886.com #IBM Silverpop - Advertising
 mkt10887.com #IBM Silverpop - Advertising
 mkt10888.com #IBM Silverpop - Advertising
 mkt1089.com #IBM Silverpop - Advertising
+mkt10890.com #IBM Silverpop - Advertising
 mkt10891.com #IBM Silverpop - Advertising
 mkt10892.com #IBM Silverpop - Advertising
 mkt10893.com #IBM Silverpop - Advertising
@@ -2973,13 +2926,16 @@ mkt10895.com #IBM Silverpop - Advertising
 mkt10896.com #IBM Silverpop - Advertising
 mkt109.com #IBM Silverpop - Advertising
 mkt1090.com #IBM Silverpop - Advertising
+mkt10900.com #IBM Silverpop - Advertising
 mkt10902.com #IBM Silverpop - Advertising
 mkt10903.com #IBM Silverpop - Advertising
 mkt10905.com #IBM Silverpop - Advertising
 mkt10907.com #IBM Silverpop - Advertising
 mkt1091.com #IBM Silverpop - Advertising
 mkt10911.com #IBM Silverpop - Advertising
+mkt10913.com #IBM Silverpop - Advertising
 mkt10914.com #IBM Silverpop - Advertising
+mkt10919.com #IBM Silverpop - Advertising
 mkt1092.com #IBM Silverpop - Advertising
 mkt10922.com #IBM Silverpop - Advertising
 mkt1093.com #IBM Silverpop - Advertising
@@ -12817,7 +12773,6 @@ mobpartner.mobi #MobPartner - Advertising
 mobring.co #Mobring - Advertising
 mobytrks.com #Unknown - Tracker
 mocean.mobi #PubMatic - Advertising
-moddema.eu #wrldtrck.com spam - Advertising
 moengage.com #MoEngage - Tracker
 mojiva.com #Mojiva - Advertising
 mojiva.org #Mojiva - Advertising
@@ -12826,15 +12781,12 @@ monarchads.com #Monarch - Advertising
 mondiad.net #Unknown - Advertising
 monetate.net #Unknown - Tracker
 monkeytracker.cz #Monkey - Tracker
-mooitopaanbod.eu #wrldtrck.com spam - Advertising
 mookie1.com #Unknown - Tracker
 mopub.cloud #MoPub - Tracker
 mopub.com #MoPub - Tracker
-morgove.eu #wrldtrck.com spam - Advertising
 motdgd.com #MOTDgd - Tracker
 mouseflow.com #Mouseflow - Tracker
 mousescrupulousrow.com #cloud-dns-tech - Advertising
-movereed.eu #wrldtrck.com spam - Advertising
 movingos.com #Movingos - Tracker
 movoxi.net #comScore - Tracker
 mp.twitch.tv #Twitch - Tracker
@@ -12843,7 +12795,6 @@ mpire.com #comScore - Tracker
 mplxtms.com #Conversant - Tracker
 mpstat.us #SOASTA - Tracker
 mr2cnjuh34jb.com #Unknown - Tracker
-mrkortingkeuze.eu #wrldtrck.com spam - Advertising
 mrkt.it #Unknown - Tracker
 msads.net #Unknown - Advertising
 msdwnld.com #Unknown - Tracker
@@ -12853,7 +12804,6 @@ mssg.guru #Unknown - Advertising
 mthsense.com #mthsense - Tracker
 mtrcs.samba.tv #Samba.tv - Tracker
 multi-feeds.com #Multi Feeds - Tracker
-muniume.eu #wrldtrck.com spam - Advertising
 muvmobile.com #MUV - Tracker
 mxapis.com #maxtraffic.com - Tracker
 mxcdn.net #Unknown - Tracker
@@ -12886,7 +12836,6 @@ nativeads.com #Native Ads - Advertising
 natuurlijkprimaproduct.eu #wrldtrck.com spam - Advertising
 navrcholu.cz #Navrcholu - Tracker
 ncaudienceexchange.com #News IQ - Tracker
-nederlandsnieuws.eu #wrldtrck.com spam - Advertising
 nedstat.com #comScore - Tracker
 nedstat.info #comScore - Tracker
 nedstat.net #comScore - Tracker
@@ -12917,10 +12866,7 @@ nextdocs.com #Aurea - Advertising
 nextplatform.com #Unknown - Tracker
 nicherev.io #NicheRev - Tracker
 niettemissen.eu #wrldtrck.com spam - Advertising
-nieuwsvinders.eu #wrldtrck.com spam - Advertising
-nieuwtjesleuk.eu #wrldtrck.com spam - Advertising
 nighkclick.biz #Unknown - Advertising
-ninjapd.com #WhiteOps - Advertising
 ninthdecimal.com #Ninth Decimal - Advertising
 nl00.net #NetLine - Advertising
 nl02.net #NetLine - Advertising
@@ -12929,7 +12875,6 @@ nmgcdn.com #Unknown - Tracker
 nmp1.com #Email Vision - Advertising
 nobeta.com.br #NoBeta - Advertising
 nosto.com #Nosto - Tracker
-notherm.eu #wrldtrck.com spam - Advertising
 notifyvisitors.com #NotifyVisitors - Tracker
 notsy.io #Notsy - Tracker
 noughttrustthreshold.com #cloud-dns-tech - Advertising
@@ -12943,7 +12888,6 @@ ns1p.net #NS1 - Tracker
 nster.net #Unknown - Tracker
 nt.vc #House of Next Tuesday - Advertising
 ntv.io #Unknown - Advertising
-nudiscount.eu #wrldtrck.com spam - Advertising
 nuffnang.com.sg #Nuffnang - Advertising
 nuggad.net #Unknown - Advertising
 nuleukeproducten.eu #wrldtrck.com spam - Advertising
@@ -12956,8 +12900,6 @@ nw-rail-03.com #Lead Forensics - Tracker
 nyctrl32.com #Lead Forensics - Tracker
 nyltx.com #Nyltx - Tracker
 oasnexus.net #AppNexus Inc - Tracker
-ocausal.eu #wrldtrck.com spam - Advertising
-occomed.eu #wrldtrck.com spam - Advertising
 oclaserver.com #Unknown - Tracker
 oclasrv.com #Unknown - Advertising
 octonet.com #Unknown - Tracker
@@ -12972,7 +12914,6 @@ ogl.primorske.si #Primorske novice - Tracker
 ojrq.net #Impact Radius - Tracker
 olapic.com #Olapic - Tracker
 oldrrb.bid #Unknown - Advertising
-oludepter.eu #wrldtrck.com spam - Advertising
 om.au #Unknown - Tracker
 omessage.com #Unknown - Tracker
 ometria.com #Ometria - Tracker
@@ -12990,9 +12931,7 @@ omnitagjs.com #Adobe - Tracker
 omniture.com #Adobe - Tracker
 omtrdc.net #Adobe - Tracker
 onaudience.com #OnAudience - Tracker
-oncensix.eu #wrldtrck.com spam - Advertising
 onclasrv.com #Unknown - Tracker
-oncled.eu #wrldtrck.com spam - Advertising
 onclickads.net #PropellerAds - Advertising
 onclickalgo.com #Unknown - Advertising
 onclickgenius.com #Unknown - Advertising
@@ -13008,7 +12947,6 @@ onestat.com #Unknown - Tracker
 onetag-sys.com #Unknown - Tracker
 onetag.com #Onetag - Advertising
 onetrust.com #OneTrust - Tracker
-ongetwijfelddeleukeartikelen.eu #wrldtrck.com spam - Advertising
 ongetwijfelddeleukeartikeltjes.eu #wrldtrck.com spam - Advertising
 ongetwijfelddeleukerevoordeetljes.eu #wrldtrck.com spam - Advertising
 ongetwijfelddeleukstedeal.eu #wrldtrck.com spam - Advertising
@@ -13021,12 +12959,6 @@ onstate.co.uk #Unknown - Tracker
 onthe.io #Unknown - Tracker
 ontoplist.com #Unknown - Tracker
 ontvangkorting.eu #wrldtrck.com spam - Advertising
-oogvooractie.eu #wrldtrck.com spam - Advertising
-oogvoordeals.eu #wrldtrck.com spam - Advertising
-ookcadeauhier.eu #wrldtrck.com spam - Advertising
-ookhallodaar.eu #wrldtrck.com spam - Advertising
-ookleukweb.eu #wrldtrck.com spam - Advertising
-ooknieuwtjes.eu #wrldtrck.com spam - Advertising
 ooyala.com #Unknown - Tracker
 opecloud.com #1plusX - Tracker
 openair.pw #Unknown Chinese - Tracker
@@ -13041,8 +12973,6 @@ openx.org #OpenX - Tracker
 openxadexchange.com #OpenX - Tracker
 openxenterprise.com #OpenX - Tracker
 openxenterprise.org #OpenX - Tracker
-opeord.eu #wrldtrck.com spam - Advertising
-operd.eu #wrldtrck.com spam - Advertising
 ophan.co.uk #Unknown - Tracker
 opinionbar.com #OpinionBar - Tracker
 opinionsquare.com #OpinionSquare - Tracker
@@ -13054,9 +12984,6 @@ optimizesrv.com #Unknown - Advertising
 optinmonster.com #OptinMonster - Advertising
 optnmnstr.com #OptinMonster - Advertising
 optnmstr.com #OptinMonster - Advertising
-othiong.eu #wrldtrck.com spam - Advertising
-oulthe.eu #wrldtrck.com spam - Advertising
-ouricament.eu #wrldtrck.com spam - Advertising
 outbrain.com #Outbrain - Advertising
 outbrainimg.com #Outbrain - Advertising
 overreactscout.com #cloud-dns-tech - Advertising
@@ -13084,9 +13011,7 @@ panachetech.com #AppNexus Inc - Tracker
 panel100.com #Unknown - Tracker
 parall.ax #Parallax - Tracker
 pardot.com #Pardot - Tracker
-pareffen.eu #wrldtrck.com spam - Advertising
 parkingcrew.net #Parking Crew - Tracker
-paromin.eu #wrldtrck.com spam - Advertising
 parsely.com #Unknown - Tracker
 passionfruitads.com #Unknown - Advertising
 payingnoodlescam.com #Unknown - Advertising
@@ -13094,12 +13019,9 @@ pc20160301.com #Unknown - Advertising
 pcapredict.com #PCA Predict - Tracker
 pdxor02.com #Lead Forensics - Tracker
 peafugitive.com #cloud-dns-tech - Advertising
-peargh.eu #wrldtrck.com spam - Advertising
 pebed.dm-event.net #Daily Motion - Tracker
-pecoloser.eu #wrldtrck.com spam - Advertising
 peer39.net #Unknown - Advertising
 peerius.com #Unknown - Tracker
-pegivembe.eu #wrldtrck.com spam - Advertising
 pepperjamnetwork.com #Unknown - Tracker
 perfb.com #Digital Window - Tracker
 perfectaudience.com #Unknown - Tracker
@@ -13134,7 +13056,6 @@ pingdom.net #Unknown - Tracker
 pinpoll.com #Pinpoll - Tracker
 pipeschannels.com #Unknown - Advertising
 pippio.com #Arbor - Tracker
-pitzle.eu #wrldtrck.com spam - Advertising
 piwik.com-online.com #PIWIK - Tracker
 piwik.pro #Piwik PRO - Tracker
 piwikpro.com #Piwik PRO - Tracker
@@ -13176,7 +13097,6 @@ plymedia.com #Unknown - Tracker
 pmpubs.com #Unknown - Advertising
 pnghst.com #Spiroox - Tracker
 po.st #Unknown - Tracker
-pocies.eu #wrldtrck.com spam - Advertising
 pointmediatracker.com #Unknown - Tracker
 pointroll.com #Unknown - Tracker
 polar.me #Unknown - Tracker
@@ -13196,13 +13116,10 @@ powerlinks.com #PowerLinks Media - Advertising
 pp.ru #Unknown - Tracker
 ppchero.com #Unknown - Tracker
 ppjol.net #Unknown - Tracker
-prealut.eu #wrldtrck.com spam - Advertising
 prebid.org #Prebid - Tracker
-preglaket.eu #wrldtrck.com spam - Advertising
 preroller.com #BrightRoll - Advertising
 pricespider.com #Price Spider - Tracker
 prijsbonus.eu #wrldtrck.com spam - Advertising
-prijsfabriek.eu #wrldtrck.com spam - Advertising
 prijspakkertje.nl #Unknown - Advertising
 privacy.aol.com #AOL - Advertising
 privacymanager.io #LiveRamp - Tracker
@@ -13214,17 +13131,13 @@ prod.telemetry.ros.rockstargames.com #Rockstar Games - Tracker
 productserve.com #Digital Window - Tracker
 profitabledisplaycontent.com #Unknown - Advertising
 profiteernu.eu #wrldtrck.com spam - Advertising
-profiterencentraal.eu #wrldtrck.com spam - Advertising
 profiterenismakkelijk.eu #wrldtrck.com spam - Advertising
 profitwell.com #ProfitWell - Tracker
 proformics.com #Proformics Digital - Tracker
 projectwonderful.com #Unknown - Tracker
 promo.tutotoons.com #tutotoons.com - Advertising
-promotiesfabriek.eu #wrldtrck.com spam - Advertising
-prompor.eu #wrldtrck.com spam - Advertising
 propellerads.com #PropellerAds - Advertising
 propellerclick.com #PropellerAds - Advertising
-properricalm.eu #wrldtrck.com spam - Advertising
 prosessell.eu #wrldtrck.com spam - Advertising
 prosperitypartying.com #Wildbear - Advertising
 proxyclick.com #Proxyclick - Tracker
@@ -13250,7 +13163,6 @@ pubmatic.com #PubMatic - Tracker
 pubmine.com #Unknown - Tracker
 pubnation.com #PubNation - Tracker
 pubs.xl.pt #XLs - Advertising
-pubsecat.eu #wrldtrck.com spam - Advertising
 pubsqrd.com #Unknown - Tracker
 pubstack.io #Pubstack - Advertising
 pulsemgr.com #Unknown - Tracker
@@ -13314,12 +13226,8 @@ rad.live.com #Microsoft - Tracker
 radiantsands.com #Unknown Chinese - Tracker
 radiantskilled.com #cloud-dns-tech - Advertising
 radiumone.com #RadiumOne - Tracker
-rairecamsed.eu #wrldtrck.com spam - Advertising
 rampanel.com #Research and Analysis of Media - Tracker
-rargessiound.eu #wrldtrck.com spam - Advertising
 rat1.com #Chinese - Tracker
-raterms.eu #wrldtrck.com spam - Advertising
-rausimes.eu #wrldtrck.com spam - Advertising
 rayjump.com #Mobvista - Advertising
 rbl.ms #Rebelmouse - Tracker
 rcsmetrics.it #Corriere.it - Tracker
@@ -13337,7 +13245,6 @@ rebelmouse.io #Rebelmouse - Tracker
 rebornads.com #Rebornads - Advertising
 rebrand.today #ClickMeter - Tracker
 rebrandly.com #ClickMeter - Tracker
-rebsix.eu #wrldtrck.com spam - Advertising
 recentlycollectannihilate.com #cloud-dns-tech - Advertising
 reckintersupwas.info #Unknown - Tracker
 recoveryyielded.com #Wildbear - Advertising
@@ -13348,16 +13255,13 @@ redstar.co.uk #Unknown - Tracker
 rees46.com #REES46 - Tracker
 reevoo.com #Unknown - Tracker
 refersion.com #Refersion - Advertising
-reffilinern.eu #wrldtrck.com spam - Advertising
 refinedads.com #Unknown - Advertising
-regivion.eu #wrldtrck.com spam - Advertising
 regulationprivilegescan.top #Unknown - Advertising
 relestar.com #Unknown - Tracker
 remarketingpixel.com #Remarketing Pixel - Tracker
 remear.eu #wrldtrck.com spam - Advertising
 rename.com #Digital Window - Tracker
 rename.net #Digital Window - Tracker
-repectic.eu #wrldtrck.com spam - Advertising
 repixel.co #Repixel - Tracker
 report-metrics.essentials3.net #Minecraft - Tracker
 res-x.com #Unknown - Tracker
@@ -13369,7 +13273,6 @@ reson8.com #Resonate - Tracker
 resorsedroblet.pro #Unknown - Advertising
 responserver.com #cloud-dns-tech - Advertising
 responsetap.com #Unknown - Tracker
-ressupgame.eu #wrldtrck.com spam - Advertising
 retargeting.biz #Retargeting - Tracker
 retentioneering.com #Retentioneering - Tracker
 returnpath.net #Return Path - Tracker
@@ -13417,7 +13320,6 @@ rockabox.co #Scoota - Tracker
 roia.biz #Unknown - Tracker
 rollmeout.xyz #RollerAds - Advertising
 rollserver.xyz #RollerAds - Advertising
-rommind.eu #wrldtrck.com spam - Advertising
 rourch.eu #wrldtrck.com spam - Advertising
 route.to #Unknown - Tracker
 routecdn.com #Unknown - Tracker
@@ -13458,7 +13360,6 @@ salesmanago.pl #SalesManago - Advertising
 samsungads.com #Samsung - Advertising
 sas15k01.com #Lead Forensics - Tracker
 sascdn.com #Smart Ad Server - Advertising
-sayeadeval.eu #wrldtrck.com spam - Advertising
 saymedia.com #Unknown - Tracker
 sayu.co.uk #Sayu - Advertising
 sayutracking.co.uk #Unknown - Tracker
@@ -13471,12 +13372,9 @@ schibsted.se #Schibsted - Advertising
 scoorabsoluutvoordeeljes.eu #wrldtrck.com spam - Advertising
 scoorkorrting.eu #wrldtrck.com spam - Advertising
 scoornatuurlijkkortingen.eu #wrldtrck.com spam - Advertising
-scoornatuurlijkvoordeel.eu #wrldtrck.com spam - Advertising
 scoornuabsoluutacties.eu #wrldtrck.com spam - Advertising
 scoornuabsoluutvoordeliger.eu #wrldtrck.com spam - Advertising
 scoornuongetwijfeldacties.eu #wrldtrck.com spam - Advertising
-scoornuongetwijfeldvoordeel.eu #wrldtrck.com spam - Advertising
-scoorongetwijfeldkorting.eu #wrldtrck.com spam - Advertising
 scoorthier.eu #wrldtrck.com spam - Advertising
 scorecardresearch.com #Scorecard Research - Tracker
 scoutanalytics.net #Unknown - Tracker
@@ -13523,12 +13421,9 @@ sg-living.co.jp #Unknown - Tracker
 shareaholic.com #Shareaholic - Tracker
 sharethis.com #Sharethis - Advertising
 sharethrough.com #Sharethrough - Advertising
-shigge.eu #wrldtrck.com spam - Advertising
 shinystat.com #Unknown - Tracker
 shop2market.com #Unknown - Tracker
 shoppingshadow.com #ebay - Tracker
-shopstartpunt.eu #wrldtrck.com spam - Advertising
-shoptricks.eu #wrldtrck.com spam - Advertising
 shopwindow.com #Digital Window - Tracker
 shore.uno #Shore - Tracker
 showcasethat.com #Unknown - Tracker
@@ -13548,7 +13443,6 @@ sidekickopen16.com #Hubspot - Tracker
 sidekickopen24.com #Hubspot - Tracker
 sidekickopen25.com #Hubspot - Tracker
 sidekickopen29.com #Hubspot - Tracker
-sidekickopen32.com #Hubspot - Tracker
 sidekickopen35.com #Hubspot - Tracker
 sidekickopen36.com #Hubspot - Tracker
 sidekickopen53.com #Hubspot - Tracker
@@ -13559,7 +13453,6 @@ sidekickopen68.com #Hubspot - Tracker
 sidekickopen69.com #Hubspot - Tracker
 sidekickopen70.com #Hubspot - Tracker
 sidekickopen72.com #Hubspot - Tracker
-sidekickopen74.com #Hubspot - Tracker
 sidekickopen75.com #Hubspot - Tracker
 sidekickopen76.com #Hubspot - Tracker
 sidekickopen77.com #Hubspot - Tracker
@@ -13572,11 +13465,9 @@ sidekickopen83.com #Hubspot - Tracker
 sidekickopen84.com #Hubspot - Tracker
 sidekickopen85.com #Hubspot - Tracker
 sidekickopen87.com #Hubspot - Tracker
-sidekickopen88.com #Hubspot - Tracker
 sidekickopen89.com #Hubspot - Tracker
 sidekickopen90.com #Hubspot - Tracker
 siftscience.com #SiftScience - Tracker
-sigical.eu #wrldtrck.com spam - Advertising
 signaledue.com #Hubspot - Tracker
 signaletre.com #Hubspot - Tracker
 signauxcinq.com #Hubspot - Tracker
@@ -13586,7 +13477,6 @@ signauxsix.com #Hubspot - Tracker
 signauxtrois.com #Hubspot - Tracker
 signauxun.com #Hubspot - Tracker
 sigopn01.com #Hubspot - Tracker
-silests.eu #wrldtrck.com spam - Advertising
 siliconanalytics.com #Silicon Analytics - Tracker
 silktide.com #Silk Tide - Tracker
 silverpop.com #IBM Silverpop - Advertising
@@ -13606,7 +13496,6 @@ sitestat.com #comScore - Tracker
 sitestat.info #comScore - Tracker
 sitestat.net #comScore - Tracker
 sitestatapi.com #comScore - Tracker
-sitetagger.co.uk #Unknown - Advertising
 sitewit.com #Kliken - Tracker
 sjremetrics.java.com #Oracle - Tracker
 skiftmedia.pt #Unknown - Tracker
@@ -13615,7 +13504,6 @@ skyhookwireless.com #Skyhook - Tracker
 skyword.com #Skyword - Tracker
 sli-spark.com #Unknown - Tracker
 slimcutmedia.com #SlimCut Media - Tracker
-slimdealtjes.eu #wrldtrck.com spam - Advertising
 smaato.com #Smaato - Advertising
 smaato.net #Smaato - Advertising
 smart.bid #Unknown - Advertising
@@ -14122,7 +14010,6 @@ smetrics.nationalgrideso.com #Adobe - Tracker
 smetrics.nationaltrust.org.uk #Adobe - Tracker
 smetrics.nationwide.co.uk #Adobe - Tracker
 smetrics.nba.com #Adobe - Tracker
-smetrics.neighbourly.ca #Adobe - Tracker
 smetrics.nesn.com #Adobe - Tracker
 smetrics.nespresso.com #Adobe - Tracker
 smetrics.net-a-porter.com #Adobe - Tracker
@@ -14147,6 +14034,7 @@ smetrics.nowtv.it #Adobe - Tracker
 smetrics.nvidia.com #Adobe - Tracker
 smetrics.nyandcompany.com #Adobe - Tracker
 smetrics.nycgo.com #Adobe - Tracker
+smetrics.nykaa.com #Adobe - Tracker
 smetrics.nykaafashion.com #Adobe - Tracker
 smetrics.nyulangone.org #Adobe - Tracker
 smetrics.oakley.com #Adobe - Tracker
@@ -14387,6 +14275,7 @@ smetrics.trygghansa.se #Adobe - Tracker
 smetrics.ttiinc.com #Adobe - Tracker
 smetrics.tudorwatch.com #Adobe - Tracker
 smetrics.tv2.dk #Adobe - Tracker
+smetrics.tyro.com #Adobe - Tracker
 smetrics.ubi.com #Adobe - Tracker
 smetrics.uhc.com #Adobe - Tracker
 smetrics.uncommonegfrmutations.com #Adobe - Tracker
@@ -14402,7 +14291,6 @@ smetrics.vero.com.au #Adobe - Tracker
 smetrics.viceroyhotelsandresorts.com #Adobe - Tracker
 smetrics.viega.com #Adobe - Tracker
 smetrics.viega.de #Adobe - Tracker
-smetrics.vikingline.ax #Adobe - Tracker
 smetrics.virginatlantic.com #Adobe - Tracker
 smetrics.virginmedia.com #Adobe - Tracker
 smetrics.virginmediabusiness.co.uk #Adobe - Tracker
@@ -14473,8 +14361,6 @@ snapengage.com #SnapEngage - Tracker
 snaplytics.io #Snaplytics - Tracker
 snapsitemap.com #PathDefender - Tracker
 snapsurveys.com #Unknown - Tracker
-snelsuperkorting.eu #wrldtrck.com spam - Advertising
-snelvoordeeltje.eu #wrldtrck.com spam - Advertising
 snessubsets.pro #Unknown - Tracker
 snigelweb.com #Snigel - Advertising
 sniperlog.ru #Unknown - Tracker
@@ -14489,10 +14375,8 @@ socy.es #Brandcrumb - Tracker
 softtrack08.com #Lead Forensics - Tracker
 sojern.com #Sojern - Tracker
 solvemedia.com #Unknown - Tracker
-somilms.eu #wrldtrck.com spam - Advertising
 somplo.com #Somplo - Advertising
 sonataplatform.com #Sonata - Tracker
-sonces.eu #wrldtrck.com spam - Advertising
 sonobi.com #Unknown - Tracker
 sophus3.com #Unknown - Tracker
 sortable.com #Unknown - Tracker
@@ -14500,7 +14384,6 @@ sovrn.com #Unknown - Tracker
 spaceio.xyz #SpaceIO - Tracker
 spannersalesman.com #cloud-dns-tech - Advertising
 sparkflow.net #Undertone - Tracker
-speciaalstunt.eu #wrldtrck.com spam - Advertising
 speciaalvoordeeltje.eu #wrldtrck.com spam - Advertising
 speciallyspecifiedsandwich.com #cloud-dns-tech - Advertising
 specificclick.net #Unknown - Tracker
@@ -14511,7 +14394,6 @@ spendandraise.org #Digital Window - Tracker
 spendnraise.org #Digital Window - Tracker
 spexaccess.net #Spex Access - Tracker
 spgo.io #SparkPost - Tracker
-splareathe.eu #wrldtrck.com spam - Advertising
 spongecell.com #Unknown - Tracker
 spopessentials3.com #Unknown - Tracker
 spot.im #Spot - Tracker
@@ -14536,7 +14418,6 @@ srvpub.com #RevenueHits - Tracker
 ssacdn.com #Supersonic Mobile - Advertising
 sspintrafmsmt.com #msales - Tracker
 ssw.live.com #Microsoft - Tracker
-starced.eu #wrldtrck.com spam - Advertising
 startup.mobile.webvisor.com #Yandex - Tracker
 startup.mobile.yandex.net #Yandex - Tracker
 stat.alibaba.com #Alibaba - Tracker
@@ -14595,7 +14476,6 @@ stedattlaith.eu #wrldtrck.com spam - Advertising
 steelhousemedia.com #Unknown - Tracker
 steepto.com #Unknown - Tracker
 stickyadstv.com #StickyAdsTV - Advertising
-stittens.eu #wrldtrck.com spam - Advertising
 storemetrics.pixelbits.io #pixelbits.io - Tracker
 stores-counters.wix.com #Wix - Tracker
 stormiq.com #Unknown - Tracker
@@ -14608,12 +14488,11 @@ streamrail.net #StreamRail - Advertising
 streamsend.com #Unknown - Tracker
 strikead.com #Unknown - Advertising
 struq.com #Unknown - Tracker
-stuntgoedkoper.eu #wrldtrck.com spam - Advertising
 stuntwarenhuis.eu #wrldtrck.com spam - Advertising
 styleszelife.com #Unknown - Advertising
 sub2tech.com #Unknown - Tracker
+sublimeskinz.com #Adledge - Advertising
 successfultogether.co.uk #Unknown - Tracker
-suctorn.eu #wrldtrck.com spam - Advertising
 sugarcrm.com #SugarCRM - Tracker
 sugarops.com #Unknown - Tracker
 suibyuming.com #Suibmob - Advertising
@@ -14623,16 +14502,11 @@ sumologic.com #Sumo Logic - Advertising
 sumome.com #SumoMe - Advertising
 supenchoun.eu #wrldtrck.com spam - Advertising
 superaanbodkiosk.eu #wrldtrck.com spam - Advertising
-superaanbodslim.eu #wrldtrck.com spam - Advertising
-superaanbodtopper.eu #wrldtrck.com spam - Advertising
 superactiedag.eu #wrldtrck.com spam - Advertising
-superactielijst.eu #wrldtrck.com spam - Advertising
-superactievinden.eu #wrldtrck.com spam - Advertising
 superads.cn #SuperADS - Advertising
 superkortinghulp.eu #wrldtrck.com spam - Advertising
 superkortingsnel.eu #wrldtrck.com spam - Advertising
 superkortingtips.eu #wrldtrck.com spam - Advertising
-superkortingzien.eu #wrldtrck.com spam - Advertising
 superkortingzone.eu #wrldtrck.com spam - Advertising
 superonclick.com #Unknown - Advertising
 supersonic.com #IronSource - Tracker
@@ -14845,6 +14719,7 @@ track.untd.com #UnitedOnline - Tracker
 track.us.org #TrackAd - Tracker
 track.wikibuy.com #Wikibuy.Com - Tracker
 trackad.cz #TrackAd - Tracker
+trackadm.com #Unknown - Tracker
 trackalyzer.com #Unknown - Tracker
 trackcmp.net #ActiveCampaign - Tracker
 trackedlink.net #Unknown - Tracker
