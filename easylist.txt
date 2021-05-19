@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202105180347
+! Version: 202105190117
 ! Title: EasyList
-! Last modified: 18 May 2021 03:47 UTC
+! Last modified: 19 May 2021 01:17 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -24610,6 +24610,7 @@ _popunder+$popup
 ##.demo-advert
 ##.desktop-ad
 ##.desktop-ad-banner
+##.desktop-ad-inpage
 ##.desktop-ads
 ##.desktop-advert
 ##.desktop-aside-ad
@@ -27604,6 +27605,7 @@ _popunder+$popup
 ##.placeholder-ad
 ##.placeholderAd
 ##.placement-articleTopAd
+##.placement-welcomeAd
 ##.plain-ad
 ##.plainAd
 ##.play-page-ads
@@ -30303,6 +30305,8 @@ _popunder+$popup
 ##.ysp-dynamic-ad
 ##.ysponsor
 ##.yt-adsfull-widget
+##.ytp-ad-button
+##.ytp-ad-player-overlay-flyout-cta
 ##.yui3-ad
 ##.yvp-ads-overlay
 ##.yvp-ads-view
@@ -30776,6 +30780,7 @@ _popunder+$popup
 ##a[href^="https://adnetwrk.com/"]
 ##a[href^="https://ads-for-free.com/click.php?"]
 ##a[href^="https://ads.ad4game.com/"]
+##a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"]
 ##a[href^="https://ads.trafficpoizon.com/"]
 ##a[href^="https://adserver.adreactor.com/"]
 ##a[href^="https://adsrv4k.com/"]
@@ -30874,6 +30879,7 @@ _popunder+$popup
 ##a[href^="https://look.utndln.com/"]
 ##a[href^="https://m.do.co/c/"] > img
 ##a[href^="https://mcdlks.com/"]
+##a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"]
 ##a[href^="https://medleyads.com/"]
 ##a[href^="https://meet-sexhere.com/"]
 ##a[href^="https://meet-to-fuck.com/tds"]
@@ -30881,12 +30887,14 @@ _popunder+$popup
 ##a[href^="https://misspkl.com/"]
 ##a[href^="https://mk-ads.com/"]
 ##a[href^="https://mk-cdn.net/"]
+##a[href^="https://mmwebhandler.aff-online.com/"]
 ##a[href^="https://mob1ledev1ces.com/"]
 ##a[href^="https://msecure117.com/"]
 ##a[href^="https://my-movie.club/"]
 ##a[href^="https://myusenet.xyz/"]
 ##a[href^="https://offerforge.net/"]
 ##a[href^="https://offers.refchamp.com/"]
+##a[href^="https://ovb.im/"]
 ##a[href^="https://playuhd.host/"]
 ##a[href^="https://porndeals.com/?track="]
 ##a[href^="https://porngames.adult/?SID="]
@@ -30907,6 +30915,7 @@ _popunder+$popup
 ##a[href^="https://secure.bstlnk.com/"]
 ##a[href^="https://secure.cbdpure.com/aff/"]
 ##a[href^="https://secure.eveonline.com/ft/?aid="]
+##a[href^="https://secure.starsaffiliateclub.com/C.ashx?"]
 ##a[href^="https://see.kmisln.com/"]
 ##a[href^="https://servedbyadbutler.com/"]
 ##a[href^="https://sexsimulator.game/tab/?SID="]
@@ -32169,7 +32178,6 @@ youtube.com#@#.video-ads
 javynow.com#@#.videos-ad
 vinden.se#@#.view_ad
 nytimes.com,nytimes3xbfgragh.onion#@#.wideAd
-britannica.com,cam4.com#@#.withAds
 statejournal.com#@#.wnad
 americannews.com,theuspatriot.com#@#.wpInsertInPostAd
 cnsm.com.br#@#.wp_bannerize
@@ -34277,6 +34285,7 @@ menstennisforums.com#@#.top_ads
 ||chaserwit.top^
 ||chasteminihaunting.com^
 ||chatintegrationastonishing.com^
+||chatmilkprude.casa^
 ||chauksoa.net^
 ||cheapencosmetics.com^
 ||cheatingagricultural.com^
@@ -34607,6 +34616,7 @@ menstennisforums.com#@#.top_ads
 ||conflictslashact.com^
 ||confoundcoinghosts.com^
 ||confrontationproximity.com^
+||congestit.com^
 ||conjeller-chikemon.com^
 ||connectad.io^
 ||connectignite.com^
@@ -35688,6 +35698,8 @@ menstennisforums.com#@#.top_ads
 ||enhancereviewpacket.com^
 ||enhucherions.xyz^
 ||eniousirre.top^
+||enjoyingbind.com^
+||enjoypiingtoe.com^
 ||enkayijamal.club^
 ||enlarget.com^
 ||enlnks.com^
@@ -37123,6 +37135,7 @@ menstennisforums.com#@#.top_ads
 ||ianisedover.info^
 ||ib1oyteqqn.com^
 ||ibbkuhwgqawhvt.com^
+||ibexcacaoboy.com^
 ||ibjjsptlmv.com^
 ||ibkbshqqueoij.com^
 ||ibtfbbtjktu.com^
@@ -40221,6 +40234,7 @@ menstennisforums.com#@#.top_ads
 ||reiqwxxd.com^
 ||reiseeget.com^
 ||rejouassions.xyz^
+||reknitgude.cam^
 ||rekodpro.com^
 ||relaxingovercomeexaggerate.com^
 ||releasedrewardexcitedly.com^
@@ -42335,6 +42349,7 @@ menstennisforums.com#@#.top_ads
 ||wifgutjpmqctrx.com^
 ||wigetmedia.com^
 ||wigglecrisis.com^
+||wiglogsbathos.cam^
 ||wildtowedcad.work^
 ||wilfulpessimistic.com^
 ||willingplatitude.com^
@@ -50910,6 +50925,7 @@ menstennisforums.com#@#.top_ads
 ||speedvideo.net/img/pla_
 ||spongepowered.org^*/assets/img/sponsors/
 ||sportpesanews.com/images/promo/
+||sportplus.live/*/filler/index?
 ||stagevu.com/AR2F6eftuQmA.js
 ||static.tellerium.com^$subdocument
 ||statically.io^*/ig-widget-banner-$domain=kavogaming.com
@@ -51312,7 +51328,7 @@ $popup,subdocument,third-party,xmlhttprequest,domain=bluemediafiles.com
 /^https?:\/\/(.+?\.)?writerscafe\.org\/[a-zA-Z]{7,18}\//
 /^https?:\/\/www\.newser\.com\/[a-zA-Z]{4,9}\/.*js/
 ! webrtc-ads
-$webrtc,domain=101greatgoals.com|ack.net|allkpop.com|allthetests.com|audioholics.com|azvideo.net|barnstablepatriot.com|boards2go.com|bolde.com|britannica.com|businessnewsdaily.com|buzzfil.net|cantonrep.com|capecodtimes.com|champion.gg|cheeseheadtv.com|clicknupload.link|colourlovers.com|columbiatribune.com|convertcase.net|csgolounge.com|ddlvalley.me|dispatch.com|dota2lounge.com|enterprisenews.com|eztv.io|eztv.tf|eztv.yt|fastplay.to|fayobserver.com|fhm.com|flexonline.com|gastongazette.com|geekzone.co.nz|ghacks.net|go4up.com|goerie.com|gounlimited.to|goupstate.com|heraldtribune.com|houmatoday.com|intouchweekly.com|janjua.pw|janjua.tv|jpost.com|kinos.to|kinox.ai|kinox.am|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.mobi|kinox.nu|kinox.party|kinox.pub|kinox.sg|kinox.sh|kinox.si|kinox.space|kinox.sx|kinox.to|kinox.tube|kinox.wtf|laptopmag.com|mac-torrents.com|madamenoire.com|maketecheasier.com|megaup.net|merriam-webster.com|netdna-storage.com|news-journalonline.com|newsarama.com|nintendoeverything.com|nwfdailynews.com|nydailynews.com|ouo.io|ouo.press|phonearena.com|pjstar.com|probuilds.net|providencejournal.com|radaronline.com|recordonline.com|sj-r.com|skidrowreloaded.com|soapoperadigest.com|solomid.net|sourceforge.net|space.com|spanishdict.com|telegram.com|teslacentral.com|theberry.com|thechive.com|thepoliticalinsider.com|tmn.today|topix.com|torrentdownload.info|uptobox.com|uticaod.com|videowood.tv|vidtodo.com|vvdailypress.com|womansworld.com|yts.gs|yts.mx|zimabdko.com
+$webrtc,domain=101greatgoals.com|ack.net|allkpop.com|allthetests.com|audioholics.com|azvideo.net|barnstablepatriot.com|boards2go.com|bolde.com|businessnewsdaily.com|buzzfil.net|cantonrep.com|capecodtimes.com|champion.gg|cheeseheadtv.com|clicknupload.link|colourlovers.com|columbiatribune.com|convertcase.net|csgolounge.com|ddlvalley.me|dispatch.com|dota2lounge.com|enterprisenews.com|eztv.io|eztv.tf|eztv.yt|fastplay.to|fayobserver.com|fhm.com|flexonline.com|gastongazette.com|geekzone.co.nz|ghacks.net|go4up.com|goerie.com|gounlimited.to|goupstate.com|heraldtribune.com|houmatoday.com|intouchweekly.com|janjua.pw|janjua.tv|jpost.com|kinos.to|kinox.ai|kinox.am|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.mobi|kinox.nu|kinox.party|kinox.pub|kinox.sg|kinox.sh|kinox.si|kinox.space|kinox.sx|kinox.to|kinox.tube|kinox.wtf|laptopmag.com|mac-torrents.com|madamenoire.com|maketecheasier.com|megaup.net|merriam-webster.com|netdna-storage.com|news-journalonline.com|newsarama.com|nintendoeverything.com|nwfdailynews.com|nydailynews.com|ouo.io|ouo.press|phonearena.com|pjstar.com|probuilds.net|providencejournal.com|radaronline.com|recordonline.com|sj-r.com|skidrowreloaded.com|soapoperadigest.com|solomid.net|sourceforge.net|space.com|spanishdict.com|telegram.com|teslacentral.com|theberry.com|thechive.com|thepoliticalinsider.com|tmn.today|topix.com|torrentdownload.info|uptobox.com|uticaod.com|videowood.tv|vidtodo.com|vvdailypress.com|womansworld.com|yts.gs|yts.mx|zimabdko.com
 ! websocket-ads
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|convertcase.net|fastpic.ru|fileone.tv|filmlinks4u.is|flashx.tv|fmovies.taxi|fmovies.world|gofirstrow.eu|imagefap.com|keepvid.com|megaup.net|merriam-webster.com|newsarama.com|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|uberhavoc.com|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
 ! 
@@ -53470,6 +53486,7 @@ tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 investopedia.com##.mntl-leaderboard-spacer
 islamicfinder.org##.mobile-cards
+thedailybeast.com##.mobiledoc-sizer
 livelaw.in##.modal_wrapper_frame
 webmd.com##.module-f-hs
 pcworld.idg.com.au##.module-rhs-brandpost
@@ -53492,6 +53509,7 @@ motorsport.com##.ms-apb-dmpu
 autosport.com##.ms-side-items--with-banner
 zerolives.com##.munder-fn5udnsn
 standardmedia.co.ke##.my-2
+news18.com##.n18thder
 transfermarkt.com##.nENxsZD
 google.com##.nH.MC
 mail.google.com##.nH.PS
@@ -54179,6 +54197,9 @@ riverbender.com##div[id^="ros-"]
 sltrib.com##div[id^="sltrib-promo-"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.fr##div[id^="sp_detail"]
 opensubtitles.org##div[itemscope=""][itemtype="http://schema.org/Movie"] > fieldset
+news18.com##div[style*="min-height: 250px"]
+news18.com##div[style*="min-height: 527px"]
+news18.com##div[style*="min-height:250px"]
 9gag.com##div[style*="width: 500px; height: 281px;"]
 datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist.com,memecenter.com,paultan.org,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
 rlslog.net##div[style*="z-index:"]:first-child
@@ -55311,6 +55332,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||avclub.com^*/adManager.$script,~third-party
 @@||bankofamerica.com^*?adx=$~third-party,xmlhttprequest
 @@||banmancounselling.com/wp-content/themes/banman/
+@@||banner.yt^$image,domain=socialblade.com
 @@||bannersnack.com/banners/$document,subdocument,domain=adventcards.co.uk|charitychristmascards.org|christmascardpacks.co.uk|kingsmead.com|nativitycards.co.uk|printedchristmascards.co.uk
 @@||basinnow.com^*/advertise-$image,domain=basinnow.com
 @@||bbc.co.uk^*/adverts.js
@@ -55321,7 +55343,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||boats.com/ad/$~third-party,xmlhttprequest
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg
-@@||britannica.com/resources/js/libs/prebid*.js$script,~third-party
 @@||btcmanager.com/wp-content/uploads/wp-banners/banner_cf0c55bbe3e654b2e631fd0552e0322b.png
 @@||canadianlisted.com/css/*/ad/index.css
 @@||candystand.com/assets/images/ads/$image
