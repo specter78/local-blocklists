@@ -1,8 +1,8 @@
-! Checksum: tn4L1XnwEltFuapZvG91kQ
+! Checksum: k6+TnO5jA/1yOq0frTXrKg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.24.67
-! TimeUpdated: 2021-05-18T16:31:31+00:00
+! Version: 2.0.24.75
+! TimeUpdated: 2021-05-19T20:31:29+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -234,6 +234,13 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||pv.kuaizhan.com^$third-party
+||eventsapi.grocerkey.com^$third-party
+||dc-tag.jp^$third-party
+||kitchen.juicer.cc^
+||t.beop.io^$third-party
+||contents-tracking.beop.io^$third-party
+||bc.ad.daum.net^
 ||docomo-analytics.com^
 ||stats.fomo.com^$third-party
 ||aghtag.tech^$third-party
@@ -4585,6 +4592,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||analytics.atlassian.com^
 ||trackdb.go3.tv^
 ||collector.rn.de^
 ||l.da-te.jp^
@@ -15942,6 +15950,7 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif
 mag.osdn.jp##div[id^="logly-lift-"]
 ||mangapedia.com/js/abb.
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
@@ -16150,7 +16159,7 @@ the-ans.jp##.side-reccomend
 ||daumcdn.net/*/ba.min.js
 ||laurenhi.com/app/Eclog/
 /lcslog*.js$domain=playentry.org|modoo.at|~pulmuri.modoo.at
-/clickcr*.js$domain=naver.com|modoo.at|~help.naver.com
+/clickcr*.js$domain=naver.com|modoo.at|~help.naver.com|~nid.naver.com
 /google-analyticator/*$script
 ||ssl.pstatic.net/static.gn/js/clickcrD.js
 ||paypal.com/xoplatform/logger/$domain=tapas.io
@@ -18537,6 +18546,8 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/AdguardForAndroid/issues/908
 !
 ! For apps
+||track.*.roku.com^
+||traces.sr.roku.com^
 ||analytics.kidoz.net^
 ||track.tenjin.com^
 ||tracker.mtrtb.com^
@@ -18596,6 +18607,9 @@ $cookie=bf_visit
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||log-collector.shopee.
+||seller-log-collector.shopee.
+||telemetry.voxeet.com^
 ||usertrack.appcpi.net^
 ||api*.amplitude.com^
 ||conversions.appsflyer.com^
@@ -19064,6 +19078,7 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82461
 ! www.kanaloco.jp あなたにおすすめの記事 (recommended articles)
 @@||googletagmanager.com/gtm.js$script,domain=kanaloco.jp
 @@||rtoaster.jp^$script,domain=kanaloco.jp
