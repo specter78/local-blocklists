@@ -1,8 +1,8 @@
-! Checksum: k6+TnO5jA/1yOq0frTXrKg
+! Checksum: 27ojwZHiq8Ksq7YZ8pSOyw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.24.75
-! TimeUpdated: 2021-05-19T20:31:29+00:00
+! Version: 2.0.24.81
+! TimeUpdated: 2021-05-20T19:31:34+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -87,7 +87,7 @@ connect.de#%#//scriptlet("abort-on-property-read", "trConfig")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80625
 tweakers.net#%#//scriptlet('abort-current-inline-script', 'AbStats', 'trackId')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'GlobalSnowplowNamespace')
-tweakers.net#%#//scriptlet('abort-on-property-read', 'WebTrekkClickMap')
+tweakers.net#%#//scriptlet('set-constant', 'WebTrekkClickMap', 'noopFunc')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24789
 timesnownews.com#%#//scriptlet("set-constant", "ga", "noopFunc")
@@ -234,6 +234,10 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||rum.conde.io^
+||ana.mediable.info^
+||campaigns-collector.albacross.com^$third-party
+||new-collect.albacross.com^$third-party
 ||pv.kuaizhan.com^$third-party
 ||eventsapi.grocerkey.com^$third-party
 ||dc-tag.jp^$third-party
@@ -15609,7 +15613,6 @@ charlestownwyllie.oaklawnnonantum.com^
 /js/ad_insight/*
 .com/s.gif?
 /facebookPixel.
-/mooc/controllers/course_ajax.php
 /ajax/fdlogger/send
 /PhoenixGoogleAnalytics.min.js
 /.bootscripts/analytics.min.js
@@ -15950,6 +15953,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||bilanx.dtto.com/*/configs
+||bilanx.dtto.com/*/events
 ||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif
 mag.osdn.jp##div[id^="logly-lift-"]
 ||mangapedia.com/js/abb.
@@ -19078,6 +19083,11 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/82199
+@@||s.go-mpulse.net/boomerang/$domain=royalmail.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/83450
+@@||personaclick.com^$domain=skechers.com.tr
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=skechers.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82461
 ! www.kanaloco.jp あなたにおすすめの記事 (recommended articles)
 @@||googletagmanager.com/gtm.js$script,domain=kanaloco.jp

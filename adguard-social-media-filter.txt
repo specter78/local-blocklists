@@ -1,8 +1,8 @@
-! Checksum: wd/kx1jStg+AQ97XqI7SMg
+! Checksum: tmYc6Xn4rw21FigjmaKt7w
 ! Title: AdGuard Social Media filter
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.40.50
-! TimeUpdated: 2021-05-19T22:31:27+00:00
+! Version: 2.0.40.51
+! TimeUpdated: 2021-05-20T08:31:37+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1139,6 +1139,7 @@ pons.com##.ce_sharebuttons
 sisafocus.co.kr##.article-sns
 av.ru##.b-recipe-detail__sharing
 m.news1.kr##.btn_a_share
+actu-environnement.com##.module_social_pictos
 calculator-online.net##.all_share
 ruhrnachrichten.de##.ShowShare a.AddToWatchListLink ~ *
 acumentoday.in##.careplus-blog-social
@@ -2382,7 +2383,7 @@ pet-room.ru,dogeat.ru##.product-share
 fetchtube.com##.sv-download-ads
 fetchtube.com##.sv-predownload-button > span[style="color:green;text-align:center"]
 fetchtube.com##.sv-predownload-button > span[style="color:green;text-align:center"] + div[style="align:center"]
-lifter.com.ua##.social-btns
+landofgames.ru,lifter.com.ua##.social-btns
 forums.flyer.co.uk##.widget_facebook
 forums.flyer.co.uk##.widget.text-2
 dohomemadeporn.com##.tools__item.social

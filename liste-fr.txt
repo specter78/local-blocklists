@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Checksum: TGHiGSoQryrcS87NhG9+jA
-! Version: 202105200522
+! Checksum: aMlxHC8P9OBPkEqdOdYS0w
+! Version: 202105210522
 ! Title: Liste FR
 ! Expires: 1 days
 ! Description: Filtres publicitaires francophones complémentaires à EasyList
@@ -4066,6 +4066,7 @@ debugger:$popup
 ||cashpage.net^$third-party
 ||catraff.com^$third-party
 ||cavixoapp.com^$third-party
+||cbmiocw.com^$third-party
 ||cbshift.com^$third-party
 ||cclpub.com^$third-party
 ||cda-online.pl^$third-party
@@ -6942,6 +6943,7 @@ debugger:$popup
 ||see-work.info^
 ||seertul.com^
 ||sefsdvc.com^
+||selfpuc.com^
 ||sellerbackstagejolly.com^
 ||senhation.pro^
 ||sensortoluy.club^
@@ -8105,6 +8107,7 @@ debugger:$popup
 ||brostraffic.com^$popup,third-party
 ||bruceleadx2.com^$popup,third-party
 ||bstlnk.com^$popup,third-party
+||bursultry-exprights.com^$popup
 ||buysellads.com^$popup,third-party
 ||buzzadexchange.com^$popup,third-party
 ||bwinpartypartners.com^$popup,third-party
@@ -8173,6 +8176,7 @@ debugger:$popup
 ||cptefr.com^$popup,third-party
 ||creativesrv.com^$popup,third-party
 ||creofive.com^$popup,third-party
+||crlcw.link^$popup
 ||cygnusadmedia.com^$popup,third-party
 ||cytochemistryrecitativewrasse.com^$popup,third-party
 ||dailyreports.info^$popup
@@ -8574,6 +8578,7 @@ debugger:$popup
 ||redonetype.com^$popup,third-party
 ||reflexcash.com^$popup,third-party
 ||refparer.xyz^$popup,third-party
+||remove-ads.xyz^$popup
 ||rencontreadultere.club^$popup
 ||rencontresparis2015.com^$popup,third-party
 ||repochuwra.xyz^$popup
@@ -10969,7 +10974,6 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 !
 !----------------------- Sites spécifiques -----------------------!
 !
-[[batiactu.com/sites/all/libraries/bati/cronjobs/specials.js
 ||01porno.com/include/
 ||01streaming.net/wp-content/uploads/2020/08/mptoro-1.png
 ||0dt.net/js/script-
@@ -11206,6 +11210,7 @@ $stylesheet,third-party,domain=1fichier.com|247tpb.club|7-up.net|9xupload.me|9xu
 ||batiactu.com/cap_batiactu/
 ||batiactu.com/cap_pub/
 ||batiactu.com/images/pub/
+||batiactu.com/sites/all/libraries/bati/cronjobs/specials.js
 ||batiactu.com^*/partenaire/
 ||batiment.nc/pubs/
 ||batiment.nc^*.html$object,subdocument
@@ -18447,6 +18452,7 @@ linfoweb.com#?#tbody:-abp-has(i:-abp-contains(sponsorisé))
 macommune.info#?#.box_article:-abp-has(.is-text-publi-infos)
 macommune.info#?#.widget_article:-abp-has(.title_widget:-abp-contains(/PUBLI INFO|Publi-info/))
 maison-islam.com#?#aside:-abp-has(.widget-title:-abp-contains(Publicité))
+mirrored.to#?#tr:-abp-has([alt="UseNet"])
 narcity.com#?#.article-thumbnail:-abp-has(a:-abp-contains(/Sponsored|sponsorisé/))
 nextinpact.com#?#.us-bas-ctr:-abp-has(a[href^="https://www.cybertek.fr/"])
 nextinpact.com#?#app-home-item:-abp-has(.article:-abp-has(.sponsored))
