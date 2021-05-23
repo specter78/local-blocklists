@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: jwatrOiw1w+JTkgeZQ6Erw
-! Version: 202105220530
+! Checksum: nmV//p10pJdGk+LuvVUjtQ
+! Version: 202105230530
 ! Title: RU AdList
-! Last modified: 22 May 2021 05:30 UTC
+! Last modified: 23 May 2021 05:30 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -11411,6 +11411,7 @@ _verified.php?code=*&server=runetki.com
 ||people-blogs.org^
 ||peterfarley.net^
 ||peterjfarley.info^
+||plaff-go.ru^
 ||plapl.ru^
 ||plaster-orto.com^
 ||plastir-hyperost.biz^
@@ -12902,6 +12903,7 @@ moskva.fm,piter.fm##.ad-branding-block
 delfi.ee,press.lv##.ad-container
 kirovnet.ru##.ad-forum-block
 myflashgame.com.ua##.ad-side-block
+echo.msk.ru##.ad-silverrain
 3ddd.ru##.ad-width
 3dnews.ru##.ad.nomargins
 akniga.org,newsvideo.su##.ad1
@@ -14363,6 +14365,7 @@ app2top.ru##.imgresponsive
 tut.by##.impl-vscroll-container[style="max-height: 1200px;"]
 nikvesti.com##.important-news-block ul > li > noindex
 baraholka.onliner.by##.important.b-fleamarket__right-block
+kinonavigator.ru##.in-list-banner-env
 hdkinoteatr3.net##.inRek
 zvezdaweekly.ru##.in_othersmi
 cfts.org.ua##.inad
@@ -16362,10 +16365,7 @@ liveresult.ru##[data-target*="nus"]
 drive2.ru##[data-target^="drom_"]
 youla.ru##[data-test-component="AdCardHolder"]
 adme.ru#?#[data-test-id$="-recommended"] div[class*=" _"]:-abp-has(> div[class] > div[class]:empty)
-echo.msk.ru##[data-title] > center > div:empty
-echo.msk.ru##[data-title] > div > div center
-echo.msk.ru##[data-title] > script:first-child + center
-echo.msk.ru##[data-title] > span > span center
+echo.msk.ru##[data-title] center
 1fnl.ru##[data-tizer-id="partners"]
 historyrusedu.ru##[data-uk-grid-match*="target"]
 drive2.com,drive2.ru##[data-ym-target="sitesearch-ad-click"]
@@ -17526,6 +17526,7 @@ vz.ru##div:not([id])[style*="margin"][style*="width: 240px"]
 dtf.ru,tjournal.ru,vc.ru##div[air-module="module.boosterPromo"]
 darkmoney.at##div[align="center"] > a[href] > img[src*=".gif"]
 igru-xbox.net,small-games.info##div[align="center"] > a[href][target="_blank"]
+ru-minecraft.ru##div[align="center"] > div[style^="background-color:"][style*="height:300px;"]
 kinofrog.ru##div[align="center"] > noindex
 adult-images.ru,xpicture.ru##div[align="center"] > table[width="160"]
 adult-images.ru,imgbum.ru,xpicture.ru##div[align="center"] > table[width="962"]
@@ -22066,7 +22067,7 @@ lada.kz/uploads/banners/
 ||waralbum.ru/br/
 ||warezlab.ru^*rotator
 ||warfiles.ru/bg/
-||wasd.tv/ssp/roll|$xmlhttprequest
+||wasd.tv/ssp/roll$xmlhttprequest
 ||watch.ru/bp/
 ||watchcine.ru/templates/HDKINOMAX/images/bg.jpg
 ||weacom.ru/abrakadabra/
@@ -22969,6 +22970,7 @@ gazeta.ru##div[id^="b_24smi_"]
 gazeta.ru##div[id^="smi2_"]
 gazeta.ru##div[id^="unit_"]
 gazeta.ru#?#.sausage-list > .sausage-list-item:-abp-has(> a[href^="https://www.gazeta.ru/prcom/"])
+gazeta.ru#?#.sausage:-abp-has(> [class]:-abp-properties(/header_2\.svg/))
 gazeta.ru#?#main > .row > .block:-abp-has(> article > .tile_inner_size > [itemscope] > [href*="/prcom/"])
 lenta.ru###top-banner
 lenta.ru##.b-board__brand-logo
@@ -24026,7 +24028,7 @@ photodoska.ru#@#.ad_large
 photodoska.ru#@#.ad_small
 avtotag.ru,primorsko-ahtarsk.ru#@#.ad_text
 my.mail.ru#@#.adds
-bamper.by#@#.adds-wrapper
+bamper.by,biblionika.info#@#.adds-wrapper
 kvartirant.by#@#.adinfo
 insignia-mebel.ru#@#.ads-bg
 kvartirant.by#@#.ads-box
