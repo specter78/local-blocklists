@@ -1,8 +1,8 @@
-! Checksum: auIQQTya6MVLbFKnn9uTTw
+! Checksum: OIPfyRi+f1XBsPU7ggjQHQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.24.83
-! TimeUpdated: 2021-05-23T01:03:35+00:00
+! Version: 2.0.24.84
+! TimeUpdated: 2021-05-23T12:31:31+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15953,6 +15953,8 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||ajinomoto.co.jp/shared_file/js/header_log.js
+||ajinomoto.co.jp/shared_file/js/log.js
 ||bilanx.dtto.com/*/configs
 ||bilanx.dtto.com/*/events
 ||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif

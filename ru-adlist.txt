@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nmV//p10pJdGk+LuvVUjtQ
-! Version: 202105230530
+! Checksum: xjwgK9Hk397KRxleq1Vaew
+! Version: 202105240530
 ! Title: RU AdList
-! Last modified: 23 May 2021 05:30 UTC
+! Last modified: 24 May 2021 05:30 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -2145,6 +2145,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /r_show.php?b=
 /rbknews/*
 /rbs_scripts/rbs_banner_
+/rbt_banner/*
 /rcl/all/*
 /rcl/ban/*
 /redirect/cpa/*
@@ -2320,6 +2321,7 @@ _tizers.
 ||oblivki.$third-party,script
 ||online/rotator.min.js$third-party
 ||pro/rotator.min.js$third-party
+||ru/?pu=$third-party,script
 ||ru/ban/$domain=~chita-game.ru|~zabgame.ru
 ||ru/banner.$domain=~allplanets.ru|~knigilub.ru|~megafon.ru|~rsa.su
 ||ru/banner/$domain=~autodoc.ru|~befree.ru|~matematikalegko.ru|~newdaynews.ru|~smotriuchis.ru
@@ -7217,6 +7219,7 @@ _tizers.
 ||kilkiva.ru^$third-party
 ||killtarget.biz^$third-party
 ||killtarget.com^$third-party
+||killtarget.pro^$third-party
 ||kilonefast.net^$third-party
 ||kilopog.com^$third-party
 ||kimagramratom.tk^$third-party
@@ -8170,6 +8173,7 @@ _tizers.
 ||nhqwt.space^$third-party
 ||nickhel.com^$third-party
 ||nidjxulb.ru^$third-party
+||nighkclick.biz^$third-party
 ||nigivarium.com^$third-party
 ||nigvbyd.net^
 ||nihewfi.net^

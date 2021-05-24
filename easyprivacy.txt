@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202105230500
+! Version: 202105240530
 ! Title: EasyPrivacy
-! Last modified: 23 May 2021 05:00 UTC
+! Last modified: 24 May 2021 05:30 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1548,6 +1548,7 @@
 /countstat.php?
 /countubn.
 /countus.php
+/coveo.analytics.js/*
 /CoveoForSitecore.
 /cpeEvent.
 /cpeEventTracking.
@@ -10998,6 +10999,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2ry9vue95px0b.cloudfront.net^
 ||d2san7t27xb2pn.cloudfront.net^
+||d2t77mnxyo7adj.cloudfront.net^
 ||d2tcg4i9q4js4a.cloudfront.net^
 ||d2tgfbvjf3q6hn.cloudfront.net^
 ||d2wu036mkcz52n.cloudfront.net^
@@ -13563,6 +13565,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
+||ab-machine.forbes.com^
 ||abc.net.au/counters/
 ||abc.net.au^*/stats/
 ||abebooks.com/timer.gif?
@@ -13948,6 +13951,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chud.com/community/p/
 ||civicscience.com/jot?
 ||cjtube.com/tp/*.php
+||cl.canva.com^
 ||cl.expedia.com^
 ||cl.ly/metrics?
 ||clancy.spiceworks.com^
@@ -24738,6 +24742,7 @@ ytics.disneyplus.com^
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cdn.cxense.com^$script,domain=marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
