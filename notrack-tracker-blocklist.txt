@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 21 May 2021
+# Updated: 24 May 2021
 #LatestVersion 21.03
-# Domain Count: 15038
+# Domain Count: 15034
 #===============================================================
 
 1-cl0ud.com #Lead Forensics - Tracker
@@ -298,6 +298,7 @@ adtech.de #Adtech - Advertising
 adtechium.com #AdTechium - Advertising
 adtechus.com #Adtech - Advertising
 adtelligent.com #Adtelligent - Advertising
+adtheorent.com #Adtheorent - Tracker
 adthrive.com #AdThrive - Advertising
 adtilt.com #Unknown - Advertising
 adtng.com #Unknown - Advertising
@@ -383,6 +384,7 @@ amptrack.bild.de #Google Amp - Tracker
 amptrack.dailymail.co.uk #Google Amp - Tracker
 amptrack.thisismoney.co.uk #Google Amp - Tracker
 analysing.email #Altaire - Tracker
+analytics-api.dvdfab.cn #dvdfab.cn - Tracker
 analytics-cdn.sykescottages.co.uk #Sykescottages.Co.Uk - Tracker
 analytics-egain.com #eGain - Tracker
 analytics-static.ugc.bazaarvoice.com #BazaarVoice - Tracker
@@ -396,7 +398,6 @@ analytics.bluemosh.com #bluemosh.com - Tracker
 analytics.brave.com #Brave Browser - Tracker
 analytics.businessinsider.com #businessinsider.com - Tracker
 analytics.cappasity.com #cappasity.com - Tracker
-analytics.ccs.mcafee.com #McAfee - Tracker
 analytics.chase.com #Chase.Com - Tracker
 analytics.cincopa.com #cincopa.com - Tracker
 analytics.civicplus.com #Civicplus.com - Tracker
@@ -470,6 +471,7 @@ analytics.quizizz.com #Quizizz.Com - Tracker
 analytics.retell.speechkit.ru #speechkit.ru - Tracker
 analytics.rodpub.com #rodpub.com - Tracker
 analytics.rosehosting.com #rosehosting.com - Tracker
+analytics.routemehome.org #routemehome.org - Tracker
 analytics.samsungknox.com #Samsung - Tracker
 analytics.sapo.pt #PT Telecomunicacoes - Tracker
 analytics.schoolwires.com #schoolwires.com - Tracker
@@ -654,7 +656,6 @@ bidtheatre.com #BidTheatre - Tracker
 bidtrk.com #Unknown - Tracker
 bigdata.adups.com #Unknown - Tracker
 bigspeedpro.com #Unknown - Tracker
-billmscurlrev.com #msales - Tracker
 bilsyndication.com #Unknown - Tracker
 bingads.com #Microsoft - Advertising
 bingads.microsoft.com #Microsoft - Advertising
@@ -750,7 +751,7 @@ carbonads.net #Carbon Ads - Advertising
 cardlytics.com #Cardlytics - Tracker
 carrotquest.io #Carrot - Tracker
 carrottrack.io #Carrot - Tracker
-casalemedia.com #Casale Media - Tracker
+casalemedia.com #Index Exchange - Advertising
 cashlantis.com #Unknown - Advertising
 cbdatatracker.com #Clickback - Tracker
 cccampaigns.com #Email Vision - Advertising
@@ -824,7 +825,6 @@ clinch.co #Clinch - Tracker
 clixgalore.com #ClixGalore - Tracker
 clixmetrix.com #ClixMetrix - Tracker
 clkads.com #RevenueHits - Tracker
-clkbid.com #RevenueHits - Tracker
 clkcln.com #RevenueHits - Tracker
 clkdeals.com #RevenueHits - Tracker
 clkfeed.com #RevenueHits - Tracker
@@ -874,10 +874,8 @@ commander1.com #CommandersAct - Tracker
 company-target.com #Demandbase - Tracker
 comscore.biz #comScore - Tracker
 comscore.com #comScore - Tracker
-comscoredatamine.com #comScore - Tracker
 comscoreresearch.com #comScore - Tracker
 comscoreresearch.net #comScore - Tracker
-comscorestudies.com #comScore - Tracker
 comscorestudies.net #comScore - Tracker
 condenastdigital.com #Conde Nast Digital - Tracker
 confirmsubscription.com #Campaign Monitor Pty - Tracker
@@ -1482,7 +1480,8 @@ in.mydirtyhobby.de #Unknown Adult - Advertising
 incoming-telemetry.thunderbird.net #Thunderbird - Tracker
 incoming.telemetry.mozilla.org #Mozilla - Tracker
 indecisionremittance.com #cloud-dns-tech - Advertising
-indexww.com #CassleMedia - Tracker
+indexexchange.com #Index Exchange - Advertising
+indexww.com #Index Exchange - Advertising
 indpcr1.com #Lead Forensics - Tracker
 industrybrains.com #IndustryBrains - Advertising
 infernotions.com #Infernotions - Tracker
@@ -1790,7 +1789,6 @@ metadsp.co.uk #Avid - Advertising
 metalyzer.com #Unknown - Tracker
 meteora.co #Unknown - Tracker
 meteora.us #Unknown - Tracker
-metric.asos.com #asos.com - Tracker
 metric.gstatic.com #Google - Tracker
 metric.ipv6test.com #Unknown - Tracker
 metric.ipv6test.net #Unknown - Tracker
@@ -12895,7 +12893,6 @@ nuvoordelig.eu #wrldtrck.com spam - Advertising
 nw-rail-03.com #Lead Forensics - Tracker
 nyctrl32.com #Lead Forensics - Tracker
 nyltx.com #Nyltx - Tracker
-oasnexus.net #AppNexus Inc - Tracker
 oclaserver.com #Unknown - Tracker
 oclasrv.com #Unknown - Advertising
 octonet.com #Unknown - Tracker
@@ -12954,6 +12951,7 @@ onscroll.com #Unknown - Tracker
 onstate.co.uk #Unknown - Tracker
 onthe.io #Unknown - Tracker
 ontoplist.com #Unknown - Tracker
+ontraport.com #Ontraport - Tracker
 ontvangkorting.eu #wrldtrck.com spam - Advertising
 ooyala.com #Unknown - Tracker
 opecloud.com #1plusX - Tracker
@@ -12966,7 +12964,6 @@ openstat.org #OpenStat - Tracker
 openx.com #OpenX - Tracker
 openx.net #OpenX - Tracker
 openx.org #OpenX - Tracker
-openxadexchange.com #OpenX - Tracker
 openxenterprise.com #OpenX - Tracker
 openxenterprise.org #OpenX - Tracker
 ophan.co.uk #Unknown - Tracker
@@ -13319,7 +13316,6 @@ royapp.com #Roy App - Tracker
 rqtrk.eu #Roq.ad - Tracker
 rsvpgenius.com #Unknown - Tracker
 rtbidder.net #Unknown - Tracker
-rtbx.biz #AppNexus Inc - Tracker
 rtmark.net #PropellerAds - Advertising
 rts.mobula.sdk.duapps.com #DU Apps - Tracker
 ru4.com #Unknown - Tracker
@@ -13386,7 +13382,7 @@ securemetrics.jewish.museum #Adobe - Tracker
 securemetrics.net.ws #Adobe - Tracker
 securemetrics.r2d2netflix.com #Adobe - Tracker
 securepaths.com #Forensiq - Tracker
-segment.com #Unknown - Tracker
+segment.com #Segment - Tracker
 sekindo.com #Sekindo - Advertising
 sele.co #Sele.Co - Tracker
 selfadvertiser.com #RevenueHits - Advertising
@@ -13943,7 +13939,6 @@ smetrics.maxi.ca #Adobe - Tracker
 smetrics.maximintegrated.com #Adobe - Tracker
 smetrics.maxxia.com.au #Adobe - Tracker
 smetrics.mbna.ca #Adobe - Tracker
-smetrics.mcafee.com #Adobe - Tracker
 smetrics.mcdonalds.com #Adobe - Tracker
 smetrics.memberdeals.com #Adobe - Tracker
 smetrics.mercola.com #Adobe - Tracker
@@ -14762,7 +14757,6 @@ tutoads.tv #Inicio - Advertising
 tvpixel.com #LiveRamp - Tracker
 tvsquared.com #Unknown - Tracker
 twisto.cz #Unknown - Tracker
-twitstat.com #comScore - Tracker
 tworismo.com #WhiteOps - Tracker
 tynt.com #33Across - Tracker
 typekit.net #Adobe - Tracker
@@ -14837,6 +14831,7 @@ vgwort.de #Unknown - Tracker
 viafoura.com #Unknown - Tracker
 viafoura.net #Viafoura - Tracker
 vicinity.media #Vicinity.media - Advertising
+vidazoo.com #Milkshake - Advertising
 videe.tv #Adtelligent - Tracker
 videoadex.com #Unknown - Advertising
 videoamp.com #VideoAmp - Tracker
@@ -14861,6 +14856,7 @@ vindtleukedeal.eu #wrldtrck.com spam - Advertising
 vindtleuksteartikeltjes.eu #wrldtrck.com spam - Advertising
 vindtleukstedeal.eu #wrldtrck.com spam - Advertising
 viqeo.tv #Viqeo - Tracker
+virtuoussoftware.com #Virtuous - Tracker
 visistat.com #Unknown - Tracker
 visitor-analytics.io #Visitor Analytics - Tracker
 visitortracklog.com #Unknown - Tracker
@@ -14903,7 +14899,7 @@ watson.microsoft.com #Microsoft - Tracker
 watson.telemetry.microsoft.com #Microsoft - Tracker
 waudit.cz #WAudit - Tracker
 wayin.com #Cheetah Digital - Tracker
-wbtrk.net #Casale Media - Tracker
+wbtrk.net #Index Exchange - Tracker
 we-stats.com #Unknown - Tracker
 wearehearken.com #We are Hearken - Tracker
 web-01-gbl.com #Lead Forensics - Tracker

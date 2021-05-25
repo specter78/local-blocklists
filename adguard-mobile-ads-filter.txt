@@ -1,8 +1,8 @@
-! Checksum: YIhyEC2k1JUzPQULIMAfNQ
+! Checksum: oCUeRjSJ9CMZq6pQuHzNiA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.84
-! TimeUpdated: 2021-05-23T17:02:32+00:00
+! Version: 2.0.19.86
+! TimeUpdated: 2021-05-24T22:30:21+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1009,7 +1009,11 @@
 ||sharethrough.com^
 ||show.niqiu99.org^$third-party
 ||silvermob.com^
-||singular.net^
+||i.singular.net^
+||sdk-api-v1.singular.net^
+||t.singular.net^
+||skadnetwork.singular.net^
+||view-prod.ad.singular.net^
 ||sitescout.com^
 ||slb.gedawang.com^$third-party
 ||smaclick.com^
@@ -2251,6 +2255,7 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+praxistipps.focus.de##div[id^="contentad-sticky-"]
 ivfree.me##div[id^="active_overlay_"]
 mtb-news.de##.mtbnews-top
 mtb-news.de##.mtbnews-forum__centered
@@ -4564,7 +4569,5 @@ livejournal.com##.mdspost-aside__item--banner
 ||mangaapi.manhuaren.com/*/public/getRecommendedGame^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10315
 ! https://forum.adguard.com/index.php?threads/23599/
-! https://forum.adguard.com/index.php?threads/23662/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5676
-! https://forum.adguard.com/index.php?threads/21029/
 !
