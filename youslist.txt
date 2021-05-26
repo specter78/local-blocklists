@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210521
+! Version: 20210526
 
 ! General element hiding rules
 ##amp-ad
@@ -1090,13 +1090,16 @@
 ||click.realclick.co.kr^
 ||clkads.com^
 ||clksite.com/adServe/banners^
-||cm*.joins.com^
-||cm*.jssearch.net^
 ||cm.interworksmedia.co.kr/adTagRequest.htm^
 ||cm.keywordsconnect.com^
 ||cm1.icontact.kr/script/cm_fadein_*.js^
 ||cm1.icontact.kr/script/cm_keywordlink_*.js^
+||cm1.joins.com^
+||cm1.jssearch.net^
 ||cm2.cjmooter.com^
+||cm2.joins.com^
+||cm2.jssearch.net^
+||cm3.jssearch.net^
 ||cmbestsrv.com/vpaid/units/*/creatives/creative_js.js^
 ||cmbestsrv.com/vpaid/units/*/infra/cmTagSLIDER_INSTREAM.js^
 ||coin-hive.com/lib/coinhive.min.js^
@@ -2975,6 +2978,8 @@ daum.net##div.advert_shoppingbox
 daumd03.net##a[href^="/partner/i_view.php"]
 dcinside.com##div#dgn_content_de>div[style="padding-top: 16px;padding-bottom:30px;text-align: center"]
 dcinside.com##div.ad_top
+dcinside.com##div.leftbanner
+dcinside.com##div.rightbanner
 dcinside.com##ul.gnb_list>li.linebox
 dcnewsj.joins.com##div.promotion_banner
 ddanzi.com##div.add_display
@@ -3504,6 +3509,13 @@ ggilbo.com##div[data-widget_id="klr8AJom"]
 ggilbo.com##div[data-widget_id="plqBvEXO"]
 ggilbo.com##iframe[src^="http://m.ggilbo.com/banner/banner_roll_msidebtm.html"]
 ggilbo.com##iframe[src^="http://www.ggilbo.com/banner/banner_roll_msidebtm.html"]
+ghacks.net##div#snhb-snhb_ghacks_bottom-0
+ghacks.net##div#snhb-snhb_ghacks_bottom-1
+ghacks.net##div.box-banner
+ghacks.net##div.column-ad
+ghacks.net##div.ghacks_ad_code
+ghacks.net##div.rv-ad
+ghacks.net##div.wide-ad
 gidonline.club##div#tbn
 gidonline.club##div.tiznews
 gidonline.club##div.zbin
@@ -4008,6 +4020,12 @@ kernelnewbies.kernelnewbies.narkive.com##div.ads_post_bit
 keybr.com##div.Supporter
 khan.co.kr##div.adBanner
 khan.co.kr##div.section_AD
+kick-off.co.kr##div.ad_box
+kick-off.co.kr##div.board_view_ad
+kick-off.co.kr##div.board_view_comment_ad
+kick-off.co.kr##div.board_view_top_ad
+kick-off.co.kr##div.contents_right_ad
+kick-off.co.kr##div.main_ad
 kidd.co.kr##div.bottomAD_area
 kidd.co.kr##div.kiddBanner
 kihoilbo.co.kr##div#ad_network_26
@@ -4781,6 +4799,8 @@ m.news1.kr##p.ads_article2
 m.news1.kr##p.ads_article3
 m.news1.kr##p.ads_text_banner
 m.news1.kr##ul.text_ad_list
+m.newspic.kr##div#dionAdArea
+m.newspic.kr##div#dionAdArea2
 m.newspim.com##div#container>div[style="text-align: center; margin-top:10px; margin-bottom:20px"]
 m.newspim.com##div#container>div[style="text-align: center; margin-top:10px; margin-bottom:20px; z-index: "]
 m.newspim.com##div#container>div[style="width: 100%; height: 250px; overflow:  hidden; margin-top: 20px"]
@@ -6815,6 +6835,7 @@ whatis.techtarget.com##div.ad
 whatis.techtarget.com##div.ad-embedded
 whatis.techtarget.com##div.ad-wrapper
 whatis.techtarget.com##section.ads-by-google
+whosampled.com##div.ad-slot
 wiki.dcinside.com##div.pb_area
 wiki.dcinside.com##iframe[src^="http://wiki.dcinside.com/main_top_realclick_banner.php"]
 wikia.com##div.wikia-ad

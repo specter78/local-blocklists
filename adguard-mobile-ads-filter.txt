@@ -1,8 +1,8 @@
-! Checksum: oCUeRjSJ9CMZq6pQuHzNiA
+! Checksum: JVhGQSpyhwdhQmt3q57RQg
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.86
-! TimeUpdated: 2021-05-24T22:30:21+00:00
+! Version: 2.0.19.91
+! TimeUpdated: 2021-05-25T20:30:30+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -205,6 +205,11 @@
 ||54.222.186.106^
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
+!
+! com.kakao.talk
+||adcr.naver.com^
+.ad.kakaocorp.com^$important
+.ad.kakao.com^$important
 !
 ||ad-channel.wikawika.xyz^
 ||media-router-flurry*.yahoo.com^
@@ -1698,6 +1703,9 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/83207
+netzwelt.de#$#@media only screen and (max-width: 700px) { body > #header { margin-top: -50px !important; } }
+netzwelt.de#$#@media only screen and (max-width: 700px) { body > #header ~ #main { margin-top: 80px !important; } }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82036
 leo.org#$#.l-dict-searchbar { top: 0 !important; }
 leo.org#$#.wgt > .wgt-header { display: none !important; }
@@ -2255,6 +2263,8 @@ whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+woman.ru##.creative-sticky
+tokyo-sports.co.jp##.ad-sp-bil
 praxistipps.focus.de##div[id^="contentad-sticky-"]
 ivfree.me##div[id^="active_overlay_"]
 mtb-news.de##.mtbnews-top
@@ -2506,7 +2516,6 @@ pinkvilla.com##body #gptTagBottom
 bloomberg.com##.fence-body > div[data-position="mobile-box"]
 outlook.live.com###app main > div[class] > div[style] > div[style*="height: 93px"]:not([class])
 corriere.it##.bck-adv
-detik.com##.footer_banner
 in.news.yahoo.com###sda-WFPAD
 ||xxxadd.com/js/hrqst.js
 hdsexmovies.xxx,hdpornmax.com,hdpornfree.xxx##.block-mobile
@@ -3138,7 +3147,7 @@ tempo.co##div[id^="inarticle"] > p[style="font-size:11px;font-weight:500;color: 
 tek.id###footer_sticky
 rakyatku.com##.ads_mobile_wrap
 hentai2read.com##div[data-type^="leaderboard"]
-m.cnnindonesia.com##.footer_banner
+cnbcindonesia.com,detik.com,m.cnnindonesia.com##.footer_banner
 game735.com##.blockOverlay
 game735.com##.blockPage
 ukraina.ru##.article-share ~ div.heading
