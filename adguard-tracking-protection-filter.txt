@@ -1,8 +1,8 @@
-! Checksum: TL2gMeLuo8VUfQeis+jT9Q
+! Checksum: 8DfMNB8eI53+QwSQzbm4Hg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.25.4
-! TimeUpdated: 2021-05-26T22:31:28+00:00
+! Version: 2.0.25.8
+! TimeUpdated: 2021-05-27T16:31:33+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -174,6 +174,7 @@ donnerwetter.de#?#.col-xs-12 > div.block.prepend-top[-ext-has='> div.blocktitle-
 hdreactor.club,hdreactor.su,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики)
 hdreactor.club,hdreactor.su,hdreactor.tv,hdreactor.net#?#.sidebar > div.menu-wrap > div.menu-head:contains(Счетчики) + div.menu-head1
 !
+fatcatslim.ru#?#.sidebar > div.widget:has(> div > a[href$="liveinternet.ru/click"])
 automesseweb.jp#?##_popIn_ranking:upward(.code_php_in_widget)
 myfirstcomp.ru#?#.tm-sidebar-b > div.uk-panel:has(script[src^="https://adcounter"])
 musicrock24.ru#?#.art-layout-cell > div.art-box:has(> div.art-box-body > div.art-blockheader > h3:contains(Счётчики))
@@ -235,6 +236,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||log.codemarketing.cloud^
+||tracker.relaido.jp^
 ||bdash-cloud.com^$third-party
 ||analytics.fs-bdash.com^
 ||api.limbik.com^$third-party
@@ -16797,6 +16800,11 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com
 !
+||wp.aliexpress.com/trace.gif?event=
+||frog.wix.com^$ping,xmlhttprequest
+||cloudfunctions.net/conversionEventCondition|
+||cloudfunctions.net/trackEvent|
+||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||hepsiburada.com/webcontent/
 ||images.hepsiburada.net/webtrekk/webtrekk.js
 ||hardwarezone.com.sg/js/hwz/hwzgtm.js
