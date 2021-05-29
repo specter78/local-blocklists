@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nZaGRFFAlO8NdmM5zMzAjQ
-! Version: 202105280620
+! Checksum: 2TFj0VpxUwK9pItS675pdQ
+! Version: 202105290650
 ! Title: RU AdList
-! Last modified: 28 May 2021 06:20 UTC
+! Last modified: 29 May 2021 06:50 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -1938,7 +1938,7 @@ me##td[background^="//cdn.livetv"] tr > td[valign="top"] + td[align="right"]
 /b_bs_killdog_
 /backlinks.
 /baner.
-/baner/*$domain=~barva.km.ua|~churchjc.com|~ferr-um.ucoz.ru|~fitlife62.ru|~market-oz.ru|~slovo-shop.ru|~stalker-2-2012.ucoz.net|~zokko.com.ua
+/baner/*$domain=~barva.km.ua|~churchjc.com|~ferr-um.ucoz.ru|~fitlife62.ru|~helpsetup.ru|~market-oz.ru|~slovo-shop.ru|~stalker-2-2012.ucoz.net|~zokko.com.ua
 /baner_$domain=~bonshopping.com.ua|~brabrabra.ua|~churchjc.com|~food16.ru|~pizzamel.ru|~tambov.gov.ru|~triatek.com.ua|~uslugi.mosreg.ru
 /baners/*$domain=~mgpk.bntu.by|~mirofox.ru|~redbubbles.ru|~vyviska.com.ua|~xn--40-6kcayb8aoh7afog0b.xn--p1ai
 /banmas/index.php?informer=
@@ -2404,7 +2404,7 @@ _tizers.
 !
 ||asia^$third-party,script,subdocument,xmlhttprequest,domain=~gallerix.org
 ||pw^$third-party,script,xmlhttprequest,domain=~adwiz.pp.ua|~forum.worldofwarships.ru|~hdvbplayer.tk|~live-gol.net|~panomama.ru|~philips.ru|~softpir.com|~sportings.pw|~sportsvideoline3.pw|~tefal.ru|~videosofsport1.pw|~xn--drakulastrem-b7e.com
-||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~avtomaty-i-bonusy.com|~chelentano.top|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~getvi.tv|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~live-golf.stream|~live-nhl.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk.com|~vmeste.tv|~web.app
+||xyz^$third-party,script,xmlhttprequest,domain=~anidub.com|~animedia.pro|~animeheaven.ru|~animevibe.wtf|~app.element.io|~assistir-filme.biz|~avtomaty-i-bonusy.com|~chelentano.top|~coomeet.com|~crackstreams.com|~crackstreams.ga|~csgoreports.com|~cvid.kiev.ua|~emblix.cc|~estream.to|~europixhd.io|~films.hds-stream.com|~flowcdn.nl|~funtik.tv|~getvi.tv|~github.io|~hanime.tv|~hentaiz.org|~herokuapp.com|~infoua.biz|~jokehd.com|~jokerswidget.com|~kinobig.me|~kinoguru.be|~kinoguru.me|~kristinita.ru|~live-golf.stream|~live-nhl.stream|~lookbase.xyz|~magicfilm.net|~mail.google.com|~map-a-date.cc|~matchat.online|~mikeamigorein.xyz|~miranimbus.ru|~my.mail.ru|~nccg.ru|~newdmn.icu|~onmovies.se|~playjoke.xyz|~roadhub.ru|~roblox.com|~sextop.net|~soccer365.ru|~soonwalk.net|~sportsbay.org|~streetbee.io|~streetbee.ru|~telerium.club|~telerium.live|~uacycling.info|~uploadedpremiumlink.net|~vk.com|~vmeste.tv|~web.app
 !
 ! Исключения
 @@||12go.asia/dist/prod/build.*.js|$third-party,script
@@ -3577,7 +3577,7 @@ _tizers.
 ||sputnik1.ru^$third-party
 ||spynigeria.com^$third-party
 ||spytrack.tic.ru^
-||sravni.ru^$third-party,domain=~amazingthailand.ru|~autospot.ru|~jetravel.ru|~osago.online|~osago4u.ru|~osagoonline.info|~sravni.ru|~sravnikupi.ru|~svyaznoy.ru|~www-eg-insurance-net.filesusr.com
+||sravni.ru^$third-party,domain=~amazingthailand.ru|~autospot.ru|~jetravel.ru|~osago.online|~osago4u.ru|~osagoonline.info|~rosstrah.online|~sravni.ru|~sravnikupi.ru|~svyaznoy.ru|~www-eg-insurance-net.filesusr.com
 ||srv.mzcdn.com^
 ||stableprofit.ru^
 ||staffcop.ru/rekl/
@@ -12551,7 +12551,7 @@ sterlegrad.ru###sideRight > noindex
 happy-hack.ru#?##side_right > .block_r > .block_r_h:-abp-contains(Реклама)
 5litra.ru###side_right > .side_right_bl ~ *
 finobzor.ru,politobzor.net,vsluh.net,warfiles.ru###sidebar
-wikianime.tv###sidebar .section[style="padding-top: 20px;"]
+wikianime.tv###sidebar .section[style^="padding-top:"]
 servers-rust.ru#?##sidebar .toggled:-abp-has(> .mob_quad_banner)
 kakbog.com,kulinarnayamozaika.ru,z-city.com.ua###sidebar .widget_text
 remontcompa.ru###sidebar .yashare-auto-init ~ :not(em)
@@ -13400,6 +13400,7 @@ f1news.ru##.banner_sidebar
 express-prigorod.ru##.banner_slider
 kriminal.tv##.banner_small
 tass.ru##.banner_sticky
+kg.ua##.banner_style
 club-lexus.ru##.banner_tgb
 ferrum-body.ru,fileclub.biz,nemezisworld.com,sharij.net##.banner_top
 radiorecord.ru##.banner_top_240_400
@@ -13722,7 +13723,10 @@ journal-off.info##.bwrbs[style^="padding:8px"]
 mail.inbox.lv##.bxS-leftbar
 mail.inbox.lv##.bxS-text_link
 tsn.ua##.c-aside-embed
+drive2.com#?#.c-block:-abp-has(> .c-dv-sns)
+drive2.com#?#.c-block:-abp-has(> [id^="adfox_"])
 drive2.ru##.c-dv-p
+drive2.com##.c-dv-sns
 tomat-pomidor.com##.cPost + script + center
 piccy.info##.c[width="300"]
 boxnews.com.ua##.caf0c6
@@ -15750,7 +15754,6 @@ proua.com.ua##.td-main-sidebar
 poradumo.com.ua##.td-main-sidebar .widget_text
 fainaidea.com##.td-menu-background
 dontimes.news#?#.td-post-content > p:-abp-has(> i > [onclick^="yaCounter"])
-pythonru.com##.td-q-rec > a
 dialogs.org.ua##.td-ss-main-content > div[style="margin-top: 40px;"] ~ *
 mister-blister.com##.td-ss-main-sidebar
 portaltele.com.ua##.td-ss-main-sidebar > aside[class^="td_block_template_"]
@@ -16282,6 +16285,8 @@ virusbase.ru.free-anti-spy.com##[class*="modal"]
 igrigo.net#?#[class*="navi_title"]:-abp-contains(/браузер|партнеры/i)
 euro-football.ru##[class*="nus"]
 besplatka.ua##[class*="promotion"]
+kg.ua##[class*="region-news"] > .block > * > .img-responsive
+kg.ua##[class*="region-news"] > .block a[href][target="_blank"]
 2ch.hk,2ch.pm,pshack.net,tonna-games.ru,vsevideo.site##[class*="rekl"]
 online.ua##[class*="reklama"]
 yapx.ru##[class*="revenue-block"]
@@ -16396,7 +16401,7 @@ football.kulichki.net##[href*="/pari"]
 flirchi.com.ua##[href*="://orgidea.ru"]
 ogemorroe.com##[href*="=ogemorroe.com"]
 list-org.com##[href*="abp:subscribe"]
-agorov.org,amedia.online,anime-bit.ru,animebest.tv,animedub.ru,animeonline.cc,animevost.am,animevost.org,animevost.site,animevost.tv,blokino.org,pacogames.com,risens.team,rufilmtv.pro,smotret-anime-365.ru,torrent-igruha.co,trymobile.ru,you-anime.ru,yummyanime.club##[href*="advg.agency"]
+agorov.org,amedia.online,anime-bit.ru,animebest.tv,animedub.ru,animeonline.cc,animevost.am,animevost.org,animevost.site,animevost.tv,blokino.org,pacogames.com,risens.team,rufilmtv.pro,smotret-anime-365.ru,torrent-igruha.co,trymobile.ru,wikianime.tv,you-anime.ru,yummyanime.club##[href*="advg.agency"]
 mmorpg.su##[href*="apygame.com/click"]
 local.com.ua##[href*="local.com.ua/banner"]
 tnt-premier.life##[href*="mclk.ru"]
@@ -16434,7 +16439,7 @@ forum.krasmama.ru##[id^="adv_"]
 tuzlist.ru##[id^="adv_orders_"]
 forum.astrakhan.ru##[id^="agat_plus_banner"]
 gameout.ru,paratechnik.ru##[id^="ai_widget"]
-bestradio.fm,elsyst.gnomio.com,forum.cxem.net,forum.niiot.net,freefotohelp.ru,freeopenvpn.org,ghame.ru,goroskop.org,helpsetup.ru,htmlweb.ru,kulichki.net,leninsw.info,pc-radio.ru,ph4.ru,pvpru.com,semestr.ru,spec-komp.com,testkrok.org.ua,tests24.ru,videoredaktor.ru,vseprosto.top##[id^="aswift_"]
+bestradio.fm,elsyst.gnomio.com,forum.cxem.net,forum.niiot.net,freefotohelp.ru,freeopenvpn.org,ghame.ru,goroskop.org,htmlweb.ru,kulichki.net,leninsw.info,pc-radio.ru,ph4.ru,pvpru.com,semestr.ru,spec-komp.com,testkrok.org.ua,tests24.ru,videoredaktor.ru,vseprosto.top##[id^="aswift_"]
 forum.mista.ru##[id^="banner"]
 rabota.kharkov.ua##[id^="banner_"]
 sheensay.ru##[id^="beget"]
@@ -16639,6 +16644,7 @@ tsn24.ru##a[href*="://mediametrics.ru/"]
 sport.tut.by##a[href*="://pm.by/"]
 tut.by##a[href*="://preved.tut.by/?clickid="]
 2gis.ru##a[href*="://redirect.2gis.com/adv/"]
+helpsetup.ru##a[href*="://reduction.helpsetup.ru/"]
 second.by,tut.by##a[href*="://reklama.tut.by/"]
 robloro.ru##a[href*="://robloro.ru/reklama"]
 moirebenok.ua##a[href*="://sgo.one/"]
@@ -16676,6 +16682,7 @@ minecraft15.my1.ru##a[href*="barbarisnews.ru"]
 all-sci.net,bib.social,economics.studio,economuch.com,finbook.news,lawbook.online,lawbooks.news,lib.sale,medinfo.live,myzooplanet.ru,pravo.studio,provse.news,psihologia.biz,sci-lib.biz,sci.house,scicenter.online,textbook.news,textbooks.studio,texts.news,uchebnikfree.com,xn--80aaivjfyj3e.com##a[href*="bear"]
 twitch.tv##a[href*="betahit.click"]
 cq.ru##a[href*="betboom"]
+sport24.ru##a[href*="betcity"]
 okrain.net.ua##a[href*="billing.hostpro.ua"]
 abw.by,agronews.ua,ain.ua,alleng.ru,asilmedia.net,autogeek.com.ua,bib.bz,blizzardheroes.ru,csgo-guides.ru,daxshat.site,delfi.lt,dtf.ru,for-ua.info,forklog.com,games-vam.ru,goal24.live,gooool.org,ilenta.com,img2txt.com,kontrolnaya-rabota.ru,kritka.su,kurkul.com,liveball7.gq,liveball8.ml,newstudio.tv,onlinevideoconverter.com,pesni-tut.com,photoshop-besplatno.org,prosportua.com,psm7.com,real-game.net,root-nation.com,rutor.co,rutracker-2017.org,skachat-igri-besplatno.info,stopgame.ru,tjournal.ru,tochka.net,topvideo.tj,torrent-shyter.net,trupornolabs.org,ua.news,varta1.com.ua,vc.ru,xn--80ac9aeh6f.xn--p1ai,yummyanime.club,z-music.org,zbirna.com,zoneofgames.ru,zserials.cc##a[href*="bit.ly"]
 bitmakler.com##a[href*="bitmakler.com/go.php"]
@@ -16706,7 +16713,7 @@ komapz.net##a[href*="epidems.net"]
 kubyshka.org,radiochief.ru,riperam.org,znamyuzl.ru##a[href*="epngo.bz"]
 7ba.org,7ba.ru##a[href*="erotel.org"]
 forum.amit.ru##a[href*="evroremont.amit.ru"]
-ilenta.com,lelang.ru,pythonru.com,shopping.nv.ua##a[href*="fas.st/"]
+ilenta.com,lelang.ru,shopping.nv.ua##a[href*="fas.st/"]
 pwcats.info##a[href*="fastrader.ru"]
 divannaya-sotnya.com.ua##a[href*="finedruk.com.ua"]
 alexlarin.net##a[href*="fipi.ru"] > img
@@ -17883,6 +17890,7 @@ provladimir.ru##div[class^="stream-item"]
 autotopik.ru##div[class^="stuleblok"]
 moyareklama.by,moyareklama.ru##div[class^="super_context"]
 newsru.com##div[class^="superstyle"]
+pythonru.com##div[class^="td-"][class*="-rec "]
 glavpost.com,ittour.com.ua,meta.ua,prohondroz.ru##div[class^="teaser"]
 dlltop.ru##div[class^="tm-article-banner"]
 odeve.ru##div[class^="toneBlock"]
@@ -18123,7 +18131,6 @@ molbuk.ua##div[id^="mbrightbanner"]
 gdz.ru##div[id^="media"]
 maxikarta.ru##div[id^="mega_rt_"]
 espreso.tv,tv.meta.ua,zn.ua##div[id^="meta_news_block"]
-pythonru.com##div[id^="metaslider-"]
 phantastike.ru##div[id^="mindmachine"]
 agorov.org,animevost.am,animevost.org,animevost.site,smotret-anime-365.ru#?#div[id^="moduleLeft"]:-abp-has(iframe)
 tracker.hdclub.com.ua##div[id^="myDiv"]
@@ -18307,6 +18314,7 @@ rivne.media##div[style^="margin-bottom"] > a[href][onclick]
 freesoft.ru##div[style^="margin-left:"] > a[href="#"]
 smart-lab.ru##div[style^="min-height: 250px;"][style*="font-size: 0;"]
 liveposts.ru##div[style^="min-height: 700px;"]
+echo.msk.ru##div[style^="min-width:"][style*="height:"]
 echo.msk.ru##div[style^="padding:"][style*="0px 0px 0px;"]
 1pnz.ru##div[style^="position: relative; width: 230px; height: 400px"]
 lostfilmstv.com##div[style^="promo"]
@@ -18350,6 +18358,7 @@ euro-football.ru#?#h3:-abp-contains(Делайте ставки на матч) +
 fit4power.ru#?#h3:-abp-has(> span:-abp-contains(/реклама/i))
 putin-news.ru#?#h4:-abp-contains(Новости партнёров)
 bibe.ru#?#h4:-abp-contains(Реклама :)
+helpsetup.ru##h5#center
 mignews.com,mignews.ru#?#h5:-abp-contains(Новости партнеров)
 graniru.org#?#h6:-abp-contains(/^реклама/i)
 dachnye-sovety.ru#?#h6:-abp-contains(РЕКОМЕНДУЕМ ПОЧИТАТЬ:)
@@ -18606,6 +18615,8 @@ omskzdes.ru##object[id^="banner"]
 ria-m.tv##object[name="videoblock"]
 sibmama.info,sibmama.ru##object[width="150"][height="100"]
 guzei.com##object[width="200"][height="100"]
+echo.msk.ru##p + div div[id]:empty
+echo.msk.ru##p + div[id]:empty
 y-games.ru##p > .ContentTitle[style="height: 20px;"]
 y-games.ru##p > .ContentTitle[style="height: 20px;"] + .ContentText
 ppl.nnov.ru##p > a[href][target="_blank"]:not([href*="nnov.ru"]) > img[src*="/bannery/"]
@@ -20777,7 +20788,7 @@ lada.kz/uploads/banners/
 ||manyclips.net^*.php?id=
 ||map.cn.ua/media/other/
 ||map.cn.ua/media/promo/
-||market.yandex.ru/widget/$script,domain=1000000diy.ru|220.guru|3dnews.ru|areviews.ru|bestprice.su|bibe.ru|briefly.ru|building-ooo.ru|cadelta.ru|cloudys.ru|cnews.ru|compumir.ru|computerworld.ru|cross.expert|cubiq.ru|digger.ru|drive2.ru|electric-220.ru|electric-house.ru|expert-dacha.pro|f1comp.ru|fireman.club|goodster.ru|gooz.ru|gtaskins.su|housechief.ru|hype.tech|ichip.ru|iguides.ru|iptvmaster.ru|irecommend.ru|it-here.ru|itrew.ru|konstruktortestov.ru|kp.ru|kupidonia.ru|kupipodarki.ru|lavnik.net|mamsy.ru|megaobzor.com|migeek.ru|migid.ru|modxvm.com|neopod.ru|newxboxone.ru|osp.ru|otziv-otziv.ru|overclockers.ru|prochtu.ru|prosmarttv.ru|rbkgames.com|regmarkets.ru|remontcma.ru|rozetked.me|rus-avtomir.ru|russkiypro.ru|sad24.ru|servernews.ru|setafi.com|sinref.ru|sovet-ingenera.com|stroy-podskazka.ru|tagaev.com|technical.city|tehnikoved.ru|tut.by|tuzlist.ru|ukula.ru|videoregobzor.ru|vplate.ru|vyborok.com|winnote.ru|wylsa.com|yablyk.com|yamart.ru|zinref.ru
+||market.yandex.ru/widget/$script,domain=1000000diy.ru|220.guru|3dnews.ru|areviews.ru|bestprice.su|bibe.ru|briefly.ru|building-ooo.ru|cadelta.ru|cloudys.ru|cnews.ru|compumir.ru|computerworld.ru|cross.expert|cubiq.ru|digger.ru|drive2.ru|electric-220.ru|electric-house.ru|expert-dacha.pro|f1comp.ru|fireman.club|goodster.ru|gooz.ru|gtaskins.su|helpsetup.ru|housechief.ru|hype.tech|ichip.ru|iguides.ru|iptvmaster.ru|irecommend.ru|it-here.ru|itrew.ru|konstruktortestov.ru|kp.ru|kupidonia.ru|kupipodarki.ru|lavnik.net|mamsy.ru|megaobzor.com|migeek.ru|migid.ru|modxvm.com|neopod.ru|newxboxone.ru|osp.ru|otziv-otziv.ru|overclockers.ru|prochtu.ru|prosmarttv.ru|rbkgames.com|regmarkets.ru|remontcma.ru|rozetked.me|rus-avtomir.ru|russkiypro.ru|sad24.ru|servernews.ru|setafi.com|sinref.ru|sovet-ingenera.com|stroy-podskazka.ru|tagaev.com|technical.city|tehnikoved.ru|tut.by|tuzlist.ru|ukula.ru|videoregobzor.ru|vplate.ru|vyborok.com|winnote.ru|wylsa.com|yablyk.com|yamart.ru|zinref.ru
 ||marketing.spb.ru/images/klik_banner/
 ||maslomotors.ru/wp-content/themes/maslomotor/js/tp/popup.js$script
 ||master.cn.ua/_images/banners/
@@ -22279,7 +22290,8 @@ lada.kz/uploads/banners/
 ! Блокировка ресурсов, намеренно продвигающих вредоносное ПО и фейки
 adblockmetrics.ru,antiadblock.ru,better-games.ru,clickscloud.net,disk-space.ru,fortnite-pvp.ru,kinoframe.net,torrentigruha.org##*
 !
-!oldseedoff.zannn.top,seedoff.innal.top,seedoff.zannn.top##*
+oldseedoff.zannn.top,seedoff.innal.top,seedoff.zannn.top##:not(this-is-a-malicious-site)
+oldseedoff.zannn.top,seedoff.innal.top,seedoff.zannn.top##this-is-a-malicious-site
 !
 ! Намеренное продвижение фейков и мошенников
 @@||alau.kz/wp-admin/admin-ajax.php?td_theme_name=Newsmag&v=3.4|$xmlhttprequest,domain=alau.kz
@@ -24866,8 +24878,8 @@ track24.ru#@#.ads-1
 videoredaktor.ru#@#.adsBlock
 anitokyo.tv,kosmos-x.net.ru#@#.adsBox
 mks.space#@#.ads_banner
-aniqit.com,anitokyo.tv,anivod.com,ekovolga.com,footboom.by,footboom.com,footboom.kz,gq.ru,helpsetup.ru,imenie-home.ru,infoua.biz,kodik.cc,kodik.info,kodikdb.com,kosmos-x.net.ru,linux.org,mac-torrent-download.net,megogo.ru,news-tape.ru,readmanga.cf,readmanga.live,satellitetvforum.info,shadowcore.ru,sports.ru,tribuna.com,vamrecipes.ru,videoframe.at,videoframe.space,vo-dela.su#@#.adsbox
-3dsmaxvideo.ru,7days2die.info,archicadvideo.ru,aternos.org,autocadvideo.ru,avatarko.ru,bestradio.fm,coreldrawvideo.ru,czx.to,era-igr.ru,excelvideo.ru,freefotohelp.ru,gudfilm.ru,helpsetup.ru,hlebopechka.ru,hryunomod.ru,htmlweb.ru,isemko.net,ivanerr.ru,kompasvideo.ru,kosmos-x.net.ru,leninsw.info,linux.org,lost-alpha.com,mctop.su,mta-resource.ru,nashaplaneta.net,onlinegdz.net,pc-radio.ru,peugeot-club.net,photoshopvideo.ru,ps4.in.ua,romakatya.ru,satsis.org.ua,satsis.ru,so-wiki.ru,solidworksvideo.ru,static.xtubeporno.net,subject.com.ua,testkrok.org.ua,tests24.ru,texnic.ru,thunderskill.com,topcraft.ru,ukrlit.net,videoculinary.ru,videoredaktor.ru,vimperor.ru,vseprosto.top,webos-forums.ru,winzoro.net,wordvideo.ru,zarlit.com#@#.adsbygoogle
+aniqit.com,anitokyo.tv,anivod.com,ekovolga.com,footboom.by,footboom.com,footboom.kz,gq.ru,imenie-home.ru,infoua.biz,kodik.cc,kodik.info,kodikdb.com,kosmos-x.net.ru,linux.org,mac-torrent-download.net,megogo.ru,news-tape.ru,readmanga.cf,readmanga.live,satellitetvforum.info,shadowcore.ru,sports.ru,tribuna.com,vamrecipes.ru,videoframe.at,videoframe.space,vo-dela.su#@#.adsbox
+3dsmaxvideo.ru,7days2die.info,archicadvideo.ru,aternos.org,autocadvideo.ru,avatarko.ru,bestradio.fm,coreldrawvideo.ru,czx.to,era-igr.ru,excelvideo.ru,freefotohelp.ru,gudfilm.ru,hlebopechka.ru,hryunomod.ru,htmlweb.ru,isemko.net,ivanerr.ru,kompasvideo.ru,kosmos-x.net.ru,leninsw.info,linux.org,lost-alpha.com,mctop.su,mta-resource.ru,nashaplaneta.net,onlinegdz.net,pc-radio.ru,peugeot-club.net,photoshopvideo.ru,ps4.in.ua,romakatya.ru,satsis.org.ua,satsis.ru,so-wiki.ru,solidworksvideo.ru,static.xtubeporno.net,subject.com.ua,testkrok.org.ua,tests24.ru,texnic.ru,thunderskill.com,topcraft.ru,ukrlit.net,videoculinary.ru,videoredaktor.ru,vimperor.ru,vseprosto.top,webos-forums.ru,winzoro.net,wordvideo.ru,zarlit.com#@#.adsbygoogle
 ukrlit.net#@#.adslot_300
 no-steamserv.ru,vesti.ru#@#.adv
 rap-me.online#@#.adv-banner
@@ -24942,7 +24954,7 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,kinogo2.b
 @@||amc-club.ru^*/advertbanner.js|$script,domain=amc-club.ru
 @@||an.yandex.ru/resource/context_static_r_*.js|$domain=otzovik.com
 @@||an.yandex.ru/system/context.js$domain=awaps.yandex.net|ctc.ru|otzovik.com|www.rusprofile.ru
-@@||an.yandex.ru/system/context.js|$domain=glav.su|helpsetup.ru|onlinelpu.ru|ryfma.com
+@@||an.yandex.ru/system/context.js|$domain=glav.su|onlinelpu.ru|ryfma.com
 @@||an.yandex.ru^$script,domain=tests24.ru
 @@||ava-avto.ru^$image,domain=ava-avto.ru
 @@||awaps.yandex.net^$script,domain=delovoe.tv|lentv24.ru|piter.tv|smexo.tv
@@ -25007,7 +25019,6 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,kinogo2.b
 @@||liverail.com^*/admanager.swf|$domain=own3d.tv
 @@||loves.zlovemother.com^$elemhide
 @@||mastergrad.com/public/js/ads.min.js$script,domain=mastergrad.com
-@@||mc.yandex.ru/metrika/tag.js|$domain=helpsetup.ru
 @@||mc.yandex.ru/metrika/watch.js$script,domain=101.ru|doska.tamboff.ru|sherlock.store|shok102.ru
 @@||medialand.ru/code$script,domain=cnews.ru
 @@||mover.uz/www/serving/adb.js|$script,domain=mover.uz
@@ -25025,7 +25036,7 @@ buildplayer.com,bxfilm.org,delivembed.cc,embedstorage.net,filmets.life,kinogo2.b
 @@||opel-omega.ru^*?adType=$script,domain=opel-omega.ru
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_$script,domain=kakoysegodnyaprazdnik.ru|netsofta.net|vseprosto.top|xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sochi.camera
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=3dsmaxvideo.ru|adult-images.ru|anitokyo.tv|anypictures.ru|archicadvideo.ru|autocadvideo.ru|bstudy.net|coreldrawvideo.ru|daz3d.ru|di.fm|draug.ru|electric-house.ru|electrotests.ru|excelvideo.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|helpsetup.ru|ikigaitest.com|img2txt.com|imgbum.ru|izi-invest.ru|kakoysegodnyaprazdnik.ru|kompasvideo.ru|mod-wot.ru|netsofta.net|nv.ua|olegon.ru|otzovik.com|ozlib.com|parnuxi.biz|photoshopvideo.ru|pixcloud.ru|radioromantika.ru|solidworksvideo.ru|stroi-help.ru|studbooks.net|studme.org|studref.com|studwood.ru|tarkov-market.com|tehnobzor.ru|tehnografi.com|test24.wweek.ru|tests24.su|testserver.pro|vargr.ru|videoredaktor.ru|vseprosto.top|vuzlit.ru|wallpapershome.ru|warhead.su|wordvideo.ru|xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai|xpicture.ru|xstud.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=3dsmaxvideo.ru|adult-images.ru|anitokyo.tv|anypictures.ru|archicadvideo.ru|autocadvideo.ru|bstudy.net|coreldrawvideo.ru|daz3d.ru|di.fm|draug.ru|electric-house.ru|electrotests.ru|excelvideo.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|ikigaitest.com|img2txt.com|imgbum.ru|izi-invest.ru|kakoysegodnyaprazdnik.ru|kompasvideo.ru|mod-wot.ru|netsofta.net|nv.ua|olegon.ru|otzovik.com|ozlib.com|parnuxi.biz|photoshopvideo.ru|pixcloud.ru|radioromantika.ru|solidworksvideo.ru|stroi-help.ru|studbooks.net|studme.org|studref.com|studwood.ru|tarkov-market.com|tehnobzor.ru|tehnografi.com|test24.wweek.ru|tests24.su|testserver.pro|vargr.ru|videoredaktor.ru|vseprosto.top|vuzlit.ru|wallpapershome.ru|warhead.su|wordvideo.ru|xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai|xpicture.ru|xstud.ru
 @@||patents.su/assets/themes/patents/js/main/$script,domain=patents.su
 @@||pb.wtf^$script,domain=pb.wtf
 @@||peers.tv/cnplayer/imasdk/$domain=peers.tv

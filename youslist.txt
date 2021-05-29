@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210527
+! Version: 20210528
 
 ! General element hiding rules
 ##amp-ad
@@ -4257,6 +4257,9 @@ luukku.com##iframe[src^="http://img.luukku.com/st/asset/luukku/partner/keskiosa.
 luukku.com##section.ad
 luukku.com##table.contentwrapper>tbody>tr>td.banner
 m-biz-chosun-com.cdn.ampproject.org##div.wrap_ad_inner
+m-clien-net.cdn.ampproject.org##div.list_bottom_ad
+m-clien-net.cdn.ampproject.org##div.list_center_ad
+m-clien-net.cdn.ampproject.org##div.view_top_ad
 m-mediatoday-co-kr.cdn.ampproject.org##section.amp_ad_box
 m-mk-co-kr.cdn.ampproject.org##div.new_ad
 m-nocutnews-co-kr.cdn.ampproject.org##div.v_ad
@@ -6072,6 +6075,7 @@ rottentomatoes.com##div#leaderboard_top_ad
 rottentomatoes.com##div#top_leaderboard_wrapper
 routefifty.com##div.advert-placeholder
 rp5.ru#@#ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])
+rubyguides.com##div.adunitwrapper
 ruliweb.com##div.ad
 ruliweb.com##div.adrr
 ruliweb.com##div.adrrr
@@ -7035,13 +7039,19 @@ zbn.donga.com##iframe[src^="/2015/banner/ad_real_"]
 zdnet.co.kr##div#main_right_Floating_banner
 zdnet.co.kr##div.ad
 zdnet.co.kr##div.ad_tag
+zdnet.co.kr##div.ad_tag_line
 zdnet.co.kr##div.ad_txt
+zdnet.co.kr##div.adbody
 zdnet.co.kr##div.bn_box
 zdnet.co.kr##div.con_bn_box
+zdnet.co.kr##div.cont_ad_box
 zdnet.co.kr##div.hide_bk
 zdnet.co.kr##div.hide_bt
+zdnet.co.kr##div.iwm_ba
 zdnet.co.kr##div.news_12
 zdnet.co.kr##div.power_center
+zdnet.co.kr##div.top_bn_zone
+zdnet.co.kr##div.view_ad_1
 zdnet.co.kr##div.zdnetkor-scroll>div[style="width:700px; height:20px; padding:10px 15px; background-color:#e9eef1; margin-bottom:30px;"]
 zdnet.co.kr##div[class^="right_bn"]
 zdnet.co.kr##iframe[src^="/ads/"]
