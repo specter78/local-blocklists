@@ -1,8 +1,8 @@
-! Checksum: gKxe4lAmQEEJSN633qug3g
+! Checksum: Qcr3BmXXP44fZ6hI7VIDNg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.25.10
-! TimeUpdated: 2021-05-28T15:31:44+00:00
+! Version: 2.0.25.11
+! TimeUpdated: 2021-05-29T18:31:25+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -19964,6 +19964,8 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! https://github.com/easylist/easylist/pull/7880
+@@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83427
 @@||oriflame.ru^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83956

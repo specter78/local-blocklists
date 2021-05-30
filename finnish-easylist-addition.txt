@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 27May2021v1
+! Version: 29May2021v2
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -371,7 +371,6 @@ mediuutiset.fi##div#skyscraper-height-div > div > aside > div > div > a[href^="h
 mediuutiset.fi##div#skyscraper-height-div > div > section > a[href^="/kumppanisisaltoa/"]
 mediuutiset.fi##div#skyscraper-height-div > section > a[href^="/kumppanisisaltoa/"]
 mediuutiset.fi#?#a[href^="https://studio.mediuutiset.fi/"]:-abp-contains(Kaupallinen yhteistyö)
-mediuutiset.fi#?#div#root > div > div > div > div > div > div:-abp-contains(Kaupallinen Yhteistyö)
 mesta.net##.gofollow
 metropoli.net###bs-text-listing-4-7.widget_bs-text-listing-4
 metropoli.net###menu-item-46797 > [href="https://www.metropoli.net/rahapelit/"]
@@ -429,6 +428,7 @@ muropaketti.com#?#article.grid__item_md-1-5.grid__item_1:-abp-contains(Mainos)
 mvlehti.net##.content-center.header-nav-ad
 mvlehti.net##.premium_container
 mvlehti.net##[href="https://www.cbdtukku.fi/"]
+mvlehti.net##[href="https://www.halvinlaina.fi/"]
 mvlehti.net#?#div[class="ad content-center"]:not(:-abp-has( > a[href^="https://vk.com/"]))
 nainen.com###text-3 > .textwidget
 nainen.com##[href="https://www.kasinokaverit.com/ilmaiskierroksia-nettikasinoilla/"]
@@ -466,6 +466,7 @@ pelit.fi##a[href="/artikkelit/lataa-hatch-ja-voita-google-pixel-puhelin/"]
 pelit.fi##a[href="/category/mainos/"]
 pkank.fi##.ad-assigned.panoraamabanneri
 poliisiuutiset.fi##div.polii-widget.gridhub-widget-box.widget.gridhub-side-widget
+polttoaine.net##[href="http://www.vertaa.fi/lentoliput/"]
 pt-media.org###main > .wpcnt > .wpa
 pt-media.org##.entry-content > .wpcnt
 pt-media.org##.theiaStickySidebar > .wpcnt
