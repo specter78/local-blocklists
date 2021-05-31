@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202105300537
+! Version: 202105310518
 ! Title: EasyPrivacy
-! Last modified: 30 May 2021 05:37 UTC
+! Last modified: 31 May 2021 05:18 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4951,6 +4951,7 @@
 /videojs-tracking.
 /videojs.ga.
 /videolog?vid=
+/videotracking-v3/*
 /VideoTracking.
 /videotracking/*
 /vidtrack.
@@ -9350,6 +9351,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unarmedindustry.com^$third-party
 ||unbecominghall.com^$third-party
 ||unequalbrake.com^$third-party
+||uninterestedquarter.com^$third-party
 ||unknowncrate.com^$third-party
 ||untidyrice.com^$third-party
 ||unwieldyhealth.com^$third-party
@@ -10595,6 +10597,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appspot.com/api/track/
 ||appspot.com/collect
 ||appspot.com/stats?
+||arc.io/widget.min.js
 ||arclk.net/trax?
 ||areyouahuman.com/kitten?
 ||argos.citruserve.com^
@@ -10762,6 +10765,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||caspionlog.appspot.com^
 ||cbsi.com/lib/api/client-info
 ||cbsistatic.com^*/siteTracking.js
+||cbsivideo.com/measurements/
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
@@ -11113,6 +11117,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||domodomain.com^*/ddsense.aspx?
+||doppler-reporting.cbsivideo.com^
 ||dotaudiences.com^$third-party
 ||doug1izaerwt3.cloudfront.net^
 ||dreamhost.com/*.cgi?$image,third-party
@@ -11219,6 +11224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/method/links.getstats?
+||facebook.com/tr/
 ||facebook.com/tr?
 ||fairfax.com.au/js/track/
 ||faphouse.com/api/collector/
@@ -11676,6 +11682,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mts.mansion.com^$third-party
 ||mtvnservices.com/aria/projectX/
 ||mtvnservices.com/aria/uuid.html
+||mtvnservices.com/measurements/
 ||mtvnservices.com/metrics/
 ||munchkin.marketo.net^
 ||murdoog.com^*/Pixel/$image
@@ -12217,6 +12224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tagcdn.com/pix/?
 ||tagger.opecloud.com^
 ||taggstar.com^*/taggstar.min.js
+||tags.catapultx.com^
 ||tags.cdn.circlesix.co^
 ||tags.clickagy.com^
 ||tags.creativille.co.uk^
@@ -14471,6 +14479,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.com^*/analytics.js
 ||go.pardot.com^
 ||go.theregister.com^$image
+||gofundme.com/track
 ||golfsmith.com/ci/
 ||google.*/api/sclk?
 ||google.*/gwt/x/ts?
@@ -16327,6 +16336,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||foodpanda.ro/lJuB4eTB/init.js
 ||foodpanda.sg/lJuB4eTB/init.js
 ||hotpads.com/xOR1K5b6/init.js
+||joann.com/qXTWmr91/init.js
 ||kerastase-usa.com^*/init.js
 ||kickstarter.com/Uy3R669N/init.js
 ||kiehls.com^*/init.js

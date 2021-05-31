@@ -1,8 +1,8 @@
-! Checksum: s+tsai6X0CVMsEXkP1Jvwg
+! Checksum: xmEL7iN3eFVbAEvmwrc7CA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.19.96
-! TimeUpdated: 2021-05-28T17:02:25+00:00
+! Version: 2.0.19.97
+! TimeUpdated: 2021-05-30T21:02:43+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -592,7 +592,7 @@
 ||ads.mobilefuse.net^
 ||ads.mobilityware.com^
 ||ads.mobvertising.net^
-||ads.mopub.com^
+||mopub.com^
 ||ads.n-ws.org^
 ||ads.ookla.com^
 ||ads.pdbarea.com^
@@ -916,7 +916,6 @@
 ||mookie1.com^
 ||morgdm.ru^
 ||mprezchc.com^
-||mpx.mopub.com^
 ||msads.net^
 ||mtburn.com^
 ||mtburn.jp^

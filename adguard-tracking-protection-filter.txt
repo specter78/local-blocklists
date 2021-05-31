@@ -1,8 +1,8 @@
-! Checksum: Qcr3BmXXP44fZ6hI7VIDNg
+! Checksum: HfZ06enqnmUou3amPOyVkQ
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.25.11
-! TimeUpdated: 2021-05-29T18:31:25+00:00
+! Version: 2.0.25.13
+! TimeUpdated: 2021-05-30T21:03:45+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -85,6 +85,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82132
 connect.de#%#//scriptlet("abort-on-property-read", "trConfig")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80625
+tweakers.net#%#//scriptlet('abort-on-property-write', 'webtrekkConfig')
 tweakers.net#%#//scriptlet('set-constant', 'tweakersConfig.wtConfig.scriptUrl', '')
 tweakers.net#%#//scriptlet('abort-current-inline-script', 'AbStats', 'trackId')
 tweakers.net#%#//scriptlet('abort-on-property-read', 'GlobalSnowplowNamespace')
@@ -19754,7 +19755,6 @@ $cookie=bf_visit
 ||analytics.ad.daum.net^
 ||analytics.liftoff.io^
 ||analytics.mobile.yandex.net^
-||analytics.mopub.com^
 ||analytics.query.yahoo.com^
 ||analyzer.omniata.com^
 ||andmlb.kshwtj.com^
@@ -19964,6 +19964,8 @@ $cookie=bf_visit
 ! https://github.com/AdguardTeam/CoreLibs/issues/1306
 ||rover.ebay.$image,object,script,badfilter
 !
+! Google CSE https://github.com/hirorpt/filters/commit/5ea26644361502274c7ed62031e2e222dea57755
+@@||googletagmanager.com/gtm.js$script,domain=carcareplus.jp|cinemacafe.net|cyclestyle.net|gamebusiness.jp|gamespark.jp|mycar-life.com|reanimal.jp|resemom.jp|response.jp
 ! https://github.com/easylist/easylist/pull/7880
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83427

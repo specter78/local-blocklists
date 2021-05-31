@@ -1,5 +1,5 @@
 [Adblock Plus 3.4]
-! Version: 29May2021v2
+! Version: 31May2021v3
 ! Title: Adblock List for Finland
 ! Description: Finnish adblock list
 ! Expires: 4 days
@@ -58,6 +58,7 @@ _mainosnappi.
 ###mainospaikka
 ###mainostila
 ###natiivit
+###parade-container
 ###sponsori
 ###sponsorit
 ###yhteistyokaruselli
@@ -165,7 +166,6 @@ auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##.box_dt
 auto1.fi,ilmainensanakirja.fi,nauris.fi,telsu.fi,testeri.fi##[href^="/clk"]
 autotalli.com###topBanner
 basso.fi##div[id^="BannerBlock"]
-bbs.io-tech.fi##[href^="https://www.io-tech.fi/"][href*=".php"]
 bittiraha.fi###cm-banner
 blogit.fi###pb_top
 bomber.fi###rt-sidebar-b
@@ -268,6 +268,7 @@ inssinosingot.fi##.block-mainos
 inssinosingot.fi##.button-mainos
 inssinosingot.fi##.footer-1.footer.footer-widgets
 inssinosingot.fi#?#div[class="row align-center"]:-abp-has([class$="lazy-load-active"])
+io-tech.fi##body > div > div > span
 irc-galleria.net##div[id^="open_"]
 is.fi###kumppaneiden-tarjoukset
 is.fi##.border-b.lg\:w-main-lane.bg-is-ad-blue.mb-16
@@ -344,6 +345,10 @@ ls24.fi##aside[class="sidebar"] > [class^="advertisement ad advertisement"] + [c
 ls24.fi##div[class^="advertisement"]
 ls24.fi#?#section[class="page-section page-section--no-main-article"]:-abp-contains(Kaupallinen yhteistyö)
 luukku.com###banneri_yla
+luukku.com##.banner.content
+m.facebook.com#?#article:-abp-has( > * header > * span:-abp-contains(Sponsoroitu))
+m.jaatama.fi##.c-box-space:not(.c-box)
+m.jaatama.fi##li:-abp-has(div[id|="div-gpt-ad"])
 maalampofoorumi.fi##div[id="sponsor"]
 maaseuduntulevaisuus.fi##.ads__native-tall-teaser
 maaseuduntulevaisuus.fi##.banners__suomen-parhaat
@@ -630,7 +635,6 @@ vuodatus.net###fb-root + div > div[style="background-color: #fff; margin: 0 auto
 vuokraovi.com##.advertising
 wizhdsports.fi##.widget_media_image
 www.io-tech.fi###text-7
-www.io-tech.fi##[href^="https://www.io-tech.fi/"][href*=".php"]
 www.suomi24.fi##.asp
 www.suomi24.fi##div[class^="Vaalikone__HeaderAdWrapper"]
 www.suomi24.fi#?#p:-abp-has(+ p + .asp)
@@ -868,3 +872,6 @@ tjareborg.fi#@#.push-container
 
 ! https://github.com/easylist/easylist/pull/7774
 timma.fi#@##cookieConsentModal
+
+! https://github.com/easylist/easylist/pull/7973
+##.advert
