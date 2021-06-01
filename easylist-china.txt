@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 50x58/GUUIg88rn265A2Qg
-! Version: 202105310643
+! Checksum: p5QaNnZp7FFYZDXuYvVKwQ
+! Version: 202106010653
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 31 May 2021 06:43 UTC
+! Last Modified: 01 Jun 2021 06:53 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -269,9 +269,6 @@
 /gaog/*
 /getAliyunAdv.
 /gg.php
-/gg4.
-/gg5.
-/gg6.
 /gg_d.php
 /gg_details_
 /gg_t.php
@@ -576,9 +573,6 @@ _xiuno_com_ad/
 |http://*/ad.*.js?v=*&sp=
 |http://*/ad.js?sn=
 |http://*/ad.js?v=$domain=~mgc.qq.com
-|http://*/gg1.
-|http://*/gg2.
-|http://*/gg3.
 |http://*/js/ad.$domain=~coolpc.com.tw|~sac.net.cn
 |http://*/js/ad/
 |http://*/js/tc.js
@@ -1235,7 +1229,6 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||ylfgybn.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/d/*-*-*.ap|$script,third-party
@@ -3528,6 +3521,7 @@ ubmcmm.baidustatic.com
 ||yiwad.com^$third-party
 ||yixige.com^$third-party
 ||yixui.com^
+||ylfgybn.cn^
 ||ylflwbj.cn^
 ||ylzx.net^$third-party
 ||ymcqb.com^
@@ -9599,6 +9593,7 @@ jiaodong.net###leftBanner
 cs.com.cn,qinbing.cn,sonimei.cn###leftDiv
 duba.com###leftHot
 51credit.com###leftLayerDown
+2345.com###leftPacketMain
 ccb.com.cn###leftSideAd
 2345.com###leftSideBar
 kuai8.com###left_Ad
@@ -9712,6 +9707,7 @@ fanqiangzhe.com###news-include + .text-center
 chinaqking.com###newsAD
 hexun.com###newsPopWin
 ilxdh.com###nice-banner0
+subaibai.com###note
 live.win007.com###notify > a[target="_blank"]
 05sun.com###nowDown1
 qq.com###nqsnqsad02
@@ -16507,6 +16503,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||aimiyz.com^
 ||aimto.cn^
 ||aishake.cn^
+||aitehao.top^
 ||aitxt.com/bot-
 ||aitxt.com/js/ai.js
 ||aitxt.com/m_float.js
@@ -17801,6 +17798,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||szqipin.cn^
 ||szwzjk.cn^
 ||szyuke.cn^
+||t1g2.cn^
 ||t3s9j.xyz^
 ||tabwl.com^
 ||tabyee.cn^
