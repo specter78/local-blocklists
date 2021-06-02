@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 0AoS8rLuB4VWgQVOGCIaFA
-! Version: 202106010653
+! Checksum: rz1k6g6Mj/nCkxoDf/+gzw
+! Version: 202106020653
 ! Title: EasyList Dutch
 ! Description: Dutch supplement for the Easylist filters
-! Last modified: 01 Jun 2021 06:53 UTC
+! Last modified: 02 Jun 2021 06:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -335,6 +335,9 @@ spele.nl##.brioche.skycraper.banner
 spele.nl##.broa.leaderboard.banner
 gic.nl##.btn-adverteren
 tijd.be##.c-sitenavPlaceholder__ad
+hartvannederland.nl##.c01387
+hartvannederland.nl##.c01557
+hartvannederland.nl##.c01558
 rd.nl##.codalt-container
 tvgids.tv##.col-left
 tvgids.tv##.col-right

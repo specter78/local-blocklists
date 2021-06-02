@@ -1,8 +1,8 @@
-! Checksum: ZFG1IBkDvu0tg6R1El7e2w
+! Checksum: pV1LFg+2vlA8lqDBarR42A
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.20.0
-! TimeUpdated: 2021-05-31T14:30:25+00:00
+! Version: 2.0.20.6
+! TimeUpdated: 2021-06-01T18:30:23+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -211,6 +211,7 @@
 .ad.kakaocorp.com^$important
 .ad.kakao.com^$important
 !
+||tradplusad.com^
 ||ad-channel.wikawika.xyz^
 ||media-router-flurry*.yahoo.com^
 ||cads.scalemonk.com^
@@ -2263,6 +2264,11 @@ o2.pl,onet.pl,whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+medicalnewstoday.com##.css-pdceuf
+medicalnewstoday.com##.css-20w1gi
+medicalnewstoday.com##.css-1sh726
+m.aksam.com.tr##div[style="height:130px;"]:not([class]):not([id])
+foreca.com##.a1i32s5g
 fayerwayer.com##.bodyContent > div[style="min-height:400px"]
 news18.com##div[style^="min-height:260px;background: #dbdde3!Important;"]
 toonsarang.buzz##.banner_m
@@ -2301,6 +2307,8 @@ m.youtube.com##.ytp-cued-thumbnail-overlay > div[style*="/sddefault.jpg"]
 finanswebde.com##.app__content > div[style*="height:250px;text-align:center"]
 zaufanatrzeciastrona.pl##.post-page-head-area > .post-author ~ a[target="_blank"]:not([href*="zaufanatrzeciastrona.pl"]) > img
 fandom.com##.ad-slot-placeholder
+filmix.ac,filmix.tech,filmix.zone###branding_zone
+filmix.ac,filmix.tech,filmix.zone###information > div[style="height:200px!important;overflow:hidden"]
 estadao.com.br##.pAd-mold
 estadao.com.br##.pAd-banner
 mag2.com##.page_bottom_fixed_ad_wap
@@ -3179,7 +3187,6 @@ game8.vn##.row > div[class] a[target="_blank"] > img
 geeksokuhou.net##a[href^="https://link-a.net/gate.php"]
 geeksokuhou.net##section#text-28
 prohockeyrumors.com,hoopsrumors.com,profootballrumors.com,mlbtraderumors.com###gweinifooterAdSpace
-m.eprice.com.hk##div[class^="ad-"]
 m.eprice.com.hk###popup-ad-overlay
 bankier.pl##html[amp-version] .smart-box
 bankier.pl##html[amp-version] .smart-form
@@ -3218,7 +3225,7 @@ m.delfi.lt##.mosaic > span > img
 tvtropes.org##.proper-ad-unit
 hclips.com##.rek
 hclips.com##.rek-link
-m.eprice.com.tw##div[class^="ad-"]
+gry-online.pl,m.eprice.com.hk,m.eprice.com.tw##div[class^="ad-"]
 /banner/*$domain=travel-star.jp
 yesiltopuklar.com##.home-adbox-for-m
 yesiltopuklar.com##div[class^="mobil-header-banner"]
@@ -4287,6 +4294,10 @@ livejournal.com##.mdspost-aside__item--banner
 ! Blocking Facebook mobile ads
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/83681
+||open.play.cn/api/*/show_advs.json
+||open.play.cn/api/*/show_advt.json
+||open.play.cn/api/*/load_advert.json
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84074
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83378
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79173
