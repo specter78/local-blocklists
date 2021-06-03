@@ -1,8 +1,8 @@
-! Checksum: pV1LFg+2vlA8lqDBarR42A
+! Checksum: 4pRxWXSSe/eQwob8GixNIA
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.20.6
-! TimeUpdated: 2021-06-01T18:30:23+00:00
+! Version: 2.0.20.12
+! TimeUpdated: 2021-06-02T18:30:22+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -173,6 +173,7 @@
 ||criteo.net^
 !
 ||appodeal.com^
+||a.320981a9244924ef86ebdbb9eb877e9f21ce83f1e3cc89b2c5e7c3ff.com^
 ||a.76674bdad304297eda3d325f449f6f49.com^
 !
 ||banner.hpmdnetwork.ru^
@@ -208,9 +209,11 @@
 !
 ! com.kakao.talk
 ||adcr.naver.com^
-.ad.kakaocorp.com^$important
-.ad.kakao.com^$important
+.ad.kakaocorp.com^
+.ad.kakao.com^
 !
+||tapjoy.com^
+||tapjoy.net^
 ||tradplusad.com^
 ||ad-channel.wikawika.xyz^
 ||media-router-flurry*.yahoo.com^
@@ -2264,6 +2267,11 @@ o2.pl,onet.pl,whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl
 ! ##.inline-ad-container
 theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 !
+girlschannel.net##.topic-items > div[style="height:93px;"]
+hoiclue.jp##.ad-SP
+fontanka.ru##.JFev
+fontanka.ru##.FXut
+turbopages.org##.turbo-advert
 medicalnewstoday.com##.css-pdceuf
 medicalnewstoday.com##.css-20w1gi
 medicalnewstoday.com##.css-1sh726
@@ -3794,7 +3802,6 @@ youjizz.com###mobileRollAd
 gotgayporn.com##small:not([class]):not([id]):not([style])
 m.sovsport.ru##.fonbet_match_centre
 wz.de##.adLine_separator
-shiftdelete.net##iframe[src*="/getAd?"]
 m.befuck.com##a[href^="http://nats.beataporn.com"]
 m.turizmajansi.com###ContentPlaceHolder1_uc_banner_main_top_AdRotator_a1
 gotporn.com##.advertisement
@@ -3827,9 +3834,6 @@ fuckler.com##.container-fluid > div[class="page-header text-center"]
 m.gazetevatan.com##a.Teaser[href^="http://secure.milliyet.com.tr/redirect/Default.aspx"][target="_blank"]
 gesundheitsfrage.net##.AdSticky
 m.iceporn.com##.main > .introduction
-shiftdelete.net##.top_banner_ad
-shiftdelete.net##[class^="big_banner"]
-shiftdelete.net##.mobile_ad_content
 m.rund-ums-baby.de##[class="ta"][style="margin:0 0 5% 0;"]
 m.rund-ums-baby.de##[class="ta"][style="margin:0 0 10% 0;"]
 m.rund-ums-baby.de##p[style="font-size:10px; color:#8d8d8d; margin-bottom:10px; padding:0px 15px 0px 0px"]
