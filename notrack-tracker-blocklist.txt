@@ -4,9 +4,9 @@
 # License: GNU General Public License v3.0
 # Home: https://quidsup.net/notrack/blocklist.php
 # @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-# Updated: 26 May 2021
+# Updated: 03 Jun 2021
 #LatestVersion 21.03
-# Domain Count: 15009
+# Domain Count: 15022
 #===============================================================
 
 1-cl0ud.com #Lead Forensics - Tracker
@@ -229,6 +229,7 @@ ads-d.viber.com #Viber - Advertising
 ads.asccommunications.com #Asccommunications.Com - Advertising
 ads.aws.viber.com #Viber - Advertising
 ads.bid #PushProfit - Advertising
+ads.brandadvance.co.uk #brandadvance.co.uk - Advertising
 ads.brave.com #Brave.Com - Advertising
 ads.cdn.viber.com #Viber - Advertising
 ads.chaturbate.com #Chaturbate - Advertising
@@ -383,6 +384,7 @@ amptrack.dailymail.co.uk #Google Amp - Tracker
 amptrack.thisismoney.co.uk #Google Amp - Tracker
 analysing.email #Altaire - Tracker
 analytics-api.dvdfab.cn #dvdfab.cn - Tracker
+analytics-api.samsunghealthcn.com #Samsung - Tracker
 analytics-cdn.sykescottages.co.uk #Sykescottages.Co.Uk - Tracker
 analytics-egain.com #eGain - Tracker
 analytics-static.ugc.bazaarvoice.com #BazaarVoice - Tracker
@@ -456,6 +458,7 @@ analytics.mlstatic.com #MercadoLibre - Tracker
 analytics.mobile.walmart.com #Walmart.Com - Tracker
 analytics.motionarray.com #Motionarray.com - Tracker
 analytics.move.ru #Move.Ru - Tracker
+analytics.ngs.ru #ngs.ru - Tracker
 analytics.nike.com #Nike.Com - Tracker
 analytics.ninjakiwi.com #ninjakiwi.com - Tracker
 analytics.ovh.com #Ovh.Com - Tracker
@@ -473,6 +476,7 @@ analytics.routemehome.org #routemehome.org - Tracker
 analytics.samsungknox.com #Samsung - Tracker
 analytics.sapo.pt #PT Telecomunicacoes - Tracker
 analytics.schoolwires.com #schoolwires.com - Tracker
+analytics.sem-track.com #sem-track.com - Tracker
 analytics.slashdotmedia.com #Slash dot - Tracker
 analytics.sleeknote.com #Sleek Note - Tracker
 analytics.snidigital.com #Snidigital.Com - Tracker
@@ -547,6 +551,7 @@ appnexus.net #AppNexus Inc - Tracker
 appnexuscloud.com #AppNexus Inc - Tracker
 appsflyer.com #AppsFlyer - Tracker
 appsmonitoring.com #AppDynamics - Tracker
+appstat.petafuel.net #VimPay - Tracker
 apptimize.com #Apptimize - Tracker
 apptracker.gamedock.io #Gamedock.io - Tracker
 appuniverseapplication.com #Unknown - Tracker
@@ -818,6 +823,7 @@ clicktale.net #Clicktale - Tracker
 clicktracks.com #Aurea - Advertising
 clicktripz.com #Clicktripz - Advertising
 client-event-reporter.twitch.tv #Twitch - Tracker
+client-telemetry.roblox.com #Roblox.com - Tracker
 clientsend.com #Campaign Monitor Pty - Tracker
 clinch.co #Clinch - Tracker
 clixgalore.com #ClixGalore - Tracker
@@ -830,6 +836,7 @@ clkmon.com #RevenueHits - Tracker
 clkpback3.com #RevenueHits - Tracker
 clkrev.com #RevenueHits - Tracker
 clksite.com #RevenueHits - Tracker
+clksite.com #Unknown - Advertising
 closealert.com #CloseAlert - Tracker
 cluodlfare.com #Unknown - Tracker
 cm.gy #ClickMeter - Tracker
@@ -920,6 +927,7 @@ cqcounter.com #Unknown - Tracker
 cquotient.com #Unknown - Tracker
 crashdump.spotify.com #Spotify - Tracker
 crashlytics.com #Crashlytics - Tracker
+crashlyticsreports-pa.googleapis.com #Firebase Crashlytics - Tracker
 crazyegg.com #Crazy Egg - Tracker
 crealytics.com #Crealytics - Tracker
 createsend.click #Campaign Monitor Pty - Tracker
@@ -1323,7 +1331,6 @@ ghostery.com #Ghostery - Tracker
 gigaonclick.com #Unknown - Advertising
 girlbuffalo.com #cloud-dns-tech - Advertising
 gixioanalytics.com #Unknown - Tracker
-gleam.io #Gleam - Tracker
 glimr.io #glimr.io - Tracker
 glispa.com #Glispa - Tracker
 globalemedia.net #Globale media - Advertising
@@ -1497,6 +1504,7 @@ inskinad.com #Inskinad - Advertising
 inskinmedia.com #Inskinad - Advertising
 insnw.net #instartlogic - Tracker
 inspectlet.com #Inspectlet - Tracker
+instabug.com #Instabug - Tracker
 instana.io #Instana - Tracker
 instartlogic.com #instartlogic - Tracker
 instinctiveads.com #Instinctive - Advertising
@@ -13038,6 +13046,7 @@ piwikpro.com #Piwik PRO - Tracker
 pixanalytics.pixnet.net #pixnet.net - Tracker
 pixanalytics2.pixnet.net #pixnet.net - Tracker
 pixel-static.spotify.com #Spotify - Tracker
+pixel.ad #Rubicon - Tracker
 pixel.bild.de #bild.de - Tracker
 pixel.ex.co #Ex.Co - Tracker
 pixel.facebook.com #Facebook - Tracker
@@ -13457,7 +13466,7 @@ siteimprove.net #Siteimprove - Tracker
 siteimproveanalytics.com #Siteimprove - Tracker
 siteimproveanalytics.io #Siteimprove - Tracker
 sitescout.com #Rubicon - Tracker
-sitescoutadserver.com #Unknown - Advertising
+sitescoutadserver.com #Rubicon - Advertising
 sitestat.com #comScore - Tracker
 sitestat.info #comScore - Tracker
 sitestat.net #comScore - Tracker
@@ -14409,6 +14418,7 @@ stats.kaltura.com #Kaltura - Tracker
 stats.kollective.app #Kollective.app - Tracker
 stats.ksearchnet.com #ksearchnet.com - Tracker
 stats.merriam-webster.com #Merriam Webster - Tracker
+stats.mos.ru #mos.ru - Tracker
 stats.newsweek.com #Newsweek.Com - Tracker
 stats.nextcloud.com #Nextcloud.Com - Tracker
 stats.paypal.com #PayPal - Tracker
@@ -14419,6 +14429,7 @@ stats.rs-online.com #RS - Tracker
 stats.ryzeo.com #Ryzeo - Tracker
 stats.searchanise.com #Searchanise.Com - Tracker
 stats.shell-tips.com #shell-tips.com - Tracker
+stats.thomasvitale.com #thomasvitale.com - Tracker
 stats.ttit.de #ttit.de - Tracker
 stats.unity3d.com #Unity3d.Com - Tracker
 stats.vashurok.ru #Vashurok.Ru - Tracker
@@ -14598,6 +14609,7 @@ topdealalert.eu #wrldtrck.com spam - Advertising
 topkortingcentrale.eu #wrldtrck.com spam - Advertising
 topperactie.eu #wrldtrck.com spam - Advertising
 totaalvoordelig.eu #wrldtrck.com spam - Advertising
+totentacruelor.com #Unknown - Advertising
 touchcommerce.com #Touch Commerce - Tracker
 touchstoneresearch.com #Touchstone Research - Tracker
 tp88trk.com #Tapjoy - Tracker
@@ -14724,6 +14736,7 @@ trychameleon.com #Chameleon - Tracker
 tsyndicate.com #Unknown - Advertising
 ttauri.tomshardware.com #Tomshardware - Tracker
 ttgtmedia.com #Tech Target - Tracker
+ttnrd.com #Unknown - Advertising
 ttxm.co.uk #Unknown - Tracker
 tubemogul.com #Unknown - Tracker
 tumri.net #Unknown - Tracker
