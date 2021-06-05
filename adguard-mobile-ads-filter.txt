@@ -1,8 +1,8 @@
-! Checksum: CNGfbUs6c0N41LwzWY4L1Q
+! Checksum: DD95wLnfhus8KgOB457iLQ
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.20.14
-! TimeUpdated: 2021-06-03T17:30:24+00:00
+! Version: 2.0.20.15
+! TimeUpdated: 2021-06-04T10:30:23+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -4301,6 +4301,7 @@ livejournal.com##.mdspost-aside__item--banner
 ! Blocking Facebook mobile ads
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/84216
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83681
 ||open.play.cn/api/*/show_advs.json
 ||open.play.cn/api/*/show_advt.json
